@@ -4,8 +4,8 @@ import json
 
 import pandas as pd
 
-from kaburadar.notifications import line
-from kaburadar.notifications.summary import format_top_symbols
+from kaburadar3.notifications import line
+from kaburadar3.notifications.summary import format_top_symbols
 
 
 def test_format_top_symbols(tmp_path) -> None:
@@ -16,7 +16,7 @@ def test_format_top_symbols(tmp_path) -> None:
         ]
     )
     csv_path = tmp_path / "Y0_PF1.0_W1L0_rate50.0_all8000.csv"
-    from kaburadar.settings.encoding import CSV_ENCODING
+    from kaburadar3.settings.encoding import CSV_ENCODING
 
     df.to_csv(csv_path, encoding=CSV_ENCODING, index=False)
 

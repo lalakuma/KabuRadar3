@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
-from kaburadar.settings.encoding import CSV_ENCODING, read_csv
+from kaburadar3.settings.encoding import CSV_ENCODING, read_csv
 
 
 def test_csv_encoding_is_utf8_bom() -> None:

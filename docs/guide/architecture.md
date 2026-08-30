@@ -52,7 +52,7 @@ flowchart TB
 ## パッケージ構成（機能ブロック）
 
 ```
-src/kaburadar/
+src/kaburadar3/
 ├── settings/              # パス定数・INI 読み込み・SCREENING キー
 │   ├── paths.py
 │   ├── loader.py

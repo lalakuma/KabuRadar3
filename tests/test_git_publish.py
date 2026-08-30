@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from kaburadar.settings import git_publish
+from kaburadar3.settings import git_publish
 
 
 def test_resolve_publish_branch_explicit(monkeypatch) -> None:

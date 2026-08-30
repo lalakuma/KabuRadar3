@@ -11,4 +11,5 @@ mplfinance
 mplcursors
 websocket-client
 python-dotenv
+google-genai
 pytest

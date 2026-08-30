@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-from kaburadar.settings.runtime import RuntimeConfig, load_runtime_config
+from kaburadar3.settings.runtime import RuntimeConfig, load_runtime_config
 
 
 def test_load_runtime_defaults(tmp_path: Path) -> None:

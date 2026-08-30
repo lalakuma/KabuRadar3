@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from kaburadar.pipeline.analyze import (
+from kaburadar3.pipeline.analyze import (
     AnalyzeStats,
     EXIT_NO_OUTPUT,
     EXIT_NO_SUMMARY,

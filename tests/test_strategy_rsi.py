@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
-from kaburadar.domain.constants import MODE_BUY, MODE_SELL
-from kaburadar.strategy import rsi
+from kaburadar3.domain.constants import MODE_BUY, MODE_SELL
+from kaburadar3.strategy import rsi
 
 
 def _sample_ohlc(n: int = 30) -> pd.DataFrame:

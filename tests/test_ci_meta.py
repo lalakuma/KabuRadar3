@@ -1,12 +1,12 @@
 from __future__ import annotations
 
-from kaburadar.publishing.ci_meta import build_run_meta, pages_public_url, workflow_run_url
+from kaburadar3.publishing.ci_meta import build_run_meta, pages_public_url, workflow_run_url
 
 
 def test_pages_url_from_repository(monkeypatch) -> None:
     monkeypatch.delenv("KABURADAR_PAGES_URL", raising=False)
-    monkeypatch.setenv("GITHUB_REPOSITORY", "lalakuma/KabuRadar2")
-    assert pages_public_url() == "https://lalakuma.github.io/KabuRadar2"
+    monkeypatch.setenv("GITHUB_REPOSITORY", "lalakuma/KabuRadar3")
+    assert pages_public_url() == "https://lalakuma.github.io/KabuRadar3"
 
 
 def test_pages_url_explicit(monkeypatch) -> None:
@@ -24,7 +24,7 @@ def test_workflow_run_url(monkeypatch) -> None:
 def test_build_run_meta_on_actions(monkeypatch) -> None:
     monkeypatch.setenv("GITHUB_ACTIONS", "true")
     monkeypatch.setenv("GITHUB_EVENT_NAME", "schedule")
-    monkeypatch.setenv("GITHUB_REPOSITORY", "lalakuma/KabuRadar2")
+    monkeypatch.setenv("GITHUB_REPOSITORY", "lalakuma/KabuRadar3")
     monkeypatch.setenv("GITHUB_RUN_ID", "1")
     meta = build_run_meta()
     assert meta["source"] == "github-actions"

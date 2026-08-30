@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from kaburadar.settings.encoding import CSV_ENCODING
-from kaburadar.signals.today import collect_today_signals
+from kaburadar3.settings.encoding import CSV_ENCODING
+from kaburadar3.signals.today import collect_today_signals
 
 
 def _write_code_csv(path: Path, code: str, rows: list[tuple[str, str, float]]) -> None:

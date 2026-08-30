@@ -13,7 +13,7 @@ Python 本体は Windows と同じです。ランチャーだけ `bat/` の代�
 
 ```bash
 git clone <repository-url>
-cd KabuRadar2
+cd KabuRadar3
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -64,13 +64,13 @@ make analyze-publish
 平日 15:30 に株価更新:
 
 ```cron
-30 15 * * 1-5 cd /path/to/KabuRadar2 && /path/to/.venv/bin/bash sh/update_prices.sh --menu 1 >> output/logs/cron.log 2>&1
+30 15 * * 1-5 cd /path/to/KabuRadar3 && /path/to/.venv/bin/bash sh/update_prices.sh --menu 1 >> output/logs/cron.log 2>&1
 ```
 
 解析 + 公開（時間は環境に合わせて調整）:
 
 ```cron
-0 16 * * 1-5 cd /path/to/KabuRadar2 && bash sh/screening.sh && bash sh/publish.sh --push
+0 16 * * 1-5 cd /path/to/KabuRadar3 && bash sh/screening.sh && bash sh/publish.sh --push
 ```
 
 ## Windows との違い

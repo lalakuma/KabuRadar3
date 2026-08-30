@@ -4,8 +4,8 @@ from pathlib import Path
 
 import pytest
 
-from kaburadar.config import CONFIG_HI, CONFIG_LO, PROJECT_ROOT, read_config, resolve_path_value
-from kaburadar.settings import screening as conf
+from kaburadar3.config import CONFIG_HI, CONFIG_LO, PROJECT_ROOT, read_config, resolve_path_value
+from kaburadar3.settings import screening as conf
 
 
 def test_config_lo_exists() -> None:

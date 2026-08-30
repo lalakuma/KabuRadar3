@@ -11,7 +11,7 @@
 
 ```bat
 git clone <repository-url>
-cd KabuRadar2
+cd KabuRadar3
 ```
 
 ## 2. Python 環境

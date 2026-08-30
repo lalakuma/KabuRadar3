@@ -5,9 +5,9 @@ from pathlib import Path
 
 import pytest
 
-from kaburadar.data import repository as db
-from kaburadar.strategy import engine as bktst
-from kaburadar.strategy.models import KabInf
+from kaburadar3.data import repository as db
+from kaburadar3.strategy import engine as bktst
+from kaburadar3.strategy.models import KabInf
 
 
 @pytest.fixture

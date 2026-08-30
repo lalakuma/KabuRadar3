@@ -1,6 +1,6 @@
 # 無料クラウド実行（GitHub Actions）— 本番運用
 
-**KabuRadar2 の本番はクラウド専用**です。株価収集・DB 更新・解析・Web 公開まで、すべて GitHub Actions 上で完結します。
+**KabuRadar3 の本番はクラウド専用**です。株価収集・DB 更新・解析・Web 公開まで、すべて GitHub Actions 上で完結します。
 
 **条件: 無料** — 公開リポジトリなら Actions / Pages / LFS の無料枠内で運用可能です。
 
@@ -24,9 +24,9 @@
 
 | やること | 頻度 |
 |----------|------|
-| **Web で結果を見る** | 毎日 · https://lalakuma.github.io/KabuRadar2/ （**今日**タブに買い/返売り） |
+| **Web で結果を見る** | 毎日 · https://lalakuma.github.io/KabuRadar3/ （**今日**タブに買い/返売り） |
 | **手動実行** | Actions → Run workflow（`job`: full / analyze / publish） |
-| **運用設定** | [runtime.json を編集](https://github.com/lalakuma/KabuRadar2/edit/master/config/runtime.json) |
+| **運用設定** | [runtime.json を編集](https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json) |
 | **LINE でサマリー** | Secrets 設定後 · 解析成功のたび自動 |
 | Actions 成功確認 | 初回のみ / 障害時 |
 | 手動再実行 | 必要時 → Actions → Run workflow |
@@ -54,7 +54,7 @@
 
 1. **Actions** → **Daily screening (cloud)** → **Run workflow**
 2. 成功（緑）まで待つ（10〜30 分程度）
-3. https://lalakuma.github.io/KabuRadar2/ を開き、更新日時が変わっているか確認
+3. https://lalakuma.github.io/KabuRadar3/ を開き、更新日時が変わっているか確認
 
 DB はすでに Git LFS でリポジトリに含まれています。
 
@@ -82,6 +82,16 @@ DB はすでに Git LFS でリポジトリに含まれています。
 
 ### Secrets の登録
 
+| Secret | 用途 |
+|--------|------|
+| `LINE_CHANNEL_ACCESS_TOKEN` | LINE Messaging API |
+| `LINE_USER_IDS` | 送信先（カンマ区切り） |
+| `GEMINI_API_KEY` | シグナル銘柄の ★1-5 評価（任意） |
+
+Gemini は [Google AI Studio](https://aistudio.google.com/apikey) で API キーを発行し、**Settings → Secrets → Actions** に `GEMINI_API_KEY` として登録します。未設定時は解析・Web 公開は動作し、AI 評価のみスキップされます。
+
+### LINE Secrets（従来）
+
 **既存 KabuRadar (v1) を使っている場合** — `software/src/line.py` と同じトークン・ユーザー ID を移植できます:
 
 ```bash
@@ -108,8 +118,8 @@ PF 2.993 · 勝率 78.1% (57勝16敗) · 損益 +319,100
 — 損益上位 —
 9024 西武ホールディングス ¥44,000 (W1L0)
 …
-Web: https://lalakuma.github.io/KabuRadar2/
-Log: https://github.com/lalakuma/KabuRadar2/actions/runs/…
+Web: https://lalakuma.github.io/KabuRadar3/
+Log: https://github.com/lalakuma/KabuRadar3/actions/runs/…
 ```
 
 - 平日のみ送信（土日はスキップ）
@@ -132,7 +142,7 @@ Log: https://github.com/lalakuma/KabuRadar2/actions/runs/…
 ```bash
 git lfs install
 git clone <url>
-cd KabuRadar2
+cd KabuRadar3
 git lfs pull
 ```
 

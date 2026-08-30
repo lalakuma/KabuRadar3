@@ -10,7 +10,7 @@
 |------|------|
 | **初回** | Actions で **Daily screening (cloud)** を Run workflow |
 | **平日** | 何もしない（**9:00 HI / 10:00 LO / 16:00 LO** JST 目標で自動実行） |
-| **確認** | https://lalakuma.github.io/KabuRadar2/ |
+| **確認** | https://lalakuma.github.io/KabuRadar3/ |
 | **設定変更** | `config/config_lo.ini` を編集 → commit & push |
 
 ## 自動処理の内容（Actions）
@@ -46,7 +46,7 @@ GitHub → **Actions** → **Daily screening (cloud)** → **Run workflow**
 
 ## ローカルを止めるチェックリスト
 
-- [ ] タスクスケジューラの `KabuRadar2` タスクを **無効化または削除**
+- [ ] タスクスケジューラの `KabuRadar3` タスクを **無効化または削除**
 - [ ] 平日の `screening.bat` 実行を止める
 - [ ] GitHub **Actions** が緑（成功）になることを一度確認
 

@@ -9,4 +9,4 @@
 
 ドキュメントの入口: **[guide/README.md](guide/README.md)**
 
-公開サイト: https://lalakuma.github.io/KabuRadar2/
+公開サイト: https://lalakuma.github.io/KabuRadar3/

@@ -1,6 +1,6 @@
 const fmt = new Intl.NumberFormat("ja-JP");
 const ACTIONS_BASE =
-  "https://github.com/lalakuma/KabuRadar2/actions/workflows/daily-screening.yml";
+  "https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml";
 
 function formatIncome(n) {
   const sign = n > 0 ? "+" : "";
@@ -19,6 +19,11 @@ function escapeHtml(text) {
   return d.innerHTML;
 }
 
+function starsLabel(n) {
+  const v = Math.max(1, Math.min(5, Number(n) || 3));
+  return "★".repeat(v) + "☆".repeat(5 - v);
+}
+
 function renderSignalRows(container, rows, emptyText) {
   if (!rows?.length) {
     container.innerHTML = `<li class="signal-empty">${escapeHtml(emptyText)}</li>`;
@@ -32,11 +37,29 @@ function renderSignalRows(container, rows, emptyText) {
         row.pnl != null
           ? `<span class="signal-pnl ${incomeClass(row.pnl)}">${formatIncome(row.pnl)}</span>`
           : "";
+      const flags = [];
+      if (row.rsi_ok) flags.push("RSI ✓");
+      if (row.rci_ok) flags.push("RCI V ✓");
+      const flagHtml = flags.length
+        ? `<span class="signal-flags">${flags.map(escapeHtml).join(" · ")}</span>`
+        : "";
+      const q = row.quality;
+      const qualityHtml = q
+        ? `<span class="signal-quality" title="${escapeHtml(q.background || "")}">${starsLabel(q.stars)}</span>`
+        : "";
+      const bg = q?.background
+        ? `<p class="signal-bg">${escapeHtml(q.background)}</p>`
+        : "";
       return `<li class="signal-item">
-        <span class="code">${escapeHtml(row.code)}</span>
-        <span class="name">${escapeHtml(row.name)}</span>
-        ${close}
-        ${pnl}
+        <div class="signal-head">
+          <span class="code">${escapeHtml(row.code)}</span>
+          <span class="name">${escapeHtml(row.name)}</span>
+          ${qualityHtml}
+          ${close}
+          ${pnl}
+        </div>
+        ${flagHtml}
+        ${bg}
       </li>`;
     })
     .join("");
@@ -154,11 +177,14 @@ function renderRuntimeSettings(runtime) {
   }
   const sb = runtime.special_buy;
   const nt = runtime.notify || {};
+  const gr = runtime.gemini_rating || {};
   const rows = [
     ["特別買い", sb.enabled ? "ON" : "OFF"],
     ["新買しきい値", `${sb.min_new_buy_count} 件以上`],
     ["既定 ETF", sb.etf_default],
     ["利確 RSI", `≥ ${sb.exit_rsi}`],
+    ["Gemini 評価", gr.enabled ? "ON" : "OFF"],
+    ["Gemini モデル", gr.model || "—"],
     ["LINE: 今日の買い", nt.today_buy ? "ON" : "OFF"],
     ["LINE: 返売り", nt.today_sellback ? "ON" : "OFF"],
     ["LINE: 特別買い", nt.special_buy_on ? "ON" : "OFF"],
@@ -249,7 +275,7 @@ function setupControls(controls) {
   const actionsUrl = controls?.actions_run_url || ACTIONS_BASE;
   const editUrl =
     controls?.runtime_edit_url ||
-    "https://github.com/lalakuma/KabuRadar2/edit/master/config/runtime.json";
+    "https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json";
   document.getElementById("link-actions").href = actionsUrl;
   document.getElementById("btn-run-full").href = actionsUrl;
   document.getElementById("btn-run-publish").href = actionsUrl;
@@ -319,7 +345,7 @@ async function init() {
   const paidNote = document.getElementById("paid-note");
   paidNote.hidden = false;
   paidNote.textContent =
-    "無料枠: GitHub Actions / Pages / LINE は個人運用で通常無料。サイト内からの直接実行 API（Cloudflare Workers 等）は未導入です。";
+    "無料枠: GitHub Actions / Pages / LINE は個人運用で通常無料。Gemini 評価は API キー設定時のみ（参考情報・投資判断は自己責任）。";
 
   renderSummary(data.summary);
   let symbols = data.symbols || [];

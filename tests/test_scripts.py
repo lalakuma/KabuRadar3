@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from kaburadar.settings.paths import PROJECT_ROOT
-from kaburadar.settings.scripts import script_extension, script_path, scripts_dir
+from kaburadar3.settings.paths import PROJECT_ROOT
+from kaburadar3.settings.scripts import script_extension, script_path, scripts_dir
 
 EXPECTED = (
     "analyze",
@@ -26,14 +26,14 @@ def test_linux_shell_scripts_exist() -> None:
 
 
 def test_script_path_uses_sh_on_non_windows(monkeypatch) -> None:
-    monkeypatch.setattr("kaburadar.settings.scripts.platform.system", lambda: "Linux")
+    monkeypatch.setattr("kaburadar3.settings.scripts.platform.system", lambda: "Linux")
     assert script_extension() == ".sh"
     assert scripts_dir() == PROJECT_ROOT / "sh"
     assert script_path("screening").name == "screening.sh"
 
 
 def test_script_path_uses_bat_on_windows(monkeypatch) -> None:
-    monkeypatch.setattr("kaburadar.settings.scripts.platform.system", lambda: "Windows")
+    monkeypatch.setattr("kaburadar3.settings.scripts.platform.system", lambda: "Windows")
     assert script_extension() == ".bat"
     assert scripts_dir() == PROJECT_ROOT / "bat"
     assert script_path("screening").name == "screening.bat"

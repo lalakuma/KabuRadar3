@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from kaburadar.publishing import github_pages as pub
+from kaburadar3.publishing import github_pages as pub
 
 
 def test_payload_without_timestamp() -> None:

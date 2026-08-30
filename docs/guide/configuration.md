@@ -13,9 +13,9 @@
 
 ```bash
 set KABURADAR_CONFIG=config\config_hi.ini
-python src/kaburadar/cli/analyze.py
+python src/kaburadar3/cli/analyze.py
 # または
-python src/kaburadar/cli/analyze.py --config config/config_hi.ini
+python src/kaburadar3/cli/analyze.py --config config/config_hi.ini
 ```
 
 ## [SCREENING] スクリーニング・バックテスト
@@ -62,7 +62,7 @@ Web 表示・LINE 通知・特別買い（広がり）のしきい値。戦略�
 | `notify.special_buy_on` | `true` | LINE: 特別買い ON |
 | `notify.special_exit` | `true` | LINE: 特別買い 売り |
 
-編集: GitHub の [runtime.json を編集](https://github.com/lalakuma/KabuRadar2/edit/master/config/runtime.json) またはローカルで commit & push。
+編集: GitHub の [runtime.json を編集](https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json) またはローカルで commit & push。
 
 ## 環境変数（.env）
 

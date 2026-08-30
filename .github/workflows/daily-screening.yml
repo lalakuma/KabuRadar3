@@ -1,13 +1,11 @@
 name: Daily screening (cloud)
 
 on:
-  schedule:
-    # 平日 9:00 JST = 00:00 UTC（HI・場中・前場狙い）
-    - cron: "0 0 * * 1-5"
-    # 平日 10:00 JST = 01:00 UTC（LO・場中・午後場狙い）
-    - cron: "0 1 * * 1-5"
-    # 平日 16:00 JST = 07:00 UTC（LO・引け後）
-    - cron: "0 7 * * 1-5"
+  # v3 初期運用: 自動 schedule は無効（手動 workflow_dispatch のみ）
+  # schedule:
+  #   - cron: "0 0 * * 1-5"
+  #   - cron: "0 1 * * 1-5"
+  #   - cron: "0 7 * * 1-5"
   workflow_dispatch:
     inputs:
       job:
@@ -58,7 +56,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/kaburadar.db
-          key: kaburadar-db-v2
+          key: kaburadar-db-v3
 
       - name: Verify database
         run: |
@@ -104,14 +102,14 @@ jobs:
         if: env.KABURADAR_JOB == 'full'
         env:
           PYTHONPATH: src
-        run: python src/kaburadar/cli/update_prices.py --menu 6
+        run: python src/kaburadar3/cli/update_prices.py --menu 6
 
       - name: Analyze all symbols
         if: env.KABURADAR_JOB == 'full' || env.KABURADAR_JOB == 'analyze'
         env:
           PYTHONPATH: src
           KABURADAR_CONFIG: ${{ env.KABURADAR_CONFIG }}
-        run: python src/kaburadar/cli/analyze.py
+        run: python src/kaburadar3/cli/analyze.py
 
       - name: Build GitHub Pages JSON
         if: env.KABURADAR_JOB == 'full' || env.KABURADAR_JOB == 'publish'
@@ -120,8 +118,9 @@ jobs:
           TZ: Asia/Tokyo
           KABURADAR_REFRESH_TIMESTAMP: "1"
           KABURADAR_CONFIG: ${{ env.KABURADAR_CONFIG }}
-          KABURADAR_PAGES_URL: https://lalakuma.github.io/KabuRadar2
-        run: python src/kaburadar/cli/publish.py
+          KABURADAR_PAGES_URL: https://lalakuma.github.io/KabuRadar3
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python src/kaburadar3/cli/publish.py
 
       - name: Deploy GitHub Pages
         if: env.KABURADAR_JOB == 'full' || env.KABURADAR_JOB == 'publish'
@@ -139,12 +138,12 @@ jobs:
           PYTHONPATH: src
           TZ: Asia/Tokyo
           KABURADAR_CONFIG: ${{ env.KABURADAR_CONFIG }}
-          KABURADAR_PAGES_URL: https://lalakuma.github.io/KabuRadar2
+          KABURADAR_PAGES_URL: https://lalakuma.github.io/KabuRadar3
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_IDS: ${{ secrets.LINE_USER_IDS }}
         run: |
           if [ -n "$LINE_CHANNEL_ACCESS_TOKEN" ] && [ -n "$LINE_USER_IDS" ]; then
-            python src/kaburadar/cli/notify_line.py || echo "LINE notify skipped (non-fatal)."
+            python src/kaburadar3/cli/notify_line.py || echo "LINE notify skipped (non-fatal)."
           else
             echo "LINE secrets not set, skipping."
           fi
@@ -156,11 +155,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/special_state.json docs/data.json
+          git add data/special_state.json data/quality_cache.json docs/data.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          BRANCH=$(python -c "import sys; sys.path.insert(0,'src'); from kaburadar.settings.git_publish import resolve_publish_branch; print(resolve_publish_branch())")
+          BRANCH=$(python -c "import sys; sys.path.insert(0,'src'); from kaburadar3.settings.git_publish import resolve_publish_branch; print(resolve_publish_branch())")
           git commit -m "クラウド解析結果を更新 (Actions)"
           git push origin "HEAD:${BRANCH}"

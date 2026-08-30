@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from kaburadar.notifications.summary import format_summary_header
+from kaburadar3.notifications.summary import format_summary_header
 
 
 def test_format_summary_header_parses_pf(tmp_path: Path) -> None:

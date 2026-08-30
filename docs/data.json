@@ -4201,15 +4201,15 @@
     }
   },
   "controls": {
-    "actions_run_url": "https://github.com/lalakuma/KabuRadar2/actions/workflows/daily-screening.yml",
-    "runtime_edit_url": "https://github.com/lalakuma/KabuRadar2/edit/master/config/runtime.json"
+    "actions_run_url": "https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml",
+    "runtime_edit_url": "https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json"
   },
   "line_events": [],
   "run": {
     "source": "github-actions",
     "event": "workflow_dispatch",
-    "repository": "lalakuma/KabuRadar2",
-    "pages_url": "https://lalakuma.github.io/KabuRadar2",
-    "workflow_url": "https://github.com/lalakuma/KabuRadar2/actions/runs/33217304996"
+    "repository": "lalakuma/KabuRadar3",
+    "pages_url": "https://lalakuma.github.io/KabuRadar3",
+    "workflow_url": "https://github.com/lalakuma/KabuRadar3/actions/runs/33217304996"
   }
 }

@@ -1,13 +1,13 @@
-# KabuRadar2 取扱説明書
+# KabuRadar3 取扱説明書
 
-本書は **KabuRadar2** の使い方を、初めて触る人でも迷わないようにまとめた取扱説明書です。  
+本書は **KabuRadar3** の使い方を、初めて触る人でも迷わないようにまとめた取扱説明書です。  
 技術的な内部構成は [アーキテクチャ](architecture.md) を、設定項目の一覧は [設定リファレンス](configuration.md) を参照してください。
 
 ---
 
 ## 1. このツールは何をするか
 
-KabuRadar2 は、登録銘柄について **短期 RSI 戦略** のバックテストを行い、結果を集計して **スマホやブラウザから見られる Web ページ**（GitHub Pages）に載せるためのツールです。
+KabuRadar3 は、登録銘柄について **短期 RSI 戦略** のバックテストを行い、結果を集計して **スマホやブラウザから見られる Web ページ**（GitHub Pages）に載せるためのツールです。
 
 | できること | 説明 |
 |------------|------|
@@ -40,7 +40,7 @@ KabuRadar2 は、登録銘柄について **短期 RSI 戦略** のバックテ�
 ## 3. フォルダの見方（最低限覚える場所）
 
 ```
-KabuRadar2/
+KabuRadar3/
 ├── .github/workflows/  ← 本番（Daily screening）
 ├── config/config_lo.ini
 ├── data/kaburadar.db   ← Git LFS（Actions が更新）
@@ -51,7 +51,7 @@ KabuRadar2/
 
 - GitHub **Actions** … 実行・ログ確認
 - `config/config_lo.ini` … 設定変更（git push）
-- https://lalakuma.github.io/KabuRadar2/ … 結果閲覧
+- https://lalakuma.github.io/KabuRadar3/ … 結果閲覧
 
 **本番では使わない**
 
@@ -64,7 +64,7 @@ KabuRadar2/
 
 1. GitHub リポジトリを確認（DB は LFS 済み）
 2. **Actions** → **Daily screening (cloud)** → **Run workflow**
-3. 成功後 https://lalakuma.github.io/KabuRadar2/ を開く
+3. 成功後 https://lalakuma.github.io/KabuRadar3/ を開く
 4. ローカルのタスクスケジューラ / `screening.bat` を **止める**
 
 詳細: [cloud.md](cloud.md)
@@ -77,7 +77,7 @@ KabuRadar2/
 
 **何もしなくて OK。** 平日 **9:00（HI・場中）・10:00（LO・場中）・16:00（LO・引け後）JST** に Actions が自動実行します。
 
-結果: https://lalakuma.github.io/KabuRadar2/
+結果: https://lalakuma.github.io/KabuRadar3/
 
 ### 5.2 手動で今すぐ実行
 
@@ -118,7 +118,7 @@ bat\publish.bat --push
 ```
 
 1〜2 分後にブラウザで開く:  
-https://lalakuma.github.io/KabuRadar2/
+https://lalakuma.github.io/KabuRadar3/
 
 **パターン B: すでに解析済みで Web だけ更新**
 
@@ -244,13 +244,13 @@ python src\kaburadar\cli\analyze.py --publish
 | 11:30〜12:00 | 同上 |
 | 15:00〜15:30 | `update_prices.bat`（株価更新のみ） |
 
-時刻の変更: `src/kaburadar/scheduling/launcher.py` を編集。
+時刻の変更: `src/kaburadar3/scheduling/launcher.py` を編集。
 
 ### Windows 11: タスクスケジューラ登録例
 
 1. **タスクスケジューラ** を開く → **タスクの作成**
 2. **全般**
-   - 名前: `KabuRadar2 scheduler`
+   - 名前: `KabuRadar3 scheduler`
    - 「ユーザーがログオンしているときのみ実行」でも可
 3. **トリガー** → **新規**
    - 毎日、繰り返し間隔 **10 分**、継続時間 **10 時間**（9:00 開始など）
@@ -259,19 +259,19 @@ python src\kaburadar\cli\analyze.py --publish
    - プログラム/スクリプト:
 
      ```
-     C:\share\MorinoFolder\Python\KabuRadar2\bat\run_scheduler.bat
+     C:\share\MorinoFolder\Python\KabuRadar3\bat\run_scheduler.bat
      ```
 
    - **開始**（作業フォルダ）:
 
      ```
-     C:\share\MorinoFolder\Python\KabuRadar2\bat
+     C:\share\MorinoFolder\Python\KabuRadar3\bat
      ```
 
 5. **条件**タブで「コンピューターを AC 電源で使用している場合のみ」をオフ（ノート PC 向け）
 6. 保存後、右クリック → **実行** で一度テスト。`output\logs\debug.log` に `Launcher started` が出れば OK
 
-**Linux:** cron で `bash /path/to/KabuRadar2/sh/run_scheduler.sh`（[linux.md](linux.md) 参照）。
+**Linux:** cron で `bash /path/to/KabuRadar3/sh/run_scheduler.sh`（[linux.md](linux.md) 参照）。
 
 ---
 

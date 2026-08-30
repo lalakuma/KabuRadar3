@@ -1,4 +1,4 @@
-# KabuRadar2 ドキュメント
+# KabuRadar3 ドキュメント
 
 短期 RSI（`SCR_JDG_RSI4`）戦略のバックテスト・集計・GitHub Pages 公開ツールの説明です。
 

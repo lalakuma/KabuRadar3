@@ -76,7 +76,7 @@ def main() -> int:
     parser.add_argument("--gh-secrets", action="store_true", help="GitHub Secrets に登録")
     parser.add_argument(
         "--repo",
-        default="lalakuma/KabuRadar2",
+        default="lalakuma/KabuRadar3",
         help="gh secret 先リポジトリ",
     )
     args = parser.parse_args()

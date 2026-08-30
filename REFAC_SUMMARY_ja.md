@@ -25,7 +25,7 @@
 
 5. **設定管理の整理**
    - `config/config_lo.ini` を配置（短期RSI / LO モード）
-   - `src/kaburadar/config.py` で `ini + env` を共通読み込み
+   - `src/kaburadar3/config.py` で `ini + env` を共通読み込み
 
 ## 次の推奨作業
 

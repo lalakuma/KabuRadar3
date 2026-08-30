@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import json
 
-from kaburadar.publishing import github_pages as publish
-from kaburadar.config import read_path_config
+from kaburadar3.publishing import github_pages as publish
+from kaburadar3.config import read_path_config
 
 
 def test_build_payload_keys() -> None:

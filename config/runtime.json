@@ -12,5 +12,9 @@
     "special_buy_on": true,
     "special_exit": true,
     "summary_top": false
+  },
+  "gemini_rating": {
+    "enabled": true,
+    "model": "gemini-2.0-flash"
   }
 }
