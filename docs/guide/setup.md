@@ -22,17 +22,16 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-## 3. データベース
+## 3. データベース（ローカルのみ）
 
-`data/kaburadar.db` は **Git LFS** でリポジトリに含まれます（clone 後に `git lfs pull`）。
+`data/kaburadar.db` は **Git に含めません**（約 130MB）。clone 後に手元の DB を配置してください。
 
-```bash
-git lfs install
-git lfs pull
+```bat
+copy C:\path\to\KabuRadar.db data\kaburadar.db
 ```
 
-初回から DB が無い場合のみ、手元の `KabuRadar.db` を `data/kaburadar.db` にコピーして LFS で commit します。  
-詳細: [data/README.md](../../data/README.md) · [無料クラウド実行](cloud.md)
+KabuRadar2 を並行運用している場合は、同じ DB をコピーするか `config/*.ini` の `PATH_DB` で既存パスを指定できます。  
+詳細: [data/README.md](../../data/README.md)
 
 ## 4. 環境変数（任意）
 

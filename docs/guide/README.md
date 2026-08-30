@@ -10,7 +10,7 @@
 | **[取扱説明書](manual.md)** | 全体の使い方 |
 | [セットアップ](setup.md) | 初回環境構築・DB 配置 |
 | [Linux / macOS](linux.md) | `sh/`・Makefile・cron |
-| [無料クラウド実行](cloud.md) | GitHub Actions + Git LFS |
+| [無料クラウド実行](cloud.md) | GitHub Actions（補助・DB はローカル） |
 | [日常運用](operations.md) | bat / CLI の使い方 |
 | [設定リファレンス](configuration.md) | `config_lo.ini` の各項目 |
 | [アーキテクチャ](architecture.md) | ディレクトリ構成・処理フロー |

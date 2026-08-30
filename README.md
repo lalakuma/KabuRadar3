@@ -1,8 +1,8 @@
 # KabuRadar3
 
-短期 RSI + **RCI V字反転** エントリー、**Gemini 銘柄評価（★1-5）** 付きのバックテスト・集計・GitHub Pages 公開。**本番は GitHub Actions（クラウド専用）**。
+短期 RSI + **RCI V字反転** エントリー、**Gemini 銘柄評価（★1-5）** 付きのバックテスト・集計・GitHub Pages 公開。
 
-v3 初期運用: **ローカル実行を本番**（Actions schedule は OFF）。実行時刻の精度が必要な場合は [ローカル運用ガイド](docs/guide/local.md) を参照。
+**本番はローカル実行**（Actions schedule は OFF）。DB（約 130MB）も **ローカル保持**（Git / LFS 非管理）。
 
 **運用:** [ローカル運用](docs/guide/local.md) · [クラウド運用ガイド](docs/guide/cloud.md) · [取扱説明書](docs/guide/manual.md)
 
@@ -35,7 +35,7 @@ KabuRadar3/
 ├── .github/workflows/   # CI + 本番 daily-screening + schedule-guard
 ├── config/config_lo.ini # LO 戦略（SCR_JDG_RSI4REV=0）
 ├── config/config_hi.ini # HI 戦略（SCR_JDG_RSI4REV=1・9:00 場中用）
-├── data/kaburadar.db    # SQLite（Git LFS）
+├── data/kaburadar.db    # SQLite（ローカルのみ・Git 管理外）
 ├── docs/                # GitHub Pages + data.json
 └── src/kaburadar3/       # Python 本体
 ```
@@ -44,13 +44,12 @@ KabuRadar3/
 
 ## 初回セットアップ
 
-1. リポジトリを clone（`git lfs pull`）
-2. Actions で **Daily screening (cloud)** を手動実行
-3. 成功したら Pages を確認
+1. リポジトリを clone
+2. `data/kaburadar.db` を手元の DB からコピー（[data/README.md](data/README.md)）
+3. `.env` を作成（Gemini / LINE を使う場合）
+4. 下記「ローカル本番」で動作確認
 
-詳細: [docs/guide/cloud.md](docs/guide/cloud.md)
-
-## ローカル本番（推奨）
+## ローカル本番
 
 ```bat
 set PYTHONPATH=src

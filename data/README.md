@@ -2,19 +2,28 @@
 
 SQLite データベース `kaburadar.db` を置くフォルダです。
 
-## Git 管理
+## Git 管理について
 
-`kaburadar.db` は **Git LFS** でリポジトリに含めます（約 100MB 超のため通常 Git では push 不可）。
+**`kaburadar.db` は Git に含めません**（約 130MB のため）。各 PC でローカルに保持してください。
 
-初回 clone 後:
+初回セットアップ:
 
-```bash
-git lfs install
-git lfs pull
+1. 既存の `KabuRadar.db` / `KabuRadar2` の `data/kaburadar.db` を `data/kaburadar.db` にコピーする  
+   または KabuRadar2 と同じ Google Drive / 共有フォルダ上の DB を `PATH_DB` で参照する
+2. `config/config_lo.ini` の `PATH_DB = data/kaburadar.db` を確認
+
+```bat
+copy C:\path\to\KabuRadar.db data\kaburadar.db
 ```
 
-`config/config_lo.ini` の `PATH_DB = data/kaburadar.db` を確認してください。
+## Git で管理するファイル
 
-## ローカルから別 DB を使う場合
+| ファイル | 内容 |
+|----------|------|
+| `special_state.json` | 特別買い状態 |
+| `quality_cache.json` | Gemini 評価キャッシュ（`.gitignore` 対象外なら commit 可） |
+| `local_schedule_state.json` | ローカルスケジューラ実行記録（通常は commit しない） |
 
-上書きしたいときだけ、元の `KabuRadar.db` を `data/kaburadar.db` にコピーし、LFS 経由で commit します。
+## バックアップ
+
+DB は定期的に別ドライブやクラウドストレージへコピーすることを推奨します。

@@ -18,6 +18,11 @@
 - 終値 `close <= 0` のシグナルを除外
 - Actions cache を `v2` に更新し、DB サイズ 100MB 未満はエラー（LFS ポインタ／欠損 cache を拒否）
 
+## 2026-08 DB をローカル専用に
+
+- `data/kaburadar.db` を Git / LFS から除外（約 130MB）
+- 本番 DB は各 PC で保持。clone 時は手元の DB をコピー
+
 ## 2026-08 LFS 上限・過剰実行の対策
 
 - DB を **Actions cache** で実行間引き継ぎ（`kaburadar-db-v1`）。master への LFS push を廃止

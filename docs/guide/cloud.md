@@ -1,16 +1,17 @@
-# 無料クラウド実行（GitHub Actions）— 本番運用
+# 無料クラウド実行（GitHub Actions）— 補助運用
 
-**KabuRadar3 の本番はクラウド専用**です。株価収集・DB 更新・解析・Web 公開まで、すべて GitHub Actions 上で完結します。
+**KabuRadar3 の本番はローカル実行**です。Actions は手動 workflow による **Web 公開の補助** として使えます。
 
-**条件: 無料** — 公開リポジトリなら Actions / Pages / LFS の無料枠内で運用可能です。
+**DB（`data/kaburadar.db`）は Git / LFS に含めません。** クラウド実行時は **Actions cache** に DB が残っている場合のみ動作します（初回はローカルで解析して cache を温めるか、ローカル本番を使ってください）。
+
+**条件: 無料** — 公開リポジトリなら Actions / Pages の無料枠内で運用可能です。
 
 ## 仕組み
 
 ```
-平日 9:00 HI / 10:00 LO / 16:00 LO JST（場中2回 + 引け後1回）
+手動 Run workflow
   → GitHub Actions (Ubuntu)
-  → git lfs pull で data/kaburadar.db を取得（初回・キャッシュミス時）
-  → Actions cache で DB を実行間引き継ぎ（LFS push はしない）
+  → Actions cache から data/kaburadar.db を復元（なければ失敗）
   → yfinance で過去5日分を取得 → SQLite に書込
   → 全銘柄バックテスト → 集計
   → docs/data.json 生成
@@ -18,7 +19,7 @@
   → special_state.json / docs/data.json を master に commit（任意・失敗しても続行）
 ```
 
-**PC は不要**（設定ファイルを編集するときだけ git clone があれば足ります）。
+**PC は不要**（Web だけ見る場合）。DB 更新・正確な時刻実行は [local.md](local.md) を参照。
 
 ## 日常の運用
 
@@ -56,7 +57,7 @@
 2. 成功（緑）まで待つ（10〜30 分程度）
 3. https://lalakuma.github.io/KabuRadar3/ を開き、更新日時が変わっているか確認
 
-DB はすでに Git LFS でリポジトリに含まれています。
+DB はリポジトリに含まれません。ローカルで `bat\screening_*.bat` を実行し、`publish.bat` で Web を更新するのが v3 の標準運用です。
 
 ## スケジュール
 
@@ -129,21 +130,19 @@ Log: https://github.com/lalakuma/KabuRadar3/actions/runs/…
 
 | サービス | 公開 repo |
 |----------|-----------|
-| GitHub Actions | 平日 3 回/日 → 通常問題なし |
-| Git LFS | 初回 checkout のみ（DB は **Actions cache** で永続化） |
+| GitHub Actions | 手動実行のみ（schedule OFF） |
 | GitHub Pages | 無料 |
 
-**LFS 帯域:** 以前は毎回 DB を LFS push しており、guard の過剰起動と合わせて **月 10 GiB 上限** に達することがあります。現在は DB を cache に保存し、master への LFS push は行いません。帯域は [Billing → Git LFS](https://github.com/settings/billing) で確認してください。
+**DB:** Git / LFS 非管理。Actions では **cache**（`kaburadar-db-v3`）のみ利用。
 
 ## ローカル clone する人へ
 
 結果をローカルで見る必要はありません。コード編集時のみ:
 
 ```bash
-git lfs install
 git clone <url>
 cd KabuRadar3
-git lfs pull
+copy C:\path\to\KabuRadar.db data\kaburadar.db
 ```
 
 **`bat\screening.bat` は実行しないでください**（DB が競合します）。
@@ -152,9 +151,8 @@ git lfs pull
 
 | 症状 | 対処 |
 |------|------|
-| Actions 失敗（赤） | ログ確認。LFS 上限・LINE 429 は **解析・Web 更新は成功していることが多い**（gh-pages の `data.json` 更新日時を確認） |
-| LFS budget exceeded | 上記のとおり DB は cache 運用に変更済み。翌月に帯域がリセットされるか、[Billing](https://github.com/settings/billing) で Data pack を検討 |
-| DB なし | LFS が pull されているか（初回）。2 回目以降は cache |
+| Actions 失敗（赤） | ログ確認。DB cache 未シードの場合は [local.md](local.md) でローカル実行 |
+| DB なし | DB は Git 管理外。ローカルに `data/kaburadar.db` を配置 |
 | サイト古い | Actions 成功後も Pages 未デプロイだった → **修正済**（screening 末尾で gh-pages へデプロイ） |
 | Pages が `errored` | Settings → Pages で branch **`gh-pages`** を指定。Actions を再実行 |
 | LINE が来ない | Secrets 名の綴り・友だち追加・平日か確認。429（送信過多）のときは翌日まで待つか、guard による重複実行が収まるのを待つ |

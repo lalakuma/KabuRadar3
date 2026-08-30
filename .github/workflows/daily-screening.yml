@@ -38,10 +38,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Checkout (with LFS)
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -64,7 +62,7 @@ jobs:
           size=$(stat -c%s data/kaburadar.db)
           echo "kaburadar.db size=${size} bytes"
           if [ "$size" -lt 100000000 ]; then
-            echo "::error::DB too small (${size} bytes). LFS pointer or corrupt cache."
+            echo "::error::DB missing or too small (${size} bytes). DB is local-only; seed Actions cache or run locally."
             exit 1
           fi
 

@@ -28,7 +28,7 @@ KabuRadar3 は、登録銘柄について **短期 RSI 戦略** のバックテ�
 |------|------|
 | **本番** | **GitHub Actions のみ**（PC・Python 不要） |
 | GitHub アカウント | リポジトリ + Actions + Pages |
-| データベース | `data/kaburadar.db`（Git LFS でリポジトリに含まれる） |
+| データベース | `data/kaburadar.db`（**ローカルのみ**・Git 管理外） |
 | ネットワーク | Actions 側で株価取得・push |
 
 ローカル Python は **コードを直すときだけ**必要です。
@@ -43,7 +43,7 @@ KabuRadar3 は、登録銘柄について **短期 RSI 戦略** のバックテ�
 KabuRadar3/
 ├── .github/workflows/  ← 本番（Daily screening）
 ├── config/config_lo.ini
-├── data/kaburadar.db   ← Git LFS（Actions が更新）
+├── data/kaburadar.db   ← ローカル SQLite（Git 管理外）
 └── docs/data.json      ← Web 表示用
 ```
 
@@ -60,14 +60,14 @@ KabuRadar3/
 
 ---
 
-## 4. 初回セットアップ（クラウド専用）
+## 4. 初回セットアップ（ローカル本番）
 
-1. GitHub リポジトリを確認（DB は LFS 済み）
-2. **Actions** → **Daily screening (cloud)** → **Run workflow**
-3. 成功後 https://lalakuma.github.io/KabuRadar3/ を開く
-4. ローカルのタスクスケジューラ / `screening.bat` を **止める**
+1. リポジトリを clone
+2. `data/kaburadar.db` を手元の DB からコピー（[data/README.md](../../data/README.md)）
+3. `bat\screening_lo.bat` で動作確認
+4. 自動実行は `bat\run_local_scheduler.bat` または Windows タスクスケジューラ
 
-詳細: [cloud.md](cloud.md)
+Web 公開のみ Actions を使う場合: [cloud.md](cloud.md)
 
 ---
 

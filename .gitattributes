@@ -1,2 +1,1 @@
-data/kaburadar.db filter=lfs diff=lfs merge=lfs -text
 sh/*.sh text eol=lf
