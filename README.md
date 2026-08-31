@@ -8,7 +8,8 @@
 
 ## v3 の主な変更
 
-- **エントリー:** RSI 売られすぎ **AND** RCI V字反転（`SCR_JDG_RCI=1`）
+- **エントリー:** RSI 売られすぎで準備 ON → 30営業日以内に RCI 上向きで確定（RSI 回復では準備 OFF にしない）
+- **決済:** RSI4 が `SCR_SRSI_HI`（60）超で返売り。`-3%` 損切り（`SCR_JDG_STOP_LOSS`）
 - **Gemini 評価:** 当日シグナル銘柄を ★1-5 で分類（`GEMINI_API_KEY` 設定時）
 - **パッケージ:** `src/kaburadar3/`
 

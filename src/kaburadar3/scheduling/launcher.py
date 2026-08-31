@@ -100,7 +100,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--once",
         metavar="SLOT_ID",
-        help="指定スロットを即実行（例: hi_0900, lo_1000, lo_1600）",
+        help="指定スロットを即実行（例: hi_1130, lo_1500, lo_1600）",
     )
     parser.add_argument(
         "--due",

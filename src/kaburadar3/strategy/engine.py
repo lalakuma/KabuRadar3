@@ -43,9 +43,9 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
     if req_sb_mode != DEF.MODE_BOTH:
         ti.sb_mode = req_sb_mode
 
-    today = date.today()
-    str_date_sta = datetime.strftime(today + timedelta(days=Prm.past_period), "%Y-%m-%d")
-    str_date_end = datetime.strftime(today + timedelta(days=1), "%Y-%m-%d")
+    anchor = Prm.as_of_date if Prm.as_of_date is not None else date.today()
+    str_date_sta = datetime.strftime(anchor + timedelta(days=Prm.past_period), "%Y-%m-%d")
+    str_date_end = datetime.strftime(anchor + timedelta(days=1), "%Y-%m-%d")
 
     df = db.read_rec_period(conn, cursor, str(cp.code), str_date_sta, str_date_end)
     try:
@@ -122,8 +122,10 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
         )
 
         if ti.buy_pos == 0 and ti.sell_pos == 0 and iBuyRestCount == 0:
+            if jg.jdg_rci_seq:
+                _update_rsi_prep(ti, jg, bkdf, Prm)
             if ti.isreserved is False:
-                if judge_signal(cp, ti, jg, bkdf, Prm) is False:
+                if judge_signal(cp, ti, jg, bkdf, Prm, idx_date) is False:
                     continue
             else:
                 if jg.jdg_rsvent:
@@ -161,6 +163,33 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
     Prm.pf = "{:.1f}".format(wkpf)
 
     return ret, lst_codes
+
+
+def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
+    """買いポジションの決済判定。(決済するか, 決済価格)"""
+    if tc_rsi.jdg_rsi_shortkessai(ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low):
+        return True, cp.i_close
+    if jg.jdg_rci_exit and ti.sb_mode == DEF.MODE_BUY:
+        if (
+            tc_rci.jdg_rci_turn_down(
+                bkdf,
+                period=jg.rci_period,
+                turn_min=jg.rci_exit_turn_min,
+                peak_min=jg.rci_exit_peak,
+                lookback=jg.rci_lookback,
+            )
+            == 1
+        ):
+            return True, cp.i_close
+    if jg.jdg_stop_loss and ti.buy_price > 0:
+        pct = (cp.i_close - ti.buy_price) / ti.buy_price * 100.0
+        if pct <= -jg.stop_loss_pct:
+            return True, cp.i_close
+    if Prm.sell_period == -1:
+        return True, cp.i_open
+    if cnt_buyholddays >= Prm.sell_period:
+        return True, cp.i_close
+    return False, cp.i_close
 
 
 def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholddays, RestCount):
@@ -201,15 +230,11 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
     if ti.buy_pos > 0:
         cnt_buyholddays += 1
         bkdf.loc[lastidx_bk, "mark"] = "継続"
-        if tc_rsi.jdg_rsi_shortkessai(ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low):
+        exit_now, buy_kessai_val = _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays)
+        if exit_now:
             ti.kessai_buy = True
-            buy_kessai_val = cp.i_close
-        elif Prm.sell_period == -1:
-            ti.kessai_buy = True
-            buy_kessai_val = cp.i_open
-        elif cnt_buyholddays >= Prm.sell_period:
-            ti.kessai_buy = True
-            buy_kessai_val = cp.i_close
+        else:
+            print(cp.code, ":", str(idx_date.date()), "継続")
 
         if ti.kessai_buy:
             diff = buy_kessai_val - ti.buy_price
@@ -237,7 +262,45 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
     return cnt_buyholddays, RestCount
 
 
-def judge_signal(cp, ti, jg, bkdf, Prm) -> bool:
+def _update_rsi_prep(ti, jg, bkdf, Prm) -> None:
+    """RSI 売られすぎで準備フラグ ON。OFF はタイムアウト（SCR_RCI_PREP_MAX_BARS）のみ。"""
+    if not jg.jdg_rsi4:
+        return
+    rsi_signal = tc_rsi.jdg_rsi_short(ti.sb_mode, bkdf, Prm.srsi_low, jg.jdg_rsi4rev) == 1
+    if rsi_signal:
+        ti.rsi_prep = True
+        ti.rsi_prep_bars = 0
+        return
+    if not ti.rsi_prep:
+        return
+    ti.rsi_prep_bars += 1
+    if jg.rci_prep_max_bars > 0 and ti.rsi_prep_bars > jg.rci_prep_max_bars:
+        ti.rsi_prep = False
+        ti.rsi_prep_bars = 0
+
+
+def judge_signal(cp, ti, jg, bkdf, Prm, idx_date) -> bool:
+    # 順序型 RSI+RCI: 準備フラグ ON かつ RCI 上向きでエントリー
+    if ti.sb_mode == DEF.MODE_BUY and jg.jdg_rci and jg.jdg_rci_seq:
+        if Prm.breadth_block_dates:
+            trade_day = idx_date.date() if hasattr(idx_date, "date") else idx_date
+            if trade_day in Prm.breadth_block_dates:
+                return False
+        if not ti.rsi_prep:
+            return False
+        if (
+            tc_rci.jdg_rci_turn_up(
+                bkdf,
+                period=jg.rci_period,
+                turn_min=jg.rci_turn_min,
+            )
+            == 0
+        ):
+            return False
+        ti.rsi_prep = False
+        ti.rsi_prep_bars = 0
+        return True
+
     if jg.jdg_rsi4 and tc_rsi.jdg_rsi_short(ti.sb_mode, bkdf, Prm.srsi_low, jg.jdg_rsi4rev) == 0:
         return False
     if ti.sb_mode == DEF.MODE_BUY and jg.jdg_rci:

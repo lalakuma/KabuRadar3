@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import os
-from datetime import datetime
+from datetime import date, datetime
 
 import pandas as pd
 
@@ -32,12 +32,16 @@ class KabInf:
         srsi_hi: int = 70,
         srsi_low: int = 30,
         ent_rest: int = 0,
+        as_of_date: date | None = None,
+        breadth_block_dates: set[date] | None = None,
     ):
         self.sell_period = sell_period
         self.past_period = past_period
         self.srsi_hi = srsi_hi
         self.srsi_low = srsi_low
         self.ent_rest = ent_rest
+        self.as_of_date = as_of_date
+        self.breadth_block_dates = breadth_block_dates
 
     def get_winrate(self) -> int:
         if self.win == 0 and self.lose == 0:
@@ -92,6 +96,8 @@ class TradeInfo:
     minusgain = 0
     income = 0
     outcodecsv = False
+    rsi_prep = False
+    rsi_prep_bars = 0
 
 
 class Judge:
@@ -104,3 +110,14 @@ class Judge:
         self.rci_low = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_LOW, default="-80"))
         self.rci_turn_min = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_TURN_MIN, default="5"))
         self.rci_lookback = int(conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_LOOKBACK, default="5"))
+        self.jdg_rci_seq = int(conf.get_config(scrsec, conf.CONF_KEY_JDG_RCI_SEQ, default="0"))
+        self.rci_prep_max_bars = int(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_PREP_MAX_BARS, default="20")
+        )
+        self.jdg_rci_exit = int(conf.get_config(scrsec, conf.CONF_KEY_JDG_RCI_EXIT, default="0"))
+        self.rci_exit_turn_min = float(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_TURN_MIN, default="5")
+        )
+        self.rci_exit_peak = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_PEAK, default="20"))
+        self.jdg_stop_loss = int(conf.get_config(scrsec, conf.CONF_KEY_JDG_STOP_LOSS, default="0"))
+        self.stop_loss_pct = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_STOP_LOSS_PCT, default="3"))

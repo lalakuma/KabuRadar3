@@ -30,17 +30,17 @@ class LocalSlot:
 
 LOCAL_SLOTS: tuple[LocalSlot, ...] = (
     LocalSlot(
-        slot_id="hi_0900",
-        label="9:00 HI（場中・RSI4反転）",
-        at=time(9, 0),
+        slot_id="hi_1130",
+        label="11:30 HI（場中・RSI4反転）",
+        at=time(11, 30),
         window_minutes=10,
         config="config/config_hi.ini",
         script="screening_hi",
     ),
     LocalSlot(
-        slot_id="lo_1000",
-        label="10:00 LO（場中）",
-        at=time(10, 0),
+        slot_id="lo_1500",
+        label="15:00 LO（場中）",
+        at=time(15, 0),
         window_minutes=10,
         config="config/config_lo.ini",
         script="screening_lo",

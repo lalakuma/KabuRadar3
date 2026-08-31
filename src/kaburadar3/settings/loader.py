@@ -23,6 +23,11 @@ def _load_env() -> None:
         load_dotenv(env_file)
 
 
+def load_project_env() -> None:
+    """プロジェクトルートの .env を読み込む（未読込時のみ安全に呼べる）."""
+    _load_env()
+
+
 def _resolve_config_file(config_path: Optional[Path] = None) -> Path:
     if config_path is not None:
         return config_path
