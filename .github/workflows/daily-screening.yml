@@ -18,13 +18,12 @@ on:
           - analyze
           - publish
       config_profile:
-        description: "設定 (lo/hi)"
+        description: "設定 (lo のみ)"
         required: true
         default: lo
         type: choice
         options:
           - lo
-          - hi
 
 permissions:
   contents: write
@@ -82,19 +81,9 @@ jobs:
           if [ -z "$JOB" ]; then JOB="full"; fi
           echo "KABURADAR_JOB=$JOB" >> "$GITHUB_ENV"
           PROFILE="${{ github.event.inputs.config_profile }}"
-          if [ -z "$PROFILE" ]; then
-            case "${{ github.event.schedule }}" in
-              "0 0 * * 1-5") PROFILE="hi" ;;
-              *) PROFILE="lo" ;;
-            esac
-          fi
-          if [ "$PROFILE" = "hi" ]; then
-            echo "KABURADAR_CONFIG=config/config_hi.ini" >> "$GITHUB_ENV"
-            echo "Using config_hi.ini (RSI4反転=1)"
-          else
-            echo "KABURADAR_CONFIG=config/config_lo.ini" >> "$GITHUB_ENV"
-            echo "Using config_lo.ini (RSI4反転=0)"
-          fi
+          if [ -z "$PROFILE" ]; then PROFILE="lo"; fi
+          echo "KABURADAR_CONFIG=config/config_lo.ini" >> "$GITHUB_ENV"
+          echo "Using config_lo.ini (LO / RSI+RCI)"
 
       - name: Update prices (5 days)
         if: env.KABURADAR_JOB == 'full'
@@ -129,22 +118,7 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
 
-      - name: LINE notify (optional)
-        if: success() && (env.KABURADAR_JOB == 'full' || env.KABURADAR_JOB == 'publish')
-        continue-on-error: true
-        env:
-          PYTHONPATH: src
-          TZ: Asia/Tokyo
-          KABURADAR_CONFIG: ${{ env.KABURADAR_CONFIG }}
-          KABURADAR_PAGES_URL: https://lalakuma.github.io/KabuRadar3
-          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_USER_IDS: ${{ secrets.LINE_USER_IDS }}
-        run: |
-          if [ -n "$LINE_CHANNEL_ACCESS_TOKEN" ] && [ -n "$LINE_USER_IDS" ]; then
-            python src/kaburadar3/cli/notify_line.py || echo "LINE notify skipped (non-fatal)."
-          else
-            echo "LINE secrets not set, skipping."
-          fi
+      # LINE 通知はローカル本番のみ（screening_lo.bat）。クラウドからは送らない。
 
       - name: Commit results
         continue-on-error: true

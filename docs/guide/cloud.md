@@ -28,7 +28,7 @@
 | **Web で結果を見る** | 毎日 · https://lalakuma.github.io/KabuRadar3/ （**今日**タブに買い/返売り） |
 | **手動実行** | Actions → Run workflow（`job`: full / analyze / publish） |
 | **運用設定** | [runtime.json を編集](https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json) |
-| **LINE でサマリー** | Secrets 設定後 · 解析成功のたび自動 |
+| **LINE でサマリー** | **ローカルのみ**（`.env`）。クラウドからは送らない |
 | Actions 成功確認 | 初回のみ / 障害時 |
 | 手動再実行 | 必要時 → Actions → Run workflow |
 | ローカル screening | **しない** |
@@ -63,15 +63,10 @@ DB はリポジトリに含まれません。ローカルで `bat\screening_*.ba
 
 | 項目 | 値 |
 |------|-----|
-| 本体ワークフロー | `.github/workflows/daily-screening.yml`（`schedule` + 手動） |
-| 監視ワークフロー | `.github/workflows/schedule-guard.yml`（スロット直後 + 5 分間隔） |
-| 既定 | 平日 **9:00 HI / 10:00 LO / 16:00 LO JST**（1日3回） |
-| 9:00 | 場中・HI（`config_hi.ini`・`SCR_JDG_RSI4REV = 1`） |
-| 10:00 | 場中・LO（`config_lo.ini`・午後場狙い） |
-| 16:00 | 引け後・LO（`config_lo.ini`） |
-| 手動 | Actions → Run workflow |
-
-時刻変更は `schedule-guard.yml` の監視ロジック（スロット時刻）を編集して push してください。
+| 本体ワークフロー | `.github/workflows/daily-screening.yml`（**手動のみ**） |
+| 監視ワークフロー | `.github/workflows/schedule-guard.yml`（**OFF**） |
+| 本番実行 | ローカル **11:30 / 15:00 / 16:00 LO**（[local.md](local.md)） |
+| 手動 | Actions → Run workflow（Web 更新用・LINE なし） |
 
 ## 設定変更
 

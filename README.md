@@ -24,18 +24,18 @@
 |------|-----|
 | **解析結果（Web）** | https://lalakuma.github.io/KabuRadar3/ |
 | **実行ログ** | [Actions · Daily screening](https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml) |
-| **LINE** | [cloud.md](docs/guide/cloud.md) の Secrets 設定後、自動通知 |
+| **LINE** | ローカル実行時のみ（`.env` 設定時） |
 
 手動実行: GitHub **Actions** → **Daily screening (cloud)** → **Run workflow**
-（自動監視は **Daily screening schedule guard**）
+（クラウド自動実行・guard は **OFF**。手動 Run workflow のみ）
 
 ## ディレクトリ構成
 
 ```
 KabuRadar3/
 ├── .github/workflows/   # CI + 本番 daily-screening + schedule-guard
-├── config/config_lo.ini # LO 戦略（SCR_JDG_RSI4REV=0）
-├── config/config_hi.ini # HI 戦略（SCR_JDG_RSI4REV=1・9:00 場中用）
+├── config/config_lo.ini # 本番 LO 戦略（RSI prep → RCI 上向き）
+├── config/config_hi.ini # 旧 HI（非推奨・比較用に残置）
 ├── data/kaburadar.db    # SQLite（ローカルのみ・Git 管理外）
 ├── docs/                # GitHub Pages + data.json
 └── src/kaburadar3/       # Python 本体
@@ -59,7 +59,8 @@ pip install -r requirements.txt
 rem 手動1回（LO）
 bat\screening_lo.bat
 
-rem 自動（9:00 / 10:00 / 16:00 を監視）
+rem 自動（平日 11:30 / 15:00 / 16:00 LO — Windows タスクまたは常駐）
+bat\register_task_scheduler.bat
 bat\run_local_scheduler.bat
 
 rem 結果確認

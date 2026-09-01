@@ -1,15 +1,14 @@
 name: Daily screening schedule guard
 
 on:
-  schedule:
-    # 各スロット直後 + 遅延追随用（JST）
-    - cron: "5 0 * * 1-5"    # 9:05（場中 HI）
-    - cron: "5 1 * * 1-5"    # 10:05（場中 LO）
-    - cron: "5 7 * * 1-5"    # 16:05（引け後 LO）
-    - cron: "35 8 * * 1-5"   # 17:35
-    - cron: "5 9 * * 1-5"    # 18:05
-    # 上記以外の取りこぼし追随（UTC 00:00-09:59 = JST 9:00-18:59）
-    - cron: "*/5 0-9 * * 1-5"
+  # v3 本番はローカルのみ。guard の自動 schedule は無効（手動のみ）。
+  # schedule:
+  #   - cron: "35 2 * * 1-5"
+  #   - cron: "5 6 * * 1-5"
+  #   - cron: "5 7 * * 1-5"
+  #   - cron: "35 8 * * 1-5"
+  #   - cron: "5 9 * * 1-5"
+  #   - cron: "*/5 0-9 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -29,9 +28,8 @@ jobs:
         with:
           script: |
             const slots = [
-              { name: "9:00", profile: "hi", minuteOfDay: 9 * 60, coverStart: 8 * 60 + 55, coverEnd: 12 * 60 + 29 },
-              // schedule 遅延で 10〜12 時台に着くことがあるため cover を前倒し
-              { name: "10:00", profile: "lo", minuteOfDay: 10 * 60, coverStart: 10 * 60 + 5, coverEnd: 15 * 60 + 54 },
+              { name: "11:30", profile: "lo", minuteOfDay: 11 * 60 + 30, coverStart: 11 * 60 + 25, coverEnd: 14 * 60 + 59 },
+              { name: "15:00", profile: "lo", minuteOfDay: 15 * 60, coverStart: 15 * 60 + 5, coverEnd: 15 * 60 + 54 },
               { name: "16:00", profile: "lo", minuteOfDay: 16 * 60, coverStart: 15 * 60 + 55, coverEnd: 19 * 60 },
             ];
             const checkDelayMinutes = 5;
