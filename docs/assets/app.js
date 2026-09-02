@@ -24,13 +24,125 @@ function starsLabel(n) {
   return "★".repeat(v) + "☆".repeat(5 - v);
 }
 
-function renderSignalRows(container, rows, emptyText) {
+const STAR_TIER_LABELS = {
+  5: "星5：超本命",
+  4: "星4：優良・主戦場",
+  3: "星3：中立・様子見",
+  2: "星2：警戒・スルー推奨",
+  1: "星1：危険・絶対見送り",
+};
+
+function starTierLabel(n) {
+  const v = Math.max(1, Math.min(5, Number(n) || 3));
+  return STAR_TIER_LABELS[v] || `星${v}`;
+}
+
+function confidenceLabel(value) {
+  switch (value) {
+    case "high":
+      return "高";
+    case "medium":
+      return "中";
+    case "low":
+      return "低";
+    default:
+      return "—";
+  }
+}
+
+function setupSignalModal() {
+  const dialog = document.getElementById("signal-detail");
+  const closeBtn = document.getElementById("signal-detail-close");
+  if (!dialog || !closeBtn) return;
+
+  closeBtn.addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (e) => {
+    if (e.target === dialog) dialog.close();
+  });
+  dialog.addEventListener("cancel", (e) => {
+    e.preventDefault();
+    dialog.close();
+  });
+}
+
+function openSignalDetail(row) {
+  const dialog = document.getElementById("signal-detail");
+  const title = document.getElementById("signal-detail-title");
+  const sub = document.getElementById("signal-detail-sub");
+  const body = document.getElementById("signal-detail-body");
+  if (!dialog || !title || !sub || !body) return;
+
+  const q = row.quality || {};
+  const stars = q.stars;
+  const name = row.name || "";
+  title.textContent = `${row.code} ${name}`.trim();
+  sub.textContent =
+    stars != null
+      ? `${starsLabel(stars)}（${starTierLabel(stars)}）`
+      : "AI評価なし";
+
+  const tech = [];
+  if (row.close != null) tech.push(`終値 ¥${fmt.format(row.close)}`);
+  if (row.rsi != null) tech.push(`RSI ${Number(row.rsi).toFixed(2)}`);
+  if (row.rci != null) tech.push(`RCI ${Number(row.rci).toFixed(1)}`);
+  if (row.rci_turn) tech.push("RCI 上向き");
+  if (row.rsi_ok) tech.push("RSI条件 ✓");
+  if (row.rci_ok) tech.push("RCI条件 ✓");
+  if (row.pnl != null) tech.push(`損益 ${formatIncome(row.pnl)}`);
+
+  const risks = (q.risk_factors || [])
+    .map((r) => `<li>${escapeHtml(r)}</li>`)
+    .join("");
+  const sources = (q.sources || [])
+    .filter(Boolean)
+    .map(
+      (url) =>
+        `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(url)}</a></li>`,
+    )
+    .join("");
+
+  body.innerHTML = `
+    ${
+      tech.length
+        ? `<section class="detail-section"><h4>テクニカル</h4><p class="detail-text">${tech.map(escapeHtml).join(" · ")}</p></section>`
+        : ""
+    }
+    ${
+      q.background
+        ? `<section class="detail-section"><h4>背景・分析</h4><p class="detail-text">${escapeHtml(q.background)}</p></section>`
+        : `<section class="detail-section"><h4>背景・分析</h4><p class="detail-muted">評価テキストがありません</p></section>`
+    }
+    ${
+      risks
+        ? `<section class="detail-section"><h4>リスク要因</h4><ul class="detail-list">${risks}</ul></section>`
+        : ""
+    }
+    ${
+      q.confidence
+        ? `<section class="detail-section"><h4>信頼度</h4><p class="detail-text">${escapeHtml(confidenceLabel(q.confidence))}</p></section>`
+        : ""
+    }
+    ${
+      sources
+        ? `<section class="detail-section"><h4>参照</h4><ul class="detail-links">${sources}</ul></section>`
+        : ""
+    }
+    <p class="detail-note">AI参考情報です。投資判断は自己責任でお願いします。</p>
+  `;
+
+  if (typeof dialog.showModal === "function") {
+    dialog.showModal();
+  }
+}
+
+function renderSignalRows(container, rows, emptyText, options = {}) {
+  const { clickable = false } = options;
   if (!rows?.length) {
     container.innerHTML = `<li class="signal-empty">${escapeHtml(emptyText)}</li>`;
     return;
   }
   container.innerHTML = rows
-    .map((row) => {
+    .map((row, idx) => {
       const close =
         row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
       const pnl =
@@ -45,24 +157,51 @@ function renderSignalRows(container, rows, emptyText) {
         : "";
       const q = row.quality;
       const qualityHtml = q
-        ? `<span class="signal-quality" title="${escapeHtml(q.background || "")}">${starsLabel(q.stars)}</span>`
+        ? `<span class="signal-quality">${starsLabel(q.stars)}</span>`
         : "";
-      const bg = q?.background
-        ? `<p class="signal-bg">${escapeHtml(q.background)}</p>`
+      const bg =
+        !clickable && q?.background
+          ? `<p class="signal-bg">${escapeHtml(q.background)}</p>`
+          : "";
+      const hint = clickable
+        ? `<span class="signal-hint" aria-hidden="true">詳細 ›</span>`
         : "";
-      return `<li class="signal-item">
+      const itemClass = clickable ? "signal-item signal-item-clickable" : "signal-item";
+      const attrs = clickable
+        ? ` role="button" tabindex="0" data-signal-index="${idx}" aria-label="${escapeHtml(row.code)} ${escapeHtml(row.name)} の詳細"`
+        : "";
+      return `<li class="${itemClass}"${attrs}>
         <div class="signal-head">
           <span class="code">${escapeHtml(row.code)}</span>
           <span class="name">${escapeHtml(row.name)}</span>
           ${qualityHtml}
           ${close}
           ${pnl}
+          ${hint}
         </div>
         ${flagHtml}
         ${bg}
       </li>`;
     })
     .join("");
+
+  if (clickable && rows?.length) {
+    container.onclick = (e) => {
+      const item = e.target.closest("[data-signal-index]");
+      if (!item) return;
+      openSignalDetail(rows[Number(item.dataset.signalIndex)]);
+    };
+    container.onkeydown = (e) => {
+      if (e.key !== "Enter" && e.key !== " ") return;
+      const item = e.target.closest("[data-signal-index]");
+      if (!item) return;
+      e.preventDefault();
+      openSignalDetail(rows[Number(item.dataset.signalIndex)]);
+    };
+  } else {
+    container.onclick = null;
+    container.onkeydown = null;
+  }
 }
 
 function renderBuyTimeline(daily) {
@@ -285,6 +424,7 @@ function setupControls(controls) {
 async function init() {
   const err = document.getElementById("error");
   setupTabs();
+  setupSignalModal();
   let data;
   try {
     const res = await fetch("data.json", { cache: "no-store" });
@@ -330,11 +470,14 @@ async function init() {
     today.new_buy?.length ?? today.new_buy_count ?? 0,
   );
   document.getElementById("sellback-count").textContent = String(today.sellback?.length ?? 0);
-  renderSignalRows(document.getElementById("today-buy"), today.new_buy, "本日の新買はありません");
+  renderSignalRows(document.getElementById("today-buy"), today.new_buy, "本日の新買はありません", {
+    clickable: true,
+  });
   renderSignalRows(
     document.getElementById("today-sellback"),
     today.sellback,
     "本日の返売りはありません",
+    { clickable: true },
   );
 
   renderSpecial(data.special);
