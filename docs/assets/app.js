@@ -50,6 +50,16 @@ function confidenceLabel(value) {
   }
 }
 
+function formatDividend(dividend) {
+  if (!dividend || typeof dividend !== "object") return "";
+  const parts = [];
+  if (dividend.yield_pct != null) parts.push(`利回り ${dividend.yield_pct}%`);
+  if (dividend.annual_yen != null) parts.push(`年間 ${fmt.format(dividend.annual_yen)}円/株`);
+  if (dividend.ex_date) parts.push(`権利付き最終日 ${dividend.ex_date}`);
+  if (dividend.payout_ratio_pct != null) parts.push(`配当性向 ${dividend.payout_ratio_pct}%`);
+  return parts.join(" · ");
+}
+
 function setupSignalModal() {
   const dialog = document.getElementById("signal-detail");
   const closeBtn = document.getElementById("signal-detail-close");
@@ -89,10 +99,15 @@ function openSignalDetail(row) {
   if (row.rsi_ok) tech.push("RSI条件 ✓");
   if (row.rci_ok) tech.push("RCI条件 ✓");
   if (row.pnl != null) tech.push(`損益 ${formatIncome(row.pnl)}`);
+  const yahooUrl = row.code
+    ? `https://finance.yahoo.co.jp/quote/${encodeURIComponent(String(row.code).replace(/\\.T$/, "") + ".T")}`
+    : "";
 
   const risks = (q.risk_factors || [])
     .map((r) => `<li>${escapeHtml(r)}</li>`)
     .join("");
+  const dividendText = formatDividend(q.dividend);
+  const benefitText = (q.shareholder_benefit || "").trim();
   const sources = (q.sources || [])
     .filter(Boolean)
     .map(
@@ -113,6 +128,16 @@ function openSignalDetail(row) {
         : `<section class="detail-section"><h4>背景・分析</h4><p class="detail-muted">評価テキストがありません</p></section>`
     }
     ${
+      dividendText
+        ? `<section class="detail-section"><h4>配当</h4><p class="detail-text">${escapeHtml(dividendText)}</p></section>`
+        : ""
+    }
+    ${
+      benefitText
+        ? `<section class="detail-section"><h4>株主優待</h4><p class="detail-text">${escapeHtml(benefitText)}</p></section>`
+        : `<section class="detail-section"><h4>株主優待</h4><p class="detail-muted">情報なし</p></section>`
+    }
+    ${
       risks
         ? `<section class="detail-section"><h4>リスク要因</h4><ul class="detail-list">${risks}</ul></section>`
         : ""
@@ -123,8 +148,12 @@ function openSignalDetail(row) {
         : ""
     }
     ${
-      sources
-        ? `<section class="detail-section"><h4>参照</h4><ul class="detail-links">${sources}</ul></section>`
+      sources || yahooUrl
+        ? `<section class="detail-section"><h4>リンク</h4><ul class="detail-links">${
+            yahooUrl
+              ? `<li><a href="${escapeHtml(yahooUrl)}" target="_blank" rel="noopener noreferrer">Yahoo!ファイナンス</a></li>`
+              : ""
+          }${sources}</ul></section>`
         : ""
     }
     <p class="detail-note">AI参考情報です。投資判断は自己責任でお願いします。</p>

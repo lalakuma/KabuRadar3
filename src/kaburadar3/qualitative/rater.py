@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from kaburadar3.market_data.fundamentals import fetch_dividend_info
 from kaburadar3.news.fetch import NewsItem, fetch_news
 from kaburadar3.qualitative.gemini_client import generate_json
 from kaburadar3.qualitative.schema import QualityRating
@@ -35,6 +36,26 @@ def save_cache(cache: dict[str, dict[str, Any]], path: Path | None = None) -> No
     target.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _format_dividend_hint(dividend: dict[str, Any]) -> str:
+    if not dividend:
+        return "（配当データなし）"
+    parts: list[str] = []
+    if dividend.get("yield_pct") is not None:
+        parts.append(f"利回り {dividend['yield_pct']}%")
+    if dividend.get("annual_yen") is not None:
+        parts.append(f"年間 {dividend['annual_yen']}円/株")
+    if dividend.get("ex_date"):
+        parts.append(f"権利付き最終日 {dividend['ex_date']}")
+    return " · ".join(parts) if parts else "（配当データなし）"
+
+
+def _apply_fundamentals(rating: QualityRating, code: str) -> QualityRating:
+    dividend = fetch_dividend_info(code)
+    if dividend:
+        rating.dividend = dividend
+    return rating
+
+
 def _build_prompt(
     code: str,
     name: str,
@@ -42,6 +63,7 @@ def _build_prompt(
     news: list[NewsItem],
     pf: float | None = None,
     win_rate: float | None = None,
+    dividend: dict[str, Any] | None = None,
 ) -> str:
     news_lines = "\n".join(
         f"- [{n.published}] {n.title} ({n.publisher}) {n.url}".strip() for n in news
@@ -59,22 +81,44 @@ def _build_prompt(
 - 名称: {name or '不明'}
 - 当日シグナル: {signal}
 - バックテスト参考: {stats or 'なし'}
+- 配当（参考）: {_format_dividend_hint(dividend or {})}
 
 ## 直近ニュース
 {news_lines}
 
-## 評価基準
-- ★5: 一時的要因・需給要因が主で、ファンダは大きく毀損していない
-- ★4: やや良い。反発余地が比較的大きい
-- ★3: 中立・情報不足
-- ★2: 構造的リスクや業績懸念が残る
-- ★1: 継続的な悪材料・倒産/重大不祥事レベルの懸念
+## 評価基準（★1〜★5）
+
+★5（超本命）:
+- 通期最高益や大幅増益など業績は絶好調。
+- 下落理由が「コンセンサス微未達」「過剰な連れ安」「大手証券の目標株価引き下げ」など、一時的な過剰売り（絶好の押し目）である場合。
+- または「悪材料後の大出来高アク抜け」「大規模自社株買い同時発表」「親会社・グループ都合の過剰連れ安」に該当する場合。
+
+★4（優良・主戦場）:
+- 本業の業績は堅調。
+- 進捗遅れや決算直後の利確売り、全体地合いによる連れ安など一時的な下落で、企業価値は健全な場合。
+
+★3（中立・様子見）:
+- 下落理由が明確でない、または好悪材料が拮抗している場合。
+
+★2（警戒・スルー推奨）:
+- 業績悪化の兆候がある、または下落圧力が長引く可能性が高い場合。
+
+★1（危険・絶対見送り）:
+- 「公募増資・新株発行（希薄化）」「通期業績の下方修正」「赤字転落」「減配」「不正・不祥事」など、企業価値そのものを損なう構造的悪材料。
+
+上記基準に最も近い星を1つ選び、該当理由を background に簡潔に書いてください。
+
+## 判定の注意
+- 増収増益・本業堅調が確認でき、下落が決算後利確・材料出尽くし・コンセンサス想定線・粗利率への一時的警戒などなら、★3 ではなく ★4 を優先する。
+- 通期最高益級のサプライズや明確な過剰売りなら ★5 を検討する。
+- ニュース件数が少なくても、取得できた材料から ★4/★5 の条件に該当すれば積極的に付ける。情報不足だけで ★3 にしない。
 
 ## 出力（JSON のみ）
 {{
   "code": "{code}",
   "stars": 1-5 の整数,
   "background": "下落理由・背景を日本語1-2文",
+  "shareholder_benefit": "株主優待の概要（実施がなければ「なし」、1-2文）",
   "risk_factors": ["リスク1", "リスク2"],
   "confidence": "high|medium|low",
   "sources": ["参照URL"]
@@ -97,10 +141,15 @@ def rate_symbol(
     cache = cache if cache is not None else load_cache()
     key = _cache_key(code, trade_date) if trade_date else code
     if use_cache and key in cache:
-        return QualityRating.from_dict(cache[key])
+        cached = cache[key]
+        if cached.get("shareholder_benefit"):
+            return _apply_fundamentals(QualityRating.from_dict(cached), code)
 
+    dividend = fetch_dividend_info(code)
     news = fetch_news(code)
-    prompt = _build_prompt(code, name, signal, news, pf=pf, win_rate=win_rate)
+    prompt = _build_prompt(
+        code, name, signal, news, pf=pf, win_rate=win_rate, dividend=dividend
+    )
     try:
         raw = generate_json(prompt, model=model)
     except Exception as exc:
@@ -113,7 +162,7 @@ def rate_symbol(
             "sources": [n.url for n in news if n.url][:3],
         }
 
-    rating = QualityRating.from_dict(raw)
+    rating = _apply_fundamentals(QualityRating.from_dict(raw), code)
     if trade_date:
         cache[key] = rating.to_dict()
     return rating

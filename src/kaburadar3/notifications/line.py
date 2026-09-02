@@ -36,6 +36,25 @@ def is_weekend() -> bool:
     return datetime.today().isoweekday() in (6, 7)
 
 
+def format_stars(stars: int | None) -> str:
+    """★1〜5 を ★★★★☆ 形式の文字列にする。"""
+    if stars is None:
+        return ""
+    value = max(1, min(5, int(stars)))
+    return "★" * value + "☆" * (5 - value)
+
+
+def format_signal_row(row: dict) -> str:
+    """新買・返売り1行（コード・名称・終値・星）。"""
+    close = row.get("close")
+    yen = f" ¥{close:,d}" if close is not None else ""
+    name = row.get("name") or ""
+    quality = row.get("quality") or {}
+    star_text = format_stars(quality.get("stars"))
+    star_part = f" {star_text}" if star_text else ""
+    return f"{row['code']} {name}{yen}{star_part}"
+
+
 def notify(codes: Iterable[str], stance: str) -> bool:
     if is_weekend():
         return False
@@ -111,10 +130,11 @@ def notify_analysis_summary(stance: str | None = None, limit: int = 10) -> bool:
     return notify_optional(body, stance)
 
 
-def notify_from_payload(payload: dict) -> bool:
+def notify_from_payload(payload: dict, *, force: bool = False) -> bool:
     """publish 後の data.json 相当ペイロードから当日・特別シグナルを LINE 送信。"""
     from datetime import timezone
 
+    from kaburadar3.notifications.line_state import already_notified, mark_notified
     from kaburadar3.publishing.ci_meta import pages_public_url, workflow_run_url
     from kaburadar3.settings.runtime import RuntimeConfig
 
@@ -122,6 +142,10 @@ def notify_from_payload(payload: dict) -> bool:
     today = payload.get("today") or {}
     trade_date = today.get("trade_date") or "—"
     now = datetime.now(timezone.utc).astimezone()
+
+    if not force and already_notified(trade_date):
+        print(f"LINE: {trade_date} は送信済みのためスキップします。")
+        return False
 
     body: list[str] = [
         f"KabuRadar {payload.get('mode', 'LO')}",
@@ -134,10 +158,7 @@ def notify_from_payload(payload: dict) -> bool:
         body.append(f"— 今日の買い（新買）{len(buys)}件 —")
         if buys:
             for row in buys:
-                close = row.get("close")
-                yen = f" ¥{close:,d}" if close is not None else ""
-                name = row.get("name") or ""
-                body.append(f"{row['code']} {name}{yen}")
+                body.append(format_signal_row(row))
         else:
             body.append("なし")
 
@@ -146,10 +167,7 @@ def notify_from_payload(payload: dict) -> bool:
         body.append(f"— 今日の返売り {len(backs)}件 —")
         if backs:
             for row in backs:
-                close = row.get("close")
-                yen = f" ¥{close:,d}" if close is not None else ""
-                name = row.get("name") or ""
-                body.append(f"{row['code']} {name}{yen}")
+                body.append(format_signal_row(row))
         else:
             body.append("なし")
 
@@ -166,9 +184,13 @@ def notify_from_payload(payload: dict) -> bool:
 
     pages = pages_public_url()
     if pages:
-        body.append(f"Web: {pages}")
+        body.append(f"詳細: {pages}")
+
     run_url = workflow_run_url()
     if run_url:
         body.append(f"Log: {run_url}")
 
-    return notify_optional(body, "")
+    sent = notify_optional(body, "")
+    if sent:
+        mark_notified(trade_date)
+    return sent

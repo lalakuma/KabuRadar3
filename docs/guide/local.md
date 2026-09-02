@@ -18,7 +18,7 @@ rem data\kaburadar.db を手元の DB からコピー（初回のみ）
 | やりたいこと | コマンド |
 |--------------|----------|
 | LO 本番相当（更新→解析→JSON） | `bat\screening_lo.bat` |
-| HI 本番相当 | `bat\screening_hi.bat` |
+| （旧 HI） | `bat\screening_hi.bat` → LO に委譲 |
 | 解析だけ | `bat\analyze.bat --config config\config_lo.ini` |
 | Web JSON だけ | `bat\publish.bat` |
 | 解析→公開 JSON→git push | `bat\analyze_and_publish.bat` |
@@ -28,7 +28,7 @@ rem data\kaburadar.db を手元の DB からコピー（初回のみ）
 
 ### 方法 A: 常駐スケジューラ（おすすめ）
 
-PC を起動したまま、30秒ごとに時刻を監視します。**9:00 / 10:00 / 16:00** の各ウィンドウ内で1回だけ実行します。
+PC を起動したまま、30秒ごとに時刻を監視します。**11:30 / 15:00 / 16:00** の各ウィンドウ内で1回だけ LO を実行します。
 
 ```bat
 bat\run_local_scheduler.bat
@@ -43,13 +43,13 @@ bat\run_local_scheduler.bat
 Actions と同様のずれがなく、**指定時刻ぴったり**に起動できます。
 
 1. **タスクスケジューラ** を開く
-2. 基本タスクを3つ作成（平日のみ・ログオン時でも可）
+2. 一括登録: `bat\register_task_scheduler.bat`（平日 **11:30 / 15:00 / 16:00** LO）
 
 | タスク名 | トリガー | 操作 |
 |----------|----------|------|
-| KabuRadar3-HI-0900 | 平日 9:00 | `bat\screening_hi.bat` |
-| KabuRadar3-LO-1000 | 平日 10:00 | `bat\screening_lo.bat` |
-| KabuRadar3-LO-1600 | 平日 16:00 | `bat\screening_lo.bat` |
+| KabuRadar3-LO-1130 | 平日 11:30 | `bat\run_slot_once.bat lo_1130` |
+| KabuRadar3-LO-1500 | 平日 15:00 | `bat\run_slot_once.bat lo_1500` |
+| KabuRadar3-LO-1600 | 平日 16:00 | `bat\run_slot_once.bat lo_1600` |
 
 **プログラム:** `C:\share\MorinoFolder\Python\KabuRadar3\bat\screening_lo.bat`  
 **開始:** `C:\share\MorinoFolder\Python\KabuRadar3\bat`

@@ -14,9 +14,11 @@ class QualityRating:
     risk_factors: list[str] = field(default_factory=list)
     confidence: str = "medium"
     sources: list[str] = field(default_factory=list)
+    dividend: dict[str, Any] = field(default_factory=dict)
+    shareholder_benefit: str = ""
 
     def to_dict(self) -> dict[str, Any]:
-        return {
+        out: dict[str, Any] = {
             "code": self.code,
             "stars": self.stars,
             "background": self.background,
@@ -24,6 +26,11 @@ class QualityRating:
             "confidence": self.confidence,
             "sources": list(self.sources),
         }
+        if self.dividend:
+            out["dividend"] = dict(self.dividend)
+        if self.shareholder_benefit:
+            out["shareholder_benefit"] = self.shareholder_benefit
+        return out
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> QualityRating:
@@ -35,6 +42,9 @@ class QualityRating:
         sources = data.get("sources") or []
         if not isinstance(sources, list):
             sources = [str(sources)]
+        dividend = data.get("dividend") or {}
+        if not isinstance(dividend, dict):
+            dividend = {}
         return cls(
             code=str(data.get("code", "")),
             stars=stars,
@@ -42,4 +52,6 @@ class QualityRating:
             risk_factors=[str(x) for x in risks][:5],
             confidence=str(data.get("confidence", "medium")),
             sources=[str(x) for x in sources][:5],
+            dividend=dividend,
+            shareholder_benefit=str(data.get("shareholder_benefit", "")).strip(),
         )

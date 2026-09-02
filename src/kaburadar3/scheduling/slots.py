@@ -30,12 +30,12 @@ class LocalSlot:
 
 LOCAL_SLOTS: tuple[LocalSlot, ...] = (
     LocalSlot(
-        slot_id="hi_1130",
-        label="11:30 HI（場中・RSI4反転）",
+        slot_id="lo_1130",
+        label="11:30 LO（場中）",
         at=time(11, 30),
         window_minutes=10,
-        config="config/config_hi.ini",
-        script="screening_hi",
+        config="config/config_lo.ini",
+        script="screening_lo",
     ),
     LocalSlot(
         slot_id="lo_1500",
@@ -71,6 +71,12 @@ def save_state(state: dict[str, list[str]], path: Path | None = None) -> None:
     target = path or STATE_FILE
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def is_slot_done(slot_id: str, now: datetime | None = None, state: dict[str, list[str]] | None = None) -> bool:
+    now = now or datetime.now()
+    state = state if state is not None else load_state()
+    return slot_id in state.get(now.date().isoformat(), [])
 
 
 def slots_due(now: datetime | None = None, state: dict[str, list[str]] | None = None) -> list[LocalSlot]:

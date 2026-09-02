@@ -156,6 +156,10 @@ def shuukei_makeExl(shuukei_path, stance):
     # トレード銘柄決定処理
     df_con, lst_data = decide_trade(shuukei_path)
 
+    if df_con.empty or "code" not in df_con.columns:
+        print("集計対象ファイルがありません。")
+        return 0, "", 0
+
     #継続に含み益を入力
     # 各codeごとに処理を行います
     for code in df_con['code'].unique():

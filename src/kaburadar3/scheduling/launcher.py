@@ -7,8 +7,16 @@ import datetime as dt
 import logging
 import os
 import time
+from pathlib import Path
 
-from kaburadar3.scheduling.slots import LOCAL_SLOTS, load_state, mark_slot_done, slots_due
+from kaburadar3.scheduling.slots import (
+    LOCAL_SLOTS,
+    STATE_FILE,
+    is_slot_done,
+    load_state,
+    mark_slot_done,
+    slots_due,
+)
 from kaburadar3.settings.paths import LOG_DIR, PROJECT_ROOT
 from kaburadar3.settings.scripts import run_script
 
@@ -29,29 +37,69 @@ def _setup_logger() -> logging.Logger:
     return logger
 
 
-def _run_slot(slot_id: str, logger: logging.Logger, push: bool = False) -> int:
+def _slot_lock_path(slot_id: str, day_key: str) -> Path:
+    return STATE_FILE.parent / f".lock_{slot_id}_{day_key}"
+
+
+def _acquire_slot_lock(slot_id: str, day_key: str) -> Path | None:
+    lock = _slot_lock_path(slot_id, day_key)
+    lock.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        os.close(fd)
+        return lock
+    except FileExistsError:
+        return None
+
+
+def _release_slot_lock(lock: Path | None) -> None:
+    if lock is not None:
+        lock.unlink(missing_ok=True)
+
+
+def _run_slot(slot_id: str, logger: logging.Logger, push: bool = False, force: bool = False) -> int:
     slot = next((s for s in LOCAL_SLOTS if s.slot_id == slot_id), None)
     if slot is None:
         logger.error("Unknown slot: %s", slot_id)
         return 2
 
+    now = dt.datetime.now()
+    day_key = now.date().isoformat()
+    if not force and is_slot_done(slot_id, now):
+        logger.info("Slot %s already done on %s, skip.", slot_id, day_key)
+        return 0
+
+    lock = _acquire_slot_lock(slot_id, day_key)
+    if lock is None:
+        logger.info("Slot %s is running elsewhere on %s, skip.", slot_id, day_key)
+        return 0
+
     os.environ["KABURADAR_CONFIG"] = str((PROJECT_ROOT / slot.config).resolve())
     logger.info("Run slot %s (%s) config=%s", slot.slot_id, slot.label, slot.config)
 
-    rc = run_script(slot.script)
-    if rc != 0:
-        logger.error("Slot %s failed with code %s", slot.slot_id, rc)
-        return rc
-
-    if push:
-        rc = run_script("publish", "--push")
+    try:
+        rc = run_script(slot.script)
         if rc != 0:
-            logger.error("publish --push failed with code %s", rc)
+            logger.error("Slot %s failed with code %s", slot.slot_id, rc)
             return rc
 
-    mark_slot_done(slot.slot_id)
-    logger.info("Slot %s completed", slot.slot_id)
-    return 0
+        if push:
+            rc = run_script("publish", "--push")
+            if rc != 0:
+                logger.error("publish --push failed with code %s", rc)
+                return rc
+
+        if slot.slot_id == "lo_1600":
+            notify_rc = run_script("notify_line")
+            if notify_rc != 0:
+                logger.error("notify_line failed with code %s", notify_rc)
+                return notify_rc
+
+        mark_slot_done(slot.slot_id, now)
+        logger.info("Slot %s completed", slot.slot_id)
+        return 0
+    finally:
+        _release_slot_lock(lock)
 
 
 def run_due(now: dt.datetime | None = None, push: bool = False) -> int:
@@ -100,7 +148,12 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--once",
         metavar="SLOT_ID",
-        help="指定スロットを即実行（例: hi_1130, lo_1500, lo_1600）",
+        help="指定スロットを即実行（例: lo_1130, lo_1500, lo_1600）",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="本日実行済みでも --once で再実行する",
     )
     parser.add_argument(
         "--due",
@@ -138,7 +191,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.once:
-        return _run_slot(args.once, logger, push=args.push)
+        return _run_slot(args.once, logger, push=args.push, force=args.force)
 
     if args.loop:
         run_loop(interval_sec=args.interval, push=args.push)

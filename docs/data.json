@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:48:02+09:00",
+  "generated_at": "2026-09-03T06:03:59+09:00",
   "mode": "LO",
   "summary": {
     "pf": 2.895,
@@ -346,15 +346,22 @@
         "quality": {
           "code": "2670",
           "stars": 4,
-          "background": "成長鈍化懸念に対して粗利率・利益率が12.2%へ改善しており本業の収益性は堅調。過剰な売りや決算後の利確売りによる一時的な押し目と判断され、短期的な反発が狙える局面です。",
+          "background": "利益率が12.2%に上昇するなど本業の収益性は堅調であり、成長減速懸念による押し目売りは一時的で短期的な反発が期待できます。",
           "risk_factors": [
-            "インバウンド需要の一巡や個人消費の落ち込み",
-            "為替変動による仕入れコストの上昇"
+            "インバウンド需要の減速や個人消費の冷え込み",
+            "円安進行による輸入仕入コストの上昇"
           ],
           "confidence": "medium",
           "sources": [
             "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
-          ]
+          ],
+          "dividend": {
+            "annual_yen": 80,
+            "yield_pct": 2.96,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 40.1
+          },
+          "shareholder_benefit": "100株以上保有の株主に対し、全国の自社店舗で使える株主優待買物割引券（1,000円券3枚〜）を年1回進呈。"
         },
         "rsi_ok": true,
         "rci_ok": true
@@ -369,16 +376,23 @@
         "rci_turn": true,
         "quality": {
           "code": "3391",
-          "stars": 3,
-          "background": "明確な単一の悪材料は確認されず、売上成長の持続性に対する市場の慎重な見方や全般的な需給調整が背景にあると考えられます。",
+          "stars": 4,
+          "background": "売上高の成長が継続しており本業の業績は健全ですが、明確な構造的悪材料がない中での一時的な利確売りや地合いによる調整と見られます。",
           "risk_factors": [
-            "ドラッグストア業界内の価格競争激化",
-            "過去データにおけるテクニカルシグナルの低い勝率"
+            "ドラッグストア業界における価格競争の激化",
+            "ウエルシアホールディングスとの経営統合に向けたプロセスの遅延リスク"
           ],
-          "confidence": "low",
+          "confidence": "medium",
           "sources": [
             "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
-          ]
+          ],
+          "dividend": {
+            "annual_yen": 48,
+            "yield_pct": 2.13,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 34.5
+          },
+          "shareholder_benefit": "100株以上の保有で、自社グループ店舗で使える株主優待カード（5%割引）および株主ギフト券（2,500円相当〜）等が贈呈されます。"
         },
         "rsi_ok": true,
         "rci_ok": true
@@ -394,16 +408,23 @@
         "quality": {
           "code": "6141",
           "stars": 3,
-          "background": "直近の海外子会社に関する財務動向記事はあるものの、株価下落に直接つながる明確な国内材料は不足しています。",
+          "background": "直近ニュースからは明確な急落要因が特定できず、世界的な設備投資動向や資本効率に対する警戒感と全体地合いによる影響が拮抗しているため様子見と判断します。",
           "risk_factors": [
-            "工作機械需要の減速懸念",
-            "海外市場での資本効率低迷リスク"
+            "世界的な設備投資需要の停滞や工作機械市況の悪化",
+            "為替変動（円高進行）による業績下振れリスク"
           ],
           "confidence": "low",
           "sources": [
             "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
             "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
-          ]
+          ],
+          "dividend": {
+            "annual_yen": 105,
+            "yield_pct": 3.52,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 2.2
+          },
+          "shareholder_benefit": "100株以上を2年以上継続保有する株主を対象に、自社オリジナルカレンダー等を贈呈。"
         },
         "rsi_ok": true,
         "rci_ok": true
@@ -418,16 +439,23 @@
         "rci_turn": true,
         "quality": {
           "code": "6254",
-          "stars": 3,
-          "background": "FY2026の業績弱含みが下落要因となっているものの、FY2027に向けた業績回復見通しも示されており、足元の調整と将来的な見直し期待が交錯する局面です。",
+          "stars": 4,
+          "background": "FY2026の一時的な業績伸び悩みによる下落が一巡し、続くFY2027に向けた強固な業績回復見通しに対する一時的な過剰売りの反発局面と評価できるため。",
           "risk_factors": [
-            "半導体製造装置の需要サイクルに伴う短期的業績低迷の長期化リスク",
-            "バックテスト結果（勝率0%）が示す短期モメンタムの乏しさ"
+            "半導体関連企業の設備投資計画の延期や市況悪化リスク",
+            "業績回復ペースが市場予想に届かない場合の下落リスク"
           ],
           "confidence": "medium",
           "sources": [
             "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
-          ]
+          ],
+          "dividend": {
+            "annual_yen": 85,
+            "yield_pct": 2.44,
+            "ex_date": "2026-09-29",
+            "payout_ratio_pct": 82.3
+          },
+          "shareholder_benefit": "なし"
         },
         "rsi_ok": true,
         "rci_ok": true
@@ -443,15 +471,22 @@
         "quality": {
           "code": "7532",
           "stars": 4,
-          "background": "日経平均構成銘柄への採用発表に伴う一時的な材料出尽くし売りや、高バリュエーションに対する利益確定売りが下落の主因と推測されます。業績等のファンダメンタルズ自体に深刻な悪化は見られず、需給要因による一時的な押し目の可能性が高いです。",
+          "background": "日経平均株価構成銘柄への新加入が決定しており、インデックスファンド等による強力な需給買いが期待されるほか、本業のインバウンド需要や業績も堅調で押し目買いの質が高いと判断されます。",
           "risk_factors": [
-            "指数買いイベント通過後の需給悪化",
-            "消費動向の鈍化に伴う既存店売上高の伸び悩み"
+            "日経平均採用イベント通過後の材料出尽くし売り",
+            "為替変動やインバウンド需要の鈍化による店舗売上の下振れ"
           ],
-          "confidence": "medium",
+          "confidence": "high",
           "sources": [
             "https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html"
-          ]
+          ],
+          "dividend": {
+            "annual_yen": 10,
+            "yield_pct": 1.29,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 25.9
+          },
+          "shareholder_benefit": "100株以上を保有する株主に対し、自社グループ店舗で使える電子マネー「majica」ポイント2,000円分が年2回（6月・12月）進呈されます。"
         },
         "rsi_ok": true,
         "rci_ok": true
@@ -1961,78 +1996,113 @@
     "new_buy_count": 5,
     "exit_rsi": 70.0,
     "etf_rsi": {
-      "1321": 44.11,
-      "1306": 75.96
+      "1321": 16.56,
+      "1306": 30.99
     },
-    "active_rsi": 75.96,
+    "active_rsi": 30.99,
     "signal": null
   },
   "quality": {
     "2670": {
       "code": "2670",
       "stars": 4,
-      "background": "成長鈍化懸念に対して粗利率・利益率が12.2%へ改善しており本業の収益性は堅調。過剰な売りや決算後の利確売りによる一時的な押し目と判断され、短期的な反発が狙える局面です。",
+      "background": "利益率が12.2%に上昇するなど本業の収益性は堅調であり、成長減速懸念による押し目売りは一時的で短期的な反発が期待できます。",
       "risk_factors": [
-        "インバウンド需要の一巡や個人消費の落ち込み",
-        "為替変動による仕入れコストの上昇"
+        "インバウンド需要の減速や個人消費の冷え込み",
+        "円安進行による輸入仕入コストの上昇"
       ],
       "confidence": "medium",
       "sources": [
         "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
-      ]
+      ],
+      "dividend": {
+        "annual_yen": 80,
+        "yield_pct": 2.96,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 40.1
+      },
+      "shareholder_benefit": "100株以上保有の株主に対し、全国の自社店舗で使える株主優待買物割引券（1,000円券3枚〜）を年1回進呈。"
     },
     "3391": {
       "code": "3391",
-      "stars": 3,
-      "background": "明確な単一の悪材料は確認されず、売上成長の持続性に対する市場の慎重な見方や全般的な需給調整が背景にあると考えられます。",
+      "stars": 4,
+      "background": "売上高の成長が継続しており本業の業績は健全ですが、明確な構造的悪材料がない中での一時的な利確売りや地合いによる調整と見られます。",
       "risk_factors": [
-        "ドラッグストア業界内の価格競争激化",
-        "過去データにおけるテクニカルシグナルの低い勝率"
+        "ドラッグストア業界における価格競争の激化",
+        "ウエルシアホールディングスとの経営統合に向けたプロセスの遅延リスク"
       ],
-      "confidence": "low",
+      "confidence": "medium",
       "sources": [
         "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
-      ]
+      ],
+      "dividend": {
+        "annual_yen": 48,
+        "yield_pct": 2.13,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 34.5
+      },
+      "shareholder_benefit": "100株以上の保有で、自社グループ店舗で使える株主優待カード（5%割引）および株主ギフト券（2,500円相当〜）等が贈呈されます。"
     },
     "6141": {
       "code": "6141",
       "stars": 3,
-      "background": "直近の海外子会社に関する財務動向記事はあるものの、株価下落に直接つながる明確な国内材料は不足しています。",
+      "background": "直近ニュースからは明確な急落要因が特定できず、世界的な設備投資動向や資本効率に対する警戒感と全体地合いによる影響が拮抗しているため様子見と判断します。",
       "risk_factors": [
-        "工作機械需要の減速懸念",
-        "海外市場での資本効率低迷リスク"
+        "世界的な設備投資需要の停滞や工作機械市況の悪化",
+        "為替変動（円高進行）による業績下振れリスク"
       ],
       "confidence": "low",
       "sources": [
         "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
         "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
-      ]
+      ],
+      "dividend": {
+        "annual_yen": 105,
+        "yield_pct": 3.52,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 2.2
+      },
+      "shareholder_benefit": "100株以上を2年以上継続保有する株主を対象に、自社オリジナルカレンダー等を贈呈。"
     },
     "6254": {
       "code": "6254",
-      "stars": 3,
-      "background": "FY2026の業績弱含みが下落要因となっているものの、FY2027に向けた業績回復見通しも示されており、足元の調整と将来的な見直し期待が交錯する局面です。",
+      "stars": 4,
+      "background": "FY2026の一時的な業績伸び悩みによる下落が一巡し、続くFY2027に向けた強固な業績回復見通しに対する一時的な過剰売りの反発局面と評価できるため。",
       "risk_factors": [
-        "半導体製造装置の需要サイクルに伴う短期的業績低迷の長期化リスク",
-        "バックテスト結果（勝率0%）が示す短期モメンタムの乏しさ"
+        "半導体関連企業の設備投資計画の延期や市況悪化リスク",
+        "業績回復ペースが市場予想に届かない場合の下落リスク"
       ],
       "confidence": "medium",
       "sources": [
         "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
-      ]
+      ],
+      "dividend": {
+        "annual_yen": 85,
+        "yield_pct": 2.44,
+        "ex_date": "2026-09-29",
+        "payout_ratio_pct": 82.3
+      },
+      "shareholder_benefit": "なし"
     },
     "7532": {
       "code": "7532",
       "stars": 4,
-      "background": "日経平均構成銘柄への採用発表に伴う一時的な材料出尽くし売りや、高バリュエーションに対する利益確定売りが下落の主因と推測されます。業績等のファンダメンタルズ自体に深刻な悪化は見られず、需給要因による一時的な押し目の可能性が高いです。",
+      "background": "日経平均株価構成銘柄への新加入が決定しており、インデックスファンド等による強力な需給買いが期待されるほか、本業のインバウンド需要や業績も堅調で押し目買いの質が高いと判断されます。",
       "risk_factors": [
-        "指数買いイベント通過後の需給悪化",
-        "消費動向の鈍化に伴う既存店売上高の伸び悩み"
+        "日経平均採用イベント通過後の材料出尽くし売り",
+        "為替変動やインバウンド需要の鈍化による店舗売上の下振れ"
       ],
-      "confidence": "medium",
+      "confidence": "high",
       "sources": [
         "https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html"
-      ]
+      ],
+      "dividend": {
+        "annual_yen": 10,
+        "yield_pct": 1.29,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 25.9
+      },
+      "shareholder_benefit": "100株以上を保有する株主に対し、自社グループ店舗で使える電子マネー「majica」ポイント2,000円分が年2回（6月・12月）進呈されます。"
     }
   },
   "runtime": {
@@ -2062,5 +2132,8 @@
     "actions_run_url": "https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml",
     "runtime_edit_url": "https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json"
   },
-  "line_events": []
+  "line_events": [],
+  "run": {
+    "pages_url": "https://lalakuma.github.io/KabuRadar3"
+  }
 }

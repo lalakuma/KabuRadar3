@@ -5,6 +5,9 @@ from __future__ import annotations
 import os
 
 
+DEFAULT_PAGES_URL = "https://lalakuma.github.io/KabuRadar3"
+
+
 def pages_public_url() -> str:
     explicit = os.getenv("KABURADAR_PAGES_URL", "").strip().rstrip("/")
     if explicit:
@@ -13,7 +16,7 @@ def pages_public_url() -> str:
     if "/" in repo:
         owner, name = repo.split("/", 1)
         return f"https://{owner}.github.io/{name}"
-    return ""
+    return DEFAULT_PAGES_URL
 
 
 def workflow_run_url() -> str:
