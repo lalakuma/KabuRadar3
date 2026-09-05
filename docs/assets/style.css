@@ -372,13 +372,17 @@ body {
 }
 
 .signal-summary {
+  display: block;
+  padding: 0.55rem 0.65rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.signal-summary-main {
   display: grid;
   grid-template-columns: 4rem 1fr auto auto;
   gap: 0.25rem 0.5rem;
   align-items: center;
-  padding: 0.55rem 0.65rem;
-  cursor: pointer;
-  list-style: none;
 }
 
 .signal-summary::-webkit-details-marker {
@@ -393,11 +397,9 @@ body {
 }
 
 .signal-benefit-preview {
-  margin: 0;
-  padding: 0 0.65rem 0.55rem;
+  margin: 0.35rem 0 0;
   font-size: 0.82rem;
   color: var(--text);
-  border-bottom: 1px solid #334155;
 }
 
 .signal-detail-inline {

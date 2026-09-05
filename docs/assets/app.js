@@ -249,13 +249,15 @@ function renderDailyBuyRow(row) {
   return `<li class="signal-item signal-item-daily">
     <details class="signal-details">
       <summary class="signal-summary">
-        <span class="code">${escapeHtml(row.code)}</span>
-        <span class="name">${escapeHtml(row.name || "")}</span>
-        ${stars}
-        ${close}
+        <span class="signal-summary-main">
+          <span class="code">${escapeHtml(row.code)}</span>
+          <span class="name">${escapeHtml(row.name || "")}</span>
+          ${stars}
+          ${close}
+        </span>
+        ${benefitLine}
         <span class="signal-expand-hint">詳細を開く</span>
       </summary>
-      ${benefitLine}
       <div class="signal-detail-inline">${renderQualityDetailBody(row)}</div>
     </details>
   </li>`;
