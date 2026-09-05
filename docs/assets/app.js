@@ -153,12 +153,7 @@ function renderAnalysisBlock(q) {
   }
   if (q.technical_view) {
     sections.push(
-      `<section class="detail-section"><h4>シグナル所見</h4><p class="detail-text analysis-text">${escapeHtml(q.technical_view)}</p></section>`,
-    );
-  }
-  if (q.trade_notes) {
-    sections.push(
-      `<section class="detail-section"><h4>トレード留意</h4><p class="detail-text analysis-text">${escapeHtml(q.trade_notes)}</p></section>`,
+      `<section class="detail-section"><h4>チャート所見</h4><p class="detail-text analysis-text">${escapeHtml(q.technical_view)}</p></section>`,
     );
   }
   return sections.join("");

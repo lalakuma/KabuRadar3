@@ -41,8 +41,6 @@ class QualityRating:
             out["fundamental_summary"] = self.fundamental_summary
         if self.technical_view:
             out["technical_view"] = self.technical_view
-        if self.trade_notes:
-            out["trade_notes"] = self.trade_notes
         if self.watch_points:
             out["watch_points"] = list(self.watch_points)
         if self.valuation_view:
@@ -88,21 +86,39 @@ class QualityRating:
         if valuation_view not in {"cheap", "fair", "expensive", "unknown"}:
             valuation_view = ""
         return cls(
-            code=str(data.get("code", "")),
-            stars=stars,
-            background=str(data.get("background", "")).strip() or "情報不足",
-            risk_factors=[str(x) for x in risks][:5],
-            confidence=str(data.get("confidence", "medium")),
-            sources=[str(x) for x in sources][:5],
-            material_analysis=str(data.get("material_analysis", "")).strip(),
-            fundamental_summary=str(data.get("fundamental_summary", "")).strip(),
-            technical_view=str(data.get("technical_view", "")).strip(),
-            trade_notes=str(data.get("trade_notes", "")).strip(),
-            watch_points=[str(x) for x in watch_points][:4],
-            valuation_view=valuation_view,
-            dividend=dividend,
-            earnings=earnings,
-            valuation=valuation,
-            shareholder_benefit=str(data.get("shareholder_benefit", "")).strip(),
-            shareholder_benefit_detail=benefit_detail,
-        )
+            code=str(data.get("code", "")),
+
+            stars=stars,
+
+            background=str(data.get("background", "")).strip() or "情報不足",
+
+            risk_factors=[str(x) for x in risks][:5],
+
+            confidence=str(data.get("confidence", "medium")),
+
+            sources=[str(x) for x in sources][:5],
+
+            material_analysis=str(data.get("material_analysis", "")).strip(),
+
+            fundamental_summary=str(data.get("fundamental_summary", "")).strip(),
+
+            technical_view=str(data.get("technical_view", "")).strip(),
+
+            trade_notes=str(data.get("trade_notes", "")).strip(),
+
+            watch_points=[str(x) for x in watch_points][:4],
+
+            valuation_view=valuation_view,
+
+            dividend=dividend,
+
+            earnings=earnings,
+
+            valuation=valuation,
+
+            shareholder_benefit=str(data.get("shareholder_benefit", "")).strip(),
+
+            shareholder_benefit_detail=benefit_detail,
+
+        )
+

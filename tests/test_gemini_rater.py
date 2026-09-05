@@ -52,9 +52,9 @@ def test_build_prompt_includes_fundamentals() -> None:
     assert "2月決算" in prompt
     assert "material_analysis" in prompt
     assert "technical_view" in prompt
-    assert "trade_notes" in prompt
+    assert "サポート" in prompt
+    assert "trade_notes" not in prompt
     assert "RSI4 8.50" in prompt
-    assert "RSI60" in prompt
     assert "バックテスト" not in prompt
 
 

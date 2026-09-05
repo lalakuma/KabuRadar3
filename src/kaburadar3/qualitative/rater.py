@@ -15,7 +15,7 @@ from kaburadar3.qualitative.schema import QualityRating
 from kaburadar3.settings.paths import PROJECT_ROOT
 
 CACHE_FILE = PROJECT_ROOT / "data" / "quality_cache.json"
-PROMPT_VERSION = 3
+PROMPT_VERSION = 4
 
 
 def _cache_key(code: str, trade_date: str) -> str:
@@ -238,17 +238,16 @@ def _build_prompt(
 - 増収増益・本業堅調が確認でき、下落が決算後利確・材料出尽くし・コンセンサス想定線・粗利率への一時的警戒などなら、★3 ではなく ★4 を優先する。
 - 通期最高益級のサプライズや明確な過剰売りなら ★5 を検討する。
 - ニュース件数が少なくても、取得できた材料から ★4/★5 の条件に該当すれば積極的に付ける。情報不足だけで ★3 にしない。
-- trade_notes では RSI60 利確ルールと決算・材料リスクを踏まえた短期の持ち方を書く。
+- material_analysis は短く要点だけ。technical_view では RSI/RCI/エントリー条件の説明は不要（ユーザーは既知）。
 
 ## 出力（JSON のみ）
 {{
   "code": "{code}",
   "stars": 1-5 の整数,
   "background": "なぜ今下落しているか。ニュースと地合いを踏まえ日本語2-4文",
-  "material_analysis": "直近ニュース・材料の読み解き。好材料/悪材料/織り込み度を日本語3-5文",
+  "material_analysis": "直近材料の要点のみ。好材料/悪材料/織り込みを日本語1-2文・短文",
   "fundamental_summary": "業績・財務・バリュエーション・決算時期・優待/配当を踏まえた分析を日本語4-6文",
-  "technical_view": "RSI/RCI押し目シグナルの質。反発しやすい局面かを日本語2-3文",
-  "trade_notes": "RSI60利確・損切り・決算前後など短期トレード上の留意点を日本語2-3文",
+  "technical_view": "終値を前提にサポートライン・抵抗線・節目の価格帯・前高安/前安値・移動平均などチャート上の位置関係を日本語1-2文。RSI/RCI/シグナル点灯の説明は書かない",
   "valuation_view": "cheap|fair|expensive|unknown",
   "risk_factors": ["リスク1", "リスク2", "リスク3"],
   "watch_points": ["今後確認すること1", "今後確認すること2"],
@@ -296,7 +295,6 @@ def rate_symbol(
             "material_analysis": "",
             "fundamental_summary": "",
             "technical_view": "",
-            "trade_notes": "",
             "valuation_view": "unknown",
             "risk_factors": ["評価失敗"],
             "watch_points": [],

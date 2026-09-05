@@ -28,8 +28,7 @@ def _print_row(r: dict, prefix: str = "  ") -> None:
         ("背景", "background"),
         ("材料", "material_analysis"),
         ("ファンダ", "fundamental_summary"),
-        ("シグナル", "technical_view"),
-        ("トレード", "trade_notes"),
+        ("チャート", "technical_view"),
     ):
         val = _clip(str(q.get(key) or ""), 140)
         if val:
