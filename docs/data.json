@@ -1,225 +1,170 @@
 {
-  "generated_at": "2026-09-03T06:03:59+09:00",
+  "generated_at": "2026-09-05T16:55:16+09:00",
   "mode": "LO",
   "summary": {
-    "pf": 2.895,
-    "wins": 20,
-    "losses": 8,
-    "win_rate": 71.43,
-    "total_income": 130000,
-    "symbol_count": 29,
-    "neutral_count": 5,
-    "source_file": "Y0_PF2.895_W20L8_rate71.43_all130000.csv"
+    "pf": 1.447,
+    "wins": 15,
+    "losses": 7,
+    "win_rate": 68.18,
+    "total_income": 36000,
+    "symbol_count": 26,
+    "neutral_count": 6,
+    "source_file": "Y0_PF1.447_W15L7_rate68.18_all36000.csv"
   },
   "symbols": [
+    {
+      "code": "3436",
+      "name": "ＳＵＭＣＯ",
+      "industry": "nan",
+      "incomes": 39900,
+      "pf": 106.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 10620,
+      "minus_gain": 0
+    },
     {
       "code": "6055",
       "name": "ジャパンマテリアル",
       "industry": "nan",
-      "incomes": 28400,
-      "pf": 125.3,
+      "incomes": 24800,
+      "pf": 109.4,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 12530,
-      "minus_gain": 0
-    },
-    {
-      "code": "2871",
-      "name": "ニチレイ",
-      "industry": "nan",
-      "incomes": 21000,
-      "pf": 97.7,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 9770,
-      "minus_gain": 0
-    },
-    {
-      "code": "5393",
-      "name": "ニチアス",
-      "industry": "nan",
-      "incomes": 16200,
-      "pf": 48.2,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 4820,
-      "minus_gain": 0
-    },
-    {
-      "code": "5471",
-      "name": "大同特殊鋼",
-      "industry": "nan",
-      "incomes": 13200,
-      "pf": 56.1,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 5610,
-      "minus_gain": 0
-    },
-    {
-      "code": "6632",
-      "name": "ＪＶＣケンウッド",
-      "industry": "nan",
-      "incomes": 11400,
-      "pf": 109.2,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 10920,
-      "minus_gain": 0
-    },
-    {
-      "code": "2168",
-      "name": "パソナグループ",
-      "industry": "nan",
-      "incomes": 10400,
-      "pf": 69.4,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 6940,
-      "minus_gain": 0
-    },
-    {
-      "code": "7846",
-      "name": "パイロットコーポレーション",
-      "industry": "nan",
-      "incomes": 9100,
-      "pf": 50.4,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 5040,
-      "minus_gain": 0
-    },
-    {
-      "code": "7912",
-      "name": "大日本印刷",
-      "industry": "nan",
-      "incomes": 8900,
-      "pf": 29.7,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 2970,
-      "minus_gain": 0
-    },
-    {
-      "code": "4042",
-      "name": "東ソー",
-      "industry": "nan",
-      "incomes": 8400,
-      "pf": 30.1,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 3010,
-      "minus_gain": 0
-    },
-    {
-      "code": "7276",
-      "name": "小糸製作所",
-      "industry": "nan",
-      "incomes": 8300,
-      "pf": 31.4,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 3140,
-      "minus_gain": 0
-    },
-    {
-      "code": "9302",
-      "name": "三井倉庫ホールディングス",
-      "industry": "nan",
-      "incomes": 7800,
-      "pf": 21.8,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 2180,
-      "minus_gain": 0
-    },
-    {
-      "code": "4088",
-      "name": "エア・ウォーター",
-      "industry": "nan",
-      "incomes": 6900,
-      "pf": 26.6,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 2660,
-      "minus_gain": 0
-    },
-    {
-      "code": "9090",
-      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-      "industry": "nan",
-      "incomes": 6100,
-      "pf": 69.3,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 6930,
-      "minus_gain": 0
-    },
-    {
-      "code": "9715",
-      "name": "トランスコスモス",
-      "industry": "nan",
-      "incomes": 5500,
-      "pf": 15.1,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1510,
-      "minus_gain": 0
-    },
-    {
-      "code": "3186",
-      "name": "ネクステージ",
-      "industry": "nan",
-      "incomes": 5000,
-      "pf": 14.6,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1460,
+      "plus_gain": 10940,
       "minus_gain": 0
     },
     {
       "code": "4516",
       "name": "日本新薬",
       "industry": "nan",
-      "incomes": 4600,
-      "pf": 1.2,
-      "winlose": "W1L1",
-      "win_per": 50,
-      "plus_gain": 5450,
-      "minus_gain": 4410
+      "incomes": 12300,
+      "pf": 34.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 3420,
+      "minus_gain": 0
+    },
+    {
+      "code": "7846",
+      "name": "パイロットコーポレーション",
+      "industry": "nan",
+      "incomes": 11800,
+      "pf": 65.3,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 6530,
+      "minus_gain": 0
+    },
+    {
+      "code": "5393",
+      "name": "ニチアス",
+      "industry": "nan",
+      "incomes": 8100,
+      "pf": 24.1,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2410,
+      "minus_gain": 0
+    },
+    {
+      "code": "7276",
+      "name": "小糸製作所",
+      "industry": "nan",
+      "incomes": 5600,
+      "pf": 21.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2120,
+      "minus_gain": 0
     },
     {
       "code": "6544",
       "name": "ジャパンエレベーターサービスホールディングス",
       "industry": "nan",
-      "incomes": 4200,
-      "pf": 1.8,
+      "incomes": 3500,
+      "pf": 1.7,
       "winlose": "W1L1",
       "win_per": 50,
-      "plus_gain": 6070,
-      "minus_gain": 3290
+      "plus_gain": 5440,
+      "minus_gain": 3110
+    },
+    {
+      "code": "4042",
+      "name": "東ソー",
+      "industry": "nan",
+      "incomes": 2900,
+      "pf": 10.4,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1040,
+      "minus_gain": 0
+    },
+    {
+      "code": "7912",
+      "name": "大日本印刷",
+      "industry": "nan",
+      "incomes": 2900,
+      "pf": 9.7,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 969,
+      "minus_gain": 0
+    },
+    {
+      "code": "6632",
+      "name": "ＪＶＣケンウッド",
+      "industry": "nan",
+      "incomes": 2600,
+      "pf": 24.9,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2490,
+      "minus_gain": 0
     },
     {
       "code": "4587",
       "name": "ペプチドリーム",
       "industry": "nan",
-      "incomes": 1900,
-      "pf": 19.5,
+      "incomes": 2500,
+      "pf": 25.7,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 1950,
+      "plus_gain": 2570,
       "minus_gain": 0
     },
     {
-      "code": "2264",
-      "name": "森永乳業",
+      "code": "4088",
+      "name": "エア・ウォーター",
       "industry": "nan",
-      "incomes": 200,
-      "pf": 1.1,
-      "winlose": "W1L1",
-      "win_per": 50,
-      "plus_gain": 3379,
-      "minus_gain": 3180
+      "incomes": 1700,
+      "pf": 6.6,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 660,
+      "minus_gain": 0
+    },
+    {
+      "code": "9090",
+      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+      "industry": "nan",
+      "incomes": 1600,
+      "pf": 18.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1820,
+      "minus_gain": 0
+    },
+    {
+      "code": "2871",
+      "name": "ニチレイ",
+      "industry": "nan",
+      "incomes": 1500,
+      "pf": 7.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 700,
+      "minus_gain": 0
     },
     {
       "code": "2670",
@@ -266,8 +211,8 @@
       "minus_gain": 0
     },
     {
-      "code": "7532",
-      "name": "パン・パシフィック・インターナショナルホールディングス",
+      "code": "7649",
+      "name": "スギホールディングス",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -277,228 +222,101 @@
       "minus_gain": 0
     },
     {
-      "code": "3436",
-      "name": "ＳＵＭＣＯ",
+      "code": "9302",
+      "name": "三井倉庫ホールディングス",
       "industry": "nan",
-      "incomes": -3200,
-      "pf": 0.7,
-      "winlose": "W1L1",
-      "win_per": 50,
-      "plus_gain": 4390,
-      "minus_gain": 6509
-    },
-    {
-      "code": "7649",
-      "name": "スギホールディングス",
-      "industry": "nan",
-      "incomes": -4900,
+      "incomes": 0,
       "pf": 0.0,
-      "winlose": "W0L1",
+      "winlose": "W0L0",
       "win_per": 0,
       "plus_gain": 0,
-      "minus_gain": 3710
+      "minus_gain": 0
+    },
+    {
+      "code": "2264",
+      "name": "森永乳業",
+      "industry": "nan",
+      "incomes": -900,
+      "pf": 0.8,
+      "winlose": "W1L1",
+      "win_per": 50,
+      "plus_gain": 3220,
+      "minus_gain": 4020
     },
     {
       "code": "5301",
       "name": "東海カーボン",
       "industry": "nan",
-      "incomes": -6400,
+      "incomes": -7900,
       "pf": 0.0,
       "winlose": "W0L1",
       "win_per": 0,
       "plus_gain": 0,
-      "minus_gain": 4140
+      "minus_gain": 5040
+    },
+    {
+      "code": "3186",
+      "name": "ネクステージ",
+      "industry": "nan",
+      "incomes": -13000,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 3760
     },
     {
       "code": "1802",
       "name": "大林組",
       "industry": "nan",
-      "incomes": -9600,
+      "incomes": -13300,
       "pf": 0.0,
       "winlose": "W0L1",
       "win_per": 0,
       "plus_gain": 0,
-      "minus_gain": 3180
+      "minus_gain": 4390
+    },
+    {
+      "code": "5471",
+      "name": "大同特殊鋼",
+      "industry": "nan",
+      "incomes": -20300,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 9400
     },
     {
       "code": "6479",
       "name": "ミネベアミツミ",
       "industry": "nan",
-      "incomes": -23400,
+      "incomes": -30300,
       "pf": 0.0,
       "winlose": "W0L1",
       "win_per": 0,
       "plus_gain": 0,
-      "minus_gain": 6380
+      "minus_gain": 8260
     }
   ],
   "today": {
-    "trade_date": "2026-09-02",
-    "new_buy": [
-      {
-        "code": "2670",
-        "name": "エービーシー・マート",
-        "mark": "新買",
-        "close": 2664,
-        "rsi": 6.65,
-        "rci": 100.0,
-        "rci_turn": true,
-        "quality": {
-          "code": "2670",
-          "stars": 4,
-          "background": "利益率が12.2%に上昇するなど本業の収益性は堅調であり、成長減速懸念による押し目売りは一時的で短期的な反発が期待できます。",
-          "risk_factors": [
-            "インバウンド需要の減速や個人消費の冷え込み",
-            "円安進行による輸入仕入コストの上昇"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
-          ],
-          "dividend": {
-            "annual_yen": 80,
-            "yield_pct": 2.96,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 40.1
-          },
-          "shareholder_benefit": "100株以上保有の株主に対し、全国の自社店舗で使える株主優待買物割引券（1,000円券3枚〜）を年1回進呈。"
-        },
-        "rsi_ok": true,
-        "rci_ok": true
-      },
-      {
-        "code": "3391",
-        "name": "ツルハホールディングス",
-        "mark": "新買",
-        "close": 2228,
-        "rsi": 4.74,
-        "rci": 98.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "3391",
-          "stars": 4,
-          "background": "売上高の成長が継続しており本業の業績は健全ですが、明確な構造的悪材料がない中での一時的な利確売りや地合いによる調整と見られます。",
-          "risk_factors": [
-            "ドラッグストア業界における価格競争の激化",
-            "ウエルシアホールディングスとの経営統合に向けたプロセスの遅延リスク"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
-          ],
-          "dividend": {
-            "annual_yen": 48,
-            "yield_pct": 2.13,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 34.5
-          },
-          "shareholder_benefit": "100株以上の保有で、自社グループ店舗で使える株主優待カード（5%割引）および株主ギフト券（2,500円相当〜）等が贈呈されます。"
-        },
-        "rsi_ok": true,
-        "rci_ok": true
-      },
-      {
-        "code": "6141",
-        "name": "ＤＭＧ　森精機",
-        "mark": "新買",
-        "close": 2841,
-        "rsi": 5.2,
-        "rci": 85.0,
-        "rci_turn": true,
-        "quality": {
-          "code": "6141",
-          "stars": 3,
-          "background": "直近ニュースからは明確な急落要因が特定できず、世界的な設備投資動向や資本効率に対する警戒感と全体地合いによる影響が拮抗しているため様子見と判断します。",
-          "risk_factors": [
-            "世界的な設備投資需要の停滞や工作機械市況の悪化",
-            "為替変動（円高進行）による業績下振れリスク"
-          ],
-          "confidence": "low",
-          "sources": [
-            "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
-            "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
-          ],
-          "dividend": {
-            "annual_yen": 105,
-            "yield_pct": 3.52,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 2.2
-          },
-          "shareholder_benefit": "100株以上を2年以上継続保有する株主を対象に、自社オリジナルカレンダー等を贈呈。"
-        },
-        "rsi_ok": true,
-        "rci_ok": true
-      },
-      {
-        "code": "6254",
-        "name": "野村マイクロ・サイエンス",
-        "mark": "新買",
-        "close": 3315,
-        "rsi": 9.65,
-        "rci": 84.17,
-        "rci_turn": true,
-        "quality": {
-          "code": "6254",
-          "stars": 4,
-          "background": "FY2026の一時的な業績伸び悩みによる下落が一巡し、続くFY2027に向けた強固な業績回復見通しに対する一時的な過剰売りの反発局面と評価できるため。",
-          "risk_factors": [
-            "半導体関連企業の設備投資計画の延期や市況悪化リスク",
-            "業績回復ペースが市場予想に届かない場合の下落リスク"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
-          ],
-          "dividend": {
-            "annual_yen": 85,
-            "yield_pct": 2.44,
-            "ex_date": "2026-09-29",
-            "payout_ratio_pct": 82.3
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": true,
-        "rci_ok": true
-      },
-      {
-        "code": "7532",
-        "name": "パン・パシフィック・インターナショナルホールディングス",
-        "mark": "新買",
-        "close": 769,
-        "rsi": 8.75,
-        "rci": 88.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "7532",
-          "stars": 4,
-          "background": "日経平均株価構成銘柄への新加入が決定しており、インデックスファンド等による強力な需給買いが期待されるほか、本業のインバウンド需要や業績も堅調で押し目買いの質が高いと判断されます。",
-          "risk_factors": [
-            "日経平均採用イベント通過後の材料出尽くし売り",
-            "為替変動やインバウンド需要の鈍化による店舗売上の下振れ"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html"
-          ],
-          "dividend": {
-            "annual_yen": 10,
-            "yield_pct": 1.29,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 25.9
-          },
-          "shareholder_benefit": "100株以上を保有する株主に対し、自社グループ店舗で使える電子マネー「majica」ポイント2,000円分が年2回（6月・12月）進呈されます。"
-        },
-        "rsi_ok": true,
-        "rci_ok": true
-      }
-    ],
+    "trade_date": "2026-09-04",
+    "new_buy": [],
     "sellback": [],
-    "new_buy_count": 5
+    "new_buy_count": 0
   },
   "daily": {
     "days": [
       {
-        "date": "2026-09-02",
+        "date": "2026-09-04",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-09-03",
         "pnl": 0,
         "new_buy_count": 5,
         "sellback_count": 0,
@@ -507,33 +325,143 @@
             "code": "2670",
             "name": "エービーシー・マート",
             "mark": "新買",
-            "close": 2664
+            "close": 2690,
+            "quality": {
+              "code": "2670",
+              "stars": 4,
+              "background": "営業利益率が12.2%に上昇するなど本業の採算性は堅調であり、成長鈍化懸念や過剰な利確売りによる短期的な押し目と判断できるため。",
+              "risk_factors": [
+                "個人消費の冷え込みや天候不順による既存店売上の低迷",
+                "円安進行による輸入仕入れコストの増加および利益率への圧迫"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
+              ],
+              "dividend": {
+                "annual_yen": 80,
+                "yield_pct": 2.97,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 40.1
+              },
+              "shareholder_benefit": "なし"
+            }
           },
           {
             "code": "3391",
             "name": "ツルハホールディングス",
             "mark": "新買",
-            "close": 2228
+            "close": 2305,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "本業の売上・業績は堅調に推移しており、構造的な悪材料はなく全体地合いや一時的な調整による下落にとどまっていると考えられます。",
+              "risk_factors": [
+                "他社との価格競争激化による粗利益率の押し下げ",
+                "ウエルシアホールディングスとの経営統合に向けた手続きや統合コストの発生"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
+              ],
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.08,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.5
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。"
+            }
           },
           {
             "code": "6141",
             "name": "ＤＭＧ　森精機",
             "mark": "新買",
-            "close": 2841
+            "close": 2860,
+            "quality": {
+              "code": "6141",
+              "stars": 3,
+              "background": "海外市場（ドイツ法人）における資本効率の停滞が指摘されるものの、直接的な業績毀損につながる構造的悪材料は確認できず、下落理由が限定的な様子見局面です。",
+              "risk_factors": [
+                "世界的な製造業の設備投資減速に伴う需要低下",
+                "為替（ユーロ・米ドル）変動による業績への影響"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
+                "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
+              ],
+              "dividend": {
+                "annual_yen": 105,
+                "yield_pct": 3.67,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 2.2
+              },
+              "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。"
+            }
           },
           {
             "code": "6254",
             "name": "野村マイクロ・サイエンス",
             "mark": "新買",
-            "close": 3315
+            "close": 3380,
+            "quality": {
+              "code": "6254",
+              "stars": 4,
+              "background": "FY2026の業績伸び悩みを受けて株価は一時的に調整したものの、FY2027に向けた業績見通しは力強く、過剰売りの通過点として短期反発が期待されます。",
+              "risk_factors": [
+                "主要顧客である大手半導体メーカーの設備投資延期リスク",
+                "半導体市場全体の回復遅延による受注の不確実性"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
+              ],
+              "dividend": {
+                "annual_yen": 85,
+                "yield_pct": 2.51,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 82.3
+              },
+              "shareholder_benefit": "なし"
+            }
           },
           {
-            "code": "7532",
-            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "code": "7649",
+            "name": "スギホールディングス",
             "mark": "新買",
-            "close": 769
+            "close": 1332,
+            "quality": {
+              "code": "7649",
+              "stars": 4,
+              "background": "本業の業績は堅調に推移しているものの、株価の大幅上昇後の高値警戒感や利益確定売りに伴う一時的な調整下落と見られます。",
+              "risk_factors": [
+                "ドラッグストア業界の競合激化と調剤報酬改定リスク",
+                "大幅上昇後の利益確定売り圧力の継続"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/sugi-holdings-worth-closer-look-114903024.html",
+                "https://finance.yahoo.com/news/sugi-holdings-tse-7649-assessing-114445402.html"
+              ],
+              "dividend": {
+                "annual_yen": 25,
+                "yield_pct": 1.88,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 14.1
+              },
+              "shareholder_benefit": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。"
+            }
           }
         ],
+        "sellback": []
+      },
+      {
+        "date": "2026-09-02",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -554,18 +482,10 @@
       },
       {
         "date": "2026-08-28",
-        "pnl": -4900,
-        "new_buy_count": 1,
+        "pnl": 0,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "7649",
-            "name": "スギホールディングス",
-            "mark": "新買",
-            "close": 1321,
-            "pnl": -4900
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -586,7 +506,7 @@
       },
       {
         "date": "2026-08-25",
-        "pnl": 9600,
+        "pnl": 8600,
         "new_buy_count": 0,
         "sellback_count": 1,
         "new_buy": [],
@@ -596,28 +516,21 @@
             "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "返売",
             "close": 1582,
-            "pnl": 9600
+            "pnl": 8600
           }
         ]
       },
       {
         "date": "2026-08-24",
         "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "7649",
-            "name": "スギホールディングス",
-            "mark": "新買",
-            "close": 1370
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
         "date": "2026-08-14",
-        "pnl": 17500,
+        "pnl": 4200,
         "new_buy_count": 0,
         "sellback_count": 2,
         "new_buy": [],
@@ -627,14 +540,14 @@
             "name": "ＪＶＣケンウッド",
             "mark": "返売",
             "close": 1044,
-            "pnl": 11400
+            "pnl": 2600
           },
           {
             "code": "9090",
             "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
             "mark": "返売",
             "close": 880,
-            "pnl": 6100
+            "pnl": 1600
           }
         ]
       },
@@ -648,76 +561,81 @@
       },
       {
         "date": "2026-08-12",
-        "pnl": 16000,
-        "new_buy_count": 0,
-        "sellback_count": 1,
-        "new_buy": [],
-        "sellback": [
-          {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
-            "mark": "返売",
-            "close": 3647,
-            "pnl": 16000
-          }
-        ]
-      },
-      {
-        "date": "2026-08-10",
-        "pnl": 10000,
-        "new_buy_count": 1,
-        "sellback_count": 2,
-        "new_buy": [
-          {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
-            "mark": "新買",
-            "close": 3487
-          }
-        ],
-        "sellback": [
-          {
-            "code": "1802",
-            "name": "大林組",
-            "mark": "返売",
-            "close": 3018,
-            "pnl": -9600
-          },
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "返売",
-            "close": 3596,
-            "pnl": 19600
-          }
-        ]
-      },
-      {
-        "date": "2026-08-07",
         "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 3,
         "sellback_count": 0,
         "new_buy": [
           {
             "code": "6544",
             "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
-            "close": 1486
+            "close": 1496
+          },
+          {
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
+            "mark": "新買",
+            "close": 1018
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 864
           }
         ],
         "sellback": []
       },
       {
-        "date": "2026-08-06",
-        "pnl": 8900,
+        "date": "2026-08-10",
+        "pnl": 12300,
         "new_buy_count": 1,
         "sellback_count": 1,
         "new_buy": [
           {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "code": "9302",
+            "name": "三井倉庫ホールディングス",
             "mark": "新買",
-            "close": 819
+            "close": 3288
+          }
+        ],
+        "sellback": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "返売",
+            "close": 3596,
+            "pnl": 12300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "pnl": -13300,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "返売",
+            "close": 3030,
+            "pnl": -13300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "pnl": 2900,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "新買",
+            "close": 3163
           }
         ],
         "sellback": [
@@ -726,110 +644,81 @@
             "name": "大日本印刷",
             "mark": "返売",
             "close": 2998,
-            "pnl": 8900
+            "pnl": 2900
           }
         ]
       },
       {
         "date": "2026-08-05",
-        "pnl": 15100,
-        "new_buy_count": 1,
-        "sellback_count": 2,
-        "new_buy": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3148
-          }
-        ],
-        "sellback": [
-          {
-            "code": "4587",
-            "name": "ペプチドリーム",
-            "mark": "返売",
-            "close": 973,
-            "pnl": 1900
-          },
-          {
-            "code": "5471",
-            "name": "大同特殊鋼",
-            "mark": "返売",
-            "close": 2353,
-            "pnl": 13200
-          }
-        ]
-      },
-      {
-        "date": "2026-08-04",
-        "pnl": 5000,
-        "new_buy_count": 1,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "新買",
-            "close": 930
-          }
-        ],
-        "sellback": [
-          {
-            "code": "3186",
-            "name": "ネクステージ",
-            "mark": "返売",
-            "close": 3435,
-            "pnl": 5000
-          }
-        ]
-      },
-      {
-        "date": "2026-08-03",
-        "pnl": -5400,
-        "new_buy_count": 3,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "1802",
-            "name": "大林組",
-            "mark": "新買",
-            "close": 3114
-          },
-          {
-            "code": "5471",
-            "name": "大同特殊鋼",
-            "mark": "新買",
-            "close": 2221
-          },
-          {
-            "code": "7912",
-            "name": "大日本印刷",
-            "mark": "新買",
-            "close": 2909
-          }
-        ],
-        "sellback": [
-          {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
-            "mark": "返売",
-            "close": 1641,
-            "pnl": -5400
-          }
-        ]
-      },
-      {
-        "date": "2026-07-31",
-        "pnl": 29600,
-        "new_buy_count": 1,
+        "pnl": 42400,
+        "new_buy_count": 2,
         "sellback_count": 2,
         "new_buy": [
           {
             "code": "4516",
             "name": "日本新薬",
             "mark": "新買",
-            "close": 3400,
-            "pnl": -15000
+            "close": 3473
+          },
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "新買",
+            "close": 2969
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "返売",
+            "close": 3756,
+            "pnl": 39900
+          },
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 2500
+          }
+        ]
+      },
+      {
+        "date": "2026-08-04",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-03",
+        "pnl": -5100,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "返売",
+            "close": 1641,
+            "pnl": -5100
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "pnl": 32900,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "新買",
+            "close": 3357
           }
         ],
         "sellback": [
@@ -838,93 +727,88 @@
             "name": "ニチアス",
             "mark": "返売",
             "close": 3359,
-            "pnl": 16200
+            "pnl": 8100
           },
           {
             "code": "6055",
             "name": "ジャパンマテリアル",
             "mark": "返売",
             "close": 2267,
-            "pnl": 28400
+            "pnl": 24800
           }
         ]
       },
       {
         "date": "2026-07-30",
         "pnl": 0,
-        "new_buy_count": 0,
+        "new_buy_count": 1,
         "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
-      },
-      {
-        "date": "2026-07-29",
-        "pnl": -25600,
-        "new_buy_count": 3,
-        "sellback_count": 2,
         "new_buy": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "新買",
-            "close": 3550
-          },
-          {
-            "code": "5393",
-            "name": "ニチアス",
-            "mark": "新買",
-            "close": 3197
-          },
           {
             "code": "6055",
             "name": "ジャパンマテリアル",
             "mark": "新買",
-            "close": 1983
+            "close": 2019
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-29",
+        "pnl": -20300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "新買",
+            "close": 948
           }
         ],
         "sellback": [
           {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
+            "code": "5471",
+            "name": "大同特殊鋼",
             "mark": "返売",
-            "close": 2948,
-            "pnl": -19200
-          },
-          {
-            "code": "5301",
-            "name": "東海カーボン",
-            "mark": "返売",
-            "close": 1546,
-            "pnl": -6400
+            "close": 2159,
+            "pnl": -20300
           }
         ]
       },
       {
         "date": "2026-07-28",
-        "pnl": -23400,
+        "pnl": -38200,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 2,
         "new_buy": [
           {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
-            "close": 3140
+            "close": 1692
           }
         ],
         "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1567,
+            "pnl": -7900
+          },
           {
             "code": "6479",
             "name": "ミネベアミツミ",
             "mark": "返売",
             "close": 3668,
-            "pnl": -23400
+            "pnl": -30300
           }
         ]
       },
       {
         "date": "2026-07-24",
-        "pnl": 27900,
+        "pnl": 3200,
         "new_buy_count": 0,
         "sellback_count": 2,
         "new_buy": [],
@@ -934,30 +818,37 @@
             "name": "ニチレイ",
             "mark": "返売",
             "close": 2150,
-            "pnl": 21000
+            "pnl": 1500
           },
           {
             "code": "4088",
             "name": "エア・ウォーター",
             "mark": "返売",
             "close": 2591,
-            "pnl": 6900
+            "pnl": 1700
           }
         ]
       },
       {
         "date": "2026-07-23",
-        "pnl": 4200,
-        "new_buy_count": 0,
+        "pnl": 4000,
+        "new_buy_count": 1,
         "sellback_count": 1,
-        "new_buy": [],
+        "new_buy": [
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "新買",
+            "close": 3971
+          }
+        ],
         "sellback": [
           {
             "code": "2264",
             "name": "森永乳業",
             "mark": "返売",
             "close": 1244,
-            "pnl": 4200
+            "pnl": 4000
           }
         ]
       },
@@ -968,28 +859,42 @@
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "4587",
-            "name": "ペプチドリーム",
+            "code": "2264",
+            "name": "森永乳業",
             "mark": "新買",
-            "close": 954
+            "close": 1204
           }
         ],
         "sellback": []
       },
       {
         "date": "2026-07-21",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
+        "pnl": -13000,
+        "new_buy_count": 2,
+        "sellback_count": 1,
         "new_buy": [
           {
-            "code": "6479",
-            "name": "ミネベアミツミ",
+            "code": "5393",
+            "name": "ニチアス",
             "mark": "新買",
-            "close": 3902
+            "close": 3278
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "新買",
+            "close": 2362
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "返売",
+            "close": 3460,
+            "pnl": -13000
+          }
+        ]
       },
       {
         "date": "2026-07-17",
@@ -998,25 +903,31 @@
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
+            "code": "2871",
+            "name": "ニチレイ",
             "mark": "新買",
-            "close": 1695
+            "close": 2135
           }
         ],
         "sellback": []
       },
       {
         "date": "2026-07-16",
-        "pnl": 9100,
-        "new_buy_count": 1,
+        "pnl": 11800,
+        "new_buy_count": 2,
         "sellback_count": 1,
         "new_buy": [
           {
-            "code": "2264",
-            "name": "森永乳業",
+            "code": "3186",
+            "name": "ネクステージ",
             "mark": "新買",
-            "close": 1202
+            "close": 3590
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "新買",
+            "close": 1646
           }
         ],
         "sellback": [
@@ -1025,87 +936,21 @@
             "name": "パイロットコーポレーション",
             "mark": "返売",
             "close": 1807,
-            "pnl": 9100
+            "pnl": 11800
           }
         ]
       },
       {
         "date": "2026-07-15",
-        "pnl": 8400,
+        "pnl": -2000,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 2,
         "new_buy": [
-          {
-            "code": "2871",
-            "name": "ニチレイ",
-            "mark": "新買",
-            "close": 1940
-          }
-        ],
-        "sellback": [
-          {
-            "code": "4042",
-            "name": "東ソー",
-            "mark": "返売",
-            "close": 2789,
-            "pnl": 8400
-          }
-        ]
-      },
-      {
-        "date": "2026-07-14",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
-      },
-      {
-        "date": "2026-07-13",
-        "pnl": 7800,
-        "new_buy_count": 3,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "3186",
-            "name": "ネクステージ",
-            "mark": "新買",
-            "close": 3385
-          },
           {
             "code": "4088",
             "name": "エア・ウォーター",
             "mark": "新買",
-            "close": 2522
-          },
-          {
-            "code": "5301",
-            "name": "東海カーボン",
-            "mark": "新買",
-            "close": 1610
-          }
-        ],
-        "sellback": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "返売",
-            "close": 3570,
-            "pnl": 7800
-          }
-        ]
-      },
-      {
-        "date": "2026-07-10",
-        "pnl": -4000,
-        "new_buy_count": 1,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "4042",
-            "name": "東ソー",
-            "mark": "新買",
-            "close": 2705
+            "close": 2574
           }
         ],
         "sellback": [
@@ -1113,10 +958,48 @@
             "code": "2264",
             "name": "森永乳業",
             "mark": "返売",
-            "close": 1258,
-            "pnl": -4000
+            "close": 1218,
+            "pnl": -4900
+          },
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "返売",
+            "close": 2789,
+            "pnl": 2900
           }
         ]
+      },
+      {
+        "date": "2026-07-14",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "新買",
+            "close": 2760
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-13",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-10",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
       },
       {
         "date": "2026-07-09",
@@ -1129,54 +1012,32 @@
       {
         "date": "2026-07-08",
         "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3492
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
         "date": "2026-07-07",
-        "pnl": 5500,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "9715",
-            "name": "トランスコスモス",
-            "mark": "返売",
-            "close": 3650,
-            "pnl": 5500
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-07-06",
-        "pnl": 8300,
-        "new_buy_count": 1,
+        "pnl": 5600,
+        "new_buy_count": 0,
         "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "2264",
-            "name": "森永乳業",
-            "mark": "新買",
-            "close": 1298
-          }
-        ],
+        "new_buy": [],
         "sellback": [
           {
             "code": "7276",
             "name": "小糸製作所",
             "mark": "返売",
             "close": 2647,
-            "pnl": 8300
+            "pnl": 5600
           }
         ]
       },
@@ -1191,9 +1052,16 @@
       {
         "date": "2026-07-02",
         "pnl": 0,
-        "new_buy_count": 0,
+        "new_buy_count": 1,
         "sellback_count": 0,
-        "new_buy": [],
+        "new_buy": [
+          {
+            "code": "7276",
+            "name": "小糸製作所",
+            "mark": "新買",
+            "close": 2591
+          }
+        ],
         "sellback": []
       },
       {
@@ -1206,61 +1074,39 @@
       },
       {
         "date": "2026-06-30",
-        "pnl": 10400,
-        "new_buy_count": 1,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "9715",
-            "name": "トランスコスモス",
-            "mark": "新買",
-            "close": 3595
-          }
-        ],
-        "sellback": [
-          {
-            "code": "2168",
-            "name": "パソナグループ",
-            "mark": "返売",
-            "close": 1498,
-            "pnl": 10400
-          }
-        ]
-      },
-      {
-        "date": "2026-06-29",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "7276",
-            "name": "小糸製作所",
-            "mark": "新買",
-            "close": 2564
-          }
-        ],
-        "sellback": []
-      },
-      {
-        "date": "2026-06-26",
         "pnl": 0,
         "new_buy_count": 2,
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "2168",
-            "name": "パソナグループ",
+            "code": "2264",
+            "name": "森永乳業",
             "mark": "新買",
-            "close": 1394
+            "close": 1267
           },
           {
             "code": "7846",
             "name": "パイロットコーポレーション",
             "mark": "新買",
-            "close": 1716
+            "close": 1689
           }
         ],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-29",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-26",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -1398,27 +1244,11 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-06-02",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
-      },
-      {
-        "date": "2026-06-01",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
       {
-        "date": "2026-09-02",
+        "date": "2026-09-03",
         "pnl": 0,
         "new_buy_count": 5,
         "sellback_count": 0,
@@ -1427,122 +1257,198 @@
             "code": "2670",
             "name": "エービーシー・マート",
             "mark": "新買",
-            "close": 2664
+            "close": 2690,
+            "quality": {
+              "code": "2670",
+              "stars": 4,
+              "background": "営業利益率が12.2%に上昇するなど本業の採算性は堅調であり、成長鈍化懸念や過剰な利確売りによる短期的な押し目と判断できるため。",
+              "risk_factors": [
+                "個人消費の冷え込みや天候不順による既存店売上の低迷",
+                "円安進行による輸入仕入れコストの増加および利益率への圧迫"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
+              ],
+              "dividend": {
+                "annual_yen": 80,
+                "yield_pct": 2.97,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 40.1
+              },
+              "shareholder_benefit": "なし"
+            }
           },
           {
             "code": "3391",
             "name": "ツルハホールディングス",
             "mark": "新買",
-            "close": 2228
+            "close": 2305,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "本業の売上・業績は堅調に推移しており、構造的な悪材料はなく全体地合いや一時的な調整による下落にとどまっていると考えられます。",
+              "risk_factors": [
+                "他社との価格競争激化による粗利益率の押し下げ",
+                "ウエルシアホールディングスとの経営統合に向けた手続きや統合コストの発生"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
+              ],
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.08,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.5
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。"
+            }
           },
           {
             "code": "6141",
             "name": "ＤＭＧ　森精機",
             "mark": "新買",
-            "close": 2841
+            "close": 2860,
+            "quality": {
+              "code": "6141",
+              "stars": 3,
+              "background": "海外市場（ドイツ法人）における資本効率の停滞が指摘されるものの、直接的な業績毀損につながる構造的悪材料は確認できず、下落理由が限定的な様子見局面です。",
+              "risk_factors": [
+                "世界的な製造業の設備投資減速に伴う需要低下",
+                "為替（ユーロ・米ドル）変動による業績への影響"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
+                "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
+              ],
+              "dividend": {
+                "annual_yen": 105,
+                "yield_pct": 3.67,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 2.2
+              },
+              "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。"
+            }
           },
           {
             "code": "6254",
             "name": "野村マイクロ・サイエンス",
             "mark": "新買",
-            "close": 3315
+            "close": 3380,
+            "quality": {
+              "code": "6254",
+              "stars": 4,
+              "background": "FY2026の業績伸び悩みを受けて株価は一時的に調整したものの、FY2027に向けた業績見通しは力強く、過剰売りの通過点として短期反発が期待されます。",
+              "risk_factors": [
+                "主要顧客である大手半導体メーカーの設備投資延期リスク",
+                "半導体市場全体の回復遅延による受注の不確実性"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
+              ],
+              "dividend": {
+                "annual_yen": 85,
+                "yield_pct": 2.51,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 82.3
+              },
+              "shareholder_benefit": "なし"
+            }
           },
-          {
-            "code": "7532",
-            "name": "パン・パシフィック・インターナショナルホールディングス",
-            "mark": "新買",
-            "close": 769
-          }
-        ],
-        "sellback": []
-      },
-      {
-        "date": "2026-08-28",
-        "pnl": -4900,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
           {
             "code": "7649",
             "name": "スギホールディングス",
             "mark": "新買",
-            "close": 1321,
-            "pnl": -4900
+            "close": 1332,
+            "quality": {
+              "code": "7649",
+              "stars": 4,
+              "background": "本業の業績は堅調に推移しているものの、株価の大幅上昇後の高値警戒感や利益確定売りに伴う一時的な調整下落と見られます。",
+              "risk_factors": [
+                "ドラッグストア業界の競合激化と調剤報酬改定リスク",
+                "大幅上昇後の利益確定売り圧力の継続"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/sugi-holdings-worth-closer-look-114903024.html",
+                "https://finance.yahoo.com/news/sugi-holdings-tse-7649-assessing-114445402.html"
+              ],
+              "dividend": {
+                "annual_yen": 25,
+                "yield_pct": 1.88,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 14.1
+              },
+              "shareholder_benefit": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。"
+            }
           }
         ],
         "sellback": []
       },
       {
-        "date": "2026-08-24",
+        "date": "2026-08-12",
         "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "7649",
-            "name": "スギホールディングス",
-            "mark": "新買",
-            "close": 1370
-          }
-        ],
-        "sellback": []
-      },
-      {
-        "date": "2026-08-10",
-        "pnl": 10000,
-        "new_buy_count": 1,
-        "sellback_count": 2,
-        "new_buy": [
-          {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
-            "mark": "新買",
-            "close": 3487
-          }
-        ],
-        "sellback": [
-          {
-            "code": "1802",
-            "name": "大林組",
-            "mark": "返売",
-            "close": 3018,
-            "pnl": -9600
-          },
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "返売",
-            "close": 3596,
-            "pnl": 19600
-          }
-        ]
-      },
-      {
-        "date": "2026-08-07",
-        "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 3,
         "sellback_count": 0,
         "new_buy": [
           {
             "code": "6544",
             "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
-            "close": 1486
+            "close": 1496
+          },
+          {
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
+            "mark": "新買",
+            "close": 1018
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 864
           }
         ],
         "sellback": []
       },
       {
-        "date": "2026-08-06",
-        "pnl": 8900,
+        "date": "2026-08-10",
+        "pnl": 12300,
         "new_buy_count": 1,
         "sellback_count": 1,
         "new_buy": [
           {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "code": "9302",
+            "name": "三井倉庫ホールディングス",
             "mark": "新買",
-            "close": 819
+            "close": 3288
+          }
+        ],
+        "sellback": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "返売",
+            "close": 3596,
+            "pnl": 12300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "pnl": 2900,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "新買",
+            "close": 3163
           }
         ],
         "sellback": [
@@ -1551,110 +1457,57 @@
             "name": "大日本印刷",
             "mark": "返売",
             "close": 2998,
-            "pnl": 8900
+            "pnl": 2900
           }
         ]
       },
       {
         "date": "2026-08-05",
-        "pnl": 15100,
-        "new_buy_count": 1,
-        "sellback_count": 2,
-        "new_buy": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3148
-          }
-        ],
-        "sellback": [
-          {
-            "code": "4587",
-            "name": "ペプチドリーム",
-            "mark": "返売",
-            "close": 973,
-            "pnl": 1900
-          },
-          {
-            "code": "5471",
-            "name": "大同特殊鋼",
-            "mark": "返売",
-            "close": 2353,
-            "pnl": 13200
-          }
-        ]
-      },
-      {
-        "date": "2026-08-04",
-        "pnl": 5000,
-        "new_buy_count": 1,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "新買",
-            "close": 930
-          }
-        ],
-        "sellback": [
-          {
-            "code": "3186",
-            "name": "ネクステージ",
-            "mark": "返売",
-            "close": 3435,
-            "pnl": 5000
-          }
-        ]
-      },
-      {
-        "date": "2026-08-03",
-        "pnl": -5400,
-        "new_buy_count": 3,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "1802",
-            "name": "大林組",
-            "mark": "新買",
-            "close": 3114
-          },
-          {
-            "code": "5471",
-            "name": "大同特殊鋼",
-            "mark": "新買",
-            "close": 2221
-          },
-          {
-            "code": "7912",
-            "name": "大日本印刷",
-            "mark": "新買",
-            "close": 2909
-          }
-        ],
-        "sellback": [
-          {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
-            "mark": "返売",
-            "close": 1641,
-            "pnl": -5400
-          }
-        ]
-      },
-      {
-        "date": "2026-07-31",
-        "pnl": 29600,
-        "new_buy_count": 1,
+        "pnl": 42400,
+        "new_buy_count": 2,
         "sellback_count": 2,
         "new_buy": [
           {
             "code": "4516",
             "name": "日本新薬",
             "mark": "新買",
-            "close": 3400,
-            "pnl": -15000
+            "close": 3473
+          },
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "新買",
+            "close": 2969
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "返売",
+            "close": 3756,
+            "pnl": 39900
+          },
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 2500
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "pnl": 32900,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "新買",
+            "close": 3357
           }
         ],
         "sellback": [
@@ -1663,79 +1516,105 @@
             "name": "ニチアス",
             "mark": "返売",
             "close": 3359,
-            "pnl": 16200
+            "pnl": 8100
           },
           {
             "code": "6055",
             "name": "ジャパンマテリアル",
             "mark": "返売",
             "close": 2267,
-            "pnl": 28400
+            "pnl": 24800
           }
         ]
       },
       {
-        "date": "2026-07-29",
-        "pnl": -25600,
-        "new_buy_count": 3,
-        "sellback_count": 2,
+        "date": "2026-07-30",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
         "new_buy": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "新買",
-            "close": 3550
-          },
-          {
-            "code": "5393",
-            "name": "ニチアス",
-            "mark": "新買",
-            "close": 3197
-          },
           {
             "code": "6055",
             "name": "ジャパンマテリアル",
             "mark": "新買",
-            "close": 1983
+            "close": 2019
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-29",
+        "pnl": -20300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "新買",
+            "close": 948
           }
         ],
         "sellback": [
           {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
+            "code": "5471",
+            "name": "大同特殊鋼",
             "mark": "返売",
-            "close": 2948,
-            "pnl": -19200
-          },
-          {
-            "code": "5301",
-            "name": "東海カーボン",
-            "mark": "返売",
-            "close": 1546,
-            "pnl": -6400
+            "close": 2159,
+            "pnl": -20300
           }
         ]
       },
       {
         "date": "2026-07-28",
-        "pnl": -23400,
+        "pnl": -38200,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 2,
         "new_buy": [
           {
-            "code": "3436",
-            "name": "ＳＵＭＣＯ",
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
-            "close": 3140
+            "close": 1692
           }
         ],
         "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1567,
+            "pnl": -7900
+          },
           {
             "code": "6479",
             "name": "ミネベアミツミ",
             "mark": "返売",
             "close": 3668,
-            "pnl": -23400
+            "pnl": -30300
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "pnl": 4000,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "新買",
+            "close": 3971
+          }
+        ],
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1244,
+            "pnl": 4000
           }
         ]
       },
@@ -1746,28 +1625,42 @@
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "4587",
-            "name": "ペプチドリーム",
+            "code": "2264",
+            "name": "森永乳業",
             "mark": "新買",
-            "close": 954
+            "close": 1204
           }
         ],
         "sellback": []
       },
       {
         "date": "2026-07-21",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
+        "pnl": -13000,
+        "new_buy_count": 2,
+        "sellback_count": 1,
         "new_buy": [
           {
-            "code": "6479",
-            "name": "ミネベアミツミ",
+            "code": "5393",
+            "name": "ニチアス",
             "mark": "新買",
-            "close": 3902
+            "close": 3278
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "新買",
+            "close": 2362
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "返売",
+            "close": 3460,
+            "pnl": -13000
+          }
+        ]
       },
       {
         "date": "2026-07-17",
@@ -1776,25 +1669,31 @@
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
+            "code": "2871",
+            "name": "ニチレイ",
             "mark": "新買",
-            "close": 1695
+            "close": 2135
           }
         ],
         "sellback": []
       },
       {
         "date": "2026-07-16",
-        "pnl": 9100,
-        "new_buy_count": 1,
+        "pnl": 11800,
+        "new_buy_count": 2,
         "sellback_count": 1,
         "new_buy": [
           {
-            "code": "2264",
-            "name": "森永乳業",
+            "code": "3186",
+            "name": "ネクステージ",
             "mark": "新買",
-            "close": 1202
+            "close": 3590
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "新買",
+            "close": 1646
           }
         ],
         "sellback": [
@@ -1803,184 +1702,87 @@
             "name": "パイロットコーポレーション",
             "mark": "返売",
             "close": 1807,
-            "pnl": 9100
+            "pnl": 11800
           }
         ]
       },
       {
         "date": "2026-07-15",
-        "pnl": 8400,
+        "pnl": -2000,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 2,
         "new_buy": [
           {
-            "code": "2871",
-            "name": "ニチレイ",
+            "code": "4088",
+            "name": "エア・ウォーター",
             "mark": "新買",
-            "close": 1940
+            "close": 2574
           }
         ],
         "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1218,
+            "pnl": -4900
+          },
           {
             "code": "4042",
             "name": "東ソー",
             "mark": "返売",
             "close": 2789,
-            "pnl": 8400
+            "pnl": 2900
           }
         ]
       },
       {
-        "date": "2026-07-13",
-        "pnl": 7800,
-        "new_buy_count": 3,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "3186",
-            "name": "ネクステージ",
-            "mark": "新買",
-            "close": 3385
-          },
-          {
-            "code": "4088",
-            "name": "エア・ウォーター",
-            "mark": "新買",
-            "close": 2522
-          },
-          {
-            "code": "5301",
-            "name": "東海カーボン",
-            "mark": "新買",
-            "close": 1610
-          }
-        ],
-        "sellback": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "返売",
-            "close": 3570,
-            "pnl": 7800
-          }
-        ]
-      },
-      {
-        "date": "2026-07-10",
-        "pnl": -4000,
+        "date": "2026-07-14",
+        "pnl": 0,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "4042",
             "name": "東ソー",
             "mark": "新買",
-            "close": 2705
-          }
-        ],
-        "sellback": [
-          {
-            "code": "2264",
-            "name": "森永乳業",
-            "mark": "返売",
-            "close": 1258,
-            "pnl": -4000
-          }
-        ]
-      },
-      {
-        "date": "2026-07-08",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3492
+            "close": 2760
           }
         ],
         "sellback": []
       },
       {
-        "date": "2026-07-06",
-        "pnl": 8300,
+        "date": "2026-07-02",
+        "pnl": 0,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
-          {
-            "code": "2264",
-            "name": "森永乳業",
-            "mark": "新買",
-            "close": 1298
-          }
-        ],
-        "sellback": [
           {
             "code": "7276",
             "name": "小糸製作所",
-            "mark": "返売",
-            "close": 2647,
-            "pnl": 8300
+            "mark": "新買",
+            "close": 2591
           }
-        ]
+        ],
+        "sellback": []
       },
       {
         "date": "2026-06-30",
-        "pnl": 10400,
-        "new_buy_count": 1,
-        "sellback_count": 1,
-        "new_buy": [
-          {
-            "code": "9715",
-            "name": "トランスコスモス",
-            "mark": "新買",
-            "close": 3595
-          }
-        ],
-        "sellback": [
-          {
-            "code": "2168",
-            "name": "パソナグループ",
-            "mark": "返売",
-            "close": 1498,
-            "pnl": 10400
-          }
-        ]
-      },
-      {
-        "date": "2026-06-29",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "7276",
-            "name": "小糸製作所",
-            "mark": "新買",
-            "close": 2564
-          }
-        ],
-        "sellback": []
-      },
-      {
-        "date": "2026-06-26",
         "pnl": 0,
         "new_buy_count": 2,
         "sellback_count": 0,
         "new_buy": [
           {
-            "code": "2168",
-            "name": "パソナグループ",
+            "code": "2264",
+            "name": "森永乳業",
             "mark": "新買",
-            "close": 1394
+            "close": 1267
           },
           {
             "code": "7846",
             "name": "パイロットコーポレーション",
             "mark": "新買",
-            "close": 1716
+            "close": 1689
           }
         ],
         "sellback": []
@@ -1993,118 +1795,16 @@
     "entered_on": null,
     "etf": null,
     "min_new_buy_count": 7,
-    "new_buy_count": 5,
+    "new_buy_count": 0,
     "exit_rsi": 70.0,
     "etf_rsi": {
-      "1321": 16.56,
-      "1306": 30.99
+      "1321": 43.18,
+      "1306": 43.37
     },
-    "active_rsi": 30.99,
+    "active_rsi": 43.37,
     "signal": null
   },
-  "quality": {
-    "2670": {
-      "code": "2670",
-      "stars": 4,
-      "background": "利益率が12.2%に上昇するなど本業の収益性は堅調であり、成長減速懸念による押し目売りは一時的で短期的な反発が期待できます。",
-      "risk_factors": [
-        "インバウンド需要の減速や個人消費の冷え込み",
-        "円安進行による輸入仕入コストの上昇"
-      ],
-      "confidence": "medium",
-      "sources": [
-        "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
-      ],
-      "dividend": {
-        "annual_yen": 80,
-        "yield_pct": 2.96,
-        "ex_date": "2027-02-25",
-        "payout_ratio_pct": 40.1
-      },
-      "shareholder_benefit": "100株以上保有の株主に対し、全国の自社店舗で使える株主優待買物割引券（1,000円券3枚〜）を年1回進呈。"
-    },
-    "3391": {
-      "code": "3391",
-      "stars": 4,
-      "background": "売上高の成長が継続しており本業の業績は健全ですが、明確な構造的悪材料がない中での一時的な利確売りや地合いによる調整と見られます。",
-      "risk_factors": [
-        "ドラッグストア業界における価格競争の激化",
-        "ウエルシアホールディングスとの経営統合に向けたプロセスの遅延リスク"
-      ],
-      "confidence": "medium",
-      "sources": [
-        "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
-      ],
-      "dividend": {
-        "annual_yen": 48,
-        "yield_pct": 2.13,
-        "ex_date": "2027-02-25",
-        "payout_ratio_pct": 34.5
-      },
-      "shareholder_benefit": "100株以上の保有で、自社グループ店舗で使える株主優待カード（5%割引）および株主ギフト券（2,500円相当〜）等が贈呈されます。"
-    },
-    "6141": {
-      "code": "6141",
-      "stars": 3,
-      "background": "直近ニュースからは明確な急落要因が特定できず、世界的な設備投資動向や資本効率に対する警戒感と全体地合いによる影響が拮抗しているため様子見と判断します。",
-      "risk_factors": [
-        "世界的な設備投資需要の停滞や工作機械市況の悪化",
-        "為替変動（円高進行）による業績下振れリスク"
-      ],
-      "confidence": "low",
-      "sources": [
-        "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
-        "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
-      ],
-      "dividend": {
-        "annual_yen": 105,
-        "yield_pct": 3.52,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 2.2
-      },
-      "shareholder_benefit": "100株以上を2年以上継続保有する株主を対象に、自社オリジナルカレンダー等を贈呈。"
-    },
-    "6254": {
-      "code": "6254",
-      "stars": 4,
-      "background": "FY2026の一時的な業績伸び悩みによる下落が一巡し、続くFY2027に向けた強固な業績回復見通しに対する一時的な過剰売りの反発局面と評価できるため。",
-      "risk_factors": [
-        "半導体関連企業の設備投資計画の延期や市況悪化リスク",
-        "業績回復ペースが市場予想に届かない場合の下落リスク"
-      ],
-      "confidence": "medium",
-      "sources": [
-        "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
-      ],
-      "dividend": {
-        "annual_yen": 85,
-        "yield_pct": 2.44,
-        "ex_date": "2026-09-29",
-        "payout_ratio_pct": 82.3
-      },
-      "shareholder_benefit": "なし"
-    },
-    "7532": {
-      "code": "7532",
-      "stars": 4,
-      "background": "日経平均株価構成銘柄への新加入が決定しており、インデックスファンド等による強力な需給買いが期待されるほか、本業のインバウンド需要や業績も堅調で押し目買いの質が高いと判断されます。",
-      "risk_factors": [
-        "日経平均採用イベント通過後の材料出尽くし売り",
-        "為替変動やインバウンド需要の鈍化による店舗売上の下振れ"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html"
-      ],
-      "dividend": {
-        "annual_yen": 10,
-        "yield_pct": 1.29,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 25.9
-      },
-      "shareholder_benefit": "100株以上を保有する株主に対し、自社グループ店舗で使える電子マネー「majica」ポイント2,000円分が年2回（6月・12月）進呈されます。"
-    }
-  },
+  "quality": {},
   "runtime": {
     "special_buy": {
       "enabled": true,
