@@ -15,7 +15,7 @@ from kaburadar3.qualitative.schema import QualityRating
 from kaburadar3.settings.paths import PROJECT_ROOT
 
 CACHE_FILE = PROJECT_ROOT / "data" / "quality_cache.json"
-PROMPT_VERSION = 4
+PROMPT_VERSION = 5
 
 
 def _cache_key(code: str, trade_date: str) -> str:
@@ -99,7 +99,19 @@ def _format_valuation_hint(valuation: dict[str, Any]) -> str:
         if isinstance(upside, (int, float)) and upside < 0:
             upside_text = f"（{upside}%）"
         parts.append(f"アナリスト目標 {valuation['target_price_yen']}円{upside_text}")
+    caveat = _valuation_data_caveat(valuation)
+    if caveat:
+        parts.append(caveat)
     return " · ".join(parts) if parts else "（バリュエーションデータなし）"
+
+
+def _valuation_data_caveat(valuation: dict[str, Any]) -> str:
+    per = valuation.get("per")
+    forward = valuation.get("forward_per")
+    if isinstance(per, (int, float)) and isinstance(forward, (int, float)) and per > 0:
+        if forward < per * 0.5:
+            return "参考: 予想PERと実績PERの乖離が大きくデータノイズの可能性"
+    return ""
 
 
 def _format_benefit_hint(benefit: dict[str, Any]) -> str:
@@ -208,9 +220,26 @@ def _build_prompt(
 {news_lines}
 
 ## トレード前提（このツールのルール）
-- エントリー: RSI4 極端な押し目 + RCI 反転など
+- エントリー: RSI4 極端な押し目 + RCI 反転など（シグナル抽出済み）
 - 利確: RSI4 が 60 超まで基本ホールド（-3% は保険損切り）
 - 最大保有: 約100営業日
+
+## 評価方針（★の付け方）
+- 目的: 短期反発の「質」を見る。中長期ホールドの推奨ではない。
+- 基本帯: **★3〜★4**。★5 は月に数件程度の稀なケースのみ。
+- ★1/★2 は「明確な根拠があるときだけ」。シグナルが出た時点で一律に下げない。
+
+★を下げる（★1/★2）根拠の例:
+- 下方修正・増資・減配・不祥事など **ニュースで確認できる構造悪材料**
+- 下落が一時的でなく、業績悪化トレンドが **材料から読み取れる**
+
+★を下げない（★2 にしない）例:
+- yfinance の利益成長率・予想PERだけが悪い（TTMノイズ、一時費用、特殊要因の可能性）
+- 売上が底堅く、下落が地合い・利確・競争警戒・進捗の一時論のみ
+- 参考データの数値だけで ★2 にせず、ニュースと整合させる
+
+★4（主戦場）に寄せる例:
+- 本業に致命傷なし + 地合い・決算後利確・過剰連れ安・コンセンサス微未達など **一時的下落**
 
 ## 評価基準（★1〜★5）
 
@@ -227,7 +256,8 @@ def _build_prompt(
 - 下落理由が明確でない、または好悪材料が拮抗している場合。
 
 ★2（警戒・スルー推奨）:
-- 業績悪化の兆候がある、または下落圧力が長引く可能性が高い場合。
+- 上方の「評価方針」に該当する構造悪材料や、業績悪化トレンドが材料から確認できる場合。
+- 参考データの成長率だけでは ★2 にしない。
 
 ★1（危険・絶対見送り）:
 - 「公募増資・新株発行（希薄化）」「通期業績の下方修正」「赤字転落」「減配」「不正・不祥事」など、企業価値そのものを損なう構造的悪材料。

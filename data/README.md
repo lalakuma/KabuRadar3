@@ -25,6 +25,12 @@ copy C:\path\to\KabuRadar.db data\kaburadar.db
 | `signal_ratings.jsonl` | 星評価の時系列履歴（publish 時に追記） |
 | `local_schedule_state.json` | ローカルスケジューラ実行記録（通常は commit しない） |
 
+## ★評価の方針（Gemini）
+
+- **★3〜★4** が基本。★5 は稀。★1/★2 は構造悪材料など明確な理由があるときのみ。
+- シグナルは RSI/RCI で既に抽出済みのため、yfinance の成長率だけで ★2 にしない。
+- 詳細は `src/kaburadar3/qualitative/rater.py` のプロンプト（`PROMPT_VERSION`）を参照。
+
 ## バックアップ
 
 DB は定期的に別ドライブやクラウドストレージへコピーすることを推奨します。
