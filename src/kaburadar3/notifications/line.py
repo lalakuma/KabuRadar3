@@ -87,6 +87,9 @@ def notify_optional(codes: Iterable[str], stance: str) -> bool:
     if not is_configured():
         print("LINE: .env 未設定のため送信しません。")
         return False
+    token, users = _get_env()
+    if len(users) > 1:
+        print(f"LINE: 送信先 {len(users)} 件（スロット1回あたり {len(users)} 通届きます）")
     try:
         return notify(codes, stance)
     except Exception as exc:  # noqa: BLE001
@@ -141,10 +144,13 @@ def notify_from_payload(payload: dict, *, force: bool = False) -> bool:
     runtime = RuntimeConfig.from_dict(payload.get("runtime") or {})
     today = payload.get("today") or {}
     trade_date = today.get("trade_date") or "—"
+    slot_id = os.getenv("KABURADAR_SLOT_ID", "").strip()
+    slot_label = os.getenv("KABURADAR_SLOT_LABEL", "").strip()
     now = datetime.now(timezone.utc).astimezone()
 
-    if not force and already_notified(trade_date):
-        print(f"LINE: {trade_date} は送信済みのためスキップします。")
+    if not force and already_notified(trade_date, slot_id):
+        label = slot_label or slot_id or "manual"
+        print(f"LINE: {trade_date} / {label} は送信済みのためスキップします。")
         return False
 
     body: list[str] = [
@@ -152,6 +158,8 @@ def notify_from_payload(payload: dict, *, force: bool = False) -> bool:
         now.strftime("%Y-%m-%d %H:%M JST"),
         f"対象日: {trade_date}",
     ]
+    if slot_label:
+        body.insert(1, slot_label)
 
     if runtime.notify_today_buy:
         buys = today.get("new_buy") or []
@@ -192,5 +200,5 @@ def notify_from_payload(payload: dict, *, force: bool = False) -> bool:
 
     sent = notify_optional(body, "")
     if sent:
-        mark_notified(trade_date)
+        mark_notified(trade_date, slot_id)
     return sent

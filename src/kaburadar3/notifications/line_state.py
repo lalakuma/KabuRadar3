@@ -1,4 +1,4 @@
-"""LINE 通知の1日1回制御."""
+"""LINE 通知のスロット単位重複防止（1日3スロットそれぞれ1通）."""
 
 from __future__ import annotations
 
@@ -10,33 +10,50 @@ from kaburadar3.settings.paths import PROJECT_ROOT
 STATE_FILE = PROJECT_ROOT / "data" / "line_notify_state.json"
 
 
-def load_state(path: Path | None = None) -> dict[str, str]:
+def _notify_key(trade_date: str, slot_id: str) -> str:
+    slot = slot_id.strip() or "manual"
+    return f"{trade_date}:{slot}"
+
+
+def load_state(path: Path | None = None) -> dict[str, list[str]]:
     target = path or STATE_FILE
     if not target.is_file():
         return {}
     try:
         data = json.loads(target.read_text(encoding="utf-8"))
+        if isinstance(data, dict) and isinstance(data.get("notified"), list):
+            return {"notified": [str(x) for x in data["notified"]]}
+        if isinstance(data, dict) and "last_trade_date" in data:
+            # 旧形式からの移行
+            old = str(data.get("last_trade_date", ""))
+            return {"notified": [f"{old}:legacy"]} if old else {}
         return data if isinstance(data, dict) else {}
     except (json.JSONDecodeError, OSError):
         return {}
 
 
-def save_state(state: dict[str, str], path: Path | None = None) -> None:
+def save_state(state: dict[str, list[str]], path: Path | None = None) -> None:
     target = path or STATE_FILE
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+    payload = {"notified": list(state.get("notified", []))}
+    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def already_notified(trade_date: str, path: Path | None = None) -> bool:
+def already_notified(trade_date: str, slot_id: str = "", path: Path | None = None) -> bool:
     if not trade_date or trade_date == "—":
         return False
+    key = _notify_key(trade_date, slot_id)
     state = load_state(path)
-    return state.get("last_trade_date") == trade_date
+    return key in state.get("notified", [])
 
 
-def mark_notified(trade_date: str, path: Path | None = None) -> None:
+def mark_notified(trade_date: str, slot_id: str = "", path: Path | None = None) -> None:
     if not trade_date or trade_date == "—":
         return
+    key = _notify_key(trade_date, slot_id)
     state = load_state(path)
-    state["last_trade_date"] = trade_date
+    items = list(state.get("notified", []))
+    if key not in items:
+        items.append(key)
+    state["notified"] = items
     save_state(state, path)

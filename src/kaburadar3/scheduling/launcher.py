@@ -75,6 +75,8 @@ def _run_slot(slot_id: str, logger: logging.Logger, push: bool = False, force: b
         return 0
 
     os.environ["KABURADAR_CONFIG"] = str((PROJECT_ROOT / slot.config).resolve())
+    os.environ["KABURADAR_SLOT_ID"] = slot.slot_id
+    os.environ["KABURADAR_SLOT_LABEL"] = slot.label
     logger.info("Run slot %s (%s) config=%s", slot.slot_id, slot.label, slot.config)
 
     try:
@@ -88,12 +90,6 @@ def _run_slot(slot_id: str, logger: logging.Logger, push: bool = False, force: b
             if rc != 0:
                 logger.error("publish --push failed with code %s", rc)
                 return rc
-
-        if slot.slot_id == "lo_1600":
-            notify_rc = run_script("notify_line")
-            if notify_rc != 0:
-                logger.error("notify_line failed with code %s", notify_rc)
-                return notify_rc
 
         mark_slot_done(slot.slot_id, now)
         logger.info("Slot %s completed", slot.slot_id)

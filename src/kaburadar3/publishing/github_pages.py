@@ -33,7 +33,8 @@ def _ensure_env_loaded() -> None:
         load_dotenv(env_file)
 
 
-from kaburadar3.qualitative.rater import rate_signals
+from kaburadar3.qualitative.rater import load_cache, rate_signals
+from kaburadar3.qualitative.rating_history import attach_quality_to_daily
 from kaburadar3.signals.daily_history import collect_daily_history
 from kaburadar3.signals.special import apply_special_buy
 from kaburadar3.signals.today import collect_today_signals
@@ -119,6 +120,7 @@ def build_payload() -> dict:
         enabled=runtime.gemini_rating_enabled and bool(os.getenv("GEMINI_API_KEY", "").strip()),
         model=runtime.gemini_rating_model,
     )
+    attach_quality_to_daily(daily, load_cache())
     for key in ("new_buy", "sellback"):
         for item in today.get(key, []):
             code = str(item.get("code", ""))

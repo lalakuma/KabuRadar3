@@ -417,6 +417,44 @@ body {
   color: var(--text);
 }
 
+.signal-earnings-preview,
+.signal-fund-preview,
+.signal-analysis-preview {
+  margin: 0.25rem 0 0;
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
+.valuation-badge {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.08rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+.valuation-cheap {
+  background: rgba(34, 197, 94, 0.18);
+  color: #86efac;
+}
+
+.valuation-fair {
+  background: rgba(56, 189, 248, 0.15);
+  color: #7dd3fc;
+}
+
+.valuation-expensive {
+  background: rgba(248, 113, 113, 0.15);
+  color: #fca5a5;
+}
+
+.detail-metrics {
+  margin-top: 0.45rem;
+  font-size: 0.82rem;
+}
+
 .signal-detail-inline {
   padding: 0.65rem 0.65rem 0.75rem;
 }
@@ -604,6 +642,15 @@ body {
   margin: 0;
   font-size: 0.92rem;
   line-height: 1.55;
+}
+
+.analysis-text {
+  line-height: 1.7;
+}
+
+.analysis-preview,
+.signal-analysis-preview {
+  line-height: 1.6;
 }
 
 .detail-muted {

@@ -12,6 +12,8 @@ __pycache__/
 data/*
 !data/README.md
 !data/special_state.json
+!data/quality_cache.json
+!data/signal_ratings.jsonl
 
 # 旧パス
 DB/

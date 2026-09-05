@@ -7,19 +7,25 @@ import pandas as pd
 
 
 def compute_rci(close: pd.Series, period: int = 9) -> pd.Series:
-    """終値系列から RCI (-100〜100) を計算する。"""
+    """終値系列から RCI (-100〜100) を計算する。
+
+    SBI / 楽天証券等の国内標準に合わせる:
+    - 日付順位: ウィンドウ内の最新日 = 1、古い日ほど大きい
+    - 価格順位: ウィンドウ内の最高終値 = 1、安いほど大きい
+    """
     if period < 2:
         raise ValueError("period must be >= 2")
 
     values = close.astype(float).values
     out = np.full(len(values), np.nan, dtype=float)
+    # ウィンドウ [最古…最新] に対し、最新日 = 1
     time_ranks = np.arange(period, 0, -1, dtype=float)
 
     for i in range(period - 1, len(values)):
         window = values[i - period + 1 : i + 1]
         if np.any(np.isnan(window)):
             continue
-        price_ranks = pd.Series(window).rank(method="average").values
+        price_ranks = pd.Series(window).rank(method="average", ascending=False).values
         d = np.sum((time_ranks - price_ranks) ** 2)
         out[i] = (1.0 - (6.0 * d) / (period * (period**2 - 1))) * 100.0
 
@@ -27,10 +33,9 @@ def compute_rci(close: pd.Series, period: int = 9) -> pd.Series:
 
 
 def attach_rci(df: pd.DataFrame, period: int = 9, price_col: str = "close") -> pd.DataFrame:
-    """DataFrame に RCI 列を追加する。"""
+    """DataFrame に RCI 列を追加する（終値から毎回再計算）。"""
     col = f"RCI{period}"
-    if col not in df.columns:
-        df[col] = compute_rci(df[price_col], period=period)
+    df[col] = compute_rci(df[price_col], period=period)
     return df
 
 

@@ -68,10 +68,11 @@ def test_format_signal_row_includes_stars() -> None:
     assert "¥769" in text
 
 
-def test_notify_from_payload_skips_duplicate(monkeypatch, tmp_path) -> None:
+def test_notify_from_payload_skips_duplicate_slot(monkeypatch, tmp_path) -> None:
     state_path = tmp_path / "line_notify_state.json"
     monkeypatch.setattr("kaburadar3.notifications.line_state.STATE_FILE", state_path)
-    line_state.mark_notified("2026-09-02", state_path)
+    monkeypatch.setenv("KABURADAR_SLOT_ID", "lo_1130")
+    line_state.mark_notified("2026-09-02", "lo_1130", state_path)
 
     called = False
 
@@ -89,6 +90,7 @@ def test_notify_from_payload_skips_duplicate(monkeypatch, tmp_path) -> None:
     }
     assert line.notify_from_payload(payload) is False
     assert called is False
+    assert not line_state.already_notified("2026-09-02", "lo_1500", state_path)
 
 
 def test_notify_from_payload_includes_stars(monkeypatch, tmp_path) -> None:

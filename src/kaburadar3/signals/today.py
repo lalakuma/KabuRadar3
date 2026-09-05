@@ -8,6 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 from kaburadar3.settings.encoding import read_csv
+from kaburadar3.strategy import rci as tc_rci
 
 MARK_NEW_BUY = "新買"
 MARK_SELLBACK = "返売"
@@ -41,6 +42,8 @@ def _read_code_last_row(path: Path) -> tuple[str, pd.Timestamp | None, str, floa
     if not match:
         return None
     code = match.group(1)
+    if "close" in df.columns:
+        df = tc_rci.attach_rci(df, period=9)
     last = df.iloc[-1]
     mark = str(last.get("mark", "")).strip()
     dt = _row_trade_date(last, df.index[-1])
@@ -48,9 +51,15 @@ def _read_code_last_row(path: Path) -> tuple[str, pd.Timestamp | None, str, floa
     extras: dict = {}
     for col in ("RSI4", "RCI9", "RSI"):
         if col in last.index and pd.notna(last.get(col)):
-            extras[col.lower()] = float(last.get(col))
+            key = "rci9" if col == "RCI9" else col.lower()
+            extras[key] = float(last.get(col))
     if "rsi4" in extras:
         extras["rsi"] = extras["rsi4"]
+    if "rci9" in extras and len(df) >= 2 and "RCI9" in df.columns:
+        prev_rci = df["RCI9"].iloc[-2]
+        now_rci = extras["rci9"]
+        if pd.notna(prev_rci):
+            extras["rci_turn"] = float(now_rci) > float(prev_rci)
     return code, dt, mark, close, extras
 
 
@@ -91,7 +100,7 @@ def collect_today_signals(
             item["rsi"] = round(extras["rsi"], 2)
         if "rci9" in extras:
             item["rci"] = round(extras["rci9"], 2)
-            item["rci_turn"] = extras["rci9"] > -50
+            item["rci_turn"] = bool(extras.get("rci_turn", False))
         return item
 
     new_buy: list[dict] = []

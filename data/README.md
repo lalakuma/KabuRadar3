@@ -21,7 +21,8 @@ copy C:\path\to\KabuRadar.db data\kaburadar.db
 | ファイル | 内容 |
 |----------|------|
 | `special_state.json` | 特別買い状態 |
-| `quality_cache.json` | Gemini 評価キャッシュ（`.gitignore` 対象外なら commit 可） |
+| `quality_cache.json` | Gemini 評価キャッシュ |
+| `signal_ratings.jsonl` | 星評価の時系列履歴（publish 時に追記） |
 | `local_schedule_state.json` | ローカルスケジューラ実行記録（通常は commit しない） |
 
 ## バックアップ

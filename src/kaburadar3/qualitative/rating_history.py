@@ -115,7 +115,7 @@ def build_rating_lookup(
 
 def attach_quality_to_daily(daily: dict[str, Any], cache: dict[str, dict[str, Any]]) -> None:
     """daily.days[].new_buy に cache から quality を付与（in-place）。"""
-    from kaburadar3.qualitative.rater import _apply_fundamentals
+    from kaburadar3.qualitative.rater import _apply_fundamentals, _cache_key
     from kaburadar3.qualitative.schema import QualityRating
 
     for day in daily.get("days", []):
@@ -126,7 +126,7 @@ def attach_quality_to_daily(daily: dict[str, Any], cache: dict[str, dict[str, An
             code = str(item.get("code", "")).strip()
             if not code:
                 continue
-            cached = cache.get(_entry_key(date, code))
+            cached = cache.get(_cache_key(code, date)) or cache.get(_entry_key(date, code))
             if cached:
                 rating = _apply_fundamentals(QualityRating.from_dict(cached), code)
                 item["quality"] = rating.to_dict()

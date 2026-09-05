@@ -60,6 +60,128 @@ function formatDividend(dividend) {
   return parts.join(" · ");
 }
 
+function formatEarnings(earnings) {
+  if (!earnings || typeof earnings !== "object") return "";
+  const parts = [];
+  if (earnings.fiscal_month != null) parts.push(`${earnings.fiscal_month}月決算`);
+  if (earnings.announcement_date) {
+    let label = `次回決算発表 ${earnings.announcement_date}`;
+    if (
+      earnings.announcement_date_end &&
+      earnings.announcement_date_end !== earnings.announcement_date
+    ) {
+      label += `〜${earnings.announcement_date_end}`;
+    }
+    if (earnings.is_estimate) label += "（予想）";
+    parts.push(label);
+  } else if (earnings.fiscal_year_end) {
+    parts.push(`決算期 ${earnings.fiscal_year_end}`);
+  }
+  return parts.join(" · ");
+}
+
+function formatValuation(valuation) {
+  if (!valuation || typeof valuation !== "object") return "";
+  const parts = [];
+  if (valuation.sector) {
+    parts.push(valuation.industry ? `${valuation.sector} / ${valuation.industry}` : valuation.sector);
+  }
+  if (valuation.market_cap_oku != null) parts.push(`時価総額 約${fmt.format(valuation.market_cap_oku)}億円`);
+  if (valuation.per != null) parts.push(`PER ${valuation.per}`);
+  if (valuation.forward_per != null) parts.push(`予想PER ${valuation.forward_per}`);
+  if (valuation.pbr != null) parts.push(`PBR ${valuation.pbr}`);
+  if (valuation.revenue_growth_pct != null) parts.push(`売上成長 ${valuation.revenue_growth_pct}%`);
+  if (valuation.earnings_growth_pct != null) parts.push(`利益成長 ${valuation.earnings_growth_pct}%`);
+  if (valuation.profit_margin_pct != null) parts.push(`利益率 ${valuation.profit_margin_pct}%`);
+  if (valuation.roe_pct != null) parts.push(`ROE ${valuation.roe_pct}%`);
+  if (valuation.target_price_yen != null) {
+    let label = `目標株価 ${fmt.format(valuation.target_price_yen)}円`;
+    if (valuation.target_upside_pct != null) {
+      label += ` (${valuation.target_upside_pct > 0 ? "+" : ""}${valuation.target_upside_pct}%)`;
+    }
+    parts.push(label);
+  }
+  return parts.join(" · ");
+}
+
+function valuationViewLabel(value) {
+  switch (value) {
+    case "cheap":
+      return "割安寄り";
+    case "fair":
+      return "適正";
+    case "expensive":
+      return "割高寄り";
+    default:
+      return "";
+  }
+}
+
+function truncateText(text, max = 160) {
+  const value = (text || "").trim();
+  if (!value) return "";
+  if (value.length <= max) return value;
+  return `${value.slice(0, max)}…`;
+}
+
+function renderAnalysisBlock(q) {
+  const sections = [];
+  if (q.background) {
+    sections.push(
+      `<section class="detail-section"><h4>下落背景</h4><p class="detail-text analysis-text">${escapeHtml(q.background)}</p></section>`,
+    );
+  }
+  if (q.material_analysis) {
+    sections.push(
+      `<section class="detail-section"><h4>材料分析</h4><p class="detail-text analysis-text">${escapeHtml(q.material_analysis)}</p></section>`,
+    );
+  }
+  if (q.fundamental_summary) {
+    const valuationBadge = valuationViewLabel(q.valuation_view);
+    const valuationText = formatValuation(q.valuation);
+    sections.push(
+      `<section class="detail-section"><h4>ファンダメンタル${
+        valuationBadge
+          ? `<span class="valuation-badge valuation-${escapeHtml(q.valuation_view)}">${escapeHtml(valuationBadge)}</span>`
+          : ""
+      }</h4><p class="detail-text analysis-text">${escapeHtml(q.fundamental_summary)}</p>${
+        valuationText
+          ? `<p class="detail-muted detail-metrics">${escapeHtml(valuationText)}</p>`
+          : ""
+      }</section>`,
+    );
+  } else {
+    const valuationText = formatValuation(q.valuation);
+    if (valuationText) {
+      sections.push(
+        `<section class="detail-section"><h4>指標</h4><p class="detail-text">${escapeHtml(valuationText)}</p></section>`,
+      );
+    }
+  }
+  if (q.technical_view) {
+    sections.push(
+      `<section class="detail-section"><h4>シグナル所見</h4><p class="detail-text analysis-text">${escapeHtml(q.technical_view)}</p></section>`,
+    );
+  }
+  if (q.trade_notes) {
+    sections.push(
+      `<section class="detail-section"><h4>トレード留意</h4><p class="detail-text analysis-text">${escapeHtml(q.trade_notes)}</p></section>`,
+    );
+  }
+  return sections.join("");
+}
+
+function formatAnalysisPreview(q) {
+  const parts = [];
+  const bg = (q.background || "").trim();
+  const material = (q.material_analysis || "").trim();
+  const fund = (q.fundamental_summary || "").trim();
+  if (bg) parts.push(bg);
+  if (material) parts.push(material);
+  else if (fund) parts.push(fund);
+  return truncateText(parts.join(" "), 220);
+}
+
 function formatBenefitPreview(q) {
   const detail = q?.shareholder_benefit_detail;
   const summary = (q?.shareholder_benefit || detail?.summary || "").trim();
@@ -148,8 +270,13 @@ function renderQualityDetailBody(row) {
   const risks = (q.risk_factors || [])
     .map((r) => `<li>${escapeHtml(r)}</li>`)
     .join("");
+  const watchPoints = (q.watch_points || [])
+    .map((r) => `<li>${escapeHtml(r)}</li>`)
+    .join("");
   const dividendText = formatDividend(q.dividend);
+  const earningsText = formatEarnings(q.earnings);
   const benefitHtml = formatBenefitHtml(q);
+  const analysisHtml = renderAnalysisBlock(q);
   const yahooUrl = row.code
     ? `https://finance.yahoo.co.jp/quote/${encodeURIComponent(String(row.code).replace(/\\.T$/, "") + ".T")}`
     : "";
@@ -168,19 +295,29 @@ function renderQualityDetailBody(row) {
         : ""
     }
     ${
-      q.background
-        ? `<section class="detail-section"><h4>背景・分析</h4><p class="detail-text">${escapeHtml(q.background)}</p></section>`
-        : `<section class="detail-section"><h4>背景・分析</h4><p class="detail-muted">評価テキストがありません</p></section>`
+      analysisHtml
+        ? analysisHtml
+        : `<section class="detail-section"><h4>分析</h4><p class="detail-muted">評価テキストがありません</p></section>`
     }
     ${
       dividendText
         ? `<section class="detail-section"><h4>配当</h4><p class="detail-text">${escapeHtml(dividendText)}</p></section>`
         : ""
     }
+    ${
+      earningsText
+        ? `<section class="detail-section"><h4>決算</h4><p class="detail-text">${escapeHtml(earningsText)}</p></section>`
+        : `<section class="detail-section"><h4>決算</h4><p class="detail-muted">決算情報なし</p></section>`
+    }
     <section class="detail-section"><h4>株主優待</h4>${benefitHtml}</section>
     ${
       risks
         ? `<section class="detail-section"><h4>リスク要因</h4><ul class="detail-list">${risks}</ul></section>`
+        : ""
+    }
+    ${
+      watchPoints
+        ? `<section class="detail-section"><h4>注目ポイント</h4><ul class="detail-list">${watchPoints}</ul></section>`
         : ""
     }
     ${
@@ -250,8 +387,10 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
       const qualityHtml = q
         ? `<span class="signal-quality">${starsLabel(q.stars)}</span>`
         : "";
-      const bg =
-        !clickable && q?.background
+      const analysisPreview = q ? formatAnalysisPreview(q) : "";
+      const bg = analysisPreview
+        ? `<p class="signal-bg analysis-preview">${escapeHtml(analysisPreview)}</p>`
+        : !clickable && q?.background
           ? `<p class="signal-bg">${escapeHtml(q.background)}</p>`
           : "";
       const hint = clickable
@@ -301,9 +440,17 @@ function renderDailyBuyRow(row) {
     row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
   const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
   const benefit = formatBenefitPreview(q);
+  const earnings = formatEarnings(q.earnings);
+  const analysisPreview = formatAnalysisPreview(q);
   const benefitLine = benefit
     ? `<p class="signal-benefit-preview"><strong>株主優待:</strong> ${escapeHtml(benefit)}</p>`
     : `<p class="signal-benefit-preview detail-muted">株主優待: 情報なし</p>`;
+  const earningsLine = earnings
+    ? `<p class="signal-earnings-preview"><strong>決算:</strong> ${escapeHtml(earnings)}</p>`
+    : `<p class="signal-earnings-preview detail-muted">決算: 情報なし</p>`;
+  const analysisLine = analysisPreview
+    ? `<p class="signal-analysis-preview"><strong>分析:</strong> ${escapeHtml(analysisPreview)}</p>`
+    : "";
 
   return `<li class="signal-item signal-item-daily">
     <details class="signal-details">
@@ -315,6 +462,8 @@ function renderDailyBuyRow(row) {
           ${close}
         </span>
         ${benefitLine}
+        ${earningsLine}
+        ${analysisLine}
         <span class="signal-expand-hint">詳細を開く</span>
       </summary>
       <div class="signal-detail-inline">${renderQualityDetailBody(row)}</div>

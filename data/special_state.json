@@ -1,7 +1,7 @@
 {
-  "state": "special_long",
-  "entered_on": "2026-08-28",
-  "etf": "1306",
+  "state": "idle",
+  "entered_on": null,
+  "etf": null,
   "last_special_buy_notify": "2026-08-28",
-  "last_special_exit_notify": "2026-06-04:1306"
+  "last_special_exit_notify": "2026-09-02:1306"
 }
