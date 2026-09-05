@@ -75,22 +75,8 @@ function setupSignalModal() {
   });
 }
 
-function openSignalDetail(row) {
-  const dialog = document.getElementById("signal-detail");
-  const title = document.getElementById("signal-detail-title");
-  const sub = document.getElementById("signal-detail-sub");
-  const body = document.getElementById("signal-detail-body");
-  if (!dialog || !title || !sub || !body) return;
-
+function renderQualityDetailBody(row) {
   const q = row.quality || {};
-  const stars = q.stars;
-  const name = row.name || "";
-  title.textContent = `${row.code} ${name}`.trim();
-  sub.textContent =
-    stars != null
-      ? `${starsLabel(stars)}（${starTierLabel(stars)}）`
-      : "AI評価なし";
-
   const tech = [];
   if (row.close != null) tech.push(`終値 ¥${fmt.format(row.close)}`);
   if (row.rsi != null) tech.push(`RSI ${Number(row.rsi).toFixed(2)}`);
@@ -99,15 +85,15 @@ function openSignalDetail(row) {
   if (row.rsi_ok) tech.push("RSI条件 ✓");
   if (row.rci_ok) tech.push("RCI条件 ✓");
   if (row.pnl != null) tech.push(`損益 ${formatIncome(row.pnl)}`);
-  const yahooUrl = row.code
-    ? `https://finance.yahoo.co.jp/quote/${encodeURIComponent(String(row.code).replace(/\\.T$/, "") + ".T")}`
-    : "";
 
   const risks = (q.risk_factors || [])
     .map((r) => `<li>${escapeHtml(r)}</li>`)
     .join("");
   const dividendText = formatDividend(q.dividend);
   const benefitText = (q.shareholder_benefit || "").trim();
+  const yahooUrl = row.code
+    ? `https://finance.yahoo.co.jp/quote/${encodeURIComponent(String(row.code).replace(/\\.T$/, "") + ".T")}`
+    : "";
   const sources = (q.sources || [])
     .filter(Boolean)
     .map(
@@ -116,7 +102,7 @@ function openSignalDetail(row) {
     )
     .join("");
 
-  body.innerHTML = `
+  return `
     ${
       tech.length
         ? `<section class="detail-section"><h4>テクニカル</h4><p class="detail-text">${tech.map(escapeHtml).join(" · ")}</p></section>`
@@ -132,11 +118,7 @@ function openSignalDetail(row) {
         ? `<section class="detail-section"><h4>配当</h4><p class="detail-text">${escapeHtml(dividendText)}</p></section>`
         : ""
     }
-    ${
-      benefitText
-        ? `<section class="detail-section"><h4>株主優待</h4><p class="detail-text">${escapeHtml(benefitText)}</p></section>`
-        : `<section class="detail-section"><h4>株主優待</h4><p class="detail-muted">情報なし</p></section>`
-    }
+    <section class="detail-section"><h4>株主優待</h4><p class="detail-text">${benefitText ? escapeHtml(benefitText) : '<span class="detail-muted">情報なし</span>'}</p></section>
     ${
       risks
         ? `<section class="detail-section"><h4>リスク要因</h4><ul class="detail-list">${risks}</ul></section>`
@@ -158,10 +140,31 @@ function openSignalDetail(row) {
     }
     <p class="detail-note">AI参考情報です。投資判断は自己責任でお願いします。</p>
   `;
+}
+
+function openSignalDetail(row) {
+  const dialog = document.getElementById("signal-detail");
+  const title = document.getElementById("signal-detail-title");
+  const sub = document.getElementById("signal-detail-sub");
+  const body = document.getElementById("signal-detail-body");
+  if (!dialog || !title || !sub || !body) return;
+
+  const q = row.quality || {};
+  const stars = q.stars;
+  const name = row.name || "";
+  title.textContent = `${row.code} ${name}`.trim();
+  sub.textContent =
+    stars != null
+      ? `${starsLabel(stars)}（${starTierLabel(stars)}）`
+      : "AI評価なし";
+
+  body.innerHTML = renderQualityDetailBody(row);
 
   if (typeof dialog.showModal === "function") {
     dialog.showModal();
+    return;
   }
+  dialog.setAttribute("open", "");
 }
 
 function renderSignalRows(container, rows, emptyText, options = {}) {
@@ -233,11 +236,38 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
   }
 }
 
+function renderDailyBuyRow(row) {
+  const q = row.quality || {};
+  const close =
+    row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
+  const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
+  const benefit = (q.shareholder_benefit || "").trim();
+  const benefitLine = benefit
+    ? `<p class="signal-benefit-preview"><strong>株主優待:</strong> ${escapeHtml(benefit)}</p>`
+    : `<p class="signal-benefit-preview detail-muted">株主優待: 情報なし</p>`;
+
+  return `<li class="signal-item signal-item-daily">
+    <details class="signal-details">
+      <summary class="signal-summary">
+        <span class="code">${escapeHtml(row.code)}</span>
+        <span class="name">${escapeHtml(row.name || "")}</span>
+        ${stars}
+        ${close}
+        <span class="signal-expand-hint">詳細を開く</span>
+      </summary>
+      ${benefitLine}
+      <div class="signal-detail-inline">${renderQualityDetailBody(row)}</div>
+    </details>
+  </li>`;
+}
+
 function renderBuyTimeline(daily) {
   const timeline = document.getElementById("daily-buy-timeline");
   const meta = document.getElementById("daily-buy-meta");
   const buyDays = daily?.buy_days || (daily?.days || []).filter((d) => (d.new_buy_count ?? 0) > 0);
   const totalDays = daily?.days?.length ?? 0;
+
+  if (!timeline || !meta) return;
 
   if (!buyDays.length) {
     meta.textContent = totalDays ? `直近 ${totalDays} 営業日 · 買いシグナルなし` : "データなし";
@@ -250,23 +280,15 @@ function renderBuyTimeline(daily) {
 
   timeline.innerHTML = buyDays
     .map(
-      (day, dayIdx) => `<li class="daily-day-group">
+      (day) => `<li class="daily-day-group">
         <div class="daily-day-header">
           <span class="daily-day-date">${escapeHtml(day.date)}</span>
           <span class="badge-count">${day.new_buy_count ?? 0} 件</span>
         </div>
-        <ul class="signal-list" id="daily-buy-${dayIdx}"></ul>
+        <ul class="signal-list">${(day.new_buy || []).map(renderDailyBuyRow).join("")}</ul>
       </li>`,
     )
     .join("");
-
-  buyDays.forEach((day, dayIdx) => {
-    const list = document.getElementById(`daily-buy-${dayIdx}`);
-    if (!list) return;
-    renderSignalRows(list, day.new_buy || [], "この日の新買はありません", {
-      clickable: true,
-    });
-  });
 }
 
 function renderDailyHistory(daily) {

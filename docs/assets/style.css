@@ -360,7 +360,52 @@ body {
 
 .daily-day-group .signal-item {
   background: #0f172a;
-  padding: 0.5rem 0.65rem;
+  padding: 0;
+}
+
+.signal-item-daily {
+  overflow: hidden;
+}
+
+.signal-details {
+  margin: 0;
+}
+
+.signal-summary {
+  display: grid;
+  grid-template-columns: 4rem 1fr auto auto;
+  gap: 0.25rem 0.5rem;
+  align-items: center;
+  padding: 0.55rem 0.65rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.signal-summary::-webkit-details-marker {
+  display: none;
+}
+
+.signal-expand-hint {
+  grid-column: 1 / -1;
+  justify-self: end;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.signal-benefit-preview {
+  margin: 0;
+  padding: 0 0.65rem 0.55rem;
+  font-size: 0.82rem;
+  color: var(--text);
+  border-bottom: 1px solid #334155;
+}
+
+.signal-detail-inline {
+  padding: 0.65rem 0.65rem 0.75rem;
+}
+
+.signal-detail-inline .detail-section:first-child {
+  margin-top: 0;
 }
 
 .daily-details {
