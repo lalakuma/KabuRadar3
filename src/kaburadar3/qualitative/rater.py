@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 from kaburadar3.market_data.fundamentals import fetch_dividend_info
-from kaburadar3.market_data.shareholder_benefit import fetch_shareholder_benefit
+from kaburadar3.market_data.shareholder_benefit import fetch_shareholder_benefit_detail
 from kaburadar3.news.fetch import NewsItem, fetch_news
 from kaburadar3.qualitative.gemini_client import generate_json
 from kaburadar3.qualitative.rating_history import append_signal_ratings
@@ -55,9 +55,12 @@ def _apply_fundamentals(rating: QualityRating, code: str) -> QualityRating:
     dividend = fetch_dividend_info(code)
     if dividend:
         rating.dividend = dividend
-    benefit = fetch_shareholder_benefit(code)
-    if benefit:
-        rating.shareholder_benefit = benefit
+    benefit = fetch_shareholder_benefit_detail(code)
+    summary = str(benefit.get("summary") or "").strip()
+    if summary:
+        rating.shareholder_benefit = summary
+        if benefit.get("programs"):
+            rating.shareholder_benefit_detail = benefit
     return rating
 
 

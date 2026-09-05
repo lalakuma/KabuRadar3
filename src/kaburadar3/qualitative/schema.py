@@ -16,6 +16,7 @@ class QualityRating:
     sources: list[str] = field(default_factory=list)
     dividend: dict[str, Any] = field(default_factory=dict)
     shareholder_benefit: str = ""
+    shareholder_benefit_detail: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         out: dict[str, Any] = {
@@ -30,6 +31,8 @@ class QualityRating:
             out["dividend"] = dict(self.dividend)
         if self.shareholder_benefit:
             out["shareholder_benefit"] = self.shareholder_benefit
+        if self.shareholder_benefit_detail:
+            out["shareholder_benefit_detail"] = dict(self.shareholder_benefit_detail)
         return out
 
     @classmethod
@@ -45,6 +48,9 @@ class QualityRating:
         dividend = data.get("dividend") or {}
         if not isinstance(dividend, dict):
             dividend = {}
+        benefit_detail = data.get("shareholder_benefit_detail") or {}
+        if not isinstance(benefit_detail, dict):
+            benefit_detail = {}
         return cls(
             code=str(data.get("code", "")),
             stars=stars,
@@ -54,4 +60,5 @@ class QualityRating:
             sources=[str(x) for x in sources][:5],
             dividend=dividend,
             shareholder_benefit=str(data.get("shareholder_benefit", "")).strip(),
+            shareholder_benefit_detail=benefit_detail,
         )

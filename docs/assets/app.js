@@ -60,6 +60,65 @@ function formatDividend(dividend) {
   return parts.join(" · ");
 }
 
+function formatBenefitPreview(q) {
+  const detail = q?.shareholder_benefit_detail;
+  const summary = (q?.shareholder_benefit || detail?.summary || "").trim();
+  if (!summary) return "";
+  const firstTier = detail?.programs?.[0]?.tiers?.[0];
+  if (firstTier?.content && summary !== "なし") {
+    return `${summary} ${firstTier.shares}: ${firstTier.content}`.trim();
+  }
+  return summary;
+}
+
+function formatBenefitHtml(q) {
+  const detail = q?.shareholder_benefit_detail;
+  const summary = (q?.shareholder_benefit || detail?.summary || "").trim();
+  if (!summary) {
+    return `<p class="detail-muted">情報なし</p>`;
+  }
+  if (summary === "なし") {
+    return `<p class="detail-text">なし</p>`;
+  }
+
+  const parts = [];
+  const meta = [];
+  if (detail?.min_shares) meta.push(`最低 ${detail.min_shares}株`);
+  if (detail?.month) meta.push(`権利確定 ${detail.month}月`);
+  if (detail?.yield_pct) meta.push(`優待利回り ${detail.yield_pct}%`);
+  if (meta.length) {
+    parts.push(`<p class="detail-text">${escapeHtml(meta.join(" · "))}</p>`);
+  }
+  parts.push(`<p class="detail-text"><strong>${escapeHtml(summary)}</strong></p>`);
+
+  for (const program of detail?.programs || []) {
+    const title = (program.title || "").trim();
+    if (title) {
+      parts.push(`<p class="detail-subtitle">${escapeHtml(title)}</p>`);
+    }
+    const tiers = program.tiers || [];
+    if (tiers.length) {
+      parts.push(
+        `<ul class="detail-list benefit-tier-list">${tiers
+          .map((tier) => {
+            const note = (tier.note || "").trim();
+            return `<li><strong>${escapeHtml(tier.shares || "")}</strong> ${escapeHtml(tier.content || "")}${
+              note ? `<br><span class="detail-muted">${escapeHtml(note)}</span>` : ""
+            }</li>`;
+          })
+          .join("")}</ul>`,
+      );
+    }
+  }
+
+  if (detail?.source && detail.source !== "none") {
+    parts.push(
+      `<p class="detail-muted">出典: ${escapeHtml(detail.source === "minkabu" ? "みんかぶ" : detail.source)}（参考）</p>`,
+    );
+  }
+  return parts.join("");
+}
+
 function setupSignalModal() {
   const dialog = document.getElementById("signal-detail");
   const closeBtn = document.getElementById("signal-detail-close");
@@ -90,7 +149,7 @@ function renderQualityDetailBody(row) {
     .map((r) => `<li>${escapeHtml(r)}</li>`)
     .join("");
   const dividendText = formatDividend(q.dividend);
-  const benefitText = (q.shareholder_benefit || "").trim();
+  const benefitHtml = formatBenefitHtml(q);
   const yahooUrl = row.code
     ? `https://finance.yahoo.co.jp/quote/${encodeURIComponent(String(row.code).replace(/\\.T$/, "") + ".T")}`
     : "";
@@ -118,7 +177,7 @@ function renderQualityDetailBody(row) {
         ? `<section class="detail-section"><h4>配当</h4><p class="detail-text">${escapeHtml(dividendText)}</p></section>`
         : ""
     }
-    <section class="detail-section"><h4>株主優待</h4><p class="detail-text">${benefitText ? escapeHtml(benefitText) : '<span class="detail-muted">情報なし</span>'}</p></section>
+    <section class="detail-section"><h4>株主優待</h4>${benefitHtml}</section>
     ${
       risks
         ? `<section class="detail-section"><h4>リスク要因</h4><ul class="detail-list">${risks}</ul></section>`
@@ -241,7 +300,7 @@ function renderDailyBuyRow(row) {
   const close =
     row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
   const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
-  const benefit = (q.shareholder_benefit || "").trim();
+  const benefit = formatBenefitPreview(q);
   const benefitLine = benefit
     ? `<p class="signal-benefit-preview"><strong>株主優待:</strong> ${escapeHtml(benefit)}</p>`
     : `<p class="signal-benefit-preview detail-muted">株主優待: 情報なし</p>`;
