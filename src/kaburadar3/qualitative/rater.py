@@ -7,8 +7,10 @@ from pathlib import Path
 from typing import Any
 
 from kaburadar3.market_data.fundamentals import fetch_dividend_info
+from kaburadar3.market_data.shareholder_benefit import fetch_shareholder_benefit
 from kaburadar3.news.fetch import NewsItem, fetch_news
 from kaburadar3.qualitative.gemini_client import generate_json
+from kaburadar3.qualitative.rating_history import append_signal_ratings
 from kaburadar3.qualitative.schema import QualityRating
 from kaburadar3.settings.paths import PROJECT_ROOT
 
@@ -53,6 +55,9 @@ def _apply_fundamentals(rating: QualityRating, code: str) -> QualityRating:
     dividend = fetch_dividend_info(code)
     if dividend:
         rating.dividend = dividend
+    benefit = fetch_shareholder_benefit(code)
+    if benefit:
+        rating.shareholder_benefit = benefit
     return rating
 
 
@@ -118,7 +123,6 @@ def _build_prompt(
   "code": "{code}",
   "stars": 1-5 の整数,
   "background": "下落理由・背景を日本語1-2文",
-  "shareholder_benefit": "株主優待の概要（実施がなければ「なし」、1-2文）",
   "risk_factors": ["リスク1", "リスク2"],
   "confidence": "high|medium|low",
   "sources": ["参照URL"]
@@ -141,9 +145,10 @@ def rate_symbol(
     cache = cache if cache is not None else load_cache()
     key = _cache_key(code, trade_date) if trade_date else code
     if use_cache and key in cache:
-        cached = cache[key]
-        if cached.get("shareholder_benefit"):
-            return _apply_fundamentals(QualityRating.from_dict(cached), code)
+        rating = _apply_fundamentals(QualityRating.from_dict(cache[key]), code)
+        if trade_date:
+            cache[key] = rating.to_dict()
+        return rating
 
     dividend = fetch_dividend_info(code)
     news = fetch_news(code)
@@ -203,4 +208,5 @@ def rate_signals(
 
     if trade_date:
         save_cache(cache)
+        append_signal_ratings(trade_date, signals, out, model=model)
     return out

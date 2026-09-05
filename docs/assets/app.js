@@ -249,27 +249,24 @@ function renderBuyTimeline(daily) {
   meta.textContent = `直近 ${totalDays} 営業日 · 買いあり ${buyDays.length} 日 · 計 ${totalBuys} 件`;
 
   timeline.innerHTML = buyDays
-    .map((day) => {
-      const stocks = (day.new_buy || [])
-        .map((row) => {
-          const close =
-            row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
-          return `<li class="signal-item">
-            <span class="code">${escapeHtml(row.code)}</span>
-            <span class="name">${escapeHtml(row.name)}</span>
-            ${close}
-          </li>`;
-        })
-        .join("");
-      return `<li class="daily-day-group">
+    .map(
+      (day, dayIdx) => `<li class="daily-day-group">
         <div class="daily-day-header">
           <span class="daily-day-date">${escapeHtml(day.date)}</span>
           <span class="badge-count">${day.new_buy_count ?? 0} 件</span>
         </div>
-        <ul class="signal-list">${stocks}</ul>
-      </li>`;
-    })
+        <ul class="signal-list" id="daily-buy-${dayIdx}"></ul>
+      </li>`,
+    )
     .join("");
+
+  buyDays.forEach((day, dayIdx) => {
+    const list = document.getElementById(`daily-buy-${dayIdx}`);
+    if (!list) return;
+    renderSignalRows(list, day.new_buy || [], "この日の新買はありません", {
+      clickable: true,
+    });
+  });
 }
 
 function renderDailyHistory(daily) {
