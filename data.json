@@ -1,0 +1,2329 @@
+{
+  "generated_at": "2026-09-05T22:22:54+09:00",
+  "mode": "LO",
+  "summary": {
+    "pf": 1.447,
+    "wins": 15,
+    "losses": 7,
+    "win_rate": 68.18,
+    "total_income": 36000,
+    "symbol_count": 26,
+    "neutral_count": 6,
+    "source_file": "Y0_PF1.447_W15L7_rate68.18_all36000.csv"
+  },
+  "symbols": [
+    {
+      "code": "3436",
+      "name": "ＳＵＭＣＯ",
+      "industry": "nan",
+      "incomes": 39900,
+      "pf": 106.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 10620,
+      "minus_gain": 0
+    },
+    {
+      "code": "6055",
+      "name": "ジャパンマテリアル",
+      "industry": "nan",
+      "incomes": 24800,
+      "pf": 109.4,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 10940,
+      "minus_gain": 0
+    },
+    {
+      "code": "4516",
+      "name": "日本新薬",
+      "industry": "nan",
+      "incomes": 12300,
+      "pf": 34.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 3420,
+      "minus_gain": 0
+    },
+    {
+      "code": "7846",
+      "name": "パイロットコーポレーション",
+      "industry": "nan",
+      "incomes": 11800,
+      "pf": 65.3,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 6530,
+      "minus_gain": 0
+    },
+    {
+      "code": "5393",
+      "name": "ニチアス",
+      "industry": "nan",
+      "incomes": 8100,
+      "pf": 24.1,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2410,
+      "minus_gain": 0
+    },
+    {
+      "code": "7276",
+      "name": "小糸製作所",
+      "industry": "nan",
+      "incomes": 5600,
+      "pf": 21.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2120,
+      "minus_gain": 0
+    },
+    {
+      "code": "6544",
+      "name": "ジャパンエレベーターサービスホールディングス",
+      "industry": "nan",
+      "incomes": 3500,
+      "pf": 1.7,
+      "winlose": "W1L1",
+      "win_per": 50,
+      "plus_gain": 5440,
+      "minus_gain": 3110
+    },
+    {
+      "code": "4042",
+      "name": "東ソー",
+      "industry": "nan",
+      "incomes": 2900,
+      "pf": 10.4,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1040,
+      "minus_gain": 0
+    },
+    {
+      "code": "7912",
+      "name": "大日本印刷",
+      "industry": "nan",
+      "incomes": 2900,
+      "pf": 9.7,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 969,
+      "minus_gain": 0
+    },
+    {
+      "code": "6632",
+      "name": "ＪＶＣケンウッド",
+      "industry": "nan",
+      "incomes": 2600,
+      "pf": 24.9,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2490,
+      "minus_gain": 0
+    },
+    {
+      "code": "4587",
+      "name": "ペプチドリーム",
+      "industry": "nan",
+      "incomes": 2500,
+      "pf": 25.7,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 2570,
+      "minus_gain": 0
+    },
+    {
+      "code": "4088",
+      "name": "エア・ウォーター",
+      "industry": "nan",
+      "incomes": 1700,
+      "pf": 6.6,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 660,
+      "minus_gain": 0
+    },
+    {
+      "code": "9090",
+      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+      "industry": "nan",
+      "incomes": 1600,
+      "pf": 18.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1820,
+      "minus_gain": 0
+    },
+    {
+      "code": "2871",
+      "name": "ニチレイ",
+      "industry": "nan",
+      "incomes": 1500,
+      "pf": 7.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 700,
+      "minus_gain": 0
+    },
+    {
+      "code": "2670",
+      "name": "エービーシー・マート",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "3391",
+      "name": "ツルハホールディングス",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "6141",
+      "name": "ＤＭＧ　森精機",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "6254",
+      "name": "野村マイクロ・サイエンス",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "7649",
+      "name": "スギホールディングス",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "9302",
+      "name": "三井倉庫ホールディングス",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "2264",
+      "name": "森永乳業",
+      "industry": "nan",
+      "incomes": -900,
+      "pf": 0.8,
+      "winlose": "W1L1",
+      "win_per": 50,
+      "plus_gain": 3220,
+      "minus_gain": 4020
+    },
+    {
+      "code": "5301",
+      "name": "東海カーボン",
+      "industry": "nan",
+      "incomes": -7900,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 5040
+    },
+    {
+      "code": "3186",
+      "name": "ネクステージ",
+      "industry": "nan",
+      "incomes": -13000,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 3760
+    },
+    {
+      "code": "1802",
+      "name": "大林組",
+      "industry": "nan",
+      "incomes": -13300,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 4390
+    },
+    {
+      "code": "5471",
+      "name": "大同特殊鋼",
+      "industry": "nan",
+      "incomes": -20300,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 9400
+    },
+    {
+      "code": "6479",
+      "name": "ミネベアミツミ",
+      "industry": "nan",
+      "incomes": -30300,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 8260
+    }
+  ],
+  "today": {
+    "trade_date": "2026-09-04",
+    "new_buy": [],
+    "sellback": [],
+    "new_buy_count": 0
+  },
+  "daily": {
+    "days": [
+      {
+        "date": "2026-09-04",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-09-03",
+        "pnl": 0,
+        "new_buy_count": 5,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2670",
+            "name": "エービーシー・マート",
+            "mark": "新買",
+            "close": 2690,
+            "quality": {
+              "code": "2670",
+              "stars": 4,
+              "background": "直近では利益率の上昇が確認されるなど本業の業績は底堅く推移しているものの、全体地合いの影響や直近の上昇に対する利益確定売りが先行し押し目を形成しています。市場の成長減速に対する過剰な懸念から短期的に売りに押された側面が強く、構造的な企業価値の毀損による下落ではありません。",
+              "risk_factors": [
+                "個人消費の冷え込みや天候不順による既存店売上高の底割れリスク",
+                "為替の円安進行に伴う原材料・輸入コストの増大と粗利率への悪影響",
+                "株式市場全体の急落に伴う短期的な過剰連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
+              ],
+              "material_analysis": "直近の材料では営業利益率が12.2%へと改善しており、成長鈍化懸念を跳ね返す好調な内容です。悪材料の露出は見当たらず、一時的な売り一巡後の見直し買いが期待されます。",
+              "fundamental_summary": "売上高成長率8.0%、利益成長率10.4%と本業の拡大が続いており、営業利益率12.34%・ROE12.39%と高水準な収益性を維持しています。予想PER15.0倍、PBR1.68倍と業績の健全さに対して過熱感がなく適正からやや割安な水準に位置しています。予想配当利回りも2.93%（年間80円）と安定した利回り水準を確保しており、株価の下値を支える要因として機能しています。アナリスト目標株価の平均も3,079円（上昇余地約12.8%）に設定されており、ファンダメンタルズ面での下支えは強固です。次回決算発表までも一定の期間があり、直近の決算通過リスクを過度に懸念する必要はありません。",
+              "technical_view": "終値2,690円近辺は過去のサポートラインとして機能した2,650円〜2,700円の節目価格帯に位置しており、上値の節目となる2,800円前後に向けた切り返しが期待できる位置関係にあります。",
+              "watch_points": [
+                "月次既存店売上高の推移およびインバウンド需要の継続性",
+                "仕入れコスト上昇局面における価格転嫁力と利益率の維持"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 80,
+                "yield_pct": 2.93,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 40.07
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Apparel Retail",
+                "per": 14.4,
+                "forward_per": 15.0,
+                "pbr": 1.68,
+                "psr": 1.75,
+                "market_cap_oku": 6757,
+                "price_yen": 2729,
+                "target_price_yen": 3079,
+                "target_upside_pct": 12.8,
+                "revenue_growth_pct": 8.0,
+                "earnings_growth_pct": 10.4,
+                "profit_margin_pct": 12.34,
+                "roe_pct": 12.39,
+                "debt_to_equity": 1.1
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "新買",
+            "close": 2305,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "ドラッグストア大手としての堅調な店舗売上成長が続く一方で、足元では業界内の価格競争警戒や市場全体の地合い悪化に伴い、一時的な利確売りや調整売りが先行しています。企業価値を大きく損なうような悪材料は出ておらず、過剰売りによる過熱感の冷ましが一巡した段階と言えます。本業の事業基盤自体に構造的な破綻は見られず、短期的な過押しからの反発が期待できる場面です。",
+              "risk_factors": [
+                "ドラッグストア業界における価格競争激化に伴う粗利益率の低下リスク",
+                "光熱費や人件費などの店舗運営コスト増加による利益圧迫",
+                "業界再編（イオン・ウエルシア統合関連等）の思惑による思わぬ株価ボラティリティ"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
+              ],
+              "material_analysis": "直近では売上成長の持続性を考察するニュース程度で、業績予想の下方修正などの個別悪材料は見当たりません。材料出尽くしや需給要因による下落であり、下値での買い戻しが入るタイミングを探る状況です。",
+              "fundamental_summary": "ドラッグストア業界内での強力な店舗網と調剤併設化の推進により、売上高は底堅く推移しています。バリュエーション面ではPBR1.2倍前後、実績PER16倍前後と過剰な割高感はなく、予想PERの表記乖離は特殊要因やデータノイズと考えられます。年間配当48円（利回り約2.07%）の安定配当に加え、2月権利確定の株主優待制度が下値を支える要素として機能しています。次回決算発表までも期間があり、決算通過リスクを警戒せずに短期的な戻りを狙えるファンダメンタルズ状態です。",
+              "technical_view": "終値2,305円近辺は心理的節目である2,300円のサポートライン直上に位置しており、節目からの反転を狙いやすい位置関係にあります。上値の抵抗線としては前回の揉み合い水準である2,400円台半ばが意識されます。",
+              "watch_points": [
+                "心理的節目である2,300円を下回らずに底固めを完了できるか",
+                "月次既存店売上高の推移および客数・客単価のバランス"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.07,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.49
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 16.1,
+                "forward_per": 3.7,
+                "pbr": 1.2,
+                "psr": 0.58,
+                "market_cap_oku": 10505,
+                "price_yen": 2318,
+                "target_price_yen": 2613,
+                "target_upside_pct": 12.7,
+                "revenue_growth_pct": 1.34,
+                "earnings_growth_pct": -34.7,
+                "profit_margin_pct": 2.48,
+                "debt_to_equity": 22.6
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主ギフト券、または寄付",
+                "month": "2",
+                "yield_pct": "2.15",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主ギフト券",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "5,000円相当",
+                        "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "10,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "15,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+                "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+              }
+            }
+          },
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "新買",
+            "close": 2860,
+            "quality": {
+              "code": "6141",
+              "stars": 4,
+              "background": "世界的な工作機械需要のサイクルや株式市場全体の地合い悪化に伴い、株価は一時的な押し目を形成しています。しかし、事業環境に致命的な構造的悪材料は確認されておらず、過剰売りやセクター調整による短期的な下落と捉えられます。業績の底堅さを背景に、テクニカルな反発が期待できる局面です。",
+              "risk_factors": [
+                "世界的な景気後退に伴う大手製造業の設備投資先送りリスク",
+                "為替の急速な円高進行による海外業績の目減り懸念",
+                "工作機械セクター全体に対する市況警戒感による連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
+                "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
+              ],
+              "material_analysis": "直近で企業価値を損なう悪材料は確認されず、海外子会社に関連するニュースも安定した業績基盤を示しています。",
+              "fundamental_summary": "予想PERは10.1倍、PBRは1.15倍とバリュエーション面での割安感が強く、売上高成長率25.2%、利益成長率83.8%と本業の業績拡大傾向が続いています。年間105円（利回り約3.65%）の高配当に加え、500株以上の保有に対する文化支援型の株主優待など株主還元姿勢も良好です。12月決算企業として下値での配当利回りによる下支え効果が期待でき、ファンダメンタルズは極めて健全です。",
+              "technical_view": "終値2,860円近辺は過去の節目である2,800円台前半のサポートゾーンに位置しており、下げ止まりを試す水準です。戻り歩調に入れば、心理的節目の3,000円やアナリスト平均目標株価である3,035円付近が上値抵抗線として意識されます。",
+              "watch_points": [
+                "2,800円の節目となるサポートラインを維持できるか",
+                "主要マーケットである欧米・中国市場における受注動向の推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 105,
+                "yield_pct": 3.65,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 2.15
+              },
+              "earnings": {
+                "announcement_date": "2026-10-30",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Specialty Industrial Machinery",
+                "per": 58.5,
+                "forward_per": 10.1,
+                "pbr": 1.15,
+                "psr": 0.71,
+                "market_cap_oku": 4060,
+                "price_yen": 2878,
+                "target_price_yen": 3035,
+                "target_upside_pct": 5.5,
+                "revenue_growth_pct": 25.2,
+                "earnings_growth_pct": 83.8,
+                "profit_margin_pct": 4.59,
+                "roe_pct": 2.71,
+                "debt_to_equity": 34.8
+              },
+              "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待",
+                "month": "12",
+                "yield_pct": "---、配当利回りは3.65",
+                "min_shares": 500,
+                "programs": [
+                  {
+                    "title": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
+                "text": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月\n【ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）】\n・500株以上: 【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446"
+              }
+            }
+          },
+          {
+            "code": "6254",
+            "name": "野村マイクロ・サイエンス",
+            "mark": "新買",
+            "close": 3380,
+            "quality": {
+              "code": "6254",
+              "stars": 4,
+              "background": "半導体業界の投資サイクルの端境期に伴う今期業績の伸び悩みが嫌気され、株価は足元で大きく調整してきました。しかし、悪材料の織り込みは相応に進んでおり、直近では今期の弱さを通過点とした来期以降の好調な見通しに焦点を当てた買い直しや、過剰売りに対する見直しが入る局面を迎えています。",
+              "risk_factors": [
+                "半導体メーカーの設備投資再開時期が想定より遅延するリスク",
+                "大型案件の売上計上時期のズレによる四半期業績のブレ",
+                "全般的なハイテク・半導体関連株の地合い悪化による過剰な連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
+              ],
+              "material_analysis": "今期業績の停滞は株価に概ね織り込まれており、来期に向けた業績回復見通しを見据えた押し目買い材料として機能し始めています。",
+              "fundamental_summary": "同社は半導体製造に不可欠な超純水製造装置で高いシェアを持ち、中長期の需要トレンドは堅調です。参考データ上の減収減益は半導体投資の波に伴う一時的な端境期によるもので、予想PERは約14.7倍とアナリスト目標株価（5,400円）に対しても割安感が強い水準に位置しています。年間配当85円（利回り約2.46%）やROE約9.8%を維持しており、財務・収益基盤の健全性は保たれています。次回決算まで時間があり、決算イベントリスクを気にせずテクニカルな反発を狙いやすい環境です。",
+              "technical_view": "終値3,380円は過去の節目や下値支持帯に近い水準であり、売り一巡感からの反発が期待できる価格帯です。上値は直近の戻り高値や移動平均線が位置する3,600円〜3,800円近辺が第一の抵抗線として意識されます。",
+              "watch_points": [
+                "半導体市場の回復を背景とした受注高・受注残高の回復傾向",
+                "3,500円台の上値抵抗線を出来高を伴って上抜けていけるか"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 85,
+                "yield_pct": 2.46,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 82.3
+              },
+              "earnings": {
+                "announcement_date": "2025-05-15",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Pollution & Treatment Controls",
+                "per": 34.4,
+                "forward_per": 14.7,
+                "pbr": 3.44,
+                "psr": 2.5,
+                "market_cap_oku": 1326,
+                "price_yen": 3455,
+                "target_price_yen": 5400,
+                "target_upside_pct": 56.3,
+                "revenue_growth_pct": -25.8,
+                "earnings_growth_pct": -49.5,
+                "profit_margin_pct": 6.77,
+                "roe_pct": 9.78,
+                "debt_to_equity": 145.6
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7649",
+            "name": "スギホールディングス",
+            "mark": "新買",
+            "close": 1332,
+            "quality": {
+              "code": "7649",
+              "stars": 4,
+              "background": "株価は2025年に入り50%以上上昇するなど強い上昇トレンドを描いてきましたが、直近では高値警戒感に伴う利益確定売りや全体地合いの調整に伴い押し目を形成しています。業績の構造的悪化や下方修正といった悪材料による下落ではなく、短期的な過熱感が冷却される局面での自然な価格調整と捉えられます。",
+              "risk_factors": [
+                "全体相場の急速な冷え込みによる連れ安",
+                "同業他社との価格競争激化に伴う利益率圧迫",
+                "次回決算での進捗遅れに対する一時的な売り圧力"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/sugi-holdings-worth-closer-look-114903024.html",
+                "https://finance.yahoo.com/news/sugi-holdings-tse-7649-assessing-114445402.html"
+              ],
+              "material_analysis": "直近の材料は株価急上昇を受けたバリュエーション再評価のニュースが中心であり、企業価値を損なう致命的な悪材料は出ていません。",
+              "fundamental_summary": "売上高成長率は10.1%と本業の調剤ドラッグストア事業は堅調に拡大しており、予想PERは8.6倍と市場平均や競合比較で割安な水準に位置しています。実績利益成長率のマイナス表示は一時的な特殊要因や会計上のノイズと見られ、アナリスト目標株価（1,739円）に対して約30%の上振れ余地が残されています。年間25円の配当（利回り1.88%）に加えて株主優待制度も備えており、ROE10.9%と資本効率も良好なためファンダメンタルズの下支え効果は強力です。",
+              "technical_view": "終値1,332円は過去の揉み合い水準および下値支持帯（1,300円〜1,320円）付近に位置しており、前安値・節目を意識した反発が入リやすいチャート配置です。",
+              "watch_points": [
+                "1,300円前後のサポートラインでの底固めと出来高の推移",
+                "月次売上高（既存店売上・客数）の堅調維持"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 25,
+                "yield_pct": 1.88,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 14.08
+              },
+              "earnings": {
+                "announcement_date": "2026-10-08",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 10.7,
+                "forward_per": 8.6,
+                "pbr": 1.64,
+                "psr": 0.48,
+                "market_cap_oku": 4949,
+                "price_yen": 1330,
+                "target_price_yen": 1739,
+                "target_upside_pct": 30.8,
+                "revenue_growth_pct": 10.1,
+                "earnings_growth_pct": -67.5,
+                "profit_margin_pct": 2.96,
+                "roe_pct": 10.9,
+                "debt_to_equity": 31.6
+              },
+              "shareholder_benefit": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "1000円～5000円相当の優待券またはスギポイントを贈呈",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待券または、電子ポイント",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "1,000円相当の優待券または スギポイント2,000ポイント（1,000円相当）",
+                        "note": "※ポイントは2ポイント1円相当 ※調剤、雑誌、たばこ、商品券等、一部商品の購入には利用できない。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "3,000円相当の優待券または スギポイント6,000ポイント（3,000円相当）",
+                        "note": ""
+                      },
+                      {
+                        "shares": "5,000株以上",
+                        "content": "5,000円相当の優待券または スギポイント10,000ポイント（5,000円相当）",
+                        "note": ""
+                      }
+                    ]
+                  },
+                  {
+                    "title": "株主ご優待パスポート",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "3,000円毎のお買い物に対してスギポイント150ポイント加算",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。",
+                "text": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上\n【株主優待券または、電子ポイント】\n・100株以上: 1,000円相当の優待券または スギポイント2,000ポイント（1,000円相当）（※ポイントは2ポイント1円相当 ※調剤、雑誌、たばこ、商品券等、一部商品の購入には利用できない。）\n・500株以上: 3,000円相当の優待券または スギポイント6,000ポイント（3,000円相当）\n・5,000株以上: 5,000円相当の優待券または スギポイント10,000ポイント（5,000円相当）\n【株主ご優待パスポート】\n・100株以上: 3,000円毎のお買い物に対してスギポイント150ポイント加算"
+              }
+            }
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-09-02",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-09-01",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-31",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-28",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-27",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-26",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-25",
+        "pnl": 8600,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "返売",
+            "close": 1582,
+            "pnl": 8600
+          }
+        ]
+      },
+      {
+        "date": "2026-08-24",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-14",
+        "pnl": 4200,
+        "new_buy_count": 0,
+        "sellback_count": 2,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
+            "mark": "返売",
+            "close": 1044,
+            "pnl": 2600
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "返売",
+            "close": 880,
+            "pnl": 1600
+          }
+        ]
+      },
+      {
+        "date": "2026-08-13",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-12",
+        "pnl": 0,
+        "new_buy_count": 3,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "新買",
+            "close": 1496
+          },
+          {
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
+            "mark": "新買",
+            "close": 1018
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 864
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-10",
+        "pnl": 12300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "9302",
+            "name": "三井倉庫ホールディングス",
+            "mark": "新買",
+            "close": 3288
+          }
+        ],
+        "sellback": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "返売",
+            "close": 3596,
+            "pnl": 12300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-07",
+        "pnl": -13300,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "返売",
+            "close": 3030,
+            "pnl": -13300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "pnl": 2900,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "新買",
+            "close": 3163
+          }
+        ],
+        "sellback": [
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "返売",
+            "close": 2998,
+            "pnl": 2900
+          }
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "pnl": 42400,
+        "new_buy_count": 2,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "新買",
+            "close": 3473
+          },
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "新買",
+            "close": 2969
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "返売",
+            "close": 3756,
+            "pnl": 39900
+          },
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 2500
+          }
+        ]
+      },
+      {
+        "date": "2026-08-04",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-03",
+        "pnl": -5100,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "返売",
+            "close": 1641,
+            "pnl": -5100
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "pnl": 32900,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "新買",
+            "close": 3357
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "返売",
+            "close": 3359,
+            "pnl": 8100
+          },
+          {
+            "code": "6055",
+            "name": "ジャパンマテリアル",
+            "mark": "返売",
+            "close": 2267,
+            "pnl": 24800
+          }
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "6055",
+            "name": "ジャパンマテリアル",
+            "mark": "新買",
+            "close": 2019
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-29",
+        "pnl": -20300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "新買",
+            "close": 948
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "返売",
+            "close": 2159,
+            "pnl": -20300
+          }
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "pnl": -38200,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "新買",
+            "close": 1692
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1567,
+            "pnl": -7900
+          },
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "返売",
+            "close": 3668,
+            "pnl": -30300
+          }
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "pnl": 3200,
+        "new_buy_count": 0,
+        "sellback_count": 2,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "2871",
+            "name": "ニチレイ",
+            "mark": "返売",
+            "close": 2150,
+            "pnl": 1500
+          },
+          {
+            "code": "4088",
+            "name": "エア・ウォーター",
+            "mark": "返売",
+            "close": 2591,
+            "pnl": 1700
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "pnl": 4000,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "新買",
+            "close": 3971
+          }
+        ],
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1244,
+            "pnl": 4000
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "新買",
+            "close": 1204
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-21",
+        "pnl": -13000,
+        "new_buy_count": 2,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "新買",
+            "close": 3278
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "新買",
+            "close": 2362
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "返売",
+            "close": 3460,
+            "pnl": -13000
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2871",
+            "name": "ニチレイ",
+            "mark": "新買",
+            "close": 2135
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-16",
+        "pnl": 11800,
+        "new_buy_count": 2,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "新買",
+            "close": 3590
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "新買",
+            "close": 1646
+          }
+        ],
+        "sellback": [
+          {
+            "code": "7846",
+            "name": "パイロットコーポレーション",
+            "mark": "返売",
+            "close": 1807,
+            "pnl": 11800
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "pnl": -2000,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "4088",
+            "name": "エア・ウォーター",
+            "mark": "新買",
+            "close": 2574
+          }
+        ],
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1218,
+            "pnl": -4900
+          },
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "返売",
+            "close": 2789,
+            "pnl": 2900
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "新買",
+            "close": 2760
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-13",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-10",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-09",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-08",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-07",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-06",
+        "pnl": 5600,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "7276",
+            "name": "小糸製作所",
+            "mark": "返売",
+            "close": 2647,
+            "pnl": 5600
+          }
+        ]
+      },
+      {
+        "date": "2026-07-03",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-02",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "7276",
+            "name": "小糸製作所",
+            "mark": "新買",
+            "close": 2591
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-01",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-30",
+        "pnl": 0,
+        "new_buy_count": 2,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "新買",
+            "close": 1267
+          },
+          {
+            "code": "7846",
+            "name": "パイロットコーポレーション",
+            "mark": "新買",
+            "close": 1689
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-29",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-26",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-25",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-24",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-23",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-22",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-19",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-18",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-17",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-16",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-15",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-12",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-11",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-10",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-09",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-08",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-05",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-04",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-03",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      }
+    ],
+    "buy_days": [
+      {
+        "date": "2026-09-03",
+        "pnl": 0,
+        "new_buy_count": 5,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2670",
+            "name": "エービーシー・マート",
+            "mark": "新買",
+            "close": 2690,
+            "quality": {
+              "code": "2670",
+              "stars": 4,
+              "background": "直近では利益率の上昇が確認されるなど本業の業績は底堅く推移しているものの、全体地合いの影響や直近の上昇に対する利益確定売りが先行し押し目を形成しています。市場の成長減速に対する過剰な懸念から短期的に売りに押された側面が強く、構造的な企業価値の毀損による下落ではありません。",
+              "risk_factors": [
+                "個人消費の冷え込みや天候不順による既存店売上高の底割れリスク",
+                "為替の円安進行に伴う原材料・輸入コストの増大と粗利率への悪影響",
+                "株式市場全体の急落に伴う短期的な過剰連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/abc-mart-tse-2670-margins-191301980.html"
+              ],
+              "material_analysis": "直近の材料では営業利益率が12.2%へと改善しており、成長鈍化懸念を跳ね返す好調な内容です。悪材料の露出は見当たらず、一時的な売り一巡後の見直し買いが期待されます。",
+              "fundamental_summary": "売上高成長率8.0%、利益成長率10.4%と本業の拡大が続いており、営業利益率12.34%・ROE12.39%と高水準な収益性を維持しています。予想PER15.0倍、PBR1.68倍と業績の健全さに対して過熱感がなく適正からやや割安な水準に位置しています。予想配当利回りも2.93%（年間80円）と安定した利回り水準を確保しており、株価の下値を支える要因として機能しています。アナリスト目標株価の平均も3,079円（上昇余地約12.8%）に設定されており、ファンダメンタルズ面での下支えは強固です。次回決算発表までも一定の期間があり、直近の決算通過リスクを過度に懸念する必要はありません。",
+              "technical_view": "終値2,690円近辺は過去のサポートラインとして機能した2,650円〜2,700円の節目価格帯に位置しており、上値の節目となる2,800円前後に向けた切り返しが期待できる位置関係にあります。",
+              "watch_points": [
+                "月次既存店売上高の推移およびインバウンド需要の継続性",
+                "仕入れコスト上昇局面における価格転嫁力と利益率の維持"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 80,
+                "yield_pct": 2.93,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 40.07
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Apparel Retail",
+                "per": 14.4,
+                "forward_per": 15.0,
+                "pbr": 1.68,
+                "psr": 1.75,
+                "market_cap_oku": 6757,
+                "price_yen": 2729,
+                "target_price_yen": 3079,
+                "target_upside_pct": 12.8,
+                "revenue_growth_pct": 8.0,
+                "earnings_growth_pct": 10.4,
+                "profit_margin_pct": 12.34,
+                "roe_pct": 12.39,
+                "debt_to_equity": 1.1
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "新買",
+            "close": 2305,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "ドラッグストア大手としての堅調な店舗売上成長が続く一方で、足元では業界内の価格競争警戒や市場全体の地合い悪化に伴い、一時的な利確売りや調整売りが先行しています。企業価値を大きく損なうような悪材料は出ておらず、過剰売りによる過熱感の冷ましが一巡した段階と言えます。本業の事業基盤自体に構造的な破綻は見られず、短期的な過押しからの反発が期待できる場面です。",
+              "risk_factors": [
+                "ドラッグストア業界における価格競争激化に伴う粗利益率の低下リスク",
+                "光熱費や人件費などの店舗運営コスト増加による利益圧迫",
+                "業界再編（イオン・ウエルシア統合関連等）の思惑による思わぬ株価ボラティリティ"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://finance.yahoo.com/news/does-tsuruha-holdings-tse-3391-001358318.html"
+              ],
+              "material_analysis": "直近では売上成長の持続性を考察するニュース程度で、業績予想の下方修正などの個別悪材料は見当たりません。材料出尽くしや需給要因による下落であり、下値での買い戻しが入るタイミングを探る状況です。",
+              "fundamental_summary": "ドラッグストア業界内での強力な店舗網と調剤併設化の推進により、売上高は底堅く推移しています。バリュエーション面ではPBR1.2倍前後、実績PER16倍前後と過剰な割高感はなく、予想PERの表記乖離は特殊要因やデータノイズと考えられます。年間配当48円（利回り約2.07%）の安定配当に加え、2月権利確定の株主優待制度が下値を支える要素として機能しています。次回決算発表までも期間があり、決算通過リスクを警戒せずに短期的な戻りを狙えるファンダメンタルズ状態です。",
+              "technical_view": "終値2,305円近辺は心理的節目である2,300円のサポートライン直上に位置しており、節目からの反転を狙いやすい位置関係にあります。上値の抵抗線としては前回の揉み合い水準である2,400円台半ばが意識されます。",
+              "watch_points": [
+                "心理的節目である2,300円を下回らずに底固めを完了できるか",
+                "月次既存店売上高の推移および客数・客単価のバランス"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.07,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.49
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 16.1,
+                "forward_per": 3.7,
+                "pbr": 1.2,
+                "psr": 0.58,
+                "market_cap_oku": 10505,
+                "price_yen": 2318,
+                "target_price_yen": 2613,
+                "target_upside_pct": 12.7,
+                "revenue_growth_pct": 1.34,
+                "earnings_growth_pct": -34.7,
+                "profit_margin_pct": 2.48,
+                "debt_to_equity": 22.6
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主ギフト券、または寄付",
+                "month": "2",
+                "yield_pct": "2.15",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主ギフト券",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "5,000円相当",
+                        "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "10,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "15,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+                "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+              }
+            }
+          },
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "新買",
+            "close": 2860,
+            "quality": {
+              "code": "6141",
+              "stars": 4,
+              "background": "世界的な工作機械需要のサイクルや株式市場全体の地合い悪化に伴い、株価は一時的な押し目を形成しています。しかし、事業環境に致命的な構造的悪材料は確認されておらず、過剰売りやセクター調整による短期的な下落と捉えられます。業績の底堅さを背景に、テクニカルな反発が期待できる局面です。",
+              "risk_factors": [
+                "世界的な景気後退に伴う大手製造業の設備投資先送りリスク",
+                "為替の急速な円高進行による海外業績の目減り懸念",
+                "工作機械セクター全体に対する市況警戒感による連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/dmg-mori-etr-gil-shareholders-071310112.html",
+                "https://finance.yahoo.com/news/returns-capital-dmg-mori-etr-064512663.html"
+              ],
+              "material_analysis": "直近で企業価値を損なう悪材料は確認されず、海外子会社に関連するニュースも安定した業績基盤を示しています。",
+              "fundamental_summary": "予想PERは10.1倍、PBRは1.15倍とバリュエーション面での割安感が強く、売上高成長率25.2%、利益成長率83.8%と本業の業績拡大傾向が続いています。年間105円（利回り約3.65%）の高配当に加え、500株以上の保有に対する文化支援型の株主優待など株主還元姿勢も良好です。12月決算企業として下値での配当利回りによる下支え効果が期待でき、ファンダメンタルズは極めて健全です。",
+              "technical_view": "終値2,860円近辺は過去の節目である2,800円台前半のサポートゾーンに位置しており、下げ止まりを試す水準です。戻り歩調に入れば、心理的節目の3,000円やアナリスト平均目標株価である3,035円付近が上値抵抗線として意識されます。",
+              "watch_points": [
+                "2,800円の節目となるサポートラインを維持できるか",
+                "主要マーケットである欧米・中国市場における受注動向の推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 105,
+                "yield_pct": 3.65,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 2.15
+              },
+              "earnings": {
+                "announcement_date": "2026-10-30",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Specialty Industrial Machinery",
+                "per": 58.5,
+                "forward_per": 10.1,
+                "pbr": 1.15,
+                "psr": 0.71,
+                "market_cap_oku": 4060,
+                "price_yen": 2878,
+                "target_price_yen": 3035,
+                "target_upside_pct": 5.5,
+                "revenue_growth_pct": 25.2,
+                "earnings_growth_pct": 83.8,
+                "profit_margin_pct": 4.59,
+                "roe_pct": 2.71,
+                "debt_to_equity": 34.8
+              },
+              "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待",
+                "month": "12",
+                "yield_pct": "---、配当利回りは3.65",
+                "min_shares": 500,
+                "programs": [
+                  {
+                    "title": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
+                "text": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月\n【ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）】\n・500株以上: 【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446"
+              }
+            }
+          },
+          {
+            "code": "6254",
+            "name": "野村マイクロ・サイエンス",
+            "mark": "新買",
+            "close": 3380,
+            "quality": {
+              "code": "6254",
+              "stars": 4,
+              "background": "半導体業界の投資サイクルの端境期に伴う今期業績の伸び悩みが嫌気され、株価は足元で大きく調整してきました。しかし、悪材料の織り込みは相応に進んでおり、直近では今期の弱さを通過点とした来期以降の好調な見通しに焦点を当てた買い直しや、過剰売りに対する見直しが入る局面を迎えています。",
+              "risk_factors": [
+                "半導体メーカーの設備投資再開時期が想定より遅延するリスク",
+                "大型案件の売上計上時期のズレによる四半期業績のブレ",
+                "全般的なハイテク・半導体関連株の地合い悪化による過剰な連れ安"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/markets/stocks/articles/assessing-nomura-micro-science-tse-071413372.html"
+              ],
+              "material_analysis": "今期業績の停滞は株価に概ね織り込まれており、来期に向けた業績回復見通しを見据えた押し目買い材料として機能し始めています。",
+              "fundamental_summary": "同社は半導体製造に不可欠な超純水製造装置で高いシェアを持ち、中長期の需要トレンドは堅調です。参考データ上の減収減益は半導体投資の波に伴う一時的な端境期によるもので、予想PERは約14.7倍とアナリスト目標株価（5,400円）に対しても割安感が強い水準に位置しています。年間配当85円（利回り約2.46%）やROE約9.8%を維持しており、財務・収益基盤の健全性は保たれています。次回決算まで時間があり、決算イベントリスクを気にせずテクニカルな反発を狙いやすい環境です。",
+              "technical_view": "終値3,380円は過去の節目や下値支持帯に近い水準であり、売り一巡感からの反発が期待できる価格帯です。上値は直近の戻り高値や移動平均線が位置する3,600円〜3,800円近辺が第一の抵抗線として意識されます。",
+              "watch_points": [
+                "半導体市場の回復を背景とした受注高・受注残高の回復傾向",
+                "3,500円台の上値抵抗線を出来高を伴って上抜けていけるか"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 85,
+                "yield_pct": 2.46,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 82.3
+              },
+              "earnings": {
+                "announcement_date": "2025-05-15",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Pollution & Treatment Controls",
+                "per": 34.4,
+                "forward_per": 14.7,
+                "pbr": 3.44,
+                "psr": 2.5,
+                "market_cap_oku": 1326,
+                "price_yen": 3455,
+                "target_price_yen": 5400,
+                "target_upside_pct": 56.3,
+                "revenue_growth_pct": -25.8,
+                "earnings_growth_pct": -49.5,
+                "profit_margin_pct": 6.77,
+                "roe_pct": 9.78,
+                "debt_to_equity": 145.6
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7649",
+            "name": "スギホールディングス",
+            "mark": "新買",
+            "close": 1332,
+            "quality": {
+              "code": "7649",
+              "stars": 4,
+              "background": "株価は2025年に入り50%以上上昇するなど強い上昇トレンドを描いてきましたが、直近では高値警戒感に伴う利益確定売りや全体地合いの調整に伴い押し目を形成しています。業績の構造的悪化や下方修正といった悪材料による下落ではなく、短期的な過熱感が冷却される局面での自然な価格調整と捉えられます。",
+              "risk_factors": [
+                "全体相場の急速な冷え込みによる連れ安",
+                "同業他社との価格競争激化に伴う利益率圧迫",
+                "次回決算での進捗遅れに対する一時的な売り圧力"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/sugi-holdings-worth-closer-look-114903024.html",
+                "https://finance.yahoo.com/news/sugi-holdings-tse-7649-assessing-114445402.html"
+              ],
+              "material_analysis": "直近の材料は株価急上昇を受けたバリュエーション再評価のニュースが中心であり、企業価値を損なう致命的な悪材料は出ていません。",
+              "fundamental_summary": "売上高成長率は10.1%と本業の調剤ドラッグストア事業は堅調に拡大しており、予想PERは8.6倍と市場平均や競合比較で割安な水準に位置しています。実績利益成長率のマイナス表示は一時的な特殊要因や会計上のノイズと見られ、アナリスト目標株価（1,739円）に対して約30%の上振れ余地が残されています。年間25円の配当（利回り1.88%）に加えて株主優待制度も備えており、ROE10.9%と資本効率も良好なためファンダメンタルズの下支え効果は強力です。",
+              "technical_view": "終値1,332円は過去の揉み合い水準および下値支持帯（1,300円〜1,320円）付近に位置しており、前安値・節目を意識した反発が入リやすいチャート配置です。",
+              "watch_points": [
+                "1,300円前後のサポートラインでの底固めと出来高の推移",
+                "月次売上高（既存店売上・客数）の堅調維持"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 25,
+                "yield_pct": 1.88,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 14.08
+              },
+              "earnings": {
+                "announcement_date": "2026-10-08",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 10.7,
+                "forward_per": 8.6,
+                "pbr": 1.64,
+                "psr": 0.48,
+                "market_cap_oku": 4949,
+                "price_yen": 1330,
+                "target_price_yen": 1739,
+                "target_upside_pct": 30.8,
+                "revenue_growth_pct": 10.1,
+                "earnings_growth_pct": -67.5,
+                "profit_margin_pct": 2.96,
+                "roe_pct": 10.9,
+                "debt_to_equity": 31.6
+              },
+              "shareholder_benefit": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "1000円～5000円相当の優待券またはスギポイントを贈呈",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待券または、電子ポイント",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "1,000円相当の優待券または スギポイント2,000ポイント（1,000円相当）",
+                        "note": "※ポイントは2ポイント1円相当 ※調剤、雑誌、たばこ、商品券等、一部商品の購入には利用できない。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "3,000円相当の優待券または スギポイント6,000ポイント（3,000円相当）",
+                        "note": ""
+                      },
+                      {
+                        "shares": "5,000株以上",
+                        "content": "5,000円相当の優待券または スギポイント10,000ポイント（5,000円相当）",
+                        "note": ""
+                      }
+                    ]
+                  },
+                  {
+                    "title": "株主ご優待パスポート",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "3,000円毎のお買い物に対してスギポイント150ポイント加算",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上。",
+                "text": "1000円～5000円相当の優待券またはスギポイントを贈呈。100株以上\n【株主優待券または、電子ポイント】\n・100株以上: 1,000円相当の優待券または スギポイント2,000ポイント（1,000円相当）（※ポイントは2ポイント1円相当 ※調剤、雑誌、たばこ、商品券等、一部商品の購入には利用できない。）\n・500株以上: 3,000円相当の優待券または スギポイント6,000ポイント（3,000円相当）\n・5,000株以上: 5,000円相当の優待券または スギポイント10,000ポイント（5,000円相当）\n【株主ご優待パスポート】\n・100株以上: 3,000円毎のお買い物に対してスギポイント150ポイント加算"
+              }
+            }
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-12",
+        "pnl": 0,
+        "new_buy_count": 3,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "新買",
+            "close": 1496
+          },
+          {
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
+            "mark": "新買",
+            "close": 1018
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 864
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-10",
+        "pnl": 12300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "9302",
+            "name": "三井倉庫ホールディングス",
+            "mark": "新買",
+            "close": 3288
+          }
+        ],
+        "sellback": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "返売",
+            "close": 3596,
+            "pnl": 12300
+          }
+        ]
+      },
+      {
+        "date": "2026-08-06",
+        "pnl": 2900,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "1802",
+            "name": "大林組",
+            "mark": "新買",
+            "close": 3163
+          }
+        ],
+        "sellback": [
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "返売",
+            "close": 2998,
+            "pnl": 2900
+          }
+        ]
+      },
+      {
+        "date": "2026-08-05",
+        "pnl": 42400,
+        "new_buy_count": 2,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "新買",
+            "close": 3473
+          },
+          {
+            "code": "7912",
+            "name": "大日本印刷",
+            "mark": "新買",
+            "close": 2969
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "返売",
+            "close": 3756,
+            "pnl": 39900
+          },
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 2500
+          }
+        ]
+      },
+      {
+        "date": "2026-07-31",
+        "pnl": 32900,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "3436",
+            "name": "ＳＵＭＣＯ",
+            "mark": "新買",
+            "close": 3357
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "返売",
+            "close": 3359,
+            "pnl": 8100
+          },
+          {
+            "code": "6055",
+            "name": "ジャパンマテリアル",
+            "mark": "返売",
+            "close": 2267,
+            "pnl": 24800
+          }
+        ]
+      },
+      {
+        "date": "2026-07-30",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "6055",
+            "name": "ジャパンマテリアル",
+            "mark": "新買",
+            "close": 2019
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-29",
+        "pnl": -20300,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "新買",
+            "close": 948
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "返売",
+            "close": 2159,
+            "pnl": -20300
+          }
+        ]
+      },
+      {
+        "date": "2026-07-28",
+        "pnl": -38200,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "新買",
+            "close": 1692
+          }
+        ],
+        "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1567,
+            "pnl": -7900
+          },
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "返売",
+            "close": 3668,
+            "pnl": -30300
+          }
+        ]
+      },
+      {
+        "date": "2026-07-23",
+        "pnl": 4000,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "6479",
+            "name": "ミネベアミツミ",
+            "mark": "新買",
+            "close": 3971
+          }
+        ],
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1244,
+            "pnl": 4000
+          }
+        ]
+      },
+      {
+        "date": "2026-07-22",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "新買",
+            "close": 1204
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-21",
+        "pnl": -13000,
+        "new_buy_count": 2,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "新買",
+            "close": 3278
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "新買",
+            "close": 2362
+          }
+        ],
+        "sellback": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "返売",
+            "close": 3460,
+            "pnl": -13000
+          }
+        ]
+      },
+      {
+        "date": "2026-07-17",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2871",
+            "name": "ニチレイ",
+            "mark": "新買",
+            "close": 2135
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-16",
+        "pnl": 11800,
+        "new_buy_count": 2,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "3186",
+            "name": "ネクステージ",
+            "mark": "新買",
+            "close": 3590
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "新買",
+            "close": 1646
+          }
+        ],
+        "sellback": [
+          {
+            "code": "7846",
+            "name": "パイロットコーポレーション",
+            "mark": "返売",
+            "close": 1807,
+            "pnl": 11800
+          }
+        ]
+      },
+      {
+        "date": "2026-07-15",
+        "pnl": -2000,
+        "new_buy_count": 1,
+        "sellback_count": 2,
+        "new_buy": [
+          {
+            "code": "4088",
+            "name": "エア・ウォーター",
+            "mark": "新買",
+            "close": 2574
+          }
+        ],
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1218,
+            "pnl": -4900
+          },
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "返売",
+            "close": 2789,
+            "pnl": 2900
+          }
+        ]
+      },
+      {
+        "date": "2026-07-14",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "新買",
+            "close": 2760
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-02",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "7276",
+            "name": "小糸製作所",
+            "mark": "新買",
+            "close": 2591
+          }
+        ],
+        "sellback": []
+      },
+      {
+        "date": "2026-06-30",
+        "pnl": 0,
+        "new_buy_count": 2,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "新買",
+            "close": 1267
+          },
+          {
+            "code": "7846",
+            "name": "パイロットコーポレーション",
+            "mark": "新買",
+            "close": 1689
+          }
+        ],
+        "sellback": []
+      }
+    ]
+  },
+  "special": {
+    "enabled": true,
+    "state": "idle",
+    "entered_on": null,
+    "etf": null,
+    "min_new_buy_count": 7,
+    "new_buy_count": 0,
+    "exit_rsi": 70.0,
+    "etf_rsi": {
+      "1321": 43.18,
+      "1306": 43.37
+    },
+    "active_rsi": 43.37,
+    "signal": null
+  },
+  "quality": {},
+  "runtime": {
+    "special_buy": {
+      "enabled": true,
+      "min_new_buy_count": 7,
+      "etf_default": "1306",
+      "etf_codes": [
+        "1321",
+        "1306"
+      ],
+      "exit_rsi": 70
+    },
+    "notify": {
+      "today_buy": true,
+      "today_sellback": true,
+      "special_buy_on": true,
+      "special_exit": true,
+      "summary_top": false
+    },
+    "gemini_rating": {
+      "enabled": true,
+      "model": "gemini-3.6-flash"
+    }
+  },
+  "controls": {
+    "actions_run_url": "https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml",
+    "runtime_edit_url": "https://github.com/lalakuma/KabuRadar3/edit/master/config/runtime.json"
+  },
+  "line_events": [],
+  "run": {
+    "pages_url": "https://lalakuma.github.io/KabuRadar3"
+  }
+}

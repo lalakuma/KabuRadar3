@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>KabuRadar3 解析結果</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>KabuRadar3</h1>
+    <p class="subtitle">スクリーニング結果（LO）</p>
+    <p id="updated" class="updated">読み込み中…</p>
+  </header>
+
+  <nav class="tabs" aria-label="表示切替">
+    <button type="button" class="tab active" data-tab="today">今日</button>
+    <button type="button" class="tab" data-tab="daily">日別</button>
+    <button type="button" class="tab" data-tab="special">特別買い</button>
+    <button type="button" class="tab" data-tab="ranking">損益一覧</button>
+    <button type="button" class="tab" data-tab="settings">設定・実行</button>
+  </nav>
+
+  <main class="main">
+    <section id="panel-today" class="panel active" aria-label="今日のシグナル">
+      <h2 class="panel-title">今日のシグナル</h2>
+      <p id="today-date" class="panel-meta"></p>
+      <p class="panel-meta">銘柄の詳細で ★評価・決算・分析・配当を確認できます（一覧には株主優待を表示）。</p>
+      <div class="signal-block">
+        <h3>買い（新買） <span id="buy-count" class="badge-count">0</span></h3>
+        <ul id="today-buy" class="signal-list"></ul>
+      </div>
+      <div class="signal-block">
+        <h3>返売り <span id="sellback-count" class="badge-count">0</span></h3>
+        <ul id="today-sellback" class="signal-list"></ul>
+      </div>
+    </section>
+
+    <section id="panel-daily" class="panel" aria-label="日別買いシグナル" hidden>
+      <h2 class="panel-title">買いシグナル（日別）</h2>
+      <p id="daily-buy-meta" class="panel-meta"></p>
+      <p class="panel-meta">銘柄の詳細で ★評価・決算・分析・配当を確認できます（一覧には株主優待を表示）。</p>
+      <ul id="daily-buy-timeline" class="daily-timeline"></ul>
+
+      <details class="daily-details">
+        <summary>返売り・日次損益を見る</summary>
+        <div class="toolbar daily-toolbar">
+          <select id="daily-date" aria-label="日付を選択"></select>
+        </div>
+        <div id="daily-summary" class="summary daily-summary"></div>
+        <div class="signal-block">
+          <h3>返売り <span id="daily-sellback-count" class="badge-count">0</span></h3>
+          <ul id="daily-sellback" class="signal-list"></ul>
+        </div>
+      </details>
+    </section>
+
+    <section id="panel-special" class="panel" aria-label="特別買い" hidden>
+      <h2 class="panel-title">特別買い（広がり）</h2>
+      <div id="special-status" class="special-status"></div>
+    </section>
+
+    <section id="panel-ranking" class="panel" aria-label="損益一覧" hidden>
+      <h2 class="panel-title">損益ランキング</h2>
+      <section id="summary" class="summary" aria-label="サマリー"></section>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="銘柄コード・名称で検索" autocomplete="off" />
+        <select id="sort" aria-label="並び替え">
+          <option value="incomes-desc">損益（高い順）</option>
+          <option value="incomes-asc">損益（低い順）</option>
+          <option value="pf-desc">PF（高い順）</option>
+          <option value="code-asc">コード順</option>
+        </select>
+      </div>
+      <p id="count" class="count"></p>
+      <ul id="list" class="list"></ul>
+    </section>
+
+    <section id="panel-settings" class="panel" aria-label="設定と実行" hidden>
+      <h2 class="panel-title">設定・手動実行</h2>
+      <p class="hint">設定変更と再実行は GitHub（無料）から行います。サイト内ボタンは Actions 画面へ移動します。</p>
+      <div id="runtime-settings" class="settings-grid"></div>
+      <div class="action-buttons">
+        <a id="btn-run-full" class="btn" href="#" target="_blank" rel="noopener">フル実行（更新→解析→公開）</a>
+        <a id="btn-run-publish" class="btn btn-secondary" href="#" target="_blank" rel="noopener">公開のみ</a>
+        <a id="btn-edit-config" class="btn btn-secondary" href="#" target="_blank" rel="noopener">runtime.json を編集</a>
+      </div>
+      <p class="hint paid-note" id="paid-note" hidden></p>
+    </section>
+
+    <p id="error" class="error" hidden></p>
+  </main>
+
+  <dialog id="signal-detail" class="signal-modal" aria-labelledby="signal-detail-title">
+    <div class="signal-modal-inner">
+      <header class="signal-modal-header">
+        <div>
+          <p id="signal-detail-title" class="signal-modal-title"></p>
+          <p id="signal-detail-sub" class="signal-modal-sub"></p>
+        </div>
+        <button type="button" id="signal-detail-close" class="signal-modal-close" aria-label="閉じる">×</button>
+      </header>
+      <div id="signal-detail-body" class="signal-modal-body"></div>
+    </div>
+  </dialog>
+
+  <footer class="footer">
+    <nav class="footer-links" aria-label="関連リンク">
+      <a id="link-pages" href="https://lalakuma.github.io/KabuRadar3/" target="_blank" rel="noopener">公開サイト</a>
+      <a id="link-actions" href="https://github.com/lalakuma/KabuRadar3/actions/workflows/daily-screening.yml" target="_blank" rel="noopener">実行ログ</a>
+    </nav>
+    <small>クラウド自動解析 · GitHub Pages · AI評価は参考情報</small>
+  </footer>
+
+  <script src="assets/app.js?v=20260905i"></script>
+</body>
+</html>
