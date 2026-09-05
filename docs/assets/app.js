@@ -117,13 +117,6 @@ function valuationViewLabel(value) {
   }
 }
 
-function truncateText(text, max = 160) {
-  const value = (text || "").trim();
-  if (!value) return "";
-  if (value.length <= max) return value;
-  return `${value.slice(0, max)}…`;
-}
-
 function renderAnalysisBlock(q) {
   const sections = [];
   if (q.background) {
@@ -169,17 +162,6 @@ function renderAnalysisBlock(q) {
     );
   }
   return sections.join("");
-}
-
-function formatAnalysisPreview(q) {
-  const parts = [];
-  const bg = (q.background || "").trim();
-  const material = (q.material_analysis || "").trim();
-  const fund = (q.fundamental_summary || "").trim();
-  if (bg) parts.push(bg);
-  if (material) parts.push(material);
-  else if (fund) parts.push(fund);
-  return truncateText(parts.join(" "), 220);
 }
 
 function formatBenefitPreview(q) {
@@ -387,12 +369,6 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
       const qualityHtml = q
         ? `<span class="signal-quality">${starsLabel(q.stars)}</span>`
         : "";
-      const analysisPreview = q ? formatAnalysisPreview(q) : "";
-      const bg = analysisPreview
-        ? `<p class="signal-bg analysis-preview">${escapeHtml(analysisPreview)}</p>`
-        : !clickable && q?.background
-          ? `<p class="signal-bg">${escapeHtml(q.background)}</p>`
-          : "";
       const hint = clickable
         ? `<span class="signal-hint" aria-hidden="true">詳細 ›</span>`
         : "";
@@ -410,7 +386,6 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
           ${hint}
         </div>
         ${flagHtml}
-        ${bg}
       </li>`;
     })
     .join("");
@@ -440,17 +415,9 @@ function renderDailyBuyRow(row) {
     row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
   const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
   const benefit = formatBenefitPreview(q);
-  const earnings = formatEarnings(q.earnings);
-  const analysisPreview = formatAnalysisPreview(q);
   const benefitLine = benefit
     ? `<p class="signal-benefit-preview"><strong>株主優待:</strong> ${escapeHtml(benefit)}</p>`
     : `<p class="signal-benefit-preview detail-muted">株主優待: 情報なし</p>`;
-  const earningsLine = earnings
-    ? `<p class="signal-earnings-preview"><strong>決算:</strong> ${escapeHtml(earnings)}</p>`
-    : `<p class="signal-earnings-preview detail-muted">決算: 情報なし</p>`;
-  const analysisLine = analysisPreview
-    ? `<p class="signal-analysis-preview"><strong>分析:</strong> ${escapeHtml(analysisPreview)}</p>`
-    : "";
 
   return `<li class="signal-item signal-item-daily">
     <details class="signal-details">
@@ -462,8 +429,6 @@ function renderDailyBuyRow(row) {
           ${close}
         </span>
         ${benefitLine}
-        ${earningsLine}
-        ${analysisLine}
         <span class="signal-expand-hint">詳細を開く</span>
       </summary>
       <div class="signal-detail-inline">${renderQualityDetailBody(row)}</div>
