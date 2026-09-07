@@ -53,6 +53,7 @@ Web 表示・LINE 通知・特別買い（広がり）のしきい値。戦略�
 
 | キー | 既定 | 説明 |
 |------|------|------|
+| `exit_strategy.profile` | `profit` | 決済方針。`profit`=利益重視（RSI60超え後RCI上向きなら保持）、`winrate`=勝率重視（RSI60即利確） |
 | `special_buy.enabled` | `true` | 特別買いロジック |
 | `special_buy.min_new_buy_count` | `7` | 当日「新買」がこの件数以上で特別買い |
 | `special_buy.etf_default` | `1306` | 通知する ETF |

@@ -8,6 +8,7 @@ from datetime import date, datetime
 import pandas as pd
 
 from kaburadar3.settings import screening as conf
+from kaburadar3.settings.runtime import apply_exit_profile_to_judge
 from kaburadar3.settings.encoding import CSV_ENCODING
 
 
@@ -144,3 +145,4 @@ class Judge:
         )
         self.jdg_stop_loss = int(conf.get_config(scrsec, conf.CONF_KEY_JDG_STOP_LOSS, default="0"))
         self.stop_loss_pct = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_STOP_LOSS_PCT, default="3"))
+        apply_exit_profile_to_judge(self)

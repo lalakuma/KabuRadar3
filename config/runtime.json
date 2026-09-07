@@ -1,7 +1,15 @@
 {
+  "exit_strategy": {
+    "profile": "profit"
+  },
   "special_buy": {
     "enabled": true,
-    "min_new_buy_count": 7,
+    "min_new_buy_count": 8,
+    "market_regime_min_pct": -15,
+    "market_regime_lookback_days": 20,
+    "pick_method": "stars",
+    "pick_count": 2,
+    "pick_min_stars": 4,
     "etf_default": "1306",
     "etf_codes": ["1321", "1306"],
     "exit_rsi": 70

@@ -516,9 +516,22 @@ function renderSpecial(special) {
   const rsiLines = Object.entries(special.etf_rsi || {})
     .map(([code, val]) => `${code}: RSI ${val ?? "—"}`)
     .join(" · ");
+  const routingLabel =
+    special.routing === "etf"
+      ? "ETF推奨"
+      : special.routing === "stocks" &&
+          (special.new_buy_count ?? 0) >= (special.min_new_buy_count ?? 8)
+        ? "個別推奨（地合悪化）"
+        : "個別";
+  const mkt =
+    special.market_return_20d != null
+      ? `${special.market_return_20d > 0 ? "+" : ""}${special.market_return_20d}%`
+      : "—";
   el.innerHTML = `
+    <div class="summary-card"><p class="label">本日の方針</p><p class="value">${escapeHtml(routingLabel)}</p></div>
     <div class="summary-card"><p class="label">状態</p><p class="value">${escapeHtml(stateLabel)}</p></div>
     <div class="summary-card"><p class="label">新買件数</p><p class="value">${special.new_buy_count ?? "—"} / 閾値 ${special.min_new_buy_count ?? "—"}</p></div>
+    <div class="summary-card"><p class="label">地合${special.market_regime_lookback_days ?? 20}日</p><p class="value">${escapeHtml(mkt)} (ETF閾値 ≥ ${special.market_regime_min_pct ?? "—"}%)</p></div>
     <div class="summary-card"><p class="label">対象ETF</p><p class="value">${escapeHtml(special.etf || "—")}</p></div>
     <div class="summary-card"><p class="label">利確 RSI</p><p class="value">≥ ${special.exit_rsi ?? "—"}</p></div>
     <p class="panel-meta">${escapeHtml(rsiLines)}</p>
@@ -533,11 +546,17 @@ function renderRuntimeSettings(runtime) {
     return;
   }
   const sb = runtime.special_buy;
+  const es = runtime.exit_strategy || {};
   const nt = runtime.notify || {};
   const gr = runtime.gemini_rating || {};
+  const profileLabel =
+    es.profile === "winrate" ? "勝率重視（RSI60即利確）" : "利益重視（RSI60後RCI保持）";
   const rows = [
+    ["決済プロファイル", profileLabel],
     ["特別買い", sb.enabled ? "ON" : "OFF"],
-    ["新買しきい値", `${sb.min_new_buy_count} 件以上`],
+    ["新買しきい値", `${sb.min_new_buy_count} 件以上 → ETF（地合条件あり）`],
+    ["地合ETF閾値", `20日リターン ≥ ${sb.market_regime_min_pct ?? -15}%`],
+    ["銘柄自動選定", `${sb.pick_method || "stars"} / ${sb.pick_count ?? 2}件（★${sb.pick_min_stars ?? 4}以上）`],
     ["既定 ETF", sb.etf_default],
     ["利確 RSI", `≥ ${sb.exit_rsi}`],
     ["Gemini 評価", gr.enabled ? "ON" : "OFF"],
@@ -688,6 +707,26 @@ async function init() {
     today.new_buy?.length ?? today.new_buy_count ?? 0,
   );
   document.getElementById("sellback-count").textContent = String(today.sellback?.length ?? 0);
+
+  const recBlock = document.getElementById("recommended-block");
+  const recommended = today.recommended || [];
+  const routing = data.special?.routing;
+  if (recommended.length > 0 && routing !== "etf") {
+    recBlock.hidden = false;
+    document.getElementById("recommended-count").textContent = String(recommended.length);
+    const meta = today.pick_meta || {};
+    document.getElementById("recommended-meta").textContent =
+      `選定: ${meta.method || "stars"}（★${meta.min_stars ?? 4}以上 → 高い順、同点はRSI低）`;
+    renderSignalRows(
+      document.getElementById("today-recommended"),
+      recommended,
+      "",
+      { clickable: true },
+    );
+  } else {
+    recBlock.hidden = true;
+  }
+
   renderSignalRows(document.getElementById("today-buy"), today.new_buy, "本日の新買はありません", {
     clickable: true,
   });
