@@ -165,9 +165,56 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
     return ret, lst_codes
 
 
+def _current_rsi4(bkdf) -> float:
+    if "RSI4" not in bkdf.columns or not bkdf["RSI4"].notna().any():
+        return 0.0
+    return float(bkdf["RSI4"].dropna().iloc[-1])
+
+
+def _rci_params_after_rsi60(jg: Judge, ti: TradeInfo) -> tuple[float, float, float]:
+    """RSI60到達後は感度を上げたRCIパラメータを返す。未設定なら通常値。"""
+    if ti.rsi60_reached and jg.rsi60_rci_turn_min > 0:
+        turn_min = jg.rsi60_rci_turn_min
+        peak_min = jg.rsi60_rci_peak if jg.rsi60_rci_peak > 0 else jg.rci_exit_peak
+    else:
+        turn_min = jg.rci_exit_turn_min
+        peak_min = jg.rci_exit_peak
+    return turn_min, peak_min, jg.rci_turn_min
+
+
+def _rci_turn_up_min(jg: Judge, ti: TradeInfo, *, rsi_hit: bool) -> float:
+    """RSI60超え後は上向き判定も感度を上げる。"""
+    if (ti.rsi60_reached or rsi_hit) and jg.rsi60_rci_turn_min > 0:
+        return jg.rsi60_rci_turn_min
+    return jg.rci_turn_min
+
+
 def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
     """買いポジションの決済判定。(決済するか, 決済価格)"""
-    if tc_rsi.jdg_rsi_shortkessai(ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low):
+    rsi_hit = tc_rsi.jdg_rsi_shortkessai(ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low)
+    turn_up_min = _rci_turn_up_min(jg, ti, rsi_hit=rsi_hit)
+    if rsi_hit:
+        hold = (
+            jg.rsi60_hold_rci_up
+            and ti.sb_mode == DEF.MODE_BUY
+            and tc_rci.jdg_rci_turn_up(bkdf, period=jg.rci_period, turn_min=turn_up_min) == 1
+        )
+        if not hold:
+            return True, cp.i_close
+    turn_min, peak_min, _ = _rci_params_after_rsi60(jg, ti)
+    if (
+        jg.rsi60_hold_rci_up
+        and ti.rsi60_reached
+        and ti.sb_mode == DEF.MODE_BUY
+        and tc_rci.jdg_rci_turn_down(
+            bkdf,
+            period=jg.rci_period,
+            turn_min=turn_min,
+            peak_min=peak_min,
+            lookback=jg.rci_lookback,
+        )
+        == 1
+    ):
         return True, cp.i_close
     if jg.jdg_rci_exit and ti.sb_mode == DEF.MODE_BUY:
         if (
@@ -180,7 +227,18 @@ def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]
             )
             == 1
         ):
-            return True, cp.i_close
+            in_profit = ti.buy_price > 0 and cp.i_close > ti.buy_price
+            rsi4 = float(bkdf["RSI4"].dropna().iloc[-1]) if "RSI4" in bkdf.columns and bkdf["RSI4"].notna().any() else 0.0
+            rsi_ok = jg.rci_exit_rsi_min <= 0 or rsi4 >= jg.rci_exit_rsi_min
+            if rsi_ok and (not jg.rci_exit_profit_only or in_profit):
+                return True, cp.i_close
+    if (
+        jg.jdg_rsi10_recross_exit
+        and ti.rsi10_reached
+        and ti.sb_mode == DEF.MODE_BUY
+        and _current_rsi4(bkdf) < jg.rsi_recross_exit_level
+    ):
+        return True, cp.i_close
     if jg.jdg_stop_loss and ti.buy_price > 0:
         pct = (cp.i_close - ti.buy_price) / ti.buy_price * 100.0
         if pct <= -jg.stop_loss_pct:
@@ -230,6 +288,12 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
     if ti.buy_pos > 0:
         cnt_buyholddays += 1
         bkdf.loc[lastidx_bk, "mark"] = "継続"
+        if jg.rsi60_hold_rci_up and tc_rsi.jdg_rsi_shortkessai(
+            ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low
+        ):
+            ti.rsi60_reached = True
+        if _current_rsi4(bkdf) > jg.rsi_recross_exit_level:
+            ti.rsi10_reached = True
         exit_now, buy_kessai_val = _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays)
         if exit_now:
             ti.kessai_buy = True
@@ -243,6 +307,8 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
             ti.kessai_buy = False
             ti.buy_pos = 0
             ti.buy_price = 0
+            ti.rsi60_reached = False
+            ti.rsi10_reached = False
             cnt_buyholddays = 0
             print(cp.code, ":", str(idx_date.date()), "返売", str(diff))
             if buygain > 0:
@@ -329,6 +395,13 @@ def entry_proc(cp, ti, lst_codes, bkdf, lastidx_bk, idx_date, ent_timing):
             ti.isreserved = False
             ti.buy_pos += 1
             ti.entrycnt += 1
+            ti.rsi60_reached = False
+            scr = conf.CONF_SEC_SCR
+            jdg_rsi10 = int(conf.get_config(scr, conf.CONF_KEY_JDG_RSI10_RECROSS_EXIT, default="0"))
+            recross_level = float(
+                conf.get_config(scr, conf.CONF_KEY_SCR_RSI_RECROSS_EXIT_LEVEL, default="10")
+            )
+            ti.rsi10_reached = jdg_rsi10 == 1 and _current_rsi4(bkdf) > recross_level
             bkdf.loc[lastidx_bk, "buy"] = ti.buy_pos
             if ti.buy_price == 0:
                 ti.buy_price = cp.i_close if ent_timing == 0 else cp.i_open

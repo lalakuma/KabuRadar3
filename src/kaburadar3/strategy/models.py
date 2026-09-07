@@ -98,6 +98,8 @@ class TradeInfo:
     outcodecsv = False
     rsi_prep = False
     rsi_prep_bars = 0
+    rsi60_reached = False
+    rsi10_reached = False
 
 
 class Judge:
@@ -119,5 +121,26 @@ class Judge:
             conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_TURN_MIN, default="5")
         )
         self.rci_exit_peak = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_PEAK, default="20"))
+        self.rci_exit_profit_only = int(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_PROFIT_ONLY, default="0")
+        )
+        self.rci_exit_rsi_min = float(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RCI_EXIT_RSI_MIN, default="0")
+        )
+        self.rsi60_hold_rci_up = int(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RSI60_HOLD_RCI_UP, default="0")
+        )
+        self.rsi60_rci_turn_min = float(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RSI60_RCI_TURN_MIN, default="0")
+        )
+        self.rsi60_rci_peak = float(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RSI60_RCI_PEAK, default="0")
+        )
+        self.jdg_rsi10_recross_exit = int(
+            conf.get_config(scrsec, conf.CONF_KEY_JDG_RSI10_RECROSS_EXIT, default="0")
+        )
+        self.rsi_recross_exit_level = float(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_RSI_RECROSS_EXIT_LEVEL, default="10")
+        )
         self.jdg_stop_loss = int(conf.get_config(scrsec, conf.CONF_KEY_JDG_STOP_LOSS, default="0"))
         self.stop_loss_pct = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_STOP_LOSS_PCT, default="3"))

@@ -46,6 +46,7 @@ def infer_exit_reason(
     stop_pct: float,
     sell_period: int,
     rsi_hi: float,
+    rsi_low: float = 10.0,
 ) -> str:
     exit_close = float(exit_row["close"])
     pct = (exit_close - buy_price) / buy_price * 100.0 if buy_price else 0.0
@@ -56,6 +57,8 @@ def infer_exit_reason(
         return "100日"
     if rsi4 > rsi_hi:
         return "RSI60"
+    if rsi4 < rsi_low:
+        return "RSI10"
     return "その他"
 
 
@@ -74,6 +77,12 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
     stop_pct = float(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_STOP_LOSS_PCT, default="3"))
     sell_period = int(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_SELL_PERIOD))
     rsi_hi = float(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_SRSI_HI, default="60"))
+    rsi_low = float(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_SRSI_LOW, default="10"))
+    recross_on = int(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_JDG_RSI10_RECROSS_EXIT, default="0"))
+    recross_level = float(
+        conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_RSI_RECROSS_EXIT_LEVEL, default="10")
+    )
+    rsi_exit_low = recross_level if recross_on else rsi_low
 
     trades: list[dict[str, Any]] = []
     entry_date: date | None = None
@@ -109,6 +118,7 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
                         stop_pct=stop_pct,
                         sell_period=sell_period,
                         rsi_hi=rsi_hi,
+                        rsi_low=rsi_exit_low,
                     ),
                 }
             )
