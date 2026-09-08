@@ -163,6 +163,31 @@ def notify_from_payload(payload: dict, *, force: bool = False) -> bool:
 
     if runtime.notify_today_buy:
         buys = today.get("new_buy") or []
+        recommended = today.get("recommended") or []
+        special = payload.get("special") or {}
+        routing = special.get("routing")
+
+        if routing == "etf":
+            etf = special.get("etf") or "1306"
+            mkt = special.get("market_return_20d")
+            mkt_s = f"{mkt:+.1f}%" if mkt is not None else "—"
+            body.append(f"— 本日は ETF {etf} 推奨（地合20日 {mkt_s}）—")
+            body.append("— 推奨: 個別株は見送り（ETF優先）—")
+        elif routing == "stocks" and int(special.get("new_buy_count") or 0) >= int(
+            special.get("min_new_buy_count") or 8
+        ):
+            mkt = special.get("market_return_20d")
+            mkt_s = f"{mkt:+.1f}%" if mkt is not None else "—"
+            th = special.get("market_regime_min_pct", -15)
+            body.append(f"— 本日は個別1〜2銘柄推奨（地合20日 {mkt_s} < {th}%）—")
+
+        if recommended and routing != "etf":
+            pick_meta = today.get("pick_meta") or {}
+            method = pick_meta.get("method", "stars")
+            body.append(f"— 推奨銘柄（自動選定・{method}）{len(recommended)}件 —")
+            for row in recommended:
+                body.append(format_signal_row(row))
+
         body.append(f"— 今日の買い（新買）{len(buys)}件 —")
         if buys:
             for row in buys:

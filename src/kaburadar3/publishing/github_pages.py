@@ -36,6 +36,7 @@ def _ensure_env_loaded() -> None:
 from kaburadar3.qualitative.rater import load_cache, rate_signals
 from kaburadar3.qualitative.rating_history import attach_quality_to_daily
 from kaburadar3.signals.daily_history import collect_daily_history
+from kaburadar3.signals.picker import attach_recommended_picks
 from kaburadar3.signals.special import apply_special_buy
 from kaburadar3.signals.today import collect_today_signals
 
@@ -128,6 +129,8 @@ def build_payload() -> dict:
                 item["quality"] = quality[code]
             item["rsi_ok"] = item.get("rsi") is not None and item.get("rsi", 99) <= 10
             item["rci_ok"] = item.get("rci_turn") is True
+
+    attach_recommended_picks(today, special, runtime)
 
     meta = _parse_summary_filename(summary_csv)
     wins = sum(1 for s in symbols if "W1" in s["winlose"] or "W2" in s["winlose"])

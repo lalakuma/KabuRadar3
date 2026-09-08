@@ -29,6 +29,7 @@ MENU_SPECS = {
     "4": FetchSpec("100日", "day", 100),
     "5": FetchSpec("5年", "year", 5),
     "6": FetchSpec("5日", "day", 5),
+    "7": FetchSpec("10年", "year", 10),
 }
 
 
@@ -51,7 +52,8 @@ def _ticker_code(code: str) -> str:
 def _fetch_price_data(code: str, spec: FetchSpec) -> pd.DataFrame:
     period_str = f"{spec.period}{'d' if spec.ptype == 'day' else 'y'}"
     ticker = yf.Ticker(_ticker_code(code))
-    df = ticker.history(period=period_str, interval="1d", auto_adjust=False)
+    # 株式分割・配当を調整済みの系列を使う（未調整だと分割日に疑似暴落し損切りが誤発火する）
+    df = ticker.history(period=period_str, interval="1d", auto_adjust=True)
     if df.empty:
         return pd.DataFrame()
 
@@ -83,16 +85,20 @@ def _delete_after_date(cursor: sqlite3.Cursor, code: str, date_str: str) -> None
     cursor.execute(f'DELETE FROM "tbl_{code}" WHERE datetime >= ?', (date_str,))
 
 
+def _truncate_table(cursor: sqlite3.Cursor, code: str) -> None:
+    cursor.execute(f'DELETE FROM "tbl_{code}"')
+
+
 def _pick_spec_with_menu() -> FetchSpec:
     print("株価更新期間を選んでください:")
     for key, spec in MENU_SPECS.items():
         print(f"  {key}. {spec.label}")
 
     while True:
-        choice = input("番号を入力してください [1-6]: ").strip()
+        choice = input("番号を入力してください [1-7]: ").strip()
         if choice in MENU_SPECS:
             return MENU_SPECS[choice]
-        print("入力エラー: 1〜6 の番号を指定してください。")
+        print("入力エラー: 1〜7 の番号を指定してください。")
 
 
 def _pick_spec_from_args(choice: str | None) -> FetchSpec:
@@ -101,7 +107,7 @@ def _pick_spec_from_args(choice: str | None) -> FetchSpec:
     return _pick_spec_with_menu()
 
 
-def run(spec: FetchSpec, sleep_sec: float = 0.1) -> int:
+def run(spec: FetchSpec, sleep_sec: float = 0.1, *, full_replace: bool = False) -> int:
     db_path = _resolve_db_path()
     if not db_path.exists():
         print(f"DBが見つかりません: {db_path}")
@@ -130,8 +136,11 @@ def run(spec: FetchSpec, sleep_sec: float = 0.1) -> int:
                 print(f"[{idx}/{len(codes)}] {code}: データなし")
                 continue
 
-            first_dt = str(df.index[0])
-            _delete_after_date(cursor, code, first_dt)
+            if full_replace:
+                _truncate_table(cursor, code)
+            else:
+                first_dt = str(df.index[0])
+                _delete_after_date(cursor, code, first_dt)
             df.to_sql(table_name, conn, if_exists="append")
             print(f"[{idx}/{len(codes)}] {code}: {len(df)}件 更新")
             time.sleep(sleep_sec)
@@ -147,8 +156,13 @@ def main() -> int:
     parser.add_argument(
         "--menu",
         choices=list(MENU_SPECS.keys()),
-        help="期間を番号指定で直接実行 (1=1日,2=10日,3=30日,4=100日,5=5年,6=5日)",
+        help="期間を番号指定で直接実行 (1=1日,2=10日,3=30日,4=100日,5=5年,6=5日,7=10年)",
+    )
+    parser.add_argument(
+        "--full-replace",
+        action="store_true",
+        help="各銘柄テーブルを全削除してから取得データで置換（分割調整後の全再構築向け）",
     )
     args = parser.parse_args()
     spec = _pick_spec_from_args(args.menu)
-    return run(spec)
+    return run(spec, full_replace=args.full_replace)

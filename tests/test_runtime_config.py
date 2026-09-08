@@ -8,7 +8,8 @@ from kaburadar3.settings.runtime import RuntimeConfig, load_runtime_config
 
 def test_load_runtime_defaults(tmp_path: Path) -> None:
     cfg = load_runtime_config(tmp_path / "missing.json")
-    assert cfg.min_new_buy_count == 7
+    assert cfg.min_new_buy_count == 8
+    assert cfg.market_regime_min_pct == -15.0
     assert cfg.etf_default == "1306"
     assert cfg.notify_today_buy is True
 

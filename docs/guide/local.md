@@ -64,7 +64,8 @@ Actions と同様のずれがなく、**指定時刻ぴったり**に起動で�
 | PC 必要 | 実行時刻に PC 起動 | 不要 |
 | DB | `data/kaburadar.db` 直読み（ローカル保持） | Actions cache（初回は手動シード要） |
 | Gemini | `.env` の `GEMINI_API_KEY` | Secrets |
-| Web 公開 | `publish.bat` で JSON 更新。push は任意 | gh-pages 自動 |
+| Web 公開 | `publish.bat --push` で JSON 更新＋GitHub push（`screening_lo.bat` も同様） | gh-pages 自動 |
+| Web が更新されない | `screening_lo.bat` は `--push` 付き。`git status docs/data.json` を確認 |
 
 **v3 初期設定:** Actions の schedule は **OFF**（手動 Run workflow のみ）。ローカルを本番にしてください。
 
