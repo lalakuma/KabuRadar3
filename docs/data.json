@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-09T15:02:54+09:00",
+  "generated_at": "2026-09-09T16:02:51+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
     "wins": 13,
     "losses": 11,
     "win_rate": null,
-    "total_income": -71900,
-    "symbol_count": 28,
-    "neutral_count": 6,
-    "source_file": "Y0_PF0.759_W13L11_rate54.17_all-71900.csv"
+    "total_income": -72100,
+    "symbol_count": 29,
+    "neutral_count": 7,
+    "source_file": "Y0_PF0.756_W13L11_rate54.17_all-72100.csv"
   },
   "symbols": [
     {
@@ -167,6 +167,17 @@
       "minus_gain": 0
     },
     {
+      "code": "2685",
+      "name": "アダストリア",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "3391",
       "name": "ツルハホールディングス",
       "industry": "nan",
@@ -225,12 +236,12 @@
       "code": "7532",
       "name": "パン・パシフィック・インターナショナルホールディングス",
       "industry": "nan",
-      "incomes": -5700,
+      "incomes": -5900,
       "pf": 0.0,
       "winlose": "W0L1",
       "win_per": 0,
       "plus_gain": 0,
-      "minus_gain": 7530
+      "minus_gain": 7809
     },
     {
       "code": "6723",
@@ -323,14 +334,99 @@
   ],
   "today": {
     "trade_date": "2026-09-09",
-    "new_buy": [],
+    "new_buy": [
+      {
+        "code": "2685",
+        "name": "アダストリア",
+        "mark": "新買",
+        "close": 3220,
+        "rsi": 20.72,
+        "rci": -96.67,
+        "rci_turn": true,
+        "quality": {
+          "code": "2685",
+          "stars": 3,
+          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "risk_factors": [
+            "評価失敗"
+          ],
+          "confidence": "low",
+          "sources": [
+            "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+            "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+          ],
+          "valuation_view": "unknown",
+          "dividend": {
+            "annual_yen": 90,
+            "yield_pct": 2.81,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 43.72
+          },
+          "earnings": {
+            "announcement_date": "2026-09-30",
+            "fiscal_year_end": "2027-02-28",
+            "fiscal_month": 2
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Apparel Manufacturing",
+            "per": 15.6,
+            "forward_per": 10.6,
+            "pbr": 1.79,
+            "psr": 0.48,
+            "market_cap_oku": 1485,
+            "price_yen": 3220,
+            "target_price_yen": 3490,
+            "target_upside_pct": 8.4,
+            "revenue_growth_pct": 3.7,
+            "earnings_growth_pct": -10.5,
+            "profit_margin_pct": 2.94,
+            "roe_pct": 11.17,
+            "debt_to_equity": 7.2
+          },
+          "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "min_shares": 100,
+            "kind": "買物優待券 美容・ファッション",
+            "month": "2",
+            "programs": [
+              {
+                "title": "自社店舗商品引換券※2026年2月末日より実施",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
+                    "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+                  },
+                  {
+                    "shares": "500株以上",
+                    "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                    "note": ""
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+            "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      }
+    ],
     "sellback": [
       {
         "code": "7532",
         "name": "パン・パシフィック・インターナショナルホールディングス",
         "mark": "返売",
-        "close": 757,
-        "rsi": 27.07,
+        "close": 755,
+        "rsi": 26.05,
         "rci": -60.83,
         "rci_turn": false,
         "quality": {
@@ -363,12 +459,12 @@
             "per": 20.6,
             "forward_per": 4.3,
             "pbr": 3.2,
-            "psr": 0.93,
-            "peg": 2.72,
-            "market_cap_oku": 22639,
-            "price_yen": 757,
+            "psr": 0.92,
+            "peg": 2.75,
+            "market_cap_oku": 22588,
+            "price_yen": 756,
             "target_price_yen": 1052,
-            "target_upside_pct": 39.0,
+            "target_upside_pct": 39.2,
             "profit_margin_pct": 4.5,
             "roe_pct": 16.48,
             "debt_to_equity": 48.5
@@ -410,7 +506,7 @@
         "rci_ok": false
       }
     ],
-    "new_buy_count": 0,
+    "new_buy_count": 1,
     "recommended": [],
     "pick_meta": {
       "method": "stars",
@@ -423,17 +519,97 @@
     "days": [
       {
         "date": "2026-09-09",
-        "pnl": -5700,
-        "new_buy_count": 0,
+        "pnl": -5900,
+        "new_buy_count": 1,
         "sellback_count": 1,
-        "new_buy": [],
+        "new_buy": [
+          {
+            "code": "2685",
+            "name": "アダストリア",
+            "mark": "新買",
+            "close": 3220,
+            "quality": {
+              "code": "2685",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [
+                "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+                "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+              ],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 90,
+                "yield_pct": 2.81,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 43.72
+              },
+              "earnings": {
+                "announcement_date": "2026-09-30",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Apparel Manufacturing",
+                "per": 15.6,
+                "forward_per": 10.6,
+                "pbr": 1.79,
+                "psr": 0.48,
+                "market_cap_oku": 1485,
+                "price_yen": 3220,
+                "target_price_yen": 3490,
+                "target_upside_pct": 8.4,
+                "revenue_growth_pct": 3.7,
+                "earnings_growth_pct": -10.5,
+                "profit_margin_pct": 2.94,
+                "roe_pct": 11.17,
+                "debt_to_equity": 7.2
+              },
+              "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "min_shares": 100,
+                "kind": "買物優待券 美容・ファッション",
+                "month": "2",
+                "programs": [
+                  {
+                    "title": "自社店舗商品引換券※2026年2月末日より実施",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
+                        "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+                "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+              }
+            }
+          }
+        ],
         "sellback": [
           {
             "code": "7532",
             "name": "パン・パシフィック・インターナショナルホールディングス",
             "mark": "返売",
-            "close": 757,
-            "pnl": -5700
+            "close": 755,
+            "pnl": -5900
           }
         ]
       },
@@ -503,11 +679,11 @@
                 "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.61,
-                "market_cap_oku": 3530,
-                "price_yen": 1094,
+                "psr": 0.62,
+                "market_cap_oku": 3546,
+                "price_yen": 1098,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.6,
+                "target_upside_pct": 36.1,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -593,10 +769,10 @@
                 "forward_per": 6.2,
                 "pbr": 1.33,
                 "psr": 0.25,
-                "market_cap_oku": 1011,
-                "price_yen": 3255,
+                "market_cap_oku": 1014,
+                "price_yen": 3265,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.5,
+                "target_upside_pct": 50.1,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -608,7 +784,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.61",
+                "yield_pct": "---、配当利回りは4.59",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -731,14 +907,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.1,
+                "per": 16.2,
                 "forward_per": 3.7,
-                "pbr": 1.2,
+                "pbr": 1.21,
                 "psr": 0.58,
-                "market_cap_oku": 10516,
-                "price_yen": 2321,
+                "market_cap_oku": 10589,
+                "price_yen": 2337,
                 "target_price_yen": 2669,
-                "target_upside_pct": 15.0,
+                "target_upside_pct": 14.2,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -818,14 +994,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 33.9,
-                "forward_per": 14.2,
-                "pbr": 3.33,
-                "psr": 2.42,
-                "market_cap_oku": 1284,
-                "price_yen": 3345,
+                "per": 34.1,
+                "forward_per": 14.3,
+                "pbr": 3.35,
+                "psr": 2.43,
+                "market_cap_oku": 1290,
+                "price_yen": 3360,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.4,
+                "target_upside_pct": 60.7,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -1624,6 +1800,102 @@
     ],
     "buy_days": [
       {
+        "date": "2026-09-09",
+        "pnl": -5900,
+        "new_buy_count": 1,
+        "sellback_count": 1,
+        "new_buy": [
+          {
+            "code": "2685",
+            "name": "アダストリア",
+            "mark": "新買",
+            "close": 3220,
+            "quality": {
+              "code": "2685",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [
+                "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+                "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+              ],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 90,
+                "yield_pct": 2.81,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 43.72
+              },
+              "earnings": {
+                "announcement_date": "2026-09-30",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Apparel Manufacturing",
+                "per": 15.6,
+                "forward_per": 10.6,
+                "pbr": 1.79,
+                "psr": 0.48,
+                "market_cap_oku": 1485,
+                "price_yen": 3220,
+                "target_price_yen": 3490,
+                "target_upside_pct": 8.4,
+                "revenue_growth_pct": 3.7,
+                "earnings_growth_pct": -10.5,
+                "profit_margin_pct": 2.94,
+                "roe_pct": 11.17,
+                "debt_to_equity": 7.2
+              },
+              "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "min_shares": 100,
+                "kind": "買物優待券 美容・ファッション",
+                "month": "2",
+                "programs": [
+                  {
+                    "title": "自社店舗商品引換券※2026年2月末日より実施",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
+                        "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+                "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+              }
+            }
+          }
+        ],
+        "sellback": [
+          {
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "mark": "返売",
+            "close": 755,
+            "pnl": -5900
+          }
+        ]
+      },
+      {
         "date": "2026-09-07",
         "pnl": 0,
         "new_buy_count": 2,
@@ -1673,11 +1945,11 @@
                 "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.61,
-                "market_cap_oku": 3530,
-                "price_yen": 1094,
+                "psr": 0.62,
+                "market_cap_oku": 3546,
+                "price_yen": 1098,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.6,
+                "target_upside_pct": 36.1,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1763,10 +2035,10 @@
                 "forward_per": 6.2,
                 "pbr": 1.33,
                 "psr": 0.25,
-                "market_cap_oku": 1011,
-                "price_yen": 3255,
+                "market_cap_oku": 1014,
+                "price_yen": 3265,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.5,
+                "target_upside_pct": 50.1,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -1778,7 +2050,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.61",
+                "yield_pct": "---、配当利回りは4.59",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -1901,14 +2173,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.1,
+                "per": 16.2,
                 "forward_per": 3.7,
-                "pbr": 1.2,
+                "pbr": 1.21,
                 "psr": 0.58,
-                "market_cap_oku": 10516,
-                "price_yen": 2321,
+                "market_cap_oku": 10589,
+                "price_yen": 2337,
                 "target_price_yen": 2669,
-                "target_upside_pct": 15.0,
+                "target_upside_pct": 14.2,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1988,14 +2260,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 33.9,
-                "forward_per": 14.2,
-                "pbr": 3.33,
-                "psr": 2.42,
-                "market_cap_oku": 1284,
-                "price_yen": 3345,
+                "per": 34.1,
+                "forward_per": 14.3,
+                "pbr": 3.35,
+                "psr": 2.43,
+                "market_cap_oku": 1290,
+                "price_yen": 3360,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.4,
+                "target_upside_pct": 60.7,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2368,8 +2640,8 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -3.03,
-    "new_buy_count": 0,
+    "market_return_20d": -3.22,
+    "new_buy_count": 1,
     "exit_rsi": 70.0,
     "etf_rsi": {
       "1321": 45.23,
@@ -2379,6 +2651,79 @@
     "signal": null
   },
   "quality": {
+    "2685": {
+      "code": "2685",
+      "stars": 3,
+      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "risk_factors": [
+        "評価失敗"
+      ],
+      "confidence": "low",
+      "sources": [
+        "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+        "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+      ],
+      "valuation_view": "unknown",
+      "dividend": {
+        "annual_yen": 90,
+        "yield_pct": 2.81,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 43.72
+      },
+      "earnings": {
+        "announcement_date": "2026-09-30",
+        "fiscal_year_end": "2027-02-28",
+        "fiscal_month": 2
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Apparel Manufacturing",
+        "per": 15.6,
+        "forward_per": 10.6,
+        "pbr": 1.79,
+        "psr": 0.48,
+        "market_cap_oku": 1485,
+        "price_yen": 3220,
+        "target_price_yen": 3490,
+        "target_upside_pct": 8.4,
+        "revenue_growth_pct": 3.7,
+        "earnings_growth_pct": -10.5,
+        "profit_margin_pct": 2.94,
+        "roe_pct": 11.17,
+        "debt_to_equity": 7.2
+      },
+      "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "min_shares": 100,
+        "kind": "買物優待券 美容・ファッション",
+        "month": "2",
+        "programs": [
+          {
+            "title": "自社店舗商品引換券※2026年2月末日より実施",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
+                "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+              },
+              {
+                "shares": "500株以上",
+                "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                "note": ""
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+        "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+      }
+    },
     "7532": {
       "code": "7532",
       "stars": 3,
@@ -2409,12 +2754,12 @@
         "per": 20.6,
         "forward_per": 4.3,
         "pbr": 3.2,
-        "psr": 0.93,
-        "peg": 2.72,
-        "market_cap_oku": 22639,
-        "price_yen": 757,
+        "psr": 0.92,
+        "peg": 2.75,
+        "market_cap_oku": 22588,
+        "price_yen": 756,
         "target_price_yen": 1052,
-        "target_upside_pct": 39.0,
+        "target_upside_pct": 39.2,
         "profit_margin_pct": 4.5,
         "roe_pct": 16.48,
         "debt_to_equity": 48.5
