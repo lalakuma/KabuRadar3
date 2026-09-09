@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-09T11:32:48+09:00",
+  "generated_at": "2026-09-09T15:02:54+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
     "wins": 13,
-    "losses": 10,
+    "losses": 11,
     "win_rate": null,
-    "total_income": -66200,
+    "total_income": -71900,
     "symbol_count": 28,
-    "neutral_count": 7,
-    "source_file": "Y0_PF0.836_W13L10_rate56.52_all-66200.csv"
+    "neutral_count": 6,
+    "source_file": "Y0_PF0.759_W13L11_rate54.17_all-71900.csv"
   },
   "symbols": [
     {
@@ -200,17 +200,6 @@
       "minus_gain": 0
     },
     {
-      "code": "7532",
-      "name": "パン・パシフィック・インターナショナルホールディングス",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0
-    },
-    {
       "code": "8830",
       "name": "住友不動産",
       "industry": "nan",
@@ -231,6 +220,17 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 0
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルホールディングス",
+      "industry": "nan",
+      "incomes": -5700,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 7530
     },
     {
       "code": "6723",
@@ -324,7 +324,92 @@
   "today": {
     "trade_date": "2026-09-09",
     "new_buy": [],
-    "sellback": [],
+    "sellback": [
+      {
+        "code": "7532",
+        "name": "パン・パシフィック・インターナショナルホールディングス",
+        "mark": "返売",
+        "close": 757,
+        "rsi": 27.07,
+        "rci": -60.83,
+        "rci_turn": false,
+        "quality": {
+          "code": "7532",
+          "stars": 3,
+          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "risk_factors": [
+            "評価失敗"
+          ],
+          "confidence": "low",
+          "sources": [
+            "{'url': 'https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+            "{'url': 'https://finance.yahoo.com/news/pan-pacific-international-holdings-tse-120226619.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+          ],
+          "valuation_view": "unknown",
+          "dividend": {
+            "annual_yen": 10,
+            "yield_pct": 1.29,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 25.88
+          },
+          "earnings": {
+            "announcement_date": "2026-11-12",
+            "fiscal_year_end": "2027-06-30",
+            "fiscal_month": 6
+          },
+          "valuation": {
+            "sector": "Consumer Defensive",
+            "industry": "Discount Stores",
+            "per": 20.6,
+            "forward_per": 4.3,
+            "pbr": 3.2,
+            "psr": 0.93,
+            "peg": 2.72,
+            "market_cap_oku": 22639,
+            "price_yen": 757,
+            "target_price_yen": 1052,
+            "target_upside_pct": 39.0,
+            "profit_margin_pct": 4.5,
+            "roe_pct": 16.48,
+            "debt_to_equity": 48.5
+          },
+          "shareholder_benefit": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "自社グループ電子マネー・ポイント",
+            "month": "6",
+            "yield_pct": "0.77",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "自社グループ電子マネー「majica」・ポイント",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "300ポイント （年間　600ポイント）",
+                    "note": "※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。"
+                  },
+                  {
+                    "shares": "300株以上",
+                    "content": "1,000ポイント （年間　2,000ポイント）",
+                    "note": ""
+                  },
+                  {
+                    "shares": "500株以上",
+                    "content": "2,000ポイント （年間　4,000ポイント）",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+            "text": "自社グループ電子マネー・ポイント。100株以上。権利確定6月\n【自社グループ電子マネー「majica」・ポイント】\n・100株以上: 300ポイント （年間　600ポイント）（※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。）\n・300株以上: 1,000ポイント （年間　2,000ポイント）\n・500株以上: 2,000ポイント （年間　4,000ポイント）"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": false
+      }
+    ],
     "new_buy_count": 0,
     "recommended": [],
     "pick_meta": {
@@ -338,11 +423,19 @@
     "days": [
       {
         "date": "2026-09-09",
-        "pnl": 0,
+        "pnl": -5700,
         "new_buy_count": 0,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "mark": "返売",
+            "close": 757,
+            "pnl": -5700
+          }
+        ]
       },
       {
         "date": "2026-09-08",
@@ -407,14 +500,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 16.0,
+                "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.62,
-                "market_cap_oku": 3557,
-                "price_yen": 1102,
+                "psr": 0.61,
+                "market_cap_oku": 3530,
+                "price_yen": 1094,
                 "target_price_yen": 1494,
-                "target_upside_pct": 35.6,
+                "target_upside_pct": 36.6,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -642,10 +735,10 @@
                 "forward_per": 3.7,
                 "pbr": 1.2,
                 "psr": 0.58,
-                "market_cap_oku": 10530,
-                "price_yen": 2324,
-                "target_price_yen": 2613,
-                "target_upside_pct": 12.4,
+                "market_cap_oku": 10516,
+                "price_yen": 2321,
+                "target_price_yen": 2669,
+                "target_upside_pct": 15.0,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -725,14 +818,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.0,
-                "forward_per": 14.3,
-                "pbr": 3.34,
+                "per": 33.9,
+                "forward_per": 14.2,
+                "pbr": 3.33,
                 "psr": 2.42,
-                "market_cap_oku": 1286,
-                "price_yen": 3350,
+                "market_cap_oku": 1284,
+                "price_yen": 3345,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.2,
+                "target_upside_pct": 61.4,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -1577,14 +1670,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 16.0,
+                "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.62,
-                "market_cap_oku": 3557,
-                "price_yen": 1102,
+                "psr": 0.61,
+                "market_cap_oku": 3530,
+                "price_yen": 1094,
                 "target_price_yen": 1494,
-                "target_upside_pct": 35.6,
+                "target_upside_pct": 36.6,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1812,10 +1905,10 @@
                 "forward_per": 3.7,
                 "pbr": 1.2,
                 "psr": 0.58,
-                "market_cap_oku": 10530,
-                "price_yen": 2324,
-                "target_price_yen": 2613,
-                "target_upside_pct": 12.4,
+                "market_cap_oku": 10516,
+                "price_yen": 2321,
+                "target_price_yen": 2669,
+                "target_upside_pct": 15.0,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1895,14 +1988,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.0,
-                "forward_per": 14.3,
-                "pbr": 3.34,
+                "per": 33.9,
+                "forward_per": 14.2,
+                "pbr": 3.33,
                 "psr": 2.42,
-                "market_cap_oku": 1286,
-                "price_yen": 3350,
+                "market_cap_oku": 1284,
+                "price_yen": 3345,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.2,
+                "target_upside_pct": 61.4,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2275,7 +2368,7 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -2.82,
+    "market_return_20d": -3.03,
     "new_buy_count": 0,
     "exit_rsi": 70.0,
     "etf_rsi": {
@@ -2285,7 +2378,81 @@
     "active_rsi": 29.9,
     "signal": null
   },
-  "quality": {},
+  "quality": {
+    "7532": {
+      "code": "7532",
+      "stars": 3,
+      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "risk_factors": [
+        "評価失敗"
+      ],
+      "confidence": "low",
+      "sources": [
+        "{'url': 'https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+        "{'url': 'https://finance.yahoo.com/news/pan-pacific-international-holdings-tse-120226619.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+      ],
+      "valuation_view": "unknown",
+      "dividend": {
+        "annual_yen": 10,
+        "yield_pct": 1.29,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 25.88
+      },
+      "earnings": {
+        "announcement_date": "2026-11-12",
+        "fiscal_year_end": "2027-06-30",
+        "fiscal_month": 6
+      },
+      "valuation": {
+        "sector": "Consumer Defensive",
+        "industry": "Discount Stores",
+        "per": 20.6,
+        "forward_per": 4.3,
+        "pbr": 3.2,
+        "psr": 0.93,
+        "peg": 2.72,
+        "market_cap_oku": 22639,
+        "price_yen": 757,
+        "target_price_yen": 1052,
+        "target_upside_pct": 39.0,
+        "profit_margin_pct": 4.5,
+        "roe_pct": 16.48,
+        "debt_to_equity": 48.5
+      },
+      "shareholder_benefit": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "自社グループ電子マネー・ポイント",
+        "month": "6",
+        "yield_pct": "0.77",
+        "min_shares": 100,
+        "programs": [
+          {
+            "title": "自社グループ電子マネー「majica」・ポイント",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "300ポイント （年間　600ポイント）",
+                "note": "※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。"
+              },
+              {
+                "shares": "300株以上",
+                "content": "1,000ポイント （年間　2,000ポイント）",
+                "note": ""
+              },
+              {
+                "shares": "500株以上",
+                "content": "2,000ポイント （年間　4,000ポイント）",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+        "text": "自社グループ電子マネー・ポイント。100株以上。権利確定6月\n【自社グループ電子マネー「majica」・ポイント】\n・100株以上: 300ポイント （年間　600ポイント）（※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。）\n・300株以上: 1,000ポイント （年間　2,000ポイント）\n・500株以上: 2,000ポイント （年間　4,000ポイント）"
+      }
+    }
+  },
   "runtime": {
     "exit_strategy": {
       "profile": "profit"
