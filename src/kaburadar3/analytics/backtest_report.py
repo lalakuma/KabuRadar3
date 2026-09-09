@@ -47,6 +47,8 @@ def infer_exit_reason(
     sell_period: int,
     rsi_hi: float,
     rsi_low: float = 10.0,
+    ma5_exit: bool = False,
+    ma5_proximity_pct: float = 1.5,
 ) -> str:
     exit_close = float(exit_row["close"])
     pct = (exit_close - buy_price) / buy_price * 100.0 if buy_price else 0.0
@@ -55,6 +57,13 @@ def infer_exit_reason(
         return "損切り"
     if hold_days >= sell_period:
         return "100日"
+    if ma5_exit:
+        from kaburadar3.strategy.ma5 import near_ma5
+
+        sma5 = float(exit_row.get("SMA5", 0) or 0)
+        low = float(exit_row.get("low", exit_close) or exit_close)
+        if near_ma5(exit_close, low, sma5, ma5_proximity_pct) and rsi4 <= rsi_hi:
+            return "MA5"
     if rsi4 > rsi_hi:
         return "RSI60"
     if rsi4 < rsi_low:
@@ -83,6 +92,10 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
         conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_RSI_RECROSS_EXIT_LEVEL, default="10")
     )
     rsi_exit_low = recross_level if recross_on else rsi_low
+    ma5_on = int(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_JDG_MA5_EXIT, default="0"))
+    ma5_proximity = float(
+        conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_PROXIMITY_PCT, default="1.5")
+    )
 
     trades: list[dict[str, Any]] = []
     entry_date: date | None = None
@@ -119,6 +132,8 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
                         sell_period=sell_period,
                         rsi_hi=rsi_hi,
                         rsi_low=rsi_exit_low,
+                        ma5_exit=bool(ma5_on),
+                        ma5_proximity_pct=ma5_proximity,
                     ),
                 }
             )
