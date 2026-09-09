@@ -35,7 +35,7 @@ def patch(text: str, *, ma5: int) -> str:
         text = text.replace(
             "SCR_JDG_STOP_LOSS = 1",
             f"SCR_JDG_MA5_EXIT = {ma5}\nSCR_MA5_PROXIMITY_PCT = 1.5\n"
-            f"SCR_MA5_RALLY_PCT = 1.0\nSCR_MA5_MIN_BARS = 1\nSCR_MA5_PROFIT_ONLY = 1\n"
+            f"SCR_MA5_MIN_BARS = 1\nSCR_MA5_PROFIT_ONLY = 1\n"
             "SCR_JDG_STOP_LOSS = 1",
         )
     text = re.sub(r"SCR_RSI60_HOLD_RCI_UP\s*=\s*\d+", "SCR_RSI60_HOLD_RCI_UP = 1", text)

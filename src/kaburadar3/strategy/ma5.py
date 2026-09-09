@@ -5,23 +5,14 @@ from __future__ import annotations
 import math
 
 
-def rally_above_ma5(close: float, sma5: float, rally_pct: float) -> bool:
-    """終値が5日線を一定割合上回ったか（戻り確認）."""
-    if sma5 <= 0 or math.isnan(sma5) or math.isnan(close):
-        return False
-    return close > sma5 * (1 + rally_pct / 100.0)
+def high_near_ma5(high: float, sma5: float, proximity_pct: float) -> bool:
+    """高値が5日線の近傍帯まで上がったか.
 
-
-def near_ma5(close: float, low: float, sma5: float, proximity_pct: float) -> bool:
-    """終値または安値が5日線の近傍帯に入ったか.
-
-    戻り後の押し目で5日線付近まで近づいたタイミングを検出する。
+    エントリー後（多くは5日線下）の戻りで、高値が5日線付近に到達したタイミングを検出する。
     """
-    if sma5 <= 0 or math.isnan(sma5):
+    if sma5 <= 0 or math.isnan(sma5) or math.isnan(high):
         return False
     band = proximity_pct / 100.0
     lower = sma5 * (1 - band)
     upper = sma5 * (1 + band)
-    close_near = not math.isnan(close) and lower <= close <= upper
-    low_touched = not math.isnan(low) and lower <= low <= upper
-    return close_near or low_touched
+    return lower <= high <= upper

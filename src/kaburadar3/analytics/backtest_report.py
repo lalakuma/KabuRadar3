@@ -58,11 +58,11 @@ def infer_exit_reason(
     if hold_days >= sell_period:
         return "100日"
     if ma5_exit:
-        from kaburadar3.strategy.ma5 import near_ma5
+        from kaburadar3.strategy.ma5 import high_near_ma5
 
         sma5 = float(exit_row.get("SMA5", 0) or 0)
-        low = float(exit_row.get("low", exit_close) or exit_close)
-        if near_ma5(exit_close, low, sma5, ma5_proximity_pct) and rsi4 <= rsi_hi:
+        high = float(exit_row.get("high", exit_close) or exit_close)
+        if high_near_ma5(high, sma5, ma5_proximity_pct) and rsi4 <= rsi_hi:
             return "MA5"
     if rsi4 > rsi_hi:
         return "RSI60"

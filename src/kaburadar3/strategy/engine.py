@@ -199,9 +199,8 @@ def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]
     if (
         jg.jdg_ma5_exit
         and ti.sb_mode == DEF.MODE_BUY
-        and ti.ma5_rally_seen
         and cnt_buyholddays >= jg.ma5_min_bars
-        and tc_ma5.near_ma5(cp.i_close, cp.i_low, cp.i_sma5, jg.ma5_proximity_pct)
+        and tc_ma5.high_near_ma5(cp.i_high, cp.i_sma5, jg.ma5_proximity_pct)
     ):
         in_profit = ti.buy_price > 0 and cp.i_close > ti.buy_price
         if not jg.ma5_profit_only or in_profit:
@@ -299,8 +298,6 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
     if ti.buy_pos > 0:
         cnt_buyholddays += 1
         bkdf.loc[lastidx_bk, "mark"] = "継続"
-        if tc_ma5.rally_above_ma5(cp.i_close, cp.i_sma5, jg.ma5_rally_pct):
-            ti.ma5_rally_seen = True
         if jg.rsi60_hold_rci_up and tc_rsi.jdg_rsi_shortkessai(
             ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low
         ):
@@ -322,7 +319,6 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
             ti.buy_price = 0
             ti.rsi60_reached = False
             ti.rsi10_reached = False
-            ti.ma5_rally_seen = False
             cnt_buyholddays = 0
             print(cp.code, ":", str(idx_date.date()), "返売", str(diff))
             if buygain > 0:

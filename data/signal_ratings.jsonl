@@ -15,3 +15,5 @@
 {"date": "2026-09-07", "code": "3465", "mark": "新買", "stars": 4, "confidence": "high", "model": "gemini-3.6-flash"}
 {"date": "2026-09-07", "code": "6254", "mark": "返売", "stars": 4, "confidence": "medium", "model": "gemini-3.6-flash"}
 {"date": "2026-09-08", "code": "6141", "mark": "返売", "stars": 4, "confidence": "high", "model": "gemini-3.6-flash"}
+{"date": "2026-09-09", "code": "7532", "mark": "返売", "stars": 3, "confidence": "low", "model": "gemini-3.6-flash"}
+{"date": "2026-09-09", "code": "2685", "mark": "新買", "stars": 3, "confidence": "low", "model": "gemini-3.6-flash"}

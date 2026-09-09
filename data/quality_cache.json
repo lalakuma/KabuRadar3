@@ -798,5 +798,151 @@
       "summary": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
       "text": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月\n【ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）】\n・500株以上: 【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446"
     }
+  },
+  "v5:2026-09-09:7532": {
+    "code": "7532",
+    "stars": 3,
+    "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+    "risk_factors": [
+      "評価失敗"
+    ],
+    "confidence": "low",
+    "sources": [
+      "{'url': 'https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+      "{'url': 'https://finance.yahoo.com/news/pan-pacific-international-holdings-tse-120226619.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+    ],
+    "valuation_view": "unknown",
+    "dividend": {
+      "annual_yen": 10,
+      "yield_pct": 1.29,
+      "ex_date": "2026-12-29",
+      "payout_ratio_pct": 25.88
+    },
+    "earnings": {
+      "announcement_date": "2026-11-12",
+      "fiscal_year_end": "2027-06-30",
+      "fiscal_month": 6
+    },
+    "valuation": {
+      "sector": "Consumer Defensive",
+      "industry": "Discount Stores",
+      "per": 20.6,
+      "forward_per": 4.3,
+      "pbr": 3.2,
+      "psr": 0.92,
+      "peg": 2.75,
+      "market_cap_oku": 22588,
+      "price_yen": 756,
+      "target_price_yen": 1052,
+      "target_upside_pct": 39.2,
+      "profit_margin_pct": 4.5,
+      "roe_pct": 16.48,
+      "debt_to_equity": 48.5
+    },
+    "shareholder_benefit": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+    "shareholder_benefit_detail": {
+      "source": "minkabu",
+      "kind": "自社グループ電子マネー・ポイント",
+      "month": "6",
+      "yield_pct": "0.77",
+      "min_shares": 100,
+      "programs": [
+        {
+          "title": "自社グループ電子マネー「majica」・ポイント",
+          "tiers": [
+            {
+              "shares": "100株以上",
+              "content": "300ポイント （年間　600ポイント）",
+              "note": "※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。"
+            },
+            {
+              "shares": "300株以上",
+              "content": "1,000ポイント （年間　2,000ポイント）",
+              "note": ""
+            },
+            {
+              "shares": "500株以上",
+              "content": "2,000ポイント （年間　4,000ポイント）",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "summary": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
+      "text": "自社グループ電子マネー・ポイント。100株以上。権利確定6月\n【自社グループ電子マネー「majica」・ポイント】\n・100株以上: 300ポイント （年間　600ポイント）（※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。）\n・300株以上: 1,000ポイント （年間　2,000ポイント）\n・500株以上: 2,000ポイント （年間　4,000ポイント）"
+    }
+  },
+  "v5:2026-09-09:2685": {
+    "code": "2685",
+    "stars": 3,
+    "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+    "risk_factors": [
+      "評価失敗"
+    ],
+    "confidence": "low",
+    "sources": [
+      "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
+      "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+    ],
+    "valuation_view": "unknown",
+    "dividend": {
+      "annual_yen": 90,
+      "yield_pct": 2.81,
+      "ex_date": "2027-02-25",
+      "payout_ratio_pct": 43.72
+    },
+    "earnings": {
+      "announcement_date": "2026-09-30",
+      "fiscal_year_end": "2027-02-28",
+      "fiscal_month": 2
+    },
+    "valuation": {
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel Manufacturing",
+      "per": 15.6,
+      "forward_per": 10.6,
+      "pbr": 1.79,
+      "psr": 0.48,
+      "market_cap_oku": 1485,
+      "price_yen": 3220,
+      "target_price_yen": 3490,
+      "target_upside_pct": 8.4,
+      "revenue_growth_pct": 3.7,
+      "earnings_growth_pct": -10.5,
+      "profit_margin_pct": 2.94,
+      "roe_pct": 11.17,
+      "debt_to_equity": 7.2
+    },
+    "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+    "shareholder_benefit_detail": {
+      "source": "minkabu",
+      "min_shares": 100,
+      "kind": "買物優待券 美容・ファッション",
+      "month": "2",
+      "programs": [
+        {
+          "title": "自社店舗商品引換券※2026年2月末日より実施",
+          "tiers": [
+            {
+              "shares": "100株以上",
+              "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
+              "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+            },
+            {
+              "shares": "500株以上",
+              "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+              "note": ""
+            },
+            {
+              "shares": "1,000株以上",
+              "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+      "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+    }
   }
 }
