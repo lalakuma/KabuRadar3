@@ -48,6 +48,8 @@ def infer_exit_reason(
     rsi_hi: float,
     rsi_low: float = 10.0,
     ma5_exit: bool = False,
+    ma5_exit_mode: str = "offset",
+    ma5_offset_pct: float = -1.0,
     ma5_proximity_pct: float = 1.5,
 ) -> str:
     exit_close = float(exit_row["close"])
@@ -58,11 +60,26 @@ def infer_exit_reason(
     if hold_days >= sell_period:
         return "100日"
     if ma5_exit:
-        from kaburadar3.strategy.ma5 import high_near_ma5
+        from kaburadar3.strategy.ma5 import (
+            MA5_MODE_BAND,
+            MA5_MODE_OFFSET,
+            MA5_MODE_PULLBACK,
+            high_near_ma5,
+            high_reached_ma5_offset,
+            near_ma5,
+        )
 
         sma5 = float(exit_row.get("SMA5", 0) or 0)
         high = float(exit_row.get("high", exit_close) or exit_close)
-        if high_near_ma5(high, sma5, ma5_proximity_pct) and rsi4 <= rsi_hi:
+        low = float(exit_row.get("low", exit_close) or exit_close)
+        ma5_hit = False
+        if ma5_exit_mode == MA5_MODE_OFFSET:
+            ma5_hit = high_reached_ma5_offset(high, sma5, ma5_offset_pct)
+        elif ma5_exit_mode == MA5_MODE_BAND:
+            ma5_hit = high_near_ma5(high, sma5, ma5_proximity_pct)
+        elif ma5_exit_mode == MA5_MODE_PULLBACK:
+            ma5_hit = near_ma5(exit_close, low, sma5, ma5_proximity_pct)
+        if ma5_hit and rsi4 <= rsi_hi:
             return "MA5"
     if rsi4 > rsi_hi:
         return "RSI60"
@@ -93,6 +110,10 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
     )
     rsi_exit_low = recross_level if recross_on else rsi_low
     ma5_on = int(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_JDG_MA5_EXIT, default="0"))
+    ma5_mode = str(
+        conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_EXIT_MODE, default="offset")
+    ).strip().lower()
+    ma5_offset = float(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_OFFSET_PCT, default="-1.0"))
     ma5_proximity = float(
         conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_PROXIMITY_PCT, default="1.5")
     )
@@ -133,6 +154,8 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
                         rsi_hi=rsi_hi,
                         rsi_low=rsi_exit_low,
                         ma5_exit=bool(ma5_on),
+                        ma5_exit_mode=ma5_mode,
+                        ma5_offset_pct=ma5_offset,
                         ma5_proximity_pct=ma5_proximity,
                     ),
                 }

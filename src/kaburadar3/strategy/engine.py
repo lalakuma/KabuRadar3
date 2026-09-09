@@ -11,6 +11,7 @@ from kaburadar3.data import repository as db
 from kaburadar3.domain import constants as DEF
 from kaburadar3.settings import screening as conf
 from kaburadar3.strategy import ma5 as tc_ma5
+from kaburadar3.strategy.ma5 import MA5_MODE_BAND, MA5_MODE_OFFSET, MA5_MODE_PULLBACK
 from kaburadar3.strategy import rsi as tc_rsi
 from kaburadar3.strategy import rci as tc_rci
 from kaburadar3.strategy.models import CodePrice, Judge, KabInf, TradeInfo
@@ -190,18 +191,28 @@ def _rci_turn_up_min(jg: Judge, ti: TradeInfo, *, rsi_hit: bool) -> float:
     return jg.rci_turn_min
 
 
+def _ma5_exit_hit(cp, ti, jg, cnt_buyholddays: int) -> bool:
+    if not jg.jdg_ma5_exit or ti.sb_mode != DEF.MODE_BUY or cnt_buyholddays < jg.ma5_min_bars:
+        return False
+    mode = jg.ma5_exit_mode
+    if mode == MA5_MODE_OFFSET:
+        return tc_ma5.high_reached_ma5_offset(cp.i_high, cp.i_sma5, jg.ma5_offset_pct)
+    if mode == MA5_MODE_BAND:
+        return tc_ma5.high_near_ma5(cp.i_high, cp.i_sma5, jg.ma5_proximity_pct)
+    if mode == MA5_MODE_PULLBACK:
+        return ti.ma5_rally_seen and tc_ma5.near_ma5(
+            cp.i_close, cp.i_low, cp.i_sma5, jg.ma5_proximity_pct
+        )
+    return tc_ma5.high_reached_ma5_offset(cp.i_high, cp.i_sma5, jg.ma5_offset_pct)
+
+
 def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
     """買いポジションの決済判定。(決済するか, 決済価格)"""
     if jg.jdg_stop_loss and ti.buy_price > 0:
         pct = (cp.i_close - ti.buy_price) / ti.buy_price * 100.0
         if pct <= -jg.stop_loss_pct:
             return True, cp.i_close
-    if (
-        jg.jdg_ma5_exit
-        and ti.sb_mode == DEF.MODE_BUY
-        and cnt_buyholddays >= jg.ma5_min_bars
-        and tc_ma5.high_near_ma5(cp.i_high, cp.i_sma5, jg.ma5_proximity_pct)
-    ):
+    if _ma5_exit_hit(cp, ti, jg, cnt_buyholddays):
         in_profit = ti.buy_price > 0 and cp.i_close > ti.buy_price
         if not jg.ma5_profit_only or in_profit:
             return True, cp.i_close
@@ -298,6 +309,10 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
     if ti.buy_pos > 0:
         cnt_buyholddays += 1
         bkdf.loc[lastidx_bk, "mark"] = "継続"
+        if jg.ma5_exit_mode == MA5_MODE_PULLBACK and tc_ma5.rally_above_ma5(
+            cp.i_close, cp.i_sma5, jg.ma5_rally_pct
+        ):
+            ti.ma5_rally_seen = True
         if jg.rsi60_hold_rci_up and tc_rsi.jdg_rsi_shortkessai(
             ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low
         ):
@@ -319,6 +334,7 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
             ti.buy_price = 0
             ti.rsi60_reached = False
             ti.rsi10_reached = False
+            ti.ma5_rally_seen = False
             cnt_buyholddays = 0
             print(cp.code, ":", str(idx_date.date()), "返売", str(diff))
             if buygain > 0:
