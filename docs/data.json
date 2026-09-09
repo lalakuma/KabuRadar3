@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T06:27:36+09:00",
+  "generated_at": "2026-09-09T11:32:48+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -322,93 +322,9 @@
     }
   ],
   "today": {
-    "trade_date": "2026-09-08",
+    "trade_date": "2026-09-09",
     "new_buy": [],
-    "sellback": [
-      {
-        "code": "6141",
-        "name": "ＤＭＧ　森精機",
-        "mark": "返売",
-        "close": 2758,
-        "rsi": 20.61,
-        "rci": -81.67,
-        "rci_turn": false,
-        "quality": {
-          "code": "6141",
-          "stars": 4,
-          "background": "世界的な設備投資需要に対する警戒感や全体地合いの悪化、および直近の急伸に対する利益確定売りの先行が足元の株価調整につながっています。ただし、個別企業としての構造的な悪材料は確認されておらず、地合いやセクター全体の連れ安に伴う一時的な押し目形成の可能性が高いと判断されます。",
-          "risk_factors": [
-            "米欧景気減速や金利高止まりに伴うグローバル設備投資の停滞",
-            "想定以上の急速な円高進行による業績目減りリスク",
-            "月次工作機械受注の伸び悩みによるセクター全体の連れ安"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.dmgmori.co.jp/movie_library/movie/id=9446"
-          ],
-          "material_analysis": "直近で会社固有の悪材料は見当たらず、外部環境や市況要因に起因する一時的な調整の範囲内です。",
-          "fundamental_summary": "売上成長率25.2%、利益成長率83.8%と業績モメンタムはきわめて良好で、本業の稼ぐ力は堅調に維持されています。予想PERは約9.8倍、PBRは1.11倍とバリュエーション面での割安感が強く、アナリスト目標株価（3,035円）に対しても十分な上値余地が存在します。さらに、年間配当105円（配当利回り約3.59%）というインカムゲイン面での魅力や株主優待制度の存在が下値を強力にサポートする構造となっています。",
-          "technical_view": "終値2,784円は心理的節目である2,800円を割り込んだ水準ですが、過去の揉み合い域である2,700円台半ばのサポートラインおよび下方の主要移動平均線が下値支持として機能しやすい位置関係にあります。",
-          "watch_points": [
-            "2,700円〜2,750円の節目・サポートゾーンでの反発確認",
-            "工作機械受注統計における内需・外需の持ち直し傾向"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "annual_yen": 105,
-            "yield_pct": 3.59,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 2.15
-          },
-          "earnings": {
-            "announcement_date": "2026-10-30",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
-          },
-          "valuation": {
-            "sector": "Industrials",
-            "industry": "Specialty Industrial Machinery",
-            "per": 56.4,
-            "forward_per": 9.7,
-            "pbr": 1.1,
-            "psr": 0.68,
-            "market_cap_oku": 3892,
-            "price_yen": 2758,
-            "target_price_yen": 3328,
-            "target_upside_pct": 20.7,
-            "revenue_growth_pct": 25.2,
-            "earnings_growth_pct": 83.8,
-            "profit_margin_pct": 4.59,
-            "roe_pct": 2.71,
-            "debt_to_equity": 34.8
-          },
-          "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待",
-            "month": "12",
-            "yield_pct": "---、配当利回りは3.81",
-            "min_shares": 500,
-            "programs": [
-              {
-                "title": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）",
-                "tiers": [
-                  {
-                    "shares": "500株以上",
-                    "content": "【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
-            "text": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月\n【ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）】\n・500株以上: 【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      }
-    ],
+    "sellback": [],
     "new_buy_count": 0,
     "recommended": [],
     "pick_meta": {
@@ -420,6 +336,14 @@
   },
   "daily": {
     "days": [
+      {
+        "date": "2026-09-09",
+        "pnl": 0,
+        "new_buy_count": 0,
+        "sellback_count": 0,
+        "new_buy": [],
+        "sellback": []
+      },
       {
         "date": "2026-09-08",
         "pnl": -27300,
@@ -470,7 +394,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.23,
+                "yield_pct": 2.24,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 36.26
               },
@@ -483,14 +407,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 16.2,
-                "forward_per": 4.5,
-                "pbr": 0.33,
-                "psr": 0.63,
-                "market_cap_oku": 3604,
-                "price_yen": 1116,
+                "per": 16.0,
+                "forward_per": 4.4,
+                "pbr": 0.32,
+                "psr": 0.62,
+                "market_cap_oku": 3557,
+                "price_yen": 1102,
                 "target_price_yen": 1494,
-                "target_upside_pct": 33.9,
+                "target_upside_pct": 35.6,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -558,7 +482,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.55,
+                "yield_pct": 4.62,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 23.73
               },
@@ -574,12 +498,12 @@
                 "industry": "Real Estate Services",
                 "per": 6.6,
                 "forward_per": 6.2,
-                "pbr": 1.32,
-                "psr": 0.24,
-                "market_cap_oku": 1009,
-                "price_yen": 3250,
+                "pbr": 1.33,
+                "psr": 0.25,
+                "market_cap_oku": 1011,
+                "price_yen": 3255,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.8,
+                "target_upside_pct": 50.5,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -591,7 +515,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.62",
+                "yield_pct": "---、配当利回りは4.61",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -702,7 +626,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.08,
+                "yield_pct": 2.05,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 34.49
               },
@@ -714,14 +638,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.3,
+                "per": 16.1,
                 "forward_per": 3.7,
-                "pbr": 1.21,
+                "pbr": 1.2,
                 "psr": 0.58,
-                "market_cap_oku": 10607,
-                "price_yen": 2341,
+                "market_cap_oku": 10530,
+                "price_yen": 2324,
                 "target_price_yen": 2613,
-                "target_upside_pct": 11.6,
+                "target_upside_pct": 12.4,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -789,7 +713,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 85,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 82.3
               },
@@ -801,14 +725,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.8,
-                "forward_per": 14.2,
-                "pbr": 3.33,
+                "per": 34.0,
+                "forward_per": 14.3,
+                "pbr": 3.34,
                 "psr": 2.42,
-                "market_cap_oku": 1282,
-                "price_yen": 3340,
+                "market_cap_oku": 1286,
+                "price_yen": 3350,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.7,
+                "target_upside_pct": 61.2,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -1603,14 +1527,6 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-06-15",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
@@ -1648,7 +1564,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.23,
+                "yield_pct": 2.24,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 36.26
               },
@@ -1661,14 +1577,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 16.2,
-                "forward_per": 4.5,
-                "pbr": 0.33,
-                "psr": 0.63,
-                "market_cap_oku": 3604,
-                "price_yen": 1116,
+                "per": 16.0,
+                "forward_per": 4.4,
+                "pbr": 0.32,
+                "psr": 0.62,
+                "market_cap_oku": 3557,
+                "price_yen": 1102,
                 "target_price_yen": 1494,
-                "target_upside_pct": 33.9,
+                "target_upside_pct": 35.6,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1736,7 +1652,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.55,
+                "yield_pct": 4.62,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 23.73
               },
@@ -1752,12 +1668,12 @@
                 "industry": "Real Estate Services",
                 "per": 6.6,
                 "forward_per": 6.2,
-                "pbr": 1.32,
-                "psr": 0.24,
-                "market_cap_oku": 1009,
-                "price_yen": 3250,
+                "pbr": 1.33,
+                "psr": 0.25,
+                "market_cap_oku": 1011,
+                "price_yen": 3255,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.8,
+                "target_upside_pct": 50.5,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -1769,7 +1685,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.62",
+                "yield_pct": "---、配当利回りは4.61",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -1880,7 +1796,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.08,
+                "yield_pct": 2.05,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 34.49
               },
@@ -1892,14 +1808,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.3,
+                "per": 16.1,
                 "forward_per": 3.7,
-                "pbr": 1.21,
+                "pbr": 1.2,
                 "psr": 0.58,
-                "market_cap_oku": 10607,
-                "price_yen": 2341,
+                "market_cap_oku": 10530,
+                "price_yen": 2324,
                 "target_price_yen": 2613,
-                "target_upside_pct": 11.6,
+                "target_upside_pct": 12.4,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1967,7 +1883,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 85,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 82.3
               },
@@ -1979,14 +1895,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.8,
-                "forward_per": 14.2,
-                "pbr": 3.33,
+                "per": 34.0,
+                "forward_per": 14.3,
+                "pbr": 3.34,
                 "psr": 2.42,
-                "market_cap_oku": 1282,
-                "price_yen": 3340,
+                "market_cap_oku": 1286,
+                "price_yen": 3350,
                 "target_price_yen": 5400,
-                "target_upside_pct": 61.7,
+                "target_upside_pct": 61.2,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2359,7 +2275,7 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -2.25,
+    "market_return_20d": -2.82,
     "new_buy_count": 0,
     "exit_rsi": 70.0,
     "etf_rsi": {
@@ -2369,80 +2285,7 @@
     "active_rsi": 29.9,
     "signal": null
   },
-  "quality": {
-    "6141": {
-      "code": "6141",
-      "stars": 4,
-      "background": "世界的な設備投資需要に対する警戒感や全体地合いの悪化、および直近の急伸に対する利益確定売りの先行が足元の株価調整につながっています。ただし、個別企業としての構造的な悪材料は確認されておらず、地合いやセクター全体の連れ安に伴う一時的な押し目形成の可能性が高いと判断されます。",
-      "risk_factors": [
-        "米欧景気減速や金利高止まりに伴うグローバル設備投資の停滞",
-        "想定以上の急速な円高進行による業績目減りリスク",
-        "月次工作機械受注の伸び悩みによるセクター全体の連れ安"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://www.dmgmori.co.jp/movie_library/movie/id=9446"
-      ],
-      "material_analysis": "直近で会社固有の悪材料は見当たらず、外部環境や市況要因に起因する一時的な調整の範囲内です。",
-      "fundamental_summary": "売上成長率25.2%、利益成長率83.8%と業績モメンタムはきわめて良好で、本業の稼ぐ力は堅調に維持されています。予想PERは約9.8倍、PBRは1.11倍とバリュエーション面での割安感が強く、アナリスト目標株価（3,035円）に対しても十分な上値余地が存在します。さらに、年間配当105円（配当利回り約3.59%）というインカムゲイン面での魅力や株主優待制度の存在が下値を強力にサポートする構造となっています。",
-      "technical_view": "終値2,784円は心理的節目である2,800円を割り込んだ水準ですが、過去の揉み合い域である2,700円台半ばのサポートラインおよび下方の主要移動平均線が下値支持として機能しやすい位置関係にあります。",
-      "watch_points": [
-        "2,700円〜2,750円の節目・サポートゾーンでの反発確認",
-        "工作機械受注統計における内需・外需の持ち直し傾向"
-      ],
-      "valuation_view": "cheap",
-      "dividend": {
-        "annual_yen": 105,
-        "yield_pct": 3.59,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 2.15
-      },
-      "earnings": {
-        "announcement_date": "2026-10-30",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12
-      },
-      "valuation": {
-        "sector": "Industrials",
-        "industry": "Specialty Industrial Machinery",
-        "per": 56.4,
-        "forward_per": 9.7,
-        "pbr": 1.1,
-        "psr": 0.68,
-        "market_cap_oku": 3892,
-        "price_yen": 2758,
-        "target_price_yen": 3328,
-        "target_upside_pct": 20.7,
-        "revenue_growth_pct": 25.2,
-        "earnings_growth_pct": 83.8,
-        "profit_margin_pct": 4.59,
-        "roe_pct": 2.71,
-        "debt_to_equity": 34.8
-      },
-      "shareholder_benefit": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待",
-        "month": "12",
-        "yield_pct": "---、配当利回りは3.81",
-        "min_shares": 500,
-        "programs": [
-          {
-            "title": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）",
-            "tiers": [
-              {
-                "shares": "500株以上",
-                "content": "【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月。",
-        "text": "ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待。500株以上。権利確定12月\n【ジャパン・ナショナル・オーケストラ（JNO）コンサートご招待（長期保有者向け）】\n・500株以上: 【1年以上保有株主】 反田恭平プロデュースJapan National Orchestraのコンサートに招待。 対象の株主1名につき1枚もしくは2枚。 ※コンサートへの参加が難しい場合にはJNOのCDを送付。 ※開催日時等は企業HPにてご確認ください。 https://www.dmgmori.co.jp/movie_library/movie/id=9446"
-      }
-    }
-  },
+  "quality": {},
   "runtime": {
     "exit_strategy": {
       "profile": "profit"
