@@ -60,6 +60,8 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
         for col in numeric_cols:
             df[col] = df[col].astype("int64")
         df["SMA5"] = df["close"].rolling(window=5).mean()
+        # 決済は前日確定の5日線を使う（当日終値込みのSMA5はルックアヘッドになる）
+        df["SMA5_PREV"] = df["SMA5"].shift(1)
         df["SMA25"] = df["close"].rolling(window=25).mean()
     except Exception as e:
         print(f"Error details: {e}")
@@ -73,7 +75,9 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
         print("price over :" + str(price))
         return -1
 
-    df_price = df.set_index("datetime").loc[:, ["open", "high", "low", "close", "volume", "SMA5", "SMA25"]]
+    df_price = df.set_index("datetime").loc[
+        :, ["open", "high", "low", "close", "volume", "SMA5", "SMA5_PREV", "SMA25"]
+    ]
     df_price["mark"] = ""
     df_price["buy"] = 0
     df_price["buygain"] = 0
@@ -110,6 +114,7 @@ def backtst_proc(code, df_indicator, Prm, conn=None, cursor=None):
         cp.i_low = row.low
         cp.i_high = row.high
         cp.i_sma5 = row.SMA5
+        cp.i_sma5_prev = row.SMA5_PREV
         cp.i_presma25 = cp.i_sma25
         cp.i_sma25 = row.SMA25
 
@@ -191,19 +196,30 @@ def _rci_turn_up_min(jg: Judge, ti: TradeInfo, *, rsi_hit: bool) -> float:
     return jg.rci_turn_min
 
 
+def _ma5_ref(cp) -> float:
+    """決済判定に使う5日線（前日終値までで確定した値）."""
+    ref = cp.i_sma5_prev
+    if ref is None or (isinstance(ref, float) and numpy.isnan(ref)):
+        return 0.0
+    return float(ref)
+
+
 def _ma5_exit_hit(cp, ti, jg, cnt_buyholddays: int) -> bool:
     if not jg.jdg_ma5_exit or ti.sb_mode != DEF.MODE_BUY or cnt_buyholddays < jg.ma5_min_bars:
         return False
+    sma5 = _ma5_ref(cp)
+    if sma5 <= 0:
+        return False
     mode = jg.ma5_exit_mode
     if mode == MA5_MODE_OFFSET:
-        return tc_ma5.high_reached_ma5_offset(cp.i_high, cp.i_sma5, jg.ma5_offset_pct)
+        return tc_ma5.high_reached_ma5_offset(cp.i_high, sma5, jg.ma5_offset_pct)
     if mode == MA5_MODE_BAND:
-        return tc_ma5.high_near_ma5(cp.i_high, cp.i_sma5, jg.ma5_proximity_pct)
+        return tc_ma5.high_near_ma5(cp.i_high, sma5, jg.ma5_proximity_pct)
     if mode == MA5_MODE_PULLBACK:
         return ti.ma5_rally_seen and tc_ma5.near_ma5(
-            cp.i_close, cp.i_low, cp.i_sma5, jg.ma5_proximity_pct
+            cp.i_close, cp.i_low, sma5, jg.ma5_proximity_pct
         )
-    return tc_ma5.high_reached_ma5_offset(cp.i_high, cp.i_sma5, jg.ma5_offset_pct)
+    return tc_ma5.high_reached_ma5_offset(cp.i_high, sma5, jg.ma5_offset_pct)
 
 
 def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
@@ -310,7 +326,7 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
         cnt_buyholddays += 1
         bkdf.loc[lastidx_bk, "mark"] = "継続"
         if jg.ma5_exit_mode == MA5_MODE_PULLBACK and tc_ma5.rally_above_ma5(
-            cp.i_close, cp.i_sma5, jg.ma5_rally_pct
+            cp.i_close, _ma5_ref(cp), jg.ma5_rally_pct
         ):
             ti.ma5_rally_seen = True
         if jg.rsi60_hold_rci_up and tc_rsi.jdg_rsi_shortkessai(

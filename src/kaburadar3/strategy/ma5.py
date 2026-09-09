@@ -13,6 +13,7 @@ def high_reached_ma5_offset(high: float, sma5: float, offset_pct: float) -> bool
     """高値が5日線+offset%以上まで上がったか.
 
     offset=-1.0 なら高値 >= 5日線×0.99（5日線より1%下まで到達で利確）。
+    sma5 は前日終値までで確定した5日線（当日終値を含めない）を渡すこと。
     """
     if sma5 <= 0 or math.isnan(sma5) or math.isnan(high):
         return False

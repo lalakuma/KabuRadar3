@@ -75,6 +75,7 @@ class CodePrice:
     i_low = 0
     i_high = 0
     i_sma5 = 0
+    i_sma5_prev = 0  # 前日終値までで確定した5日線（決済判定用）
     i_sma25 = 0
     i_presma25 = 0
     plusgain = 0.0

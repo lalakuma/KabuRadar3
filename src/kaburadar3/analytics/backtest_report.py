@@ -69,7 +69,7 @@ def infer_exit_reason(
             near_ma5,
         )
 
-        sma5 = float(exit_row.get("SMA5", 0) or 0)
+        sma5 = float(exit_row.get("SMA5_PREV", exit_row.get("SMA5", 0)) or 0)
         high = float(exit_row.get("high", exit_close) or exit_close)
         low = float(exit_row.get("low", exit_close) or exit_close)
         ma5_hit = False
