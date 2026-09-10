@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:33:20+09:00",
+  "generated_at": "2026-09-10T15:04:33+09:00",
   "mode": "LO",
   "summary": {
     "pf": 2.238,
@@ -7,8 +7,8 @@
     "losses": 3,
     "win_rate": 90.0,
     "total_income": 34000,
-    "symbol_count": 31,
-    "neutral_count": 5,
+    "symbol_count": 32,
+    "neutral_count": 6,
     "source_file": "Y0_PF2.238_W27L3_rate90.00_all34000.csv"
   },
   "symbols": [
@@ -310,6 +310,17 @@
       "minus_gain": 0
     },
     {
+      "code": "7272",
+      "name": "ヤマハ発動機",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "8570",
       "name": "イオンフィナンシャルサービス",
       "industry": "nan",
@@ -358,11 +369,75 @@
     "trade_date": "2026-09-10",
     "new_buy": [
       {
+        "code": "4516",
+        "name": "日本新薬",
+        "mark": "新買",
+        "close": 3364,
+        "rsi": 7.51,
+        "rci": -95.0,
+        "rci_turn": true,
+        "quality": {
+          "code": "4516",
+          "stars": 4,
+          "background": "海外提携先であるCapricor Therapeutics社とのデュシェンヌ型筋ジストロフィー（DMD）治療薬に関するライセンス契約の裁判・法的不透明感が嫌気され、株価の押し下げ要因となっています。また医薬品セクター全般の地合い軟調も重なり軟調な展開が続いています。しかし、同社自体の業績は堅調であり、過剰な警戒感による売られ過ぎの局面と考えられます。",
+          "risk_factors": [
+            "Capricor社とのライセンス契約に関する法的争議の長期化または不利な結果",
+            "他社DMD治療薬パイプラインの競合台頭による市場シェア懸念",
+            "国内薬価改定による収益圧迫リスク"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://stocktwits.com/news-articles/markets/equity/capricor-legal-dispute-hearing-today-on-dmd-capr-stock-rises/cZK0C3qR7Iv",
+            "https://finance.yahoo.com/news/capricor-lawsuit-puts-duchenne-therapy-121804218.html",
+            "https://finance.yahoo.com/news/nippon-shinyaku-tse-4516-exploring-031347202.html"
+          ],
+          "material_analysis": "Capricor社との法的争議ニュースが心理的重しとなっていますが、本業の業績拡大トレンドを損なうものではなく悪材料の織り込みはかなり進んでいます。",
+          "fundamental_summary": "売上成長率24.1%、利益成長率22.4%と業績は非常に力強い拡大基調にあります。ROEは11.53%、営業利益率も17.51%と高い収益性を誇っています。バリュエーション面では予想PER8.2倍、PBR0.77倍と解散価値を下回る極めて割安な水準に放置されています。年間配当124円（利回り約3.69%）、配当性向28.12%と株主還元と財務健全性のバランスも良好であり、アナリスト目標株価（3,694円）に向けた見直し買いが期待できます。",
+          "technical_view": "3,300円台前半の心理的節目兼過去のサポートゾーンまで調整が進んでおり、上値は3,500円前後の移動平均線レベルが抵抗線として意識されます。",
+          "watch_points": [
+            "Capricor社との聴聞会・裁判手続きの進展と公式アナウンス",
+            "主力商品（ビルテプソ等）のグローバル販売進捗状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 124,
+            "yield_pct": 3.69,
+            "ex_date": "2026-09-29",
+            "payout_ratio_pct": 28.12
+          },
+          "earnings": {
+            "announcement_date": "2026-11-13",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - Specialty & Generic",
+            "per": 7.6,
+            "forward_per": 8.2,
+            "pbr": 0.77,
+            "psr": 1.26,
+            "market_cap_oku": 2267,
+            "price_yen": 3364,
+            "target_price_yen": 3694,
+            "target_upside_pct": 9.8,
+            "revenue_growth_pct": 24.1,
+            "earnings_growth_pct": 22.4,
+            "profit_margin_pct": 17.51,
+            "roe_pct": 11.53,
+            "debt_to_equity": 0.9
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": true,
+        "rci_ok": true
+      },
+      {
         "code": "4722",
         "name": "フューチャーアーキテクト",
         "mark": "新買",
-        "close": 2424,
-        "rsi": 14.47,
+        "close": 2423,
+        "rsi": 10.56,
         "rci": -88.33,
         "rci_turn": true,
         "quality": {
@@ -405,8 +480,8 @@
             "forward_per": 18.1,
             "pbr": 3.24,
             "psr": 2.73,
-            "market_cap_oku": 2150,
-            "price_yen": 2424,
+            "market_cap_oku": 2149,
+            "price_yen": 2423,
             "target_price_yen": 2467,
             "target_upside_pct": 1.8,
             "revenue_growth_pct": 9.5,
@@ -421,12 +496,113 @@
         "rci_ok": true
       },
       {
+        "code": "7272",
+        "name": "ヤマハ発動機",
+        "mark": "新買",
+        "close": 1755,
+        "rsi": 20.51,
+        "rci": -90.0,
+        "rci_turn": true,
+        "quality": {
+          "code": "7272",
+          "stars": 4,
+          "background": "直近発表された上半期決算において過去最高業績を記録し、一時株価が13%以上急落後の急騰を見せるなど非常に力強いファンダメンタルズが確認されています。しかし、その後の全体相場の乱高下や短期的な利益確定売りに押され、過熱感を冷ます形で一時的な調整安に晒されています。構造的な悪材料による下落ではなく、好決算後の短期資金の利確や地合い悪化に伴う過渡的な押し目形成と判断されます。",
+          "risk_factors": [
+            "為替市場における急速な円高進行による業績下振れリスク",
+            "株式市場全体の急激なリスクオフに伴う連れ安",
+            "欧米・欧州市場における景気減速によるレジャー・マリン製品需要の鈍化"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://beincrypto.com/yamaha-shares-surge-record-results-japan-crisis/",
+            "https://sg.finance.yahoo.com/news/yamaha-backed-indian-ev-startup-110656003.html",
+            "https://finance.yahoo.com/markets/stocks/articles/yamaha-motor-co-ymhay-upgraded-160004863.html"
+          ],
+          "material_analysis": "インドの出資先EVスタートアップRiverの1.2億ドル資金調達成功や米大手投資会社による格上げなど成長戦略面の好材料が続いています。過去最高益を記録した上半期決算の材料出尽くし感による売りは一巡しつつあります。",
+          "fundamental_summary": "実績PERは約7.9倍、予想PERは約9.3倍と自動車・二輪セクター内でも強い割安感を示しています。売上高成長率は17.8%と拡大傾向にあり、営業利益率も着実に維持されています。配当利回りは約2.87%で配当性向15.67%と株主還元面の安全域が高く、12月権利確定の優待制度も下支え要因となります。次回決算発表は11月上旬予定と時間的余裕があり、短期トレードにおいて決算リスクを気にせずエントリーできる良好なファンダメンタルズ環境です。",
+          "technical_view": "急騰後の調整により1,755円まで押したことで、直前の急騰起点や1,700円の心理的節目が強力な下値支持帯として機能する位置まで低下しています。上値の節目としては直近高値圏である1,900円〜2,000円ラインが主要な抵抗帯として意識されます。",
+          "watch_points": [
+            "1,700円水準の節目における下値支持の固さと反発出来高の増加",
+            "為替レート（ドル/円、ユーロ/円）の推移と海外二輪市場の販売動向"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 50,
+            "yield_pct": 2.87,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 15.67
+          },
+          "earnings": {
+            "announcement_date": "2026-11-05",
+            "fiscal_year_end": "2026-12-31",
+            "fiscal_month": 12,
+            "is_estimate": true
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Manufacturers",
+            "per": 7.9,
+            "forward_per": 9.3,
+            "pbr": 1.36,
+            "psr": 0.62,
+            "market_cap_oku": 17056,
+            "price_yen": 1757,
+            "target_price_yen": 1695,
+            "target_upside_pct": -3.5,
+            "revenue_growth_pct": 17.8,
+            "earnings_growth_pct": 2.24,
+            "profit_margin_pct": 2.79,
+            "roe_pct": 7.72,
+            "debt_to_equity": 79.6
+          },
+          "shareholder_benefit": "株主優待ポイント。100株以上。権利確定12月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "株主優待ポイント",
+            "month": "12",
+            "yield_pct": "---、配当利回りは2.85",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "株主優待ポイント（長期保有向け）",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント",
+                    "note": "※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上"
+                  },
+                  {
+                    "shares": "300株以上",
+                    "content": "【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "3,000株以上",
+                    "content": "【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "株主優待ポイント。100株以上。権利確定12月。",
+            "text": "株主優待ポイント。100株以上。権利確定12月\n【株主優待ポイント（長期保有向け）】\n・100株以上: 【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント（※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上）\n・300株以上: 【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント\n・1,000株以上: 【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント\n・3,000株以上: 【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
         "code": "8570",
         "name": "イオンフィナンシャルサービス",
         "mark": "新買",
-        "close": 1609,
-        "rsi": 37.64,
-        "rci": -93.33,
+        "close": 1632,
+        "rsi": 57.12,
+        "rci": -73.33,
         "rci_turn": true,
         "quality": {
           "code": "8570",
@@ -463,14 +639,14 @@
           "valuation": {
             "sector": "Financial Services",
             "industry": "Credit Services",
-            "per": 16.5,
-            "forward_per": 12.1,
-            "pbr": 0.73,
-            "psr": 0.68,
-            "market_cap_oku": 3478,
-            "price_yen": 1611,
+            "per": 16.7,
+            "forward_per": 12.2,
+            "pbr": 0.74,
+            "psr": 0.69,
+            "market_cap_oku": 3526,
+            "price_yen": 1634,
             "target_price_yen": 1472,
-            "target_upside_pct": -8.6,
+            "target_upside_pct": -9.9,
             "revenue_growth_pct": 9.9,
             "earnings_growth_pct": 15.3,
             "profit_margin_pct": 4.13,
@@ -483,14 +659,79 @@
       }
     ],
     "sellback": [],
-    "new_buy_count": 2,
+    "new_buy_count": 4,
     "recommended": [
+      {
+        "code": "4516",
+        "name": "日本新薬",
+        "mark": "新買",
+        "close": 3364,
+        "rsi": 7.51,
+        "rci": -95.0,
+        "rci_turn": true,
+        "quality": {
+          "code": "4516",
+          "stars": 4,
+          "background": "海外提携先であるCapricor Therapeutics社とのデュシェンヌ型筋ジストロフィー（DMD）治療薬に関するライセンス契約の裁判・法的不透明感が嫌気され、株価の押し下げ要因となっています。また医薬品セクター全般の地合い軟調も重なり軟調な展開が続いています。しかし、同社自体の業績は堅調であり、過剰な警戒感による売られ過ぎの局面と考えられます。",
+          "risk_factors": [
+            "Capricor社とのライセンス契約に関する法的争議の長期化または不利な結果",
+            "他社DMD治療薬パイプラインの競合台頭による市場シェア懸念",
+            "国内薬価改定による収益圧迫リスク"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://stocktwits.com/news-articles/markets/equity/capricor-legal-dispute-hearing-today-on-dmd-capr-stock-rises/cZK0C3qR7Iv",
+            "https://finance.yahoo.com/news/capricor-lawsuit-puts-duchenne-therapy-121804218.html",
+            "https://finance.yahoo.com/news/nippon-shinyaku-tse-4516-exploring-031347202.html"
+          ],
+          "material_analysis": "Capricor社との法的争議ニュースが心理的重しとなっていますが、本業の業績拡大トレンドを損なうものではなく悪材料の織り込みはかなり進んでいます。",
+          "fundamental_summary": "売上成長率24.1%、利益成長率22.4%と業績は非常に力強い拡大基調にあります。ROEは11.53%、営業利益率も17.51%と高い収益性を誇っています。バリュエーション面では予想PER8.2倍、PBR0.77倍と解散価値を下回る極めて割安な水準に放置されています。年間配当124円（利回り約3.69%）、配当性向28.12%と株主還元と財務健全性のバランスも良好であり、アナリスト目標株価（3,694円）に向けた見直し買いが期待できます。",
+          "technical_view": "3,300円台前半の心理的節目兼過去のサポートゾーンまで調整が進んでおり、上値は3,500円前後の移動平均線レベルが抵抗線として意識されます。",
+          "watch_points": [
+            "Capricor社との聴聞会・裁判手続きの進展と公式アナウンス",
+            "主力商品（ビルテプソ等）のグローバル販売進捗状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 124,
+            "yield_pct": 3.69,
+            "ex_date": "2026-09-29",
+            "payout_ratio_pct": 28.12
+          },
+          "earnings": {
+            "announcement_date": "2026-11-13",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Healthcare",
+            "industry": "Drug Manufacturers - Specialty & Generic",
+            "per": 7.6,
+            "forward_per": 8.2,
+            "pbr": 0.77,
+            "psr": 1.26,
+            "market_cap_oku": 2267,
+            "price_yen": 3364,
+            "target_price_yen": 3694,
+            "target_upside_pct": 9.8,
+            "revenue_growth_pct": 24.1,
+            "earnings_growth_pct": 22.4,
+            "profit_margin_pct": 17.51,
+            "roe_pct": 11.53,
+            "debt_to_equity": 0.9
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": true,
+        "rci_ok": true,
+        "recommended": true
+      },
       {
         "code": "4722",
         "name": "フューチャーアーキテクト",
         "mark": "新買",
-        "close": 2424,
-        "rsi": 14.47,
+        "close": 2423,
+        "rsi": 10.56,
         "rci": -88.33,
         "rci_turn": true,
         "quality": {
@@ -533,8 +774,8 @@
             "forward_per": 18.1,
             "pbr": 3.24,
             "psr": 2.73,
-            "market_cap_oku": 2150,
-            "price_yen": 2424,
+            "market_cap_oku": 2149,
+            "price_yen": 2423,
             "target_price_yen": 2467,
             "target_upside_pct": 1.8,
             "revenue_growth_pct": 9.5,
@@ -542,68 +783,6 @@
             "profit_margin_pct": 15.64,
             "roe_pct": 19.64,
             "debt_to_equity": 20.4
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": true,
-        "recommended": true
-      },
-      {
-        "code": "8570",
-        "name": "イオンフィナンシャルサービス",
-        "mark": "新買",
-        "close": 1609,
-        "rsi": 37.64,
-        "rci": -93.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "8570",
-          "stars": 4,
-          "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
-          "risk_factors": [
-            "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
-            "国内イオングループの営業動向や個人消費の落ち込み",
-            "アナリスト平均目標株価（1,472円）までの調整リスク"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
-          ],
-          "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
-          "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
-          "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
-          "watch_points": [
-            "1,600円の主要節目ラインを終値ベースで維持できるか",
-            "カード取扱高の伸びと与信コストのコントロール状況"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "annual_yen": 53,
-            "yield_pct": 3.33,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 54.25
-          },
-          "earnings": {
-            "announcement_date": "2026-10-09",
-            "fiscal_year_end": "2027-02-28",
-            "fiscal_month": 2
-          },
-          "valuation": {
-            "sector": "Financial Services",
-            "industry": "Credit Services",
-            "per": 16.5,
-            "forward_per": 12.1,
-            "pbr": 0.73,
-            "psr": 0.68,
-            "market_cap_oku": 3478,
-            "price_yen": 1611,
-            "target_price_yen": 1472,
-            "target_upside_pct": -8.6,
-            "revenue_growth_pct": 9.9,
-            "earnings_growth_pct": 15.3,
-            "profit_margin_pct": 4.13,
-            "roe_pct": 6.05
           },
           "shareholder_benefit": "なし"
         },
@@ -624,14 +803,73 @@
       {
         "date": "2026-09-10",
         "pnl": 0,
-        "new_buy_count": 2,
+        "new_buy_count": 4,
         "sellback_count": 0,
         "new_buy": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "新買",
+            "close": 3364,
+            "quality": {
+              "code": "4516",
+              "stars": 4,
+              "background": "海外提携先であるCapricor Therapeutics社とのデュシェンヌ型筋ジストロフィー（DMD）治療薬に関するライセンス契約の裁判・法的不透明感が嫌気され、株価の押し下げ要因となっています。また医薬品セクター全般の地合い軟調も重なり軟調な展開が続いています。しかし、同社自体の業績は堅調であり、過剰な警戒感による売られ過ぎの局面と考えられます。",
+              "risk_factors": [
+                "Capricor社とのライセンス契約に関する法的争議の長期化または不利な結果",
+                "他社DMD治療薬パイプラインの競合台頭による市場シェア懸念",
+                "国内薬価改定による収益圧迫リスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://stocktwits.com/news-articles/markets/equity/capricor-legal-dispute-hearing-today-on-dmd-capr-stock-rises/cZK0C3qR7Iv",
+                "https://finance.yahoo.com/news/capricor-lawsuit-puts-duchenne-therapy-121804218.html",
+                "https://finance.yahoo.com/news/nippon-shinyaku-tse-4516-exploring-031347202.html"
+              ],
+              "material_analysis": "Capricor社との法的争議ニュースが心理的重しとなっていますが、本業の業績拡大トレンドを損なうものではなく悪材料の織り込みはかなり進んでいます。",
+              "fundamental_summary": "売上成長率24.1%、利益成長率22.4%と業績は非常に力強い拡大基調にあります。ROEは11.53%、営業利益率も17.51%と高い収益性を誇っています。バリュエーション面では予想PER8.2倍、PBR0.77倍と解散価値を下回る極めて割安な水準に放置されています。年間配当124円（利回り約3.69%）、配当性向28.12%と株主還元と財務健全性のバランスも良好であり、アナリスト目標株価（3,694円）に向けた見直し買いが期待できます。",
+              "technical_view": "3,300円台前半の心理的節目兼過去のサポートゾーンまで調整が進んでおり、上値は3,500円前後の移動平均線レベルが抵抗線として意識されます。",
+              "watch_points": [
+                "Capricor社との聴聞会・裁判手続きの進展と公式アナウンス",
+                "主力商品（ビルテプソ等）のグローバル販売進捗状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 124,
+                "yield_pct": 3.69,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 28.12
+              },
+              "earnings": {
+                "announcement_date": "2026-11-13",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Drug Manufacturers - Specialty & Generic",
+                "per": 7.6,
+                "forward_per": 8.2,
+                "pbr": 0.77,
+                "psr": 1.26,
+                "market_cap_oku": 2268,
+                "price_yen": 3365,
+                "target_price_yen": 3694,
+                "target_upside_pct": 9.8,
+                "revenue_growth_pct": 24.1,
+                "earnings_growth_pct": 22.4,
+                "profit_margin_pct": 17.51,
+                "roe_pct": 11.53,
+                "debt_to_equity": 0.9
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
           {
             "code": "4722",
             "name": "フューチャーアーキテクト",
             "mark": "新買",
-            "close": 2424,
+            "close": 2423,
             "quality": {
               "code": "4722",
               "stars": 4,
@@ -672,8 +910,8 @@
                 "forward_per": 18.1,
                 "pbr": 3.24,
                 "psr": 2.73,
-                "market_cap_oku": 2150,
-                "price_yen": 2424,
+                "market_cap_oku": 2149,
+                "price_yen": 2423,
                 "target_price_yen": 2467,
                 "target_upside_pct": 1.8,
                 "revenue_growth_pct": 9.5,
@@ -686,10 +924,106 @@
             }
           },
           {
+            "code": "7272",
+            "name": "ヤマハ発動機",
+            "mark": "新買",
+            "close": 1755,
+            "quality": {
+              "code": "7272",
+              "stars": 4,
+              "background": "直近発表された上半期決算において過去最高業績を記録し、一時株価が13%以上急落後の急騰を見せるなど非常に力強いファンダメンタルズが確認されています。しかし、その後の全体相場の乱高下や短期的な利益確定売りに押され、過熱感を冷ます形で一時的な調整安に晒されています。構造的な悪材料による下落ではなく、好決算後の短期資金の利確や地合い悪化に伴う過渡的な押し目形成と判断されます。",
+              "risk_factors": [
+                "為替市場における急速な円高進行による業績下振れリスク",
+                "株式市場全体の急激なリスクオフに伴う連れ安",
+                "欧米・欧州市場における景気減速によるレジャー・マリン製品需要の鈍化"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://beincrypto.com/yamaha-shares-surge-record-results-japan-crisis/",
+                "https://sg.finance.yahoo.com/news/yamaha-backed-indian-ev-startup-110656003.html",
+                "https://finance.yahoo.com/markets/stocks/articles/yamaha-motor-co-ymhay-upgraded-160004863.html"
+              ],
+              "material_analysis": "インドの出資先EVスタートアップRiverの1.2億ドル資金調達成功や米大手投資会社による格上げなど成長戦略面の好材料が続いています。過去最高益を記録した上半期決算の材料出尽くし感による売りは一巡しつつあります。",
+              "fundamental_summary": "実績PERは約7.9倍、予想PERは約9.3倍と自動車・二輪セクター内でも強い割安感を示しています。売上高成長率は17.8%と拡大傾向にあり、営業利益率も着実に維持されています。配当利回りは約2.87%で配当性向15.67%と株主還元面の安全域が高く、12月権利確定の優待制度も下支え要因となります。次回決算発表は11月上旬予定と時間的余裕があり、短期トレードにおいて決算リスクを気にせずエントリーできる良好なファンダメンタルズ環境です。",
+              "technical_view": "急騰後の調整により1,755円まで押したことで、直前の急騰起点や1,700円の心理的節目が強力な下値支持帯として機能する位置まで低下しています。上値の節目としては直近高値圏である1,900円〜2,000円ラインが主要な抵抗帯として意識されます。",
+              "watch_points": [
+                "1,700円水準の節目における下値支持の固さと反発出来高の増加",
+                "為替レート（ドル/円、ユーロ/円）の推移と海外二輪市場の販売動向"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 50,
+                "yield_pct": 2.87,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 15.67
+              },
+              "earnings": {
+                "announcement_date": "2026-11-05",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Manufacturers",
+                "per": 7.9,
+                "forward_per": 9.3,
+                "pbr": 1.36,
+                "psr": 0.62,
+                "market_cap_oku": 17061,
+                "price_yen": 1758,
+                "target_price_yen": 1695,
+                "target_upside_pct": -3.6,
+                "revenue_growth_pct": 17.8,
+                "earnings_growth_pct": 2.24,
+                "profit_margin_pct": 2.79,
+                "roe_pct": 7.72,
+                "debt_to_equity": 79.6
+              },
+              "shareholder_benefit": "株主優待ポイント。100株以上。権利確定12月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主優待ポイント",
+                "month": "12",
+                "yield_pct": "---、配当利回りは2.85",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待ポイント（長期保有向け）",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント",
+                        "note": "※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上"
+                      },
+                      {
+                        "shares": "300株以上",
+                        "content": "【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "3,000株以上",
+                        "content": "【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主優待ポイント。100株以上。権利確定12月。",
+                "text": "株主優待ポイント。100株以上。権利確定12月\n【株主優待ポイント（長期保有向け）】\n・100株以上: 【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント（※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上）\n・300株以上: 【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント\n・1,000株以上: 【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント\n・3,000株以上: 【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント"
+              }
+            }
+          },
+          {
             "code": "8570",
             "name": "イオンフィナンシャルサービス",
             "mark": "新買",
-            "close": 1609,
+            "close": 1632,
             "quality": {
               "code": "8570",
               "stars": 4,
@@ -725,14 +1059,14 @@
               "valuation": {
                 "sector": "Financial Services",
                 "industry": "Credit Services",
-                "per": 16.5,
-                "forward_per": 12.1,
-                "pbr": 0.73,
-                "psr": 0.68,
-                "market_cap_oku": 3479,
-                "price_yen": 1612,
+                "per": 16.7,
+                "forward_per": 12.2,
+                "pbr": 0.74,
+                "psr": 0.69,
+                "market_cap_oku": 3526,
+                "price_yen": 1634,
                 "target_price_yen": 1472,
-                "target_upside_pct": -8.7,
+                "target_upside_pct": -9.9,
                 "revenue_growth_pct": 9.9,
                 "earnings_growth_pct": 15.3,
                 "profit_margin_pct": 4.13,
@@ -784,12 +1118,12 @@
                 "industry": "Apparel Manufacturing",
                 "per": 15.6,
                 "forward_per": 10.6,
-                "pbr": 1.78,
+                "pbr": 1.79,
                 "psr": 0.48,
-                "market_cap_oku": 1481,
-                "price_yen": 3210,
+                "market_cap_oku": 1485,
+                "price_yen": 3220,
                 "target_price_yen": 3490,
-                "target_upside_pct": 8.7,
+                "target_upside_pct": 8.4,
                 "revenue_growth_pct": 3.7,
                 "earnings_growth_pct": -10.5,
                 "profit_margin_pct": 2.94,
@@ -894,14 +1228,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.8,
+                "per": 15.7,
                 "forward_per": 4.4,
                 "pbr": 0.32,
                 "psr": 0.61,
-                "market_cap_oku": 3527,
-                "price_yen": 1092,
+                "market_cap_oku": 3497,
+                "price_yen": 1084,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.8,
+                "target_upside_pct": 37.8,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1160,14 +1494,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 15.9,
+                "per": 15.8,
                 "forward_per": 3.7,
-                "pbr": 1.19,
+                "pbr": 1.18,
                 "psr": 0.57,
-                "market_cap_oku": 10396,
-                "price_yen": 2294,
+                "market_cap_oku": 10346,
+                "price_yen": 2284,
                 "target_price_yen": 2669,
-                "target_upside_pct": 16.3,
+                "target_upside_pct": 16.9,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1247,14 +1581,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 33.6,
-                "forward_per": 14.1,
-                "pbr": 3.3,
-                "psr": 2.4,
-                "market_cap_oku": 1271,
-                "price_yen": 3310,
+                "per": 34.1,
+                "forward_per": 14.3,
+                "pbr": 3.34,
+                "psr": 2.43,
+                "market_cap_oku": 1288,
+                "price_yen": 3355,
                 "target_price_yen": 5400,
-                "target_upside_pct": 63.1,
+                "target_upside_pct": 61.0,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2075,14 +2409,73 @@
       {
         "date": "2026-09-10",
         "pnl": 0,
-        "new_buy_count": 2,
+        "new_buy_count": 4,
         "sellback_count": 0,
         "new_buy": [
+          {
+            "code": "4516",
+            "name": "日本新薬",
+            "mark": "新買",
+            "close": 3364,
+            "quality": {
+              "code": "4516",
+              "stars": 4,
+              "background": "海外提携先であるCapricor Therapeutics社とのデュシェンヌ型筋ジストロフィー（DMD）治療薬に関するライセンス契約の裁判・法的不透明感が嫌気され、株価の押し下げ要因となっています。また医薬品セクター全般の地合い軟調も重なり軟調な展開が続いています。しかし、同社自体の業績は堅調であり、過剰な警戒感による売られ過ぎの局面と考えられます。",
+              "risk_factors": [
+                "Capricor社とのライセンス契約に関する法的争議の長期化または不利な結果",
+                "他社DMD治療薬パイプラインの競合台頭による市場シェア懸念",
+                "国内薬価改定による収益圧迫リスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://stocktwits.com/news-articles/markets/equity/capricor-legal-dispute-hearing-today-on-dmd-capr-stock-rises/cZK0C3qR7Iv",
+                "https://finance.yahoo.com/news/capricor-lawsuit-puts-duchenne-therapy-121804218.html",
+                "https://finance.yahoo.com/news/nippon-shinyaku-tse-4516-exploring-031347202.html"
+              ],
+              "material_analysis": "Capricor社との法的争議ニュースが心理的重しとなっていますが、本業の業績拡大トレンドを損なうものではなく悪材料の織り込みはかなり進んでいます。",
+              "fundamental_summary": "売上成長率24.1%、利益成長率22.4%と業績は非常に力強い拡大基調にあります。ROEは11.53%、営業利益率も17.51%と高い収益性を誇っています。バリュエーション面では予想PER8.2倍、PBR0.77倍と解散価値を下回る極めて割安な水準に放置されています。年間配当124円（利回り約3.69%）、配当性向28.12%と株主還元と財務健全性のバランスも良好であり、アナリスト目標株価（3,694円）に向けた見直し買いが期待できます。",
+              "technical_view": "3,300円台前半の心理的節目兼過去のサポートゾーンまで調整が進んでおり、上値は3,500円前後の移動平均線レベルが抵抗線として意識されます。",
+              "watch_points": [
+                "Capricor社との聴聞会・裁判手続きの進展と公式アナウンス",
+                "主力商品（ビルテプソ等）のグローバル販売進捗状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 124,
+                "yield_pct": 3.69,
+                "ex_date": "2026-09-29",
+                "payout_ratio_pct": 28.12
+              },
+              "earnings": {
+                "announcement_date": "2026-11-13",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Drug Manufacturers - Specialty & Generic",
+                "per": 7.6,
+                "forward_per": 8.2,
+                "pbr": 0.77,
+                "psr": 1.26,
+                "market_cap_oku": 2268,
+                "price_yen": 3365,
+                "target_price_yen": 3694,
+                "target_upside_pct": 9.8,
+                "revenue_growth_pct": 24.1,
+                "earnings_growth_pct": 22.4,
+                "profit_margin_pct": 17.51,
+                "roe_pct": 11.53,
+                "debt_to_equity": 0.9
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
           {
             "code": "4722",
             "name": "フューチャーアーキテクト",
             "mark": "新買",
-            "close": 2424,
+            "close": 2423,
             "quality": {
               "code": "4722",
               "stars": 4,
@@ -2123,8 +2516,8 @@
                 "forward_per": 18.1,
                 "pbr": 3.24,
                 "psr": 2.73,
-                "market_cap_oku": 2150,
-                "price_yen": 2424,
+                "market_cap_oku": 2149,
+                "price_yen": 2423,
                 "target_price_yen": 2467,
                 "target_upside_pct": 1.8,
                 "revenue_growth_pct": 9.5,
@@ -2137,10 +2530,106 @@
             }
           },
           {
+            "code": "7272",
+            "name": "ヤマハ発動機",
+            "mark": "新買",
+            "close": 1755,
+            "quality": {
+              "code": "7272",
+              "stars": 4,
+              "background": "直近発表された上半期決算において過去最高業績を記録し、一時株価が13%以上急落後の急騰を見せるなど非常に力強いファンダメンタルズが確認されています。しかし、その後の全体相場の乱高下や短期的な利益確定売りに押され、過熱感を冷ます形で一時的な調整安に晒されています。構造的な悪材料による下落ではなく、好決算後の短期資金の利確や地合い悪化に伴う過渡的な押し目形成と判断されます。",
+              "risk_factors": [
+                "為替市場における急速な円高進行による業績下振れリスク",
+                "株式市場全体の急激なリスクオフに伴う連れ安",
+                "欧米・欧州市場における景気減速によるレジャー・マリン製品需要の鈍化"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://beincrypto.com/yamaha-shares-surge-record-results-japan-crisis/",
+                "https://sg.finance.yahoo.com/news/yamaha-backed-indian-ev-startup-110656003.html",
+                "https://finance.yahoo.com/markets/stocks/articles/yamaha-motor-co-ymhay-upgraded-160004863.html"
+              ],
+              "material_analysis": "インドの出資先EVスタートアップRiverの1.2億ドル資金調達成功や米大手投資会社による格上げなど成長戦略面の好材料が続いています。過去最高益を記録した上半期決算の材料出尽くし感による売りは一巡しつつあります。",
+              "fundamental_summary": "実績PERは約7.9倍、予想PERは約9.3倍と自動車・二輪セクター内でも強い割安感を示しています。売上高成長率は17.8%と拡大傾向にあり、営業利益率も着実に維持されています。配当利回りは約2.87%で配当性向15.67%と株主還元面の安全域が高く、12月権利確定の優待制度も下支え要因となります。次回決算発表は11月上旬予定と時間的余裕があり、短期トレードにおいて決算リスクを気にせずエントリーできる良好なファンダメンタルズ環境です。",
+              "technical_view": "急騰後の調整により1,755円まで押したことで、直前の急騰起点や1,700円の心理的節目が強力な下値支持帯として機能する位置まで低下しています。上値の節目としては直近高値圏である1,900円〜2,000円ラインが主要な抵抗帯として意識されます。",
+              "watch_points": [
+                "1,700円水準の節目における下値支持の固さと反発出来高の増加",
+                "為替レート（ドル/円、ユーロ/円）の推移と海外二輪市場の販売動向"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 50,
+                "yield_pct": 2.87,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 15.67
+              },
+              "earnings": {
+                "announcement_date": "2026-11-05",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Manufacturers",
+                "per": 7.9,
+                "forward_per": 9.3,
+                "pbr": 1.36,
+                "psr": 0.62,
+                "market_cap_oku": 17061,
+                "price_yen": 1758,
+                "target_price_yen": 1695,
+                "target_upside_pct": -3.6,
+                "revenue_growth_pct": 17.8,
+                "earnings_growth_pct": 2.24,
+                "profit_margin_pct": 2.79,
+                "roe_pct": 7.72,
+                "debt_to_equity": 79.6
+              },
+              "shareholder_benefit": "株主優待ポイント。100株以上。権利確定12月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主優待ポイント",
+                "month": "12",
+                "yield_pct": "---、配当利回りは2.85",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待ポイント（長期保有向け）",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント",
+                        "note": "※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上"
+                      },
+                      {
+                        "shares": "300株以上",
+                        "content": "【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "3,000株以上",
+                        "content": "【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主優待ポイント。100株以上。権利確定12月。",
+                "text": "株主優待ポイント。100株以上。権利確定12月\n【株主優待ポイント（長期保有向け）】\n・100株以上: 【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント（※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上）\n・300株以上: 【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント\n・1,000株以上: 【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント\n・3,000株以上: 【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント"
+              }
+            }
+          },
+          {
             "code": "8570",
             "name": "イオンフィナンシャルサービス",
             "mark": "新買",
-            "close": 1609,
+            "close": 1632,
             "quality": {
               "code": "8570",
               "stars": 4,
@@ -2176,14 +2665,14 @@
               "valuation": {
                 "sector": "Financial Services",
                 "industry": "Credit Services",
-                "per": 16.5,
-                "forward_per": 12.1,
-                "pbr": 0.73,
-                "psr": 0.68,
-                "market_cap_oku": 3479,
-                "price_yen": 1612,
+                "per": 16.7,
+                "forward_per": 12.2,
+                "pbr": 0.74,
+                "psr": 0.69,
+                "market_cap_oku": 3526,
+                "price_yen": 1634,
                 "target_price_yen": 1472,
-                "target_upside_pct": -8.7,
+                "target_upside_pct": -9.9,
                 "revenue_growth_pct": 9.9,
                 "earnings_growth_pct": 15.3,
                 "profit_margin_pct": 4.13,
@@ -2235,12 +2724,12 @@
                 "industry": "Apparel Manufacturing",
                 "per": 15.6,
                 "forward_per": 10.6,
-                "pbr": 1.78,
+                "pbr": 1.79,
                 "psr": 0.48,
-                "market_cap_oku": 1481,
-                "price_yen": 3210,
+                "market_cap_oku": 1485,
+                "price_yen": 3220,
                 "target_price_yen": 3490,
-                "target_upside_pct": 8.7,
+                "target_upside_pct": 8.4,
                 "revenue_growth_pct": 3.7,
                 "earnings_growth_pct": -10.5,
                 "profit_margin_pct": 2.94,
@@ -2329,14 +2818,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.8,
+                "per": 15.7,
                 "forward_per": 4.4,
                 "pbr": 0.32,
                 "psr": 0.61,
-                "market_cap_oku": 3527,
-                "price_yen": 1092,
+                "market_cap_oku": 3497,
+                "price_yen": 1084,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.8,
+                "target_upside_pct": 37.8,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -2595,14 +3084,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 15.9,
+                "per": 15.8,
                 "forward_per": 3.7,
-                "pbr": 1.19,
+                "pbr": 1.18,
                 "psr": 0.57,
-                "market_cap_oku": 10396,
-                "price_yen": 2294,
+                "market_cap_oku": 10346,
+                "price_yen": 2284,
                 "target_price_yen": 2669,
-                "target_upside_pct": 16.3,
+                "target_upside_pct": 16.9,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -2682,14 +3171,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 33.6,
-                "forward_per": 14.1,
-                "pbr": 3.3,
-                "psr": 2.4,
-                "market_cap_oku": 1271,
-                "price_yen": 3310,
+                "per": 34.1,
+                "forward_per": 14.3,
+                "pbr": 3.34,
+                "psr": 2.43,
+                "market_cap_oku": 1288,
+                "price_yen": 3355,
                 "target_price_yen": 5400,
-                "target_upside_pct": 63.1,
+                "target_upside_pct": 61.0,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -3098,8 +3587,8 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -3.93,
-    "new_buy_count": 2,
+    "market_return_20d": -3.7,
+    "new_buy_count": 4,
     "exit_rsi": 70.0,
     "etf_rsi": {
       "1321": 42.71,
@@ -3109,6 +3598,59 @@
     "signal": null
   },
   "quality": {
+    "4516": {
+      "code": "4516",
+      "stars": 4,
+      "background": "海外提携先であるCapricor Therapeutics社とのデュシェンヌ型筋ジストロフィー（DMD）治療薬に関するライセンス契約の裁判・法的不透明感が嫌気され、株価の押し下げ要因となっています。また医薬品セクター全般の地合い軟調も重なり軟調な展開が続いています。しかし、同社自体の業績は堅調であり、過剰な警戒感による売られ過ぎの局面と考えられます。",
+      "risk_factors": [
+        "Capricor社とのライセンス契約に関する法的争議の長期化または不利な結果",
+        "他社DMD治療薬パイプラインの競合台頭による市場シェア懸念",
+        "国内薬価改定による収益圧迫リスク"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://stocktwits.com/news-articles/markets/equity/capricor-legal-dispute-hearing-today-on-dmd-capr-stock-rises/cZK0C3qR7Iv",
+        "https://finance.yahoo.com/news/capricor-lawsuit-puts-duchenne-therapy-121804218.html",
+        "https://finance.yahoo.com/news/nippon-shinyaku-tse-4516-exploring-031347202.html"
+      ],
+      "material_analysis": "Capricor社との法的争議ニュースが心理的重しとなっていますが、本業の業績拡大トレンドを損なうものではなく悪材料の織り込みはかなり進んでいます。",
+      "fundamental_summary": "売上成長率24.1%、利益成長率22.4%と業績は非常に力強い拡大基調にあります。ROEは11.53%、営業利益率も17.51%と高い収益性を誇っています。バリュエーション面では予想PER8.2倍、PBR0.77倍と解散価値を下回る極めて割安な水準に放置されています。年間配当124円（利回り約3.69%）、配当性向28.12%と株主還元と財務健全性のバランスも良好であり、アナリスト目標株価（3,694円）に向けた見直し買いが期待できます。",
+      "technical_view": "3,300円台前半の心理的節目兼過去のサポートゾーンまで調整が進んでおり、上値は3,500円前後の移動平均線レベルが抵抗線として意識されます。",
+      "watch_points": [
+        "Capricor社との聴聞会・裁判手続きの進展と公式アナウンス",
+        "主力商品（ビルテプソ等）のグローバル販売進捗状況"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 124,
+        "yield_pct": 3.69,
+        "ex_date": "2026-09-29",
+        "payout_ratio_pct": 28.12
+      },
+      "earnings": {
+        "announcement_date": "2026-11-13",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Healthcare",
+        "industry": "Drug Manufacturers - Specialty & Generic",
+        "per": 7.6,
+        "forward_per": 8.2,
+        "pbr": 0.77,
+        "psr": 1.26,
+        "market_cap_oku": 2267,
+        "price_yen": 3364,
+        "target_price_yen": 3694,
+        "target_upside_pct": 9.8,
+        "revenue_growth_pct": 24.1,
+        "earnings_growth_pct": 22.4,
+        "profit_margin_pct": 17.51,
+        "roe_pct": 11.53,
+        "debt_to_equity": 0.9
+      },
+      "shareholder_benefit": "なし"
+    },
     "4722": {
       "code": "4722",
       "stars": 4,
@@ -3149,8 +3691,8 @@
         "forward_per": 18.1,
         "pbr": 3.24,
         "psr": 2.73,
-        "market_cap_oku": 2150,
-        "price_yen": 2424,
+        "market_cap_oku": 2149,
+        "price_yen": 2423,
         "target_price_yen": 2467,
         "target_upside_pct": 1.8,
         "revenue_growth_pct": 9.5,
@@ -3160,6 +3702,96 @@
         "debt_to_equity": 20.4
       },
       "shareholder_benefit": "なし"
+    },
+    "7272": {
+      "code": "7272",
+      "stars": 4,
+      "background": "直近発表された上半期決算において過去最高業績を記録し、一時株価が13%以上急落後の急騰を見せるなど非常に力強いファンダメンタルズが確認されています。しかし、その後の全体相場の乱高下や短期的な利益確定売りに押され、過熱感を冷ます形で一時的な調整安に晒されています。構造的な悪材料による下落ではなく、好決算後の短期資金の利確や地合い悪化に伴う過渡的な押し目形成と判断されます。",
+      "risk_factors": [
+        "為替市場における急速な円高進行による業績下振れリスク",
+        "株式市場全体の急激なリスクオフに伴う連れ安",
+        "欧米・欧州市場における景気減速によるレジャー・マリン製品需要の鈍化"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://beincrypto.com/yamaha-shares-surge-record-results-japan-crisis/",
+        "https://sg.finance.yahoo.com/news/yamaha-backed-indian-ev-startup-110656003.html",
+        "https://finance.yahoo.com/markets/stocks/articles/yamaha-motor-co-ymhay-upgraded-160004863.html"
+      ],
+      "material_analysis": "インドの出資先EVスタートアップRiverの1.2億ドル資金調達成功や米大手投資会社による格上げなど成長戦略面の好材料が続いています。過去最高益を記録した上半期決算の材料出尽くし感による売りは一巡しつつあります。",
+      "fundamental_summary": "実績PERは約7.9倍、予想PERは約9.3倍と自動車・二輪セクター内でも強い割安感を示しています。売上高成長率は17.8%と拡大傾向にあり、営業利益率も着実に維持されています。配当利回りは約2.87%で配当性向15.67%と株主還元面の安全域が高く、12月権利確定の優待制度も下支え要因となります。次回決算発表は11月上旬予定と時間的余裕があり、短期トレードにおいて決算リスクを気にせずエントリーできる良好なファンダメンタルズ環境です。",
+      "technical_view": "急騰後の調整により1,755円まで押したことで、直前の急騰起点や1,700円の心理的節目が強力な下値支持帯として機能する位置まで低下しています。上値の節目としては直近高値圏である1,900円〜2,000円ラインが主要な抵抗帯として意識されます。",
+      "watch_points": [
+        "1,700円水準の節目における下値支持の固さと反発出来高の増加",
+        "為替レート（ドル/円、ユーロ/円）の推移と海外二輪市場の販売動向"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 50,
+        "yield_pct": 2.87,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 15.67
+      },
+      "earnings": {
+        "announcement_date": "2026-11-05",
+        "fiscal_year_end": "2026-12-31",
+        "fiscal_month": 12,
+        "is_estimate": true
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "per": 7.9,
+        "forward_per": 9.3,
+        "pbr": 1.36,
+        "psr": 0.62,
+        "market_cap_oku": 17056,
+        "price_yen": 1757,
+        "target_price_yen": 1695,
+        "target_upside_pct": -3.5,
+        "revenue_growth_pct": 17.8,
+        "earnings_growth_pct": 2.24,
+        "profit_margin_pct": 2.79,
+        "roe_pct": 7.72,
+        "debt_to_equity": 79.6
+      },
+      "shareholder_benefit": "株主優待ポイント。100株以上。権利確定12月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "株主優待ポイント",
+        "month": "12",
+        "yield_pct": "---、配当利回りは2.85",
+        "min_shares": 100,
+        "programs": [
+          {
+            "title": "株主優待ポイント（長期保有向け）",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント",
+                "note": "※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上"
+              },
+              {
+                "shares": "300株以上",
+                "content": "【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "3,000株以上",
+                "content": "【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "株主優待ポイント。100株以上。権利確定12月。",
+        "text": "株主優待ポイント。100株以上。権利確定12月\n【株主優待ポイント（長期保有向け）】\n・100株以上: 【1年以上保有株主】 1,000ポイント 【3年以上保有株主】 3,000ポイント（※ポイントに応じて下記の商品と交換可能 1、自社及びグループ会社所在地（静岡県・北海道・宮城県・熊本県）名産品 2、ジュビロ磐田 Jリーグ観戦ペアチケット 3、静岡ブルーレヴズ ラグビー関連グッズ 4、自社関連施設利用割引券等 5、社会貢献基金への寄付 ■申込み：毎年3月開催の定時株主総会終了後に、優待内容の詳細・申込み方法等を案内。 ■継続保有期間について 当社株主名簿に記録された日から、同一株主番号で継続して当社株式を保有頂いている期間をいいます。当社株式を一旦全て売却した後に再度購入された場合は、継続保有とはなりません。貸株サービスをご利用の場合は株主番号が変わり、株主名簿の継続性が途切れますのでご注意ください。 株式保有期間の区分は、毎年12月31日を基準日として判定、かつ100株以上保有。 1年以上継続保有：連続して2回以上 3年以上継続保有：連続して4回以上）\n・300株以上: 【1年以上保有株主】 2,000ポイント 【3年以上保有株主】 4,000ポイント\n・1,000株以上: 【1年以上保有株主】 3,000ポイント 【3年以上保有株主】 5,000ポイント\n・3,000株以上: 【1年以上保有株主】 4,000ポイント 【3年以上保有株主】 6,000ポイント"
+      }
     },
     "8570": {
       "code": "8570",
@@ -3196,14 +3828,14 @@
       "valuation": {
         "sector": "Financial Services",
         "industry": "Credit Services",
-        "per": 16.5,
-        "forward_per": 12.1,
-        "pbr": 0.73,
-        "psr": 0.68,
-        "market_cap_oku": 3478,
-        "price_yen": 1611,
+        "per": 16.7,
+        "forward_per": 12.2,
+        "pbr": 0.74,
+        "psr": 0.69,
+        "market_cap_oku": 3526,
+        "price_yen": 1634,
         "target_price_yen": 1472,
-        "target_upside_pct": -8.6,
+        "target_upside_pct": -9.9,
         "revenue_growth_pct": 9.9,
         "earnings_growth_pct": 15.3,
         "profit_margin_pct": 4.13,
