@@ -1,159 +1,269 @@
 {
-  "generated_at": "2026-09-09T16:02:51+09:00",
+  "generated_at": "2026-09-10T11:33:20+09:00",
   "mode": "LO",
   "summary": {
-    "pf": null,
-    "wins": 13,
-    "losses": 11,
-    "win_rate": null,
-    "total_income": -72100,
-    "symbol_count": 29,
-    "neutral_count": 7,
-    "source_file": "Y0_PF0.756_W13L11_rate54.17_all-72100.csv"
+    "pf": 2.238,
+    "wins": 27,
+    "losses": 3,
+    "win_rate": 90.0,
+    "total_income": 34000,
+    "symbol_count": 31,
+    "neutral_count": 5,
+    "source_file": "Y0_PF2.238_W27L3_rate90.00_all34000.csv"
   },
   "symbols": [
     {
-      "code": "5393",
-      "name": "ニチアス",
+      "code": "5802",
+      "name": "住友電気工業",
       "industry": "nan",
-      "incomes": 22400,
-      "pf": 64.0,
+      "incomes": 18100,
+      "pf": 70.1,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 6400,
+      "plus_gain": 7009,
       "minus_gain": 0
     },
     {
-      "code": "2871",
-      "name": "ニチレイ",
+      "code": "4368",
+      "name": "扶桑化学工業",
       "industry": "nan",
-      "incomes": 21900,
-      "pf": 93.0,
+      "incomes": 17000,
+      "pf": 43.5,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 9300,
+      "plus_gain": 4350,
       "minus_gain": 0
     },
     {
-      "code": "4516",
-      "name": "日本新薬",
+      "code": "6141",
+      "name": "ＤＭＧ　森精機",
       "industry": "nan",
-      "incomes": 16700,
-      "pf": 45.9,
-      "winlose": "W1L0",
+      "incomes": 7600,
+      "pf": 25.6,
+      "winlose": "W2L0",
       "win_per": 100,
-      "plus_gain": 4590,
+      "plus_gain": 2560,
       "minus_gain": 0
     },
     {
       "code": "5301",
       "name": "東海カーボン",
       "industry": "nan",
-      "incomes": 14400,
-      "pf": 1.9,
-      "winlose": "W1L1",
-      "win_per": 50,
-      "plus_gain": 14460,
-      "minus_gain": 7720
-    },
-    {
-      "code": "1802",
-      "name": "大林組",
-      "industry": "nan",
-      "incomes": 8800,
-      "pf": 28.7,
-      "winlose": "W1L0",
+      "incomes": 7500,
+      "pf": 46.2,
+      "winlose": "W2L0",
       "win_per": 100,
-      "plus_gain": 2870,
+      "plus_gain": 4620,
       "minus_gain": 0
     },
     {
-      "code": "4088",
-      "name": "エア・ウォーター",
+      "code": "6254",
+      "name": "野村マイクロ・サイエンス",
       "industry": "nan",
-      "incomes": 7600,
-      "pf": 28.7,
+      "incomes": 7500,
+      "pf": 21.7,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 2870,
+      "plus_gain": 2170,
       "minus_gain": 0
     },
     {
-      "code": "9302",
-      "name": "三井倉庫ホールディングス",
+      "code": "4516",
+      "name": "日本新薬",
       "industry": "nan",
-      "incomes": 6200,
-      "pf": 18.7,
+      "incomes": 6600,
+      "pf": 18.6,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 1870,
+      "plus_gain": 1860,
+      "minus_gain": 0
+    },
+    {
+      "code": "6762",
+      "name": "ＴＤＫ",
+      "industry": "nan",
+      "incomes": 5800,
+      "pf": 18.4,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1839,
       "minus_gain": 0
     },
     {
       "code": "2264",
       "name": "森永乳業",
       "industry": "nan",
-      "incomes": 5700,
-      "pf": 45.2,
+      "incomes": 4000,
+      "pf": 32.2,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 4520,
+      "plus_gain": 3220,
+      "minus_gain": 0
+    },
+    {
+      "code": "9302",
+      "name": "三井倉庫ホールディングス",
+      "industry": "nan",
+      "incomes": 4000,
+      "pf": 12.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1220,
+      "minus_gain": 0
+    },
+    {
+      "code": "5393",
+      "name": "ニチアス",
+      "industry": "nan",
+      "incomes": 3300,
+      "pf": 10.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1000,
       "minus_gain": 0
     },
     {
       "code": "4042",
       "name": "東ソー",
       "industry": "nan",
-      "incomes": 5600,
-      "pf": 19.9,
+      "incomes": 2900,
+      "pf": 10.4,
       "winlose": "W1L0",
       "win_per": 100,
-      "plus_gain": 1989,
-      "minus_gain": 0
-    },
-    {
-      "code": "4587",
-      "name": "ペプチドリーム",
-      "industry": "nan",
-      "incomes": 3700,
-      "pf": 37.3,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 3729,
-      "minus_gain": 0
-    },
-    {
-      "code": "9090",
-      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-      "industry": "nan",
-      "incomes": 2700,
-      "pf": 30.3,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 3030,
-      "minus_gain": 0
-    },
-    {
-      "code": "6632",
-      "name": "ＪＶＣケンウッド",
-      "industry": "nan",
-      "incomes": 2000,
-      "pf": 19.8,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1980,
+      "plus_gain": 1040,
       "minus_gain": 0
     },
     {
       "code": "6544",
       "name": "ジャパンエレベーターサービスホールディングス",
       "industry": "nan",
+      "incomes": 2400,
+      "pf": 15.6,
+      "winlose": "W2L0",
+      "win_per": 100,
+      "plus_gain": 1560,
+      "minus_gain": 0
+    },
+    {
+      "code": "1802",
+      "name": "大林組",
+      "industry": "nan",
+      "incomes": 2100,
+      "pf": 7.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 700,
+      "minus_gain": 0
+    },
+    {
+      "code": "6632",
+      "name": "ＪＶＣケンウッド",
+      "industry": "nan",
+      "incomes": 1900,
+      "pf": 18.8,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1880,
+      "minus_gain": 0
+    },
+    {
+      "code": "4587",
+      "name": "ペプチドリーム",
+      "industry": "nan",
+      "incomes": 1800,
+      "pf": 18.5,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 1850,
+      "minus_gain": 0
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルホールディングス",
+      "industry": "nan",
+      "incomes": 1800,
+      "pf": 22.4,
+      "winlose": "W2L0",
+      "win_per": 100,
+      "plus_gain": 2240,
+      "minus_gain": 0
+    },
+    {
+      "code": "4088",
+      "name": "エア・ウォーター",
+      "industry": "nan",
       "incomes": 1700,
-      "pf": 1.4,
-      "winlose": "W1L1",
-      "win_per": 50,
-      "plus_gain": 4160,
-      "minus_gain": 2930
+      "pf": 6.6,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 660,
+      "minus_gain": 0
+    },
+    {
+      "code": "2871",
+      "name": "ニチレイ",
+      "industry": "nan",
+      "incomes": 1500,
+      "pf": 7.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 700,
+      "minus_gain": 0
+    },
+    {
+      "code": "3391",
+      "name": "ツルハホールディングス",
+      "industry": "nan",
+      "incomes": 1300,
+      "pf": 5.6,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 560,
+      "minus_gain": 0
+    },
+    {
+      "code": "5471",
+      "name": "大同特殊鋼",
+      "industry": "nan",
+      "incomes": 1300,
+      "pf": 5.5,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 550,
+      "minus_gain": 0
+    },
+    {
+      "code": "9090",
+      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+      "industry": "nan",
+      "incomes": 700,
+      "pf": 8.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 800,
+      "minus_gain": 0
+    },
+    {
+      "code": "9143",
+      "name": "ＳＧホールディングス",
+      "industry": "nan",
+      "incomes": 600,
+      "pf": 4.0,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 400,
+      "minus_gain": 0
+    },
+    {
+      "code": "8830",
+      "name": "住友不動産",
+      "industry": "nan",
+      "incomes": 300,
+      "pf": 0.9,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 90,
+      "minus_gain": 0
     },
     {
       "code": "2670",
@@ -178,17 +288,6 @@
       "minus_gain": 0
     },
     {
-      "code": "3391",
-      "name": "ツルハホールディングス",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0
-    },
-    {
       "code": "3465",
       "name": "ケイアイスター不動産",
       "industry": "nan",
@@ -200,8 +299,8 @@
       "minus_gain": 0
     },
     {
-      "code": "6254",
-      "name": "野村マイクロ・サイエンス",
+      "code": "4722",
+      "name": "フューチャーアーキテクト",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -211,8 +310,8 @@
       "minus_gain": 0
     },
     {
-      "code": "8830",
-      "name": "住友不動産",
+      "code": "8570",
+      "name": "イオンフィナンシャルサービス",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -220,28 +319,6 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 0
-    },
-    {
-      "code": "9143",
-      "name": "ＳＧホールディングス",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0
-    },
-    {
-      "code": "7532",
-      "name": "パン・パシフィック・インターナショナルホールディングス",
-      "industry": "nan",
-      "incomes": -5900,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 7809
     },
     {
       "code": "6723",
@@ -253,50 +330,6 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 2600
-    },
-    {
-      "code": "6762",
-      "name": "ＴＤＫ",
-      "industry": "nan",
-      "incomes": -10400,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 3479
-    },
-    {
-      "code": "5471",
-      "name": "大同特殊鋼",
-      "industry": "nan",
-      "incomes": -20300,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 9400
-    },
-    {
-      "code": "5802",
-      "name": "住友電気工業",
-      "industry": "nan",
-      "incomes": -21400,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 9790
-    },
-    {
-      "code": "6141",
-      "name": "ＤＭＧ　森精機",
-      "industry": "nan",
-      "incomes": -27300,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 9900
     },
     {
       "code": "3186",
@@ -319,209 +352,403 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 8260
-    },
-    {
-      "code": "4368",
-      "name": "扶桑化学工業",
-      "industry": "nan",
-      "incomes": -38500,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 11480
     }
   ],
   "today": {
-    "trade_date": "2026-09-09",
+    "trade_date": "2026-09-10",
     "new_buy": [
       {
-        "code": "2685",
-        "name": "アダストリア",
+        "code": "4722",
+        "name": "フューチャーアーキテクト",
         "mark": "新買",
-        "close": 3220,
-        "rsi": 20.72,
-        "rci": -96.67,
+        "close": 2424,
+        "rsi": 14.47,
+        "rci": -88.33,
         "rci_turn": true,
         "quality": {
-          "code": "2685",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "code": "4722",
+          "stars": 4,
+          "background": "直近の通期決算において着実な増益トレンドが確認されているものの、材料出尽くしによる利益確定売りや市場全体の地合い悪化に伴い株価は調整局面にあります。本業であるDX推進やITコンサルティング需要は依然として旺盛であり、今回の株価下落は構造的な業績悪化ではなく一時的な需給要因によるものと分析されます。過熱感が十分に冷却されたことで、短期的な自律反発に向けた好好機が形成されつつあります。",
           "risk_factors": [
-            "評価失敗"
+            "IT投資手控えやDX案件遅延による業績伸び悩みリスク",
+            "中小型ITセクター全体からの資金抜けによる軟調推移リスク",
+            "下値支持線となる2,400円を明確に下抜けた場合の下振れリスク"
           ],
-          "confidence": "low",
+          "confidence": "high",
           "sources": [
-            "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-            "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+            "https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html"
           ],
-          "valuation_view": "unknown",
+          "material_analysis": "通期増益の達成により好業績が裏付けられた一方、目先の株価好材料が出尽くしたことによる短期的な利確売りが先行しています。",
+          "fundamental_summary": "売上成長率9.5%、利益成長率9.0%とともに着実な拡大を継続しており、営業利益率15.64%、ROE 19.64%と極めて高い収益性を誇る優良企業です。予想PER18.1倍、PBR3.24倍というバリュエーションは、同社の高い資本効率や成長性を考慮すると過度な割高感はなく健全な水準にあります。配当利回り1.94%（配当性向33.87%）と安定した株主還元を行っており、財務の健全性も極めて高い状態です。次回決算発表まで期間があるため、決算イベント前の需給良化を背景とした短期的な値戻しが狙えるファンダメンタルズ構造となっています。",
+          "technical_view": "節目となる2,400円近辺が強力な下値支持線として意識されており、上値は直近の心理的節目である2,500円や25日移動平均線付近が主要な抵抗帯となります。",
+          "watch_points": [
+            "2,400円の節目水準における下げ止まりと底打ちの確認",
+            "25日移動平均線および2,500円台回復に向けた買戻し勢力の強さ"
+          ],
+          "valuation_view": "fair",
           "dividend": {
-            "annual_yen": 90,
-            "yield_pct": 2.81,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 43.72
+            "annual_yen": 47,
+            "yield_pct": 1.94,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 33.87
           },
           "earnings": {
-            "announcement_date": "2026-09-30",
+            "announcement_date": "2026-10-28",
+            "fiscal_year_end": "2026-12-31",
+            "fiscal_month": 12,
+            "is_estimate": true
+          },
+          "valuation": {
+            "sector": "Technology",
+            "industry": "Information Technology Services",
+            "per": 17.5,
+            "forward_per": 18.1,
+            "pbr": 3.24,
+            "psr": 2.73,
+            "market_cap_oku": 2150,
+            "price_yen": 2424,
+            "target_price_yen": 2467,
+            "target_upside_pct": 1.8,
+            "revenue_growth_pct": 9.5,
+            "earnings_growth_pct": 9.0,
+            "profit_margin_pct": 15.64,
+            "roe_pct": 19.64,
+            "debt_to_equity": 20.4
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "8570",
+        "name": "イオンフィナンシャルサービス",
+        "mark": "新買",
+        "close": 1609,
+        "rsi": 37.64,
+        "rci": -93.33,
+        "rci_turn": true,
+        "quality": {
+          "code": "8570",
+          "stars": 4,
+          "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
+          "risk_factors": [
+            "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
+            "国内イオングループの営業動向や個人消費の落ち込み",
+            "アナリスト平均目標株価（1,472円）までの調整リスク"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
+          ],
+          "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
+          "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
+          "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
+          "watch_points": [
+            "1,600円の主要節目ラインを終値ベースで維持できるか",
+            "カード取扱高の伸びと与信コストのコントロール状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 53,
+            "yield_pct": 3.33,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 54.25
+          },
+          "earnings": {
+            "announcement_date": "2026-10-09",
             "fiscal_year_end": "2027-02-28",
             "fiscal_month": 2
           },
           "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Apparel Manufacturing",
-            "per": 15.6,
-            "forward_per": 10.6,
-            "pbr": 1.79,
-            "psr": 0.48,
-            "market_cap_oku": 1485,
-            "price_yen": 3220,
-            "target_price_yen": 3490,
-            "target_upside_pct": 8.4,
-            "revenue_growth_pct": 3.7,
-            "earnings_growth_pct": -10.5,
-            "profit_margin_pct": 2.94,
-            "roe_pct": 11.17,
-            "debt_to_equity": 7.2
+            "sector": "Financial Services",
+            "industry": "Credit Services",
+            "per": 16.5,
+            "forward_per": 12.1,
+            "pbr": 0.73,
+            "psr": 0.68,
+            "market_cap_oku": 3478,
+            "price_yen": 1611,
+            "target_price_yen": 1472,
+            "target_upside_pct": -8.6,
+            "revenue_growth_pct": 9.9,
+            "earnings_growth_pct": 15.3,
+            "profit_margin_pct": 4.13,
+            "roe_pct": 6.05
           },
-          "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "min_shares": 100,
-            "kind": "買物優待券 美容・ファッション",
-            "month": "2",
-            "programs": [
-              {
-                "title": "自社店舗商品引換券※2026年2月末日より実施",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
-                    "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
-                  },
-                  {
-                    "shares": "500株以上",
-                    "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
-                    "note": ""
-                  },
-                  {
-                    "shares": "1,000株以上",
-                    "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-            "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
-          }
+          "shareholder_benefit": "なし"
         },
         "rsi_ok": false,
         "rci_ok": true
       }
     ],
-    "sellback": [
+    "sellback": [],
+    "new_buy_count": 2,
+    "recommended": [
       {
-        "code": "7532",
-        "name": "パン・パシフィック・インターナショナルホールディングス",
-        "mark": "返売",
-        "close": 755,
-        "rsi": 26.05,
-        "rci": -60.83,
-        "rci_turn": false,
+        "code": "4722",
+        "name": "フューチャーアーキテクト",
+        "mark": "新買",
+        "close": 2424,
+        "rsi": 14.47,
+        "rci": -88.33,
+        "rci_turn": true,
         "quality": {
-          "code": "7532",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "code": "4722",
+          "stars": 4,
+          "background": "直近の通期決算において着実な増益トレンドが確認されているものの、材料出尽くしによる利益確定売りや市場全体の地合い悪化に伴い株価は調整局面にあります。本業であるDX推進やITコンサルティング需要は依然として旺盛であり、今回の株価下落は構造的な業績悪化ではなく一時的な需給要因によるものと分析されます。過熱感が十分に冷却されたことで、短期的な自律反発に向けた好好機が形成されつつあります。",
           "risk_factors": [
-            "評価失敗"
+            "IT投資手控えやDX案件遅延による業績伸び悩みリスク",
+            "中小型ITセクター全体からの資金抜けによる軟調推移リスク",
+            "下値支持線となる2,400円を明確に下抜けた場合の下振れリスク"
           ],
-          "confidence": "low",
+          "confidence": "high",
           "sources": [
-            "{'url': 'https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-            "{'url': 'https://finance.yahoo.com/news/pan-pacific-international-holdings-tse-120226619.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+            "https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html"
           ],
-          "valuation_view": "unknown",
+          "material_analysis": "通期増益の達成により好業績が裏付けられた一方、目先の株価好材料が出尽くしたことによる短期的な利確売りが先行しています。",
+          "fundamental_summary": "売上成長率9.5%、利益成長率9.0%とともに着実な拡大を継続しており、営業利益率15.64%、ROE 19.64%と極めて高い収益性を誇る優良企業です。予想PER18.1倍、PBR3.24倍というバリュエーションは、同社の高い資本効率や成長性を考慮すると過度な割高感はなく健全な水準にあります。配当利回り1.94%（配当性向33.87%）と安定した株主還元を行っており、財務の健全性も極めて高い状態です。次回決算発表まで期間があるため、決算イベント前の需給良化を背景とした短期的な値戻しが狙えるファンダメンタルズ構造となっています。",
+          "technical_view": "節目となる2,400円近辺が強力な下値支持線として意識されており、上値は直近の心理的節目である2,500円や25日移動平均線付近が主要な抵抗帯となります。",
+          "watch_points": [
+            "2,400円の節目水準における下げ止まりと底打ちの確認",
+            "25日移動平均線および2,500円台回復に向けた買戻し勢力の強さ"
+          ],
+          "valuation_view": "fair",
           "dividend": {
-            "annual_yen": 10,
-            "yield_pct": 1.29,
+            "annual_yen": 47,
+            "yield_pct": 1.94,
             "ex_date": "2026-12-29",
-            "payout_ratio_pct": 25.88
+            "payout_ratio_pct": 33.87
           },
           "earnings": {
-            "announcement_date": "2026-11-12",
-            "fiscal_year_end": "2027-06-30",
-            "fiscal_month": 6
+            "announcement_date": "2026-10-28",
+            "fiscal_year_end": "2026-12-31",
+            "fiscal_month": 12,
+            "is_estimate": true
           },
           "valuation": {
-            "sector": "Consumer Defensive",
-            "industry": "Discount Stores",
-            "per": 20.6,
-            "forward_per": 4.3,
-            "pbr": 3.2,
-            "psr": 0.92,
-            "peg": 2.75,
-            "market_cap_oku": 22588,
-            "price_yen": 756,
-            "target_price_yen": 1052,
-            "target_upside_pct": 39.2,
-            "profit_margin_pct": 4.5,
-            "roe_pct": 16.48,
-            "debt_to_equity": 48.5
+            "sector": "Technology",
+            "industry": "Information Technology Services",
+            "per": 17.5,
+            "forward_per": 18.1,
+            "pbr": 3.24,
+            "psr": 2.73,
+            "market_cap_oku": 2150,
+            "price_yen": 2424,
+            "target_price_yen": 2467,
+            "target_upside_pct": 1.8,
+            "revenue_growth_pct": 9.5,
+            "earnings_growth_pct": 9.0,
+            "profit_margin_pct": 15.64,
+            "roe_pct": 19.64,
+            "debt_to_equity": 20.4
           },
-          "shareholder_benefit": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社グループ電子マネー・ポイント",
-            "month": "6",
-            "yield_pct": "0.77",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "自社グループ電子マネー「majica」・ポイント",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "300ポイント （年間　600ポイント）",
-                    "note": "※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。"
-                  },
-                  {
-                    "shares": "300株以上",
-                    "content": "1,000ポイント （年間　2,000ポイント）",
-                    "note": ""
-                  },
-                  {
-                    "shares": "500株以上",
-                    "content": "2,000ポイント （年間　4,000ポイント）",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
-            "text": "自社グループ電子マネー・ポイント。100株以上。権利確定6月\n【自社グループ電子マネー「majica」・ポイント】\n・100株以上: 300ポイント （年間　600ポイント）（※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。）\n・300株以上: 1,000ポイント （年間　2,000ポイント）\n・500株以上: 2,000ポイント （年間　4,000ポイント）"
-          }
+          "shareholder_benefit": "なし"
         },
         "rsi_ok": false,
-        "rci_ok": false
+        "rci_ok": true,
+        "recommended": true
+      },
+      {
+        "code": "8570",
+        "name": "イオンフィナンシャルサービス",
+        "mark": "新買",
+        "close": 1609,
+        "rsi": 37.64,
+        "rci": -93.33,
+        "rci_turn": true,
+        "quality": {
+          "code": "8570",
+          "stars": 4,
+          "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
+          "risk_factors": [
+            "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
+            "国内イオングループの営業動向や個人消費の落ち込み",
+            "アナリスト平均目標株価（1,472円）までの調整リスク"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
+          ],
+          "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
+          "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
+          "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
+          "watch_points": [
+            "1,600円の主要節目ラインを終値ベースで維持できるか",
+            "カード取扱高の伸びと与信コストのコントロール状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 53,
+            "yield_pct": 3.33,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 54.25
+          },
+          "earnings": {
+            "announcement_date": "2026-10-09",
+            "fiscal_year_end": "2027-02-28",
+            "fiscal_month": 2
+          },
+          "valuation": {
+            "sector": "Financial Services",
+            "industry": "Credit Services",
+            "per": 16.5,
+            "forward_per": 12.1,
+            "pbr": 0.73,
+            "psr": 0.68,
+            "market_cap_oku": 3478,
+            "price_yen": 1611,
+            "target_price_yen": 1472,
+            "target_upside_pct": -8.6,
+            "revenue_growth_pct": 9.9,
+            "earnings_growth_pct": 15.3,
+            "profit_margin_pct": 4.13,
+            "roe_pct": 6.05
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": false,
+        "rci_ok": true,
+        "recommended": true
       }
     ],
-    "new_buy_count": 1,
-    "recommended": [],
     "pick_meta": {
       "method": "stars",
       "routing": "stocks",
-      "count": 0,
+      "count": 2,
       "min_stars": 4
     }
   },
   "daily": {
     "days": [
       {
+        "date": "2026-09-10",
+        "pnl": 0,
+        "new_buy_count": 2,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "4722",
+            "name": "フューチャーアーキテクト",
+            "mark": "新買",
+            "close": 2424,
+            "quality": {
+              "code": "4722",
+              "stars": 4,
+              "background": "直近の通期決算において着実な増益トレンドが確認されているものの、材料出尽くしによる利益確定売りや市場全体の地合い悪化に伴い株価は調整局面にあります。本業であるDX推進やITコンサルティング需要は依然として旺盛であり、今回の株価下落は構造的な業績悪化ではなく一時的な需給要因によるものと分析されます。過熱感が十分に冷却されたことで、短期的な自律反発に向けた好好機が形成されつつあります。",
+              "risk_factors": [
+                "IT投資手控えやDX案件遅延による業績伸び悩みリスク",
+                "中小型ITセクター全体からの資金抜けによる軟調推移リスク",
+                "下値支持線となる2,400円を明確に下抜けた場合の下振れリスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html"
+              ],
+              "material_analysis": "通期増益の達成により好業績が裏付けられた一方、目先の株価好材料が出尽くしたことによる短期的な利確売りが先行しています。",
+              "fundamental_summary": "売上成長率9.5%、利益成長率9.0%とともに着実な拡大を継続しており、営業利益率15.64%、ROE 19.64%と極めて高い収益性を誇る優良企業です。予想PER18.1倍、PBR3.24倍というバリュエーションは、同社の高い資本効率や成長性を考慮すると過度な割高感はなく健全な水準にあります。配当利回り1.94%（配当性向33.87%）と安定した株主還元を行っており、財務の健全性も極めて高い状態です。次回決算発表まで期間があるため、決算イベント前の需給良化を背景とした短期的な値戻しが狙えるファンダメンタルズ構造となっています。",
+              "technical_view": "節目となる2,400円近辺が強力な下値支持線として意識されており、上値は直近の心理的節目である2,500円や25日移動平均線付近が主要な抵抗帯となります。",
+              "watch_points": [
+                "2,400円の節目水準における下げ止まりと底打ちの確認",
+                "25日移動平均線および2,500円台回復に向けた買戻し勢力の強さ"
+              ],
+              "valuation_view": "fair",
+              "dividend": {
+                "annual_yen": 47,
+                "yield_pct": 1.94,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 33.87
+              },
+              "earnings": {
+                "announcement_date": "2026-10-28",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Technology",
+                "industry": "Information Technology Services",
+                "per": 17.5,
+                "forward_per": 18.1,
+                "pbr": 3.24,
+                "psr": 2.73,
+                "market_cap_oku": 2150,
+                "price_yen": 2424,
+                "target_price_yen": 2467,
+                "target_upside_pct": 1.8,
+                "revenue_growth_pct": 9.5,
+                "earnings_growth_pct": 9.0,
+                "profit_margin_pct": 15.64,
+                "roe_pct": 19.64,
+                "debt_to_equity": 20.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8570",
+            "name": "イオンフィナンシャルサービス",
+            "mark": "新買",
+            "close": 1609,
+            "quality": {
+              "code": "8570",
+              "stars": 4,
+              "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
+              "risk_factors": [
+                "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
+                "国内イオングループの営業動向や個人消費の落ち込み",
+                "アナリスト平均目標株価（1,472円）までの調整リスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
+              ],
+              "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
+              "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
+              "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
+              "watch_points": [
+                "1,600円の主要節目ラインを終値ベースで維持できるか",
+                "カード取扱高の伸びと与信コストのコントロール状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 53,
+                "yield_pct": 3.33,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 54.25
+              },
+              "earnings": {
+                "announcement_date": "2026-10-09",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 16.5,
+                "forward_per": 12.1,
+                "pbr": 0.73,
+                "psr": 0.68,
+                "market_cap_oku": 3479,
+                "price_yen": 1612,
+                "target_price_yen": 1472,
+                "target_upside_pct": -8.7,
+                "revenue_growth_pct": 9.9,
+                "earnings_growth_pct": 15.3,
+                "profit_margin_pct": 4.13,
+                "roe_pct": 6.05
+              },
+              "shareholder_benefit": "なし"
+            }
+          }
+        ],
+        "sellback": []
+      },
+      {
         "date": "2026-09-09",
-        "pnl": -5900,
+        "pnl": 0,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "2685",
@@ -543,7 +770,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 90,
-                "yield_pct": 2.81,
+                "yield_pct": 2.8,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 43.72
               },
@@ -557,12 +784,12 @@
                 "industry": "Apparel Manufacturing",
                 "per": 15.6,
                 "forward_per": 10.6,
-                "pbr": 1.79,
+                "pbr": 1.78,
                 "psr": 0.48,
-                "market_cap_oku": 1485,
-                "price_yen": 3220,
+                "market_cap_oku": 1481,
+                "price_yen": 3210,
                 "target_price_yen": 3490,
-                "target_upside_pct": 8.4,
+                "target_upside_pct": 8.7,
                 "revenue_growth_pct": 3.7,
                 "earnings_growth_pct": -10.5,
                 "profit_margin_pct": 2.94,
@@ -603,37 +830,29 @@
             }
           }
         ],
-        "sellback": [
-          {
-            "code": "7532",
-            "name": "パン・パシフィック・インターナショナルホールディングス",
-            "mark": "返売",
-            "close": 755,
-            "pnl": -5900
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-09-08",
-        "pnl": -27300,
+        "pnl": 800,
         "new_buy_count": 0,
         "sellback_count": 1,
         "new_buy": [],
         "sellback": [
           {
-            "code": "6141",
-            "name": "ＤＭＧ　森精機",
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
             "mark": "返売",
-            "close": 2758,
-            "pnl": -27300
+            "close": 777,
+            "pnl": 800
           }
         ]
       },
       {
         "date": "2026-09-07",
-        "pnl": 0,
-        "new_buy_count": 2,
-        "sellback_count": 0,
+        "pnl": 5100,
+        "new_buy_count": 3,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "2264",
@@ -663,27 +882,26 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.24,
+                "yield_pct": 2.28,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 36.26
               },
               "earnings": {
-                "announcement_date": "2026-11-11",
+                "announcement_date": "2026-11-09",
                 "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3,
-                "is_estimate": true
+                "fiscal_month": 3
               },
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.9,
+                "per": 15.8,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.62,
-                "market_cap_oku": 3546,
-                "price_yen": 1098,
+                "psr": 0.61,
+                "market_cap_oku": 3527,
+                "price_yen": 1092,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.1,
+                "target_upside_pct": 36.8,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -695,7 +913,7 @@
                 "source": "minkabu",
                 "kind": "自社商品",
                 "month": "9",
-                "yield_pct": "0.67",
+                "yield_pct": "0.68",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -751,7 +969,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.62,
+                "yield_pct": 4.59,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 23.73
               },
@@ -765,14 +983,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
-                "per": 6.6,
-                "forward_per": 6.2,
-                "pbr": 1.33,
-                "psr": 0.25,
-                "market_cap_oku": 1014,
-                "price_yen": 3265,
+                "per": 6.5,
+                "forward_per": 6.1,
+                "pbr": 1.31,
+                "psr": 0.24,
+                "market_cap_oku": 998,
+                "price_yen": 3215,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.1,
+                "target_upside_pct": 52.4,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -784,7 +1002,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.59",
+                "yield_pct": "---、配当利回りは4.67",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -842,24 +1060,59 @@
                 "text": "デジタルギフト。200株以上。権利確定3月\n【デジタルギフト（長期保有者向け）】\n・200株以上: 【1年以上保有】 2,000円相当（※2026 年９月末日を 基準日とする株主優待に限り、継続保有を２回以上連続といたします。 ■継続保有期間について ３月 31 日現在及び９月 30 日現在の株主名簿に、同一株主番号および上表の保有株式数で３回以上連続して記録された株主様といたします。）\n・300株以上: 【1年以上保有】 3,000円相当\n・400株以上: 【1年以上保有】 4,000円相当\n・500株以上: 【1年以上保有】 5,000円相当\n・600株以上: 【1年以上保有】 6,000円相当\n・700株以上: 【1年以上保有】 7,000円相当\n・800株以上: 【1年以上保有】 8,000円相当\n・900株以上: 【1年以上保有】 9,000円相当\n・1,000株以上: 【1年以上保有】 10,000円相当"
               }
             }
+          },
+          {
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "mark": "新買",
+            "close": 769
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "返売",
+            "close": 2928,
+            "pnl": 5100
+          }
+        ]
       },
       {
         "date": "2026-09-04",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
+        "pnl": 8800,
+        "new_buy_count": 2,
+        "sellback_count": 2,
         "new_buy": [
           {
             "code": "2670",
             "name": "エービーシー・マート",
             "mark": "新買",
             "close": 2729
+          },
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "新買",
+            "close": 2877
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "返売",
+            "close": 2318,
+            "pnl": 1300
+          },
+          {
+            "code": "6254",
+            "name": "野村マイクロ・サイエンス",
+            "mark": "返売",
+            "close": 3455,
+            "pnl": 7500
+          }
+        ]
       },
       {
         "date": "2026-09-03",
@@ -907,14 +1160,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.2,
+                "per": 15.9,
                 "forward_per": 3.7,
-                "pbr": 1.21,
-                "psr": 0.58,
-                "market_cap_oku": 10589,
-                "price_yen": 2337,
+                "pbr": 1.19,
+                "psr": 0.57,
+                "market_cap_oku": 10396,
+                "price_yen": 2294,
                 "target_price_yen": 2669,
-                "target_upside_pct": 14.2,
+                "target_upside_pct": 16.3,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -982,7 +1235,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 85,
-                "yield_pct": 2.54,
+                "yield_pct": 2.53,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 82.3
               },
@@ -994,14 +1247,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.1,
-                "forward_per": 14.3,
-                "pbr": 3.35,
-                "psr": 2.43,
-                "market_cap_oku": 1290,
-                "price_yen": 3360,
+                "per": 33.6,
+                "forward_per": 14.1,
+                "pbr": 3.3,
+                "psr": 2.4,
+                "market_cap_oku": 1271,
+                "price_yen": 3310,
                 "target_price_yen": 5400,
-                "target_upside_pct": 60.7,
+                "target_upside_pct": 63.1,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -1016,33 +1269,25 @@
       },
       {
         "date": "2026-09-02",
-        "pnl": 6200,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "返売",
-            "close": 3310,
-            "pnl": 6200
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-09-01",
-        "pnl": 8800,
+        "pnl": 600,
         "new_buy_count": 0,
         "sellback_count": 1,
         "new_buy": [],
         "sellback": [
           {
-            "code": "1802",
-            "name": "大林組",
+            "code": "9143",
+            "name": "ＳＧホールディングス",
             "mark": "返売",
-            "close": 3065,
-            "pnl": 8800
+            "close": 1518,
+            "pnl": 600
           }
         ]
       },
@@ -1079,11 +1324,19 @@
       },
       {
         "date": "2026-08-26",
-        "pnl": 0,
+        "pnl": 1000,
         "new_buy_count": 0,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "mark": "返売",
+            "close": 824,
+            "pnl": 1000
+          }
+        ]
       },
       {
         "date": "2026-08-25",
@@ -1102,17 +1355,31 @@
       },
       {
         "date": "2026-08-24",
-        "pnl": 6500,
+        "pnl": 4900,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 3,
         "new_buy": [],
         "sellback": [
           {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
+            "code": "1802",
+            "name": "大林組",
             "mark": "返売",
-            "close": 1561,
-            "pnl": 6500
+            "close": 2998,
+            "pnl": 2100
+          },
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "返売",
+            "close": 3056,
+            "pnl": 2500
+          },
+          {
+            "code": "8830",
+            "name": "住友不動産",
+            "mark": "返売",
+            "close": 3387,
+            "pnl": 300
           }
         ]
       },
@@ -1126,9 +1393,9 @@
       },
       {
         "date": "2026-08-20",
-        "pnl": 2700,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "1802",
@@ -1149,15 +1416,7 @@
             "close": 3384
           }
         ],
-        "sellback": [
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "返売",
-            "close": 891,
-            "pnl": 2700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-19",
@@ -1169,19 +1428,11 @@
       },
       {
         "date": "2026-08-18",
-        "pnl": 2000,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "返売",
-            "close": 1011,
-            "pnl": 2000
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-17",
@@ -1193,33 +1444,32 @@
       },
       {
         "date": "2026-08-14",
-        "pnl": 16700,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "返売",
-            "close": 3640,
-            "pnl": 16700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-13",
-        "pnl": 26200,
+        "pnl": 2800,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 2,
         "new_buy": [],
         "sellback": [
           {
-            "code": "5301",
-            "name": "東海カーボン",
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "返売",
-            "close": 1812,
-            "pnl": 26200
+            "close": 1517,
+            "pnl": 2100
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "返売",
+            "close": 871,
+            "pnl": 700
           }
         ]
       },
@@ -1254,39 +1504,32 @@
       },
       {
         "date": "2026-08-10",
-        "pnl": -12400,
+        "pnl": 5900,
         "new_buy_count": 0,
-        "sellback_count": 3,
+        "sellback_count": 2,
         "new_buy": [],
         "sellback": [
           {
-            "code": "4368",
-            "name": "扶桑化学工業",
+            "code": "6632",
+            "name": "ＪＶＣケンウッド",
             "mark": "返売",
-            "close": 3355,
-            "pnl": -38500
+            "close": 1010,
+            "pnl": 1900
           },
           {
-            "code": "4587",
-            "name": "ペプチドリーム",
+            "code": "9302",
+            "name": "三井倉庫ホールディングス",
             "mark": "返売",
-            "close": 992,
-            "pnl": 3700
-          },
-          {
-            "code": "5393",
-            "name": "ニチアス",
-            "mark": "返売",
-            "close": 3502,
-            "pnl": 22400
+            "close": 3288,
+            "pnl": 4000
           }
         ]
       },
       {
         "date": "2026-08-07",
-        "pnl": -10400,
+        "pnl": 0,
         "new_buy_count": 2,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "6632",
@@ -1301,29 +1544,29 @@
             "close": 3248
           }
         ],
+        "sellback": []
+      },
+      {
+        "date": "2026-08-06",
+        "pnl": 6600,
+        "new_buy_count": 0,
+        "sellback_count": 1,
+        "new_buy": [],
         "sellback": [
           {
-            "code": "6762",
-            "name": "ＴＤＫ",
+            "code": "4516",
+            "name": "日本新薬",
             "mark": "返売",
-            "close": 2988,
-            "pnl": -10400
+            "close": 3539,
+            "pnl": 6600
           }
         ]
       },
       {
-        "date": "2026-08-06",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
-      },
-      {
         "date": "2026-08-05",
-        "pnl": 0,
+        "pnl": 14800,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 3,
         "new_buy": [
           {
             "code": "4516",
@@ -1332,13 +1575,35 @@
             "close": 3473
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 1800
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1622,
+            "pnl": 7200
+          },
+          {
+            "code": "6762",
+            "name": "ＴＤＫ",
+            "mark": "返売",
+            "close": 3150,
+            "pnl": 5800
+          }
+        ]
       },
       {
         "date": "2026-08-04",
-        "pnl": 0,
+        "pnl": 17000,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "5301",
@@ -1347,13 +1612,21 @@
             "close": 1550
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4368",
+            "name": "扶桑化学工業",
+            "mark": "返売",
+            "close": 3910,
+            "pnl": 17000
+          }
+        ]
       },
       {
         "date": "2026-08-03",
-        "pnl": -4800,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "4368",
@@ -1374,15 +1647,7 @@
             "close": 3092
           }
         ],
-        "sellback": [
-          {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
-            "mark": "返売",
-            "close": 1641,
-            "pnl": -4800
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-07-31",
@@ -1394,85 +1659,56 @@
       },
       {
         "date": "2026-07-30",
-        "pnl": -6100,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 2,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "2264",
-            "name": "森永乳業",
-            "mark": "返売",
-            "close": 1261,
-            "pnl": 5700
-          },
-          {
-            "code": "5301",
-            "name": "東海カーボン",
-            "mark": "返売",
-            "close": 1528,
-            "pnl": -11800
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-07-29",
-        "pnl": -25900,
+        "pnl": -27500,
         "new_buy_count": 0,
-        "sellback_count": 3,
+        "sellback_count": 1,
         "new_buy": [],
         "sellback": [
-          {
-            "code": "2871",
-            "name": "ニチレイ",
-            "mark": "返売",
-            "close": 2354,
-            "pnl": 21900
-          },
           {
             "code": "3186",
             "name": "ネクステージ",
             "mark": "返売",
             "close": 3315,
             "pnl": -27500
-          },
-          {
-            "code": "5471",
-            "name": "大同特殊鋼",
-            "mark": "返売",
-            "close": 2159,
-            "pnl": -20300
           }
         ]
       },
       {
         "date": "2026-07-28",
-        "pnl": -51700,
+        "pnl": -30000,
         "new_buy_count": 0,
         "sellback_count": 2,
         "new_buy": [],
         "sellback": [
-          {
-            "code": "5802",
-            "name": "住友電気工業",
-            "mark": "返売",
-            "close": 2187,
-            "pnl": -21400
-          },
           {
             "code": "6479",
             "name": "ミネベアミツミ",
             "mark": "返売",
             "close": 3668,
             "pnl": -30300
+          },
+          {
+            "code": "6544",
+            "name": "ジャパンエレベーターサービスホールディングス",
+            "mark": "返売",
+            "close": 1692,
+            "pnl": 300
           }
         ]
       },
       {
         "date": "2026-07-27",
-        "pnl": 7600,
+        "pnl": 0,
         "new_buy_count": 2,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "4587",
@@ -1487,37 +1723,36 @@
             "close": 1689
           }
         ],
+        "sellback": []
+      },
+      {
+        "date": "2026-07-24",
+        "pnl": 3200,
+        "new_buy_count": 0,
+        "sellback_count": 2,
+        "new_buy": [],
         "sellback": [
+          {
+            "code": "2871",
+            "name": "ニチレイ",
+            "mark": "返売",
+            "close": 2150,
+            "pnl": 1500
+          },
           {
             "code": "4088",
             "name": "エア・ウォーター",
             "mark": "返売",
-            "close": 2650,
-            "pnl": 7600
-          }
-        ]
-      },
-      {
-        "date": "2026-07-24",
-        "pnl": 5600,
-        "new_buy_count": 0,
-        "sellback_count": 1,
-        "new_buy": [],
-        "sellback": [
-          {
-            "code": "4042",
-            "name": "東ソー",
-            "mark": "返売",
-            "close": 2816,
-            "pnl": 5600
+            "close": 2591,
+            "pnl": 1700
           }
         ]
       },
       {
         "date": "2026-07-23",
-        "pnl": 0,
+        "pnl": 4000,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "6479",
@@ -1526,13 +1761,21 @@
             "close": 3971
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1244,
+            "pnl": 4000
+          }
+        ]
       },
       {
         "date": "2026-07-22",
-        "pnl": 0,
+        "pnl": 4900,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 3,
         "new_buy": [
           {
             "code": "2264",
@@ -1541,7 +1784,29 @@
             "close": 1204
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1649,
+            "pnl": 300
+          },
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "返売",
+            "close": 3311,
+            "pnl": 3300
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "返売",
+            "close": 2375,
+            "pnl": 1300
+          }
+        ]
       },
       {
         "date": "2026-07-21",
@@ -1602,9 +1867,9 @@
       },
       {
         "date": "2026-07-15",
-        "pnl": 0,
+        "pnl": 2900,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "4088",
@@ -1613,7 +1878,15 @@
             "close": 2574
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "返売",
+            "close": 2789,
+            "pnl": 2900
+          }
+        ]
       },
       {
         "date": "2026-07-14",
@@ -1640,11 +1913,19 @@
       },
       {
         "date": "2026-07-10",
-        "pnl": 0,
+        "pnl": 18100,
         "new_buy_count": 0,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "5802",
+            "name": "住友電気工業",
+            "mark": "返売",
+            "close": 2582,
+            "pnl": 18100
+          }
+        ]
       },
       {
         "date": "2026-07-09",
@@ -1788,22 +2069,137 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-06-16",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
       {
+        "date": "2026-09-10",
+        "pnl": 0,
+        "new_buy_count": 2,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "4722",
+            "name": "フューチャーアーキテクト",
+            "mark": "新買",
+            "close": 2424,
+            "quality": {
+              "code": "4722",
+              "stars": 4,
+              "background": "直近の通期決算において着実な増益トレンドが確認されているものの、材料出尽くしによる利益確定売りや市場全体の地合い悪化に伴い株価は調整局面にあります。本業であるDX推進やITコンサルティング需要は依然として旺盛であり、今回の株価下落は構造的な業績悪化ではなく一時的な需給要因によるものと分析されます。過熱感が十分に冷却されたことで、短期的な自律反発に向けた好好機が形成されつつあります。",
+              "risk_factors": [
+                "IT投資手控えやDX案件遅延による業績伸び悩みリスク",
+                "中小型ITセクター全体からの資金抜けによる軟調推移リスク",
+                "下値支持線となる2,400円を明確に下抜けた場合の下振れリスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html"
+              ],
+              "material_analysis": "通期増益の達成により好業績が裏付けられた一方、目先の株価好材料が出尽くしたことによる短期的な利確売りが先行しています。",
+              "fundamental_summary": "売上成長率9.5%、利益成長率9.0%とともに着実な拡大を継続しており、営業利益率15.64%、ROE 19.64%と極めて高い収益性を誇る優良企業です。予想PER18.1倍、PBR3.24倍というバリュエーションは、同社の高い資本効率や成長性を考慮すると過度な割高感はなく健全な水準にあります。配当利回り1.94%（配当性向33.87%）と安定した株主還元を行っており、財務の健全性も極めて高い状態です。次回決算発表まで期間があるため、決算イベント前の需給良化を背景とした短期的な値戻しが狙えるファンダメンタルズ構造となっています。",
+              "technical_view": "節目となる2,400円近辺が強力な下値支持線として意識されており、上値は直近の心理的節目である2,500円や25日移動平均線付近が主要な抵抗帯となります。",
+              "watch_points": [
+                "2,400円の節目水準における下げ止まりと底打ちの確認",
+                "25日移動平均線および2,500円台回復に向けた買戻し勢力の強さ"
+              ],
+              "valuation_view": "fair",
+              "dividend": {
+                "annual_yen": 47,
+                "yield_pct": 1.94,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 33.87
+              },
+              "earnings": {
+                "announcement_date": "2026-10-28",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Technology",
+                "industry": "Information Technology Services",
+                "per": 17.5,
+                "forward_per": 18.1,
+                "pbr": 3.24,
+                "psr": 2.73,
+                "market_cap_oku": 2150,
+                "price_yen": 2424,
+                "target_price_yen": 2467,
+                "target_upside_pct": 1.8,
+                "revenue_growth_pct": 9.5,
+                "earnings_growth_pct": 9.0,
+                "profit_margin_pct": 15.64,
+                "roe_pct": 19.64,
+                "debt_to_equity": 20.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8570",
+            "name": "イオンフィナンシャルサービス",
+            "mark": "新買",
+            "close": 1609,
+            "quality": {
+              "code": "8570",
+              "stars": 4,
+              "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
+              "risk_factors": [
+                "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
+                "国内イオングループの営業動向や個人消費の落ち込み",
+                "アナリスト平均目標株価（1,472円）までの調整リスク"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
+              ],
+              "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
+              "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
+              "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
+              "watch_points": [
+                "1,600円の主要節目ラインを終値ベースで維持できるか",
+                "カード取扱高の伸びと与信コストのコントロール状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 53,
+                "yield_pct": 3.33,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 54.25
+              },
+              "earnings": {
+                "announcement_date": "2026-10-09",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 16.5,
+                "forward_per": 12.1,
+                "pbr": 0.73,
+                "psr": 0.68,
+                "market_cap_oku": 3479,
+                "price_yen": 1612,
+                "target_price_yen": 1472,
+                "target_upside_pct": -8.7,
+                "revenue_growth_pct": 9.9,
+                "earnings_growth_pct": 15.3,
+                "profit_margin_pct": 4.13,
+                "roe_pct": 6.05
+              },
+              "shareholder_benefit": "なし"
+            }
+          }
+        ],
+        "sellback": []
+      },
+      {
         "date": "2026-09-09",
-        "pnl": -5900,
+        "pnl": 0,
         "new_buy_count": 1,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "2685",
@@ -1825,7 +2221,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 90,
-                "yield_pct": 2.81,
+                "yield_pct": 2.8,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 43.72
               },
@@ -1839,12 +2235,12 @@
                 "industry": "Apparel Manufacturing",
                 "per": 15.6,
                 "forward_per": 10.6,
-                "pbr": 1.79,
+                "pbr": 1.78,
                 "psr": 0.48,
-                "market_cap_oku": 1485,
-                "price_yen": 3220,
+                "market_cap_oku": 1481,
+                "price_yen": 3210,
                 "target_price_yen": 3490,
-                "target_upside_pct": 8.4,
+                "target_upside_pct": 8.7,
                 "revenue_growth_pct": 3.7,
                 "earnings_growth_pct": -10.5,
                 "profit_margin_pct": 2.94,
@@ -1885,21 +2281,13 @@
             }
           }
         ],
-        "sellback": [
-          {
-            "code": "7532",
-            "name": "パン・パシフィック・インターナショナルホールディングス",
-            "mark": "返売",
-            "close": 755,
-            "pnl": -5900
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-09-07",
-        "pnl": 0,
-        "new_buy_count": 2,
-        "sellback_count": 0,
+        "pnl": 5100,
+        "new_buy_count": 3,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "2264",
@@ -1929,27 +2317,26 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.24,
+                "yield_pct": 2.28,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 36.26
               },
               "earnings": {
-                "announcement_date": "2026-11-11",
+                "announcement_date": "2026-11-09",
                 "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3,
-                "is_estimate": true
+                "fiscal_month": 3
               },
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.9,
+                "per": 15.8,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.62,
-                "market_cap_oku": 3546,
-                "price_yen": 1098,
+                "psr": 0.61,
+                "market_cap_oku": 3527,
+                "price_yen": 1092,
                 "target_price_yen": 1494,
-                "target_upside_pct": 36.1,
+                "target_upside_pct": 36.8,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1961,7 +2348,7 @@
                 "source": "minkabu",
                 "kind": "自社商品",
                 "month": "9",
-                "yield_pct": "0.67",
+                "yield_pct": "0.68",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -2017,7 +2404,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.62,
+                "yield_pct": 4.59,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 23.73
               },
@@ -2031,14 +2418,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
-                "per": 6.6,
-                "forward_per": 6.2,
-                "pbr": 1.33,
-                "psr": 0.25,
-                "market_cap_oku": 1014,
-                "price_yen": 3265,
+                "per": 6.5,
+                "forward_per": 6.1,
+                "pbr": 1.31,
+                "psr": 0.24,
+                "market_cap_oku": 998,
+                "price_yen": 3215,
                 "target_price_yen": 4900,
-                "target_upside_pct": 50.1,
+                "target_upside_pct": 52.4,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -2050,7 +2437,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.59",
+                "yield_pct": "---、配当利回りは4.67",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -2108,24 +2495,59 @@
                 "text": "デジタルギフト。200株以上。権利確定3月\n【デジタルギフト（長期保有者向け）】\n・200株以上: 【1年以上保有】 2,000円相当（※2026 年９月末日を 基準日とする株主優待に限り、継続保有を２回以上連続といたします。 ■継続保有期間について ３月 31 日現在及び９月 30 日現在の株主名簿に、同一株主番号および上表の保有株式数で３回以上連続して記録された株主様といたします。）\n・300株以上: 【1年以上保有】 3,000円相当\n・400株以上: 【1年以上保有】 4,000円相当\n・500株以上: 【1年以上保有】 5,000円相当\n・600株以上: 【1年以上保有】 6,000円相当\n・700株以上: 【1年以上保有】 7,000円相当\n・800株以上: 【1年以上保有】 8,000円相当\n・900株以上: 【1年以上保有】 9,000円相当\n・1,000株以上: 【1年以上保有】 10,000円相当"
               }
             }
+          },
+          {
+            "code": "7532",
+            "name": "パン・パシフィック・インターナショナルホールディングス",
+            "mark": "新買",
+            "close": 769
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "返売",
+            "close": 2928,
+            "pnl": 5100
+          }
+        ]
       },
       {
         "date": "2026-09-04",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
+        "pnl": 8800,
+        "new_buy_count": 2,
+        "sellback_count": 2,
         "new_buy": [
           {
             "code": "2670",
             "name": "エービーシー・マート",
             "mark": "新買",
             "close": 2729
+          },
+          {
+            "code": "6141",
+            "name": "ＤＭＧ　森精機",
+            "mark": "新買",
+            "close": 2877
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "返売",
+            "close": 2318,
+            "pnl": 1300
+          },
+          {
+            "code": "6254",
+            "name": "野村マイクロ・サイエンス",
+            "mark": "返売",
+            "close": 3455,
+            "pnl": 7500
+          }
+        ]
       },
       {
         "date": "2026-09-03",
@@ -2173,14 +2595,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.2,
+                "per": 15.9,
                 "forward_per": 3.7,
-                "pbr": 1.21,
-                "psr": 0.58,
-                "market_cap_oku": 10589,
-                "price_yen": 2337,
+                "pbr": 1.19,
+                "psr": 0.57,
+                "market_cap_oku": 10396,
+                "price_yen": 2294,
                 "target_price_yen": 2669,
-                "target_upside_pct": 14.2,
+                "target_upside_pct": 16.3,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -2248,7 +2670,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 85,
-                "yield_pct": 2.54,
+                "yield_pct": 2.53,
                 "ex_date": "2026-09-29",
                 "payout_ratio_pct": 82.3
               },
@@ -2260,14 +2682,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.1,
-                "forward_per": 14.3,
-                "pbr": 3.35,
-                "psr": 2.43,
-                "market_cap_oku": 1290,
-                "price_yen": 3360,
+                "per": 33.6,
+                "forward_per": 14.1,
+                "pbr": 3.3,
+                "psr": 2.4,
+                "market_cap_oku": 1271,
+                "price_yen": 3310,
                 "target_price_yen": 5400,
-                "target_upside_pct": 60.7,
+                "target_upside_pct": 63.1,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2312,9 +2734,9 @@
       },
       {
         "date": "2026-08-20",
-        "pnl": 2700,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "1802",
@@ -2335,15 +2757,7 @@
             "close": 3384
           }
         ],
-        "sellback": [
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "返売",
-            "close": 891,
-            "pnl": 2700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-12",
@@ -2376,9 +2790,9 @@
       },
       {
         "date": "2026-08-07",
-        "pnl": -10400,
+        "pnl": 0,
         "new_buy_count": 2,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "6632",
@@ -2393,21 +2807,13 @@
             "close": 3248
           }
         ],
-        "sellback": [
-          {
-            "code": "6762",
-            "name": "ＴＤＫ",
-            "mark": "返売",
-            "close": 2988,
-            "pnl": -10400
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-05",
-        "pnl": 0,
+        "pnl": 14800,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 3,
         "new_buy": [
           {
             "code": "4516",
@@ -2416,13 +2822,35 @@
             "close": 3473
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4587",
+            "name": "ペプチドリーム",
+            "mark": "返売",
+            "close": 973,
+            "pnl": 1800
+          },
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1622,
+            "pnl": 7200
+          },
+          {
+            "code": "6762",
+            "name": "ＴＤＫ",
+            "mark": "返売",
+            "close": 3150,
+            "pnl": 5800
+          }
+        ]
       },
       {
         "date": "2026-08-04",
-        "pnl": 0,
+        "pnl": 17000,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "5301",
@@ -2431,13 +2859,21 @@
             "close": 1550
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4368",
+            "name": "扶桑化学工業",
+            "mark": "返売",
+            "close": 3910,
+            "pnl": 17000
+          }
+        ]
       },
       {
         "date": "2026-08-03",
-        "pnl": -4800,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "4368",
@@ -2458,21 +2894,13 @@
             "close": 3092
           }
         ],
-        "sellback": [
-          {
-            "code": "6544",
-            "name": "ジャパンエレベーターサービスホールディングス",
-            "mark": "返売",
-            "close": 1641,
-            "pnl": -4800
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-07-27",
-        "pnl": 7600,
+        "pnl": 0,
         "new_buy_count": 2,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "4587",
@@ -2487,21 +2915,13 @@
             "close": 1689
           }
         ],
-        "sellback": [
-          {
-            "code": "4088",
-            "name": "エア・ウォーター",
-            "mark": "返売",
-            "close": 2650,
-            "pnl": 7600
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-07-23",
-        "pnl": 0,
+        "pnl": 4000,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "6479",
@@ -2510,13 +2930,21 @@
             "close": 3971
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "2264",
+            "name": "森永乳業",
+            "mark": "返売",
+            "close": 1244,
+            "pnl": 4000
+          }
+        ]
       },
       {
         "date": "2026-07-22",
-        "pnl": 0,
+        "pnl": 4900,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 3,
         "new_buy": [
           {
             "code": "2264",
@@ -2525,7 +2953,29 @@
             "close": 1204
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "5301",
+            "name": "東海カーボン",
+            "mark": "返売",
+            "close": 1649,
+            "pnl": 300
+          },
+          {
+            "code": "5393",
+            "name": "ニチアス",
+            "mark": "返売",
+            "close": 3311,
+            "pnl": 3300
+          },
+          {
+            "code": "5471",
+            "name": "大同特殊鋼",
+            "mark": "返売",
+            "close": 2375,
+            "pnl": 1300
+          }
+        ]
       },
       {
         "date": "2026-07-21",
@@ -2586,9 +3036,9 @@
       },
       {
         "date": "2026-07-15",
-        "pnl": 0,
+        "pnl": 2900,
         "new_buy_count": 1,
-        "sellback_count": 0,
+        "sellback_count": 1,
         "new_buy": [
           {
             "code": "4088",
@@ -2597,7 +3047,15 @@
             "close": 2574
           }
         ],
-        "sellback": []
+        "sellback": [
+          {
+            "code": "4042",
+            "name": "東ソー",
+            "mark": "返売",
+            "close": 2789,
+            "pnl": 2900
+          }
+        ]
       },
       {
         "date": "2026-07-14",
@@ -2640,162 +3098,118 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -3.22,
-    "new_buy_count": 1,
+    "market_return_20d": -3.93,
+    "new_buy_count": 2,
     "exit_rsi": 70.0,
     "etf_rsi": {
-      "1321": 45.23,
-      "1306": 29.9
+      "1321": 42.71,
+      "1306": 28.11
     },
-    "active_rsi": 29.9,
+    "active_rsi": 28.11,
     "signal": null
   },
   "quality": {
-    "2685": {
-      "code": "2685",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+    "4722": {
+      "code": "4722",
+      "stars": 4,
+      "background": "直近の通期決算において着実な増益トレンドが確認されているものの、材料出尽くしによる利益確定売りや市場全体の地合い悪化に伴い株価は調整局面にあります。本業であるDX推進やITコンサルティング需要は依然として旺盛であり、今回の株価下落は構造的な業績悪化ではなく一時的な需給要因によるものと分析されます。過熱感が十分に冷却されたことで、短期的な自律反発に向けた好好機が形成されつつあります。",
       "risk_factors": [
-        "評価失敗"
+        "IT投資手控えやDX案件遅延による業績伸び悩みリスク",
+        "中小型ITセクター全体からの資金抜けによる軟調推移リスク",
+        "下値支持線となる2,400円を明確に下抜けた場合の下振れリスク"
       ],
-      "confidence": "low",
+      "confidence": "high",
       "sources": [
-        "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-faces-100750601.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-        "{'url': 'https://finance.yahoo.com/markets/stocks/articles/st-hdltd-tse-2685-could-071532618.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
+        "https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html"
       ],
-      "valuation_view": "unknown",
+      "material_analysis": "通期増益の達成により好業績が裏付けられた一方、目先の株価好材料が出尽くしたことによる短期的な利確売りが先行しています。",
+      "fundamental_summary": "売上成長率9.5%、利益成長率9.0%とともに着実な拡大を継続しており、営業利益率15.64%、ROE 19.64%と極めて高い収益性を誇る優良企業です。予想PER18.1倍、PBR3.24倍というバリュエーションは、同社の高い資本効率や成長性を考慮すると過度な割高感はなく健全な水準にあります。配当利回り1.94%（配当性向33.87%）と安定した株主還元を行っており、財務の健全性も極めて高い状態です。次回決算発表まで期間があるため、決算イベント前の需給良化を背景とした短期的な値戻しが狙えるファンダメンタルズ構造となっています。",
+      "technical_view": "節目となる2,400円近辺が強力な下値支持線として意識されており、上値は直近の心理的節目である2,500円や25日移動平均線付近が主要な抵抗帯となります。",
+      "watch_points": [
+        "2,400円の節目水準における下げ止まりと底打ちの確認",
+        "25日移動平均線および2,500円台回復に向けた買戻し勢力の強さ"
+      ],
+      "valuation_view": "fair",
       "dividend": {
-        "annual_yen": 90,
-        "yield_pct": 2.81,
-        "ex_date": "2027-02-25",
-        "payout_ratio_pct": 43.72
+        "annual_yen": 47,
+        "yield_pct": 1.94,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 33.87
       },
       "earnings": {
-        "announcement_date": "2026-09-30",
+        "announcement_date": "2026-10-28",
+        "fiscal_year_end": "2026-12-31",
+        "fiscal_month": 12,
+        "is_estimate": true
+      },
+      "valuation": {
+        "sector": "Technology",
+        "industry": "Information Technology Services",
+        "per": 17.5,
+        "forward_per": 18.1,
+        "pbr": 3.24,
+        "psr": 2.73,
+        "market_cap_oku": 2150,
+        "price_yen": 2424,
+        "target_price_yen": 2467,
+        "target_upside_pct": 1.8,
+        "revenue_growth_pct": 9.5,
+        "earnings_growth_pct": 9.0,
+        "profit_margin_pct": 15.64,
+        "roe_pct": 19.64,
+        "debt_to_equity": 20.4
+      },
+      "shareholder_benefit": "なし"
+    },
+    "8570": {
+      "code": "8570",
+      "stars": 4,
+      "background": "直近の株価下落は企業の個別悪材料によるものではなく、市場全体の地合い悪化や過熱感を冷ます短期的な利益確定売りに起因しています。イオン経済圏を背景としたリテール金融事業は堅調に推移しており、業績面に対する過度な警戒感から足元で売られ過ぎの局面を迎えています。",
+      "risk_factors": [
+        "海外（マレーシア等）子会社における与信費用（貸倒引当金）の増加リスク",
+        "国内イオングループの営業動向や個人消費の落ち込み",
+        "アナリスト平均目標株価（1,472円）までの調整リスク"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://finance.yahoo.com/news/public-companies-account-63-aeon-044051747.html"
+      ],
+      "material_analysis": "直近では子会社の所有構造に関する情報が出ている程度で、不祥事や業績下方修正などの構造的悪材料は存在しません。",
+      "fundamental_summary": "売上成長率9.9%、利益成長率15.3%と今期の業績は堅調な伸びを見せています。予想PER12.1倍、PBR0.73倍と解散価値を大幅に下回る水準にあり、バリュエーション面の割安感は極めて顕著です。また、配当利回りは3.33%（年間53円）と高く、配当性向も54.25%と還元姿勢が維持されているため株価の下値支持力となります。次回決算発表までは期間があり、現在の株価水準は企業の稼ぐ力に対して過小評価されていると判断できます。",
+      "technical_view": "終値1,609円は節目となる1,600円の心理的サポーライン直上に位置しており、下げ渋りから反発に転じやすい位置関係にあります。上値の抵抗帯としては移動平均線が位置する1,650円〜1,700円近辺が意識されますが、下値の硬さが確認できればリバウンドを狙いやすいチャート形状です。",
+      "watch_points": [
+        "1,600円の主要節目ラインを終値ベースで維持できるか",
+        "カード取扱高の伸びと与信コストのコントロール状況"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 53,
+        "yield_pct": 3.33,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 54.25
+      },
+      "earnings": {
+        "announcement_date": "2026-10-09",
         "fiscal_year_end": "2027-02-28",
         "fiscal_month": 2
       },
       "valuation": {
-        "sector": "Consumer Cyclical",
-        "industry": "Apparel Manufacturing",
-        "per": 15.6,
-        "forward_per": 10.6,
-        "pbr": 1.79,
-        "psr": 0.48,
-        "market_cap_oku": 1485,
-        "price_yen": 3220,
-        "target_price_yen": 3490,
-        "target_upside_pct": 8.4,
-        "revenue_growth_pct": 3.7,
-        "earnings_growth_pct": -10.5,
-        "profit_margin_pct": 2.94,
-        "roe_pct": 11.17,
-        "debt_to_equity": 7.2
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "per": 16.5,
+        "forward_per": 12.1,
+        "pbr": 0.73,
+        "psr": 0.68,
+        "market_cap_oku": 3478,
+        "price_yen": 1611,
+        "target_price_yen": 1472,
+        "target_upside_pct": -8.6,
+        "revenue_growth_pct": 9.9,
+        "earnings_growth_pct": 15.3,
+        "profit_margin_pct": 4.13,
+        "roe_pct": 6.05
       },
-      "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "min_shares": 100,
-        "kind": "買物優待券 美容・ファッション",
-        "month": "2",
-        "programs": [
-          {
-            "title": "自社店舗商品引換券※2026年2月末日より実施",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
-                "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
-              },
-              {
-                "shares": "500株以上",
-                "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
-                "note": ""
-              },
-              {
-                "shares": "1,000株以上",
-                "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-        "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
-      }
-    },
-    "7532": {
-      "code": "7532",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [
-        "{'url': 'https://finance.yahoo.com/news/memory-chipmaker-kioxia-retail-operator-083758720.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-        "{'url': 'https://finance.yahoo.com/news/pan-pacific-international-holdings-tse-120226619.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
-      ],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 10,
-        "yield_pct": 1.29,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 25.88
-      },
-      "earnings": {
-        "announcement_date": "2026-11-12",
-        "fiscal_year_end": "2027-06-30",
-        "fiscal_month": 6
-      },
-      "valuation": {
-        "sector": "Consumer Defensive",
-        "industry": "Discount Stores",
-        "per": 20.6,
-        "forward_per": 4.3,
-        "pbr": 3.2,
-        "psr": 0.92,
-        "peg": 2.75,
-        "market_cap_oku": 22588,
-        "price_yen": 756,
-        "target_price_yen": 1052,
-        "target_upside_pct": 39.2,
-        "profit_margin_pct": 4.5,
-        "roe_pct": 16.48,
-        "debt_to_equity": 48.5
-      },
-      "shareholder_benefit": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社グループ電子マネー・ポイント",
-        "month": "6",
-        "yield_pct": "0.77",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "自社グループ電子マネー「majica」・ポイント",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "300ポイント （年間　600ポイント）",
-                "note": "※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。"
-              },
-              {
-                "shares": "300株以上",
-                "content": "1,000ポイント （年間　2,000ポイント）",
-                "note": ""
-              },
-              {
-                "shares": "500株以上",
-                "content": "2,000ポイント （年間　4,000ポイント）",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "自社グループ電子マネー・ポイント。100株以上。権利確定6月。",
-        "text": "自社グループ電子マネー・ポイント。100株以上。権利確定6月\n【自社グループ電子マネー「majica」・ポイント】\n・100株以上: 300ポイント （年間　600ポイント）（※1ポイント＝1円 ・国内のPPIHグループ店舗（ドン・キホーテ、MEGAドン・キホーテ、アピタ、ピアゴ等。一部店舗除く。）で利用できる電子マネー。 ※スマートフォンに「majicaアプリ」をインストールする必要があります。 ■贈呈時期 毎年の配当金の効力発生タイミングである9月末（期末配当金）、3月下旬（第2四半期配当金）に、配当金関係書類等に同封する形で、ポイントの取得方法をお届けします。）\n・300株以上: 1,000ポイント （年間　2,000ポイント）\n・500株以上: 2,000ポイント （年間　4,000ポイント）"
-      }
+      "shareholder_benefit": "なし"
     }
   },
   "runtime": {
