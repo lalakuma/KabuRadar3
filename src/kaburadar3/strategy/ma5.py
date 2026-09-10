@@ -37,6 +37,20 @@ def rally_above_ma5(close: float, sma5: float, rally_pct: float) -> bool:
     return close > sma5 * (1 + rally_pct / 100.0)
 
 
+def closed_below_ma5(close: float, sma5: float) -> bool:
+    """終値が前日確定5日線を下回ったか（MA5上エントリーの撤退用）."""
+    if sma5 <= 0 or math.isnan(sma5) or math.isnan(close):
+        return False
+    return close < sma5
+
+
+def entry_above_ma5(buy_price: float, sma5_prev: float) -> bool:
+    """エントリー価格が前日確定5日線より上か."""
+    if buy_price <= 0 or sma5_prev <= 0 or math.isnan(sma5_prev):
+        return False
+    return buy_price > sma5_prev
+
+
 def near_ma5(close: float, low: float, sma5: float, proximity_pct: float) -> bool:
     """終値または安値が5日線の近傍帯に入ったか（押し目モード用）."""
     if sma5 <= 0 or math.isnan(sma5):

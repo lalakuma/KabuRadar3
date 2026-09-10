@@ -51,15 +51,19 @@ def infer_exit_reason(
     ma5_exit_mode: str = "offset",
     ma5_offset_pct: float = -1.0,
     ma5_proximity_pct: float = 1.5,
+    entry_above_ma5: bool = False,
 ) -> str:
     exit_close = float(exit_row["close"])
     pct = (exit_close - buy_price) / buy_price * 100.0 if buy_price else 0.0
     rsi4 = float(exit_row.get("RSI4", 0) or 0)
+    sma5_prev = float(exit_row.get("SMA5_PREV", exit_row.get("SMA5", 0)) or 0)
     if pct <= -stop_pct + 0.05:
         return "損切り"
     if hold_days >= sell_period:
         return "100日"
-    if ma5_exit:
+    if entry_above_ma5 and sma5_prev > 0 and exit_close < sma5_prev:
+        return "MA5割れ"
+    if ma5_exit and not entry_above_ma5:
         from kaburadar3.strategy.ma5 import (
             MA5_MODE_BAND,
             MA5_MODE_OFFSET,
@@ -118,16 +122,21 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
         conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_PROXIMITY_PCT, default="1.5")
     )
 
+    split_entry = int(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_MA5_SPLIT_BY_ENTRY, default="0"))
+
     trades: list[dict[str, Any]] = []
     entry_date: date | None = None
     buy_price = 0.0
     hold_days = 0
+    entry_above = False
 
     for idx, row in outdf.iterrows():
         mark = str(row.get("mark", ""))
         if mark == "新買":
             entry_date = row_date(row, idx)
             buy_price = float(row["close"])
+            sma5p = float(row.get("SMA5_PREV", row.get("SMA5", 0)) or 0)
+            entry_above = split_entry and buy_price > sma5p if sma5p > 0 else False
             hold_days = 0
         elif mark == "継続" and entry_date is not None:
             hold_days += 1
@@ -145,6 +154,7 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
                     "gain": gain,
                     "hold_days": hold_days,
                     "closed": True,
+                    "entry_above_ma5": entry_above,
                     "exit_reason": infer_exit_reason(
                         buy_price,
                         row,
@@ -157,6 +167,7 @@ def extract_trades_from_outdf(code: str, outdf: Any) -> list[dict[str, Any]]:
                         ma5_exit_mode=ma5_mode,
                         ma5_offset_pct=ma5_offset,
                         ma5_proximity_pct=ma5_proximity,
+                        entry_above_ma5=entry_above,
                     ),
                 }
             )

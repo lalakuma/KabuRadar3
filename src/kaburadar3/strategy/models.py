@@ -103,6 +103,7 @@ class TradeInfo:
     rsi60_reached = False
     rsi10_reached = False
     ma5_rally_seen = False
+    entry_above_ma5 = False
 
 
 class Judge:
@@ -160,4 +161,7 @@ class Judge:
         self.ma5_rally_pct = float(conf.get_config(scrsec, conf.CONF_KEY_SCR_MA5_RALLY_PCT, default="1.0"))
         self.ma5_min_bars = int(conf.get_config(scrsec, conf.CONF_KEY_SCR_MA5_MIN_BARS, default="1"))
         self.ma5_profit_only = int(conf.get_config(scrsec, conf.CONF_KEY_SCR_MA5_PROFIT_ONLY, default="1"))
+        self.ma5_split_by_entry = int(
+            conf.get_config(scrsec, conf.CONF_KEY_SCR_MA5_SPLIT_BY_ENTRY, default="0")
+        )
         apply_exit_profile_to_judge(self)

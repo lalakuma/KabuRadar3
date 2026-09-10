@@ -222,8 +222,28 @@ def _ma5_exit_hit(cp, ti, jg, cnt_buyholddays: int) -> bool:
     return tc_ma5.high_reached_ma5_offset(cp.i_high, sma5, jg.ma5_offset_pct)
 
 
+def _buy_exit_signal_above_ma5(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
+    """MA5上エントリー: MA5割れ撤退・RSI60利確（RCI保持なし）."""
+    if jg.jdg_stop_loss and ti.buy_price > 0:
+        pct = (cp.i_close - ti.buy_price) / ti.buy_price * 100.0
+        if pct <= -jg.stop_loss_pct:
+            return True, cp.i_close
+    sma5 = _ma5_ref(cp)
+    if sma5 > 0 and tc_ma5.closed_below_ma5(cp.i_close, sma5):
+        return True, cp.i_close
+    if tc_rsi.jdg_rsi_shortkessai(ti.sb_mode, bkdf, Prm.srsi_hi, Prm.srsi_low):
+        return True, cp.i_close
+    if Prm.sell_period == -1:
+        return True, cp.i_open
+    if cnt_buyholddays >= Prm.sell_period:
+        return True, cp.i_close
+    return False, cp.i_close
+
+
 def _buy_exit_signal(cp, ti, jg, bkdf, Prm, cnt_buyholddays) -> tuple[bool, int]:
     """買いポジションの決済判定。(決済するか, 決済価格)"""
+    if jg.ma5_split_by_entry and ti.entry_above_ma5:
+        return _buy_exit_signal_above_ma5(cp, ti, jg, bkdf, Prm, cnt_buyholddays)
     if jg.jdg_stop_loss and ti.buy_price > 0:
         pct = (cp.i_close - ti.buy_price) / ti.buy_price * 100.0
         if pct <= -jg.stop_loss_pct:
@@ -351,6 +371,7 @@ def kessai_proc(cp, ti, jg, bkdf, Prm, row, idx_date, lastidx_bk, cnt_buyholdday
             ti.rsi60_reached = False
             ti.rsi10_reached = False
             ti.ma5_rally_seen = False
+            ti.entry_above_ma5 = False
             cnt_buyholddays = 0
             print(cp.code, ":", str(idx_date.date()), "返売", str(diff))
             if buygain > 0:
@@ -447,6 +468,8 @@ def entry_proc(cp, ti, lst_codes, bkdf, lastidx_bk, idx_date, ent_timing):
             bkdf.loc[lastidx_bk, "buy"] = ti.buy_pos
             if ti.buy_price == 0:
                 ti.buy_price = cp.i_close if ent_timing == 0 else cp.i_open
+            ti.entry_above_ma5 = tc_ma5.entry_above_ma5(ti.buy_price, _ma5_ref(cp))
+            ti.ma5_rally_seen = False
         bkdf.loc[lastidx_bk, "mark"] = strtrd
         add_entry_list(cp, lst_codes, idx_date, strtrd, ti.buy_price)
     else:
