@@ -24,7 +24,7 @@ from kaburadar3.strategy.models import KabInf
 
 PAST_DAYS = 3650
 EXCLUDE = {"2020"}
-CACHE_DIR = ROOT / "output" / "optimize" / "ma5_grid"
+CACHE_DIR = ROOT / "output" / "optimize" / "ma5_grid_prev"
 
 OFFSETS_FINE = [round(x * 0.25, 2) for x in range(-12, 9)]  # -3.0 .. +2.0
 OFFSETS_QUICK = [round(x * 0.5, 1) for x in range(-6, 5)]  # -3.0 .. +2.0 step 0.5
