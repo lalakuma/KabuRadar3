@@ -25,13 +25,15 @@ from kaburadar3.strategy.models import KabInf
 PAST_DAYS = 3650
 EXCLUDE = {"2020"}
 CACHE = ROOT / "output" / "optimize" / "trades_ma5_split_entry.json"
+CACHE_HONEST = ROOT / "output" / "optimize" / "trades_ma5_split_profit0.json"
 
 
-def patch(text: str, *, split: int) -> str:
+def patch(text: str, *, split: int, profit_only: int) -> str:
     text = patch_config_past_period(text, PAST_DAYS)
     text = re.sub(r"SCR_MA5_SPLIT_BY_ENTRY\s*=\s*\d+", f"SCR_MA5_SPLIT_BY_ENTRY = {split}", text)
     if "SCR_MA5_SPLIT_BY_ENTRY" not in text:
         text = text.replace("SCR_MA5_PROFIT_ONLY = 1", "SCR_MA5_PROFIT_ONLY = 1\nSCR_MA5_SPLIT_BY_ENTRY = 1")
+    text = re.sub(r"SCR_MA5_PROFIT_ONLY\s*=\s*\d+", f"SCR_MA5_PROFIT_ONLY = {profit_only}", text)
     text = re.sub(r"SCR_MA5_OFFSET_PCT\s*=\s*[\d.-]+", "SCR_MA5_OFFSET_PCT = -2.0", text)
     text = re.sub(r"SCR_RSI60_HOLD_RCI_UP\s*=\s*\d+", "SCR_RSI60_HOLD_RCI_UP = 1", text)
     return text
@@ -63,12 +65,12 @@ def stats(trades: list[dict], *, above_only: bool | None = None) -> dict:
     }
 
 
-def run_backtest(*, split: int) -> list[dict]:
-    cache = CACHE if split else ROOT / "output" / "optimize" / "trades_ma5_split_off.json"
+def run_backtest(*, split: int, profit_only: int = 1) -> list[dict]:
+    cache = CACHE_HONEST if profit_only == 0 else CACHE if split else ROOT / "output" / "optimize" / "trades_ma5_split_off.json"
     if split and cache.is_file():
         return json.loads(cache.read_text(encoding="utf-8"))
     base = (ROOT / "config" / "config_lo.ini").read_text(encoding="utf-8")
-    text = patch(base, split=split)
+    text = patch(base, split=split, profit_only=profit_only)
     tmp = Path(tempfile.mkdtemp(prefix="kaburadar3-split-"))
     cfg = tmp / "config_lo.ini"
     cfg.write_text(text, encoding="utf-8")
@@ -101,25 +103,31 @@ def run_backtest(*, split: int) -> list[dict]:
     return trades
 
 
-def main() -> int:
-    print("running 分割ルールON...", flush=True)
-    split_on = run_backtest(split=1)
-    a = stats(split_on, above_only=True)
-    b = stats(split_on, above_only=False)
-    c = stats(split_on)
-
-    print("\n=== エントリー位置別バックテスト（2020除） ===")
+def _print_block(trades: list[dict], *, title: str) -> None:
+    a = stats(trades, above_only=True)
+    b = stats(trades, above_only=False)
+    c = stats(trades)
+    print(f"\n=== {title}（2020除） ===")
     print("【MA5上】MA5割れ撤退 + RSI60利確")
     print(f"  取引{a['n']}  勝率{a['win']}%  損益{a['total']:+,}  PF{a['pf']}")
     print(f"  決済内訳: {a['reasons']}")
     print(f"  勝中央{a['med_w']:+,}  負中央{a['med_l']:+,}")
-
-    print("\n【MA5下】MA5接近利確(profit_only) + 現行RSI60/RCI")
+    print("【MA5下】MA5接近利確 + RSI60/RCI")
     print(f"  取引{b['n']}  勝率{b['win']}%  損益{b['total']:+,}  PF{b['pf']}")
     print(f"  決済内訳: {b['reasons']}")
-
-    print("\n【合算】")
+    print(f"  勝中央{b['med_w']:+,}  負中央{b['med_l']:+,}")
+    print("【合算】")
     print(f"  取引{c['n']}  勝率{c['win']}%  損益{c['total']:+,}  PF{c['pf']}")
+
+
+def main() -> int:
+    print("running 正直版 profit_only=0 ...", flush=True)
+    honest = run_backtest(split=1, profit_only=0)
+    _print_block(honest, title="分割ルール・正直版（profit_only=0）")
+    print(
+        "\n※ profit_only=1 の88%台勝率は「引けプラスの日だけMA5決済」"
+        "のフィルタで水増し。比較・採用判断には使わない。"
+    )
     return 0
 
 
