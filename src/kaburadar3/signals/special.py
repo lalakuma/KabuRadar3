@@ -32,14 +32,14 @@ DEFAULT_STATE: dict[str, Any] = {
 
 
 def evaluate_routing(
-    new_buy_count: int,
+    breadth_count: int,
     market_return_20d: float | None,
     runtime: RuntimeConfig,
 ) -> str:
-    """8件以上かつ地合20日>=閾値なら ETF、それ以外は個別株."""
+    """RSI売られすぎ件数が閾値以上かつ地合20日>=閾値なら ETF、それ以外は個別株."""
     if not runtime.special_buy_enabled:
         return ROUTING_STOCKS
-    if new_buy_count < runtime.min_new_buy_count:
+    if breadth_count < runtime.min_new_buy_count:
         return ROUTING_STOCKS
     if market_return_20d is None or market_return_20d >= runtime.market_regime_min_pct:
         return ROUTING_ETF
@@ -104,9 +104,11 @@ def _market_return_20d(
 
 def apply_special_buy(
     trade_date: str | None,
-    new_buy_count: int,
+    breadth_count: int,
     runtime: RuntimeConfig,
     state_path: Path | None = None,
+    *,
+    confirmed_new_buy_count: int | None = None,
 ) -> tuple[dict, dict, list[str]]:
     """特別買いロジックを適用し、(web用dict, 保存state, LINE行) を返す。"""
     state = load_special_state(state_path)
@@ -131,7 +133,8 @@ def apply_special_buy(
         finally:
             db.close_db(conn)
 
-    routing = evaluate_routing(new_buy_count, market_return_20d, runtime)
+    confirmed = confirmed_new_buy_count if confirmed_new_buy_count is not None else breadth_count
+    routing = evaluate_routing(breadth_count, market_return_20d, runtime)
     active_etf = state.get("etf") or runtime.etf_default
     current_rsi = etf_rsi.get(active_etf)
     day_signal: str | None = None
@@ -153,7 +156,7 @@ def apply_special_buy(
         day_signal = "buy"
         if runtime.notify_special_buy_on and state.get("last_special_buy_notify") != trade_date:
             lines.append(
-                f"【ETF推奨】新買 {new_buy_count}件 / 地合{runtime.market_regime_lookback_days}日 {mkt_text}"
+                f"【ETF推奨】RSI10未満 {breadth_count}件 / 地合{runtime.market_regime_lookback_days}日 {mkt_text}"
             )
             lines.append(
                 f"ETF {runtime.etf_default}（東証指数）— 個別株は本日見送り"
@@ -162,13 +165,13 @@ def apply_special_buy(
 
     elif (
         routing == ROUTING_STOCKS
-        and new_buy_count >= runtime.min_new_buy_count
+        and breadth_count >= runtime.min_new_buy_count
         and trade_date
         and runtime.notify_special_buy_on
         and state.get("last_special_buy_notify") != trade_date
     ):
         lines.append(
-            f"【個別推奨】新買 {new_buy_count}件 / 地合{runtime.market_regime_lookback_days}日 {mkt_text}"
+            f"【個別推奨】RSI10未満 {breadth_count}件 / 地合{runtime.market_regime_lookback_days}日 {mkt_text}"
         )
         lines.append(
             f"地合 < {runtime.market_regime_min_pct:g}% のため ETF ではなく個別1〜2銘柄"
@@ -201,7 +204,8 @@ def apply_special_buy(
         "market_regime_min_pct": runtime.market_regime_min_pct,
         "market_regime_lookback_days": runtime.market_regime_lookback_days,
         "market_return_20d": round(market_return_20d, 2) if market_return_20d is not None else None,
-        "new_buy_count": new_buy_count,
+        "new_buy_count": confirmed,
+        "rsi_oversold_count": breadth_count,
         "exit_rsi": runtime.exit_rsi,
         "etf_rsi": {k: (round(v, 2) if v is not None else None) for k, v in etf_rsi.items()},
         "active_rsi": round(current_rsi, 2) if current_rsi is not None else None,

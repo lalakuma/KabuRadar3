@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from kaburadar3.settings.encoding import CSV_ENCODING
+from kaburadar3.settings.encoding import CSV_ENCODING, read_csv
 from kaburadar3.signals.today import collect_today_signals
 
 
@@ -63,6 +63,45 @@ def test_ignores_historical_new_buy_when_last_row_is_hold(tmp_path: Path) -> Non
     assert result["trade_date"] == "2026-06-02"
     assert result["new_buy_count"] == 0
     assert result["sellback"][0]["code"] == "2000"
+
+
+def test_rsi_oversold_count_includes_non_new_buy(tmp_path: Path) -> None:
+    _write_code_csv(
+        tmp_path / "code1000_rsi.csv",
+        "1000",
+        [
+            ("2026-06-02", "継続", 1010),
+        ],
+    )
+    df = read_csv(tmp_path / "code1000_rsi.csv")
+    df["RSI4"] = [5.0]
+    df.to_csv(tmp_path / "code1000_rsi.csv", index=False, encoding=CSV_ENCODING)
+
+    _write_code_csv(
+        tmp_path / "code2000_rsi.csv",
+        "2000",
+        [
+            ("2026-06-02", "新買", 2000),
+        ],
+    )
+    df2 = read_csv(tmp_path / "code2000_rsi.csv")
+    df2["RSI4"] = [8.0]
+    df2.to_csv(tmp_path / "code2000_rsi.csv", index=False, encoding=CSV_ENCODING)
+
+    _write_code_csv(
+        tmp_path / "code3000_rsi.csv",
+        "3000",
+        [
+            ("2026-06-02", "継続", 3000),
+        ],
+    )
+    df3 = read_csv(tmp_path / "code3000_rsi.csv")
+    df3["RSI4"] = [20.0]
+    df3.to_csv(tmp_path / "code3000_rsi.csv", index=False, encoding=CSV_ENCODING)
+
+    result = collect_today_signals(tmp_path)
+    assert result["new_buy_count"] == 1
+    assert result["rsi_oversold_count"] == 2
 
 
 def test_ignores_zero_close(tmp_path: Path) -> None:

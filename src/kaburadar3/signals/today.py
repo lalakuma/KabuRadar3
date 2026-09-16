@@ -7,8 +7,10 @@ from pathlib import Path
 
 import pandas as pd
 
+from kaburadar3.settings import screening as conf
 from kaburadar3.settings.encoding import read_csv
 from kaburadar3.strategy import rci as tc_rci
+from kaburadar3.strategy import rsi as tc_rsi
 
 MARK_NEW_BUY = "新買"
 MARK_SELLBACK = "返売"
@@ -21,6 +23,27 @@ def _row_trade_date(row: pd.Series, idx: object) -> pd.Timestamp | None:
     if isinstance(idx, pd.Timestamp):
         return idx.normalize()
     return None
+
+
+def _rsi_oversold_threshold() -> float:
+    return float(conf.get_config(conf.CONF_SEC_SCR, conf.CONF_KEY_SCR_SRSI_LOW, default="10"))
+
+
+def _attach_indicators(df: pd.DataFrame) -> pd.DataFrame:
+    """RSI4 / RCI9 を付与（CSV に無ければ close から計算）."""
+    out = df.copy()
+    if "RSI4" not in out.columns and "close" in out.columns:
+        work = out.copy()
+        work["_dt"] = pd.to_datetime(work.get("Index", work.index), errors="coerce")
+        work = work.dropna(subset=["_dt", "close"]).sort_values("_dt")
+        wt = work.set_index("_dt")
+        for col in ("open", "high", "low"):
+            if col not in wt.columns:
+                wt[col] = wt["close"]
+        wt = tc_rsi.rsi_tradingview(wt, period=4)
+        out["RSI4"] = None
+        out.loc[work.index, "RSI4"] = wt["RSI4"].values
+    return tc_rci.attach_rci(out, period=9)
 
 
 def _parse_close(row: pd.Series) -> float | None:
@@ -43,7 +66,7 @@ def _read_code_last_row(path: Path) -> tuple[str, pd.Timestamp | None, str, floa
         return None
     code = match.group(1)
     if "close" in df.columns:
-        df = tc_rci.attach_rci(df, period=9)
+        df = _attach_indicators(df)
     last = df.iloc[-1]
     mark = str(last.get("mark", "")).strip()
     dt = _row_trade_date(last, df.index[-1])
@@ -82,6 +105,7 @@ def collect_today_signals(
             "new_buy": [],
             "sellback": [],
             "new_buy_count": 0,
+            "rsi_oversold_count": 0,
         }
 
     trade_date = max(trade_dates)
@@ -105,9 +129,15 @@ def collect_today_signals(
 
     new_buy: list[dict] = []
     sellback: list[dict] = []
+    rsi_oversold_count = 0
+    rsi_threshold = _rsi_oversold_threshold()
     for code, dt, mark, close, extras in last_rows:
         if dt != trade_date:
             continue
+        if close is not None:
+            rsi = extras.get("rsi")
+            if rsi is not None and rsi < rsi_threshold:
+                rsi_oversold_count += 1
         if mark == MARK_NEW_BUY and close is not None:
             new_buy.append(_to_item(code, mark, close, extras))
         elif mark == MARK_SELLBACK and close is not None:
@@ -120,4 +150,5 @@ def collect_today_signals(
         "new_buy": new_buy,
         "sellback": sellback,
         "new_buy_count": len(new_buy),
+        "rsi_oversold_count": rsi_oversold_count,
     }

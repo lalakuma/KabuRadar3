@@ -108,8 +108,9 @@ def build_payload() -> dict:
     daily = collect_daily_history(RESULTS_DIR, name_map)
     special, _state, special_lines = apply_special_buy(
         today.get("trade_date"),
-        int(today.get("new_buy_count", 0)),
+        int(today.get("rsi_oversold_count", 0)),
         runtime,
+        confirmed_new_buy_count=int(today.get("new_buy_count", 0)),
     )
 
     symbol_map = {s["code"]: s for s in symbols}

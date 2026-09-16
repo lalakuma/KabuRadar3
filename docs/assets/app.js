@@ -520,7 +520,8 @@ function renderSpecial(special) {
     special.routing === "etf"
       ? "ETF推奨"
       : special.routing === "stocks" &&
-          (special.new_buy_count ?? 0) >= (special.min_new_buy_count ?? 8)
+          (special.rsi_oversold_count ?? special.new_buy_count ?? 0) >=
+            (special.min_new_buy_count ?? 8)
         ? "個別推奨（地合悪化）"
         : "個別";
   const mkt =
@@ -530,7 +531,8 @@ function renderSpecial(special) {
   el.innerHTML = `
     <div class="summary-card"><p class="label">本日の方針</p><p class="value">${escapeHtml(routingLabel)}</p></div>
     <div class="summary-card"><p class="label">状態</p><p class="value">${escapeHtml(stateLabel)}</p></div>
-    <div class="summary-card"><p class="label">新買件数</p><p class="value">${special.new_buy_count ?? "—"} / 閾値 ${special.min_new_buy_count ?? "—"}</p></div>
+    <div class="summary-card"><p class="label">RSI10未満</p><p class="value">${special.rsi_oversold_count ?? "—"} / 閾値 ${special.min_new_buy_count ?? "—"}</p></div>
+    <div class="summary-card"><p class="label">新買確定</p><p class="value">${special.new_buy_count ?? "—"} 件</p></div>
     <div class="summary-card"><p class="label">地合${special.market_regime_lookback_days ?? 20}日</p><p class="value">${escapeHtml(mkt)} (ETF閾値 ≥ ${special.market_regime_min_pct ?? "—"}%)</p></div>
     <div class="summary-card"><p class="label">対象ETF</p><p class="value">${escapeHtml(special.etf || "—")}</p></div>
     <div class="summary-card"><p class="label">利確 RSI</p><p class="value">≥ ${special.exit_rsi ?? "—"}</p></div>
@@ -554,7 +556,7 @@ function renderRuntimeSettings(runtime) {
   const rows = [
     ["決済プロファイル", profileLabel],
     ["特別買い", sb.enabled ? "ON" : "OFF"],
-    ["新買しきい値", `${sb.min_new_buy_count} 件以上 → ETF（地合条件あり）`],
+    ["広がりしきい値", `RSI10未満 ${sb.min_new_buy_count} 件以上 → ETF（地合条件あり）`],
     ["地合ETF閾値", `20日リターン ≥ ${sb.market_regime_min_pct ?? -15}%`],
     ["銘柄自動選定", `${sb.pick_method || "stars"} / ${sb.pick_count ?? 2}件（★${sb.pick_min_stars ?? 4}以上）`],
     ["既定 ETF", sb.etf_default],
