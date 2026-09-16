@@ -225,11 +225,15 @@ def push_to_github(payload: dict) -> int:
         return commit.returncode
 
     branch = resolve_publish_branch()
-    push = _run_git(["push", "origin", branch])
+    current = _run_git(["branch", "--show-current"]).stdout.strip()
+    # 現在ブランチのコミットを push 先へ送る（master 上でないと push されない問題を回避）
+    push = _run_git(["push", "origin", f"HEAD:{branch}"])
     if push.returncode != 0:
         print(push.stderr or push.stdout)
         return push.returncode
 
+    if current and current != branch:
+        print(f"注意: ローカルブランチ {current} のコミットを origin/{branch} へ push しました。")
     print(f"GitHub へ push 完了 (origin/{branch})。1〜2分後に Pages が更新されます。")
     print("https://lalakuma.github.io/KabuRadar3/")
     return 0
