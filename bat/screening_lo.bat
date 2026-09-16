@@ -1,5 +1,6 @@
 @echo off
 rem LO: 株価更新 -> 解析(RSI+RCI) -> Web JSON 生成 -> LINE
+rem 本番運用は master ブランチで実行してください（experiment は検証用）
 setlocal
 call "%~dp0_env.bat" || exit /b 1
 set "KABURADAR_CONFIG=config\config_lo.ini"

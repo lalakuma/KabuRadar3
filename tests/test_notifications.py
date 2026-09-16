@@ -93,6 +93,35 @@ def test_notify_from_payload_skips_duplicate_slot(monkeypatch, tmp_path) -> None
     assert not line_state.already_notified("2026-09-02", "lo_1500", state_path)
 
 
+def test_notify_from_payload_omits_recommended_block(monkeypatch, tmp_path) -> None:
+    monkeypatch.setattr("kaburadar3.notifications.line_state.STATE_FILE", tmp_path / "line.json")
+    captured: list[str] = []
+
+    def _capture(body, _stance: str) -> bool:
+        captured.extend(body)
+        return True
+
+    monkeypatch.setattr(line, "notify_optional", _capture)
+    payload = {
+        "mode": "LO",
+        "special": {"routing": "stocks", "new_buy_count": 10, "market_regime_min_pct": -15},
+        "today": {
+            "trade_date": "2026-09-02",
+            "new_buy": [{"code": "7532", "name": "パン・パシフィックHD", "close": 769}],
+            "recommended": [{"code": "1111", "name": "推奨のみ", "close": 1000}],
+            "pick_meta": {"method": "rci_rsi"},
+        },
+        "runtime": {"notify": {"today_buy": True, "today_sellback": False}},
+        "line_events": [],
+    }
+    assert line.notify_from_payload(payload) is True
+    text = "\n".join(captured)
+    assert "推奨銘柄" not in text
+    assert "個別1〜2銘柄推奨" not in text
+    assert "1111" not in text
+    assert "7532" in text
+
+
 def test_notify_from_payload_includes_stars(monkeypatch, tmp_path) -> None:
     monkeypatch.setattr("kaburadar3.notifications.line_state.STATE_FILE", tmp_path / "line.json")
     captured: list[str] = []
