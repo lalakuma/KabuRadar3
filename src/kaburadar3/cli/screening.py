@@ -36,7 +36,7 @@ def main() -> int:
     print(f"[{datetime.now().isoformat()}] screening: started")
 
     if not args.skip_update:
-        rc = _run_script(CLI_DIR / "update_prices.py", "--menu", "6")
+        rc = _run_script(CLI_DIR / "update_prices.py", "--menu", "auto")
         if rc != 0:
             print(f"screening: update_prices failed with code {rc}")
             return rc

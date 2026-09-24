@@ -145,24 +145,28 @@ bat\screening_notify.bat
 
 ### 5.3 株価更新の期間を選ぶ
 
-`update_prices.bat` または `screening.bat` 内の更新では、メニューで期間を選べます。
+`update_prices.bat` / 本番の `screening_lo.bat` では、**既定で自動選択**します（DB の過去約1か月の平日欠損を見て 1日〜30日を選ぶ）。
 
 | 番号 | 期間 |
 |------|------|
+| **auto / 0** | **自動**（過去1か月の未取得から選択）← 本番既定 |
 | 1 | 1 日 |
 | 2 | 10 日 |
 | 3 | 30 日 |
 | 4 | 100 日 |
 | 5 | 5 年 |
-| 6 | 5 日（Actions 本番で使用） |
+| 6 | 5 日 |
+| 7 | 10 年 |
 
-CLI から番号指定する例:
+CLI 例:
 
 ```bat
 set PYTHONPATH=src
-python src\kaburadar\cli\update_prices.py --menu 3
+python src\kaburadar3\cli\update_prices.py --menu auto
+python src\kaburadar3\cli\update_prices.py --menu 3
 ```
 
+判定の目安: 参照テーブル（`tbl_1306` 等）の**最新日**が直近営業日まで揃っていれば1日、遅れが〜5暦日なら5日、〜10暦日なら10日、それ以上（約1か月）なら30日。
 ### 5.4 解析にオプションを付ける
 
 ```bat

@@ -17,7 +17,7 @@ rem data\kaburadar.db を手元の DB からコピー（初回のみ）
 
 | やりたいこと | コマンド |
 |--------------|----------|
-| LO 本番相当（更新→解析→JSON） | `bat\screening_lo.bat` |
+| LO 本番相当（更新→解析→JSON） | `bat\screening_lo.bat`（株価は **auto**: 過去1か月の欠損から日数自動選択） |
 | （旧 HI） | `bat\screening_hi.bat` → LO に委譲 |
 | 解析だけ | `bat\analyze.bat --config config\config_lo.ini` |
 | Web JSON だけ | `bat\publish.bat` |

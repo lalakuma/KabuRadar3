@@ -89,7 +89,7 @@ jobs:
         if: env.KABURADAR_JOB == 'full'
         env:
           PYTHONPATH: src
-        run: python src/kaburadar3/cli/update_prices.py --menu 6
+        run: python src/kaburadar3/cli/update_prices.py --menu auto
 
       - name: Analyze all symbols
         if: env.KABURADAR_JOB == 'full' || env.KABURADAR_JOB == 'analyze'

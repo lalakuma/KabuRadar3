@@ -16,7 +16,7 @@
 ## 自動処理の内容（Actions）
 
 ```
-株価更新 (yfinance・過去5日)
+株価更新 (yfinance・auto: 過去1か月の欠損から日数選択)
   → 全銘柄バックテスト
   → docs/data.json 生成
   → docs/data.json 生成 → gh-pages デプロイ

@@ -12,7 +12,7 @@
 手動 Run workflow
   → GitHub Actions (Ubuntu)
   → Actions cache から data/kaburadar.db を復元（なければ失敗）
-  → yfinance で過去5日分を取得 → SQLite に書込
+  → yfinance で株価取得（`--menu auto`: 過去1か月の欠損から日数自動選択） → SQLite に書込
   → 全銘柄バックテスト → 集計
   → docs/data.json 生成
   → gh-pages へデプロイ（Web 更新）
