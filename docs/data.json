@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T11:33:12+09:00",
+  "generated_at": "2026-09-29T15:03:09+09:00",
   "mode": "LO",
   "summary": {
-    "pf": 1.248,
-    "wins": 24,
-    "losses": 14,
-    "win_rate": 63.16,
-    "total_income": 8000,
+    "pf": null,
+    "wins": 21,
+    "losses": 16,
+    "win_rate": null,
+    "total_income": -4400,
     "symbol_count": 49,
-    "neutral_count": 13,
-    "source_file": "Y0_PF1.248_W24L14_rate63.16_all8000.csv"
+    "neutral_count": 12,
+    "source_file": "Y0_PF1.057_W23L16_rate58.97_all-4400.csv"
   },
   "symbols": [
     {
@@ -112,17 +112,6 @@
       "minus_gain": 0
     },
     {
-      "code": "4452",
-      "name": "花王",
-      "industry": "nan",
-      "incomes": 3800,
-      "pf": 10.9,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1090,
-      "minus_gain": 0
-    },
-    {
       "code": "7419",
       "name": "ノジマ",
       "industry": "nan",
@@ -142,6 +131,17 @@
       "winlose": "W1L0",
       "win_per": 100,
       "plus_gain": 3030,
+      "minus_gain": 0
+    },
+    {
+      "code": "4452",
+      "name": "花王",
+      "industry": "nan",
+      "incomes": 2500,
+      "pf": 7.2,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 720,
       "minus_gain": 0
     },
     {
@@ -244,28 +244,6 @@
       "minus_gain": 0
     },
     {
-      "code": "4722",
-      "name": "フューチャーアーキテクト",
-      "industry": "nan",
-      "incomes": 600,
-      "pf": 2.5,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 250,
-      "minus_gain": 0
-    },
-    {
-      "code": "1332",
-      "name": "ニッスイ",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0
-    },
-    {
       "code": "1911",
       "name": "住友林業",
       "industry": "nan",
@@ -332,6 +310,17 @@
       "minus_gain": 0
     },
     {
+      "code": "4722",
+      "name": "フューチャーアーキテクト",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "4912",
       "name": "ライオン",
       "industry": "nan",
@@ -345,17 +334,6 @@
     {
       "code": "5108",
       "name": "ブリヂストン",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0
-    },
-    {
-      "code": "5110",
-      "name": "住友ゴム工業",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -398,6 +376,28 @@
       "minus_gain": 0
     },
     {
+      "code": "5110",
+      "name": "住友ゴム工業",
+      "industry": "nan",
+      "incomes": -100,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 50
+    },
+    {
+      "code": "5929",
+      "name": "三和ホールディングス",
+      "industry": "nan",
+      "incomes": -200,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 60
+    },
+    {
       "code": "8570",
       "name": "イオンフィナンシャルサービス",
       "industry": "nan",
@@ -418,17 +418,6 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 140
-    },
-    {
-      "code": "5929",
-      "name": "三和ホールディングス",
-      "industry": "nan",
-      "incomes": -600,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 170
     },
     {
       "code": "2670",
@@ -497,6 +486,17 @@
       "minus_gain": 2670
     },
     {
+      "code": "1332",
+      "name": "ニッスイ",
+      "industry": "nan",
+      "incomes": -8800,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 7890
+    },
+    {
       "code": "6723",
       "name": "ルネサスエレクトロニクス",
       "industry": "nan",
@@ -519,17 +519,6 @@
       "minus_gain": 3479
     },
     {
-      "code": "8830",
-      "name": "住友不動産",
-      "industry": "nan",
-      "incomes": -27100,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 8710
-    },
-    {
       "code": "6141",
       "name": "ＤＭＧ　森精機",
       "industry": "nan",
@@ -539,6 +528,17 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 9900
+    },
+    {
+      "code": "8830",
+      "name": "住友不動産",
+      "industry": "nan",
+      "incomes": -29100,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 9410
     },
     {
       "code": "4368",
@@ -557,12 +557,89 @@
     "new_buy": [],
     "sellback": [
       {
+        "code": "1332",
+        "name": "ニッスイ",
+        "mark": "返売",
+        "close": 1116,
+        "rsi": 12.89,
+        "rci": -88.33,
+        "rci_turn": false,
+        "quality": {
+          "code": "1332",
+          "stars": 3,
+          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "risk_factors": [
+            "評価失敗"
+          ],
+          "confidence": "low",
+          "sources": [],
+          "valuation_view": "unknown",
+          "dividend": {
+            "annual_yen": 32,
+            "yield_pct": 2.78,
+            "ex_date": "2026-09-29",
+            "payout_ratio_pct": 35.49
+          },
+          "earnings": {
+            "announcement_date": "2026-11-06",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Consumer Defensive",
+            "industry": "Packaged Foods",
+            "per": 12.4,
+            "forward_per": 12.6,
+            "pbr": 1.11,
+            "psr": 0.35,
+            "market_cap_oku": 3386,
+            "price_yen": 1116,
+            "target_price_yen": 1559,
+            "target_upside_pct": 39.7,
+            "revenue_growth_pct": 14.1,
+            "earnings_growth_pct": 17.2,
+            "profit_margin_pct": 2.95,
+            "roe_pct": 10.26,
+            "debt_to_equity": 95.2
+          },
+          "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "自社商品",
+            "month": "3",
+            "yield_pct": "0.52",
+            "min_shares": 500,
+            "programs": [
+              {
+                "title": "自社商品セット(びん詰・缶詰など)",
+                "tiers": [
+                  {
+                    "shares": "500株以上",
+                    "content": "3,000円相当",
+                    "note": "■贈呈時期 7月"
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "5,000円相当",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "自社商品。500株以上。権利確定3月。",
+            "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": false
+      },
+      {
         "code": "4452",
         "name": "花王",
         "mark": "返売",
-        "close": 3493,
-        "rsi": 55.98,
-        "rci": 77.92,
+        "close": 3480,
+        "rsi": 47.52,
+        "rci": 68.33,
         "rci_turn": false,
         "quality": {
           "code": "4452",
@@ -591,15 +668,15 @@
           "valuation": {
             "sector": "Consumer Defensive",
             "industry": "Household & Personal Products",
-            "per": 25.0,
+            "per": 24.9,
             "forward_per": 13.5,
-            "pbr": 2.82,
+            "pbr": 2.81,
             "psr": 1.8,
             "peg": 2.98,
-            "market_cap_oku": 31612,
-            "price_yen": 3494,
+            "market_cap_oku": 31504,
+            "price_yen": 3482,
             "target_price_yen": 4052,
-            "target_upside_pct": 16.0,
+            "target_upside_pct": 16.4,
             "revenue_growth_pct": 9.4,
             "earnings_growth_pct": 32.9,
             "profit_margin_pct": 7.77,
@@ -611,7 +688,7 @@
             "source": "minkabu",
             "kind": "自社製品、イベント招待",
             "month": "12",
-            "yield_pct": "---、配当利回りは2.23",
+            "yield_pct": "---、配当利回りは2.24",
             "min_shares": 100,
             "programs": [
               {
@@ -653,53 +730,51 @@
         "rci_ok": false
       },
       {
-        "code": "4722",
-        "name": "フューチャーアーキテクト",
+        "code": "5110",
+        "name": "住友ゴム工業",
         "mark": "返売",
-        "close": 2428,
-        "rsi": 65.13,
-        "rci": 31.67,
+        "close": 1995,
+        "rsi": 35.51,
+        "rci": 37.08,
         "rci_turn": false,
         "quality": {
-          "code": "4722",
+          "code": "5110",
           "stars": 3,
           "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
             "評価失敗"
           ],
           "confidence": "low",
-          "sources": [
-            "{'url': 'https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
-          ],
+          "sources": [],
           "valuation_view": "unknown",
           "dividend": {
-            "annual_yen": 47,
-            "yield_pct": 1.94,
+            "annual_yen": 84,
+            "yield_pct": 4.16,
             "ex_date": "2026-12-29",
-            "payout_ratio_pct": 33.87
+            "payout_ratio_pct": 35.69
           },
           "earnings": {
-            "announcement_date": "2026-10-28",
+            "announcement_date": "2026-11-11",
             "fiscal_year_end": "2026-12-31",
             "fiscal_month": 12,
             "is_estimate": true
           },
           "valuation": {
-            "sector": "Technology",
-            "industry": "Information Technology Services",
-            "per": 17.5,
-            "forward_per": 18.1,
-            "pbr": 3.24,
-            "psr": 2.74,
-            "market_cap_oku": 2153,
-            "price_yen": 2428,
-            "target_price_yen": 2467,
-            "target_upside_pct": 1.6,
-            "revenue_growth_pct": 9.5,
-            "earnings_growth_pct": 9.0,
-            "profit_margin_pct": 15.64,
-            "roe_pct": 19.64,
-            "debt_to_equity": 20.4
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Parts",
+            "per": 8.5,
+            "forward_per": 10.7,
+            "pbr": 0.7,
+            "psr": 0.42,
+            "market_cap_oku": 5242,
+            "price_yen": 1994,
+            "target_price_yen": 2640,
+            "target_upside_pct": 32.4,
+            "revenue_growth_pct": 11.7,
+            "earnings_growth_pct": 60.0,
+            "profit_margin_pct": 4.93,
+            "roe_pct": 9.02,
+            "debt_to_equity": 44.9
           },
           "shareholder_benefit": "なし"
         },
@@ -710,9 +785,9 @@
         "code": "5929",
         "name": "三和ホールディングス",
         "mark": "返売",
-        "close": 3432,
-        "rsi": 34.86,
-        "rci": 25.0,
+        "close": 3436,
+        "rsi": 35.63,
+        "rci": 35.0,
         "rci_turn": false,
         "quality": {
           "code": "5929",
@@ -755,10 +830,10 @@
             "forward_per": 14.9,
             "pbr": 2.12,
             "psr": 1.08,
-            "market_cap_oku": 7123,
-            "price_yen": 3432,
+            "market_cap_oku": 7131,
+            "price_yen": 3436,
             "target_price_yen": 4271,
-            "target_upside_pct": 24.4,
+            "target_upside_pct": 24.3,
             "revenue_growth_pct": -0.3,
             "earnings_growth_pct": -31.6,
             "profit_margin_pct": 8.69,
@@ -800,8 +875,8 @@
         "code": "8830",
         "name": "住友不動産",
         "mark": "返売",
-        "close": 3113,
-        "rsi": 22.39,
+        "close": 3093,
+        "rsi": 20.0,
         "rci": -41.67,
         "rci_turn": false,
         "quality": {
@@ -828,15 +903,15 @@
           "valuation": {
             "sector": "Real Estate",
             "industry": "Real Estate Services",
-            "per": 13.6,
+            "per": 13.5,
             "forward_per": 7.4,
             "pbr": 1.12,
-            "psr": 2.75,
+            "psr": 2.73,
             "peg": 2.61,
-            "market_cap_oku": 28780,
-            "price_yen": 3116,
+            "market_cap_oku": 28567,
+            "price_yen": 3093,
             "target_price_yen": 4662,
-            "target_upside_pct": 49.6,
+            "target_upside_pct": 50.7,
             "profit_margin_pct": 0.0,
             "roe_pct": 9.36,
             "debt_to_equity": 156.0
@@ -861,38 +936,45 @@
     "days": [
       {
         "date": "2026-09-29",
-        "pnl": -23300,
+        "pnl": -35700,
         "new_buy_count": 0,
-        "sellback_count": 4,
+        "sellback_count": 5,
         "new_buy": [],
         "sellback": [
+          {
+            "code": "1332",
+            "name": "ニッスイ",
+            "mark": "返売",
+            "close": 1116,
+            "pnl": -8800
+          },
           {
             "code": "4452",
             "name": "花王",
             "mark": "返売",
-            "close": 3493,
-            "pnl": 3800
+            "close": 3480,
+            "pnl": 2500
           },
           {
-            "code": "4722",
-            "name": "フューチャーアーキテクト",
+            "code": "5110",
+            "name": "住友ゴム工業",
             "mark": "返売",
-            "close": 2428,
-            "pnl": 600
+            "close": 1995,
+            "pnl": -100
           },
           {
             "code": "5929",
             "name": "三和ホールディングス",
             "mark": "返売",
-            "close": 3432,
-            "pnl": -600
+            "close": 3436,
+            "pnl": -200
           },
           {
             "code": "8830",
             "name": "住友不動産",
             "mark": "返売",
-            "close": 3113,
-            "pnl": -27100
+            "close": 3093,
+            "pnl": -29100
           }
         ]
       },
@@ -1410,14 +1492,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.5,
+                "per": 15.4,
                 "forward_per": 4.3,
                 "pbr": 0.31,
                 "psr": 0.6,
-                "market_cap_oku": 3449,
-                "price_yen": 1068,
+                "market_cap_oku": 3439,
+                "price_yen": 1066,
                 "target_price_yen": 1500,
-                "target_upside_pct": 40.4,
+                "target_upside_pct": 40.7,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -1641,14 +1723,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.7,
+                "per": 14.8,
                 "forward_per": 3.4,
                 "pbr": 1.1,
                 "psr": 0.53,
-                "market_cap_oku": 9624,
-                "price_yen": 2124,
+                "market_cap_oku": 9674,
+                "price_yen": 2135,
                 "target_price_yen": 2654,
-                "target_upside_pct": 25.0,
+                "target_upside_pct": 24.3,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1728,14 +1810,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.2,
-                "forward_per": 14.7,
-                "pbr": 3.45,
-                "psr": 2.5,
-                "market_cap_oku": 1328,
-                "price_yen": 3460,
+                "per": 34.6,
+                "forward_per": 14.5,
+                "pbr": 3.39,
+                "psr": 2.46,
+                "market_cap_oku": 1307,
+                "price_yen": 3405,
                 "target_price_yen": 5400,
-                "target_upside_pct": 56.1,
+                "target_upside_pct": 58.6,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2573,14 +2655,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.5,
+                "per": 15.4,
                 "forward_per": 4.3,
                 "pbr": 0.31,
                 "psr": 0.6,
-                "market_cap_oku": 3449,
-                "price_yen": 1068,
+                "market_cap_oku": 3439,
+                "price_yen": 1066,
                 "target_price_yen": 1500,
-                "target_upside_pct": 40.4,
+                "target_upside_pct": 40.7,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -2804,14 +2886,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.7,
+                "per": 14.8,
                 "forward_per": 3.4,
                 "pbr": 1.1,
                 "psr": 0.53,
-                "market_cap_oku": 9624,
-                "price_yen": 2124,
+                "market_cap_oku": 9674,
+                "price_yen": 2135,
                 "target_price_yen": 2654,
-                "target_upside_pct": 25.0,
+                "target_upside_pct": 24.3,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -2891,14 +2973,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.2,
-                "forward_per": 14.7,
-                "pbr": 3.45,
-                "psr": 2.5,
-                "market_cap_oku": 1328,
-                "price_yen": 3460,
+                "per": 34.6,
+                "forward_per": 14.5,
+                "pbr": 3.39,
+                "psr": 2.46,
+                "market_cap_oku": 1307,
+                "price_yen": 3405,
                 "target_price_yen": 5400,
-                "target_upside_pct": 56.1,
+                "target_upside_pct": 58.6,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -3102,7 +3184,7 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -1.57,
+    "market_return_20d": -1.94,
     "new_buy_count": 0,
     "rsi_oversold_count": 1,
     "exit_rsi": 70.0,
@@ -3114,6 +3196,72 @@
     "signal": null
   },
   "quality": {
+    "1332": {
+      "code": "1332",
+      "stars": 3,
+      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "risk_factors": [
+        "評価失敗"
+      ],
+      "confidence": "low",
+      "sources": [],
+      "valuation_view": "unknown",
+      "dividend": {
+        "annual_yen": 32,
+        "yield_pct": 2.78,
+        "ex_date": "2026-09-29",
+        "payout_ratio_pct": 35.49
+      },
+      "earnings": {
+        "announcement_date": "2026-11-06",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Consumer Defensive",
+        "industry": "Packaged Foods",
+        "per": 12.4,
+        "forward_per": 12.6,
+        "pbr": 1.11,
+        "psr": 0.35,
+        "market_cap_oku": 3386,
+        "price_yen": 1116,
+        "target_price_yen": 1559,
+        "target_upside_pct": 39.7,
+        "revenue_growth_pct": 14.1,
+        "earnings_growth_pct": 17.2,
+        "profit_margin_pct": 2.95,
+        "roe_pct": 10.26,
+        "debt_to_equity": 95.2
+      },
+      "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "自社商品",
+        "month": "3",
+        "yield_pct": "0.52",
+        "min_shares": 500,
+        "programs": [
+          {
+            "title": "自社商品セット(びん詰・缶詰など)",
+            "tiers": [
+              {
+                "shares": "500株以上",
+                "content": "3,000円相当",
+                "note": "■贈呈時期 7月"
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "5,000円相当",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "自社商品。500株以上。権利確定3月。",
+        "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+      }
+    },
     "4452": {
       "code": "4452",
       "stars": 3,
@@ -3141,15 +3289,15 @@
       "valuation": {
         "sector": "Consumer Defensive",
         "industry": "Household & Personal Products",
-        "per": 25.0,
+        "per": 24.9,
         "forward_per": 13.5,
-        "pbr": 2.82,
+        "pbr": 2.81,
         "psr": 1.8,
         "peg": 2.98,
-        "market_cap_oku": 31612,
-        "price_yen": 3494,
+        "market_cap_oku": 31504,
+        "price_yen": 3482,
         "target_price_yen": 4052,
-        "target_upside_pct": 16.0,
+        "target_upside_pct": 16.4,
         "revenue_growth_pct": 9.4,
         "earnings_growth_pct": 32.9,
         "profit_margin_pct": 7.77,
@@ -3161,7 +3309,7 @@
         "source": "minkabu",
         "kind": "自社製品、イベント招待",
         "month": "12",
-        "yield_pct": "---、配当利回りは2.23",
+        "yield_pct": "---、配当利回りは2.24",
         "min_shares": 100,
         "programs": [
           {
@@ -3199,46 +3347,44 @@
         "text": "自社製品、イベント招待。100株以上。権利確定12月\n【自社製品セット（長期保有者向け）】\n・100株以上: 【半年以上保有】※ 抽選でプレゼント（※2026年12月31日の初回に限り、株主名簿に記載又は記録されている保有株式数のみを条件とします。 ※毎年6月30日及び12月31日のいずれかの当社株主名簿に記載又は記録された保有株式数のうち、少ない方の株式数の属する区分での優待対象となります。 ■継続保有期間について 同一株主番号にて毎年6月30日及び12月31日時点の当社株主名簿に連続して記載又は記録されていることが条件となります。 ※優待制度の内容等の詳細については、改めて当社ウェブサイト等でご案内していく予定です。 ■贈呈時期 6月以降順次）\n・400株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 6,000円相当\n・1,000株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 10,000円相当\n【当社現地開催イベント参加（抽選）】\n・100株以上: ◇企画を決定する都度、随時ご案内いたします。 （判定基準日を含む）"
       }
     },
-    "4722": {
-      "code": "4722",
+    "5110": {
+      "code": "5110",
       "stars": 3,
       "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
         "評価失敗"
       ],
       "confidence": "low",
-      "sources": [
-        "{'url': 'https://finance.yahoo.com/news/full-profit-growth-reshaping-investment-050659615.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
-      ],
+      "sources": [],
       "valuation_view": "unknown",
       "dividend": {
-        "annual_yen": 47,
-        "yield_pct": 1.94,
+        "annual_yen": 84,
+        "yield_pct": 4.16,
         "ex_date": "2026-12-29",
-        "payout_ratio_pct": 33.87
+        "payout_ratio_pct": 35.69
       },
       "earnings": {
-        "announcement_date": "2026-10-28",
+        "announcement_date": "2026-11-11",
         "fiscal_year_end": "2026-12-31",
         "fiscal_month": 12,
         "is_estimate": true
       },
       "valuation": {
-        "sector": "Technology",
-        "industry": "Information Technology Services",
-        "per": 17.5,
-        "forward_per": 18.1,
-        "pbr": 3.24,
-        "psr": 2.74,
-        "market_cap_oku": 2153,
-        "price_yen": 2428,
-        "target_price_yen": 2467,
-        "target_upside_pct": 1.6,
-        "revenue_growth_pct": 9.5,
-        "earnings_growth_pct": 9.0,
-        "profit_margin_pct": 15.64,
-        "roe_pct": 19.64,
-        "debt_to_equity": 20.4
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "per": 8.5,
+        "forward_per": 10.7,
+        "pbr": 0.7,
+        "psr": 0.42,
+        "market_cap_oku": 5242,
+        "price_yen": 1994,
+        "target_price_yen": 2640,
+        "target_upside_pct": 32.4,
+        "revenue_growth_pct": 11.7,
+        "earnings_growth_pct": 60.0,
+        "profit_margin_pct": 4.93,
+        "roe_pct": 9.02,
+        "debt_to_equity": 44.9
       },
       "shareholder_benefit": "なし"
     },
@@ -3283,10 +3429,10 @@
         "forward_per": 14.9,
         "pbr": 2.12,
         "psr": 1.08,
-        "market_cap_oku": 7123,
-        "price_yen": 3432,
+        "market_cap_oku": 7131,
+        "price_yen": 3436,
         "target_price_yen": 4271,
-        "target_upside_pct": 24.4,
+        "target_upside_pct": 24.3,
         "revenue_growth_pct": -0.3,
         "earnings_growth_pct": -31.6,
         "profit_margin_pct": 8.69,
@@ -3345,15 +3491,15 @@
       "valuation": {
         "sector": "Real Estate",
         "industry": "Real Estate Services",
-        "per": 13.6,
+        "per": 13.5,
         "forward_per": 7.4,
         "pbr": 1.12,
-        "psr": 2.75,
+        "psr": 2.73,
         "peg": 2.61,
-        "market_cap_oku": 28780,
-        "price_yen": 3116,
+        "market_cap_oku": 28567,
+        "price_yen": 3093,
         "target_price_yen": 4662,
-        "target_upside_pct": 49.6,
+        "target_upside_pct": 50.7,
         "profit_margin_pct": 0.0,
         "roe_pct": 9.36,
         "debt_to_equity": 156.0
