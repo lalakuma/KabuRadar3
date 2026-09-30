@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:03:06+09:00",
+  "generated_at": "2026-09-30T11:33:11+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -7,8 +7,8 @@
     "losses": 14,
     "win_rate": null,
     "total_income": -2600,
-    "symbol_count": 49,
-    "neutral_count": 13,
+    "symbol_count": 50,
+    "neutral_count": 14,
     "source_file": "Y0_PF1.068_W24L14_rate63.16_all-2600.csv"
   },
   "symbols": [
@@ -257,6 +257,17 @@
     {
       "code": "1911",
       "name": "住友林業",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "1925",
+      "name": "大和ハウス工業",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -553,19 +564,18 @@
     }
   ],
   "today": {
-    "trade_date": "2026-09-29",
-    "new_buy": [],
-    "sellback": [
+    "trade_date": "2026-09-30",
+    "new_buy": [
       {
-        "code": "1332",
-        "name": "ニッスイ",
-        "mark": "返売",
-        "close": 1117,
-        "rsi": 13.08,
+        "code": "1925",
+        "name": "大和ハウス工業",
+        "mark": "新買",
+        "close": 2181,
+        "rsi": 1.79,
         "rci": -88.33,
-        "rci_turn": false,
+        "rci_turn": true,
         "quality": {
-          "code": "1332",
+          "code": "1925",
           "stars": 3,
           "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
@@ -575,355 +585,88 @@
           "sources": [],
           "valuation_view": "unknown",
           "dividend": {
-            "annual_yen": 32,
-            "yield_pct": 2.78,
-            "ex_date": "2026-09-29",
-            "payout_ratio_pct": 35.49
-          },
-          "earnings": {
-            "announcement_date": "2026-11-06",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Consumer Defensive",
-            "industry": "Packaged Foods",
-            "per": 12.4,
-            "forward_per": 12.6,
-            "pbr": 1.11,
-            "psr": 0.35,
-            "market_cap_oku": 3388,
-            "price_yen": 1117,
-            "target_price_yen": 1559,
-            "target_upside_pct": 39.6,
-            "revenue_growth_pct": 14.1,
-            "earnings_growth_pct": 17.2,
-            "profit_margin_pct": 2.95,
-            "roe_pct": 10.26,
-            "debt_to_equity": 95.2
-          },
-          "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社商品",
-            "month": "3",
-            "yield_pct": "0.52",
-            "min_shares": 500,
-            "programs": [
-              {
-                "title": "自社商品セット(びん詰・缶詰など)",
-                "tiers": [
-                  {
-                    "shares": "500株以上",
-                    "content": "3,000円相当",
-                    "note": "■贈呈時期 7月"
-                  },
-                  {
-                    "shares": "1,000株以上",
-                    "content": "5,000円相当",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "自社商品。500株以上。権利確定3月。",
-            "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "4452",
-        "name": "花王",
-        "mark": "返売",
-        "close": 3484,
-        "rsi": 49.84,
-        "rci": 68.33,
-        "rci_turn": false,
-        "quality": {
-          "code": "4452",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [
-            "{'url': 'https://finance.yahoo.com/news/why-kao-tse-4452-down-180612469.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-            "{'url': 'https://finance.yahoo.com/news/did-kao-tse-4452-2025-181838843.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
-          ],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 78,
-            "yield_pct": 2.23,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 55.46
-          },
-          "earnings": {
-            "announcement_date": "2026-11-05",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
-          },
-          "valuation": {
-            "sector": "Consumer Defensive",
-            "industry": "Household & Personal Products",
-            "per": 24.9,
-            "forward_per": 13.5,
-            "pbr": 2.82,
-            "psr": 1.8,
-            "peg": 2.98,
-            "market_cap_oku": 31522,
-            "price_yen": 3484,
-            "target_price_yen": 4052,
-            "target_upside_pct": 16.3,
-            "revenue_growth_pct": 9.4,
-            "earnings_growth_pct": 32.9,
-            "profit_margin_pct": 7.77,
-            "roe_pct": 12.32,
-            "debt_to_equity": 20.6
-          },
-          "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定12月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社製品、イベント招待",
-            "month": "12",
-            "yield_pct": "---、配当利回りは2.24",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "自社製品セット（長期保有者向け）",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【半年以上保有】※ 抽選でプレゼント",
-                    "note": "※2026年12月31日の初回に限り、株主名簿に記載又は記録されている保有株式数のみを条件とします。 ※毎年6月30日及び12月31日のいずれかの当社株主名簿に記載又は記録された保有株式数のうち、少ない方の株式数の属する区分での優待対象となります。 ■継続保有期間について 同一株主番号にて毎年6月30日及び12月31日時点の当社株主名簿に連続して記載又は記録されていることが条件となります。 ※優待制度の内容等の詳細については、改めて当社ウェブサイト等でご案内していく予定です。 ■贈呈時期 6月以降順次"
-                  },
-                  {
-                    "shares": "400株以上",
-                    "content": "【半年以上保有】 ◇化粧品または、家庭品を選択 6,000円相当",
-                    "note": ""
-                  },
-                  {
-                    "shares": "1,000株以上",
-                    "content": "【半年以上保有】 ◇化粧品または、家庭品を選択 10,000円相当",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "title": "当社現地開催イベント参加（抽選）",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "◇企画を決定する都度、随時ご案内いたします。 （判定基準日を含む）",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "自社製品、イベント招待。100株以上。権利確定12月。",
-            "text": "自社製品、イベント招待。100株以上。権利確定12月\n【自社製品セット（長期保有者向け）】\n・100株以上: 【半年以上保有】※ 抽選でプレゼント（※2026年12月31日の初回に限り、株主名簿に記載又は記録されている保有株式数のみを条件とします。 ※毎年6月30日及び12月31日のいずれかの当社株主名簿に記載又は記録された保有株式数のうち、少ない方の株式数の属する区分での優待対象となります。 ■継続保有期間について 同一株主番号にて毎年6月30日及び12月31日時点の当社株主名簿に連続して記載又は記録されていることが条件となります。 ※優待制度の内容等の詳細については、改めて当社ウェブサイト等でご案内していく予定です。 ■贈呈時期 6月以降順次）\n・400株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 6,000円相当\n・1,000株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 10,000円相当\n【当社現地開催イベント参加（抽選）】\n・100株以上: ◇企画を決定する都度、随時ご案内いたします。 （判定基準日を含む）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "5110",
-        "name": "住友ゴム工業",
-        "mark": "返売",
-        "close": 1996,
-        "rsi": 35.91,
-        "rci": 37.08,
-        "rci_turn": false,
-        "quality": {
-          "code": "5110",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 84,
-            "yield_pct": 4.16,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 35.69
+            "annual_yen": 92,
+            "yield_pct": 4.23,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 14.56
           },
           "earnings": {
             "announcement_date": "2026-11-11",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12,
-            "is_estimate": true
-          },
-          "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Auto Parts",
-            "per": 8.5,
-            "forward_per": 10.7,
-            "pbr": 0.7,
-            "psr": 0.42,
-            "market_cap_oku": 5248,
-            "price_yen": 1996,
-            "target_price_yen": 2640,
-            "target_upside_pct": 32.3,
-            "revenue_growth_pct": 11.7,
-            "earnings_growth_pct": 60.0,
-            "profit_margin_pct": 4.93,
-            "roe_pct": 9.02,
-            "debt_to_equity": 44.9
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "5929",
-        "name": "三和ホールディングス",
-        "mark": "返売",
-        "close": 3445,
-        "rsi": 37.48,
-        "rci": 54.58,
-        "rci_turn": false,
-        "quality": {
-          "code": "5929",
-          "stars": 4,
-          "background": "株価は直近で押し目を形成する展開となっているが、構造的な悪材料や業績悪化につながるプレスリリース等は確認されていません。海外大手金融メディアなどで優良配当銘柄として相次いで取り上げられており、今回の調整は直近上昇に対する一時的な利確売りおよび全体地合いの影響による過剰な押し目と判断されます。",
-          "risk_factors": [
-            "海外（北米・欧州）市場における建築着工件数の減速リスク",
-            "鋼材などの原材料価格およびエネルギーコスト高騰に伴う利益率圧迫",
-            "全般的な株式市場の調整に伴う過剰連れ安リスク"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://finance.yahoo.com/markets/stocks/articles/asian-dividend-stocks-enhance-portfolio-043144890.html",
-            "https://finance.yahoo.com/markets/stocks/articles/global-dividend-stocks-spotlighting-three-093158343.html"
-          ],
-          "material_analysis": "海外の投資メディア等でアジアの有望配当銘柄として相次いで紹介されており、好ファンダメンタルズが評価される一方で、短期的には材料出尽くし感による利確売りに押される展開となっています。",
-          "fundamental_summary": "シャッターおよび建材でグローバル展開する大手企業であり、ROE18.13%・営業利益率8.69%と優れた収益性と資本効率を誇ります。予想PERは14.9倍、PBRは2.12倍と過去比較やグローバル同業比較で妥当な水準にあり、アナリストの平均目標株価4,271円（現値比+24.4%）と見通しも良好です。配当利回りは3.75%（年間配当132円、配当性向46.18%）に達するほか100株保有時のQUOカード優待も用意されており、株主還元姿勢が明確で下値サポート力が非常に強固です。次回決算発表は10月下旬予定とまだ先であり、短期的な業績イベントリスクが低いため安心して押し目を狙えるファンダメンタルズ構造です。",
-          "technical_view": "終値3,432円は、過去に出来高が集中した3,400円の節目の心理的サポートライン付近に位置しており、下値では買い支えが入りやすい水準です。上値の節目としては3,600円台前後の直近戻り高値および移動平均線ゾーンが抵抗帯として意識されます。",
-          "watch_points": [
-            "3,400円の節目サポートラインにおける下げ渋りと反発の勢い",
-            "北米および欧州における建材需要の回復動向と価格転嫁の浸透度"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "annual_yen": 132,
-            "yield_pct": 3.75,
-            "ex_date": "2026-09-29",
-            "payout_ratio_pct": 46.18
-          },
-          "earnings": {
-            "announcement_date": "2026-10-29",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3,
-            "is_estimate": true
-          },
-          "valuation": {
-            "sector": "Industrials",
-            "industry": "Building Products & Equipment",
-            "per": 12.2,
-            "forward_per": 15.0,
-            "pbr": 2.13,
-            "psr": 1.08,
-            "market_cap_oku": 7150,
-            "price_yen": 3445,
-            "target_price_yen": 4271,
-            "target_upside_pct": 24.0,
-            "revenue_growth_pct": -0.3,
-            "earnings_growth_pct": -31.6,
-            "profit_margin_pct": 8.69,
-            "roe_pct": 18.13,
-            "debt_to_equity": 12.6
-          },
-          "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "オリジナルQUOカード",
-            "month": "3",
-            "yield_pct": "0.14",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "オリジナルQUOカード",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【2年未満保有株主】 500円相当",
-                    "note": "■継続保有期間について 保有期間は株主番号で管理し、毎年3月末日、9月末日の権利確定日毎に同一の株主番号であることを確認できる株主様の保有期間をカウントいたします。従来から同一の株主番号で保有されている株主様は、従来の保有期間もカウントいたします。"
-                  },
-                  {
-                    "shares": "1,000株以上",
-                    "content": "【2年未満保有株主】 500円相当 【2年以上保有株主】 2,000円相当",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "オリジナルQUOカード。100株以上。権利確定3月。",
-            "text": "オリジナルQUOカード。100株以上。権利確定3月\n・100株以上: 【2年未満保有株主】 500円相当（■継続保有期間について 保有期間は株主番号で管理し、毎年3月末日、9月末日の権利確定日毎に同一の株主番号であることを確認できる株主様の保有期間をカウントいたします。従来から同一の株主番号で保有されている株主様は、従来の保有期間もカウントいたします。）\n・1,000株以上: 【2年未満保有株主】 500円相当 【2年以上保有株主】 2,000円相当"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "8830",
-        "name": "住友不動産",
-        "mark": "返売",
-        "close": 3096,
-        "rsi": 20.33,
-        "rci": -41.67,
-        "rci_turn": false,
-        "quality": {
-          "code": "8830",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 52,
-            "yield_pct": 1.63,
-            "ex_date": "2026-09-29",
-            "payout_ratio_pct": 19.26
-          },
-          "earnings": {
-            "announcement_date": "2026-11-10",
             "fiscal_year_end": "2027-03-31",
             "fiscal_month": 3
           },
           "valuation": {
             "sector": "Real Estate",
-            "industry": "Real Estate Services",
-            "per": 13.6,
-            "forward_per": 7.4,
-            "pbr": 1.12,
-            "psr": 2.74,
-            "peg": 2.61,
-            "market_cap_oku": 28595,
-            "price_yen": 3096,
-            "target_price_yen": 4662,
-            "target_upside_pct": 50.6,
-            "profit_margin_pct": 0.0,
-            "roe_pct": 9.36,
-            "debt_to_equity": 156.0
+            "industry": "Real Estate - Development",
+            "per": 3.9,
+            "forward_per": 4.6,
+            "pbr": 0.46,
+            "psr": 0.47,
+            "market_cap_oku": 27031,
+            "price_yen": 2182,
+            "target_price_yen": 2534,
+            "target_upside_pct": 16.1,
+            "revenue_growth_pct": 9.0,
+            "earnings_growth_pct": 9.0,
+            "profit_margin_pct": 6.28,
+            "roe_pct": 12.88,
+            "debt_to_equity": 115.4
           },
-          "shareholder_benefit": "なし"
+          "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "株主優待券",
+            "month": "3",
+            "yield_pct": "0.92",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "株主優待券（共通利用券）※1",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚",
+                    "note": "※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
+                  },
+                  {
+                    "shares": "600株以上",
+                    "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
+                    "note": ""
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
+                    "note": ""
+                  },
+                  {
+                    "shares": "2,000株以上",
+                    "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
+                    "note": ""
+                  },
+                  {
+                    "shares": "6,000株以上",
+                    "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
+                    "note": ""
+                  },
+                  {
+                    "shares": "10,000株以上",
+                    "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "株主優待券。100株以上。権利確定3月。",
+            "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: ※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚（※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
+          }
         },
-        "rsi_ok": false,
-        "rci_ok": false
+        "rsi_ok": true,
+        "rci_ok": true
       }
     ],
-    "new_buy_count": 0,
-    "rsi_oversold_count": 1,
+    "sellback": [],
+    "new_buy_count": 1,
+    "rsi_oversold_count": 3,
     "recommended": [],
     "pick_meta": {
       "method": "stars",
@@ -934,6 +677,107 @@
   },
   "daily": {
     "days": [
+      {
+        "date": "2026-09-30",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "1925",
+            "name": "大和ハウス工業",
+            "mark": "新買",
+            "close": 2181,
+            "quality": {
+              "code": "1925",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 92,
+                "yield_pct": 4.23,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 14.56
+              },
+              "earnings": {
+                "announcement_date": "2026-11-11",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Real Estate",
+                "industry": "Real Estate - Development",
+                "per": 3.9,
+                "forward_per": 4.6,
+                "pbr": 0.46,
+                "psr": 0.47,
+                "market_cap_oku": 27031,
+                "price_yen": 2182,
+                "target_price_yen": 2534,
+                "target_upside_pct": 16.1,
+                "revenue_growth_pct": 9.0,
+                "earnings_growth_pct": 9.0,
+                "profit_margin_pct": 6.28,
+                "roe_pct": 12.88,
+                "debt_to_equity": 115.4
+              },
+              "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主優待券",
+                "month": "3",
+                "yield_pct": "0.92",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待券（共通利用券）※1",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚",
+                        "note": "※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
+                      },
+                      {
+                        "shares": "600株以上",
+                        "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "2,000株以上",
+                        "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "6,000株以上",
+                        "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "10,000株以上",
+                        "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主優待券。100株以上。権利確定3月。",
+                "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: ※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚（※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
+              }
+            }
+          }
+        ],
+        "sellback": []
+      },
       {
         "date": "2026-09-29",
         "pnl": -33900,
@@ -1479,8 +1323,8 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.25,
-                "ex_date": "2026-09-29",
+                "yield_pct": 2.33,
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.26
               },
               "earnings": {
@@ -1491,51 +1335,51 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.5,
+                "per": 15.4,
                 "forward_per": 4.3,
                 "pbr": 0.31,
                 "psr": 0.6,
-                "market_cap_oku": 3457,
-                "price_yen": 1071,
+                "market_cap_oku": 3426,
+                "price_yen": 1062,
                 "target_price_yen": 1500,
-                "target_upside_pct": 40.1,
+                "target_upside_pct": 41.2,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
                 "roe_pct": 8.25,
                 "debt_to_equity": 47.1
               },
-              "shareholder_benefit": "自社商品。200株以上。権利確定9月。",
+              "shareholder_benefit": "自社商品。200株以上。権利確定3月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "自社商品",
-                "month": "9",
-                "yield_pct": "0.67",
+                "month": "3",
+                "yield_pct": "---、配当利回りは2.36",
                 "min_shares": 200,
                 "programs": [
                   {
-                    "title": "自社商品（森永絹ごしとうふ等）",
+                    "title": "自社商品（森永絹ごしとうふ等）※長期保有者向け",
                     "tiers": [
                       {
                         "shares": "200株以上",
-                        "content": "◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
-                        "note": "※セカンドハ―ベスト・ジャパンへ寄付。 ※2027年3月より基準日の変更および継続保有要件（長期保有優遇制度）変更を実施。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上"
+                        "content": "【半年以上保有】 ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "note": "※セカンドハ―ベスト・ジャパンへ寄付。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上"
                       },
                       {
                         "shares": "400株以上",
-                        "content": "◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "content": "【半年以上保有】 ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて1,000円相当の特典",
                         "note": ""
                       },
                       {
                         "shares": "1,000株以上",
-                        "content": "◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "content": "【半年以上保有】 ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて2,000円相当の特典",
                         "note": ""
                       }
                     ]
                   }
                 ],
-                "summary": "自社商品。200株以上。権利確定9月。",
-                "text": "自社商品。200株以上。権利確定9月\n【自社商品（森永絹ごしとうふ等）】\n・200株以上: ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※（※セカンドハ―ベスト・ジャパンへ寄付。 ※2027年3月より基準日の変更および継続保有要件（長期保有優遇制度）変更を実施。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上）\n・400株以上: ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※\n・1,000株以上: ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※"
+                "summary": "自社商品。200株以上。権利確定3月。",
+                "text": "自社商品。200株以上。権利確定3月\n【自社商品（森永絹ごしとうふ等）※長期保有者向け】\n・200株以上: 【半年以上保有】 ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※（※セカンドハ―ベスト・ジャパンへ寄付。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上）\n・400株以上: 【半年以上保有】 ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて1,000円相当の特典\n・1,000株以上: 【半年以上保有】 ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて2,000円相当の特典"
               }
             }
           },
@@ -1566,8 +1410,8 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.6,
-                "ex_date": "2026-09-29",
+                "yield_pct": 4.79,
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 23.73
               },
               "earnings": {
@@ -1582,12 +1426,12 @@
                 "industry": "Real Estate Services",
                 "per": 6.3,
                 "forward_per": 6.0,
-                "pbr": 1.27,
+                "pbr": 1.28,
                 "psr": 0.24,
-                "market_cap_oku": 972,
-                "price_yen": 3130,
+                "market_cap_oku": 975,
+                "price_yen": 3140,
                 "target_price_yen": 4900,
-                "target_upside_pct": 56.5,
+                "target_upside_pct": 56.1,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -1599,7 +1443,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.79",
+                "yield_pct": "---、配当利回りは4.78",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -1710,7 +1554,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.24,
+                "yield_pct": 2.27,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 34.49
               },
@@ -1722,14 +1566,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.7,
+                "per": 14.6,
                 "forward_per": 3.4,
                 "pbr": 1.09,
-                "psr": 0.53,
-                "market_cap_oku": 9578,
-                "price_yen": 2114,
+                "psr": 0.52,
+                "market_cap_oku": 9513,
+                "price_yen": 2100,
                 "target_price_yen": 2654,
-                "target_upside_pct": 25.5,
+                "target_upside_pct": 26.4,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -1740,7 +1584,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.33",
+                "yield_pct": "2.36",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -1798,7 +1642,7 @@
               "dividend": {
                 "annual_yen": 85,
                 "yield_pct": 2.47,
-                "ex_date": "2026-09-29",
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 82.3
               },
               "earnings": {
@@ -1809,14 +1653,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.9,
-                "forward_per": 14.6,
-                "pbr": 3.42,
-                "psr": 2.49,
-                "market_cap_oku": 1319,
-                "price_yen": 3435,
+                "per": 35.3,
+                "forward_per": 14.8,
+                "pbr": 3.47,
+                "psr": 2.52,
+                "market_cap_oku": 1336,
+                "price_yen": 3480,
                 "target_price_yen": 5400,
-                "target_upside_pct": 57.2,
+                "target_upside_pct": 55.2,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2344,17 +2188,110 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-07-01",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
+      {
+        "date": "2026-09-30",
+        "pnl": 0,
+        "new_buy_count": 1,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "1925",
+            "name": "大和ハウス工業",
+            "mark": "新買",
+            "close": 2181,
+            "quality": {
+              "code": "1925",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 92,
+                "yield_pct": 4.23,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 14.56
+              },
+              "earnings": {
+                "announcement_date": "2026-11-11",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Real Estate",
+                "industry": "Real Estate - Development",
+                "per": 3.9,
+                "forward_per": 4.6,
+                "pbr": 0.46,
+                "psr": 0.47,
+                "market_cap_oku": 27031,
+                "price_yen": 2182,
+                "target_price_yen": 2534,
+                "target_upside_pct": 16.1,
+                "revenue_growth_pct": 9.0,
+                "earnings_growth_pct": 9.0,
+                "profit_margin_pct": 6.28,
+                "roe_pct": 12.88,
+                "debt_to_equity": 115.4
+              },
+              "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主優待券",
+                "month": "3",
+                "yield_pct": "0.92",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主優待券（共通利用券）※1",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚",
+                        "note": "※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
+                      },
+                      {
+                        "shares": "600株以上",
+                        "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "2,000株以上",
+                        "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "6,000株以上",
+                        "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
+                        "note": ""
+                      },
+                      {
+                        "shares": "10,000株以上",
+                        "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主優待券。100株以上。権利確定3月。",
+                "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: ※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚（※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
+              }
+            }
+          }
+        ],
+        "sellback": []
+      },
       {
         "date": "2026-09-16",
         "pnl": 0,
@@ -2642,8 +2579,8 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 25,
-                "yield_pct": 2.25,
-                "ex_date": "2026-09-29",
+                "yield_pct": 2.33,
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.26
               },
               "earnings": {
@@ -2654,51 +2591,51 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.5,
+                "per": 15.4,
                 "forward_per": 4.3,
                 "pbr": 0.31,
                 "psr": 0.6,
-                "market_cap_oku": 3457,
-                "price_yen": 1071,
+                "market_cap_oku": 3426,
+                "price_yen": 1062,
                 "target_price_yen": 1500,
-                "target_upside_pct": 40.1,
+                "target_upside_pct": 41.2,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
                 "roe_pct": 8.25,
                 "debt_to_equity": 47.1
               },
-              "shareholder_benefit": "自社商品。200株以上。権利確定9月。",
+              "shareholder_benefit": "自社商品。200株以上。権利確定3月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "自社商品",
-                "month": "9",
-                "yield_pct": "0.67",
+                "month": "3",
+                "yield_pct": "---、配当利回りは2.36",
                 "min_shares": 200,
                 "programs": [
                   {
-                    "title": "自社商品（森永絹ごしとうふ等）",
+                    "title": "自社商品（森永絹ごしとうふ等）※長期保有者向け",
                     "tiers": [
                       {
                         "shares": "200株以上",
-                        "content": "◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
-                        "note": "※セカンドハ―ベスト・ジャパンへ寄付。 ※2027年3月より基準日の変更および継続保有要件（長期保有優遇制度）変更を実施。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上"
+                        "content": "【半年以上保有】 ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "note": "※セカンドハ―ベスト・ジャパンへ寄付。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上"
                       },
                       {
                         "shares": "400株以上",
-                        "content": "◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "content": "【半年以上保有】 ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて1,000円相当の特典",
                         "note": ""
                       },
                       {
                         "shares": "1,000株以上",
-                        "content": "◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※",
+                        "content": "【半年以上保有】 ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて2,000円相当の特典",
                         "note": ""
                       }
                     ]
                   }
                 ],
-                "summary": "自社商品。200株以上。権利確定9月。",
-                "text": "自社商品。200株以上。権利確定9月\n【自社商品（森永絹ごしとうふ等）】\n・200株以上: ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※（※セカンドハ―ベスト・ジャパンへ寄付。 ※2027年3月より基準日の変更および継続保有要件（長期保有優遇制度）変更を実施。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上）\n・400株以上: ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※\n・1,000株以上: ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※"
+                "summary": "自社商品。200株以上。権利確定3月。",
+                "text": "自社商品。200株以上。権利確定3月\n【自社商品（森永絹ごしとうふ等）※長期保有者向け】\n・200株以上: 【半年以上保有】 ◆以下より選択（1,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※（※セカンドハ―ベスト・ジャパンへ寄付。 ■継続保有期間について 優待基準日である３月 31 日を含め、当該基準日から遡って毎年３月31 日、６月 30 日、９月 30 日、12 月 31 日の当社株主名簿に、同一株主番号で連続して所定の回数以上記載または記録されていることをいいます。 半年以上継続保有：連続して3回以上 3年以上継続保有：連続して13回以上）\n・400株以上: 【半年以上保有】 ◆以下より選択（2,500円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて1,000円相当の特典\n・1,000株以上: 【半年以上保有】 ◆以下より選択（6,000円相当） 1、自社商品「森永絹とうふ」等 2、寄付※ 【3年以上保有】 加えて2,000円相当の特典"
               }
             }
           },
@@ -2729,8 +2666,8 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 150,
-                "yield_pct": 4.6,
-                "ex_date": "2026-09-29",
+                "yield_pct": 4.79,
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 23.73
               },
               "earnings": {
@@ -2745,12 +2682,12 @@
                 "industry": "Real Estate Services",
                 "per": 6.3,
                 "forward_per": 6.0,
-                "pbr": 1.27,
+                "pbr": 1.28,
                 "psr": 0.24,
-                "market_cap_oku": 972,
-                "price_yen": 3130,
+                "market_cap_oku": 975,
+                "price_yen": 3140,
                 "target_price_yen": 4900,
-                "target_upside_pct": 56.5,
+                "target_upside_pct": 56.1,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -2762,7 +2699,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.79",
+                "yield_pct": "---、配当利回りは4.78",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -2873,7 +2810,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.24,
+                "yield_pct": 2.27,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 34.49
               },
@@ -2885,14 +2822,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.7,
+                "per": 14.6,
                 "forward_per": 3.4,
                 "pbr": 1.09,
-                "psr": 0.53,
-                "market_cap_oku": 9578,
-                "price_yen": 2114,
+                "psr": 0.52,
+                "market_cap_oku": 9513,
+                "price_yen": 2100,
                 "target_price_yen": 2654,
-                "target_upside_pct": 25.5,
+                "target_upside_pct": 26.4,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -2903,7 +2840,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.33",
+                "yield_pct": "2.36",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -2961,7 +2898,7 @@
               "dividend": {
                 "annual_yen": 85,
                 "yield_pct": 2.47,
-                "ex_date": "2026-09-29",
+                "ex_date": "2027-03-30",
                 "payout_ratio_pct": 82.3
               },
               "earnings": {
@@ -2972,14 +2909,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 34.9,
-                "forward_per": 14.6,
-                "pbr": 3.42,
-                "psr": 2.49,
-                "market_cap_oku": 1319,
-                "price_yen": 3435,
+                "per": 35.3,
+                "forward_per": 14.8,
+                "pbr": 3.47,
+                "psr": 2.52,
+                "market_cap_oku": 1336,
+                "price_yen": 3480,
                 "target_price_yen": 5400,
-                "target_upside_pct": 57.2,
+                "target_upside_pct": 55.2,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -3183,20 +3120,20 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -1.53,
-    "new_buy_count": 0,
-    "rsi_oversold_count": 1,
+    "market_return_20d": -1.22,
+    "new_buy_count": 1,
+    "rsi_oversold_count": 3,
     "exit_rsi": 70.0,
     "etf_rsi": {
-      "1321": 66.29,
-      "1306": 59.04
+      "1321": 62.4,
+      "1306": 44.32
     },
-    "active_rsi": 59.04,
+    "active_rsi": 44.32,
     "signal": null
   },
   "quality": {
-    "1332": {
-      "code": "1332",
+    "1925": {
+      "code": "1925",
       "stars": 3,
       "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
@@ -3206,304 +3143,80 @@
       "sources": [],
       "valuation_view": "unknown",
       "dividend": {
-        "annual_yen": 32,
-        "yield_pct": 2.78,
-        "ex_date": "2026-09-29",
-        "payout_ratio_pct": 35.49
-      },
-      "earnings": {
-        "announcement_date": "2026-11-06",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Consumer Defensive",
-        "industry": "Packaged Foods",
-        "per": 12.4,
-        "forward_per": 12.6,
-        "pbr": 1.11,
-        "psr": 0.35,
-        "market_cap_oku": 3388,
-        "price_yen": 1117,
-        "target_price_yen": 1559,
-        "target_upside_pct": 39.6,
-        "revenue_growth_pct": 14.1,
-        "earnings_growth_pct": 17.2,
-        "profit_margin_pct": 2.95,
-        "roe_pct": 10.26,
-        "debt_to_equity": 95.2
-      },
-      "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社商品",
-        "month": "3",
-        "yield_pct": "0.52",
-        "min_shares": 500,
-        "programs": [
-          {
-            "title": "自社商品セット(びん詰・缶詰など)",
-            "tiers": [
-              {
-                "shares": "500株以上",
-                "content": "3,000円相当",
-                "note": "■贈呈時期 7月"
-              },
-              {
-                "shares": "1,000株以上",
-                "content": "5,000円相当",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "自社商品。500株以上。権利確定3月。",
-        "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
-      }
-    },
-    "4452": {
-      "code": "4452",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [
-        "{'url': 'https://finance.yahoo.com/news/why-kao-tse-4452-down-180612469.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}",
-        "{'url': 'https://finance.yahoo.com/news/did-kao-tse-4452-2025-181838843.html', 'site': 'finance', 'region': 'US', 'lang': 'en-US'}"
-      ],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 78,
-        "yield_pct": 2.23,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 55.46
-      },
-      "earnings": {
-        "announcement_date": "2026-11-05",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12
-      },
-      "valuation": {
-        "sector": "Consumer Defensive",
-        "industry": "Household & Personal Products",
-        "per": 24.9,
-        "forward_per": 13.5,
-        "pbr": 2.82,
-        "psr": 1.8,
-        "peg": 2.98,
-        "market_cap_oku": 31522,
-        "price_yen": 3484,
-        "target_price_yen": 4052,
-        "target_upside_pct": 16.3,
-        "revenue_growth_pct": 9.4,
-        "earnings_growth_pct": 32.9,
-        "profit_margin_pct": 7.77,
-        "roe_pct": 12.32,
-        "debt_to_equity": 20.6
-      },
-      "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定12月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社製品、イベント招待",
-        "month": "12",
-        "yield_pct": "---、配当利回りは2.24",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "自社製品セット（長期保有者向け）",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "【半年以上保有】※ 抽選でプレゼント",
-                "note": "※2026年12月31日の初回に限り、株主名簿に記載又は記録されている保有株式数のみを条件とします。 ※毎年6月30日及び12月31日のいずれかの当社株主名簿に記載又は記録された保有株式数のうち、少ない方の株式数の属する区分での優待対象となります。 ■継続保有期間について 同一株主番号にて毎年6月30日及び12月31日時点の当社株主名簿に連続して記載又は記録されていることが条件となります。 ※優待制度の内容等の詳細については、改めて当社ウェブサイト等でご案内していく予定です。 ■贈呈時期 6月以降順次"
-              },
-              {
-                "shares": "400株以上",
-                "content": "【半年以上保有】 ◇化粧品または、家庭品を選択 6,000円相当",
-                "note": ""
-              },
-              {
-                "shares": "1,000株以上",
-                "content": "【半年以上保有】 ◇化粧品または、家庭品を選択 10,000円相当",
-                "note": ""
-              }
-            ]
-          },
-          {
-            "title": "当社現地開催イベント参加（抽選）",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "◇企画を決定する都度、随時ご案内いたします。 （判定基準日を含む）",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "自社製品、イベント招待。100株以上。権利確定12月。",
-        "text": "自社製品、イベント招待。100株以上。権利確定12月\n【自社製品セット（長期保有者向け）】\n・100株以上: 【半年以上保有】※ 抽選でプレゼント（※2026年12月31日の初回に限り、株主名簿に記載又は記録されている保有株式数のみを条件とします。 ※毎年6月30日及び12月31日のいずれかの当社株主名簿に記載又は記録された保有株式数のうち、少ない方の株式数の属する区分での優待対象となります。 ■継続保有期間について 同一株主番号にて毎年6月30日及び12月31日時点の当社株主名簿に連続して記載又は記録されていることが条件となります。 ※優待制度の内容等の詳細については、改めて当社ウェブサイト等でご案内していく予定です。 ■贈呈時期 6月以降順次）\n・400株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 6,000円相当\n・1,000株以上: 【半年以上保有】 ◇化粧品または、家庭品を選択 10,000円相当\n【当社現地開催イベント参加（抽選）】\n・100株以上: ◇企画を決定する都度、随時ご案内いたします。 （判定基準日を含む）"
-      }
-    },
-    "5110": {
-      "code": "5110",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 84,
-        "yield_pct": 4.16,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 35.69
+        "annual_yen": 92,
+        "yield_pct": 4.23,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 14.56
       },
       "earnings": {
         "announcement_date": "2026-11-11",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12,
-        "is_estimate": true
-      },
-      "valuation": {
-        "sector": "Consumer Cyclical",
-        "industry": "Auto Parts",
-        "per": 8.5,
-        "forward_per": 10.7,
-        "pbr": 0.7,
-        "psr": 0.42,
-        "market_cap_oku": 5248,
-        "price_yen": 1996,
-        "target_price_yen": 2640,
-        "target_upside_pct": 32.3,
-        "revenue_growth_pct": 11.7,
-        "earnings_growth_pct": 60.0,
-        "profit_margin_pct": 4.93,
-        "roe_pct": 9.02,
-        "debt_to_equity": 44.9
-      },
-      "shareholder_benefit": "なし"
-    },
-    "5929": {
-      "code": "5929",
-      "stars": 4,
-      "background": "株価は直近で押し目を形成する展開となっているが、構造的な悪材料や業績悪化につながるプレスリリース等は確認されていません。海外大手金融メディアなどで優良配当銘柄として相次いで取り上げられており、今回の調整は直近上昇に対する一時的な利確売りおよび全体地合いの影響による過剰な押し目と判断されます。",
-      "risk_factors": [
-        "海外（北米・欧州）市場における建築着工件数の減速リスク",
-        "鋼材などの原材料価格およびエネルギーコスト高騰に伴う利益率圧迫",
-        "全般的な株式市場の調整に伴う過剰連れ安リスク"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://finance.yahoo.com/markets/stocks/articles/asian-dividend-stocks-enhance-portfolio-043144890.html",
-        "https://finance.yahoo.com/markets/stocks/articles/global-dividend-stocks-spotlighting-three-093158343.html"
-      ],
-      "material_analysis": "海外の投資メディア等でアジアの有望配当銘柄として相次いで紹介されており、好ファンダメンタルズが評価される一方で、短期的には材料出尽くし感による利確売りに押される展開となっています。",
-      "fundamental_summary": "シャッターおよび建材でグローバル展開する大手企業であり、ROE18.13%・営業利益率8.69%と優れた収益性と資本効率を誇ります。予想PERは14.9倍、PBRは2.12倍と過去比較やグローバル同業比較で妥当な水準にあり、アナリストの平均目標株価4,271円（現値比+24.4%）と見通しも良好です。配当利回りは3.75%（年間配当132円、配当性向46.18%）に達するほか100株保有時のQUOカード優待も用意されており、株主還元姿勢が明確で下値サポート力が非常に強固です。次回決算発表は10月下旬予定とまだ先であり、短期的な業績イベントリスクが低いため安心して押し目を狙えるファンダメンタルズ構造です。",
-      "technical_view": "終値3,432円は、過去に出来高が集中した3,400円の節目の心理的サポートライン付近に位置しており、下値では買い支えが入りやすい水準です。上値の節目としては3,600円台前後の直近戻り高値および移動平均線ゾーンが抵抗帯として意識されます。",
-      "watch_points": [
-        "3,400円の節目サポートラインにおける下げ渋りと反発の勢い",
-        "北米および欧州における建材需要の回復動向と価格転嫁の浸透度"
-      ],
-      "valuation_view": "cheap",
-      "dividend": {
-        "annual_yen": 132,
-        "yield_pct": 3.75,
-        "ex_date": "2026-09-29",
-        "payout_ratio_pct": 46.18
-      },
-      "earnings": {
-        "announcement_date": "2026-10-29",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3,
-        "is_estimate": true
-      },
-      "valuation": {
-        "sector": "Industrials",
-        "industry": "Building Products & Equipment",
-        "per": 12.2,
-        "forward_per": 15.0,
-        "pbr": 2.13,
-        "psr": 1.08,
-        "market_cap_oku": 7150,
-        "price_yen": 3445,
-        "target_price_yen": 4271,
-        "target_upside_pct": 24.0,
-        "revenue_growth_pct": -0.3,
-        "earnings_growth_pct": -31.6,
-        "profit_margin_pct": 8.69,
-        "roe_pct": 18.13,
-        "debt_to_equity": 12.6
-      },
-      "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "オリジナルQUOカード",
-        "month": "3",
-        "yield_pct": "0.14",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "オリジナルQUOカード",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "【2年未満保有株主】 500円相当",
-                "note": "■継続保有期間について 保有期間は株主番号で管理し、毎年3月末日、9月末日の権利確定日毎に同一の株主番号であることを確認できる株主様の保有期間をカウントいたします。従来から同一の株主番号で保有されている株主様は、従来の保有期間もカウントいたします。"
-              },
-              {
-                "shares": "1,000株以上",
-                "content": "【2年未満保有株主】 500円相当 【2年以上保有株主】 2,000円相当",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "オリジナルQUOカード。100株以上。権利確定3月。",
-        "text": "オリジナルQUOカード。100株以上。権利確定3月\n・100株以上: 【2年未満保有株主】 500円相当（■継続保有期間について 保有期間は株主番号で管理し、毎年3月末日、9月末日の権利確定日毎に同一の株主番号であることを確認できる株主様の保有期間をカウントいたします。従来から同一の株主番号で保有されている株主様は、従来の保有期間もカウントいたします。）\n・1,000株以上: 【2年未満保有株主】 500円相当 【2年以上保有株主】 2,000円相当"
-      }
-    },
-    "8830": {
-      "code": "8830",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 52,
-        "yield_pct": 1.63,
-        "ex_date": "2026-09-29",
-        "payout_ratio_pct": 19.26
-      },
-      "earnings": {
-        "announcement_date": "2026-11-10",
         "fiscal_year_end": "2027-03-31",
         "fiscal_month": 3
       },
       "valuation": {
         "sector": "Real Estate",
-        "industry": "Real Estate Services",
-        "per": 13.6,
-        "forward_per": 7.4,
-        "pbr": 1.12,
-        "psr": 2.74,
-        "peg": 2.61,
-        "market_cap_oku": 28595,
-        "price_yen": 3096,
-        "target_price_yen": 4662,
-        "target_upside_pct": 50.6,
-        "profit_margin_pct": 0.0,
-        "roe_pct": 9.36,
-        "debt_to_equity": 156.0
+        "industry": "Real Estate - Development",
+        "per": 3.9,
+        "forward_per": 4.6,
+        "pbr": 0.46,
+        "psr": 0.47,
+        "market_cap_oku": 27031,
+        "price_yen": 2182,
+        "target_price_yen": 2534,
+        "target_upside_pct": 16.1,
+        "revenue_growth_pct": 9.0,
+        "earnings_growth_pct": 9.0,
+        "profit_margin_pct": 6.28,
+        "roe_pct": 12.88,
+        "debt_to_equity": 115.4
       },
-      "shareholder_benefit": "なし"
+      "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "株主優待券",
+        "month": "3",
+        "yield_pct": "0.92",
+        "min_shares": 100,
+        "programs": [
+          {
+            "title": "株主優待券（共通利用券）※1",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚",
+                "note": "※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
+              },
+              {
+                "shares": "600株以上",
+                "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
+                "note": ""
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
+                "note": ""
+              },
+              {
+                "shares": "2,000株以上",
+                "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
+                "note": ""
+              },
+              {
+                "shares": "6,000株以上",
+                "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
+                "note": ""
+              },
+              {
+                "shares": "10,000株以上",
+                "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "株主優待券。100株以上。権利確定3月。",
+        "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: ※分割前：50株以上 【3年未満保有】 2枚 【3年以上保有】 4枚（※2026年10月1日を効力発生日とする1：2の株式分割が予定されています。 ※株数は分割後を表示しています。 ◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
+      }
     }
   },
   "runtime": {
