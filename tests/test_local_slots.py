@@ -12,6 +12,24 @@ def test_slots_due_in_window() -> None:
     assert any(s.slot_id == slot.slot_id for s in due)
 
 
+def test_slots_due_catchup_after_window() -> None:
+    """短い窓を過ぎても 19:00 までは未実行スロットを補完する。"""
+    from datetime import time
+
+    slot = LOCAL_SLOTS[0]  # 11:30
+    now = datetime.combine(datetime.today(), time(14, 0))
+    due = slots_due(now, state={})
+    assert any(s.slot_id == slot.slot_id for s in due)
+
+
+def test_slots_not_due_after_catchup_end() -> None:
+    from datetime import time
+
+    now = datetime.combine(datetime.today(), time(19, 1))
+    due = slots_due(now, state={})
+    assert due == []
+
+
 def test_slots_not_due_after_mark_done(tmp_path, monkeypatch) -> None:
     from kaburadar3.scheduling import slots as slots_mod
 

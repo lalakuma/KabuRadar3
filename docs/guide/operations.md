@@ -1,8 +1,8 @@
-# 日常運用（クラウド専用）
+# 日常運用
 
-**本番運用は GitHub Actions のみ**です。PC 上の `bat` / タスクスケジューラは使いません。
+**本番はローカル**（[local.md](local.md)）。以下は GitHub Actions を補助利用する場合の手順です。
 
-詳細: **[cloud.md](cloud.md)**
+詳細: **[local.md](local.md)** · **[cloud.md](cloud.md)**
 
 ## あなたがすること
 
@@ -77,13 +77,17 @@ GitHub → **Actions** → **Daily screening (cloud)** → **Run workflow**
 
 ---
 
-## 参考: ローカル実行（開発・緊急時のみ）
+## 参考: ローカル実行
 
-`bat/` / `sh/` は **開発・デバッグ用**として残しています。本番では使わないでください。
+**現行の本番はローカル**です。手順・取りこぼし防止（Wake / 逃したら実行 / 15分補完）は **[local.md](local.md)** を参照。
 
-| bat / sh | 用途（開発のみ） |
-|----------|------------------|
+| bat | 用途 |
+|-----|------|
+| `register_task_scheduler.bat` | 平日 11:30 / 15:00 / 16:00 + `KabuRadar3-LO-CATCHUP` 登録 |
+| `harden_task_scheduler.ps1` | WakeToRun / StartWhenAvailable 等を付与（登録 bat から呼ぶ） |
+| `run_due_catchup.bat` | 未実行スロットのみ補完（`launcher.py --due`） |
+| `run_slot_once.bat` / `run_local_scheduler.bat` | 単発 / 常駐スケジューラ |
 | `healthcheck.bat` | 環境確認 |
-| `screening.bat` | **本番では使わない** |
+| `screening.bat` | 開発用（本番 LO は `screening_lo.bat`） |
 
 旧 bat 名の互換ラッパーも同様です。

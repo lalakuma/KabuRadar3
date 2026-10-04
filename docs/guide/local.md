@@ -38,23 +38,29 @@ bat\run_local_scheduler.bat
 - スロット一覧: `python src/kaburadar3/scheduling/launcher.py --list`
 - 本日の状態: `python src/kaburadar3/scheduling/launcher.py --status`
 
-### 方法 B: Windows タスクスケジューラ（最も正確）
+### 方法 B: Windows タスクスケジューラ（最も正確・取りこぼし防止）
 
 Actions と同様のずれがなく、**指定時刻ぴったり**に起動できます。
 
 1. **タスクスケジューラ** を開く
-2. 一括登録: `bat\register_task_scheduler.bat`（平日 **11:30 / 15:00 / 16:00** LO）
+2. 一括登録: `bat\register_task_scheduler.bat`（平日 **11:30 / 15:00 / 16:00** LO + 補完）
 
 | タスク名 | トリガー | 操作 |
 |----------|----------|------|
 | KabuRadar3-LO-1130 | 平日 11:30 | `bat\run_slot_once.bat lo_1130` |
 | KabuRadar3-LO-1500 | 平日 15:00 | `bat\run_slot_once.bat lo_1500` |
 | KabuRadar3-LO-1600 | 平日 16:00 | `bat\run_slot_once.bat lo_1600` |
+| KabuRadar3-LO-CATCHUP | 平日 11:45〜約19:00・15分ごと | `bat\run_due_catchup.bat`（未実行のみ） |
 
-**プログラム:** `C:\share\MorinoFolder\Python\KabuRadar3\bat\screening_lo.bat`  
-**開始:** `C:\share\MorinoFolder\Python\KabuRadar3\bat`
+登録時に次を有効化します（`harden_task_scheduler.ps1`）:
 
-「ユーザーがログオンしているかどうかにかかわらず実行」+「最上位の特権で実行」は環境に応じて設定してください。
+- **スリープ解除して実行**（WakeToRun）
+- **開始時刻を逃したらすぐ実行**（StartWhenAvailable）
+- **バッテリでも実行**
+- スロット開始後〜**19:00** まで未実行なら補完（同じ日の二重実行は `local_schedule_state.json` で防止）
+
+**注意:** PC が完全シャットダウンのままだと動きません。スリープ／休止なら復帰して実行します。
+
 
 ## ローカル vs GitHub Actions
 
@@ -77,3 +83,4 @@ Actions と同様のずれがなく、**指定時刻ぴったり**に起動で�
 | DB なし | `data\kaburadar.db` を KabuRadar2 等からコピー |
 | Gemini 評価なし | `.env` に `GEMINI_API_KEY`、runtime.json で `gemini_rating.enabled: true` |
 | 同じスロットが再実行されない | `data/local_schedule_state.json` を確認。再実行したい日は該当 ID を削除 |
+| スロットが飛んだ | `bat\register_task_scheduler.bat` で再登録（Wake / 逃したら実行 / 15分補完）。PC 完全オフでは不可 |

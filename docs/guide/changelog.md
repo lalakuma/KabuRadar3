@@ -2,6 +2,12 @@
 
 リファクタリング・整理の要点です（詳細は git log を参照）。
 
+## 2026-10 ローカル実行の取りこぼし防止
+
+- スロット開始後〜**19:00** まで未実行なら補完（`slots_due`）
+- タスクに WakeToRun / StartWhenAvailable / バッテリ許可を付与（`harden_task_scheduler.ps1`）
+- 平日 15 分ごとの `KabuRadar3-LO-CATCHUP` を追加
+
 ## 2026-09 株価更新の期間を自動選択
 
 - `update_prices.py --menu auto` … DB の過去約1か月の平日欠損を見て 1/5/10/30 日を選択

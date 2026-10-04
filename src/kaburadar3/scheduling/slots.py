@@ -28,6 +28,9 @@ class LocalSlot:
         return self.window_start(day) + timedelta(minutes=self.window_minutes)
 
 
+# スロット開始後、この時刻までは未実行なら補完実行する（スリープ復帰など）
+CATCHUP_UNTIL = time(19, 0)
+
 LOCAL_SLOTS: tuple[LocalSlot, ...] = (
     LocalSlot(
         slot_id="lo_1130",
@@ -80,17 +83,24 @@ def is_slot_done(slot_id: str, now: datetime | None = None, state: dict[str, lis
 
 
 def slots_due(now: datetime | None = None, state: dict[str, list[str]] | None = None) -> list[LocalSlot]:
+    """現在時刻で実行すべき未完了スロット。
+
+    開始時刻〜短い窓に加え、当日 CATCHUP_UNTIL までは取りこぼしを補完する。
+    （PC スリープ復帰後など。既に実行済みのスロットは除く）
+    """
     now = now or datetime.now()
     day_key = now.date().isoformat()
     state = state if state is not None else load_state()
     done = set(state.get(day_key, []))
+    catchup_end = datetime.combine(now.date(), CATCHUP_UNTIL)
     due: list[LocalSlot] = []
     for slot in LOCAL_SLOTS:
         if slot.slot_id in done:
             continue
         start = slot.window_start(now.date())
-        end = slot.window_end(now.date())
-        if start <= now <= end:
+        if now < start:
+            continue
+        if now <= catchup_end:
             due.append(slot)
     return due
 

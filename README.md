@@ -59,7 +59,7 @@ pip install -r requirements.txt
 rem 手動1回（LO）
 bat\screening_lo.bat
 
-rem 自動（平日 11:30 / 15:00 / 16:00 LO — Windows タスクまたは常駐）
+rem 自動（平日 11:30 / 15:00 / 16:00 LO + 取りこぼし補完 — Windows タスクまたは常駐）
 bat\register_task_scheduler.bat
 bat\run_local_scheduler.bat
 
