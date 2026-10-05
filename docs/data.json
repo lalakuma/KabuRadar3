@@ -1,28 +1,17 @@
 {
-  "generated_at": "2026-10-04T18:48:16+09:00",
+  "generated_at": "2026-10-05T11:35:19+09:00",
   "mode": "LO",
   "summary": {
-    "pf": 1.132,
-    "wins": 27,
+    "pf": 1.04,
+    "wins": 26,
     "losses": 13,
-    "win_rate": 67.5,
-    "total_income": 35100,
-    "symbol_count": 50,
-    "neutral_count": 12,
-    "source_file": "Y0_PF1.132_W27L13_rate67.50_all35100.csv"
+    "win_rate": 66.67,
+    "total_income": 18400,
+    "symbol_count": 58,
+    "neutral_count": 20,
+    "source_file": "Y0_PF1.04_W26L13_rate66.67_all18400.csv"
   },
   "symbols": [
-    {
-      "code": "4516",
-      "name": "日本新薬",
-      "industry": "nan",
-      "incomes": 29500,
-      "pf": 82.3,
-      "winlose": "W2L0",
-      "win_per": 100,
-      "plus_gain": 8230,
-      "minus_gain": 0
-    },
     {
       "code": "9744",
       "name": "メイテック",
@@ -43,6 +32,17 @@
       "winlose": "W1L0",
       "win_per": 100,
       "plus_gain": 4210,
+      "minus_gain": 0
+    },
+    {
+      "code": "4516",
+      "name": "日本新薬",
+      "industry": "nan",
+      "incomes": 12800,
+      "pf": 36.4,
+      "winlose": "W1L0",
+      "win_per": 100,
+      "plus_gain": 3640,
       "minus_gain": 0
     },
     {
@@ -332,6 +332,17 @@
       "minus_gain": 0
     },
     {
+      "code": "3659",
+      "name": "ネクソン",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "4403",
       "name": "日油",
       "industry": "nan",
@@ -409,8 +420,85 @@
       "minus_gain": 0
     },
     {
+      "code": "7202",
+      "name": "いすゞ自動車",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "7242",
+      "name": "ＫＹＢ",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "7282",
+      "name": "豊田合成",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "7716",
       "name": "ナカニシ",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "7988",
+      "name": "ニフコ",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "8174",
+      "name": "日本瓦斯",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "8572",
+      "name": "アコム",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "9502",
+      "name": "中部電力",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -564,18 +652,18 @@
     }
   ],
   "today": {
-    "trade_date": "2026-10-02",
+    "trade_date": "2026-10-05",
     "new_buy": [
       {
-        "code": "1662",
-        "name": "石油資源開発",
+        "code": "1332",
+        "name": "ニッスイ",
         "mark": "新買",
-        "close": 1754,
-        "rsi": 19.69,
-        "rci": -96.67,
+        "close": 1101,
+        "rsi": 16.21,
+        "rci": -91.67,
         "rci_turn": true,
         "quality": {
-          "code": "1662",
+          "code": "1332",
           "stars": 3,
           "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
@@ -585,32 +673,209 @@
           "sources": [],
           "valuation_view": "unknown",
           "dividend": {
-            "annual_yen": 45,
-            "yield_pct": 2.57,
+            "annual_yen": 34,
+            "yield_pct": 3.1,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 31.14
+            "payout_ratio_pct": 35.71
           },
           "earnings": {
-            "announcement_date": "2026-11-12",
+            "announcement_date": "2026-11-06",
             "fiscal_year_end": "2027-03-31",
             "fiscal_month": 3
           },
           "valuation": {
-            "sector": "Energy",
-            "industry": "Oil & Gas E&P",
-            "per": 8.4,
-            "forward_per": 11.6,
-            "pbr": 0.76,
-            "psr": 1.39,
-            "market_cap_oku": 4477,
-            "price_yen": 1754,
-            "target_price_yen": 2005,
-            "target_upside_pct": 14.3,
-            "revenue_growth_pct": -21.4,
-            "earnings_growth_pct": -79.4,
-            "profit_margin_pct": 12.69,
-            "roe_pct": 7.47,
-            "debt_to_equity": 9.3
+            "sector": "Consumer Defensive",
+            "industry": "Packaged Foods",
+            "per": 12.3,
+            "forward_per": 12.4,
+            "pbr": 1.09,
+            "psr": 0.35,
+            "market_cap_oku": 3341,
+            "price_yen": 1102,
+            "target_price_yen": 1544,
+            "target_upside_pct": 40.1,
+            "revenue_growth_pct": 14.1,
+            "earnings_growth_pct": 17.2,
+            "profit_margin_pct": 2.95,
+            "roe_pct": 10.26,
+            "debt_to_equity": 95.2
+          },
+          "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "自社商品",
+            "month": "3",
+            "yield_pct": "0.54",
+            "min_shares": 500,
+            "programs": [
+              {
+                "title": "自社商品セット(びん詰・缶詰など)",
+                "tiers": [
+                  {
+                    "shares": "500株以上",
+                    "content": "3,000円相当",
+                    "note": "■贈呈時期 7月"
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "5,000円相当",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "自社商品。500株以上。権利確定3月。",
+            "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "3391",
+        "name": "ツルハホールディングス",
+        "mark": "新買",
+        "close": 2089,
+        "rsi": 33.45,
+        "rci": -90.0,
+        "rci_turn": true,
+        "quality": {
+          "code": "3391",
+          "stars": 4,
+          "background": "ドラッグストア大手のツルハホールディングスは、業界再編の思惑や本業の底堅さがあるものの、全般的な小売セクターの物色一巡や全般地合いの影響から足元で調整局面を迎えています。直近で個別の致命的な構造悪材料は確認されておらず、地合いや利益確定売りに押された一時的な下落と考えられます。短期的な売られ過ぎ感が強まったことで、押し目買いによる自律反発が期待される局面です。",
+          "risk_factors": [
+            "ドラッグストア業界における競合他社との価格競争激化による粗利率低下",
+            "光熱費や人件費をはじめとする店舗運営コストの上昇圧力",
+            "消費者の節約志向強まりに伴う既存店客単価の伸び悩み"
+          ],
+          "confidence": "high",
+          "sources": [],
+          "material_analysis": "直近で新規の悪材料発表はなく、イオン・ウエルシアとの経営統合に向けた中長期的な再編期待が下値を支える材料として意識されています。",
+          "fundamental_summary": "同社は国内ドラッグストア最大手の一角であり、PBR1.08倍、実績PER14.5倍とセクター内でも比較的割安なバリュエーション水準に位置しています。売上高は着実に底堅さを維持しているものの、人件費や店舗運用コストの増加に伴う利益率の押し下げが課題視されています。アナリストの目標株価平均は2,654円と現在地から+27%超の上値余地が試算されており、企業価値に対して評価不足感が残ります。配当利回りは2.33%（年間48円）で配当性向も約34.5%と健全であり、株主優待の存在と併せて下値支持力を提供しています。",
+          "technical_view": "2,000円の大台節目を目前にした2,089円近辺は、過去の揉み合い域および心理的節目として強いサポートラインが意識される水準です。上値の目処としては移動平均線や前回の揉み合い上限である2,200円前後が抵抗帯として意識されます。",
+          "watch_points": [
+            "月次売上高動向（特に既存店売上高と客数・客単価の推移）",
+            "ウエルシアHDおよびイオンとの経営統合プロセスに関する具体的な進展ニュース"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 48,
+            "yield_pct": 2.33,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 34.49
+          },
+          "earnings": {
+            "announcement_date": "2026-10-07",
+            "fiscal_year_end": "2027-02-28",
+            "fiscal_month": 2
+          },
+          "valuation": {
+            "sector": "Healthcare",
+            "industry": "Pharmaceutical Retailers",
+            "per": 14.5,
+            "forward_per": 3.3,
+            "pbr": 1.08,
+            "psr": 0.52,
+            "market_cap_oku": 9463,
+            "price_yen": 2088,
+            "target_price_yen": 2654,
+            "target_upside_pct": 27.1,
+            "revenue_growth_pct": 1.34,
+            "earnings_growth_pct": -34.7,
+            "profit_margin_pct": 2.48,
+            "debt_to_equity": 22.6
+          },
+          "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "株主ギフト券、または寄付",
+            "month": "2",
+            "yield_pct": "2.42",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "株主ギフト券",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "5,000円相当",
+                    "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+                  },
+                  {
+                    "shares": "500株以上",
+                    "content": "10,000円相当",
+                    "note": ""
+                  },
+                  {
+                    "shares": "1,000株以上",
+                    "content": "15,000円相当",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+            "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "3659",
+        "name": "ネクソン",
+        "mark": "新買",
+        "close": 2695,
+        "rsi": 26.32,
+        "rci": -66.67,
+        "rci_turn": true,
+        "quality": {
+          "code": "3659",
+          "stars": 4,
+          "background": "直近においてネクソン固有の致命的な構造的悪材料は浮上しておらず、現在の株価調整は株式市場全体の地合い悪化や短期資金の利益確定売りに連れ安した一時的な押し目と見られます。高水準な利益率を維持しており本業の収益基盤は極めて堅固であるため、需給要因による過剰売りが進んだ局面と考えられます。売り圧力が一巡した後は、割安感に着目した見直し買いによる反発が期待される局面です。",
+          "risk_factors": [
+            "ゲームセクター全般からの短期資金の流出・地合い悪化",
+            "主要タイトル（メイプルストーリー等）の課金売上失速リスク",
+            "韓国・中国などの海外市場における規制動向や為替変動"
+          ],
+          "confidence": "high",
+          "sources": [],
+          "material_analysis": "直近で株価を押し下げる個別材料の発表はなく、外部環境や全般的な調整を受けた需給起因の下落です。企業価値を損なう要因はなく、織り込みは完了しつつあります。",
+          "fundamental_summary": "同社は利益成長率80.4%、営業利益率26.35%とオンラインゲーム大手の中でも群を抜く高い収益性を誇ります。バリュエーション面では予想PER16.1倍、PBR1.96倍と、高い収益力を考慮すると過度な買われ過ぎ感はなく十分に底固い水準です。配当利回りは2.23%（年間60円）で配当性向も17.56%と低く、今後の追加還元や事業投資に向けた財務的余力も豊富に備えています。アナリストの平均目標株価は2,963円と現状から約10%の上昇余地が提示されており、下値リスクは限定的です。次回決算発表までも十分な日数が残されており、決算通過待ちによる手控えを気にせずテクニカルなリバウンドを狙える好環境と言えます。",
+          "technical_view": "株価は2,695円まで調整が進み、節目の2,700円を割り込んだことで下値の節目である2,650円付近のサポートラインを試す位置にあります。上値方向は2,800円前後の前頭節目や移動平均線が抵抗線として意識されます。",
+          "watch_points": [
+            "2,600円〜2,650円の節目価格帯における下げ止まりと底固め",
+            "主要IPのセールスランキング推移および新作開発スケジュールの進捗"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 60,
+            "yield_pct": 2.23,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 17.56
+          },
+          "earnings": {
+            "announcement_date": "2026-11-10",
+            "fiscal_year_end": "2026-12-31",
+            "fiscal_month": 12
+          },
+          "valuation": {
+            "sector": "Communication Services",
+            "industry": "Electronic Gaming & Multimedia",
+            "per": 15.8,
+            "forward_per": 16.1,
+            "pbr": 1.96,
+            "psr": 4.07,
+            "peg": 1.79,
+            "market_cap_oku": 20975,
+            "price_yen": 2693,
+            "target_price_yen": 2963,
+            "target_upside_pct": 10.0,
+            "revenue_growth_pct": 1.9,
+            "earnings_growth_pct": 80.4,
+            "profit_margin_pct": 26.35,
+            "roe_pct": 12.52,
+            "debt_to_equity": 4.5
           },
           "shareholder_benefit": "なし"
         },
@@ -618,108 +883,359 @@
         "rci_ok": true
       },
       {
-        "code": "4732",
-        "name": "ユー・エス・エス",
+        "code": "7164",
+        "name": "全国保証",
         "mark": "新買",
-        "close": 1816,
-        "rsi": 34.57,
-        "rci": -86.67,
+        "close": 2997,
+        "rsi": 13.87,
+        "rci": -94.58,
         "rci_turn": true,
         "quality": {
-          "code": "4732",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "code": "7164",
+          "stars": 4,
+          "background": "住宅ローン市場の先行きや金利動向に対する過度な警戒感から利益確定売りが先行し、株価は心理的節目である3,000円を割り込む水準まで押し込まれています。しかし個別企業に関する致命的な悪材料は確認されておらず、全体地合いの影響や短期的な過剰売りによる自律調整の側面が強いと見られます。",
           "risk_factors": [
-            "評価失敗"
+            "国内金利の上昇に伴う住宅ローン利用者の減少および新規保証実行額の鈍化",
+            "不動産価格高騰による住宅取得マインドの冷え込み",
+            "全体相場の地合い悪化に伴う節目3,000円台の下振れ長期化"
           ],
-          "confidence": "low",
+          "confidence": "high",
           "sources": [],
-          "valuation_view": "unknown",
+          "material_analysis": "直近で企業業績を損なう独自の悪材料は出ておらず、高収益体質や高利回りという好ファンダメンタルズに対して過剰に売りが先行した状態です。",
+          "fundamental_summary": "営業利益率56.05%、ROE14.05%と非常に優れた稼ぐ力を誇る住宅ローン保証の国内最大手企業です。PER12.4倍（予想PER6.4倍）と割安感が際立っており、アナリスト目標株価3,680円に対しても約23%の上昇余地が提示されています。また、配当利回りは4.18%（年間125円）と高水準であり、インカムゲイン面からの強力な下値支持効果が期待できます。次回決算発表までも時間的な余裕があり、イベントリスクを避けた短期反発を狙いやすい足回りです。",
+          "technical_view": "終値2,997円は心理的節目である3,000円の直下に位置し、節目割れによる達成感からリバウンドが入る直前のサポート帯域にあります。直近の移動平均線や前安値水準からの下振れは一時的とみられ、3,000円台の早期奪還が期待できる位置関係です。",
+          "watch_points": [
+            "心理的節目である3,000円の奪還と、その上での定着度合い",
+            "高配当利回りを背景としたインカム狙いの買い戻し資金の流入"
+          ],
+          "valuation_view": "cheap",
           "dividend": {
-            "annual_yen": 56,
-            "yield_pct": 3.11,
+            "annual_yen": 125,
+            "yield_pct": 4.18,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 61.79
+            "payout_ratio_pct": 49.46
           },
           "earnings": {
-            "announcement_date": "2026-11-10",
+            "announcement_date": "2026-11-05",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Financial Services",
+            "industry": "Credit Services",
+            "per": 12.4,
+            "forward_per": 6.4,
+            "pbr": 1.64,
+            "psr": 6.76,
+            "market_cap_oku": 3988,
+            "price_yen": 2997,
+            "target_price_yen": 3680,
+            "target_upside_pct": 22.8,
+            "revenue_growth_pct": 2.5,
+            "earnings_growth_pct": 10.9,
+            "profit_margin_pct": 56.05,
+            "roe_pct": 14.05,
+            "debt_to_equity": 12.3
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "7202",
+        "name": "いすゞ自動車",
+        "mark": "新買",
+        "close": 2047,
+        "rsi": 30.46,
+        "rci": -96.67,
+        "rci_turn": true,
+        "quality": {
+          "code": "7202",
+          "stars": 4,
+          "background": "直近の下落は個別材料によるものではなく、為替動向への警戒感や自動車セクター全般に対する利確定売りなど地合いの影響によるものが主因と考えられます。構造的な業績悪化を示す悪材料は確認されておらず、一時的な調整が進んだ結果、テクニカル上の過剰売り水準に達しています。",
+          "risk_factors": [
+            "想定以上の円高進行による業績下振れリスク",
+            "タイなど主力海外市場における商用車需要の減速",
+            "物流業界のコスト増に伴う設備投資意欲の鈍化"
+          ],
+          "confidence": "high",
+          "sources": [],
+          "material_analysis": "個別の致命的な悪材料は見当たらず、高水準な業績や配当水準に対して過剰な連れ安となっている状態です。",
+          "fundamental_summary": "予想PER8.0倍、PBR0.93倍とバリュエーション面では明確な割安感があります。売上成長率6.8%、利益成長率27.4%と本業の業績は良好で、ROEも11.6%と高い資本効率を維持しています。配当利回りは4.65%（年間94円）と高水準で、下値での買い支え効果が期待できます。株主優待はないものの、アナリスト目標株価（2,569円）に対する値幅余地も大きく、ファンダメンタルズは極めて健全です。",
+          "technical_view": "終値2,047円は心理的節目である2,000円の大台が強力なサポートラインとして機能しやすい水準であり、上値は25日移動平均線や2,100円台半ばが節目となります。",
+          "watch_points": [
+            "心理的節目である2,000円台を維持した反発力の強さ",
+            "為替相場（ドル・円およびタイバーツ）の推移"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 94,
+            "yield_pct": 4.65,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 47.65
+          },
+          "earnings": {
+            "announcement_date": "2026-11-06",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Manufacturers",
+            "per": 10.6,
+            "forward_per": 8.0,
+            "pbr": 0.93,
+            "psr": 0.4,
+            "market_cap_oku": 14061,
+            "price_yen": 2046,
+            "target_price_yen": 2569,
+            "target_upside_pct": 25.6,
+            "revenue_growth_pct": 6.8,
+            "earnings_growth_pct": 27.4,
+            "profit_margin_pct": 4.09,
+            "roe_pct": 11.6,
+            "debt_to_equity": 60.2
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "7242",
+        "name": "ＫＹＢ",
+        "mark": "新買",
+        "close": 1525,
+        "rsi": 3.85,
+        "rci": -80.0,
+        "rci_turn": true,
+        "quality": {
+          "code": "7242",
+          "stars": 4,
+          "background": "個別ニュースでの致命的な構造悪材料は観測されておらず、直近の下落は市場全体の地合い悪化や自動車部品セクター全般への警戒感に伴う連れ安が主因と考えられます。また、直近の株価推移に伴う短期資金の利益確定売りが一巡していないことで、過度な押し目が発生している状況です。ファンダメンタルズの根幹を揺るがす材料はなく、一時的な過剰売りによる好機と捉えられます。",
+          "risk_factors": [
+            "主要顧客である自動車メーカーの生産調整リスク",
+            "為替（円高推移）による利益圧迫リスク",
+            "株式市場全体のリスクオフに伴う連れ安の継続"
+          ],
+          "confidence": "high",
+          "sources": [],
+          "material_analysis": "直近で悪材料となる個別ニュースは出ておらず、高配当・低バリュエーションに対する再評価余地を残した需給主導の調整局面です。",
+          "fundamental_summary": "PBR 0.8倍、実績PER 7.2倍とバリュエーション面で著しい割安水準に置かれており、アナリスト目標株価（2,000円）に対しても約30%の上値余地が示唆されています。売上成長率は10.7%と増収基調を維持しており、ROEも11.27%と高い資本効率を誇ります。利益成長率のマイナスは一時的な費用やTTMデータのノイズの可能性が高く、過度に悲観する必要はありません。さらに予想配当利回りが7.13%（年間108円）と非常に高水準であり、配当性向24.69%の健全さを考慮すると強固な下値支持として機能します。",
+          "technical_view": "終値1,525円は心理的節目である1,500円を意識した下値支持線上に位置しており、過熱感の冷め切った反発しやすい位置関係にあります。戻り歩調に入った場合、前回の高値圏や節目となる1,600円〜1,650円台が上値の抵抗帯として意識されます。",
+          "watch_points": [
+            "1,500円の節目の攻防とサポートラインの機能度",
+            "利回り7%台を背景とした押し目買い・買い戻しの勢い"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 108,
+            "yield_pct": 7.13,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 24.69
+          },
+          "earnings": {
+            "announcement_date": "2026-11-12",
             "fiscal_year_end": "2027-03-31",
             "fiscal_month": 3,
             "is_estimate": true
           },
           "valuation": {
             "sector": "Consumer Cyclical",
-            "industry": "Auto & Truck Dealerships",
-            "per": 20.5,
-            "forward_per": 23.2,
-            "pbr": 4.41,
-            "psr": 7.0,
-            "market_cap_oku": 8245,
-            "price_yen": 1816,
-            "target_price_yen": 2197,
-            "target_upside_pct": 21.0,
-            "revenue_growth_pct": 14.1,
-            "earnings_growth_pct": 9.6,
-            "profit_margin_pct": 0.0,
-            "roe_pct": 22.41,
-            "debt_to_equity": 1.1
+            "industry": "Auto Parts",
+            "per": 7.2,
+            "forward_per": 2.4,
+            "pbr": 0.8,
+            "psr": 0.37,
+            "market_cap_oku": 1842,
+            "price_yen": 1526,
+            "target_price_yen": 2000,
+            "target_upside_pct": 31.1,
+            "revenue_growth_pct": 10.7,
+            "earnings_growth_pct": -23.4,
+            "profit_margin_pct": 5.1,
+            "roe_pct": 11.27,
+            "debt_to_equity": 57.2
           },
-          "shareholder_benefit": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": true,
+        "rci_ok": true
+      },
+      {
+        "code": "7282",
+        "name": "豊田合成",
+        "mark": "新買",
+        "close": 1056,
+        "rsi": 4.13,
+        "rci": -54.58,
+        "rci_turn": true,
+        "quality": {
+          "code": "7282",
+          "stars": 4,
+          "background": "直近の株式市場全体や自動車部品セクターに対する短期的な調整圧力、および利益確定売りに押されて株価は押し目を形成しています。特定の大幅下振れ材料や不祥事などの構造的悪材料は確認されておらず、業績拡大局面における一時的な需給の偏りによる下落と判断できます。",
+          "risk_factors": [
+            "トヨタグループを中心とした自動車生産動向および為替（円高）リスク",
+            "自動車セクター全体に対する海外投資家の短期的な売り圧力",
+            "原材料費やエネルギーコストの再上昇による利益率圧迫"
+          ],
+          "confidence": "high",
+          "sources": [],
+          "material_analysis": "直近で固有の悪材料は出ておらず、地合いやセクター全般の連れ安による一時的な押し目です。",
+          "fundamental_summary": "売上高成長率16.7%、利益成長率45.6%と本業の業績は極めて好調に推移しています。PBR1.06倍、実績PER10.7倍とバリュエーション面での割安感が強く、ROE12.04%と高水準な資本効率を達成しています。配当や株主優待を含めた株主還元姿勢も手厚く、株価の下値を支える強力なファンダメンタルズを備えています。直近で決算発表を控えておらず、決算通過前後の乱高下リスクを回避しやすいタイミングです。",
+          "technical_view": "終値1,056円付近は過去の揉み合いゾーンや心理的節目の1,000円〜1,050円が強固なサポート帯として機能しやすい水準です。上値の抵抗帯としては25日移動平均線や直近高値圏が意識されます。",
+          "watch_points": [
+            "1,000円〜1,050円の節目サポートラインにおける下げ止まりと底堅さ",
+            "自動車セクター全体への資金回帰と地合いの回復タイミング"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 103,
+            "yield_pct": 9.88,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 27.96
+          },
+          "earnings": {
+            "announcement_date": "2026-10-29",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Parts",
+            "per": 10.7,
+            "forward_per": 3.0,
+            "pbr": 1.06,
+            "psr": 0.52,
+            "market_cap_oku": 6191,
+            "price_yen": 1056,
+            "target_price_yen": 1187,
+            "target_upside_pct": 12.4,
+            "revenue_growth_pct": 16.7,
+            "earnings_growth_pct": 45.6,
+            "profit_margin_pct": 5.6,
+            "roe_pct": 12.04,
+            "debt_to_equity": 21.6
+          },
+          "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
           "shareholder_benefit_detail": {
             "source": "minkabu",
-            "kind": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
+            "kind": "自社製品、イベント招待",
             "month": "3",
-            "yield_pct": "0.55",
+            "yield_pct": "---、配当利回りは3.32",
             "min_shares": 100,
             "programs": [
               {
-                "title": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
+                "title": "自社製品※2027年3月より実施（長期保有者向け）",
                 "tiers": [
                   {
                     "shares": "100株以上",
-                    "content": "【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）",
-                    "note": "※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月"
-                  },
-                  {
-                    "shares": "300株以上",
-                    "content": "【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）",
-                    "note": ""
+                    "content": "【半年以上保有】 1,000円相当",
+                    "note": "※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次"
                   },
                   {
                     "shares": "500株以上",
-                    "content": "【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）",
+                    "content": "【半年以上保有】 5,000円相当",
                     "note": ""
                   },
                   {
-                    "shares": "1,000株以上",
-                    "content": "【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）",
+                    "shares": "3,000株以上",
+                    "content": "【半年以上保有】 30,000円相当",
                     "note": ""
-                  },
+                  }
+                ]
+              },
+              {
+                "title": "自社イベント招待（抽選）",
+                "tiers": [
                   {
-                    "shares": "10,000株以上",
-                    "content": "【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）",
-                    "note": ""
+                    "shares": "500株以上",
+                    "content": "◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回",
+                    "note": "※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。"
                   }
                 ]
               }
             ],
-            "summary": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-            "text": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月\n・100株以上: 【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）（※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月）\n・300株以上: 【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）\n・500株以上: 【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）\n・1,000株以上: 【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）\n・10,000株以上: 【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）"
+            "summary": "自社製品、イベント招待。100株以上。権利確定3月。",
+            "text": "自社製品、イベント招待。100株以上。権利確定3月\n【自社製品※2027年3月より実施（長期保有者向け）】\n・100株以上: 【半年以上保有】 1,000円相当（※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次）\n・500株以上: 【半年以上保有】 5,000円相当\n・3,000株以上: 【半年以上保有】 30,000円相当\n【自社イベント招待（抽選）】\n・500株以上: ◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回（※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。）"
           }
         },
-        "rsi_ok": false,
+        "rsi_ok": true,
         "rci_ok": true
       },
       {
-        "code": "7716",
-        "name": "ナカニシ",
+        "code": "7988",
+        "name": "ニフコ",
         "mark": "新買",
-        "close": 1465,
-        "rsi": 5.39,
-        "rci": -81.67,
+        "close": 2413,
+        "rsi": 6.04,
+        "rci": -70.0,
         "rci_turn": true,
         "quality": {
-          "code": "7716",
+          "code": "7988",
+          "stars": 4,
+          "background": "直近の個別材料がない中で、全体相場や自動車部品セクターに対する警戒感から利確売りが先行し、短期的な売られ過ぎ水準まで調整しています。本業の業績に致命的な悪材料は確認されておらず、地合いや需給要因による一時的な連れ安・過剰売りである可能性が高い状況です。",
+          "risk_factors": [
+            "主要自動車メーカーの減産や稼働率低下による業績悪化リスク",
+            "想定以上の急速な円高進行による採算性の悪化",
+            "全体相場急落に伴う2,400円サポートラインの割り込み"
+          ],
+          "confidence": "high",
+          "sources": [
+            "https://finance.yahoo.co.jp/quote/7988.T"
+          ],
+          "material_analysis": "新規の悪材料は確認されておらず、セクター全体の調整に伴う連れ安を織り込む動きが中心です。",
+          "fundamental_summary": "予想PER7.0倍、PBR0.75倍とバリュエーション面での解散価値割れ・割安感が際立っています。売上成長率は6.3%と本業需要は底堅く維持されており、利益率9.26%、ROE11.88%とセクター内でも高い収益性を誇ります。配当利回りも3.8%（年間91円）とインカムゲインの魅力が高く、配当性向30.68%と還元余力も十分です。総合的に見てもファンダメンタルズは健全であり、下値リスクは限定的と評価できます。",
+          "technical_view": "終値2,413円は心理的節目である2,400円ラインに近接するサポート領域に位置しています。上値の節目としては2,500円付近の移動平均線や前回の揉み合い水準が主要な抵抗線として意識されます。",
+          "watch_points": [
+            "2,400円節目での下げ止まりと自律反発時の出来高増加",
+            "主要顧客である自動車大手の生産動向および為替推移"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "annual_yen": 91,
+            "yield_pct": 3.8,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 30.68
+          },
+          "earnings": {
+            "announcement_date": "2026-10-30",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Auto Parts",
+            "per": 13.5,
+            "forward_per": 7.0,
+            "pbr": 0.75,
+            "psr": 1.26,
+            "market_cap_oku": 4500,
+            "price_yen": 2412,
+            "target_price_yen": 2811,
+            "target_upside_pct": 16.5,
+            "revenue_growth_pct": 6.3,
+            "earnings_growth_pct": -7.6,
+            "profit_margin_pct": 9.26,
+            "roe_pct": 11.88,
+            "debt_to_equity": 8.4
+          },
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": true,
+        "rci_ok": true
+      },
+      {
+        "code": "8174",
+        "name": "日本瓦斯",
+        "mark": "新買",
+        "close": 936,
+        "rsi": 2.59,
+        "rci": -87.08,
+        "rci_turn": true,
+        "quality": {
+          "code": "8174",
           "stars": 3,
           "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
@@ -729,142 +1245,201 @@
           "sources": [],
           "valuation_view": "unknown",
           "dividend": {
-            "annual_yen": 30,
-            "yield_pct": 2.05,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 2.11
+            "annual_yen": 37,
+            "yield_pct": 3.94,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 75.81
           },
           "earnings": {
-            "announcement_date": "2026-11-13",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
+            "announcement_date": "2026-10-29",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
           },
           "valuation": {
-            "sector": "Healthcare",
-            "industry": "Medical Instruments & Supplies",
-            "per": 106.4,
-            "forward_per": 11.0,
-            "pbr": 1.99,
-            "psr": 2.69,
-            "market_cap_oku": 2397,
-            "price_yen": 1465,
-            "target_price_yen": 1800,
-            "target_upside_pct": 22.9,
-            "revenue_growth_pct": 19.9,
-            "earnings_growth_pct": 36.4,
-            "profit_margin_pct": 2.51,
-            "roe_pct": 1.87,
-            "debt_to_equity": 27.8
+            "sector": "Utilities",
+            "industry": "Utilities - Regulated Gas",
+            "per": 20.7,
+            "forward_per": 6.8,
+            "pbr": 4.66,
+            "psr": 1.41,
+            "market_cap_oku": 2995,
+            "price_yen": 937,
+            "target_price_yen": 1069,
+            "target_upside_pct": 14.1,
+            "revenue_growth_pct": 8.8,
+            "earnings_growth_pct": 0.9,
+            "profit_margin_pct": 6.95,
+            "roe_pct": 22.86,
+            "debt_to_equity": 76.6
           },
           "shareholder_benefit": "なし"
         },
         "rsi_ok": true,
         "rci_ok": true
-      }
-    ],
-    "sellback": [
+      },
       {
-        "code": "2685",
-        "name": "アダストリア",
-        "mark": "返売",
-        "close": 2988,
-        "rsi": 18.23,
-        "rci": -86.67,
-        "rci_turn": false,
+        "code": "8572",
+        "name": "アコム",
+        "mark": "新買",
+        "close": 453,
+        "rsi": 13.29,
+        "rci": -90.0,
+        "rci_turn": true,
         "quality": {
-          "code": "2685",
-          "stars": 4,
-          "background": "直近で致命的な悪材料ニュースは観測されておらず、足元の株価下落は全体地合いの調整や短期的な利益確定売りに押された一時的な過剰売りが主因とみられます。本業の衣料品・アパレル事業の需要自体に構造的な悪化を示す材料はなく、過熱感の冷ましが一巡したタイミングと言えます。好調な業績足取りに対してテクニカル的な売られ過ぎ水準に達しており、短期的な自律反発が狙える良好な押し目局面です。",
+          "code": "8572",
+          "stars": 3,
+          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
-            "天候不順や季節の変わり目の気温推移による秋物・冬物衣料の販売苦戦リスク",
-            "原材料費や物流コストの上昇、円安進行に伴う粗利益率の悪化懸念",
-            "株式市場全体の地合い悪化による2,900円サポートラインの破断リスク"
+            "評価失敗"
           ],
-          "confidence": "high",
-          "sources": [
-            "https://finance.yahoo.co.jp/quote/2685.T"
-          ],
-          "material_analysis": "直近で株価を押し下げる固有の構造悪材料は確認されておらず、全般的な地合い悪化による連れ安と短期需給の偏りが下落の背景です。",
-          "fundamental_summary": "予想PERは9.8倍と10倍を下回る水準まで低下しており、アナリスト目標株価3,507円（約+17.4%の上値余地）やPBR1.61倍と比較してもバリュエーション面での割安感が非常に強まっています。利益成長率は26.3%と力強く、ROEも11.36%と資本効率の高い経営が維持されています。年間配当90円（配当利回り約3.01%）に加えて買物優待券の株主優待制度が導入されており、下値でのインカム・優待目的の買い支えが期待できます。次回決算発表までも猶予があり、ファンダメンタルズの健全性と割安さを背景にした反発余地は十分です。",
-          "technical_view": "終値2,988円は心理的節目である3,000円を若干割り込んだ水準にあり、直近安値圏である2,900円近辺が強力なサポートラインとして機能するかが焦点となります。戻り局面では25日移動平均線や前高値水準である3,150円〜3,200円付近が抵抗帯として意識されます。",
-          "watch_points": [
-            "2,900円台での下値固めと反発時の出来高増加の有無",
-            "毎月発表される月次売上高における既存店動向および定価販売率の維持"
-          ],
-          "valuation_view": "cheap",
+          "confidence": "low",
+          "sources": [],
+          "valuation_view": "unknown",
           "dividend": {
-            "annual_yen": 90,
-            "yield_pct": 3.01,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 43.91
+            "annual_yen": 22,
+            "yield_pct": 4.86,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 43.28
           },
           "earnings": {
-            "announcement_date": "2026-12-28",
-            "fiscal_year_end": "2027-02-28",
-            "fiscal_month": 2
+            "announcement_date": "2026-11-06",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
           },
           "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Apparel Manufacturing",
-            "per": 14.6,
-            "forward_per": 9.8,
-            "pbr": 1.61,
-            "psr": 0.45,
-            "market_cap_oku": 1378,
-            "price_yen": 2988,
-            "target_price_yen": 3507,
-            "target_upside_pct": 17.4,
-            "revenue_growth_pct": -0.1,
-            "earnings_growth_pct": 26.3,
-            "profit_margin_pct": 3.08,
-            "roe_pct": 11.36,
-            "debt_to_equity": 0.1
+            "sector": "Financial Services",
+            "industry": "Credit Services",
+            "per": 8.9,
+            "forward_per": 9.9,
+            "pbr": 0.99,
+            "psr": 2.06,
+            "market_cap_oku": 7103,
+            "price_yen": 453,
+            "target_price_yen": 498,
+            "target_upside_pct": 9.9,
+            "revenue_growth_pct": 7.7,
+            "earnings_growth_pct": -43.9,
+            "profit_margin_pct": 18.79,
+            "roe_pct": 9.35,
+            "debt_to_equity": 95.4
           },
-          "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+          "shareholder_benefit": "なし"
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "9090",
+        "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+        "mark": "新買",
+        "close": 840,
+        "rsi": 19.82,
+        "rci": -95.42,
+        "rci_turn": true,
+        "quality": {
+          "code": "9090",
+          "stars": 3,
+          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "risk_factors": [
+            "評価失敗"
+          ],
+          "confidence": "low",
+          "sources": [],
+          "valuation_view": "unknown",
+          "dividend": {
+            "annual_yen": 32,
+            "yield_pct": 3.84,
+            "ex_date": "2027-03-30",
+            "payout_ratio_pct": 61.35
+          },
+          "earnings": {
+            "announcement_date": "2026-11-09",
+            "fiscal_year_end": "2027-03-31",
+            "fiscal_month": 3
+          },
+          "valuation": {
+            "sector": "Industrials",
+            "industry": "Integrated Freight & Logistics",
+            "per": 16.1,
+            "forward_per": 12.5,
+            "pbr": 1.84,
+            "psr": 0.48,
+            "market_cap_oku": 1131,
+            "price_yen": 840,
+            "target_price_yen": 830,
+            "target_upside_pct": -1.2,
+            "revenue_growth_pct": 6.2,
+            "earnings_growth_pct": -26.8,
+            "profit_margin_pct": 2.98,
+            "roe_pct": 11.74,
+            "debt_to_equity": 94.0
+          },
+          "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
           "shareholder_benefit_detail": {
             "source": "minkabu",
-            "min_shares": 100,
-            "kind": "買物優待券 美容・ファッション",
-            "month": "2",
+            "kind": "プレミアム優待倶楽部ポイント",
+            "month": "9",
+            "yield_pct": "0.89",
+            "min_shares": 400,
             "programs": [
               {
-                "title": "自社店舗商品引換券※2026年2月末日より実施",
+                "title": "プレミアム優待倶楽部ポイント",
                 "tiers": [
                   {
-                    "shares": "100株以上",
-                    "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
-                    "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+                    "shares": "400株以上",
+                    "content": "3,000ポイント",
+                    "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
                   },
                   {
                     "shares": "500株以上",
-                    "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                    "content": "6,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "600株以上",
+                    "content": "10,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "700株以上",
+                    "content": "12,000ポイント",
                     "note": ""
                   },
                   {
                     "shares": "1,000株以上",
-                    "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                    "content": "18,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "1,500株以上",
+                    "content": "30,000ポイント",
+                    "note": ""
+                  },
+                  {
+                    "shares": "2,000株以上",
+                    "content": "50,000ポイント",
                     "note": ""
                   }
                 ]
               }
             ],
-            "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-            "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+            "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+            "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
           }
         },
         "rsi_ok": false,
-        "rci_ok": false
+        "rci_ok": true
       },
       {
-        "code": "4151",
-        "name": "協和発酵キリン",
-        "mark": "返売",
-        "close": 2230,
-        "rsi": 29.91,
-        "rci": 15.0,
-        "rci_turn": false,
+        "code": "9502",
+        "name": "中部電力",
+        "mark": "新買",
+        "close": 2648,
+        "rsi": 16.05,
+        "rci": -93.75,
+        "rci_turn": true,
         "quality": {
-          "code": "4151",
+          "code": "9502",
           "stars": 3,
           "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
           "risk_factors": [
@@ -875,233 +1450,41 @@
           "valuation_view": "unknown",
           "dividend": {
             "annual_yen": 70,
-            "yield_pct": 3.14,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 43.12
-          },
-          "earnings": {
-            "announcement_date": "2026-11-02",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
-          },
-          "valuation": {
-            "sector": "Healthcare",
-            "industry": "Drug Manufacturers - Specialty & Generic",
-            "per": 14.3,
-            "forward_per": 16.1,
-            "pbr": 1.27,
-            "psr": 2.2,
-            "market_cap_oku": 11676,
-            "price_yen": 2230,
-            "target_price_yen": 2282,
-            "target_upside_pct": 2.3,
-            "revenue_growth_pct": 15.3,
-            "earnings_growth_pct": 83.0,
-            "profit_margin_pct": 15.35,
-            "roe_pct": 9.25
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "4543",
-        "name": "テルモ",
-        "mark": "返売",
-        "close": 2243,
-        "rsi": 35.29,
-        "rci": 25.0,
-        "rci_turn": false,
-        "quality": {
-          "code": "4543",
-          "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 36,
-            "yield_pct": 1.6,
+            "yield_pct": 2.66,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 32.57
+            "payout_ratio_pct": 23.21
           },
           "earnings": {
-            "announcement_date": "2026-11-12",
+            "announcement_date": "2026-10-29",
             "fiscal_year_end": "2027-03-31",
             "fiscal_month": 3
           },
           "valuation": {
-            "sector": "Healthcare",
-            "industry": "Medical Devices",
-            "per": 24.3,
-            "forward_per": 22.0,
-            "pbr": 1.99,
-            "psr": 2.8,
-            "market_cap_oku": 33094,
-            "price_yen": 2244,
-            "target_price_yen": 3122,
-            "target_upside_pct": 39.1,
-            "revenue_growth_pct": 19.9,
-            "earnings_growth_pct": 68.3,
-            "profit_margin_pct": 13.9,
-            "roe_pct": 10.85,
-            "debt_to_equity": 26.4
-          },
-          "shareholder_benefit": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社商品優待価格販売、カレンダー、自社施設見学会",
-            "month": "3",
-            "yield_pct": "---、配当利回りは1.60",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "自社製品特別優待販売（血圧計、体温計等）長期保有者向け",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【2年以上保有】》 電子クーポン　1,000円相当",
-                    "note": "※株主優待販売の製品は、新製品を中心に選定を行っている。要望の製品が対象となっていない場合もある。 ■継続保有期間について 4期連続保有の株主が対象 《案内時期》 確定日3月末：7月頃 確定日9月末：12月頃"
-                  }
-                ]
-              },
-              {
-                "title": "オリジナル卓上カレンダー※長期保有者向け",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "[【1年以上保有】 ※申込み制 （７月頃申込み受付、11～12月頃発送）",
-                    "note": "■継続保有期間について 2期連続保有の株主が対象"
-                  }
-                ]
-              },
-              {
-                "title": "自社施設見学会（抽選）長期保有者向け",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "[【1年以上保有】 テルモメディカルプラネックス（神奈川県足柄上郡）の見学会へ抽選で招待",
-                    "note": "■継続保有期間について 2期連続保有の株主が対象"
-                  }
-                ]
-              }
-            ],
-            "summary": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月。",
-            "text": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月\n【自社製品特別優待販売（血圧計、体温計等）長期保有者向け】\n・100株以上: 【2年以上保有】》 電子クーポン　1,000円相当（※株主優待販売の製品は、新製品を中心に選定を行っている。要望の製品が対象となっていない場合もある。 ■継続保有期間について 4期連続保有の株主が対象 《案内時期》 確定日3月末：7月頃 確定日9月末：12月頃）\n【オリジナル卓上カレンダー※長期保有者向け】\n・100株以上: [【1年以上保有】 ※申込み制 （７月頃申込み受付、11～12月頃発送）（■継続保有期間について 2期連続保有の株主が対象）\n【自社施設見学会（抽選）長期保有者向け】\n・100株以上: [【1年以上保有】 テルモメディカルプラネックス（神奈川県足柄上郡）の見学会へ抽選で招待（■継続保有期間について 2期連続保有の株主が対象）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "5108",
-        "name": "ブリヂストン",
-        "mark": "返売",
-        "close": 3780,
-        "rsi": 36.67,
-        "rci": 41.67,
-        "rci_turn": false,
-        "quality": {
-          "code": "5108",
-          "stars": 3,
-          "background": "AI評価不可: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 4.017551719s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 130,
-            "yield_pct": 3.44,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 59.55
-          },
-          "earnings": {
-            "announcement_date": "2026-11-12",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
-          },
-          "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Auto Parts",
-            "per": 19.2,
-            "forward_per": 6.8,
-            "pbr": 1.24,
-            "psr": 1.01,
-            "market_cap_oku": 46663,
-            "price_yen": 3780,
-            "target_price_yen": 4020,
-            "target_upside_pct": 6.3,
-            "revenue_growth_pct": 14.2,
-            "earnings_growth_pct": 2.1,
-            "profit_margin_pct": 9.02,
-            "roe_pct": 11.27,
-            "debt_to_equity": 23.4
+            "sector": "Utilities",
+            "industry": "Utilities - Diversified",
+            "per": 8.8,
+            "forward_per": 11.3,
+            "pbr": 0.63,
+            "psr": 0.56,
+            "market_cap_oku": 20014,
+            "price_yen": 2650,
+            "target_price_yen": 3010,
+            "target_upside_pct": 13.6,
+            "revenue_growth_pct": 3.2,
+            "earnings_growth_pct": -58.8,
+            "profit_margin_pct": 4.98,
+            "roe_pct": 6.04,
+            "debt_to_equity": 91.2
           },
           "shareholder_benefit": "なし"
         },
         "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "6254",
-        "name": "野村マイクロ・サイエンス",
-        "mark": "返売",
-        "close": 3505,
-        "rsi": 68.34,
-        "rci": 96.67,
-        "rci_turn": false,
-        "quality": {
-          "code": "6254",
-          "stars": 3,
-          "background": "AI評価不可: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 1.638978814s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "annual_yen": 85,
-            "yield_pct": 2.43,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 82.3
-          },
-          "earnings": {
-            "announcement_date": "2025-05-15",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Industrials",
-            "industry": "Pollution & Treatment Controls",
-            "per": 35.6,
-            "forward_per": 14.9,
-            "pbr": 3.49,
-            "psr": 2.54,
-            "market_cap_oku": 1346,
-            "price_yen": 3505,
-            "target_price_yen": 5400,
-            "target_upside_pct": 54.1,
-            "revenue_growth_pct": -25.8,
-            "earnings_growth_pct": -49.5,
-            "profit_margin_pct": 6.77,
-            "roe_pct": 9.78,
-            "debt_to_equity": 145.6
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": false
+        "rci_ok": true
       }
     ],
-    "new_buy_count": 3,
-    "rsi_oversold_count": 9,
+    "sellback": [],
+    "new_buy_count": 12,
+    "rsi_oversold_count": 8,
     "recommended": [],
     "pick_meta": {
       "method": "stars",
@@ -1111,6 +1494,782 @@
   },
   "daily": {
     "days": [
+      {
+        "date": "2026-10-05",
+        "pnl": 0,
+        "new_buy_count": 12,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "1332",
+            "name": "ニッスイ",
+            "mark": "新買",
+            "close": 1101,
+            "quality": {
+              "code": "1332",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 34,
+                "yield_pct": 3.1,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 35.71
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Defensive",
+                "industry": "Packaged Foods",
+                "per": 12.3,
+                "forward_per": 12.4,
+                "pbr": 1.09,
+                "psr": 0.35,
+                "market_cap_oku": 3344,
+                "price_yen": 1102,
+                "target_price_yen": 1544,
+                "target_upside_pct": 40.1,
+                "revenue_growth_pct": 14.1,
+                "earnings_growth_pct": 17.2,
+                "profit_margin_pct": 2.95,
+                "roe_pct": 10.26,
+                "debt_to_equity": 95.2
+              },
+              "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "自社商品",
+                "month": "3",
+                "yield_pct": "0.54",
+                "min_shares": 500,
+                "programs": [
+                  {
+                    "title": "自社商品セット(びん詰・缶詰など)",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "3,000円相当",
+                        "note": "■贈呈時期 7月"
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "5,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "自社商品。500株以上。権利確定3月。",
+                "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+              }
+            }
+          },
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "新買",
+            "close": 2089,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "ドラッグストア大手のツルハホールディングスは、業界再編の思惑や本業の底堅さがあるものの、全般的な小売セクターの物色一巡や全般地合いの影響から足元で調整局面を迎えています。直近で個別の致命的な構造悪材料は確認されておらず、地合いや利益確定売りに押された一時的な下落と考えられます。短期的な売られ過ぎ感が強まったことで、押し目買いによる自律反発が期待される局面です。",
+              "risk_factors": [
+                "ドラッグストア業界における競合他社との価格競争激化による粗利率低下",
+                "光熱費や人件費をはじめとする店舗運営コストの上昇圧力",
+                "消費者の節約志向強まりに伴う既存店客単価の伸び悩み"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で新規の悪材料発表はなく、イオン・ウエルシアとの経営統合に向けた中長期的な再編期待が下値を支える材料として意識されています。",
+              "fundamental_summary": "同社は国内ドラッグストア最大手の一角であり、PBR1.08倍、実績PER14.5倍とセクター内でも比較的割安なバリュエーション水準に位置しています。売上高は着実に底堅さを維持しているものの、人件費や店舗運用コストの増加に伴う利益率の押し下げが課題視されています。アナリストの目標株価平均は2,654円と現在地から+27%超の上値余地が試算されており、企業価値に対して評価不足感が残ります。配当利回りは2.33%（年間48円）で配当性向も約34.5%と健全であり、株主優待の存在と併せて下値支持力を提供しています。",
+              "technical_view": "2,000円の大台節目を目前にした2,089円近辺は、過去の揉み合い域および心理的節目として強いサポートラインが意識される水準です。上値の目処としては移動平均線や前回の揉み合い上限である2,200円前後が抵抗帯として意識されます。",
+              "watch_points": [
+                "月次売上高動向（特に既存店売上高と客数・客単価の推移）",
+                "ウエルシアHDおよびイオンとの経営統合プロセスに関する具体的な進展ニュース"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.33,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.49
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 14.5,
+                "forward_per": 3.4,
+                "pbr": 1.08,
+                "psr": 0.52,
+                "market_cap_oku": 9488,
+                "price_yen": 2094,
+                "target_price_yen": 2654,
+                "target_upside_pct": 26.7,
+                "revenue_growth_pct": 1.34,
+                "earnings_growth_pct": -34.7,
+                "profit_margin_pct": 2.48,
+                "debt_to_equity": 22.6
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主ギフト券、または寄付",
+                "month": "2",
+                "yield_pct": "2.42",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主ギフト券",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "5,000円相当",
+                        "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "10,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "15,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+                "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+              }
+            }
+          },
+          {
+            "code": "3659",
+            "name": "ネクソン",
+            "mark": "新買",
+            "close": 2695,
+            "quality": {
+              "code": "3659",
+              "stars": 4,
+              "background": "直近においてネクソン固有の致命的な構造的悪材料は浮上しておらず、現在の株価調整は株式市場全体の地合い悪化や短期資金の利益確定売りに連れ安した一時的な押し目と見られます。高水準な利益率を維持しており本業の収益基盤は極めて堅固であるため、需給要因による過剰売りが進んだ局面と考えられます。売り圧力が一巡した後は、割安感に着目した見直し買いによる反発が期待される局面です。",
+              "risk_factors": [
+                "ゲームセクター全般からの短期資金の流出・地合い悪化",
+                "主要タイトル（メイプルストーリー等）の課金売上失速リスク",
+                "韓国・中国などの海外市場における規制動向や為替変動"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で株価を押し下げる個別材料の発表はなく、外部環境や全般的な調整を受けた需給起因の下落です。企業価値を損なう要因はなく、織り込みは完了しつつあります。",
+              "fundamental_summary": "同社は利益成長率80.4%、営業利益率26.35%とオンラインゲーム大手の中でも群を抜く高い収益性を誇ります。バリュエーション面では予想PER16.1倍、PBR1.96倍と、高い収益力を考慮すると過度な買われ過ぎ感はなく十分に底固い水準です。配当利回りは2.23%（年間60円）で配当性向も17.56%と低く、今後の追加還元や事業投資に向けた財務的余力も豊富に備えています。アナリストの平均目標株価は2,963円と現状から約10%の上昇余地が提示されており、下値リスクは限定的です。次回決算発表までも十分な日数が残されており、決算通過待ちによる手控えを気にせずテクニカルなリバウンドを狙える好環境と言えます。",
+              "technical_view": "株価は2,695円まで調整が進み、節目の2,700円を割り込んだことで下値の節目である2,650円付近のサポートラインを試す位置にあります。上値方向は2,800円前後の前頭節目や移動平均線が抵抗線として意識されます。",
+              "watch_points": [
+                "2,600円〜2,650円の節目価格帯における下げ止まりと底固め",
+                "主要IPのセールスランキング推移および新作開発スケジュールの進捗"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 60,
+                "yield_pct": 2.23,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 17.56
+              },
+              "earnings": {
+                "announcement_date": "2026-11-10",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12
+              },
+              "valuation": {
+                "sector": "Communication Services",
+                "industry": "Electronic Gaming & Multimedia",
+                "per": 15.8,
+                "forward_per": 16.1,
+                "pbr": 1.96,
+                "psr": 4.07,
+                "peg": 1.79,
+                "market_cap_oku": 20975,
+                "price_yen": 2693,
+                "target_price_yen": 2963,
+                "target_upside_pct": 10.0,
+                "revenue_growth_pct": 1.9,
+                "earnings_growth_pct": 80.4,
+                "profit_margin_pct": 26.35,
+                "roe_pct": 12.52,
+                "debt_to_equity": 4.5
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7164",
+            "name": "全国保証",
+            "mark": "新買",
+            "close": 2997,
+            "quality": {
+              "code": "7164",
+              "stars": 4,
+              "background": "住宅ローン市場の先行きや金利動向に対する過度な警戒感から利益確定売りが先行し、株価は心理的節目である3,000円を割り込む水準まで押し込まれています。しかし個別企業に関する致命的な悪材料は確認されておらず、全体地合いの影響や短期的な過剰売りによる自律調整の側面が強いと見られます。",
+              "risk_factors": [
+                "国内金利の上昇に伴う住宅ローン利用者の減少および新規保証実行額の鈍化",
+                "不動産価格高騰による住宅取得マインドの冷え込み",
+                "全体相場の地合い悪化に伴う節目3,000円台の下振れ長期化"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で企業業績を損なう独自の悪材料は出ておらず、高収益体質や高利回りという好ファンダメンタルズに対して過剰に売りが先行した状態です。",
+              "fundamental_summary": "営業利益率56.05%、ROE14.05%と非常に優れた稼ぐ力を誇る住宅ローン保証の国内最大手企業です。PER12.4倍（予想PER6.4倍）と割安感が際立っており、アナリスト目標株価3,680円に対しても約23%の上昇余地が提示されています。また、配当利回りは4.18%（年間125円）と高水準であり、インカムゲイン面からの強力な下値支持効果が期待できます。次回決算発表までも時間的な余裕があり、イベントリスクを避けた短期反発を狙いやすい足回りです。",
+              "technical_view": "終値2,997円は心理的節目である3,000円の直下に位置し、節目割れによる達成感からリバウンドが入る直前のサポート帯域にあります。直近の移動平均線や前安値水準からの下振れは一時的とみられ、3,000円台の早期奪還が期待できる位置関係です。",
+              "watch_points": [
+                "心理的節目である3,000円の奪還と、その上での定着度合い",
+                "高配当利回りを背景としたインカム狙いの買い戻し資金の流入"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 125,
+                "yield_pct": 4.18,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 49.46
+              },
+              "earnings": {
+                "announcement_date": "2026-11-05",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 12.4,
+                "forward_per": 6.4,
+                "pbr": 1.64,
+                "psr": 6.76,
+                "market_cap_oku": 3988,
+                "price_yen": 2997,
+                "target_price_yen": 3680,
+                "target_upside_pct": 22.8,
+                "revenue_growth_pct": 2.5,
+                "earnings_growth_pct": 10.9,
+                "profit_margin_pct": 56.05,
+                "roe_pct": 14.05,
+                "debt_to_equity": 12.3
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7202",
+            "name": "いすゞ自動車",
+            "mark": "新買",
+            "close": 2047,
+            "quality": {
+              "code": "7202",
+              "stars": 4,
+              "background": "直近の下落は個別材料によるものではなく、為替動向への警戒感や自動車セクター全般に対する利確定売りなど地合いの影響によるものが主因と考えられます。構造的な業績悪化を示す悪材料は確認されておらず、一時的な調整が進んだ結果、テクニカル上の過剰売り水準に達しています。",
+              "risk_factors": [
+                "想定以上の円高進行による業績下振れリスク",
+                "タイなど主力海外市場における商用車需要の減速",
+                "物流業界のコスト増に伴う設備投資意欲の鈍化"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "個別の致命的な悪材料は見当たらず、高水準な業績や配当水準に対して過剰な連れ安となっている状態です。",
+              "fundamental_summary": "予想PER8.0倍、PBR0.93倍とバリュエーション面では明確な割安感があります。売上成長率6.8%、利益成長率27.4%と本業の業績は良好で、ROEも11.6%と高い資本効率を維持しています。配当利回りは4.65%（年間94円）と高水準で、下値での買い支え効果が期待できます。株主優待はないものの、アナリスト目標株価（2,569円）に対する値幅余地も大きく、ファンダメンタルズは極めて健全です。",
+              "technical_view": "終値2,047円は心理的節目である2,000円の大台が強力なサポートラインとして機能しやすい水準であり、上値は25日移動平均線や2,100円台半ばが節目となります。",
+              "watch_points": [
+                "心理的節目である2,000円台を維持した反発力の強さ",
+                "為替相場（ドル・円およびタイバーツ）の推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 94,
+                "yield_pct": 4.65,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 47.65
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Manufacturers",
+                "per": 10.6,
+                "forward_per": 8.0,
+                "pbr": 0.93,
+                "psr": 0.4,
+                "market_cap_oku": 14054,
+                "price_yen": 2045,
+                "target_price_yen": 2569,
+                "target_upside_pct": 25.6,
+                "revenue_growth_pct": 6.8,
+                "earnings_growth_pct": 27.4,
+                "profit_margin_pct": 4.09,
+                "roe_pct": 11.6,
+                "debt_to_equity": 60.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7242",
+            "name": "ＫＹＢ",
+            "mark": "新買",
+            "close": 1525,
+            "quality": {
+              "code": "7242",
+              "stars": 4,
+              "background": "個別ニュースでの致命的な構造悪材料は観測されておらず、直近の下落は市場全体の地合い悪化や自動車部品セクター全般への警戒感に伴う連れ安が主因と考えられます。また、直近の株価推移に伴う短期資金の利益確定売りが一巡していないことで、過度な押し目が発生している状況です。ファンダメンタルズの根幹を揺るがす材料はなく、一時的な過剰売りによる好機と捉えられます。",
+              "risk_factors": [
+                "主要顧客である自動車メーカーの生産調整リスク",
+                "為替（円高推移）による利益圧迫リスク",
+                "株式市場全体のリスクオフに伴う連れ安の継続"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で悪材料となる個別ニュースは出ておらず、高配当・低バリュエーションに対する再評価余地を残した需給主導の調整局面です。",
+              "fundamental_summary": "PBR 0.8倍、実績PER 7.2倍とバリュエーション面で著しい割安水準に置かれており、アナリスト目標株価（2,000円）に対しても約30%の上値余地が示唆されています。売上成長率は10.7%と増収基調を維持しており、ROEも11.27%と高い資本効率を誇ります。利益成長率のマイナスは一時的な費用やTTMデータのノイズの可能性が高く、過度に悲観する必要はありません。さらに予想配当利回りが7.13%（年間108円）と非常に高水準であり、配当性向24.69%の健全さを考慮すると強固な下値支持として機能します。",
+              "technical_view": "終値1,525円は心理的節目である1,500円を意識した下値支持線上に位置しており、過熱感の冷め切った反発しやすい位置関係にあります。戻り歩調に入った場合、前回の高値圏や節目となる1,600円〜1,650円台が上値の抵抗帯として意識されます。",
+              "watch_points": [
+                "1,500円の節目の攻防とサポートラインの機能度",
+                "利回り7%台を背景とした押し目買い・買い戻しの勢い"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 108,
+                "yield_pct": 7.13,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 24.69
+              },
+              "earnings": {
+                "announcement_date": "2026-11-12",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 7.2,
+                "forward_per": 2.4,
+                "pbr": 0.8,
+                "psr": 0.37,
+                "market_cap_oku": 1842,
+                "price_yen": 1526,
+                "target_price_yen": 2000,
+                "target_upside_pct": 31.1,
+                "revenue_growth_pct": 10.7,
+                "earnings_growth_pct": -23.4,
+                "profit_margin_pct": 5.1,
+                "roe_pct": 11.27,
+                "debt_to_equity": 57.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7282",
+            "name": "豊田合成",
+            "mark": "新買",
+            "close": 1056,
+            "quality": {
+              "code": "7282",
+              "stars": 4,
+              "background": "直近の株式市場全体や自動車部品セクターに対する短期的な調整圧力、および利益確定売りに押されて株価は押し目を形成しています。特定の大幅下振れ材料や不祥事などの構造的悪材料は確認されておらず、業績拡大局面における一時的な需給の偏りによる下落と判断できます。",
+              "risk_factors": [
+                "トヨタグループを中心とした自動車生産動向および為替（円高）リスク",
+                "自動車セクター全体に対する海外投資家の短期的な売り圧力",
+                "原材料費やエネルギーコストの再上昇による利益率圧迫"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で固有の悪材料は出ておらず、地合いやセクター全般の連れ安による一時的な押し目です。",
+              "fundamental_summary": "売上高成長率16.7%、利益成長率45.6%と本業の業績は極めて好調に推移しています。PBR1.06倍、実績PER10.7倍とバリュエーション面での割安感が強く、ROE12.04%と高水準な資本効率を達成しています。配当や株主優待を含めた株主還元姿勢も手厚く、株価の下値を支える強力なファンダメンタルズを備えています。直近で決算発表を控えておらず、決算通過前後の乱高下リスクを回避しやすいタイミングです。",
+              "technical_view": "終値1,056円付近は過去の揉み合いゾーンや心理的節目の1,000円〜1,050円が強固なサポート帯として機能しやすい水準です。上値の抵抗帯としては25日移動平均線や直近高値圏が意識されます。",
+              "watch_points": [
+                "1,000円〜1,050円の節目サポートラインにおける下げ止まりと底堅さ",
+                "自動車セクター全体への資金回帰と地合いの回復タイミング"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 103,
+                "yield_pct": 9.88,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 27.96
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 10.7,
+                "forward_per": 3.0,
+                "pbr": 1.07,
+                "psr": 0.52,
+                "market_cap_oku": 6194,
+                "price_yen": 1056,
+                "target_price_yen": 1187,
+                "target_upside_pct": 12.4,
+                "revenue_growth_pct": 16.7,
+                "earnings_growth_pct": 45.6,
+                "profit_margin_pct": 5.6,
+                "roe_pct": 12.04,
+                "debt_to_equity": 21.6
+              },
+              "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "自社製品、イベント招待",
+                "month": "3",
+                "yield_pct": "---、配当利回りは3.31",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "自社製品※2027年3月より実施（長期保有者向け）",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【半年以上保有】 1,000円相当",
+                        "note": "※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "【半年以上保有】 5,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "3,000株以上",
+                        "content": "【半年以上保有】 30,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  },
+                  {
+                    "title": "自社イベント招待（抽選）",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回",
+                        "note": "※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。"
+                      }
+                    ]
+                  }
+                ],
+                "summary": "自社製品、イベント招待。100株以上。権利確定3月。",
+                "text": "自社製品、イベント招待。100株以上。権利確定3月\n【自社製品※2027年3月より実施（長期保有者向け）】\n・100株以上: 【半年以上保有】 1,000円相当（※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次）\n・500株以上: 【半年以上保有】 5,000円相当\n・3,000株以上: 【半年以上保有】 30,000円相当\n【自社イベント招待（抽選）】\n・500株以上: ◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回（※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。）"
+              }
+            }
+          },
+          {
+            "code": "7988",
+            "name": "ニフコ",
+            "mark": "新買",
+            "close": 2413,
+            "quality": {
+              "code": "7988",
+              "stars": 4,
+              "background": "直近の個別材料がない中で、全体相場や自動車部品セクターに対する警戒感から利確売りが先行し、短期的な売られ過ぎ水準まで調整しています。本業の業績に致命的な悪材料は確認されておらず、地合いや需給要因による一時的な連れ安・過剰売りである可能性が高い状況です。",
+              "risk_factors": [
+                "主要自動車メーカーの減産や稼働率低下による業績悪化リスク",
+                "想定以上の急速な円高進行による採算性の悪化",
+                "全体相場急落に伴う2,400円サポートラインの割り込み"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.co.jp/quote/7988.T"
+              ],
+              "material_analysis": "新規の悪材料は確認されておらず、セクター全体の調整に伴う連れ安を織り込む動きが中心です。",
+              "fundamental_summary": "予想PER7.0倍、PBR0.75倍とバリュエーション面での解散価値割れ・割安感が際立っています。売上成長率は6.3%と本業需要は底堅く維持されており、利益率9.26%、ROE11.88%とセクター内でも高い収益性を誇ります。配当利回りも3.8%（年間91円）とインカムゲインの魅力が高く、配当性向30.68%と還元余力も十分です。総合的に見てもファンダメンタルズは健全であり、下値リスクは限定的と評価できます。",
+              "technical_view": "終値2,413円は心理的節目である2,400円ラインに近接するサポート領域に位置しています。上値の節目としては2,500円付近の移動平均線や前回の揉み合い水準が主要な抵抗線として意識されます。",
+              "watch_points": [
+                "2,400円節目での下げ止まりと自律反発時の出来高増加",
+                "主要顧客である自動車大手の生産動向および為替推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 91,
+                "yield_pct": 3.8,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 30.68
+              },
+              "earnings": {
+                "announcement_date": "2026-10-30",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 13.5,
+                "forward_per": 7.0,
+                "pbr": 0.75,
+                "psr": 1.26,
+                "market_cap_oku": 4501,
+                "price_yen": 2413,
+                "target_price_yen": 2811,
+                "target_upside_pct": 16.5,
+                "revenue_growth_pct": 6.3,
+                "earnings_growth_pct": -7.6,
+                "profit_margin_pct": 9.26,
+                "roe_pct": 11.88,
+                "debt_to_equity": 8.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8174",
+            "name": "日本瓦斯",
+            "mark": "新買",
+            "close": 936,
+            "quality": {
+              "code": "8174",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 37,
+                "yield_pct": 3.94,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 75.81
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Utilities",
+                "industry": "Utilities - Regulated Gas",
+                "per": 20.7,
+                "forward_per": 6.8,
+                "pbr": 4.66,
+                "psr": 1.41,
+                "market_cap_oku": 2995,
+                "price_yen": 937,
+                "target_price_yen": 1069,
+                "target_upside_pct": 14.1,
+                "revenue_growth_pct": 8.8,
+                "earnings_growth_pct": 0.9,
+                "profit_margin_pct": 6.95,
+                "roe_pct": 22.86,
+                "debt_to_equity": 76.6
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8572",
+            "name": "アコム",
+            "mark": "新買",
+            "close": 453,
+            "quality": {
+              "code": "8572",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 22,
+                "yield_pct": 4.86,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 43.28
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 8.9,
+                "forward_per": 9.9,
+                "pbr": 0.99,
+                "psr": 2.06,
+                "market_cap_oku": 7100,
+                "price_yen": 453,
+                "target_price_yen": 498,
+                "target_upside_pct": 9.9,
+                "revenue_growth_pct": 7.7,
+                "earnings_growth_pct": -43.9,
+                "profit_margin_pct": 18.79,
+                "roe_pct": 9.35,
+                "debt_to_equity": 95.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 840,
+            "quality": {
+              "code": "9090",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 32,
+                "yield_pct": 3.84,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 61.35
+              },
+              "earnings": {
+                "announcement_date": "2026-11-09",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Integrated Freight & Logistics",
+                "per": 16.1,
+                "forward_per": 12.5,
+                "pbr": 1.84,
+                "psr": 0.48,
+                "market_cap_oku": 1131,
+                "price_yen": 840,
+                "target_price_yen": 830,
+                "target_upside_pct": -1.2,
+                "revenue_growth_pct": 6.2,
+                "earnings_growth_pct": -26.8,
+                "profit_margin_pct": 2.98,
+                "roe_pct": 11.74,
+                "debt_to_equity": 94.0
+              },
+              "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "プレミアム優待倶楽部ポイント",
+                "month": "9",
+                "yield_pct": "0.89",
+                "min_shares": 400,
+                "programs": [
+                  {
+                    "title": "プレミアム優待倶楽部ポイント",
+                    "tiers": [
+                      {
+                        "shares": "400株以上",
+                        "content": "3,000ポイント",
+                        "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "6,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "600株以上",
+                        "content": "10,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "700株以上",
+                        "content": "12,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "18,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,500株以上",
+                        "content": "30,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "2,000株以上",
+                        "content": "50,000ポイント",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+                "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
+              }
+            }
+          },
+          {
+            "code": "9502",
+            "name": "中部電力",
+            "mark": "新買",
+            "close": 2648,
+            "quality": {
+              "code": "9502",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 70,
+                "yield_pct": 2.66,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 23.21
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Utilities",
+                "industry": "Utilities - Diversified",
+                "per": 8.8,
+                "forward_per": 11.3,
+                "pbr": 0.63,
+                "psr": 0.56,
+                "market_cap_oku": 20014,
+                "price_yen": 2650,
+                "target_price_yen": 3010,
+                "target_upside_pct": 13.6,
+                "revenue_growth_pct": 3.2,
+                "earnings_growth_pct": -58.8,
+                "profit_margin_pct": 4.98,
+                "roe_pct": 6.04,
+                "debt_to_equity": 91.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          }
+        ],
+        "sellback": []
+      },
       {
         "date": "2026-10-02",
         "pnl": -11800,
@@ -1146,14 +2305,14 @@
               "valuation": {
                 "sector": "Energy",
                 "industry": "Oil & Gas E&P",
-                "per": 8.4,
-                "forward_per": 11.6,
-                "pbr": 0.76,
-                "psr": 1.39,
-                "market_cap_oku": 4477,
-                "price_yen": 1754,
+                "per": 8.2,
+                "forward_per": 11.4,
+                "pbr": 0.75,
+                "psr": 1.36,
+                "market_cap_oku": 4395,
+                "price_yen": 1722,
                 "target_price_yen": 2005,
-                "target_upside_pct": 14.3,
+                "target_upside_pct": 16.4,
                 "revenue_growth_pct": -21.4,
                 "earnings_growth_pct": -79.4,
                 "profit_margin_pct": 12.69,
@@ -1193,14 +2352,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto & Truck Dealerships",
-                "per": 20.5,
-                "forward_per": 23.2,
-                "pbr": 4.41,
-                "psr": 7.0,
-                "market_cap_oku": 8245,
-                "price_yen": 1816,
+                "per": 20.6,
+                "forward_per": 23.3,
+                "pbr": 4.43,
+                "psr": 7.03,
+                "market_cap_oku": 8273,
+                "price_yen": 1822,
                 "target_price_yen": 2197,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.6,
                 "revenue_growth_pct": 14.1,
                 "earnings_growth_pct": 9.6,
                 "profit_margin_pct": 0.0,
@@ -1270,7 +2429,7 @@
                 "annual_yen": 30,
                 "yield_pct": 2.05,
                 "ex_date": "2026-12-29",
-                "payout_ratio_pct": 2.11
+                "payout_ratio_pct": 2.12
               },
               "earnings": {
                 "announcement_date": "2026-11-13",
@@ -1280,14 +2439,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Instruments & Supplies",
-                "per": 106.4,
-                "forward_per": 11.0,
-                "pbr": 1.99,
-                "psr": 2.69,
-                "market_cap_oku": 2397,
-                "price_yen": 1465,
+                "per": 110.8,
+                "forward_per": 11.3,
+                "pbr": 2.06,
+                "psr": 2.77,
+                "market_cap_oku": 2475,
+                "price_yen": 1513,
                 "target_price_yen": 1800,
-                "target_upside_pct": 22.9,
+                "target_upside_pct": 19.0,
                 "revenue_growth_pct": 19.9,
                 "earnings_growth_pct": 36.4,
                 "profit_margin_pct": 2.51,
@@ -1372,7 +2531,7 @@
                 "annual_yen": 70,
                 "yield_pct": 2.79,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.59
+                "payout_ratio_pct": 34.83
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -1382,14 +2541,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 14.2,
-                "forward_per": 15.2,
-                "pbr": 1.92,
-                "psr": 2.07,
-                "market_cap_oku": 5616,
-                "price_yen": 2510,
+                "per": 14.5,
+                "forward_per": 15.3,
+                "pbr": 1.94,
+                "psr": 2.09,
+                "market_cap_oku": 5675,
+                "price_yen": 2536,
                 "target_price_yen": 3620,
-                "target_upside_pct": 44.2,
+                "target_upside_pct": 42.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -1427,7 +2586,7 @@
                 "annual_yen": 92,
                 "yield_pct": 4.29,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 14.56
+                "payout_ratio_pct": 29.12
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -1437,14 +2596,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate - Development",
-                "per": 3.8,
+                "per": 7.6,
                 "forward_per": 4.6,
                 "pbr": 0.46,
                 "psr": 0.47,
-                "market_cap_oku": 26572,
-                "price_yen": 2144,
+                "market_cap_oku": 26789,
+                "price_yen": 2162,
                 "target_price_yen": 2540,
-                "target_upside_pct": 18.5,
+                "target_upside_pct": 17.5,
                 "revenue_growth_pct": 9.0,
                 "earnings_growth_pct": 9.0,
                 "profit_margin_pct": 6.28,
@@ -2053,8 +3212,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 25,
-                "yield_pct": 2.4,
+                "annual_yen": 26,
+                "yield_pct": 2.47,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.26
               },
@@ -2070,10 +3229,10 @@
                 "forward_per": 4.2,
                 "pbr": 0.3,
                 "psr": 0.58,
-                "market_cap_oku": 3359,
-                "price_yen": 1040,
+                "market_cap_oku": 3360,
+                "price_yen": 1041,
                 "target_price_yen": 1500,
-                "target_upside_pct": 44.2,
+                "target_upside_pct": 44.1,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -2140,8 +3299,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 150,
-                "yield_pct": 4.83,
+                "annual_yen": 142,
+                "yield_pct": 4.59,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 23.73
               },
@@ -2156,13 +3315,13 @@
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
                 "per": 6.3,
-                "forward_per": 5.9,
-                "pbr": 1.26,
+                "forward_per": 6.0,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 964,
-                "price_yen": 3105,
+                "market_cap_oku": 967,
+                "price_yen": 3115,
                 "target_price_yen": 4900,
-                "target_upside_pct": 57.8,
+                "target_upside_pct": 57.3,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -2174,7 +3333,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.83",
+                "yield_pct": "---、配当利回りは4.82",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -2297,14 +3456,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.3,
-                "forward_per": 3.3,
-                "pbr": 1.07,
-                "psr": 0.51,
-                "market_cap_oku": 9338,
-                "price_yen": 2061,
+                "per": 14.5,
+                "forward_per": 3.4,
+                "pbr": 1.08,
+                "psr": 0.52,
+                "market_cap_oku": 9490,
+                "price_yen": 2094,
                 "target_price_yen": 2654,
-                "target_upside_pct": 28.8,
+                "target_upside_pct": 26.7,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -2371,8 +3530,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 85,
-                "yield_pct": 2.43,
+                "annual_yen": 91,
+                "yield_pct": 2.6,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 82.3
               },
@@ -2384,14 +3543,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.6,
-                "forward_per": 14.9,
-                "pbr": 3.49,
-                "psr": 2.54,
-                "market_cap_oku": 1346,
-                "price_yen": 3505,
+                "per": 37.5,
+                "forward_per": 15.7,
+                "pbr": 3.68,
+                "psr": 2.67,
+                "market_cap_oku": 1419,
+                "price_yen": 3695,
                 "target_price_yen": 5400,
-                "target_upside_pct": 54.1,
+                "target_upside_pct": 46.1,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -2583,19 +3742,11 @@
       },
       {
         "date": "2026-08-14",
-        "pnl": 16700,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "返売",
-            "close": 3640,
-            "pnl": 16700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-13",
@@ -2666,16 +3817,9 @@
       {
         "date": "2026-08-05",
         "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "新買",
-            "close": 3473
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -2837,17 +3981,785 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-07-06",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
+      {
+        "date": "2026-10-05",
+        "pnl": 0,
+        "new_buy_count": 12,
+        "sellback_count": 0,
+        "new_buy": [
+          {
+            "code": "1332",
+            "name": "ニッスイ",
+            "mark": "新買",
+            "close": 1101,
+            "quality": {
+              "code": "1332",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 34,
+                "yield_pct": 3.1,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 35.71
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Defensive",
+                "industry": "Packaged Foods",
+                "per": 12.3,
+                "forward_per": 12.4,
+                "pbr": 1.09,
+                "psr": 0.35,
+                "market_cap_oku": 3344,
+                "price_yen": 1102,
+                "target_price_yen": 1544,
+                "target_upside_pct": 40.1,
+                "revenue_growth_pct": 14.1,
+                "earnings_growth_pct": 17.2,
+                "profit_margin_pct": 2.95,
+                "roe_pct": 10.26,
+                "debt_to_equity": 95.2
+              },
+              "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "自社商品",
+                "month": "3",
+                "yield_pct": "0.54",
+                "min_shares": 500,
+                "programs": [
+                  {
+                    "title": "自社商品セット(びん詰・缶詰など)",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "3,000円相当",
+                        "note": "■贈呈時期 7月"
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "5,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "自社商品。500株以上。権利確定3月。",
+                "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+              }
+            }
+          },
+          {
+            "code": "3391",
+            "name": "ツルハホールディングス",
+            "mark": "新買",
+            "close": 2089,
+            "quality": {
+              "code": "3391",
+              "stars": 4,
+              "background": "ドラッグストア大手のツルハホールディングスは、業界再編の思惑や本業の底堅さがあるものの、全般的な小売セクターの物色一巡や全般地合いの影響から足元で調整局面を迎えています。直近で個別の致命的な構造悪材料は確認されておらず、地合いや利益確定売りに押された一時的な下落と考えられます。短期的な売られ過ぎ感が強まったことで、押し目買いによる自律反発が期待される局面です。",
+              "risk_factors": [
+                "ドラッグストア業界における競合他社との価格競争激化による粗利率低下",
+                "光熱費や人件費をはじめとする店舗運営コストの上昇圧力",
+                "消費者の節約志向強まりに伴う既存店客単価の伸び悩み"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で新規の悪材料発表はなく、イオン・ウエルシアとの経営統合に向けた中長期的な再編期待が下値を支える材料として意識されています。",
+              "fundamental_summary": "同社は国内ドラッグストア最大手の一角であり、PBR1.08倍、実績PER14.5倍とセクター内でも比較的割安なバリュエーション水準に位置しています。売上高は着実に底堅さを維持しているものの、人件費や店舗運用コストの増加に伴う利益率の押し下げが課題視されています。アナリストの目標株価平均は2,654円と現在地から+27%超の上値余地が試算されており、企業価値に対して評価不足感が残ります。配当利回りは2.33%（年間48円）で配当性向も約34.5%と健全であり、株主優待の存在と併せて下値支持力を提供しています。",
+              "technical_view": "2,000円の大台節目を目前にした2,089円近辺は、過去の揉み合い域および心理的節目として強いサポートラインが意識される水準です。上値の目処としては移動平均線や前回の揉み合い上限である2,200円前後が抵抗帯として意識されます。",
+              "watch_points": [
+                "月次売上高動向（特に既存店売上高と客数・客単価の推移）",
+                "ウエルシアHDおよびイオンとの経営統合プロセスに関する具体的な進展ニュース"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 48,
+                "yield_pct": 2.33,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 34.49
+              },
+              "earnings": {
+                "announcement_date": "2026-10-07",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2
+              },
+              "valuation": {
+                "sector": "Healthcare",
+                "industry": "Pharmaceutical Retailers",
+                "per": 14.5,
+                "forward_per": 3.4,
+                "pbr": 1.08,
+                "psr": 0.52,
+                "market_cap_oku": 9488,
+                "price_yen": 2094,
+                "target_price_yen": 2654,
+                "target_upside_pct": 26.7,
+                "revenue_growth_pct": 1.34,
+                "earnings_growth_pct": -34.7,
+                "profit_margin_pct": 2.48,
+                "debt_to_equity": 22.6
+              },
+              "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "株主ギフト券、または寄付",
+                "month": "2",
+                "yield_pct": "2.42",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "株主ギフト券",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "5,000円相当",
+                        "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "10,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "15,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+                "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+              }
+            }
+          },
+          {
+            "code": "3659",
+            "name": "ネクソン",
+            "mark": "新買",
+            "close": 2695,
+            "quality": {
+              "code": "3659",
+              "stars": 4,
+              "background": "直近においてネクソン固有の致命的な構造的悪材料は浮上しておらず、現在の株価調整は株式市場全体の地合い悪化や短期資金の利益確定売りに連れ安した一時的な押し目と見られます。高水準な利益率を維持しており本業の収益基盤は極めて堅固であるため、需給要因による過剰売りが進んだ局面と考えられます。売り圧力が一巡した後は、割安感に着目した見直し買いによる反発が期待される局面です。",
+              "risk_factors": [
+                "ゲームセクター全般からの短期資金の流出・地合い悪化",
+                "主要タイトル（メイプルストーリー等）の課金売上失速リスク",
+                "韓国・中国などの海外市場における規制動向や為替変動"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で株価を押し下げる個別材料の発表はなく、外部環境や全般的な調整を受けた需給起因の下落です。企業価値を損なう要因はなく、織り込みは完了しつつあります。",
+              "fundamental_summary": "同社は利益成長率80.4%、営業利益率26.35%とオンラインゲーム大手の中でも群を抜く高い収益性を誇ります。バリュエーション面では予想PER16.1倍、PBR1.96倍と、高い収益力を考慮すると過度な買われ過ぎ感はなく十分に底固い水準です。配当利回りは2.23%（年間60円）で配当性向も17.56%と低く、今後の追加還元や事業投資に向けた財務的余力も豊富に備えています。アナリストの平均目標株価は2,963円と現状から約10%の上昇余地が提示されており、下値リスクは限定的です。次回決算発表までも十分な日数が残されており、決算通過待ちによる手控えを気にせずテクニカルなリバウンドを狙える好環境と言えます。",
+              "technical_view": "株価は2,695円まで調整が進み、節目の2,700円を割り込んだことで下値の節目である2,650円付近のサポートラインを試す位置にあります。上値方向は2,800円前後の前頭節目や移動平均線が抵抗線として意識されます。",
+              "watch_points": [
+                "2,600円〜2,650円の節目価格帯における下げ止まりと底固め",
+                "主要IPのセールスランキング推移および新作開発スケジュールの進捗"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 60,
+                "yield_pct": 2.23,
+                "ex_date": "2026-12-29",
+                "payout_ratio_pct": 17.56
+              },
+              "earnings": {
+                "announcement_date": "2026-11-10",
+                "fiscal_year_end": "2026-12-31",
+                "fiscal_month": 12
+              },
+              "valuation": {
+                "sector": "Communication Services",
+                "industry": "Electronic Gaming & Multimedia",
+                "per": 15.8,
+                "forward_per": 16.1,
+                "pbr": 1.96,
+                "psr": 4.07,
+                "peg": 1.79,
+                "market_cap_oku": 20975,
+                "price_yen": 2693,
+                "target_price_yen": 2963,
+                "target_upside_pct": 10.0,
+                "revenue_growth_pct": 1.9,
+                "earnings_growth_pct": 80.4,
+                "profit_margin_pct": 26.35,
+                "roe_pct": 12.52,
+                "debt_to_equity": 4.5
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7164",
+            "name": "全国保証",
+            "mark": "新買",
+            "close": 2997,
+            "quality": {
+              "code": "7164",
+              "stars": 4,
+              "background": "住宅ローン市場の先行きや金利動向に対する過度な警戒感から利益確定売りが先行し、株価は心理的節目である3,000円を割り込む水準まで押し込まれています。しかし個別企業に関する致命的な悪材料は確認されておらず、全体地合いの影響や短期的な過剰売りによる自律調整の側面が強いと見られます。",
+              "risk_factors": [
+                "国内金利の上昇に伴う住宅ローン利用者の減少および新規保証実行額の鈍化",
+                "不動産価格高騰による住宅取得マインドの冷え込み",
+                "全体相場の地合い悪化に伴う節目3,000円台の下振れ長期化"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で企業業績を損なう独自の悪材料は出ておらず、高収益体質や高利回りという好ファンダメンタルズに対して過剰に売りが先行した状態です。",
+              "fundamental_summary": "営業利益率56.05%、ROE14.05%と非常に優れた稼ぐ力を誇る住宅ローン保証の国内最大手企業です。PER12.4倍（予想PER6.4倍）と割安感が際立っており、アナリスト目標株価3,680円に対しても約23%の上昇余地が提示されています。また、配当利回りは4.18%（年間125円）と高水準であり、インカムゲイン面からの強力な下値支持効果が期待できます。次回決算発表までも時間的な余裕があり、イベントリスクを避けた短期反発を狙いやすい足回りです。",
+              "technical_view": "終値2,997円は心理的節目である3,000円の直下に位置し、節目割れによる達成感からリバウンドが入る直前のサポート帯域にあります。直近の移動平均線や前安値水準からの下振れは一時的とみられ、3,000円台の早期奪還が期待できる位置関係です。",
+              "watch_points": [
+                "心理的節目である3,000円の奪還と、その上での定着度合い",
+                "高配当利回りを背景としたインカム狙いの買い戻し資金の流入"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 125,
+                "yield_pct": 4.18,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 49.46
+              },
+              "earnings": {
+                "announcement_date": "2026-11-05",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 12.4,
+                "forward_per": 6.4,
+                "pbr": 1.64,
+                "psr": 6.76,
+                "market_cap_oku": 3988,
+                "price_yen": 2997,
+                "target_price_yen": 3680,
+                "target_upside_pct": 22.8,
+                "revenue_growth_pct": 2.5,
+                "earnings_growth_pct": 10.9,
+                "profit_margin_pct": 56.05,
+                "roe_pct": 14.05,
+                "debt_to_equity": 12.3
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7202",
+            "name": "いすゞ自動車",
+            "mark": "新買",
+            "close": 2047,
+            "quality": {
+              "code": "7202",
+              "stars": 4,
+              "background": "直近の下落は個別材料によるものではなく、為替動向への警戒感や自動車セクター全般に対する利確定売りなど地合いの影響によるものが主因と考えられます。構造的な業績悪化を示す悪材料は確認されておらず、一時的な調整が進んだ結果、テクニカル上の過剰売り水準に達しています。",
+              "risk_factors": [
+                "想定以上の円高進行による業績下振れリスク",
+                "タイなど主力海外市場における商用車需要の減速",
+                "物流業界のコスト増に伴う設備投資意欲の鈍化"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "個別の致命的な悪材料は見当たらず、高水準な業績や配当水準に対して過剰な連れ安となっている状態です。",
+              "fundamental_summary": "予想PER8.0倍、PBR0.93倍とバリュエーション面では明確な割安感があります。売上成長率6.8%、利益成長率27.4%と本業の業績は良好で、ROEも11.6%と高い資本効率を維持しています。配当利回りは4.65%（年間94円）と高水準で、下値での買い支え効果が期待できます。株主優待はないものの、アナリスト目標株価（2,569円）に対する値幅余地も大きく、ファンダメンタルズは極めて健全です。",
+              "technical_view": "終値2,047円は心理的節目である2,000円の大台が強力なサポートラインとして機能しやすい水準であり、上値は25日移動平均線や2,100円台半ばが節目となります。",
+              "watch_points": [
+                "心理的節目である2,000円台を維持した反発力の強さ",
+                "為替相場（ドル・円およびタイバーツ）の推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 94,
+                "yield_pct": 4.65,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 47.65
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Manufacturers",
+                "per": 10.6,
+                "forward_per": 8.0,
+                "pbr": 0.93,
+                "psr": 0.4,
+                "market_cap_oku": 14054,
+                "price_yen": 2045,
+                "target_price_yen": 2569,
+                "target_upside_pct": 25.6,
+                "revenue_growth_pct": 6.8,
+                "earnings_growth_pct": 27.4,
+                "profit_margin_pct": 4.09,
+                "roe_pct": 11.6,
+                "debt_to_equity": 60.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7242",
+            "name": "ＫＹＢ",
+            "mark": "新買",
+            "close": 1525,
+            "quality": {
+              "code": "7242",
+              "stars": 4,
+              "background": "個別ニュースでの致命的な構造悪材料は観測されておらず、直近の下落は市場全体の地合い悪化や自動車部品セクター全般への警戒感に伴う連れ安が主因と考えられます。また、直近の株価推移に伴う短期資金の利益確定売りが一巡していないことで、過度な押し目が発生している状況です。ファンダメンタルズの根幹を揺るがす材料はなく、一時的な過剰売りによる好機と捉えられます。",
+              "risk_factors": [
+                "主要顧客である自動車メーカーの生産調整リスク",
+                "為替（円高推移）による利益圧迫リスク",
+                "株式市場全体のリスクオフに伴う連れ安の継続"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で悪材料となる個別ニュースは出ておらず、高配当・低バリュエーションに対する再評価余地を残した需給主導の調整局面です。",
+              "fundamental_summary": "PBR 0.8倍、実績PER 7.2倍とバリュエーション面で著しい割安水準に置かれており、アナリスト目標株価（2,000円）に対しても約30%の上値余地が示唆されています。売上成長率は10.7%と増収基調を維持しており、ROEも11.27%と高い資本効率を誇ります。利益成長率のマイナスは一時的な費用やTTMデータのノイズの可能性が高く、過度に悲観する必要はありません。さらに予想配当利回りが7.13%（年間108円）と非常に高水準であり、配当性向24.69%の健全さを考慮すると強固な下値支持として機能します。",
+              "technical_view": "終値1,525円は心理的節目である1,500円を意識した下値支持線上に位置しており、過熱感の冷め切った反発しやすい位置関係にあります。戻り歩調に入った場合、前回の高値圏や節目となる1,600円〜1,650円台が上値の抵抗帯として意識されます。",
+              "watch_points": [
+                "1,500円の節目の攻防とサポートラインの機能度",
+                "利回り7%台を背景とした押し目買い・買い戻しの勢い"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 108,
+                "yield_pct": 7.13,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 24.69
+              },
+              "earnings": {
+                "announcement_date": "2026-11-12",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 7.2,
+                "forward_per": 2.4,
+                "pbr": 0.8,
+                "psr": 0.37,
+                "market_cap_oku": 1842,
+                "price_yen": 1526,
+                "target_price_yen": 2000,
+                "target_upside_pct": 31.1,
+                "revenue_growth_pct": 10.7,
+                "earnings_growth_pct": -23.4,
+                "profit_margin_pct": 5.1,
+                "roe_pct": 11.27,
+                "debt_to_equity": 57.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "7282",
+            "name": "豊田合成",
+            "mark": "新買",
+            "close": 1056,
+            "quality": {
+              "code": "7282",
+              "stars": 4,
+              "background": "直近の株式市場全体や自動車部品セクターに対する短期的な調整圧力、および利益確定売りに押されて株価は押し目を形成しています。特定の大幅下振れ材料や不祥事などの構造的悪材料は確認されておらず、業績拡大局面における一時的な需給の偏りによる下落と判断できます。",
+              "risk_factors": [
+                "トヨタグループを中心とした自動車生産動向および為替（円高）リスク",
+                "自動車セクター全体に対する海外投資家の短期的な売り圧力",
+                "原材料費やエネルギーコストの再上昇による利益率圧迫"
+              ],
+              "confidence": "high",
+              "sources": [],
+              "material_analysis": "直近で固有の悪材料は出ておらず、地合いやセクター全般の連れ安による一時的な押し目です。",
+              "fundamental_summary": "売上高成長率16.7%、利益成長率45.6%と本業の業績は極めて好調に推移しています。PBR1.06倍、実績PER10.7倍とバリュエーション面での割安感が強く、ROE12.04%と高水準な資本効率を達成しています。配当や株主優待を含めた株主還元姿勢も手厚く、株価の下値を支える強力なファンダメンタルズを備えています。直近で決算発表を控えておらず、決算通過前後の乱高下リスクを回避しやすいタイミングです。",
+              "technical_view": "終値1,056円付近は過去の揉み合いゾーンや心理的節目の1,000円〜1,050円が強固なサポート帯として機能しやすい水準です。上値の抵抗帯としては25日移動平均線や直近高値圏が意識されます。",
+              "watch_points": [
+                "1,000円〜1,050円の節目サポートラインにおける下げ止まりと底堅さ",
+                "自動車セクター全体への資金回帰と地合いの回復タイミング"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 103,
+                "yield_pct": 9.88,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 27.96
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 10.7,
+                "forward_per": 3.0,
+                "pbr": 1.07,
+                "psr": 0.52,
+                "market_cap_oku": 6194,
+                "price_yen": 1056,
+                "target_price_yen": 1187,
+                "target_upside_pct": 12.4,
+                "revenue_growth_pct": 16.7,
+                "earnings_growth_pct": 45.6,
+                "profit_margin_pct": 5.6,
+                "roe_pct": 12.04,
+                "debt_to_equity": 21.6
+              },
+              "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "自社製品、イベント招待",
+                "month": "3",
+                "yield_pct": "---、配当利回りは3.31",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "自社製品※2027年3月より実施（長期保有者向け）",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【半年以上保有】 1,000円相当",
+                        "note": "※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "【半年以上保有】 5,000円相当",
+                        "note": ""
+                      },
+                      {
+                        "shares": "3,000株以上",
+                        "content": "【半年以上保有】 30,000円相当",
+                        "note": ""
+                      }
+                    ]
+                  },
+                  {
+                    "title": "自社イベント招待（抽選）",
+                    "tiers": [
+                      {
+                        "shares": "500株以上",
+                        "content": "◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回",
+                        "note": "※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。"
+                      }
+                    ]
+                  }
+                ],
+                "summary": "自社製品、イベント招待。100株以上。権利確定3月。",
+                "text": "自社製品、イベント招待。100株以上。権利確定3月\n【自社製品※2027年3月より実施（長期保有者向け）】\n・100株以上: 【半年以上保有】 1,000円相当（※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次）\n・500株以上: 【半年以上保有】 5,000円相当\n・3,000株以上: 【半年以上保有】 30,000円相当\n【自社イベント招待（抽選）】\n・500株以上: ◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回（※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。）"
+              }
+            }
+          },
+          {
+            "code": "7988",
+            "name": "ニフコ",
+            "mark": "新買",
+            "close": 2413,
+            "quality": {
+              "code": "7988",
+              "stars": 4,
+              "background": "直近の個別材料がない中で、全体相場や自動車部品セクターに対する警戒感から利確売りが先行し、短期的な売られ過ぎ水準まで調整しています。本業の業績に致命的な悪材料は確認されておらず、地合いや需給要因による一時的な連れ安・過剰売りである可能性が高い状況です。",
+              "risk_factors": [
+                "主要自動車メーカーの減産や稼働率低下による業績悪化リスク",
+                "想定以上の急速な円高進行による採算性の悪化",
+                "全体相場急落に伴う2,400円サポートラインの割り込み"
+              ],
+              "confidence": "high",
+              "sources": [
+                "https://finance.yahoo.co.jp/quote/7988.T"
+              ],
+              "material_analysis": "新規の悪材料は確認されておらず、セクター全体の調整に伴う連れ安を織り込む動きが中心です。",
+              "fundamental_summary": "予想PER7.0倍、PBR0.75倍とバリュエーション面での解散価値割れ・割安感が際立っています。売上成長率は6.3%と本業需要は底堅く維持されており、利益率9.26%、ROE11.88%とセクター内でも高い収益性を誇ります。配当利回りも3.8%（年間91円）とインカムゲインの魅力が高く、配当性向30.68%と還元余力も十分です。総合的に見てもファンダメンタルズは健全であり、下値リスクは限定的と評価できます。",
+              "technical_view": "終値2,413円は心理的節目である2,400円ラインに近接するサポート領域に位置しています。上値の節目としては2,500円付近の移動平均線や前回の揉み合い水準が主要な抵抗線として意識されます。",
+              "watch_points": [
+                "2,400円節目での下げ止まりと自律反発時の出来高増加",
+                "主要顧客である自動車大手の生産動向および為替推移"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "annual_yen": 91,
+                "yield_pct": 3.8,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 30.68
+              },
+              "earnings": {
+                "announcement_date": "2026-10-30",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Auto Parts",
+                "per": 13.5,
+                "forward_per": 7.0,
+                "pbr": 0.75,
+                "psr": 1.26,
+                "market_cap_oku": 4501,
+                "price_yen": 2413,
+                "target_price_yen": 2811,
+                "target_upside_pct": 16.5,
+                "revenue_growth_pct": 6.3,
+                "earnings_growth_pct": -7.6,
+                "profit_margin_pct": 9.26,
+                "roe_pct": 11.88,
+                "debt_to_equity": 8.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8174",
+            "name": "日本瓦斯",
+            "mark": "新買",
+            "close": 936,
+            "quality": {
+              "code": "8174",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 37,
+                "yield_pct": 3.94,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 75.81
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Utilities",
+                "industry": "Utilities - Regulated Gas",
+                "per": 20.7,
+                "forward_per": 6.8,
+                "pbr": 4.66,
+                "psr": 1.41,
+                "market_cap_oku": 2995,
+                "price_yen": 937,
+                "target_price_yen": 1069,
+                "target_upside_pct": 14.1,
+                "revenue_growth_pct": 8.8,
+                "earnings_growth_pct": 0.9,
+                "profit_margin_pct": 6.95,
+                "roe_pct": 22.86,
+                "debt_to_equity": 76.6
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "8572",
+            "name": "アコム",
+            "mark": "新買",
+            "close": 453,
+            "quality": {
+              "code": "8572",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 22,
+                "yield_pct": 4.86,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 43.28
+              },
+              "earnings": {
+                "announcement_date": "2026-11-06",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Financial Services",
+                "industry": "Credit Services",
+                "per": 8.9,
+                "forward_per": 9.9,
+                "pbr": 0.99,
+                "psr": 2.06,
+                "market_cap_oku": 7100,
+                "price_yen": 453,
+                "target_price_yen": 498,
+                "target_upside_pct": 9.9,
+                "revenue_growth_pct": 7.7,
+                "earnings_growth_pct": -43.9,
+                "profit_margin_pct": 18.79,
+                "roe_pct": 9.35,
+                "debt_to_equity": 95.4
+              },
+              "shareholder_benefit": "なし"
+            }
+          },
+          {
+            "code": "9090",
+            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+            "mark": "新買",
+            "close": 840,
+            "quality": {
+              "code": "9090",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 32,
+                "yield_pct": 3.84,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 61.35
+              },
+              "earnings": {
+                "announcement_date": "2026-11-09",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Industrials",
+                "industry": "Integrated Freight & Logistics",
+                "per": 16.1,
+                "forward_per": 12.5,
+                "pbr": 1.84,
+                "psr": 0.48,
+                "market_cap_oku": 1131,
+                "price_yen": 840,
+                "target_price_yen": 830,
+                "target_upside_pct": -1.2,
+                "revenue_growth_pct": 6.2,
+                "earnings_growth_pct": -26.8,
+                "profit_margin_pct": 2.98,
+                "roe_pct": 11.74,
+                "debt_to_equity": 94.0
+              },
+              "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "プレミアム優待倶楽部ポイント",
+                "month": "9",
+                "yield_pct": "0.89",
+                "min_shares": 400,
+                "programs": [
+                  {
+                    "title": "プレミアム優待倶楽部ポイント",
+                    "tiers": [
+                      {
+                        "shares": "400株以上",
+                        "content": "3,000ポイント",
+                        "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "6,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "600株以上",
+                        "content": "10,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "700株以上",
+                        "content": "12,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,000株以上",
+                        "content": "18,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "1,500株以上",
+                        "content": "30,000ポイント",
+                        "note": ""
+                      },
+                      {
+                        "shares": "2,000株以上",
+                        "content": "50,000ポイント",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+                "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
+              }
+            }
+          },
+          {
+            "code": "9502",
+            "name": "中部電力",
+            "mark": "新買",
+            "close": 2648,
+            "quality": {
+              "code": "9502",
+              "stars": 3,
+              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+              "risk_factors": [
+                "評価失敗"
+              ],
+              "confidence": "low",
+              "sources": [],
+              "valuation_view": "unknown",
+              "dividend": {
+                "annual_yen": 70,
+                "yield_pct": 2.66,
+                "ex_date": "2027-03-30",
+                "payout_ratio_pct": 23.21
+              },
+              "earnings": {
+                "announcement_date": "2026-10-29",
+                "fiscal_year_end": "2027-03-31",
+                "fiscal_month": 3
+              },
+              "valuation": {
+                "sector": "Utilities",
+                "industry": "Utilities - Diversified",
+                "per": 8.8,
+                "forward_per": 11.3,
+                "pbr": 0.63,
+                "psr": 0.56,
+                "market_cap_oku": 20014,
+                "price_yen": 2650,
+                "target_price_yen": 3010,
+                "target_upside_pct": 13.6,
+                "revenue_growth_pct": 3.2,
+                "earnings_growth_pct": -58.8,
+                "profit_margin_pct": 4.98,
+                "roe_pct": 6.04,
+                "debt_to_equity": 91.2
+              },
+              "shareholder_benefit": "なし"
+            }
+          }
+        ],
+        "sellback": []
+      },
       {
         "date": "2026-10-02",
         "pnl": -11800,
@@ -2883,14 +4795,14 @@
               "valuation": {
                 "sector": "Energy",
                 "industry": "Oil & Gas E&P",
-                "per": 8.4,
-                "forward_per": 11.6,
-                "pbr": 0.76,
-                "psr": 1.39,
-                "market_cap_oku": 4477,
-                "price_yen": 1754,
+                "per": 8.2,
+                "forward_per": 11.4,
+                "pbr": 0.75,
+                "psr": 1.36,
+                "market_cap_oku": 4395,
+                "price_yen": 1722,
                 "target_price_yen": 2005,
-                "target_upside_pct": 14.3,
+                "target_upside_pct": 16.4,
                 "revenue_growth_pct": -21.4,
                 "earnings_growth_pct": -79.4,
                 "profit_margin_pct": 12.69,
@@ -2930,14 +4842,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto & Truck Dealerships",
-                "per": 20.5,
-                "forward_per": 23.2,
-                "pbr": 4.41,
-                "psr": 7.0,
-                "market_cap_oku": 8245,
-                "price_yen": 1816,
+                "per": 20.6,
+                "forward_per": 23.3,
+                "pbr": 4.43,
+                "psr": 7.03,
+                "market_cap_oku": 8273,
+                "price_yen": 1822,
                 "target_price_yen": 2197,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.6,
                 "revenue_growth_pct": 14.1,
                 "earnings_growth_pct": 9.6,
                 "profit_margin_pct": 0.0,
@@ -3007,7 +4919,7 @@
                 "annual_yen": 30,
                 "yield_pct": 2.05,
                 "ex_date": "2026-12-29",
-                "payout_ratio_pct": 2.11
+                "payout_ratio_pct": 2.12
               },
               "earnings": {
                 "announcement_date": "2026-11-13",
@@ -3017,14 +4929,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Instruments & Supplies",
-                "per": 106.4,
-                "forward_per": 11.0,
-                "pbr": 1.99,
-                "psr": 2.69,
-                "market_cap_oku": 2397,
-                "price_yen": 1465,
+                "per": 110.8,
+                "forward_per": 11.3,
+                "pbr": 2.06,
+                "psr": 2.77,
+                "market_cap_oku": 2475,
+                "price_yen": 1513,
                 "target_price_yen": 1800,
-                "target_upside_pct": 22.9,
+                "target_upside_pct": 19.0,
                 "revenue_growth_pct": 19.9,
                 "earnings_growth_pct": 36.4,
                 "profit_margin_pct": 2.51,
@@ -3109,7 +5021,7 @@
                 "annual_yen": 70,
                 "yield_pct": 2.79,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.59
+                "payout_ratio_pct": 34.83
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -3119,14 +5031,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 14.2,
-                "forward_per": 15.2,
-                "pbr": 1.92,
-                "psr": 2.07,
-                "market_cap_oku": 5616,
-                "price_yen": 2510,
+                "per": 14.5,
+                "forward_per": 15.3,
+                "pbr": 1.94,
+                "psr": 2.09,
+                "market_cap_oku": 5675,
+                "price_yen": 2536,
                 "target_price_yen": 3620,
-                "target_upside_pct": 44.2,
+                "target_upside_pct": 42.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -3164,7 +5076,7 @@
                 "annual_yen": 92,
                 "yield_pct": 4.29,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 14.56
+                "payout_ratio_pct": 29.12
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -3174,14 +5086,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate - Development",
-                "per": 3.8,
+                "per": 7.6,
                 "forward_per": 4.6,
                 "pbr": 0.46,
                 "psr": 0.47,
-                "market_cap_oku": 26572,
-                "price_yen": 2144,
+                "market_cap_oku": 26789,
+                "price_yen": 2162,
                 "target_price_yen": 2540,
-                "target_upside_pct": 18.5,
+                "target_upside_pct": 17.5,
                 "revenue_growth_pct": 9.0,
                 "earnings_growth_pct": 9.0,
                 "profit_margin_pct": 6.28,
@@ -3517,8 +5429,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 25,
-                "yield_pct": 2.4,
+                "annual_yen": 26,
+                "yield_pct": 2.47,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.26
               },
@@ -3534,10 +5446,10 @@
                 "forward_per": 4.2,
                 "pbr": 0.3,
                 "psr": 0.58,
-                "market_cap_oku": 3359,
-                "price_yen": 1040,
+                "market_cap_oku": 3360,
+                "price_yen": 1041,
                 "target_price_yen": 1500,
-                "target_upside_pct": 44.2,
+                "target_upside_pct": 44.1,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -3604,8 +5516,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 150,
-                "yield_pct": 4.83,
+                "annual_yen": 142,
+                "yield_pct": 4.59,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 23.73
               },
@@ -3620,13 +5532,13 @@
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
                 "per": 6.3,
-                "forward_per": 5.9,
-                "pbr": 1.26,
+                "forward_per": 6.0,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 964,
-                "price_yen": 3105,
+                "market_cap_oku": 967,
+                "price_yen": 3115,
                 "target_price_yen": 4900,
-                "target_upside_pct": 57.8,
+                "target_upside_pct": 57.3,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -3638,7 +5550,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.83",
+                "yield_pct": "---、配当利回りは4.82",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -3761,14 +5673,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 14.3,
-                "forward_per": 3.3,
-                "pbr": 1.07,
-                "psr": 0.51,
-                "market_cap_oku": 9338,
-                "price_yen": 2061,
+                "per": 14.5,
+                "forward_per": 3.4,
+                "pbr": 1.08,
+                "psr": 0.52,
+                "market_cap_oku": 9490,
+                "price_yen": 2094,
                 "target_price_yen": 2654,
-                "target_upside_pct": 28.8,
+                "target_upside_pct": 26.7,
                 "revenue_growth_pct": 1.34,
                 "earnings_growth_pct": -34.7,
                 "profit_margin_pct": 2.48,
@@ -3835,8 +5747,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 85,
-                "yield_pct": 2.43,
+                "annual_yen": 91,
+                "yield_pct": 2.6,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 82.3
               },
@@ -3848,14 +5760,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 35.6,
-                "forward_per": 14.9,
-                "pbr": 3.49,
-                "psr": 2.54,
-                "market_cap_oku": 1346,
-                "price_yen": 3505,
+                "per": 37.5,
+                "forward_per": 15.7,
+                "pbr": 3.68,
+                "psr": 2.67,
+                "market_cap_oku": 1419,
+                "price_yen": 3695,
                 "target_price_yen": 5400,
-                "target_upside_pct": 54.1,
+                "target_upside_pct": 46.1,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -3974,21 +5886,6 @@
           }
         ],
         "sellback": []
-      },
-      {
-        "date": "2026-08-05",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "4516",
-            "name": "日本新薬",
-            "mark": "新買",
-            "close": 3473
-          }
-        ],
-        "sellback": []
       }
     ]
   },
@@ -4001,9 +5898,9 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": 1.34,
-    "new_buy_count": 3,
-    "rsi_oversold_count": 9,
+    "market_return_20d": 1.85,
+    "new_buy_count": 12,
+    "rsi_oversold_count": 8,
     "exit_rsi": 70.0,
     "etf_rsi": {
       "1321": 73.7,
@@ -4013,8 +5910,8 @@
     "signal": "holding"
   },
   "quality": {
-    "1662": {
-      "code": "1662",
+    "1332": {
+      "code": "1332",
       "stars": 3,
       "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
@@ -4024,119 +5921,481 @@
       "sources": [],
       "valuation_view": "unknown",
       "dividend": {
-        "annual_yen": 45,
-        "yield_pct": 2.57,
+        "annual_yen": 34,
+        "yield_pct": 3.1,
         "ex_date": "2027-03-30",
-        "payout_ratio_pct": 31.14
+        "payout_ratio_pct": 35.71
       },
       "earnings": {
-        "announcement_date": "2026-11-12",
+        "announcement_date": "2026-11-06",
         "fiscal_year_end": "2027-03-31",
         "fiscal_month": 3
       },
       "valuation": {
-        "sector": "Energy",
-        "industry": "Oil & Gas E&P",
-        "per": 8.4,
-        "forward_per": 11.6,
-        "pbr": 0.76,
-        "psr": 1.39,
-        "market_cap_oku": 4477,
-        "price_yen": 1754,
-        "target_price_yen": 2005,
-        "target_upside_pct": 14.3,
-        "revenue_growth_pct": -21.4,
-        "earnings_growth_pct": -79.4,
-        "profit_margin_pct": 12.69,
-        "roe_pct": 7.47,
-        "debt_to_equity": 9.3
+        "sector": "Consumer Defensive",
+        "industry": "Packaged Foods",
+        "per": 12.3,
+        "forward_per": 12.4,
+        "pbr": 1.09,
+        "psr": 0.35,
+        "market_cap_oku": 3341,
+        "price_yen": 1102,
+        "target_price_yen": 1544,
+        "target_upside_pct": 40.1,
+        "revenue_growth_pct": 14.1,
+        "earnings_growth_pct": 17.2,
+        "profit_margin_pct": 2.95,
+        "roe_pct": 10.26,
+        "debt_to_equity": 95.2
       },
-      "shareholder_benefit": "なし"
+      "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "自社商品",
+        "month": "3",
+        "yield_pct": "0.54",
+        "min_shares": 500,
+        "programs": [
+          {
+            "title": "自社商品セット(びん詰・缶詰など)",
+            "tiers": [
+              {
+                "shares": "500株以上",
+                "content": "3,000円相当",
+                "note": "■贈呈時期 7月"
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "5,000円相当",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "自社商品。500株以上。権利確定3月。",
+        "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
+      }
     },
-    "4732": {
-      "code": "4732",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+    "3391": {
+      "code": "3391",
+      "stars": 4,
+      "background": "ドラッグストア大手のツルハホールディングスは、業界再編の思惑や本業の底堅さがあるものの、全般的な小売セクターの物色一巡や全般地合いの影響から足元で調整局面を迎えています。直近で個別の致命的な構造悪材料は確認されておらず、地合いや利益確定売りに押された一時的な下落と考えられます。短期的な売られ過ぎ感が強まったことで、押し目買いによる自律反発が期待される局面です。",
       "risk_factors": [
-        "評価失敗"
+        "ドラッグストア業界における競合他社との価格競争激化による粗利率低下",
+        "光熱費や人件費をはじめとする店舗運営コストの上昇圧力",
+        "消費者の節約志向強まりに伴う既存店客単価の伸び悩み"
       ],
-      "confidence": "low",
+      "confidence": "high",
       "sources": [],
-      "valuation_view": "unknown",
+      "material_analysis": "直近で新規の悪材料発表はなく、イオン・ウエルシアとの経営統合に向けた中長期的な再編期待が下値を支える材料として意識されています。",
+      "fundamental_summary": "同社は国内ドラッグストア最大手の一角であり、PBR1.08倍、実績PER14.5倍とセクター内でも比較的割安なバリュエーション水準に位置しています。売上高は着実に底堅さを維持しているものの、人件費や店舗運用コストの増加に伴う利益率の押し下げが課題視されています。アナリストの目標株価平均は2,654円と現在地から+27%超の上値余地が試算されており、企業価値に対して評価不足感が残ります。配当利回りは2.33%（年間48円）で配当性向も約34.5%と健全であり、株主優待の存在と併せて下値支持力を提供しています。",
+      "technical_view": "2,000円の大台節目を目前にした2,089円近辺は、過去の揉み合い域および心理的節目として強いサポートラインが意識される水準です。上値の目処としては移動平均線や前回の揉み合い上限である2,200円前後が抵抗帯として意識されます。",
+      "watch_points": [
+        "月次売上高動向（特に既存店売上高と客数・客単価の推移）",
+        "ウエルシアHDおよびイオンとの経営統合プロセスに関する具体的な進展ニュース"
+      ],
+      "valuation_view": "cheap",
       "dividend": {
-        "annual_yen": 56,
-        "yield_pct": 3.11,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 61.79
+        "annual_yen": 48,
+        "yield_pct": 2.33,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 34.49
+      },
+      "earnings": {
+        "announcement_date": "2026-10-07",
+        "fiscal_year_end": "2027-02-28",
+        "fiscal_month": 2
+      },
+      "valuation": {
+        "sector": "Healthcare",
+        "industry": "Pharmaceutical Retailers",
+        "per": 14.5,
+        "forward_per": 3.3,
+        "pbr": 1.08,
+        "psr": 0.52,
+        "market_cap_oku": 9463,
+        "price_yen": 2088,
+        "target_price_yen": 2654,
+        "target_upside_pct": 27.1,
+        "revenue_growth_pct": 1.34,
+        "earnings_growth_pct": -34.7,
+        "profit_margin_pct": 2.48,
+        "debt_to_equity": 22.6
+      },
+      "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "株主ギフト券、または寄付",
+        "month": "2",
+        "yield_pct": "2.42",
+        "min_shares": 100,
+        "programs": [
+          {
+            "title": "株主ギフト券",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "5,000円相当",
+                "note": "※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封"
+              },
+              {
+                "shares": "500株以上",
+                "content": "10,000円相当",
+                "note": ""
+              },
+              {
+                "shares": "1,000株以上",
+                "content": "15,000円相当",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "株主ギフト券、または寄付。100株以上。権利確定2月。",
+        "text": "株主ギフト券、または寄付。100株以上。権利確定2月\n・100株以上: 5,000円相当（※寄付の選択も可能。 “未使用の株主ギフト券冊子”を返送することにより、株主様に代わり金額相当分を寄付。 ◆利用可能施設（予定） ツルハグループおよびウエルシアグループの各店舗にて利用可能なよう、検討を進めています。 ■贈呈時期 株主総会終了後、5月下旬に総会決議通知に同封）\n・500株以上: 10,000円相当\n・1,000株以上: 15,000円相当"
+      }
+    },
+    "3659": {
+      "code": "3659",
+      "stars": 4,
+      "background": "直近においてネクソン固有の致命的な構造的悪材料は浮上しておらず、現在の株価調整は株式市場全体の地合い悪化や短期資金の利益確定売りに連れ安した一時的な押し目と見られます。高水準な利益率を維持しており本業の収益基盤は極めて堅固であるため、需給要因による過剰売りが進んだ局面と考えられます。売り圧力が一巡した後は、割安感に着目した見直し買いによる反発が期待される局面です。",
+      "risk_factors": [
+        "ゲームセクター全般からの短期資金の流出・地合い悪化",
+        "主要タイトル（メイプルストーリー等）の課金売上失速リスク",
+        "韓国・中国などの海外市場における規制動向や為替変動"
+      ],
+      "confidence": "high",
+      "sources": [],
+      "material_analysis": "直近で株価を押し下げる個別材料の発表はなく、外部環境や全般的な調整を受けた需給起因の下落です。企業価値を損なう要因はなく、織り込みは完了しつつあります。",
+      "fundamental_summary": "同社は利益成長率80.4%、営業利益率26.35%とオンラインゲーム大手の中でも群を抜く高い収益性を誇ります。バリュエーション面では予想PER16.1倍、PBR1.96倍と、高い収益力を考慮すると過度な買われ過ぎ感はなく十分に底固い水準です。配当利回りは2.23%（年間60円）で配当性向も17.56%と低く、今後の追加還元や事業投資に向けた財務的余力も豊富に備えています。アナリストの平均目標株価は2,963円と現状から約10%の上昇余地が提示されており、下値リスクは限定的です。次回決算発表までも十分な日数が残されており、決算通過待ちによる手控えを気にせずテクニカルなリバウンドを狙える好環境と言えます。",
+      "technical_view": "株価は2,695円まで調整が進み、節目の2,700円を割り込んだことで下値の節目である2,650円付近のサポートラインを試す位置にあります。上値方向は2,800円前後の前頭節目や移動平均線が抵抗線として意識されます。",
+      "watch_points": [
+        "2,600円〜2,650円の節目価格帯における下げ止まりと底固め",
+        "主要IPのセールスランキング推移および新作開発スケジュールの進捗"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 60,
+        "yield_pct": 2.23,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 17.56
       },
       "earnings": {
         "announcement_date": "2026-11-10",
+        "fiscal_year_end": "2026-12-31",
+        "fiscal_month": 12
+      },
+      "valuation": {
+        "sector": "Communication Services",
+        "industry": "Electronic Gaming & Multimedia",
+        "per": 15.8,
+        "forward_per": 16.1,
+        "pbr": 1.96,
+        "psr": 4.07,
+        "peg": 1.79,
+        "market_cap_oku": 20975,
+        "price_yen": 2693,
+        "target_price_yen": 2963,
+        "target_upside_pct": 10.0,
+        "revenue_growth_pct": 1.9,
+        "earnings_growth_pct": 80.4,
+        "profit_margin_pct": 26.35,
+        "roe_pct": 12.52,
+        "debt_to_equity": 4.5
+      },
+      "shareholder_benefit": "なし"
+    },
+    "7164": {
+      "code": "7164",
+      "stars": 4,
+      "background": "住宅ローン市場の先行きや金利動向に対する過度な警戒感から利益確定売りが先行し、株価は心理的節目である3,000円を割り込む水準まで押し込まれています。しかし個別企業に関する致命的な悪材料は確認されておらず、全体地合いの影響や短期的な過剰売りによる自律調整の側面が強いと見られます。",
+      "risk_factors": [
+        "国内金利の上昇に伴う住宅ローン利用者の減少および新規保証実行額の鈍化",
+        "不動産価格高騰による住宅取得マインドの冷え込み",
+        "全体相場の地合い悪化に伴う節目3,000円台の下振れ長期化"
+      ],
+      "confidence": "high",
+      "sources": [],
+      "material_analysis": "直近で企業業績を損なう独自の悪材料は出ておらず、高収益体質や高利回りという好ファンダメンタルズに対して過剰に売りが先行した状態です。",
+      "fundamental_summary": "営業利益率56.05%、ROE14.05%と非常に優れた稼ぐ力を誇る住宅ローン保証の国内最大手企業です。PER12.4倍（予想PER6.4倍）と割安感が際立っており、アナリスト目標株価3,680円に対しても約23%の上昇余地が提示されています。また、配当利回りは4.18%（年間125円）と高水準であり、インカムゲイン面からの強力な下値支持効果が期待できます。次回決算発表までも時間的な余裕があり、イベントリスクを避けた短期反発を狙いやすい足回りです。",
+      "technical_view": "終値2,997円は心理的節目である3,000円の直下に位置し、節目割れによる達成感からリバウンドが入る直前のサポート帯域にあります。直近の移動平均線や前安値水準からの下振れは一時的とみられ、3,000円台の早期奪還が期待できる位置関係です。",
+      "watch_points": [
+        "心理的節目である3,000円の奪還と、その上での定着度合い",
+        "高配当利回りを背景としたインカム狙いの買い戻し資金の流入"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 125,
+        "yield_pct": 4.18,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 49.46
+      },
+      "earnings": {
+        "announcement_date": "2026-11-05",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "per": 12.4,
+        "forward_per": 6.4,
+        "pbr": 1.64,
+        "psr": 6.76,
+        "market_cap_oku": 3988,
+        "price_yen": 2997,
+        "target_price_yen": 3680,
+        "target_upside_pct": 22.8,
+        "revenue_growth_pct": 2.5,
+        "earnings_growth_pct": 10.9,
+        "profit_margin_pct": 56.05,
+        "roe_pct": 14.05,
+        "debt_to_equity": 12.3
+      },
+      "shareholder_benefit": "なし"
+    },
+    "7202": {
+      "code": "7202",
+      "stars": 4,
+      "background": "直近の下落は個別材料によるものではなく、為替動向への警戒感や自動車セクター全般に対する利確定売りなど地合いの影響によるものが主因と考えられます。構造的な業績悪化を示す悪材料は確認されておらず、一時的な調整が進んだ結果、テクニカル上の過剰売り水準に達しています。",
+      "risk_factors": [
+        "想定以上の円高進行による業績下振れリスク",
+        "タイなど主力海外市場における商用車需要の減速",
+        "物流業界のコスト増に伴う設備投資意欲の鈍化"
+      ],
+      "confidence": "high",
+      "sources": [],
+      "material_analysis": "個別の致命的な悪材料は見当たらず、高水準な業績や配当水準に対して過剰な連れ安となっている状態です。",
+      "fundamental_summary": "予想PER8.0倍、PBR0.93倍とバリュエーション面では明確な割安感があります。売上成長率6.8%、利益成長率27.4%と本業の業績は良好で、ROEも11.6%と高い資本効率を維持しています。配当利回りは4.65%（年間94円）と高水準で、下値での買い支え効果が期待できます。株主優待はないものの、アナリスト目標株価（2,569円）に対する値幅余地も大きく、ファンダメンタルズは極めて健全です。",
+      "technical_view": "終値2,047円は心理的節目である2,000円の大台が強力なサポートラインとして機能しやすい水準であり、上値は25日移動平均線や2,100円台半ばが節目となります。",
+      "watch_points": [
+        "心理的節目である2,000円台を維持した反発力の強さ",
+        "為替相場（ドル・円およびタイバーツ）の推移"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 94,
+        "yield_pct": 4.65,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 47.65
+      },
+      "earnings": {
+        "announcement_date": "2026-11-06",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Manufacturers",
+        "per": 10.6,
+        "forward_per": 8.0,
+        "pbr": 0.93,
+        "psr": 0.4,
+        "market_cap_oku": 14061,
+        "price_yen": 2046,
+        "target_price_yen": 2569,
+        "target_upside_pct": 25.6,
+        "revenue_growth_pct": 6.8,
+        "earnings_growth_pct": 27.4,
+        "profit_margin_pct": 4.09,
+        "roe_pct": 11.6,
+        "debt_to_equity": 60.2
+      },
+      "shareholder_benefit": "なし"
+    },
+    "7242": {
+      "code": "7242",
+      "stars": 4,
+      "background": "個別ニュースでの致命的な構造悪材料は観測されておらず、直近の下落は市場全体の地合い悪化や自動車部品セクター全般への警戒感に伴う連れ安が主因と考えられます。また、直近の株価推移に伴う短期資金の利益確定売りが一巡していないことで、過度な押し目が発生している状況です。ファンダメンタルズの根幹を揺るがす材料はなく、一時的な過剰売りによる好機と捉えられます。",
+      "risk_factors": [
+        "主要顧客である自動車メーカーの生産調整リスク",
+        "為替（円高推移）による利益圧迫リスク",
+        "株式市場全体のリスクオフに伴う連れ安の継続"
+      ],
+      "confidence": "high",
+      "sources": [],
+      "material_analysis": "直近で悪材料となる個別ニュースは出ておらず、高配当・低バリュエーションに対する再評価余地を残した需給主導の調整局面です。",
+      "fundamental_summary": "PBR 0.8倍、実績PER 7.2倍とバリュエーション面で著しい割安水準に置かれており、アナリスト目標株価（2,000円）に対しても約30%の上値余地が示唆されています。売上成長率は10.7%と増収基調を維持しており、ROEも11.27%と高い資本効率を誇ります。利益成長率のマイナスは一時的な費用やTTMデータのノイズの可能性が高く、過度に悲観する必要はありません。さらに予想配当利回りが7.13%（年間108円）と非常に高水準であり、配当性向24.69%の健全さを考慮すると強固な下値支持として機能します。",
+      "technical_view": "終値1,525円は心理的節目である1,500円を意識した下値支持線上に位置しており、過熱感の冷め切った反発しやすい位置関係にあります。戻り歩調に入った場合、前回の高値圏や節目となる1,600円〜1,650円台が上値の抵抗帯として意識されます。",
+      "watch_points": [
+        "1,500円の節目の攻防とサポートラインの機能度",
+        "利回り7%台を背景とした押し目買い・買い戻しの勢い"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 108,
+        "yield_pct": 7.13,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 24.69
+      },
+      "earnings": {
+        "announcement_date": "2026-11-12",
         "fiscal_year_end": "2027-03-31",
         "fiscal_month": 3,
         "is_estimate": true
       },
       "valuation": {
         "sector": "Consumer Cyclical",
-        "industry": "Auto & Truck Dealerships",
-        "per": 20.5,
-        "forward_per": 23.2,
-        "pbr": 4.41,
-        "psr": 7.0,
-        "market_cap_oku": 8245,
-        "price_yen": 1816,
-        "target_price_yen": 2197,
-        "target_upside_pct": 21.0,
-        "revenue_growth_pct": 14.1,
-        "earnings_growth_pct": 9.6,
-        "profit_margin_pct": 0.0,
-        "roe_pct": 22.41,
-        "debt_to_equity": 1.1
+        "industry": "Auto Parts",
+        "per": 7.2,
+        "forward_per": 2.4,
+        "pbr": 0.8,
+        "psr": 0.37,
+        "market_cap_oku": 1842,
+        "price_yen": 1526,
+        "target_price_yen": 2000,
+        "target_upside_pct": 31.1,
+        "revenue_growth_pct": 10.7,
+        "earnings_growth_pct": -23.4,
+        "profit_margin_pct": 5.1,
+        "roe_pct": 11.27,
+        "debt_to_equity": 57.2
       },
-      "shareholder_benefit": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
+      "shareholder_benefit": "なし"
+    },
+    "7282": {
+      "code": "7282",
+      "stars": 4,
+      "background": "直近の株式市場全体や自動車部品セクターに対する短期的な調整圧力、および利益確定売りに押されて株価は押し目を形成しています。特定の大幅下振れ材料や不祥事などの構造的悪材料は確認されておらず、業績拡大局面における一時的な需給の偏りによる下落と判断できます。",
+      "risk_factors": [
+        "トヨタグループを中心とした自動車生産動向および為替（円高）リスク",
+        "自動車セクター全体に対する海外投資家の短期的な売り圧力",
+        "原材料費やエネルギーコストの再上昇による利益率圧迫"
+      ],
+      "confidence": "high",
+      "sources": [],
+      "material_analysis": "直近で固有の悪材料は出ておらず、地合いやセクター全般の連れ安による一時的な押し目です。",
+      "fundamental_summary": "売上高成長率16.7%、利益成長率45.6%と本業の業績は極めて好調に推移しています。PBR1.06倍、実績PER10.7倍とバリュエーション面での割安感が強く、ROE12.04%と高水準な資本効率を達成しています。配当や株主優待を含めた株主還元姿勢も手厚く、株価の下値を支える強力なファンダメンタルズを備えています。直近で決算発表を控えておらず、決算通過前後の乱高下リスクを回避しやすいタイミングです。",
+      "technical_view": "終値1,056円付近は過去の揉み合いゾーンや心理的節目の1,000円〜1,050円が強固なサポート帯として機能しやすい水準です。上値の抵抗帯としては25日移動平均線や直近高値圏が意識されます。",
+      "watch_points": [
+        "1,000円〜1,050円の節目サポートラインにおける下げ止まりと底堅さ",
+        "自動車セクター全体への資金回帰と地合いの回復タイミング"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 103,
+        "yield_pct": 9.88,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 27.96
+      },
+      "earnings": {
+        "announcement_date": "2026-10-29",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "per": 10.7,
+        "forward_per": 3.0,
+        "pbr": 1.06,
+        "psr": 0.52,
+        "market_cap_oku": 6191,
+        "price_yen": 1056,
+        "target_price_yen": 1187,
+        "target_upside_pct": 12.4,
+        "revenue_growth_pct": 16.7,
+        "earnings_growth_pct": 45.6,
+        "profit_margin_pct": 5.6,
+        "roe_pct": 12.04,
+        "debt_to_equity": 21.6
+      },
+      "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
       "shareholder_benefit_detail": {
         "source": "minkabu",
-        "kind": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
+        "kind": "自社製品、イベント招待",
         "month": "3",
-        "yield_pct": "0.55",
+        "yield_pct": "---、配当利回りは3.32",
         "min_shares": 100,
         "programs": [
           {
-            "title": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
+            "title": "自社製品※2027年3月より実施（長期保有者向け）",
             "tiers": [
               {
                 "shares": "100株以上",
-                "content": "【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）",
-                "note": "※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月"
-              },
-              {
-                "shares": "300株以上",
-                "content": "【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）",
-                "note": ""
+                "content": "【半年以上保有】 1,000円相当",
+                "note": "※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次"
               },
               {
                 "shares": "500株以上",
-                "content": "【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）",
+                "content": "【半年以上保有】 5,000円相当",
                 "note": ""
               },
               {
-                "shares": "1,000株以上",
-                "content": "【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）",
+                "shares": "3,000株以上",
+                "content": "【半年以上保有】 30,000円相当",
                 "note": ""
-              },
+              }
+            ]
+          },
+          {
+            "title": "自社イベント招待（抽選）",
+            "tiers": [
               {
-                "shares": "10,000株以上",
-                "content": "【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）",
-                "note": ""
+                "shares": "500株以上",
+                "content": "◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回",
+                "note": "※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。"
               }
             ]
           }
         ],
-        "summary": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-        "text": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月\n・100株以上: 【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）（※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月）\n・300株以上: 【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）\n・500株以上: 【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）\n・1,000株以上: 【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）\n・10,000株以上: 【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）"
+        "summary": "自社製品、イベント招待。100株以上。権利確定3月。",
+        "text": "自社製品、イベント招待。100株以上。権利確定3月\n【自社製品※2027年3月より実施（長期保有者向け）】\n・100株以上: 【半年以上保有】 1,000円相当（※初回基準日（27年3月）は「半年以上保有」、以降は「1年以上保有」が条件となります。 ■継続保有期間について 「1 年以上継続して保有」とは、同一株主番号で、毎年 3 月 31 日を基準日として前年 9 月 30 日お よび 3 月 31 日の株主名簿に、100 株以上の保有が連続して 3 回以上記録された状態を指します。 ◇アップサイクルブランド「Re-S（リーズ）」の商品贈呈 ※Re-S 商品：エアバッグやハンドル等の自動車部品の生産工程で出る端材等を利用した商品を「Re-S」ブランドとして展開。 ■贈呈時期 6月以降順次）\n・500株以上: 【半年以上保有】 5,000円相当\n・3,000株以上: 【半年以上保有】 30,000円相当\n【自社イベント招待（抽選）】\n・500株以上: ◇イベント予定の中から１つ選択 ■スポーツ ・ウルフドッグス名古屋（バレーボール）試合観戦（ホームゲーム）10 組（ペア）×10 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（ホームゲーム）10 組(ペア)×14 試合 ・豊田合成ブルーファルコン名古屋（ハンドボール）試合観戦（アウェイゲーム）10 組(ペア)×14 試合 ■施設見学 ・セーフティシステム関連施設見学会 等 10 組(ペア)×3 回（※必要株数は分割後を表示しています。 ■イベントの案内時期 2027年7月頃に開催概要・応募方法・抽選等詳細の案内を郵送する予定。イベントの実施は 2027 年 9 月以降。）"
       }
     },
-    "7716": {
-      "code": "7716",
+    "7988": {
+      "code": "7988",
+      "stars": 4,
+      "background": "直近の個別材料がない中で、全体相場や自動車部品セクターに対する警戒感から利確売りが先行し、短期的な売られ過ぎ水準まで調整しています。本業の業績に致命的な悪材料は確認されておらず、地合いや需給要因による一時的な連れ安・過剰売りである可能性が高い状況です。",
+      "risk_factors": [
+        "主要自動車メーカーの減産や稼働率低下による業績悪化リスク",
+        "想定以上の急速な円高進行による採算性の悪化",
+        "全体相場急落に伴う2,400円サポートラインの割り込み"
+      ],
+      "confidence": "high",
+      "sources": [
+        "https://finance.yahoo.co.jp/quote/7988.T"
+      ],
+      "material_analysis": "新規の悪材料は確認されておらず、セクター全体の調整に伴う連れ安を織り込む動きが中心です。",
+      "fundamental_summary": "予想PER7.0倍、PBR0.75倍とバリュエーション面での解散価値割れ・割安感が際立っています。売上成長率は6.3%と本業需要は底堅く維持されており、利益率9.26%、ROE11.88%とセクター内でも高い収益性を誇ります。配当利回りも3.8%（年間91円）とインカムゲインの魅力が高く、配当性向30.68%と還元余力も十分です。総合的に見てもファンダメンタルズは健全であり、下値リスクは限定的と評価できます。",
+      "technical_view": "終値2,413円は心理的節目である2,400円ラインに近接するサポート領域に位置しています。上値の節目としては2,500円付近の移動平均線や前回の揉み合い水準が主要な抵抗線として意識されます。",
+      "watch_points": [
+        "2,400円節目での下げ止まりと自律反発時の出来高増加",
+        "主要顧客である自動車大手の生産動向および為替推移"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "annual_yen": 91,
+        "yield_pct": 3.8,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 30.68
+      },
+      "earnings": {
+        "announcement_date": "2026-10-30",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Auto Parts",
+        "per": 13.5,
+        "forward_per": 7.0,
+        "pbr": 0.75,
+        "psr": 1.26,
+        "market_cap_oku": 4500,
+        "price_yen": 2412,
+        "target_price_yen": 2811,
+        "target_upside_pct": 16.5,
+        "revenue_growth_pct": 6.3,
+        "earnings_growth_pct": -7.6,
+        "profit_margin_pct": 9.26,
+        "roe_pct": 11.88,
+        "debt_to_equity": 8.4
+      },
+      "shareholder_benefit": "なし"
+    },
+    "8174": {
+      "code": "8174",
       "stars": 3,
       "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
@@ -4146,118 +6405,168 @@
       "sources": [],
       "valuation_view": "unknown",
       "dividend": {
-        "annual_yen": 30,
-        "yield_pct": 2.05,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 2.11
+        "annual_yen": 37,
+        "yield_pct": 3.94,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 75.81
       },
       "earnings": {
-        "announcement_date": "2026-11-13",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12
+        "announcement_date": "2026-10-29",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
       },
       "valuation": {
-        "sector": "Healthcare",
-        "industry": "Medical Instruments & Supplies",
-        "per": 106.4,
-        "forward_per": 11.0,
-        "pbr": 1.99,
-        "psr": 2.69,
-        "market_cap_oku": 2397,
-        "price_yen": 1465,
-        "target_price_yen": 1800,
-        "target_upside_pct": 22.9,
-        "revenue_growth_pct": 19.9,
-        "earnings_growth_pct": 36.4,
-        "profit_margin_pct": 2.51,
-        "roe_pct": 1.87,
-        "debt_to_equity": 27.8
+        "sector": "Utilities",
+        "industry": "Utilities - Regulated Gas",
+        "per": 20.7,
+        "forward_per": 6.8,
+        "pbr": 4.66,
+        "psr": 1.41,
+        "market_cap_oku": 2995,
+        "price_yen": 937,
+        "target_price_yen": 1069,
+        "target_upside_pct": 14.1,
+        "revenue_growth_pct": 8.8,
+        "earnings_growth_pct": 0.9,
+        "profit_margin_pct": 6.95,
+        "roe_pct": 22.86,
+        "debt_to_equity": 76.6
       },
       "shareholder_benefit": "なし"
     },
-    "2685": {
-      "code": "2685",
-      "stars": 4,
-      "background": "直近で致命的な悪材料ニュースは観測されておらず、足元の株価下落は全体地合いの調整や短期的な利益確定売りに押された一時的な過剰売りが主因とみられます。本業の衣料品・アパレル事業の需要自体に構造的な悪化を示す材料はなく、過熱感の冷ましが一巡したタイミングと言えます。好調な業績足取りに対してテクニカル的な売られ過ぎ水準に達しており、短期的な自律反発が狙える良好な押し目局面です。",
+    "8572": {
+      "code": "8572",
+      "stars": 3,
+      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
-        "天候不順や季節の変わり目の気温推移による秋物・冬物衣料の販売苦戦リスク",
-        "原材料費や物流コストの上昇、円安進行に伴う粗利益率の悪化懸念",
-        "株式市場全体の地合い悪化による2,900円サポートラインの破断リスク"
+        "評価失敗"
       ],
-      "confidence": "high",
-      "sources": [
-        "https://finance.yahoo.co.jp/quote/2685.T"
-      ],
-      "material_analysis": "直近で株価を押し下げる固有の構造悪材料は確認されておらず、全般的な地合い悪化による連れ安と短期需給の偏りが下落の背景です。",
-      "fundamental_summary": "予想PERは9.8倍と10倍を下回る水準まで低下しており、アナリスト目標株価3,507円（約+17.4%の上値余地）やPBR1.61倍と比較してもバリュエーション面での割安感が非常に強まっています。利益成長率は26.3%と力強く、ROEも11.36%と資本効率の高い経営が維持されています。年間配当90円（配当利回り約3.01%）に加えて買物優待券の株主優待制度が導入されており、下値でのインカム・優待目的の買い支えが期待できます。次回決算発表までも猶予があり、ファンダメンタルズの健全性と割安さを背景にした反発余地は十分です。",
-      "technical_view": "終値2,988円は心理的節目である3,000円を若干割り込んだ水準にあり、直近安値圏である2,900円近辺が強力なサポートラインとして機能するかが焦点となります。戻り局面では25日移動平均線や前高値水準である3,150円〜3,200円付近が抵抗帯として意識されます。",
-      "watch_points": [
-        "2,900円台での下値固めと反発時の出来高増加の有無",
-        "毎月発表される月次売上高における既存店動向および定価販売率の維持"
-      ],
-      "valuation_view": "cheap",
+      "confidence": "low",
+      "sources": [],
+      "valuation_view": "unknown",
       "dividend": {
-        "annual_yen": 90,
-        "yield_pct": 3.01,
-        "ex_date": "2027-02-25",
-        "payout_ratio_pct": 43.91
+        "annual_yen": 22,
+        "yield_pct": 4.86,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 43.28
       },
       "earnings": {
-        "announcement_date": "2026-12-28",
-        "fiscal_year_end": "2027-02-28",
-        "fiscal_month": 2
+        "announcement_date": "2026-11-06",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
       },
       "valuation": {
-        "sector": "Consumer Cyclical",
-        "industry": "Apparel Manufacturing",
-        "per": 14.6,
-        "forward_per": 9.8,
-        "pbr": 1.61,
-        "psr": 0.45,
-        "market_cap_oku": 1378,
-        "price_yen": 2988,
-        "target_price_yen": 3507,
-        "target_upside_pct": 17.4,
-        "revenue_growth_pct": -0.1,
-        "earnings_growth_pct": 26.3,
-        "profit_margin_pct": 3.08,
-        "roe_pct": 11.36,
-        "debt_to_equity": 0.1
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "per": 8.9,
+        "forward_per": 9.9,
+        "pbr": 0.99,
+        "psr": 2.06,
+        "market_cap_oku": 7103,
+        "price_yen": 453,
+        "target_price_yen": 498,
+        "target_upside_pct": 9.9,
+        "revenue_growth_pct": 7.7,
+        "earnings_growth_pct": -43.9,
+        "profit_margin_pct": 18.79,
+        "roe_pct": 9.35,
+        "debt_to_equity": 95.4
       },
-      "shareholder_benefit": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
+      "shareholder_benefit": "なし"
+    },
+    "9090": {
+      "code": "9090",
+      "stars": 3,
+      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "risk_factors": [
+        "評価失敗"
+      ],
+      "confidence": "low",
+      "sources": [],
+      "valuation_view": "unknown",
+      "dividend": {
+        "annual_yen": 32,
+        "yield_pct": 3.84,
+        "ex_date": "2027-03-30",
+        "payout_ratio_pct": 61.35
+      },
+      "earnings": {
+        "announcement_date": "2026-11-09",
+        "fiscal_year_end": "2027-03-31",
+        "fiscal_month": 3
+      },
+      "valuation": {
+        "sector": "Industrials",
+        "industry": "Integrated Freight & Logistics",
+        "per": 16.1,
+        "forward_per": 12.5,
+        "pbr": 1.84,
+        "psr": 0.48,
+        "market_cap_oku": 1131,
+        "price_yen": 840,
+        "target_price_yen": 830,
+        "target_upside_pct": -1.2,
+        "revenue_growth_pct": 6.2,
+        "earnings_growth_pct": -26.8,
+        "profit_margin_pct": 2.98,
+        "roe_pct": 11.74,
+        "debt_to_equity": 94.0
+      },
+      "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
       "shareholder_benefit_detail": {
         "source": "minkabu",
-        "min_shares": 100,
-        "kind": "買物優待券 美容・ファッション",
-        "month": "2",
+        "kind": "プレミアム優待倶楽部ポイント",
+        "month": "9",
+        "yield_pct": "0.89",
+        "min_shares": 400,
         "programs": [
           {
-            "title": "自社店舗商品引換券※2026年2月末日より実施",
+            "title": "プレミアム優待倶楽部ポイント",
             "tiers": [
               {
-                "shares": "100株以上",
-                "content": "【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当",
-                "note": "※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。"
+                "shares": "400株以上",
+                "content": "3,000ポイント",
+                "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
               },
               {
                 "shares": "500株以上",
-                "content": "【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当",
+                "content": "6,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "600株以上",
+                "content": "10,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "700株以上",
+                "content": "12,000ポイント",
                 "note": ""
               },
               {
                 "shares": "1,000株以上",
-                "content": "【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当",
+                "content": "18,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "1,500株以上",
+                "content": "30,000ポイント",
+                "note": ""
+              },
+              {
+                "shares": "2,000株以上",
+                "content": "50,000ポイント",
                 "note": ""
               }
             ]
           }
         ],
-        "summary": "買物優待券 美容・ファッション。100株以上。権利確定2月。",
-        "text": "買物優待券 美容・ファッション。100株以上。権利確定2月\n【自社店舗商品引換券※2026年2月末日より実施】\n・100株以上: 【2年未満保有株主】 1,500円相当 【2年以上保有株主】 2,500円相当（※2028年2月以降は継続保有期間を2年から3年に変更。 ■日本国内のアンドエスティHDグループの店舗で利用可能。 ※「株主様ご優待券」をご利用いただけるブランドおよび店舗は､随時変更となる可能性があります｡ ■継続保有期間について 「3年以上保有」とは、毎期末の2月末日時点と毎中間期末の8月末日時点の「株主名簿」において、同一の株主番号で連続7回以上、1単元（100株）以上を保有し続けられた記録を基準といたします。）\n・500株以上: 【2年未満保有株主】 5,000円相当 【2年以上保有株主】 6,000円相当\n・1,000株以上: 【2年未満保有株主】 10,000円相当 【2年以上保有株主】 11,000円相当"
+        "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
+        "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
       }
     },
-    "4151": {
-      "code": "4151",
+    "9502": {
+      "code": "9502",
       "stars": 3,
       "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
       "risk_factors": [
@@ -4268,191 +6577,31 @@
       "valuation_view": "unknown",
       "dividend": {
         "annual_yen": 70,
-        "yield_pct": 3.14,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 43.12
-      },
-      "earnings": {
-        "announcement_date": "2026-11-02",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12
-      },
-      "valuation": {
-        "sector": "Healthcare",
-        "industry": "Drug Manufacturers - Specialty & Generic",
-        "per": 14.3,
-        "forward_per": 16.1,
-        "pbr": 1.27,
-        "psr": 2.2,
-        "market_cap_oku": 11676,
-        "price_yen": 2230,
-        "target_price_yen": 2282,
-        "target_upside_pct": 2.3,
-        "revenue_growth_pct": 15.3,
-        "earnings_growth_pct": 83.0,
-        "profit_margin_pct": 15.35,
-        "roe_pct": 9.25
-      },
-      "shareholder_benefit": "なし"
-    },
-    "4543": {
-      "code": "4543",
-      "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 36,
-        "yield_pct": 1.6,
+        "yield_pct": 2.66,
         "ex_date": "2027-03-30",
-        "payout_ratio_pct": 32.57
+        "payout_ratio_pct": 23.21
       },
       "earnings": {
-        "announcement_date": "2026-11-12",
+        "announcement_date": "2026-10-29",
         "fiscal_year_end": "2027-03-31",
         "fiscal_month": 3
       },
       "valuation": {
-        "sector": "Healthcare",
-        "industry": "Medical Devices",
-        "per": 24.3,
-        "forward_per": 22.0,
-        "pbr": 1.99,
-        "psr": 2.8,
-        "market_cap_oku": 33094,
-        "price_yen": 2244,
-        "target_price_yen": 3122,
-        "target_upside_pct": 39.1,
-        "revenue_growth_pct": 19.9,
-        "earnings_growth_pct": 68.3,
-        "profit_margin_pct": 13.9,
-        "roe_pct": 10.85,
-        "debt_to_equity": 26.4
-      },
-      "shareholder_benefit": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社商品優待価格販売、カレンダー、自社施設見学会",
-        "month": "3",
-        "yield_pct": "---、配当利回りは1.60",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "自社製品特別優待販売（血圧計、体温計等）長期保有者向け",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "【2年以上保有】》 電子クーポン　1,000円相当",
-                "note": "※株主優待販売の製品は、新製品を中心に選定を行っている。要望の製品が対象となっていない場合もある。 ■継続保有期間について 4期連続保有の株主が対象 《案内時期》 確定日3月末：7月頃 確定日9月末：12月頃"
-              }
-            ]
-          },
-          {
-            "title": "オリジナル卓上カレンダー※長期保有者向け",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "[【1年以上保有】 ※申込み制 （７月頃申込み受付、11～12月頃発送）",
-                "note": "■継続保有期間について 2期連続保有の株主が対象"
-              }
-            ]
-          },
-          {
-            "title": "自社施設見学会（抽選）長期保有者向け",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "[【1年以上保有】 テルモメディカルプラネックス（神奈川県足柄上郡）の見学会へ抽選で招待",
-                "note": "■継続保有期間について 2期連続保有の株主が対象"
-              }
-            ]
-          }
-        ],
-        "summary": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月。",
-        "text": "自社商品優待価格販売、カレンダー、自社施設見学会。100株以上。権利確定3月\n【自社製品特別優待販売（血圧計、体温計等）長期保有者向け】\n・100株以上: 【2年以上保有】》 電子クーポン　1,000円相当（※株主優待販売の製品は、新製品を中心に選定を行っている。要望の製品が対象となっていない場合もある。 ■継続保有期間について 4期連続保有の株主が対象 《案内時期》 確定日3月末：7月頃 確定日9月末：12月頃）\n【オリジナル卓上カレンダー※長期保有者向け】\n・100株以上: [【1年以上保有】 ※申込み制 （７月頃申込み受付、11～12月頃発送）（■継続保有期間について 2期連続保有の株主が対象）\n【自社施設見学会（抽選）長期保有者向け】\n・100株以上: [【1年以上保有】 テルモメディカルプラネックス（神奈川県足柄上郡）の見学会へ抽選で招待（■継続保有期間について 2期連続保有の株主が対象）"
-      }
-    },
-    "5108": {
-      "code": "5108",
-      "stars": 3,
-      "background": "AI評価不可: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 4.017551719s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 130,
-        "yield_pct": 3.44,
-        "ex_date": "2026-12-29",
-        "payout_ratio_pct": 59.55
-      },
-      "earnings": {
-        "announcement_date": "2026-11-12",
-        "fiscal_year_end": "2026-12-31",
-        "fiscal_month": 12
-      },
-      "valuation": {
-        "sector": "Consumer Cyclical",
-        "industry": "Auto Parts",
-        "per": 19.2,
-        "forward_per": 6.8,
-        "pbr": 1.24,
-        "psr": 1.01,
-        "market_cap_oku": 46663,
-        "price_yen": 3780,
-        "target_price_yen": 4020,
-        "target_upside_pct": 6.3,
-        "revenue_growth_pct": 14.2,
-        "earnings_growth_pct": 2.1,
-        "profit_margin_pct": 9.02,
-        "roe_pct": 11.27,
-        "debt_to_equity": 23.4
-      },
-      "shareholder_benefit": "なし"
-    },
-    "6254": {
-      "code": "6254",
-      "stars": 3,
-      "background": "AI評価不可: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash\\nPlease retry in 1.638978814s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '1s'}]}}",
-      "risk_factors": [
-        "評価失敗"
-      ],
-      "confidence": "low",
-      "sources": [],
-      "valuation_view": "unknown",
-      "dividend": {
-        "annual_yen": 85,
-        "yield_pct": 2.43,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 82.3
-      },
-      "earnings": {
-        "announcement_date": "2025-05-15",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Industrials",
-        "industry": "Pollution & Treatment Controls",
-        "per": 35.6,
-        "forward_per": 14.9,
-        "pbr": 3.49,
-        "psr": 2.54,
-        "market_cap_oku": 1346,
-        "price_yen": 3505,
-        "target_price_yen": 5400,
-        "target_upside_pct": 54.1,
-        "revenue_growth_pct": -25.8,
-        "earnings_growth_pct": -49.5,
-        "profit_margin_pct": 6.77,
-        "roe_pct": 9.78,
-        "debt_to_equity": 145.6
+        "sector": "Utilities",
+        "industry": "Utilities - Diversified",
+        "per": 8.8,
+        "forward_per": 11.3,
+        "pbr": 0.63,
+        "psr": 0.56,
+        "market_cap_oku": 20014,
+        "price_yen": 2650,
+        "target_price_yen": 3010,
+        "target_upside_pct": 13.6,
+        "revenue_growth_pct": 3.2,
+        "earnings_growth_pct": -58.8,
+        "profit_margin_pct": 4.98,
+        "roe_pct": 6.04,
+        "debt_to_equity": 91.2
       },
       "shareholder_benefit": "なし"
     }
