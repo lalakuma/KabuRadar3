@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-09T16:03:23+09:00",
+  "generated_at": "2026-10-12T11:33:28+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
-    "wins": 25,
+    "wins": 22,
     "losses": 15,
     "win_rate": null,
-    "total_income": -11400,
-    "symbol_count": 64,
-    "neutral_count": 24,
-    "source_file": "Y0_PF0.81_W26L15_rate63.41_all-11400.csv"
+    "total_income": -22300,
+    "symbol_count": 62,
+    "neutral_count": 25,
+    "source_file": "Y0_PF0.692_W23L15_rate60.53_all-22300.csv"
   },
   "symbols": [
     {
@@ -79,17 +79,6 @@
       "minus_gain": 0
     },
     {
-      "code": "9302",
-      "name": "三井倉庫ホールディングス",
-      "industry": "nan",
-      "incomes": 6200,
-      "pf": 18.7,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1870,
-      "minus_gain": 0
-    },
-    {
       "code": "7272",
       "name": "ヤマハ発動機",
       "industry": "nan",
@@ -131,28 +120,6 @@
       "winlose": "W1L0",
       "win_per": 100,
       "plus_gain": 830,
-      "minus_gain": 0
-    },
-    {
-      "code": "9090",
-      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-      "industry": "nan",
-      "incomes": 2700,
-      "pf": 30.3,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 3030,
-      "minus_gain": 0
-    },
-    {
-      "code": "6632",
-      "name": "ＪＶＣケンウッド",
-      "industry": "nan",
-      "incomes": 2000,
-      "pf": 19.8,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 1980,
       "minus_gain": 0
     },
     {
@@ -530,6 +497,17 @@
       "minus_gain": 0
     },
     {
+      "code": "9090",
+      "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
       "code": "9502",
       "name": "中部電力",
       "industry": "nan",
@@ -750,9 +728,9 @@
           "valuation_view": "cheap",
           "dividend": {
             "annual_yen": 84,
-            "yield_pct": 4.9,
+            "yield_pct": 4.89,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 42.18
+            "payout_ratio_pct": 40.68
           },
           "earnings": {
             "announcement_date": "2026-11-12",
@@ -811,9 +789,9 @@
           "valuation_view": "cheap",
           "dividend": {
             "annual_yen": 96,
-            "yield_pct": 3.12,
+            "yield_pct": 3.1,
             "ex_date": "2026-11-27",
-            "payout_ratio_pct": 35.36
+            "payout_ratio_pct": 35.8
           },
           "earnings": {
             "announcement_date": "2025-07-07",
@@ -896,7 +874,7 @@
           "valuation_view": "unknown",
           "dividend": {
             "annual_yen": 90,
-            "yield_pct": 3.85,
+            "yield_pct": 3.78,
             "ex_date": "2025-12-29",
             "payout_ratio_pct": 1.98
           },
@@ -961,9 +939,9 @@
           "valuation_view": "cheap",
           "dividend": {
             "annual_yen": 84,
-            "yield_pct": 4.9,
+            "yield_pct": 4.89,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 42.18
+            "payout_ratio_pct": 40.68
           },
           "earnings": {
             "announcement_date": "2026-11-12",
@@ -1023,9 +1001,9 @@
           "valuation_view": "cheap",
           "dividend": {
             "annual_yen": 96,
-            "yield_pct": 3.12,
+            "yield_pct": 3.1,
             "ex_date": "2026-11-27",
-            "payout_ratio_pct": 35.36
+            "payout_ratio_pct": 35.8
           },
           "earnings": {
             "announcement_date": "2025-07-07",
@@ -1132,9 +1110,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 4.9,
+                "yield_pct": 4.89,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 42.18
+                "payout_ratio_pct": 40.68
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -1188,9 +1166,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 3.12,
+                "yield_pct": 3.1,
                 "ex_date": "2026-11-27",
-                "payout_ratio_pct": 35.36
+                "payout_ratio_pct": 35.8
               },
               "earnings": {
                 "announcement_date": "2025-07-07",
@@ -1268,7 +1246,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 90,
-                "yield_pct": 3.85,
+                "yield_pct": 3.78,
                 "ex_date": "2025-12-29",
                 "payout_ratio_pct": 1.98
               },
@@ -1333,9 +1311,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 43,
-                "yield_pct": 1.54,
+                "yield_pct": 1.51,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 52.39
+                "payout_ratio_pct": 40.77
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -1410,9 +1388,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 145,
-                "yield_pct": 4.32,
+                "yield_pct": 4.24,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 42.78
+                "payout_ratio_pct": 44.69
               },
               "earnings": {
                 "announcement_date": "2026-10-30",
@@ -1456,9 +1434,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 191,
-                "yield_pct": 5.89,
+                "yield_pct": 5.85,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 1.01
+                "payout_ratio_pct": 98.95
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -1525,9 +1503,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 155,
-                "yield_pct": 6.86,
+                "yield_pct": 6.92,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 46.5
+                "payout_ratio_pct": 24.43
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -1571,9 +1549,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 200,
-                "yield_pct": 5.83,
+                "yield_pct": 5.82,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 52.67
+                "payout_ratio_pct": 57.83
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -1634,9 +1612,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 11,
-                "yield_pct": 2.23,
+                "yield_pct": 2.15,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 26.21
+                "payout_ratio_pct": 24.75
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -1681,9 +1659,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 37,
-                "yield_pct": 4.0,
+                "yield_pct": 4.06,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 75.81
+                "payout_ratio_pct": 75.71
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -1727,9 +1705,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.65,
+                "yield_pct": 2.62,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 23.21
+                "payout_ratio_pct": 29.76
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -1745,8 +1723,8 @@
                 "psr": 0.56,
                 "market_cap_oku": 20158,
                 "price_yen": 2668,
-                "target_price_yen": 3010,
-                "target_upside_pct": 12.8,
+                "target_price_yen": 2930,
+                "target_upside_pct": 9.8,
                 "revenue_growth_pct": 3.2,
                 "earnings_growth_pct": -58.8,
                 "profit_margin_pct": 4.98,
@@ -1782,9 +1760,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 34,
-                "yield_pct": 3.14,
+                "yield_pct": 3.13,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 35.71
+                "payout_ratio_pct": 34.74
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -1863,9 +1841,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.3,
+                "yield_pct": 2.26,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 34.49
+                "payout_ratio_pct": 38.74
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -1878,22 +1856,22 @@
                 "per": 16.7,
                 "forward_per": 3.4,
                 "pbr": 1.1,
-                "psr": 0.53,
+                "psr": 0.44,
                 "market_cap_oku": 9634,
                 "price_yen": 2124,
-                "target_price_yen": 2641,
-                "target_upside_pct": 24.3,
-                "revenue_growth_pct": 1.34,
-                "earnings_growth_pct": -34.7,
-                "profit_margin_pct": 2.48,
-                "debt_to_equity": 22.6
+                "target_price_yen": 2613,
+                "target_upside_pct": 23.0,
+                "revenue_growth_pct": 1.24,
+                "earnings_growth_pct": -2.3,
+                "profit_margin_pct": 2.42,
+                "debt_to_equity": 21.9
               },
               "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.34",
+                "yield_pct": "2.35",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -1948,9 +1926,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 2.31,
+                "yield_pct": 2.27,
                 "ex_date": "2026-12-29",
-                "payout_ratio_pct": 17.56
+                "payout_ratio_pct": 35.06
               },
               "earnings": {
                 "announcement_date": "2026-11-10",
@@ -1995,9 +1973,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 4.74,
+                "yield_pct": 4.73,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 54.52
+                "payout_ratio_pct": 51.98
               },
               "earnings": {
                 "announcement_date": "2025-07-08",
@@ -2051,9 +2029,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 125,
-                "yield_pct": 4.12,
+                "yield_pct": 4.1,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 49.46
+                "payout_ratio_pct": 48.73
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -2106,9 +2084,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 94,
-                "yield_pct": 4.45,
+                "yield_pct": 4.44,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 47.65
+                "payout_ratio_pct": 44.02
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -2161,9 +2139,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 108,
-                "yield_pct": 6.99,
+                "yield_pct": 6.91,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.69
+                "payout_ratio_pct": 27.3
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -2217,9 +2195,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 103,
-                "yield_pct": 9.73,
+                "yield_pct": 9.72,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 27.96
+                "payout_ratio_pct": 25.47
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -2235,8 +2213,8 @@
                 "psr": 0.1,
                 "market_cap_oku": 1238,
                 "price_yen": 1056,
-                "target_price_yen": 1199,
-                "target_upside_pct": 13.5,
+                "target_price_yen": 1231,
+                "target_upside_pct": 16.6,
                 "revenue_growth_pct": 16.7,
                 "earnings_growth_pct": 45.6,
                 "profit_margin_pct": 5.6,
@@ -2315,9 +2293,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.68,
+                "yield_pct": 3.65,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 30.68
+                "payout_ratio_pct": 32.51
               },
               "earnings": {
                 "announcement_date": "2026-10-30",
@@ -2330,8 +2308,8 @@
                 "per": 17.4,
                 "forward_per": 7.2,
                 "pbr": 0.78,
-                "psr": 1.3,
-                "market_cap_oku": 4655,
+                "psr": 0.6,
+                "market_cap_oku": 2137,
                 "price_yen": 2496,
                 "target_price_yen": 2811,
                 "target_upside_pct": 12.6,
@@ -2361,14 +2339,15 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 53,
-                "yield_pct": 3.62,
+                "yield_pct": 3.63,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 54.25
+                "payout_ratio_pct": 44.52
               },
               "earnings": {
-                "announcement_date": "2026-10-09",
+                "announcement_date": "2027-01-07",
                 "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2
+                "fiscal_month": 2,
+                "is_estimate": true
               },
               "valuation": {
                 "sector": "Financial Services",
@@ -2406,9 +2385,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 22,
-                "yield_pct": 4.86,
+                "yield_pct": 4.88,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 43.28
+                "payout_ratio_pct": 53.31
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -2452,9 +2431,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 32,
-                "yield_pct": 3.8,
+                "yield_pct": 3.79,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 61.35
+                "payout_ratio_pct": 66.01
               },
               "earnings": {
                 "announcement_date": "2026-11-09",
@@ -2483,7 +2462,7 @@
                 "source": "minkabu",
                 "kind": "プレミアム優待倶楽部ポイント",
                 "month": "9",
-                "yield_pct": "0.89",
+                "yield_pct": "0.88",
                 "min_shares": 400,
                 "programs": [
                   {
@@ -2558,9 +2537,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.67,
+                "yield_pct": 2.68,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 31.14
+                "payout_ratio_pct": 40.63
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -2606,7 +2585,7 @@
                 "annual_yen": 56,
                 "yield_pct": 3.14,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 61.79
+                "payout_ratio_pct": 60.36
               },
               "earnings": {
                 "announcement_date": "2026-11-10",
@@ -2692,7 +2671,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 30,
-                "yield_pct": 2.07,
+                "yield_pct": 2.09,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 2.12
               },
@@ -2794,9 +2773,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.76,
+                "yield_pct": 2.73,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.83
+                "payout_ratio_pct": 35.72
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -2849,9 +2828,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 92,
-                "yield_pct": 4.25,
+                "yield_pct": 4.26,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 29.12
+                "payout_ratio_pct": 28.57
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -3465,9 +3444,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 26,
-                "yield_pct": 2.46,
+                "yield_pct": 2.48,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 36.26
+                "payout_ratio_pct": 36.28
               },
               "earnings": {
                 "announcement_date": "2026-11-09",
@@ -3552,9 +3531,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 142,
-                "yield_pct": 4.6,
+                "yield_pct": 4.63,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 23.73
+                "payout_ratio_pct": 20.52
               },
               "earnings": {
                 "announcement_date": "2025-08-07",
@@ -3696,9 +3675,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.3,
+                "yield_pct": 2.26,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 34.49
+                "payout_ratio_pct": 38.74
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -3711,22 +3690,22 @@
                 "per": 16.7,
                 "forward_per": 3.4,
                 "pbr": 1.1,
-                "psr": 0.53,
+                "psr": 0.44,
                 "market_cap_oku": 9634,
                 "price_yen": 2124,
-                "target_price_yen": 2641,
-                "target_upside_pct": 24.3,
-                "revenue_growth_pct": 1.34,
-                "earnings_growth_pct": -34.7,
-                "profit_margin_pct": 2.48,
-                "debt_to_equity": 22.6
+                "target_price_yen": 2613,
+                "target_upside_pct": 23.0,
+                "revenue_growth_pct": 1.24,
+                "earnings_growth_pct": -2.3,
+                "profit_margin_pct": 2.42,
+                "debt_to_equity": 21.9
               },
               "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.34",
+                "yield_pct": "2.35",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -3783,9 +3762,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 2.47,
+                "yield_pct": 2.41,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 82.3
+                "payout_ratio_pct": 87.63
               },
               "earnings": {
                 "announcement_date": "2025-05-15",
@@ -3817,19 +3796,11 @@
       },
       {
         "date": "2026-09-02",
-        "pnl": 6200,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "返売",
-            "close": 3310,
-            "pnl": 6200
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-09-01",
@@ -3927,9 +3898,9 @@
       },
       {
         "date": "2026-08-20",
-        "pnl": 2700,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "1802",
@@ -3950,15 +3921,7 @@
             "close": 3384
           }
         ],
-        "sellback": [
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "返売",
-            "close": 891,
-            "pnl": 2700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-19",
@@ -3970,19 +3933,11 @@
       },
       {
         "date": "2026-08-18",
-        "pnl": 2000,
+        "pnl": 0,
         "new_buy_count": 0,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [],
-        "sellback": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "返売",
-            "close": 1011,
-            "pnl": 2000
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-17",
@@ -4011,7 +3966,7 @@
       {
         "date": "2026-08-12",
         "pnl": 0,
-        "new_buy_count": 2,
+        "new_buy_count": 1,
         "sellback_count": 0,
         "new_buy": [
           {
@@ -4019,12 +3974,6 @@
             "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
             "close": 1496
-          },
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "新買",
-            "close": 864
           }
         ],
         "sellback": []
@@ -4040,22 +3989,9 @@
       {
         "date": "2026-08-07",
         "pnl": 0,
-        "new_buy_count": 2,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "新買",
-            "close": 991
-          },
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3248
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -4237,9 +4173,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 4.9,
+                "yield_pct": 4.89,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 42.18
+                "payout_ratio_pct": 40.68
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -4293,9 +4229,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 3.12,
+                "yield_pct": 3.1,
                 "ex_date": "2026-11-27",
-                "payout_ratio_pct": 35.36
+                "payout_ratio_pct": 35.8
               },
               "earnings": {
                 "announcement_date": "2025-07-07",
@@ -4373,7 +4309,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 90,
-                "yield_pct": 3.85,
+                "yield_pct": 3.78,
                 "ex_date": "2025-12-29",
                 "payout_ratio_pct": 1.98
               },
@@ -4438,9 +4374,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 43,
-                "yield_pct": 1.54,
+                "yield_pct": 1.51,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 52.39
+                "payout_ratio_pct": 40.77
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -4515,9 +4451,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 145,
-                "yield_pct": 4.32,
+                "yield_pct": 4.24,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 42.78
+                "payout_ratio_pct": 44.69
               },
               "earnings": {
                 "announcement_date": "2026-10-30",
@@ -4561,9 +4497,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 191,
-                "yield_pct": 5.89,
+                "yield_pct": 5.85,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 1.01
+                "payout_ratio_pct": 98.95
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -4630,9 +4566,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 155,
-                "yield_pct": 6.86,
+                "yield_pct": 6.92,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 46.5
+                "payout_ratio_pct": 24.43
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -4676,9 +4612,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 200,
-                "yield_pct": 5.83,
+                "yield_pct": 5.82,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 52.67
+                "payout_ratio_pct": 57.83
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -4739,9 +4675,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 11,
-                "yield_pct": 2.23,
+                "yield_pct": 2.15,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 26.21
+                "payout_ratio_pct": 24.75
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -4786,9 +4722,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 37,
-                "yield_pct": 4.0,
+                "yield_pct": 4.06,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 75.81
+                "payout_ratio_pct": 75.71
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -4832,9 +4768,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.65,
+                "yield_pct": 2.62,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 23.21
+                "payout_ratio_pct": 29.76
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -4850,8 +4786,8 @@
                 "psr": 0.56,
                 "market_cap_oku": 20158,
                 "price_yen": 2668,
-                "target_price_yen": 3010,
-                "target_upside_pct": 12.8,
+                "target_price_yen": 2930,
+                "target_upside_pct": 9.8,
                 "revenue_growth_pct": 3.2,
                 "earnings_growth_pct": -58.8,
                 "profit_margin_pct": 4.98,
@@ -4887,9 +4823,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 34,
-                "yield_pct": 3.14,
+                "yield_pct": 3.13,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 35.71
+                "payout_ratio_pct": 34.74
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -4968,9 +4904,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.3,
+                "yield_pct": 2.26,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 34.49
+                "payout_ratio_pct": 38.74
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -4983,22 +4919,22 @@
                 "per": 16.7,
                 "forward_per": 3.4,
                 "pbr": 1.1,
-                "psr": 0.53,
+                "psr": 0.44,
                 "market_cap_oku": 9634,
                 "price_yen": 2124,
-                "target_price_yen": 2641,
-                "target_upside_pct": 24.3,
-                "revenue_growth_pct": 1.34,
-                "earnings_growth_pct": -34.7,
-                "profit_margin_pct": 2.48,
-                "debt_to_equity": 22.6
+                "target_price_yen": 2613,
+                "target_upside_pct": 23.0,
+                "revenue_growth_pct": 1.24,
+                "earnings_growth_pct": -2.3,
+                "profit_margin_pct": 2.42,
+                "debt_to_equity": 21.9
               },
               "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.34",
+                "yield_pct": "2.35",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -5053,9 +4989,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 2.31,
+                "yield_pct": 2.27,
                 "ex_date": "2026-12-29",
-                "payout_ratio_pct": 17.56
+                "payout_ratio_pct": 35.06
               },
               "earnings": {
                 "announcement_date": "2026-11-10",
@@ -5100,9 +5036,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 4.74,
+                "yield_pct": 4.73,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 54.52
+                "payout_ratio_pct": 51.98
               },
               "earnings": {
                 "announcement_date": "2025-07-08",
@@ -5156,9 +5092,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 125,
-                "yield_pct": 4.12,
+                "yield_pct": 4.1,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 49.46
+                "payout_ratio_pct": 48.73
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -5211,9 +5147,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 94,
-                "yield_pct": 4.45,
+                "yield_pct": 4.44,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 47.65
+                "payout_ratio_pct": 44.02
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -5266,9 +5202,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 108,
-                "yield_pct": 6.99,
+                "yield_pct": 6.91,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.69
+                "payout_ratio_pct": 27.3
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -5322,9 +5258,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 103,
-                "yield_pct": 9.73,
+                "yield_pct": 9.72,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 27.96
+                "payout_ratio_pct": 25.47
               },
               "earnings": {
                 "announcement_date": "2026-10-29",
@@ -5340,8 +5276,8 @@
                 "psr": 0.1,
                 "market_cap_oku": 1238,
                 "price_yen": 1056,
-                "target_price_yen": 1199,
-                "target_upside_pct": 13.5,
+                "target_price_yen": 1231,
+                "target_upside_pct": 16.6,
                 "revenue_growth_pct": 16.7,
                 "earnings_growth_pct": 45.6,
                 "profit_margin_pct": 5.6,
@@ -5420,9 +5356,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.68,
+                "yield_pct": 3.65,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 30.68
+                "payout_ratio_pct": 32.51
               },
               "earnings": {
                 "announcement_date": "2026-10-30",
@@ -5435,8 +5371,8 @@
                 "per": 17.4,
                 "forward_per": 7.2,
                 "pbr": 0.78,
-                "psr": 1.3,
-                "market_cap_oku": 4655,
+                "psr": 0.6,
+                "market_cap_oku": 2137,
                 "price_yen": 2496,
                 "target_price_yen": 2811,
                 "target_upside_pct": 12.6,
@@ -5466,14 +5402,15 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 53,
-                "yield_pct": 3.62,
+                "yield_pct": 3.63,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 54.25
+                "payout_ratio_pct": 44.52
               },
               "earnings": {
-                "announcement_date": "2026-10-09",
+                "announcement_date": "2027-01-07",
                 "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2
+                "fiscal_month": 2,
+                "is_estimate": true
               },
               "valuation": {
                 "sector": "Financial Services",
@@ -5511,9 +5448,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 22,
-                "yield_pct": 4.86,
+                "yield_pct": 4.88,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 43.28
+                "payout_ratio_pct": 53.31
               },
               "earnings": {
                 "announcement_date": "2026-11-06",
@@ -5557,9 +5494,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 32,
-                "yield_pct": 3.8,
+                "yield_pct": 3.79,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 61.35
+                "payout_ratio_pct": 66.01
               },
               "earnings": {
                 "announcement_date": "2026-11-09",
@@ -5588,7 +5525,7 @@
                 "source": "minkabu",
                 "kind": "プレミアム優待倶楽部ポイント",
                 "month": "9",
-                "yield_pct": "0.89",
+                "yield_pct": "0.88",
                 "min_shares": 400,
                 "programs": [
                   {
@@ -5663,9 +5600,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.67,
+                "yield_pct": 2.68,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 31.14
+                "payout_ratio_pct": 40.63
               },
               "earnings": {
                 "announcement_date": "2026-11-12",
@@ -5711,7 +5648,7 @@
                 "annual_yen": 56,
                 "yield_pct": 3.14,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 61.79
+                "payout_ratio_pct": 60.36
               },
               "earnings": {
                 "announcement_date": "2026-11-10",
@@ -5797,7 +5734,7 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 30,
-                "yield_pct": 2.07,
+                "yield_pct": 2.09,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 2.12
               },
@@ -5899,9 +5836,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.76,
+                "yield_pct": 2.73,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.83
+                "payout_ratio_pct": 35.72
               },
               "earnings": {
                 "announcement_date": "2026-11-05",
@@ -5954,9 +5891,9 @@
               "valuation_view": "unknown",
               "dividend": {
                 "annual_yen": 92,
-                "yield_pct": 4.25,
+                "yield_pct": 4.26,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 29.12
+                "payout_ratio_pct": 28.57
               },
               "earnings": {
                 "announcement_date": "2026-11-11",
@@ -6304,9 +6241,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 26,
-                "yield_pct": 2.46,
+                "yield_pct": 2.48,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 36.26
+                "payout_ratio_pct": 36.28
               },
               "earnings": {
                 "announcement_date": "2026-11-09",
@@ -6391,9 +6328,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 142,
-                "yield_pct": 4.6,
+                "yield_pct": 4.63,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 23.73
+                "payout_ratio_pct": 20.52
               },
               "earnings": {
                 "announcement_date": "2025-08-07",
@@ -6535,9 +6472,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.3,
+                "yield_pct": 2.26,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 34.49
+                "payout_ratio_pct": 38.74
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -6550,22 +6487,22 @@
                 "per": 16.7,
                 "forward_per": 3.4,
                 "pbr": 1.1,
-                "psr": 0.53,
+                "psr": 0.44,
                 "market_cap_oku": 9634,
                 "price_yen": 2124,
-                "target_price_yen": 2641,
-                "target_upside_pct": 24.3,
-                "revenue_growth_pct": 1.34,
-                "earnings_growth_pct": -34.7,
-                "profit_margin_pct": 2.48,
-                "debt_to_equity": 22.6
+                "target_price_yen": 2613,
+                "target_upside_pct": 23.0,
+                "revenue_growth_pct": 1.24,
+                "earnings_growth_pct": -2.3,
+                "profit_margin_pct": 2.42,
+                "debt_to_equity": 21.9
               },
               "shareholder_benefit": "株主ギフト券、または寄付。100株以上。権利確定2月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.34",
+                "yield_pct": "2.35",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -6622,9 +6559,9 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 2.47,
+                "yield_pct": 2.41,
                 "ex_date": "2027-03-30",
-                "payout_ratio_pct": 82.3
+                "payout_ratio_pct": 87.63
               },
               "earnings": {
                 "announcement_date": "2025-05-15",
@@ -6686,9 +6623,9 @@
       },
       {
         "date": "2026-08-20",
-        "pnl": 2700,
+        "pnl": 0,
         "new_buy_count": 3,
-        "sellback_count": 1,
+        "sellback_count": 0,
         "new_buy": [
           {
             "code": "1802",
@@ -6709,20 +6646,12 @@
             "close": 3384
           }
         ],
-        "sellback": [
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "返売",
-            "close": 891,
-            "pnl": 2700
-          }
-        ]
+        "sellback": []
       },
       {
         "date": "2026-08-12",
         "pnl": 0,
-        "new_buy_count": 2,
+        "new_buy_count": 1,
         "sellback_count": 0,
         "new_buy": [
           {
@@ -6730,33 +6659,6 @@
             "name": "ジャパンエレベーターサービスホールディングス",
             "mark": "新買",
             "close": 1496
-          },
-          {
-            "code": "9090",
-            "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
-            "mark": "新買",
-            "close": 864
-          }
-        ],
-        "sellback": []
-      },
-      {
-        "date": "2026-08-07",
-        "pnl": 0,
-        "new_buy_count": 2,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "6632",
-            "name": "ＪＶＣケンウッド",
-            "mark": "新買",
-            "close": 991
-          },
-          {
-            "code": "9302",
-            "name": "三井倉庫ホールディングス",
-            "mark": "新買",
-            "close": 3248
           }
         ],
         "sellback": []
@@ -6778,9 +6680,9 @@
     "exit_rsi": 70.0,
     "etf_rsi": {
       "1321": 3.07,
-      "1306": 37.47
+      "1306": 48.1
     },
-    "active_rsi": 37.47,
+    "active_rsi": 48.1,
     "signal": null
   },
   "quality": {
@@ -6806,9 +6708,9 @@
       "valuation_view": "cheap",
       "dividend": {
         "annual_yen": 84,
-        "yield_pct": 4.9,
+        "yield_pct": 4.89,
         "ex_date": "2027-03-30",
-        "payout_ratio_pct": 42.18
+        "payout_ratio_pct": 40.68
       },
       "earnings": {
         "announcement_date": "2026-11-12",
@@ -6856,9 +6758,9 @@
       "valuation_view": "cheap",
       "dividend": {
         "annual_yen": 96,
-        "yield_pct": 3.12,
+        "yield_pct": 3.1,
         "ex_date": "2026-11-27",
-        "payout_ratio_pct": 35.36
+        "payout_ratio_pct": 35.8
       },
       "earnings": {
         "announcement_date": "2025-07-07",
@@ -6930,7 +6832,7 @@
       "valuation_view": "unknown",
       "dividend": {
         "annual_yen": 90,
-        "yield_pct": 3.85,
+        "yield_pct": 3.78,
         "ex_date": "2025-12-29",
         "payout_ratio_pct": 1.98
       },
