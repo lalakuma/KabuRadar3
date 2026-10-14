@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:08:33+09:00",
+  "generated_at": "2026-10-15T07:26:04+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -742,7 +742,7 @@
         "quality": {
           "code": "1414",
           "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
           "risk_factors": [
             "評価失敗"
           ],
@@ -791,7 +791,7 @@
         "quality": {
           "code": "8088",
           "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
           "risk_factors": [
             "評価失敗"
           ],
@@ -843,7 +843,7 @@
         "quality": {
           "code": "1911",
           "stars": 3,
-          "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
           "risk_factors": [
             "評価失敗"
           ],
@@ -905,90 +905,13 @@
             "code": "1414",
             "name": "ショーボンドホールディングス",
             "mark": "新買",
-            "close": 1210,
-            "quality": {
-              "code": "1414",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.77,
-                "ex_date": "2026-12-29",
-                "payout_ratio_pct": 60.52
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-06-30",
-                "fiscal_month": 6
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Engineering & Construction",
-                "per": 16.1,
-                "forward_per": 3.9,
-                "pbr": 2.27,
-                "psr": 2.72,
-                "market_cap_oku": 2426,
-                "price_yen": 1210,
-                "target_price_yen": 1377,
-                "target_upside_pct": 13.8,
-                "revenue_growth_pct": -1.5,
-                "earnings_growth_pct": 7.9,
-                "profit_margin_pct": 17.31,
-                "roe_pct": 14.44
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1210
           },
           {
             "code": "8088",
             "name": "岩谷産業",
             "mark": "新買",
-            "close": 1957,
-            "quality": {
-              "code": "8088",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.38,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 14.49
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Conglomerates",
-                "per": 6.1,
-                "forward_per": 2.8,
-                "pbr": 0.95,
-                "psr": 0.48,
-                "market_cap_oku": 4506,
-                "price_yen": 1958,
-                "target_price_yen": 2070,
-                "target_upside_pct": 5.7,
-                "revenue_growth_pct": 13.1,
-                "earnings_growth_pct": 5.71,
-                "profit_margin_pct": 7.98,
-                "roe_pct": 17.33,
-                "debt_to_equity": 44.2
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1957
           }
         ],
         "sellback": [
@@ -1011,46 +934,7 @@
             "code": "3107",
             "name": "ダイワボウホールディングス",
             "mark": "新買",
-            "close": 3561,
-            "quality": {
-              "code": "3107",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.09,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 30.56
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Technology",
-                "industry": "Electronics & Computer Distribution",
-                "per": 10.4,
-                "forward_per": 12.0,
-                "pbr": 1.82,
-                "psr": 0.22,
-                "market_cap_oku": 3053,
-                "price_yen": 3577,
-                "target_price_yen": 4300,
-                "target_upside_pct": 20.2,
-                "revenue_growth_pct": 7.8,
-                "earnings_growth_pct": -16.7,
-                "profit_margin_pct": 2.23,
-                "roe_pct": 18.88,
-                "debt_to_equity": 21.7
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3561
           }
         ],
         "sellback": [
@@ -1217,45 +1101,7 @@
             "code": "3765",
             "name": "ガンホー・オンライン・エンターテイメント",
             "mark": "新買",
-            "close": 2382,
-            "quality": {
-              "code": "3765",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.72,
-                "ex_date": "2025-12-29",
-                "payout_ratio_pct": 1.98
-              },
-              "earnings": {
-                "announcement_date": "2026-11-13",
-                "fiscal_year_end": "2026-12-31",
-                "fiscal_month": 12
-              },
-              "valuation": {
-                "sector": "Communication Services",
-                "industry": "Electronic Gaming & Multimedia",
-                "per": 53.4,
-                "forward_per": 11.4,
-                "pbr": 1.1,
-                "psr": 1.35,
-                "market_cap_oku": 1273,
-                "price_yen": 2430,
-                "target_price_yen": 2700,
-                "target_upside_pct": 11.1,
-                "revenue_growth_pct": -6.1,
-                "earnings_growth_pct": 1.12,
-                "profit_margin_pct": 2.55,
-                "roe_pct": 4.17
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2382
           }
         ],
         "sellback": []
@@ -1357,90 +1203,13 @@
             "code": "9715",
             "name": "トランスコスモス",
             "mark": "新買",
-            "close": 3360,
-            "quality": {
-              "code": "9715",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.17,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 44.69
-              },
-              "earnings": {
-                "announcement_date": "2026-10-30",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Technology",
-                "industry": "Information Technology Services",
-                "per": 11.1,
-                "forward_per": 10.7,
-                "pbr": 1.03,
-                "psr": 0.32,
-                "market_cap_oku": 1295,
-                "price_yen": 3455,
-                "target_price_yen": 4150,
-                "target_upside_pct": 20.1,
-                "revenue_growth_pct": 7.1,
-                "earnings_growth_pct": -16.4,
-                "profit_margin_pct": 3.13,
-                "roe_pct": 10.28,
-                "debt_to_equity": 9.1
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3360
           },
           {
             "code": "9744",
             "name": "メイテック",
             "mark": "新買",
-            "close": 3244,
-            "quality": {
-              "code": "9744",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 5.75,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 98.95
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Staffing & Employment Services",
-                "per": 16.8,
-                "forward_per": 19.3,
-                "pbr": 5.86,
-                "psr": 1.87,
-                "market_cap_oku": 2587,
-                "price_yen": 3351,
-                "target_price_yen": 3340,
-                "target_upside_pct": -0.3,
-                "revenue_growth_pct": 1.5,
-                "earnings_growth_pct": 7.3,
-                "profit_margin_pct": 11.07,
-                "roe_pct": 34.87
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3244
           }
         ],
         "sellback": [
@@ -1470,91 +1239,13 @@
             "code": "5076",
             "name": "インフロニア・ホールディングス",
             "mark": "新買",
-            "close": 2333,
-            "quality": {
-              "code": "5076",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 6.77,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.43
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Engineering & Construction",
-                "per": 4.7,
-                "forward_per": 24.2,
-                "pbr": 0.88,
-                "psr": 0.46,
-                "market_cap_oku": 5766,
-                "price_yen": 2279,
-                "target_price_yen": 2750,
-                "target_upside_pct": 20.7,
-                "revenue_growth_pct": 60.9,
-                "earnings_growth_pct": 8.1,
-                "profit_margin_pct": 11.65,
-                "roe_pct": 23.75,
-                "debt_to_equity": 88.9
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2333
           },
           {
             "code": "8584",
             "name": "ジャックス",
             "mark": "新買",
-            "close": 3430,
-            "quality": {
-              "code": "8584",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 5.76,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 57.83
-              },
-              "earnings": {
-                "announcement_date": "2026-11-05",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 10.0,
-                "forward_per": 6.7,
-                "pbr": 0.51,
-                "psr": 0.79,
-                "market_cap_oku": 1538,
-                "price_yen": 3435,
-                "target_price_yen": 3400,
-                "target_upside_pct": -1.0,
-                "revenue_growth_pct": 3.3,
-                "earnings_growth_pct": -26.7,
-                "profit_margin_pct": 7.77,
-                "roe_pct": 4.9,
-                "debt_to_equity": 953.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3430
           }
         ],
         "sellback": [
@@ -1577,137 +1268,19 @@
             "code": "4689",
             "name": "Ｚホールディングス",
             "mark": "新買",
-            "close": 491,
-            "quality": {
-              "code": "4689",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.12,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.75
-              },
-              "earnings": {
-                "announcement_date": "2026-11-05",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Consumer Cyclical",
-                "industry": "Internet Retail",
-                "per": 17.6,
-                "forward_per": 24.2,
-                "pbr": 1.18,
-                "psr": 1.7,
-                "peg": 3.17,
-                "market_cap_oku": 35641,
-                "price_yen": 518,
-                "target_price_yen": 595,
-                "target_upside_pct": 14.9,
-                "revenue_growth_pct": 13.1,
-                "earnings_growth_pct": 24.1,
-                "profit_margin_pct": 9.66,
-                "roe_pct": 8.32,
-                "debt_to_equity": 61.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 491
           },
           {
             "code": "8174",
             "name": "日本瓦斯",
             "mark": "新買",
-            "close": 941,
-            "quality": {
-              "code": "8174",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.04,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 75.71
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Utilities",
-                "industry": "Utilities - Regulated Gas",
-                "per": 19.7,
-                "forward_per": 6.4,
-                "pbr": 4.43,
-                "psr": 1.34,
-                "market_cap_oku": 2848,
-                "price_yen": 891,
-                "target_price_yen": 1069,
-                "target_upside_pct": 20.0,
-                "revenue_growth_pct": 8.8,
-                "earnings_growth_pct": 0.9,
-                "profit_margin_pct": 6.95,
-                "roe_pct": 22.86,
-                "debt_to_equity": 76.6
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 941
           },
           {
             "code": "9502",
             "name": "中部電力",
             "mark": "新買",
-            "close": 2628,
-            "quality": {
-              "code": "9502",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.64,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 29.76
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Utilities",
-                "industry": "Utilities - Diversified",
-                "per": 11.3,
-                "forward_per": 11.4,
-                "pbr": 0.64,
-                "psr": 0.56,
-                "market_cap_oku": 20169,
-                "price_yen": 2670,
-                "target_price_yen": 2930,
-                "target_upside_pct": 9.7,
-                "revenue_growth_pct": 3.2,
-                "earnings_growth_pct": -58.8,
-                "profit_margin_pct": 4.98,
-                "roe_pct": 6.04,
-                "debt_to_equity": 91.2
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2628
           }
         ],
         "sellback": []
@@ -1722,72 +1295,7 @@
             "code": "1332",
             "name": "ニッスイ",
             "mark": "新買",
-            "close": 1101,
-            "quality": {
-              "code": "1332",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.12,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.74
-              },
-              "earnings": {
-                "announcement_date": "2026-11-06",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Consumer Defensive",
-                "industry": "Packaged Foods",
-                "per": 11.8,
-                "forward_per": 12.2,
-                "pbr": 1.07,
-                "psr": 0.34,
-                "market_cap_oku": 3275,
-                "price_yen": 1080,
-                "target_price_yen": 1544,
-                "target_upside_pct": 43.0,
-                "revenue_growth_pct": 14.1,
-                "earnings_growth_pct": 17.2,
-                "profit_margin_pct": 2.95,
-                "roe_pct": 10.26,
-                "debt_to_equity": 95.2
-              },
-              "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "自社商品",
-                "month": "3",
-                "yield_pct": "0.55",
-                "min_shares": 500,
-                "programs": [
-                  {
-                    "title": "自社商品セット(びん詰・缶詰など)",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "3,000円相当",
-                        "note": "■贈呈時期 7月"
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "5,000円相当",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "自社商品。500株以上。権利確定3月。",
-                "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
-              }
-            }
+            "close": 1101
           },
           {
             "code": "3391",
@@ -1932,47 +1440,7 @@
             "code": "6183",
             "name": "ベルシステム２４ホールディングス",
             "mark": "新買",
-            "close": 1281,
-            "quality": {
-              "code": "6183",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.63,
-                "ex_date": "2027-02-25",
-                "payout_ratio_pct": 51.98
-              },
-              "earnings": {
-                "announcement_date": "2025-07-08",
-                "announcement_date_end": "2025-07-14",
-                "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Specialty Business Services",
-                "per": 11.2,
-                "forward_per": 11.2,
-                "pbr": 1.3,
-                "psr": 0.66,
-                "market_cap_oku": 966,
-                "price_yen": 1299,
-                "target_price_yen": 1710,
-                "target_upside_pct": 31.6,
-                "revenue_growth_pct": 0.3,
-                "earnings_growth_pct": 21.5,
-                "profit_margin_pct": 5.89,
-                "roe_pct": 12.09,
-                "debt_to_equity": 64.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1281
           },
           {
             "code": "7164",
@@ -2292,187 +1760,19 @@
             "code": "8570",
             "name": "イオンフィナンシャルサービス",
             "mark": "新買",
-            "close": 1484,
-            "quality": {
-              "code": "8570",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.55,
-                "ex_date": "2027-02-25",
-                "payout_ratio_pct": 44.52
-              },
-              "earnings": {
-                "announcement_date": "2027-01-07",
-                "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2,
-                "is_estimate": true
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 14.4,
-                "forward_per": 11.1,
-                "pbr": 0.67,
-                "psr": 0.62,
-                "market_cap_oku": 3191,
-                "price_yen": 1478,
-                "target_price_yen": 1472,
-                "target_upside_pct": -0.4,
-                "revenue_growth_pct": 9.9,
-                "earnings_growth_pct": 15.3,
-                "profit_margin_pct": 4.13,
-                "roe_pct": 6.05
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1484
           },
           {
             "code": "8572",
             "name": "アコム",
             "mark": "新買",
-            "close": 454,
-            "quality": {
-              "code": "8572",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.8,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 53.31
-              },
-              "earnings": {
-                "announcement_date": "2026-11-06",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 11.0,
-                "forward_per": 9.9,
-                "pbr": 0.99,
-                "psr": 2.07,
-                "market_cap_oku": 7112,
-                "price_yen": 454,
-                "target_price_yen": 498,
-                "target_upside_pct": 9.7,
-                "revenue_growth_pct": 7.7,
-                "earnings_growth_pct": -43.9,
-                "profit_margin_pct": 18.79,
-                "roe_pct": 9.35,
-                "debt_to_equity": 95.4
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 454
           },
           {
             "code": "9090",
             "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
             "mark": "新買",
-            "close": 839,
-            "quality": {
-              "code": "9090",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.76,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 66.01
-              },
-              "earnings": {
-                "announcement_date": "2026-11-09",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Integrated Freight & Logistics",
-                "per": 17.5,
-                "forward_per": 12.6,
-                "pbr": 1.86,
-                "psr": 0.49,
-                "market_cap_oku": 1139,
-                "price_yen": 846,
-                "target_price_yen": 830,
-                "target_upside_pct": -1.9,
-                "revenue_growth_pct": 6.2,
-                "earnings_growth_pct": -26.8,
-                "profit_margin_pct": 2.98,
-                "roe_pct": 11.74,
-                "debt_to_equity": 94.0
-              },
-              "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "プレミアム優待倶楽部ポイント",
-                "month": "9",
-                "yield_pct": "0.88",
-                "min_shares": 400,
-                "programs": [
-                  {
-                    "title": "プレミアム優待倶楽部ポイント",
-                    "tiers": [
-                      {
-                        "shares": "400株以上",
-                        "content": "3,000ポイント",
-                        "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
-                      },
-                      {
-                        "shares": "500株以上",
-                        "content": "6,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "600株以上",
-                        "content": "10,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "700株以上",
-                        "content": "12,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "18,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,500株以上",
-                        "content": "30,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "2,000株以上",
-                        "content": "50,000ポイント",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
-                "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
-              }
-            }
+            "close": 839
           }
         ],
         "sellback": []
@@ -2487,178 +1787,19 @@
             "code": "1662",
             "name": "石油資源開発",
             "mark": "新買",
-            "close": 1754,
-            "quality": {
-              "code": "1662",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.62,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 40.63
-              },
-              "earnings": {
-                "announcement_date": "2026-11-12",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Energy",
-                "industry": "Oil & Gas E&P",
-                "per": 10.8,
-                "forward_per": 11.4,
-                "pbr": 0.75,
-                "psr": 1.36,
-                "market_cap_oku": 4395,
-                "price_yen": 1722,
-                "target_price_yen": 2005,
-                "target_upside_pct": 16.4,
-                "revenue_growth_pct": -21.4,
-                "earnings_growth_pct": -79.4,
-                "profit_margin_pct": 12.69,
-                "roe_pct": 7.47,
-                "debt_to_equity": 9.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1754
           },
           {
             "code": "4732",
             "name": "ユー・エス・エス",
             "mark": "新買",
-            "close": 1816,
-            "quality": {
-              "code": "4732",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.11,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 60.36
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3,
-                "is_estimate": true
-              },
-              "valuation": {
-                "sector": "Consumer Cyclical",
-                "industry": "Auto & Truck Dealerships",
-                "per": 19.6,
-                "forward_per": 22.7,
-                "pbr": 4.32,
-                "psr": 6.86,
-                "market_cap_oku": 8073,
-                "price_yen": 1778,
-                "target_price_yen": 2197,
-                "target_upside_pct": 23.6,
-                "revenue_growth_pct": 14.1,
-                "earnings_growth_pct": 9.6,
-                "profit_margin_pct": 0.0,
-                "roe_pct": 22.41,
-                "debt_to_equity": 1.1
-              },
-              "shareholder_benefit": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
-                "month": "3",
-                "yield_pct": "0.56",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）",
-                        "note": "※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月"
-                      },
-                      {
-                        "shares": "300株以上",
-                        "content": "【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "500株以上",
-                        "content": "【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "10,000株以上",
-                        "content": "【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-                "text": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月\n・100株以上: 【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）（※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月）\n・300株以上: 【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）\n・500株以上: 【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）\n・1,000株以上: 【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）\n・10,000株以上: 【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）"
-              }
-            }
+            "close": 1816
           },
           {
             "code": "7716",
             "name": "ナカニシ",
             "mark": "新買",
-            "close": 1465,
-            "quality": {
-              "code": "7716",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.11,
-                "ex_date": "2026-12-29",
-                "payout_ratio_pct": 2.12
-              },
-              "earnings": {
-                "announcement_date": "2026-11-13",
-                "fiscal_year_end": "2026-12-31",
-                "fiscal_month": 12
-              },
-              "valuation": {
-                "sector": "Healthcare",
-                "industry": "Medical Instruments & Supplies",
-                "per": 104.2,
-                "forward_per": 10.5,
-                "pbr": 1.9,
-                "psr": 2.56,
-                "market_cap_oku": 2284,
-                "price_yen": 1396,
-                "target_price_yen": 1800,
-                "target_upside_pct": 28.9,
-                "revenue_growth_pct": 19.9,
-                "earnings_growth_pct": 36.4,
-                "profit_margin_pct": 2.51,
-                "roe_pct": 1.87,
-                "debt_to_equity": 27.8
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1465
           }
         ],
         "sellback": [
@@ -2774,92 +1915,7 @@
             "code": "1925",
             "name": "大和ハウス工業",
             "mark": "新買",
-            "close": 2196,
-            "quality": {
-              "code": "1925",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.2,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 28.57
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Real Estate",
-                "industry": "Real Estate - Development",
-                "per": 7.6,
-                "forward_per": 4.6,
-                "pbr": 0.93,
-                "psr": 0.48,
-                "market_cap_oku": 27080,
-                "price_yen": 2186,
-                "target_price_yen": 2546,
-                "target_upside_pct": 16.5,
-                "revenue_growth_pct": 9.0,
-                "earnings_growth_pct": 9.0,
-                "profit_margin_pct": 6.28,
-                "roe_pct": 12.88,
-                "debt_to_equity": 115.4
-              },
-              "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "株主優待券",
-                "month": "3",
-                "yield_pct": "0.91",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "株主優待券（共通利用券）※1",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "【3年未満保有】 2枚 【3年以上保有】 4枚",
-                        "note": "◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
-                      },
-                      {
-                        "shares": "600株以上",
-                        "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "2,000株以上",
-                        "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "6,000株以上",
-                        "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "10,000株以上",
-                        "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "株主優待券。100株以上。権利確定3月。",
-                "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: 【3年未満保有】 2枚 【3年以上保有】 4枚（◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
-              }
-            }
+            "close": 2196
           }
         ],
         "sellback": []
@@ -4073,90 +3129,13 @@
             "code": "1414",
             "name": "ショーボンドホールディングス",
             "mark": "新買",
-            "close": 1210,
-            "quality": {
-              "code": "1414",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.77,
-                "ex_date": "2026-12-29",
-                "payout_ratio_pct": 60.52
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-06-30",
-                "fiscal_month": 6
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Engineering & Construction",
-                "per": 16.1,
-                "forward_per": 3.9,
-                "pbr": 2.27,
-                "psr": 2.72,
-                "market_cap_oku": 2426,
-                "price_yen": 1210,
-                "target_price_yen": 1377,
-                "target_upside_pct": 13.8,
-                "revenue_growth_pct": -1.5,
-                "earnings_growth_pct": 7.9,
-                "profit_margin_pct": 17.31,
-                "roe_pct": 14.44
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1210
           },
           {
             "code": "8088",
             "name": "岩谷産業",
             "mark": "新買",
-            "close": 1957,
-            "quality": {
-              "code": "8088",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.38,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 14.49
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Conglomerates",
-                "per": 6.1,
-                "forward_per": 2.8,
-                "pbr": 0.95,
-                "psr": 0.48,
-                "market_cap_oku": 4506,
-                "price_yen": 1958,
-                "target_price_yen": 2070,
-                "target_upside_pct": 5.7,
-                "revenue_growth_pct": 13.1,
-                "earnings_growth_pct": 5.71,
-                "profit_margin_pct": 7.98,
-                "roe_pct": 17.33,
-                "debt_to_equity": 44.2
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1957
           }
         ],
         "sellback": [
@@ -4179,46 +3158,7 @@
             "code": "3107",
             "name": "ダイワボウホールディングス",
             "mark": "新買",
-            "close": 3561,
-            "quality": {
-              "code": "3107",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.09,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 30.56
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Technology",
-                "industry": "Electronics & Computer Distribution",
-                "per": 10.4,
-                "forward_per": 12.0,
-                "pbr": 1.82,
-                "psr": 0.22,
-                "market_cap_oku": 3053,
-                "price_yen": 3577,
-                "target_price_yen": 4300,
-                "target_upside_pct": 20.2,
-                "revenue_growth_pct": 7.8,
-                "earnings_growth_pct": -16.7,
-                "profit_margin_pct": 2.23,
-                "roe_pct": 18.88,
-                "debt_to_equity": 21.7
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3561
           }
         ],
         "sellback": [
@@ -4385,45 +3325,7 @@
             "code": "3765",
             "name": "ガンホー・オンライン・エンターテイメント",
             "mark": "新買",
-            "close": 2382,
-            "quality": {
-              "code": "3765",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.72,
-                "ex_date": "2025-12-29",
-                "payout_ratio_pct": 1.98
-              },
-              "earnings": {
-                "announcement_date": "2026-11-13",
-                "fiscal_year_end": "2026-12-31",
-                "fiscal_month": 12
-              },
-              "valuation": {
-                "sector": "Communication Services",
-                "industry": "Electronic Gaming & Multimedia",
-                "per": 53.4,
-                "forward_per": 11.4,
-                "pbr": 1.1,
-                "psr": 1.35,
-                "market_cap_oku": 1273,
-                "price_yen": 2430,
-                "target_price_yen": 2700,
-                "target_upside_pct": 11.1,
-                "revenue_growth_pct": -6.1,
-                "earnings_growth_pct": 1.12,
-                "profit_margin_pct": 2.55,
-                "roe_pct": 4.17
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2382
           }
         ],
         "sellback": []
@@ -4525,90 +3427,13 @@
             "code": "9715",
             "name": "トランスコスモス",
             "mark": "新買",
-            "close": 3360,
-            "quality": {
-              "code": "9715",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.17,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 44.69
-              },
-              "earnings": {
-                "announcement_date": "2026-10-30",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Technology",
-                "industry": "Information Technology Services",
-                "per": 11.1,
-                "forward_per": 10.7,
-                "pbr": 1.03,
-                "psr": 0.32,
-                "market_cap_oku": 1295,
-                "price_yen": 3455,
-                "target_price_yen": 4150,
-                "target_upside_pct": 20.1,
-                "revenue_growth_pct": 7.1,
-                "earnings_growth_pct": -16.4,
-                "profit_margin_pct": 3.13,
-                "roe_pct": 10.28,
-                "debt_to_equity": 9.1
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3360
           },
           {
             "code": "9744",
             "name": "メイテック",
             "mark": "新買",
-            "close": 3244,
-            "quality": {
-              "code": "9744",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 5.75,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 98.95
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Staffing & Employment Services",
-                "per": 16.8,
-                "forward_per": 19.3,
-                "pbr": 5.86,
-                "psr": 1.87,
-                "market_cap_oku": 2587,
-                "price_yen": 3351,
-                "target_price_yen": 3340,
-                "target_upside_pct": -0.3,
-                "revenue_growth_pct": 1.5,
-                "earnings_growth_pct": 7.3,
-                "profit_margin_pct": 11.07,
-                "roe_pct": 34.87
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3244
           }
         ],
         "sellback": [
@@ -4638,91 +3463,13 @@
             "code": "5076",
             "name": "インフロニア・ホールディングス",
             "mark": "新買",
-            "close": 2333,
-            "quality": {
-              "code": "5076",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 6.77,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.43
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Engineering & Construction",
-                "per": 4.7,
-                "forward_per": 24.2,
-                "pbr": 0.88,
-                "psr": 0.46,
-                "market_cap_oku": 5766,
-                "price_yen": 2279,
-                "target_price_yen": 2750,
-                "target_upside_pct": 20.7,
-                "revenue_growth_pct": 60.9,
-                "earnings_growth_pct": 8.1,
-                "profit_margin_pct": 11.65,
-                "roe_pct": 23.75,
-                "debt_to_equity": 88.9
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2333
           },
           {
             "code": "8584",
             "name": "ジャックス",
             "mark": "新買",
-            "close": 3430,
-            "quality": {
-              "code": "8584",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 5.76,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 57.83
-              },
-              "earnings": {
-                "announcement_date": "2026-11-05",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 10.0,
-                "forward_per": 6.7,
-                "pbr": 0.51,
-                "psr": 0.79,
-                "market_cap_oku": 1538,
-                "price_yen": 3435,
-                "target_price_yen": 3400,
-                "target_upside_pct": -1.0,
-                "revenue_growth_pct": 3.3,
-                "earnings_growth_pct": -26.7,
-                "profit_margin_pct": 7.77,
-                "roe_pct": 4.9,
-                "debt_to_equity": 953.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 3430
           }
         ],
         "sellback": [
@@ -4745,137 +3492,19 @@
             "code": "4689",
             "name": "Ｚホールディングス",
             "mark": "新買",
-            "close": 491,
-            "quality": {
-              "code": "4689",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.12,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 24.75
-              },
-              "earnings": {
-                "announcement_date": "2026-11-05",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Consumer Cyclical",
-                "industry": "Internet Retail",
-                "per": 17.6,
-                "forward_per": 24.2,
-                "pbr": 1.18,
-                "psr": 1.7,
-                "peg": 3.17,
-                "market_cap_oku": 35641,
-                "price_yen": 518,
-                "target_price_yen": 595,
-                "target_upside_pct": 14.9,
-                "revenue_growth_pct": 13.1,
-                "earnings_growth_pct": 24.1,
-                "profit_margin_pct": 9.66,
-                "roe_pct": 8.32,
-                "debt_to_equity": 61.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 491
           },
           {
             "code": "8174",
             "name": "日本瓦斯",
             "mark": "新買",
-            "close": 941,
-            "quality": {
-              "code": "8174",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.04,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 75.71
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Utilities",
-                "industry": "Utilities - Regulated Gas",
-                "per": 19.7,
-                "forward_per": 6.4,
-                "pbr": 4.43,
-                "psr": 1.34,
-                "market_cap_oku": 2848,
-                "price_yen": 891,
-                "target_price_yen": 1069,
-                "target_upside_pct": 20.0,
-                "revenue_growth_pct": 8.8,
-                "earnings_growth_pct": 0.9,
-                "profit_margin_pct": 6.95,
-                "roe_pct": 22.86,
-                "debt_to_equity": 76.6
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 941
           },
           {
             "code": "9502",
             "name": "中部電力",
             "mark": "新買",
-            "close": 2628,
-            "quality": {
-              "code": "9502",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.64,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 29.76
-              },
-              "earnings": {
-                "announcement_date": "2026-10-29",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Utilities",
-                "industry": "Utilities - Diversified",
-                "per": 11.3,
-                "forward_per": 11.4,
-                "pbr": 0.64,
-                "psr": 0.56,
-                "market_cap_oku": 20169,
-                "price_yen": 2670,
-                "target_price_yen": 2930,
-                "target_upside_pct": 9.7,
-                "revenue_growth_pct": 3.2,
-                "earnings_growth_pct": -58.8,
-                "profit_margin_pct": 4.98,
-                "roe_pct": 6.04,
-                "debt_to_equity": 91.2
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 2628
           }
         ],
         "sellback": []
@@ -4890,72 +3519,7 @@
             "code": "1332",
             "name": "ニッスイ",
             "mark": "新買",
-            "close": 1101,
-            "quality": {
-              "code": "1332",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.12,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 34.74
-              },
-              "earnings": {
-                "announcement_date": "2026-11-06",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Consumer Defensive",
-                "industry": "Packaged Foods",
-                "per": 11.8,
-                "forward_per": 12.2,
-                "pbr": 1.07,
-                "psr": 0.34,
-                "market_cap_oku": 3275,
-                "price_yen": 1080,
-                "target_price_yen": 1544,
-                "target_upside_pct": 43.0,
-                "revenue_growth_pct": 14.1,
-                "earnings_growth_pct": 17.2,
-                "profit_margin_pct": 2.95,
-                "roe_pct": 10.26,
-                "debt_to_equity": 95.2
-              },
-              "shareholder_benefit": "自社商品。500株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "自社商品",
-                "month": "3",
-                "yield_pct": "0.55",
-                "min_shares": 500,
-                "programs": [
-                  {
-                    "title": "自社商品セット(びん詰・缶詰など)",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "3,000円相当",
-                        "note": "■贈呈時期 7月"
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "5,000円相当",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "自社商品。500株以上。権利確定3月。",
-                "text": "自社商品。500株以上。権利確定3月\n【自社商品セット(びん詰・缶詰など)】\n・500株以上: 3,000円相当（■贈呈時期 7月）\n・1,000株以上: 5,000円相当"
-              }
-            }
+            "close": 1101
           },
           {
             "code": "3391",
@@ -5100,47 +3664,7 @@
             "code": "6183",
             "name": "ベルシステム２４ホールディングス",
             "mark": "新買",
-            "close": 1281,
-            "quality": {
-              "code": "6183",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.63,
-                "ex_date": "2027-02-25",
-                "payout_ratio_pct": 51.98
-              },
-              "earnings": {
-                "announcement_date": "2025-07-08",
-                "announcement_date_end": "2025-07-14",
-                "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Specialty Business Services",
-                "per": 11.2,
-                "forward_per": 11.2,
-                "pbr": 1.3,
-                "psr": 0.66,
-                "market_cap_oku": 966,
-                "price_yen": 1299,
-                "target_price_yen": 1710,
-                "target_upside_pct": 31.6,
-                "revenue_growth_pct": 0.3,
-                "earnings_growth_pct": 21.5,
-                "profit_margin_pct": 5.89,
-                "roe_pct": 12.09,
-                "debt_to_equity": 64.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1281
           },
           {
             "code": "7164",
@@ -5460,187 +3984,19 @@
             "code": "8570",
             "name": "イオンフィナンシャルサービス",
             "mark": "新買",
-            "close": 1484,
-            "quality": {
-              "code": "8570",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.55,
-                "ex_date": "2027-02-25",
-                "payout_ratio_pct": 44.52
-              },
-              "earnings": {
-                "announcement_date": "2027-01-07",
-                "fiscal_year_end": "2027-02-28",
-                "fiscal_month": 2,
-                "is_estimate": true
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 14.4,
-                "forward_per": 11.1,
-                "pbr": 0.67,
-                "psr": 0.62,
-                "market_cap_oku": 3191,
-                "price_yen": 1478,
-                "target_price_yen": 1472,
-                "target_upside_pct": -0.4,
-                "revenue_growth_pct": 9.9,
-                "earnings_growth_pct": 15.3,
-                "profit_margin_pct": 4.13,
-                "roe_pct": 6.05
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1484
           },
           {
             "code": "8572",
             "name": "アコム",
             "mark": "新買",
-            "close": 454,
-            "quality": {
-              "code": "8572",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.8,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 53.31
-              },
-              "earnings": {
-                "announcement_date": "2026-11-06",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Financial Services",
-                "industry": "Credit Services",
-                "per": 11.0,
-                "forward_per": 9.9,
-                "pbr": 0.99,
-                "psr": 2.07,
-                "market_cap_oku": 7112,
-                "price_yen": 454,
-                "target_price_yen": 498,
-                "target_upside_pct": 9.7,
-                "revenue_growth_pct": 7.7,
-                "earnings_growth_pct": -43.9,
-                "profit_margin_pct": 18.79,
-                "roe_pct": 9.35,
-                "debt_to_equity": 95.4
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 454
           },
           {
             "code": "9090",
             "name": "ＡＺ-ＣＯＭ丸和ホールディングス",
             "mark": "新買",
-            "close": 839,
-            "quality": {
-              "code": "9090",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.76,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 66.01
-              },
-              "earnings": {
-                "announcement_date": "2026-11-09",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Industrials",
-                "industry": "Integrated Freight & Logistics",
-                "per": 17.5,
-                "forward_per": 12.6,
-                "pbr": 1.86,
-                "psr": 0.49,
-                "market_cap_oku": 1139,
-                "price_yen": 846,
-                "target_price_yen": 830,
-                "target_upside_pct": -1.9,
-                "revenue_growth_pct": 6.2,
-                "earnings_growth_pct": -26.8,
-                "profit_margin_pct": 2.98,
-                "roe_pct": 11.74,
-                "debt_to_equity": 94.0
-              },
-              "shareholder_benefit": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "プレミアム優待倶楽部ポイント",
-                "month": "9",
-                "yield_pct": "0.88",
-                "min_shares": 400,
-                "programs": [
-                  {
-                    "title": "プレミアム優待倶楽部ポイント",
-                    "tiers": [
-                      {
-                        "shares": "400株以上",
-                        "content": "3,000ポイント",
-                        "note": "◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃"
-                      },
-                      {
-                        "shares": "500株以上",
-                        "content": "6,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "600株以上",
-                        "content": "10,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "700株以上",
-                        "content": "12,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "18,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,500株以上",
-                        "content": "30,000ポイント",
-                        "note": ""
-                      },
-                      {
-                        "shares": "2,000株以上",
-                        "content": "50,000ポイント",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月。",
-                "text": "プレミアム優待倶楽部ポイント。400株以上。権利確定9月\n・400株以上: 3,000ポイント（◇株主優待ポイント表に基づき、保有する株式数及び保有期間に応じてポイントが加算され、「株主優待特設サイト」において、食品、電化製品、ギフトカード、旅行・体験等に交換することができる。 ※1ポイント≒1円相当。 ■繰越条件：2026 年９月末日以降、毎年９月末日現在の当社株主名簿に同一株主番号で連続に記載または記録され、かつ４単元（400 株）以上継続保有されている場合、最大１回まで繰り越せます（２回分まとめて利用可能）。 ※プレミアム優待倶楽部では、株主優待ポイントを共通株主優待コイン「WILLsCoin」と交換することができる。WILLsCoinは個人株主向け会員制サイト「プレミアム優待倶楽部PORTAL」にて優待商品と交換することができる。 ■贈呈時期 毎年 11 月頃）\n・500株以上: 6,000ポイント\n・600株以上: 10,000ポイント\n・700株以上: 12,000ポイント\n・1,000株以上: 18,000ポイント\n・1,500株以上: 30,000ポイント\n・2,000株以上: 50,000ポイント"
-              }
-            }
+            "close": 839
           }
         ],
         "sellback": []
@@ -5655,178 +4011,19 @@
             "code": "1662",
             "name": "石油資源開発",
             "mark": "新買",
-            "close": 1754,
-            "quality": {
-              "code": "1662",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.62,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 40.63
-              },
-              "earnings": {
-                "announcement_date": "2026-11-12",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Energy",
-                "industry": "Oil & Gas E&P",
-                "per": 10.8,
-                "forward_per": 11.4,
-                "pbr": 0.75,
-                "psr": 1.36,
-                "market_cap_oku": 4395,
-                "price_yen": 1722,
-                "target_price_yen": 2005,
-                "target_upside_pct": 16.4,
-                "revenue_growth_pct": -21.4,
-                "earnings_growth_pct": -79.4,
-                "profit_margin_pct": 12.69,
-                "roe_pct": 7.47,
-                "debt_to_equity": 9.3
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1754
           },
           {
             "code": "4732",
             "name": "ユー・エス・エス",
             "mark": "新買",
-            "close": 1816,
-            "quality": {
-              "code": "4732",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 3.11,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 60.36
-              },
-              "earnings": {
-                "announcement_date": "2026-11-10",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3,
-                "is_estimate": true
-              },
-              "valuation": {
-                "sector": "Consumer Cyclical",
-                "industry": "Auto & Truck Dealerships",
-                "per": 19.6,
-                "forward_per": 22.7,
-                "pbr": 4.32,
-                "psr": 6.86,
-                "market_cap_oku": 8073,
-                "price_yen": 1778,
-                "target_price_yen": 2197,
-                "target_upside_pct": 23.6,
-                "revenue_growth_pct": 14.1,
-                "earnings_growth_pct": 9.6,
-                "profit_margin_pct": 0.0,
-                "roe_pct": 22.41,
-                "debt_to_equity": 1.1
-              },
-              "shareholder_benefit": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
-                "month": "3",
-                "yield_pct": "0.56",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "QUOカード、VJAギフトカード、オリジナルグルメギフト",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）",
-                        "note": "※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月"
-                      },
-                      {
-                        "shares": "300株以上",
-                        "content": "【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "500株以上",
-                        "content": "【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）",
-                        "note": ""
-                      },
-                      {
-                        "shares": "10,000株以上",
-                        "content": "【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月。",
-                "text": "QUOカード、VJAギフトカード、オリジナルグルメギフト。100株以上。権利確定3月\n・100株以上: 【保有期間の定めなし】 QUOカード　500円相当 （年間 1,000円相当）（※3年以上の長期保有に対する優待制度は、2028年9月末日現在の株主名簿の株数を基準に、継続保有期間の判定を開始します。 ■継続保有期間について 継続保有期間3年以上の株主様とは、2025年9月末日の基準日以降、毎年3月末日および9月末日現在の株主名簿に、同一の株主番号で、連続して7回以上記録され、その全ての基準日（3月末日・9月末日）において、各区分の最小株式数（300株、500株、1,000株または10,000株）を下回ることなく保有している株主様が対象となります。 ■贈呈時期 確定日3月末：6月 確定日9月末：12月）\n・300株以上: 【3年未満保有】 VJAギフトカード　2,000円相当 （年間 4,000円相当） 【3年以上保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当）\n・500株以上: 【3年未満保有】 VJAギフトカード　3,000円相当 （年間 6,000円相当） 【3年以上保有】 VJAギフトカード　5,000円相当 （年間 10,000円相当）\n・1,000株以上: 【3年未満保有】 オリジナルグルメギフト　7,000円相当 （年間 14,000円相当） 【3年以上保有】 オリジナルグルメギフト　10,000円相当 （年間 20,000円相当）\n・10,000株以上: 【3年未満保有】 オリジナルグルメギフト　15,000円相当 （年間 30,000円相当） 【3年以上保有】 オリジナルグルメギフト　20,000円相当 （年間 40,000円相当）"
-              }
-            }
+            "close": 1816
           },
           {
             "code": "7716",
             "name": "ナカニシ",
             "mark": "新買",
-            "close": 1465,
-            "quality": {
-              "code": "7716",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 2.11,
-                "ex_date": "2026-12-29",
-                "payout_ratio_pct": 2.12
-              },
-              "earnings": {
-                "announcement_date": "2026-11-13",
-                "fiscal_year_end": "2026-12-31",
-                "fiscal_month": 12
-              },
-              "valuation": {
-                "sector": "Healthcare",
-                "industry": "Medical Instruments & Supplies",
-                "per": 104.2,
-                "forward_per": 10.5,
-                "pbr": 1.9,
-                "psr": 2.56,
-                "market_cap_oku": 2284,
-                "price_yen": 1396,
-                "target_price_yen": 1800,
-                "target_upside_pct": 28.9,
-                "revenue_growth_pct": 19.9,
-                "earnings_growth_pct": 36.4,
-                "profit_margin_pct": 2.51,
-                "roe_pct": 1.87,
-                "debt_to_equity": 27.8
-              },
-              "shareholder_benefit": "なし"
-            }
+            "close": 1465
           }
         ],
         "sellback": [
@@ -5942,92 +4139,7 @@
             "code": "1925",
             "name": "大和ハウス工業",
             "mark": "新買",
-            "close": 2196,
-            "quality": {
-              "code": "1925",
-              "stars": 3,
-              "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
-              "risk_factors": [
-                "評価失敗"
-              ],
-              "confidence": "low",
-              "sources": [],
-              "valuation_view": "unknown",
-              "dividend": {
-                "yield_pct": 4.2,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 28.57
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Real Estate",
-                "industry": "Real Estate - Development",
-                "per": 7.6,
-                "forward_per": 4.6,
-                "pbr": 0.93,
-                "psr": 0.48,
-                "market_cap_oku": 27080,
-                "price_yen": 2186,
-                "target_price_yen": 2546,
-                "target_upside_pct": 16.5,
-                "revenue_growth_pct": 9.0,
-                "earnings_growth_pct": 9.0,
-                "profit_margin_pct": 6.28,
-                "roe_pct": 12.88,
-                "debt_to_equity": 115.4
-              },
-              "shareholder_benefit": "株主優待券。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "株主優待券",
-                "month": "3",
-                "yield_pct": "0.91",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "株主優待券（共通利用券）※1",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "【3年未満保有】 2枚 【3年以上保有】 4枚",
-                        "note": "◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬"
-                      },
-                      {
-                        "shares": "600株以上",
-                        "content": "【3年未満保有】 6枚 【3年以上保有】 12枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "1,000株以上",
-                        "content": "【3年未満保有】 10枚 【3年以上保有】 20枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "2,000株以上",
-                        "content": "【3年未満保有】 20枚 【3年以上保有】 40枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "6,000株以上",
-                        "content": "【3年未満保有】 40枚 【3年以上保有】 80枚",
-                        "note": ""
-                      },
-                      {
-                        "shares": "10,000株以上",
-                        "content": "【3年未満保有】 60枚 【3年以上保有】 120枚",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "株主優待券。100株以上。権利確定3月。",
-                "text": "株主優待券。100株以上。権利確定3月\n【株主優待券（共通利用券）※1】\n・100株以上: 【3年未満保有】 2枚 【3年以上保有】 4枚（◆下記優待内容詳細 グループが運営する施設のほか、社会貢献活動にも利用可能。 1、ダイワロイネットホテルズでの宿泊 （他の入居店舗ではご利用いただけません） 2、ラ・ジェント・ホテルでの宿泊 （一部施設を除く・他の入居店舗ではご利用いただけません） 3、ダイワロイヤルゴルフでの各種サービス （プレーフィー、ゴルフ場内での飲食など） 4、スポーツクラブNASの各種サービス （入会金、各種レンタル料など） 5、全国のロイヤルホームセンターの各種商品 （一部取扱品を除く） 6、大和ハウスグループが運営する一部の商業施設 7、大和ハウスリフォームの工事請負代金 （請負代金 10 万円（税別）以上のリフォーム工事を対象） 8、社会貢献寄付 9、株主優待専用グルメギフト 10、直営レストラン ※1、1枚当たり1,000円券 ※2、ホテル内の入居店舗は利用不可 ■継続保有期間について 毎年3月末日および9月末日の当社株主名簿において、同一の株主番号で7回以上連続して記載または記録されていることといたします。 ※株主優待券の贈呈枚数は、毎年3月末日（基準日）の当社株主名簿に記載または記録されている保有株式数を基に判定いたします。 ■送付時期 毎年6月下旬）\n・600株以上: 【3年未満保有】 6枚 【3年以上保有】 12枚\n・1,000株以上: 【3年未満保有】 10枚 【3年以上保有】 20枚\n・2,000株以上: 【3年未満保有】 20枚 【3年以上保有】 40枚\n・6,000株以上: 【3年未満保有】 40枚 【3年以上保有】 80枚\n・10,000株以上: 【3年未満保有】 60枚 【3年以上保有】 120枚"
-              }
-            }
+            "close": 2196
           }
         ],
         "sellback": []
@@ -6733,7 +4845,7 @@
     "1414": {
       "code": "1414",
       "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "background": "AI評価不可: 混雑または一時障害。次回再試行します",
       "risk_factors": [
         "評価失敗"
       ],
@@ -6771,7 +4883,7 @@
     "8088": {
       "code": "8088",
       "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "background": "AI評価不可: 混雑または一時障害。次回再試行します",
       "risk_factors": [
         "評価失敗"
       ],
@@ -6810,7 +4922,7 @@
     "1911": {
       "code": "1911",
       "stars": 3,
-      "background": "AI評価不可: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "background": "AI評価不可: 混雑または一時障害。次回再試行します",
       "risk_factors": [
         "評価失敗"
       ],
