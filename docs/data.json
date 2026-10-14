@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:26:04+09:00",
+  "generated_at": "2026-10-15T07:28:36+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -739,44 +739,6 @@
         "rsi": 28.23,
         "rci": -88.33,
         "rci_turn": true,
-        "quality": {
-          "code": "1414",
-          "stars": 3,
-          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "yield_pct": 3.77,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 60.52
-          },
-          "earnings": {
-            "announcement_date": "2026-11-10",
-            "fiscal_year_end": "2027-06-30",
-            "fiscal_month": 6
-          },
-          "valuation": {
-            "sector": "Industrials",
-            "industry": "Engineering & Construction",
-            "per": 16.1,
-            "forward_per": 3.9,
-            "pbr": 2.27,
-            "psr": 2.72,
-            "market_cap_oku": 2426,
-            "price_yen": 1210,
-            "target_price_yen": 1377,
-            "target_upside_pct": 13.8,
-            "revenue_growth_pct": -1.5,
-            "earnings_growth_pct": 7.9,
-            "profit_margin_pct": 17.31,
-            "roe_pct": 14.44
-          },
-          "shareholder_benefit": "なし"
-        },
         "rsi_ok": false,
         "rci_ok": true
       },
@@ -788,45 +750,6 @@
         "rsi": 32.55,
         "rci": -72.08,
         "rci_turn": true,
-        "quality": {
-          "code": "8088",
-          "stars": 3,
-          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "yield_pct": 2.38,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 14.49
-          },
-          "earnings": {
-            "announcement_date": "2026-11-10",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Industrials",
-            "industry": "Conglomerates",
-            "per": 6.1,
-            "forward_per": 2.8,
-            "pbr": 0.95,
-            "psr": 0.48,
-            "market_cap_oku": 4506,
-            "price_yen": 1958,
-            "target_price_yen": 2070,
-            "target_upside_pct": 5.7,
-            "revenue_growth_pct": 13.1,
-            "earnings_growth_pct": 5.71,
-            "profit_margin_pct": 7.98,
-            "roe_pct": 17.33,
-            "debt_to_equity": 44.2
-          },
-          "shareholder_benefit": "なし"
-        },
         "rsi_ok": false,
         "rci_ok": true
       }
@@ -840,45 +763,6 @@
         "rsi": 31.64,
         "rci": -71.25,
         "rci_turn": false,
-        "quality": {
-          "code": "1911",
-          "stars": 3,
-          "background": "AI評価不可: 混雑または一時障害。次回再試行します",
-          "risk_factors": [
-            "評価失敗"
-          ],
-          "confidence": "low",
-          "sources": [],
-          "valuation_view": "unknown",
-          "dividend": {
-            "yield_pct": 4.26,
-            "ex_date": "2026-12-29",
-            "payout_ratio_pct": 38.53
-          },
-          "earnings": {
-            "announcement_date": "2026-11-05",
-            "fiscal_year_end": "2026-12-31",
-            "fiscal_month": 12
-          },
-          "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Residential Construction",
-            "per": 8.5,
-            "forward_per": 1.9,
-            "pbr": 0.66,
-            "psr": 0.29,
-            "market_cap_oku": 7174,
-            "price_yen": 1170,
-            "target_price_yen": 1644,
-            "target_upside_pct": 40.5,
-            "revenue_growth_pct": 29.8,
-            "earnings_growth_pct": -64.3,
-            "profit_margin_pct": 3.46,
-            "roe_pct": 10.33,
-            "debt_to_equity": 128.9
-          },
-          "shareholder_benefit": "なし"
-        },
         "rsi_ok": false,
         "rci_ok": false
       }
@@ -4987,7 +4871,7 @@
     },
     "gemini_rating": {
       "enabled": true,
-      "model": "gemini-3.6-flash"
+      "model": "gemini-2.0-flash"
     }
   },
   "controls": {
