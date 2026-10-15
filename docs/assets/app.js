@@ -163,15 +163,23 @@ function renderAnalysisBlock(q) {
   return sections.join("");
 }
 
-function formatBenefitPreview(q) {
-  const detail = q?.shareholder_benefit_detail;
-  const summary = (q?.shareholder_benefit || detail?.summary || "").trim();
-  if (!summary) return "";
-  const firstTier = detail?.programs?.[0]?.tiers?.[0];
-  if (firstTier?.content && summary !== "なし") {
-    return `${summary} ${firstTier.shares}: ${firstTier.content}`.trim();
+function formatDailyListExtras(q) {
+  /** 日別一覧用: 配当利回りと優待月のみ（優待の中身は詳細で見る） */
+  const parts = [];
+  const yieldPct = q?.dividend?.yield_pct;
+  if (yieldPct != null && yieldPct !== "") {
+    parts.push(`配当利回り ${yieldPct}%`);
   }
-  return summary;
+  const month = q?.shareholder_benefit_detail?.month;
+  if (month != null && month !== "" && String(month) !== "なし") {
+    parts.push(`優待 ${month}月`);
+  } else {
+    const summary = (q?.shareholder_benefit || q?.shareholder_benefit_detail?.summary || "").trim();
+    if (summary === "なし") {
+      parts.push("優待なし");
+    }
+  }
+  return parts.join(" · ");
 }
 
 function formatBenefitHtml(q) {
@@ -414,10 +422,10 @@ function renderDailyBuyRow(row) {
   const close =
     row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
   const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
-  const benefit = formatBenefitPreview(q);
-  const benefitLine = benefit
-    ? `<p class="signal-benefit-preview"><strong>株主優待:</strong> ${escapeHtml(benefit)}</p>`
-    : `<p class="signal-benefit-preview detail-muted">株主優待: 情報なし</p>`;
+  const extras = formatDailyListExtras(q);
+  const extrasLine = extras
+    ? `<p class="signal-benefit-preview">${escapeHtml(extras)}</p>`
+    : `<p class="signal-benefit-preview detail-muted">配当・優待情報なし</p>`;
 
   return `<li class="signal-item signal-item-daily">
     <details class="signal-details">
@@ -428,7 +436,7 @@ function renderDailyBuyRow(row) {
           ${stars}
           ${close}
         </span>
-        ${benefitLine}
+        ${extrasLine}
         <span class="signal-expand-hint">詳細を開く</span>
       </summary>
       <div class="signal-detail-inline">${renderQualityDetailBody(row)}</div>
