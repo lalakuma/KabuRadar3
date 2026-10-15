@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-15T15:03:00+09:00",
+  "generated_at": "2026-10-15T16:03:03+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
-    "wins": 24,
+    "wins": 23,
     "losses": 16,
     "win_rate": null,
-    "total_income": -27300,
-    "symbol_count": 66,
-    "neutral_count": 26,
-    "source_file": "Y0_PF0.618_W24L16_rate60.00_all-27300.csv"
+    "total_income": -27600,
+    "symbol_count": 67,
+    "neutral_count": 28,
+    "source_file": "Y0_PF0.617_W23L16_rate58.97_all-27600.csv"
   },
   "symbols": [
     {
@@ -266,19 +266,19 @@
       "minus_gain": 0
     },
     {
-      "code": "5108",
-      "name": "ブリヂストン",
+      "code": "1414",
+      "name": "ショーボンドホールディングス",
       "industry": "nan",
-      "incomes": 300,
-      "pf": 0.8,
-      "winlose": "W1L0",
-      "win_per": 100,
-      "plus_gain": 80,
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
       "minus_gain": 0
     },
     {
-      "code": "1414",
-      "name": "ショーボンドホールディングス",
+      "code": "1419",
+      "name": "タマホーム",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -312,6 +312,17 @@
     {
       "code": "1925",
       "name": "大和ハウス工業",
+      "industry": "nan",
+      "incomes": 0,
+      "pf": 0.0,
+      "winlose": "W0L0",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 0
+    },
+    {
+      "code": "2379",
+      "name": "ディップ",
       "industry": "nan",
       "incomes": 0,
       "pf": 0.0,
@@ -743,11 +754,179 @@
     "trade_date": "2026-10-15",
     "new_buy": [
       {
+        "code": "1419",
+        "name": "タマホーム",
+        "mark": "新買",
+        "close": 2865,
+        "rsi": 64.48,
+        "rci": -48.33,
+        "rci_turn": true,
+        "quality": {
+          "code": "1419",
+          "stars": 3,
+          "background": "国内の住宅着工戸数の伸び悩みや建築資材価格の高止まり、長期金利の上昇懸念などを背景に、戸建て住宅セクター全体への警戒感が重荷となっています。個別での新たな悪材料発表はないものの、セクター全般の軟調な地合いに押される形で下値を模索する展開が続いています。",
+          "risk_factors": [
+            "建築資材価格の高止まりおよび労務費上昇による採算性悪化の長期化",
+            "国内長期金利上昇に伴う住宅ローン金利上昇と注文住宅需要の減退",
+            "業績低迷に伴う将来的な減配リスク（配当維持方針の後退）"
+          ],
+          "confidence": "medium",
+          "sources": [
+            "https://www.tamahome.jp/ir/"
+          ],
+          "material_analysis": "目立った個別ニュースはなく材料難。資材高と住宅需要鈍化の懸念がくすぶる一方、高配当利回りが下値を支える構図です。",
+          "fundamental_summary": "足元の売上高成長率は前年同期比マイナス圏にあり、利益率も0.37%と資材価格高騰の影響を受けて収益性の圧迫が続いています。PERは一時的な利益水準の低下により100倍を超えて割高に見えますが、PBRは3.55倍程度で推移しています。最大の強みは4.6%を超える高い配当利回りであり、株主優待（QUOカード）も含めたインカムゲイン需要が強力な下値支持要因となります。次回決算発表は7月上旬予定であり、当面の決算イベント通過リスクは低めです。",
+          "technical_view": "節目の2,800円を割り込み、心理的節目となる2,700円から2,750円水準の過去の安値支持帯に向けた調整局面となっています。上値は直近の下落起点となった2,900円近辺および各移動平均線が戻り売りの抵抗帯として意識されます。",
+          "watch_points": [
+            "4.6%超の配当利回りを意識したインカム狙いの買いによる2,750円近辺での下げ止まり確認",
+            "月次の受注速報における前年比回復の兆し"
+          ],
+          "valuation_view": "fair",
+          "dividend": {
+            "yield_pct": 4.69,
+            "ex_date": "2027-05-28",
+            "payout_ratio_pct": 5.05
+          },
+          "earnings": {
+            "announcement_date": "2025-07-09",
+            "announcement_date_end": "2025-07-14",
+            "fiscal_year_end": "2027-05-31",
+            "fiscal_month": 5,
+            "is_estimate": true
+          },
+          "valuation": {
+            "sector": "Consumer Cyclical",
+            "industry": "Residential Construction",
+            "per": 115.8,
+            "pbr": 3.66,
+            "psr": 0.42,
+            "market_cap_oku": 831,
+            "price_yen": 2865,
+            "target_price_yen": 2600,
+            "target_upside_pct": -9.2,
+            "revenue_growth_pct": -5.1,
+            "profit_margin_pct": 0.37,
+            "roe_pct": 3.01,
+            "debt_to_equity": 140.3
+          },
+          "shareholder_benefit": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "min_shares": 100,
+            "kind": "オリジナルQUOカード 金券",
+            "month": "11",
+            "programs": [
+              {
+                "title": "オリジナルQUOカード",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当",
+                    "note": "■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃"
+                  }
+                ]
+              }
+            ],
+            "summary": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+            "text": "オリジナルQUOカード 金券。100株以上。権利確定11月\n・100株以上: 【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当（■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃）"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
+        "code": "2379",
+        "name": "ディップ",
+        "mark": "新買",
+        "close": 1666,
+        "rsi": 12.54,
+        "rci": -76.67,
+        "rci_turn": true,
+        "quality": {
+          "code": "2379",
+          "stars": 4,
+          "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
+          "risk_factors": [
+            "人材採用市場全体の鈍化に伴う売上回復の遅れ",
+            "中小型グロース・サービス株への資金流出",
+            "高配当利回りを下支えする業績進捗の下振れ懸念"
+          ],
+          "confidence": "medium",
+          "sources": [
+            "https://kabutan.jp/stock/?code=2379"
+          ],
+          "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
+          "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
+          "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
+          "watch_points": [
+            "1,650円の節目での下げ止まりと反発の強さ",
+            "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "yield_pct": 5.79,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 1.16
+          },
+          "earnings": {
+            "announcement_date": "2027-01-12",
+            "fiscal_year_end": "2027-02-28",
+            "fiscal_month": 2,
+            "is_estimate": true
+          },
+          "valuation": {
+            "sector": "Communication Services",
+            "industry": "Internet Content & Information",
+            "per": 52.5,
+            "forward_per": 8.3,
+            "pbr": 2.58,
+            "psr": 1.69,
+            "market_cap_oku": 872,
+            "price_yen": 1666,
+            "target_price_yen": 1620,
+            "target_upside_pct": -2.8,
+            "revenue_growth_pct": -9.4,
+            "profit_margin_pct": 3.23,
+            "roe_pct": 4.66,
+            "debt_to_equity": 2.8
+          },
+          "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "オリジナルQUOカード",
+            "month": "2",
+            "yield_pct": "0.60",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "オリジナルQUOカード",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "500円相当（年間1,000円相当）",
+                    "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
+                  },
+                  {
+                    "shares": "500株以上",
+                    "content": "1,000円相当（年間2,000円相当）",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
+            "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true
+      },
+      {
         "code": "8194",
         "name": "ライフコーポレーション",
         "mark": "新買",
-        "close": 2340,
-        "rsi": 20.69,
+        "close": 2354,
+        "rsi": 25.84,
         "rci": -96.67,
         "rci_turn": true,
         "quality": {
@@ -787,14 +966,14 @@
           "valuation": {
             "sector": "Consumer Defensive",
             "industry": "Grocery Stores",
-            "per": 11.7,
+            "per": 11.8,
             "forward_per": 6.0,
-            "pbr": 1.26,
+            "pbr": 1.27,
             "psr": 0.23,
-            "market_cap_oku": 2025,
-            "price_yen": 2341,
+            "market_cap_oku": 2037,
+            "price_yen": 2354,
             "target_price_yen": 2783,
-            "target_upside_pct": 18.9,
+            "target_upside_pct": 18.2,
             "revenue_growth_pct": 1.3,
             "earnings_growth_pct": -6.4,
             "profit_margin_pct": 2.03,
@@ -806,7 +985,7 @@
             "source": "minkabu",
             "kind": "自社商品券、PB商品",
             "month": "2",
-            "yield_pct": "---、配当利回りは2.99",
+            "yield_pct": "---、配当利回りは2.97",
             "min_shares": 100,
             "programs": [
               {
@@ -883,10 +1062,10 @@
             "forward_per": 8.3,
             "pbr": 0.96,
             "psr": 0.41,
-            "market_cap_oku": 14446,
-            "price_yen": 2102,
+            "market_cap_oku": 14456,
+            "price_yen": 2104,
             "target_price_yen": 2569,
-            "target_upside_pct": 22.2,
+            "target_upside_pct": 22.1,
             "revenue_growth_pct": 6.8,
             "earnings_growth_pct": 27.4,
             "profit_margin_pct": 4.09,
@@ -899,15 +1078,103 @@
         "rci_ok": false
       }
     ],
-    "new_buy_count": 1,
+    "new_buy_count": 3,
     "rsi_oversold_count": 1,
     "recommended": [
+      {
+        "code": "2379",
+        "name": "ディップ",
+        "mark": "新買",
+        "close": 1666,
+        "rsi": 12.54,
+        "rci": -76.67,
+        "rci_turn": true,
+        "quality": {
+          "code": "2379",
+          "stars": 4,
+          "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
+          "risk_factors": [
+            "人材採用市場全体の鈍化に伴う売上回復の遅れ",
+            "中小型グロース・サービス株への資金流出",
+            "高配当利回りを下支えする業績進捗の下振れ懸念"
+          ],
+          "confidence": "medium",
+          "sources": [
+            "https://kabutan.jp/stock/?code=2379"
+          ],
+          "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
+          "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
+          "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
+          "watch_points": [
+            "1,650円の節目での下げ止まりと反発の強さ",
+            "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
+          ],
+          "valuation_view": "cheap",
+          "dividend": {
+            "yield_pct": 5.79,
+            "ex_date": "2027-02-25",
+            "payout_ratio_pct": 1.16
+          },
+          "earnings": {
+            "announcement_date": "2027-01-12",
+            "fiscal_year_end": "2027-02-28",
+            "fiscal_month": 2,
+            "is_estimate": true
+          },
+          "valuation": {
+            "sector": "Communication Services",
+            "industry": "Internet Content & Information",
+            "per": 52.5,
+            "forward_per": 8.3,
+            "pbr": 2.58,
+            "psr": 1.69,
+            "market_cap_oku": 872,
+            "price_yen": 1666,
+            "target_price_yen": 1620,
+            "target_upside_pct": -2.8,
+            "revenue_growth_pct": -9.4,
+            "profit_margin_pct": 3.23,
+            "roe_pct": 4.66,
+            "debt_to_equity": 2.8
+          },
+          "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
+          "shareholder_benefit_detail": {
+            "source": "minkabu",
+            "kind": "オリジナルQUOカード",
+            "month": "2",
+            "yield_pct": "0.60",
+            "min_shares": 100,
+            "programs": [
+              {
+                "title": "オリジナルQUOカード",
+                "tiers": [
+                  {
+                    "shares": "100株以上",
+                    "content": "500円相当（年間1,000円相当）",
+                    "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
+                  },
+                  {
+                    "shares": "500株以上",
+                    "content": "1,000円相当（年間2,000円相当）",
+                    "note": ""
+                  }
+                ]
+              }
+            ],
+            "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
+            "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
+          }
+        },
+        "rsi_ok": false,
+        "rci_ok": true,
+        "recommended": true
+      },
       {
         "code": "8194",
         "name": "ライフコーポレーション",
         "mark": "新買",
-        "close": 2340,
-        "rsi": 20.69,
+        "close": 2354,
+        "rsi": 25.84,
         "rci": -96.67,
         "rci_turn": true,
         "quality": {
@@ -947,14 +1214,14 @@
           "valuation": {
             "sector": "Consumer Defensive",
             "industry": "Grocery Stores",
-            "per": 11.7,
+            "per": 11.8,
             "forward_per": 6.0,
-            "pbr": 1.26,
+            "pbr": 1.27,
             "psr": 0.23,
-            "market_cap_oku": 2025,
-            "price_yen": 2341,
+            "market_cap_oku": 2037,
+            "price_yen": 2354,
             "target_price_yen": 2783,
-            "target_upside_pct": 18.9,
+            "target_upside_pct": 18.2,
             "revenue_growth_pct": 1.3,
             "earnings_growth_pct": -6.4,
             "profit_margin_pct": 2.03,
@@ -966,7 +1233,7 @@
             "source": "minkabu",
             "kind": "自社商品券、PB商品",
             "month": "2",
-            "yield_pct": "---、配当利回りは2.99",
+            "yield_pct": "---、配当利回りは2.97",
             "min_shares": 100,
             "programs": [
               {
@@ -1002,7 +1269,7 @@
     "pick_meta": {
       "method": "stars",
       "routing": "stocks",
-      "count": 1,
+      "count": 2,
       "min_stars": 4
     }
   },
@@ -1011,14 +1278,172 @@
       {
         "date": "2026-10-15",
         "pnl": 5400,
-        "new_buy_count": 1,
+        "new_buy_count": 3,
         "sellback_count": 1,
         "new_buy": [
+          {
+            "code": "1419",
+            "name": "タマホーム",
+            "mark": "新買",
+            "close": 2865,
+            "quality": {
+              "code": "1419",
+              "stars": 3,
+              "background": "国内の住宅着工戸数の伸び悩みや建築資材価格の高止まり、長期金利の上昇懸念などを背景に、戸建て住宅セクター全体への警戒感が重荷となっています。個別での新たな悪材料発表はないものの、セクター全般の軟調な地合いに押される形で下値を模索する展開が続いています。",
+              "risk_factors": [
+                "建築資材価格の高止まりおよび労務費上昇による採算性悪化の長期化",
+                "国内長期金利上昇に伴う住宅ローン金利上昇と注文住宅需要の減退",
+                "業績低迷に伴う将来的な減配リスク（配当維持方針の後退）"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://www.tamahome.jp/ir/"
+              ],
+              "material_analysis": "目立った個別ニュースはなく材料難。資材高と住宅需要鈍化の懸念がくすぶる一方、高配当利回りが下値を支える構図です。",
+              "fundamental_summary": "足元の売上高成長率は前年同期比マイナス圏にあり、利益率も0.37%と資材価格高騰の影響を受けて収益性の圧迫が続いています。PERは一時的な利益水準の低下により100倍を超えて割高に見えますが、PBRは3.55倍程度で推移しています。最大の強みは4.6%を超える高い配当利回りであり、株主優待（QUOカード）も含めたインカムゲイン需要が強力な下値支持要因となります。次回決算発表は7月上旬予定であり、当面の決算イベント通過リスクは低めです。",
+              "technical_view": "節目の2,800円を割り込み、心理的節目となる2,700円から2,750円水準の過去の安値支持帯に向けた調整局面となっています。上値は直近の下落起点となった2,900円近辺および各移動平均線が戻り売りの抵抗帯として意識されます。",
+              "watch_points": [
+                "4.6%超の配当利回りを意識したインカム狙いの買いによる2,750円近辺での下げ止まり確認",
+                "月次の受注速報における前年比回復の兆し"
+              ],
+              "valuation_view": "fair",
+              "dividend": {
+                "yield_pct": 4.69,
+                "ex_date": "2027-05-28",
+                "payout_ratio_pct": 5.05
+              },
+              "earnings": {
+                "announcement_date": "2025-07-09",
+                "announcement_date_end": "2025-07-14",
+                "fiscal_year_end": "2027-05-31",
+                "fiscal_month": 5,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Residential Construction",
+                "per": 115.8,
+                "pbr": 3.66,
+                "psr": 0.42,
+                "market_cap_oku": 831,
+                "price_yen": 2865,
+                "target_price_yen": 2600,
+                "target_upside_pct": -9.2,
+                "revenue_growth_pct": -5.1,
+                "profit_margin_pct": 0.37,
+                "roe_pct": 3.01,
+                "debt_to_equity": 140.3
+              },
+              "shareholder_benefit": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "min_shares": 100,
+                "kind": "オリジナルQUOカード 金券",
+                "month": "11",
+                "programs": [
+                  {
+                    "title": "オリジナルQUOカード",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当",
+                        "note": "■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃"
+                      }
+                    ]
+                  }
+                ],
+                "summary": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+                "text": "オリジナルQUOカード 金券。100株以上。権利確定11月\n・100株以上: 【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当（■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃）"
+              }
+            }
+          },
+          {
+            "code": "2379",
+            "name": "ディップ",
+            "mark": "新買",
+            "close": 1666,
+            "quality": {
+              "code": "2379",
+              "stars": 4,
+              "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
+              "risk_factors": [
+                "人材採用市場全体の鈍化に伴う売上回復の遅れ",
+                "中小型グロース・サービス株への資金流出",
+                "高配当利回りを下支えする業績進捗の下振れ懸念"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://kabutan.jp/stock/?code=2379"
+              ],
+              "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
+              "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
+              "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
+              "watch_points": [
+                "1,650円の節目での下げ止まりと反発の強さ",
+                "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "yield_pct": 5.79,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 1.16
+              },
+              "earnings": {
+                "announcement_date": "2027-01-12",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Communication Services",
+                "industry": "Internet Content & Information",
+                "per": 52.5,
+                "forward_per": 8.3,
+                "pbr": 2.58,
+                "psr": 1.69,
+                "market_cap_oku": 872,
+                "price_yen": 1666,
+                "target_price_yen": 1620,
+                "target_upside_pct": -2.8,
+                "revenue_growth_pct": -9.4,
+                "profit_margin_pct": 3.23,
+                "roe_pct": 4.66,
+                "debt_to_equity": 2.8
+              },
+              "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "オリジナルQUOカード",
+                "month": "2",
+                "yield_pct": "0.60",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "オリジナルQUOカード",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "500円相当（年間1,000円相当）",
+                        "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "1,000円相当（年間2,000円相当）",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
+                "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
+              }
+            }
+          },
           {
             "code": "8194",
             "name": "ライフコーポレーション",
             "mark": "新買",
-            "close": 2340,
+            "close": 2354,
             "quality": {
               "code": "8194",
               "stars": 4,
@@ -1056,14 +1481,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.7,
+                "per": 11.8,
                 "forward_per": 6.0,
-                "pbr": 1.26,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 2025,
-                "price_yen": 2341,
+                "market_cap_oku": 2037,
+                "price_yen": 2354,
                 "target_price_yen": 2783,
-                "target_upside_pct": 18.9,
+                "target_upside_pct": 18.2,
                 "revenue_growth_pct": 1.3,
                 "earnings_growth_pct": -6.4,
                 "profit_margin_pct": 2.03,
@@ -1075,7 +1500,7 @@
                 "source": "minkabu",
                 "kind": "自社商品券、PB商品",
                 "month": "2",
-                "yield_pct": "---、配当利回りは2.99",
+                "yield_pct": "---、配当利回りは2.97",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -1162,12 +1587,12 @@
                 "industry": "Engineering & Construction",
                 "per": 16.0,
                 "forward_per": 3.9,
-                "pbr": 2.27,
-                "psr": 2.72,
-                "market_cap_oku": 2428,
-                "price_yen": 1211,
+                "pbr": 2.28,
+                "psr": 2.73,
+                "market_cap_oku": 2432,
+                "price_yen": 1213,
                 "target_price_yen": 1377,
-                "target_upside_pct": 13.7,
+                "target_upside_pct": 13.5,
                 "revenue_growth_pct": -1.5,
                 "earnings_growth_pct": 7.9,
                 "profit_margin_pct": 17.31,
@@ -1217,10 +1642,10 @@
                 "forward_per": 2.8,
                 "pbr": 0.92,
                 "psr": 0.47,
-                "market_cap_oku": 4388,
-                "price_yen": 1906,
+                "market_cap_oku": 4381,
+                "price_yen": 1904,
                 "target_price_yen": 2070,
-                "target_upside_pct": 8.6,
+                "target_upside_pct": 8.7,
                 "revenue_growth_pct": 13.1,
                 "earnings_growth_pct": 5.71,
                 "profit_margin_pct": 7.98,
@@ -1308,14 +1733,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Engineering & Construction",
-                "per": 8.6,
+                "per": 8.7,
                 "forward_per": 17.7,
                 "pbr": 1.24,
                 "psr": 0.59,
-                "market_cap_oku": 2669,
-                "price_yen": 1701,
+                "market_cap_oku": 2676,
+                "price_yen": 1706,
                 "target_price_yen": 1865,
-                "target_upside_pct": 9.6,
+                "target_upside_pct": 9.3,
                 "revenue_growth_pct": 12.4,
                 "earnings_growth_pct": 34.8,
                 "profit_margin_pct": 6.84,
@@ -1365,11 +1790,11 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 12.2,
-                "pbr": 1.32,
+                "per": 12.3,
+                "pbr": 1.33,
                 "psr": 0.41,
-                "market_cap_oku": 2048,
-                "price_yen": 3170,
+                "market_cap_oku": 2061,
+                "price_yen": 3190,
                 "revenue_growth_pct": 6.5,
                 "earnings_growth_pct": -5.2,
                 "profit_margin_pct": 3.32,
@@ -1473,10 +1898,10 @@
                 "pbr": 2.98,
                 "psr": 3.34,
                 "peg": 3.21,
-                "market_cap_oku": 10575,
-                "price_yen": 2932,
+                "market_cap_oku": 10570,
+                "price_yen": 2930,
                 "target_price_yen": 2856,
-                "target_upside_pct": -2.6,
+                "target_upside_pct": -2.5,
                 "revenue_growth_pct": 32.3,
                 "earnings_growth_pct": 1.76,
                 "profit_margin_pct": 12.01,
@@ -1651,14 +2076,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.9,
+                "per": 17.1,
                 "forward_per": 3.5,
-                "pbr": 1.09,
-                "psr": 0.45,
-                "market_cap_oku": 9795,
-                "price_yen": 2159,
+                "pbr": 1.1,
+                "psr": 0.46,
+                "market_cap_oku": 9867,
+                "price_yen": 2175,
                 "target_price_yen": 2613,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.1,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -1735,15 +2160,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 16.0,
+                "per": 16.1,
                 "forward_per": 16.4,
-                "pbr": 1.99,
-                "psr": 4.13,
+                "pbr": 2.0,
+                "psr": 4.15,
                 "peg": 1.79,
-                "market_cap_oku": 21310,
-                "price_yen": 2736,
+                "market_cap_oku": 21392,
+                "price_yen": 2746,
                 "target_price_yen": 2971,
-                "target_upside_pct": 8.6,
+                "target_upside_pct": 8.2,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": 80.4,
                 "profit_margin_pct": 26.35,
@@ -1797,13 +2222,13 @@
                 "sector": "Financial Services",
                 "industry": "Credit Services",
                 "per": 12.5,
-                "forward_per": 6.6,
+                "forward_per": 6.5,
                 "pbr": 1.69,
-                "psr": 6.96,
-                "market_cap_oku": 4108,
-                "price_yen": 3087,
+                "psr": 6.95,
+                "market_cap_oku": 4104,
+                "price_yen": 3084,
                 "target_price_yen": 3680,
-                "target_upside_pct": 19.2,
+                "target_upside_pct": 19.3,
                 "revenue_growth_pct": 2.5,
                 "earnings_growth_pct": 10.9,
                 "profit_margin_pct": 56.05,
@@ -1854,10 +2279,10 @@
                 "forward_per": 8.3,
                 "pbr": 0.96,
                 "psr": 0.41,
-                "market_cap_oku": 14442,
-                "price_yen": 2102,
+                "market_cap_oku": 14456,
+                "price_yen": 2104,
                 "target_price_yen": 2569,
-                "target_upside_pct": 22.2,
+                "target_upside_pct": 22.1,
                 "revenue_growth_pct": 6.8,
                 "earnings_growth_pct": 27.4,
                 "profit_margin_pct": 4.09,
@@ -1905,14 +2330,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 8.1,
+                "per": 8.2,
                 "forward_per": 2.5,
                 "pbr": 0.82,
                 "psr": 0.38,
-                "market_cap_oku": 1868,
-                "price_yen": 1548,
+                "market_cap_oku": 1888,
+                "price_yen": 1564,
                 "target_price_yen": 2000,
-                "target_upside_pct": 29.2,
+                "target_upside_pct": 27.9,
                 "revenue_growth_pct": 10.7,
                 "earnings_growth_pct": -23.4,
                 "profit_margin_pct": 5.1,
@@ -1963,10 +2388,10 @@
                 "forward_per": 2.9,
                 "pbr": 1.04,
                 "psr": 0.1,
-                "market_cap_oku": 1210,
-                "price_yen": 1032,
+                "market_cap_oku": 1212,
+                "price_yen": 1034,
                 "target_price_yen": 1231,
-                "target_upside_pct": 19.3,
+                "target_upside_pct": 19.1,
                 "revenue_growth_pct": 16.7,
                 "earnings_growth_pct": 45.6,
                 "profit_margin_pct": 5.6,
@@ -1978,7 +2403,7 @@
                 "source": "minkabu",
                 "kind": "自社製品、イベント招待",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.39",
+                "yield_pct": "---、配当利回りは3.38",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -2056,14 +2481,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.7,
+                "per": 17.9,
                 "forward_per": 7.4,
-                "pbr": 1.59,
-                "psr": 1.22,
-                "market_cap_oku": 4359,
-                "price_yen": 2544,
+                "pbr": 1.6,
+                "psr": 1.23,
+                "market_cap_oku": 4391,
+                "price_yen": 2564,
                 "target_price_yen": 2811,
-                "target_upside_pct": 10.5,
+                "target_upside_pct": 9.6,
                 "revenue_growth_pct": 6.3,
                 "earnings_growth_pct": -7.6,
                 "profit_margin_pct": 9.26,
@@ -2096,9 +2521,9 @@
       },
       {
         "date": "2026-10-02",
-        "pnl": -11800,
+        "pnl": -12100,
         "new_buy_count": 3,
-        "sellback_count": 5,
+        "sellback_count": 4,
         "new_buy": [
           {
             "code": "1662",
@@ -2140,13 +2565,6 @@
             "mark": "返売",
             "close": 2243,
             "pnl": -1900
-          },
-          {
-            "code": "5108",
-            "name": "ブリヂストン",
-            "mark": "返売",
-            "close": 3780,
-            "pnl": 300
           },
           {
             "code": "6254",
@@ -2202,14 +2620,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 15.5,
-                "forward_per": 16.0,
-                "pbr": 2.03,
-                "psr": 2.18,
-                "market_cap_oku": 5893,
-                "price_yen": 2643,
+                "per": 15.6,
+                "forward_per": 16.1,
+                "pbr": 2.04,
+                "psr": 2.2,
+                "market_cap_oku": 5949,
+                "price_yen": 2668,
                 "target_price_yen": 3620,
-                "target_upside_pct": 37.0,
+                "target_upside_pct": 35.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -2613,7 +3031,7 @@
       {
         "date": "2026-09-11",
         "pnl": -6000,
-        "new_buy_count": 7,
+        "new_buy_count": 6,
         "sellback_count": 1,
         "new_buy": [
           {
@@ -2621,12 +3039,6 @@
             "name": "日本新薬",
             "mark": "新買",
             "close": 3386
-          },
-          {
-            "code": "5108",
-            "name": "ブリヂストン",
-            "mark": "新買",
-            "close": 3777
           },
           {
             "code": "5110",
@@ -2874,14 +3286,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
-                "per": 5.4,
+                "per": 5.5,
                 "forward_per": 6.0,
                 "pbr": 1.27,
                 "psr": 0.24,
-                "market_cap_oku": 969,
-                "price_yen": 3120,
+                "market_cap_oku": 970,
+                "price_yen": 3125,
                 "target_price_yen": 4900,
-                "target_upside_pct": 57.1,
+                "target_upside_pct": 56.8,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -2893,7 +3305,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.81",
+                "yield_pct": "---、配当利回りは4.80",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -3015,14 +3427,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.0,
+                "per": 17.1,
                 "forward_per": 3.5,
-                "pbr": 1.09,
-                "psr": 0.45,
-                "market_cap_oku": 9799,
-                "price_yen": 2160,
+                "pbr": 1.1,
+                "psr": 0.46,
+                "market_cap_oku": 9867,
+                "price_yen": 2175,
                 "target_price_yen": 2613,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.1,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -3431,14 +3843,172 @@
       {
         "date": "2026-10-15",
         "pnl": 5400,
-        "new_buy_count": 1,
+        "new_buy_count": 3,
         "sellback_count": 1,
         "new_buy": [
+          {
+            "code": "1419",
+            "name": "タマホーム",
+            "mark": "新買",
+            "close": 2865,
+            "quality": {
+              "code": "1419",
+              "stars": 3,
+              "background": "国内の住宅着工戸数の伸び悩みや建築資材価格の高止まり、長期金利の上昇懸念などを背景に、戸建て住宅セクター全体への警戒感が重荷となっています。個別での新たな悪材料発表はないものの、セクター全般の軟調な地合いに押される形で下値を模索する展開が続いています。",
+              "risk_factors": [
+                "建築資材価格の高止まりおよび労務費上昇による採算性悪化の長期化",
+                "国内長期金利上昇に伴う住宅ローン金利上昇と注文住宅需要の減退",
+                "業績低迷に伴う将来的な減配リスク（配当維持方針の後退）"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://www.tamahome.jp/ir/"
+              ],
+              "material_analysis": "目立った個別ニュースはなく材料難。資材高と住宅需要鈍化の懸念がくすぶる一方、高配当利回りが下値を支える構図です。",
+              "fundamental_summary": "足元の売上高成長率は前年同期比マイナス圏にあり、利益率も0.37%と資材価格高騰の影響を受けて収益性の圧迫が続いています。PERは一時的な利益水準の低下により100倍を超えて割高に見えますが、PBRは3.55倍程度で推移しています。最大の強みは4.6%を超える高い配当利回りであり、株主優待（QUOカード）も含めたインカムゲイン需要が強力な下値支持要因となります。次回決算発表は7月上旬予定であり、当面の決算イベント通過リスクは低めです。",
+              "technical_view": "節目の2,800円を割り込み、心理的節目となる2,700円から2,750円水準の過去の安値支持帯に向けた調整局面となっています。上値は直近の下落起点となった2,900円近辺および各移動平均線が戻り売りの抵抗帯として意識されます。",
+              "watch_points": [
+                "4.6%超の配当利回りを意識したインカム狙いの買いによる2,750円近辺での下げ止まり確認",
+                "月次の受注速報における前年比回復の兆し"
+              ],
+              "valuation_view": "fair",
+              "dividend": {
+                "yield_pct": 4.69,
+                "ex_date": "2027-05-28",
+                "payout_ratio_pct": 5.05
+              },
+              "earnings": {
+                "announcement_date": "2025-07-09",
+                "announcement_date_end": "2025-07-14",
+                "fiscal_year_end": "2027-05-31",
+                "fiscal_month": 5,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Consumer Cyclical",
+                "industry": "Residential Construction",
+                "per": 115.8,
+                "pbr": 3.66,
+                "psr": 0.42,
+                "market_cap_oku": 831,
+                "price_yen": 2865,
+                "target_price_yen": 2600,
+                "target_upside_pct": -9.2,
+                "revenue_growth_pct": -5.1,
+                "profit_margin_pct": 0.37,
+                "roe_pct": 3.01,
+                "debt_to_equity": 140.3
+              },
+              "shareholder_benefit": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "min_shares": 100,
+                "kind": "オリジナルQUOカード 金券",
+                "month": "11",
+                "programs": [
+                  {
+                    "title": "オリジナルQUOカード",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当",
+                        "note": "■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃"
+                      }
+                    ]
+                  }
+                ],
+                "summary": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+                "text": "オリジナルQUOカード 金券。100株以上。権利確定11月\n・100株以上: 【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当（■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃）"
+              }
+            }
+          },
+          {
+            "code": "2379",
+            "name": "ディップ",
+            "mark": "新買",
+            "close": 1666,
+            "quality": {
+              "code": "2379",
+              "stars": 4,
+              "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
+              "risk_factors": [
+                "人材採用市場全体の鈍化に伴う売上回復の遅れ",
+                "中小型グロース・サービス株への資金流出",
+                "高配当利回りを下支えする業績進捗の下振れ懸念"
+              ],
+              "confidence": "medium",
+              "sources": [
+                "https://kabutan.jp/stock/?code=2379"
+              ],
+              "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
+              "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
+              "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
+              "watch_points": [
+                "1,650円の節目での下げ止まりと反発の強さ",
+                "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
+              ],
+              "valuation_view": "cheap",
+              "dividend": {
+                "yield_pct": 5.79,
+                "ex_date": "2027-02-25",
+                "payout_ratio_pct": 1.16
+              },
+              "earnings": {
+                "announcement_date": "2027-01-12",
+                "fiscal_year_end": "2027-02-28",
+                "fiscal_month": 2,
+                "is_estimate": true
+              },
+              "valuation": {
+                "sector": "Communication Services",
+                "industry": "Internet Content & Information",
+                "per": 52.5,
+                "forward_per": 8.3,
+                "pbr": 2.58,
+                "psr": 1.69,
+                "market_cap_oku": 872,
+                "price_yen": 1666,
+                "target_price_yen": 1620,
+                "target_upside_pct": -2.8,
+                "revenue_growth_pct": -9.4,
+                "profit_margin_pct": 3.23,
+                "roe_pct": 4.66,
+                "debt_to_equity": 2.8
+              },
+              "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
+              "shareholder_benefit_detail": {
+                "source": "minkabu",
+                "kind": "オリジナルQUOカード",
+                "month": "2",
+                "yield_pct": "0.60",
+                "min_shares": 100,
+                "programs": [
+                  {
+                    "title": "オリジナルQUOカード",
+                    "tiers": [
+                      {
+                        "shares": "100株以上",
+                        "content": "500円相当（年間1,000円相当）",
+                        "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
+                      },
+                      {
+                        "shares": "500株以上",
+                        "content": "1,000円相当（年間2,000円相当）",
+                        "note": ""
+                      }
+                    ]
+                  }
+                ],
+                "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
+                "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
+              }
+            }
+          },
           {
             "code": "8194",
             "name": "ライフコーポレーション",
             "mark": "新買",
-            "close": 2340,
+            "close": 2354,
             "quality": {
               "code": "8194",
               "stars": 4,
@@ -3476,14 +4046,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.7,
+                "per": 11.8,
                 "forward_per": 6.0,
-                "pbr": 1.26,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 2025,
-                "price_yen": 2341,
+                "market_cap_oku": 2037,
+                "price_yen": 2354,
                 "target_price_yen": 2783,
-                "target_upside_pct": 18.9,
+                "target_upside_pct": 18.2,
                 "revenue_growth_pct": 1.3,
                 "earnings_growth_pct": -6.4,
                 "profit_margin_pct": 2.03,
@@ -3495,7 +4065,7 @@
                 "source": "minkabu",
                 "kind": "自社商品券、PB商品",
                 "month": "2",
-                "yield_pct": "---、配当利回りは2.99",
+                "yield_pct": "---、配当利回りは2.97",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -3582,12 +4152,12 @@
                 "industry": "Engineering & Construction",
                 "per": 16.0,
                 "forward_per": 3.9,
-                "pbr": 2.27,
-                "psr": 2.72,
-                "market_cap_oku": 2428,
-                "price_yen": 1211,
+                "pbr": 2.28,
+                "psr": 2.73,
+                "market_cap_oku": 2432,
+                "price_yen": 1213,
                 "target_price_yen": 1377,
-                "target_upside_pct": 13.7,
+                "target_upside_pct": 13.5,
                 "revenue_growth_pct": -1.5,
                 "earnings_growth_pct": 7.9,
                 "profit_margin_pct": 17.31,
@@ -3637,10 +4207,10 @@
                 "forward_per": 2.8,
                 "pbr": 0.92,
                 "psr": 0.47,
-                "market_cap_oku": 4388,
-                "price_yen": 1906,
+                "market_cap_oku": 4381,
+                "price_yen": 1904,
                 "target_price_yen": 2070,
-                "target_upside_pct": 8.6,
+                "target_upside_pct": 8.7,
                 "revenue_growth_pct": 13.1,
                 "earnings_growth_pct": 5.71,
                 "profit_margin_pct": 7.98,
@@ -3728,14 +4298,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Engineering & Construction",
-                "per": 8.6,
+                "per": 8.7,
                 "forward_per": 17.7,
                 "pbr": 1.24,
                 "psr": 0.59,
-                "market_cap_oku": 2669,
-                "price_yen": 1701,
+                "market_cap_oku": 2676,
+                "price_yen": 1706,
                 "target_price_yen": 1865,
-                "target_upside_pct": 9.6,
+                "target_upside_pct": 9.3,
                 "revenue_growth_pct": 12.4,
                 "earnings_growth_pct": 34.8,
                 "profit_margin_pct": 6.84,
@@ -3785,11 +4355,11 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 12.2,
-                "pbr": 1.32,
+                "per": 12.3,
+                "pbr": 1.33,
                 "psr": 0.41,
-                "market_cap_oku": 2048,
-                "price_yen": 3170,
+                "market_cap_oku": 2061,
+                "price_yen": 3190,
                 "revenue_growth_pct": 6.5,
                 "earnings_growth_pct": -5.2,
                 "profit_margin_pct": 3.32,
@@ -3893,10 +4463,10 @@
                 "pbr": 2.98,
                 "psr": 3.34,
                 "peg": 3.21,
-                "market_cap_oku": 10575,
-                "price_yen": 2932,
+                "market_cap_oku": 10570,
+                "price_yen": 2930,
                 "target_price_yen": 2856,
-                "target_upside_pct": -2.6,
+                "target_upside_pct": -2.5,
                 "revenue_growth_pct": 32.3,
                 "earnings_growth_pct": 1.76,
                 "profit_margin_pct": 12.01,
@@ -4071,14 +4641,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 16.9,
+                "per": 17.1,
                 "forward_per": 3.5,
-                "pbr": 1.09,
-                "psr": 0.45,
-                "market_cap_oku": 9795,
-                "price_yen": 2159,
+                "pbr": 1.1,
+                "psr": 0.46,
+                "market_cap_oku": 9867,
+                "price_yen": 2175,
                 "target_price_yen": 2613,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.1,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -4155,15 +4725,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 16.0,
+                "per": 16.1,
                 "forward_per": 16.4,
-                "pbr": 1.99,
-                "psr": 4.13,
+                "pbr": 2.0,
+                "psr": 4.15,
                 "peg": 1.79,
-                "market_cap_oku": 21310,
-                "price_yen": 2736,
+                "market_cap_oku": 21392,
+                "price_yen": 2746,
                 "target_price_yen": 2971,
-                "target_upside_pct": 8.6,
+                "target_upside_pct": 8.2,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": 80.4,
                 "profit_margin_pct": 26.35,
@@ -4217,13 +4787,13 @@
                 "sector": "Financial Services",
                 "industry": "Credit Services",
                 "per": 12.5,
-                "forward_per": 6.6,
+                "forward_per": 6.5,
                 "pbr": 1.69,
-                "psr": 6.96,
-                "market_cap_oku": 4108,
-                "price_yen": 3087,
+                "psr": 6.95,
+                "market_cap_oku": 4104,
+                "price_yen": 3084,
                 "target_price_yen": 3680,
-                "target_upside_pct": 19.2,
+                "target_upside_pct": 19.3,
                 "revenue_growth_pct": 2.5,
                 "earnings_growth_pct": 10.9,
                 "profit_margin_pct": 56.05,
@@ -4274,10 +4844,10 @@
                 "forward_per": 8.3,
                 "pbr": 0.96,
                 "psr": 0.41,
-                "market_cap_oku": 14442,
-                "price_yen": 2102,
+                "market_cap_oku": 14456,
+                "price_yen": 2104,
                 "target_price_yen": 2569,
-                "target_upside_pct": 22.2,
+                "target_upside_pct": 22.1,
                 "revenue_growth_pct": 6.8,
                 "earnings_growth_pct": 27.4,
                 "profit_margin_pct": 4.09,
@@ -4325,14 +4895,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 8.1,
+                "per": 8.2,
                 "forward_per": 2.5,
                 "pbr": 0.82,
                 "psr": 0.38,
-                "market_cap_oku": 1868,
-                "price_yen": 1548,
+                "market_cap_oku": 1888,
+                "price_yen": 1564,
                 "target_price_yen": 2000,
-                "target_upside_pct": 29.2,
+                "target_upside_pct": 27.9,
                 "revenue_growth_pct": 10.7,
                 "earnings_growth_pct": -23.4,
                 "profit_margin_pct": 5.1,
@@ -4383,10 +4953,10 @@
                 "forward_per": 2.9,
                 "pbr": 1.04,
                 "psr": 0.1,
-                "market_cap_oku": 1210,
-                "price_yen": 1032,
+                "market_cap_oku": 1212,
+                "price_yen": 1034,
                 "target_price_yen": 1231,
-                "target_upside_pct": 19.3,
+                "target_upside_pct": 19.1,
                 "revenue_growth_pct": 16.7,
                 "earnings_growth_pct": 45.6,
                 "profit_margin_pct": 5.6,
@@ -4398,7 +4968,7 @@
                 "source": "minkabu",
                 "kind": "自社製品、イベント招待",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.39",
+                "yield_pct": "---、配当利回りは3.38",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -4476,14 +5046,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.7,
+                "per": 17.9,
                 "forward_per": 7.4,
-                "pbr": 1.59,
-                "psr": 1.22,
-                "market_cap_oku": 4359,
-                "price_yen": 2544,
+                "pbr": 1.6,
+                "psr": 1.23,
+                "market_cap_oku": 4391,
+                "price_yen": 2564,
                 "target_price_yen": 2811,
-                "target_upside_pct": 10.5,
+                "target_upside_pct": 9.6,
                 "revenue_growth_pct": 6.3,
                 "earnings_growth_pct": -7.6,
                 "profit_margin_pct": 9.26,
@@ -4516,9 +5086,9 @@
       },
       {
         "date": "2026-10-02",
-        "pnl": -11800,
+        "pnl": -12100,
         "new_buy_count": 3,
-        "sellback_count": 5,
+        "sellback_count": 4,
         "new_buy": [
           {
             "code": "1662",
@@ -4560,13 +5130,6 @@
             "mark": "返売",
             "close": 2243,
             "pnl": -1900
-          },
-          {
-            "code": "5108",
-            "name": "ブリヂストン",
-            "mark": "返売",
-            "close": 3780,
-            "pnl": 300
           },
           {
             "code": "6254",
@@ -4622,14 +5185,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 15.5,
-                "forward_per": 16.0,
-                "pbr": 2.03,
-                "psr": 2.18,
-                "market_cap_oku": 5893,
-                "price_yen": 2643,
+                "per": 15.6,
+                "forward_per": 16.1,
+                "pbr": 2.04,
+                "psr": 2.2,
+                "market_cap_oku": 5949,
+                "price_yen": 2668,
                 "target_price_yen": 3620,
-                "target_upside_pct": 37.0,
+                "target_upside_pct": 35.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -4783,7 +5346,7 @@
       {
         "date": "2026-09-11",
         "pnl": -6000,
-        "new_buy_count": 7,
+        "new_buy_count": 6,
         "sellback_count": 1,
         "new_buy": [
           {
@@ -4791,12 +5354,6 @@
             "name": "日本新薬",
             "mark": "新買",
             "close": 3386
-          },
-          {
-            "code": "5108",
-            "name": "ブリヂストン",
-            "mark": "新買",
-            "close": 3777
           },
           {
             "code": "5110",
@@ -5028,14 +5585,14 @@
               "valuation": {
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
-                "per": 5.4,
+                "per": 5.5,
                 "forward_per": 6.0,
                 "pbr": 1.27,
                 "psr": 0.24,
-                "market_cap_oku": 969,
-                "price_yen": 3120,
+                "market_cap_oku": 970,
+                "price_yen": 3125,
                 "target_price_yen": 4900,
-                "target_upside_pct": 57.1,
+                "target_upside_pct": 56.8,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -5047,7 +5604,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.81",
+                "yield_pct": "---、配当利回りは4.80",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -5169,14 +5726,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.0,
+                "per": 17.1,
                 "forward_per": 3.5,
-                "pbr": 1.09,
-                "psr": 0.45,
-                "market_cap_oku": 9799,
-                "price_yen": 2160,
+                "pbr": 1.1,
+                "psr": 0.46,
+                "market_cap_oku": 9867,
+                "price_yen": 2175,
                 "target_price_yen": 2613,
-                "target_upside_pct": 21.0,
+                "target_upside_pct": 20.1,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -5343,8 +5900,8 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -0.57,
-    "new_buy_count": 1,
+    "market_return_20d": -0.54,
+    "new_buy_count": 3,
     "rsi_oversold_count": 1,
     "exit_rsi": 70.0,
     "etf_rsi": {
@@ -5355,6 +5912,152 @@
     "signal": null
   },
   "quality": {
+    "1419": {
+      "code": "1419",
+      "stars": 3,
+      "background": "国内の住宅着工戸数の伸び悩みや建築資材価格の高止まり、長期金利の上昇懸念などを背景に、戸建て住宅セクター全体への警戒感が重荷となっています。個別での新たな悪材料発表はないものの、セクター全般の軟調な地合いに押される形で下値を模索する展開が続いています。",
+      "risk_factors": [
+        "建築資材価格の高止まりおよび労務費上昇による採算性悪化の長期化",
+        "国内長期金利上昇に伴う住宅ローン金利上昇と注文住宅需要の減退",
+        "業績低迷に伴う将来的な減配リスク（配当維持方針の後退）"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://www.tamahome.jp/ir/"
+      ],
+      "material_analysis": "目立った個別ニュースはなく材料難。資材高と住宅需要鈍化の懸念がくすぶる一方、高配当利回りが下値を支える構図です。",
+      "fundamental_summary": "足元の売上高成長率は前年同期比マイナス圏にあり、利益率も0.37%と資材価格高騰の影響を受けて収益性の圧迫が続いています。PERは一時的な利益水準の低下により100倍を超えて割高に見えますが、PBRは3.55倍程度で推移しています。最大の強みは4.6%を超える高い配当利回りであり、株主優待（QUOカード）も含めたインカムゲイン需要が強力な下値支持要因となります。次回決算発表は7月上旬予定であり、当面の決算イベント通過リスクは低めです。",
+      "technical_view": "節目の2,800円を割り込み、心理的節目となる2,700円から2,750円水準の過去の安値支持帯に向けた調整局面となっています。上値は直近の下落起点となった2,900円近辺および各移動平均線が戻り売りの抵抗帯として意識されます。",
+      "watch_points": [
+        "4.6%超の配当利回りを意識したインカム狙いの買いによる2,750円近辺での下げ止まり確認",
+        "月次の受注速報における前年比回復の兆し"
+      ],
+      "valuation_view": "fair",
+      "dividend": {
+        "yield_pct": 4.69,
+        "ex_date": "2027-05-28",
+        "payout_ratio_pct": 5.05
+      },
+      "earnings": {
+        "announcement_date": "2025-07-09",
+        "announcement_date_end": "2025-07-14",
+        "fiscal_year_end": "2027-05-31",
+        "fiscal_month": 5,
+        "is_estimate": true
+      },
+      "valuation": {
+        "sector": "Consumer Cyclical",
+        "industry": "Residential Construction",
+        "per": 115.8,
+        "pbr": 3.66,
+        "psr": 0.42,
+        "market_cap_oku": 831,
+        "price_yen": 2865,
+        "target_price_yen": 2600,
+        "target_upside_pct": -9.2,
+        "revenue_growth_pct": -5.1,
+        "profit_margin_pct": 0.37,
+        "roe_pct": 3.01,
+        "debt_to_equity": 140.3
+      },
+      "shareholder_benefit": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "min_shares": 100,
+        "kind": "オリジナルQUOカード 金券",
+        "month": "11",
+        "programs": [
+          {
+            "title": "オリジナルQUOカード",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当",
+                "note": "■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃"
+              }
+            ]
+          }
+        ],
+        "summary": "オリジナルQUOカード 金券。100株以上。権利確定11月。",
+        "text": "オリジナルQUOカード 金券。100株以上。権利確定11月\n・100株以上: 【3年未満保有株主】 2,000円相当 【3年以上保有株主】 4,000円相当（■継続保有期間について 株式取得日を始期とさせていただきます。株主名簿に記載されている株主番号が変更されると、保有期間が中断されてしまいますのでご注意ください。 ■贈呈時期 1月下旬頃）"
+      }
+    },
+    "2379": {
+      "code": "2379",
+      "stars": 4,
+      "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
+      "risk_factors": [
+        "人材採用市場全体の鈍化に伴う売上回復の遅れ",
+        "中小型グロース・サービス株への資金流出",
+        "高配当利回りを下支えする業績進捗の下振れ懸念"
+      ],
+      "confidence": "medium",
+      "sources": [
+        "https://kabutan.jp/stock/?code=2379"
+      ],
+      "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
+      "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
+      "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
+      "watch_points": [
+        "1,650円の節目での下げ止まりと反発の強さ",
+        "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
+      ],
+      "valuation_view": "cheap",
+      "dividend": {
+        "yield_pct": 5.79,
+        "ex_date": "2027-02-25",
+        "payout_ratio_pct": 1.16
+      },
+      "earnings": {
+        "announcement_date": "2027-01-12",
+        "fiscal_year_end": "2027-02-28",
+        "fiscal_month": 2,
+        "is_estimate": true
+      },
+      "valuation": {
+        "sector": "Communication Services",
+        "industry": "Internet Content & Information",
+        "per": 52.5,
+        "forward_per": 8.3,
+        "pbr": 2.58,
+        "psr": 1.69,
+        "market_cap_oku": 872,
+        "price_yen": 1666,
+        "target_price_yen": 1620,
+        "target_upside_pct": -2.8,
+        "revenue_growth_pct": -9.4,
+        "profit_margin_pct": 3.23,
+        "roe_pct": 4.66,
+        "debt_to_equity": 2.8
+      },
+      "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
+      "shareholder_benefit_detail": {
+        "source": "minkabu",
+        "kind": "オリジナルQUOカード",
+        "month": "2",
+        "yield_pct": "0.60",
+        "min_shares": 100,
+        "programs": [
+          {
+            "title": "オリジナルQUOカード",
+            "tiers": [
+              {
+                "shares": "100株以上",
+                "content": "500円相当（年間1,000円相当）",
+                "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
+              },
+              {
+                "shares": "500株以上",
+                "content": "1,000円相当（年間2,000円相当）",
+                "note": ""
+              }
+            ]
+          }
+        ],
+        "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
+        "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
+      }
+    },
     "8194": {
       "code": "8194",
       "stars": 4,
@@ -5392,14 +6095,14 @@
       "valuation": {
         "sector": "Consumer Defensive",
         "industry": "Grocery Stores",
-        "per": 11.7,
+        "per": 11.8,
         "forward_per": 6.0,
-        "pbr": 1.26,
+        "pbr": 1.27,
         "psr": 0.23,
-        "market_cap_oku": 2025,
-        "price_yen": 2341,
+        "market_cap_oku": 2037,
+        "price_yen": 2354,
         "target_price_yen": 2783,
-        "target_upside_pct": 18.9,
+        "target_upside_pct": 18.2,
         "revenue_growth_pct": 1.3,
         "earnings_growth_pct": -6.4,
         "profit_margin_pct": 2.03,
@@ -5411,7 +6114,7 @@
         "source": "minkabu",
         "kind": "自社商品券、PB商品",
         "month": "2",
-        "yield_pct": "---、配当利回りは2.99",
+        "yield_pct": "---、配当利回りは2.97",
         "min_shares": 100,
         "programs": [
           {
@@ -5475,10 +6178,10 @@
         "forward_per": 8.3,
         "pbr": 0.96,
         "psr": 0.41,
-        "market_cap_oku": 14446,
-        "price_yen": 2102,
+        "market_cap_oku": 14456,
+        "price_yen": 2104,
         "target_price_yen": 2569,
-        "target_upside_pct": 22.2,
+        "target_upside_pct": 22.1,
         "revenue_growth_pct": 6.8,
         "earnings_growth_pct": 27.4,
         "profit_margin_pct": 4.09,
