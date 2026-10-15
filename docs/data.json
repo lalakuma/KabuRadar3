@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:03:03+09:00",
+  "generated_at": "2026-10-15T21:14:51+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -866,7 +866,7 @@
           "dividend": {
             "yield_pct": 5.79,
             "ex_date": "2027-02-25",
-            "payout_ratio_pct": 1.16
+            "payout_ratio_pct": 3.03
           },
           "earnings": {
             "announcement_date": "2027-01-12",
@@ -966,7 +966,7 @@
           "valuation": {
             "sector": "Consumer Defensive",
             "industry": "Grocery Stores",
-            "per": 11.8,
+            "per": 11.3,
             "forward_per": 6.0,
             "pbr": 1.27,
             "psr": 0.23,
@@ -1080,198 +1080,7 @@
     ],
     "new_buy_count": 3,
     "rsi_oversold_count": 1,
-    "recommended": [
-      {
-        "code": "2379",
-        "name": "ディップ",
-        "mark": "新買",
-        "close": 1666,
-        "rsi": 12.54,
-        "rci": -76.67,
-        "rci_turn": true,
-        "quality": {
-          "code": "2379",
-          "stars": 4,
-          "background": "直近で固有の突発的悪材料は出ていないものの、求人広告・人材セクター全般の採用需要動向への警戒感や中小型株の地合い悪化に押され下落基調が続いています。業績の急激な悪化というよりは需給面での売りが先行した結果であり、短期的には行き過ぎた下値模索の展開となっています。",
-          "risk_factors": [
-            "人材採用市場全体の鈍化に伴う売上回復の遅れ",
-            "中小型グロース・サービス株への資金流出",
-            "高配当利回りを下支えする業績進捗の下振れ懸念"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://kabutan.jp/stock/?code=2379"
-          ],
-          "material_analysis": "直近で開示された固有の悪材料は見当たらず、セクター全体の環境懸念や需給要因による連れ安と判断されます。",
-          "fundamental_summary": "予想PERは約8倍台と割安圏に位置しており、配当利回りも5%台半ばと極めて高水準で強力な下値支持要因となります。年2回のQUOカード株主優待も個人投資家の保有インセンティブとして機能しています。売上成長の一服感は見られるものの、本業の収益力や財務基盤は健全に保たれており、致命的な業績毀損は見られません。インカム面での妙味と指標面の割安感から、下値リスクは限定的と考えられます。",
-          "technical_view": "節目となる1,650円前後の水準が心理的サポートとして機能しやすい位置にあり、反発時は1,750円付近の過去の保ち合い下限や主要移動平均線が戻り売りの抵抗帯として意識されます。",
-          "watch_points": [
-            "1,650円の節目での下げ止まりと反発の強さ",
-            "高配当利回りを背景としたインカム狙い・押し目買いの流入状況"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "yield_pct": 5.79,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 1.16
-          },
-          "earnings": {
-            "announcement_date": "2027-01-12",
-            "fiscal_year_end": "2027-02-28",
-            "fiscal_month": 2,
-            "is_estimate": true
-          },
-          "valuation": {
-            "sector": "Communication Services",
-            "industry": "Internet Content & Information",
-            "per": 52.5,
-            "forward_per": 8.3,
-            "pbr": 2.58,
-            "psr": 1.69,
-            "market_cap_oku": 872,
-            "price_yen": 1666,
-            "target_price_yen": 1620,
-            "target_upside_pct": -2.8,
-            "revenue_growth_pct": -9.4,
-            "profit_margin_pct": 3.23,
-            "roe_pct": 4.66,
-            "debt_to_equity": 2.8
-          },
-          "shareholder_benefit": "オリジナルQUOカード。100株以上。権利確定2月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "オリジナルQUOカード",
-            "month": "2",
-            "yield_pct": "0.60",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "オリジナルQUOカード",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "500円相当（年間1,000円相当）",
-                    "note": "■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。"
-                  },
-                  {
-                    "shares": "500株以上",
-                    "content": "1,000円相当（年間2,000円相当）",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "オリジナルQUOカード。100株以上。権利確定2月。",
-            "text": "オリジナルQUOカード。100株以上。権利確定2月\n・100株以上: 500円相当（年間1,000円相当）（■贈呈時期 期末：定時株主総会終了後、期末配当金領収証と共に発送。 中間期：中間配当金領収証と共に発送。）\n・500株以上: 1,000円相当（年間2,000円相当）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true,
-        "recommended": true
-      },
-      {
-        "code": "8194",
-        "name": "ライフコーポレーション",
-        "mark": "新買",
-        "close": 2354,
-        "rsi": 25.84,
-        "rci": -96.67,
-        "rci_turn": true,
-        "quality": {
-          "code": "8194",
-          "stars": 4,
-          "background": "直近で企業固有の悪材料は出ておらず、内需・ディフェンシブセクター全般に対する利益確定売りや市場全体の地合い悪化による連れ安が主因と考えられます。人件費や物流コスト上昇への警戒感から一時的に売りが先行しているものの、過剰な売られすぎ水準まで押し込まれています。",
-          "risk_factors": [
-            "人件費や光熱費・物流コストのさらなる上昇による粗利率の悪化",
-            "消費者の節約志向の高まりに伴う客単価の下落圧力",
-            "内需株から主力大型株・景気敏感株への資金シフト継続"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.lifecorp.jp/ir/",
-            "https://minkabu.jp/stock/8194"
-          ],
-          "material_analysis": "目立った個別悪材料は確認されず、突発的な悪化懸念よりもセクター調整に伴う需給要因が色濃い状況です。",
-          "fundamental_summary": "食品スーパー国内最大手として、PB商品「スマイルライフ」等の強化により堅実な収益基盤と高いブランド力を誇ります。実績PERは11倍台、予想PERベースでは6倍前後と極めて割安な水準に放置されており、PBRも1.2倍台と下値抵抗力が期待できます。ROEは11.83%とセクター内でも良好な資本効率を維持しており、配当利回り約2.9%に加えて株主優待制度も下支え要因となります。次回決算（1Q）発表予想まで時間的な余裕があり、直近の決算跨ぎリスクが低い点も短期反発狙いには好条件です。",
-          "technical_view": "2,300円の心理的節目近辺まで下押しており、過去の保ち合い下限に接近してリバウンドが意識されやすい水準です。戻り局面では直前の揉み合い水準である2,450円から2,500円付近が目先の抵抗帯として意識されます。",
-          "watch_points": [
-            "2,300円の節目水準を割り込まずに下ヒゲ等で底打ちを確認できるか",
-            "既存店売上高の推移やPB商品比率の向上による採算維持状況"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "yield_pct": 3.04,
-            "ex_date": "2027-02-25",
-            "payout_ratio_pct": 30.93
-          },
-          "earnings": {
-            "announcement_date": "2025-07-07",
-            "announcement_date_end": "2025-07-11",
-            "fiscal_year_end": "2027-02-28",
-            "fiscal_month": 2,
-            "is_estimate": true
-          },
-          "valuation": {
-            "sector": "Consumer Defensive",
-            "industry": "Grocery Stores",
-            "per": 11.8,
-            "forward_per": 6.0,
-            "pbr": 1.27,
-            "psr": 0.23,
-            "market_cap_oku": 2037,
-            "price_yen": 2354,
-            "target_price_yen": 2783,
-            "target_upside_pct": 18.2,
-            "revenue_growth_pct": 1.3,
-            "earnings_growth_pct": -6.4,
-            "profit_margin_pct": 2.03,
-            "roe_pct": 11.83,
-            "debt_to_equity": 30.7
-          },
-          "shareholder_benefit": "自社商品券、PB商品。100株以上。権利確定2月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社商品券、PB商品",
-            "month": "2",
-            "yield_pct": "---、配当利回りは2.97",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "商品券、商品詰合せ、寄付※長期保有者向け",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【1年以上保有】 2,000円相当 【3年以上保有】 3,000円相当",
-                    "note": "◇以下より、いずれかを選択 1、ライフ商品券 2、ライフプライベートブランド商品詰合せセット 3、社会貢献活動団体へ寄付 ■継続保有期間について 基準日（毎年２月末日）の当社株主名簿に記載または記録されており、所定の年数以上継続して当社株式を保有（毎年２月末日、８月末日時点の当社株主名簿に同一の株主番号で所定の回数以上連続して記載または記録）されていることといたします。 1年以上継続保有：連続して3回以上 3年以上継続保有：連続して7回以上 ■贈呈時期 毎年8月上旬から順次"
-                  },
-                  {
-                    "shares": "500株以上",
-                    "content": "【1年以上保有】 3,000円相当 【3年以上保有】 4,000円相当",
-                    "note": ""
-                  },
-                  {
-                    "shares": "1,000株以上",
-                    "content": "【1年以上保有】 5,000円相当 【3年以上保有】 6,000円相当",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "自社商品券、PB商品。100株以上。権利確定2月。",
-            "text": "自社商品券、PB商品。100株以上。権利確定2月\n【商品券、商品詰合せ、寄付※長期保有者向け】\n・100株以上: 【1年以上保有】 2,000円相当 【3年以上保有】 3,000円相当（◇以下より、いずれかを選択 1、ライフ商品券 2、ライフプライベートブランド商品詰合せセット 3、社会貢献活動団体へ寄付 ■継続保有期間について 基準日（毎年２月末日）の当社株主名簿に記載または記録されており、所定の年数以上継続して当社株式を保有（毎年２月末日、８月末日時点の当社株主名簿に同一の株主番号で所定の回数以上連続して記載または記録）されていることといたします。 1年以上継続保有：連続して3回以上 3年以上継続保有：連続して7回以上 ■贈呈時期 毎年8月上旬から順次）\n・500株以上: 【1年以上保有】 3,000円相当 【3年以上保有】 4,000円相当\n・1,000株以上: 【1年以上保有】 5,000円相当 【3年以上保有】 6,000円相当"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true,
-        "recommended": true
-      }
-    ],
-    "pick_meta": {
-      "method": "stars",
-      "routing": "stocks",
-      "count": 2,
-      "min_stars": 4
-    }
+    "recommended": []
   },
   "daily": {
     "days": [
@@ -1386,7 +1195,7 @@
               "dividend": {
                 "yield_pct": 5.79,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 1.16
+                "payout_ratio_pct": 3.03
               },
               "earnings": {
                 "announcement_date": "2027-01-12",
@@ -1481,7 +1290,7 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.8,
+                "per": 11.3,
                 "forward_per": 6.0,
                 "pbr": 1.27,
                 "psr": 0.23,
@@ -2066,7 +1875,7 @@
               "dividend": {
                 "yield_pct": 2.28,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 38.74
+                "payout_ratio_pct": 36.89
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -3417,7 +3226,7 @@
               "dividend": {
                 "yield_pct": 2.28,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 38.74
+                "payout_ratio_pct": 36.89
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -3951,7 +3760,7 @@
               "dividend": {
                 "yield_pct": 5.79,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 1.16
+                "payout_ratio_pct": 3.03
               },
               "earnings": {
                 "announcement_date": "2027-01-12",
@@ -4046,7 +3855,7 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.8,
+                "per": 11.3,
                 "forward_per": 6.0,
                 "pbr": 1.27,
                 "psr": 0.23,
@@ -4631,7 +4440,7 @@
               "dividend": {
                 "yield_pct": 2.28,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 38.74
+                "payout_ratio_pct": 36.89
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -5716,7 +5525,7 @@
               "dividend": {
                 "yield_pct": 2.28,
                 "ex_date": "2027-02-25",
-                "payout_ratio_pct": 38.74
+                "payout_ratio_pct": 36.89
               },
               "earnings": {
                 "announcement_date": "2027-01-08",
@@ -6006,7 +5815,7 @@
       "dividend": {
         "yield_pct": 5.79,
         "ex_date": "2027-02-25",
-        "payout_ratio_pct": 1.16
+        "payout_ratio_pct": 3.03
       },
       "earnings": {
         "announcement_date": "2027-01-12",
@@ -6095,7 +5904,7 @@
       "valuation": {
         "sector": "Consumer Defensive",
         "industry": "Grocery Stores",
-        "per": 11.8,
+        "per": 11.3,
         "forward_per": 6.0,
         "pbr": 1.27,
         "psr": 0.23,
