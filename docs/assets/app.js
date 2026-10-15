@@ -20,7 +20,11 @@ function escapeHtml(text) {
 }
 
 function starsLabel(n) {
-  const v = Math.max(1, Math.min(5, Number(n) || 3));
+  // LINE 通知と同じ: 数値がないときは空（勝手に★3にしない）
+  if (n == null || n === "") return "";
+  const num = Number(n);
+  if (!Number.isFinite(num)) return "";
+  const v = Math.max(1, Math.min(5, Math.round(num)));
   return "★".repeat(v) + "☆".repeat(5 - v);
 }
 
@@ -361,8 +365,9 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
         ? `<span class="signal-flags">${flags.map(escapeHtml).join(" · ")}</span>`
         : "";
       const q = row.quality;
-      const qualityHtml = q
-        ? `<span class="signal-quality">${starsLabel(q.stars)}</span>`
+      const starText = q ? starsLabel(q.stars) : "";
+      const qualityHtml = starText
+        ? `<span class="signal-quality">${starText}</span>`
         : "";
       const hint = clickable
         ? `<span class="signal-hint" aria-hidden="true">詳細 ›</span>`
@@ -558,7 +563,6 @@ function renderRuntimeSettings(runtime) {
     ["特別買い", sb.enabled ? "ON" : "OFF"],
     ["広がりしきい値", `RSI10未満 ${sb.min_new_buy_count} 件以上 → ETF（地合条件あり）`],
     ["地合ETF閾値", `20日リターン ≥ ${sb.market_regime_min_pct ?? -15}%`],
-    ["銘柄自動選定", `${sb.pick_method || "stars"} / ${sb.pick_count ?? 2}件（★${sb.pick_min_stars ?? 4}以上）`],
     ["既定 ETF", sb.etf_default],
     ["利確 RSI", `≥ ${sb.exit_rsi}`],
     ["Gemini 評価", gr.enabled ? "ON" : "OFF"],
@@ -599,11 +603,12 @@ function renderList(symbols) {
   list.innerHTML = symbols
     .map((s) => {
       const ic = incomeClass(s.incomes);
+      const notify = s.last_notify_date || "—";
       return `<li class="item">
         <span class="code">${s.code}<span class="badge">${s.winlose}</span></span>
         <span class="income ${ic}">${formatIncome(s.incomes)}</span>
         <span class="name">${escapeHtml(s.name)}</span>
-        <span class="meta">PF ${s.pf} · 勝率 ${s.win_per}%</span>
+        <span class="meta">通知 ${escapeHtml(notify)} · PF ${s.pf} · 勝率 ${s.win_per}%</span>
       </li>`;
     })
     .join("");
@@ -614,12 +619,24 @@ function sortSymbols(symbols, mode) {
   switch (mode) {
     case "incomes-asc":
       return copy.sort((a, b) => a.incomes - b.incomes);
+    case "incomes-desc":
+      return copy.sort((a, b) => b.incomes - a.incomes);
     case "pf-desc":
       return copy.sort((a, b) => b.pf - a.pf);
     case "code-asc":
       return copy.sort((a, b) => a.code.localeCompare(b.code, "ja"));
+    case "notify-desc":
     default:
-      return copy.sort((a, b) => b.incomes - a.incomes);
+      return copy.sort((a, b) => {
+        const ad = a.last_notify_date || "";
+        const bd = b.last_notify_date || "";
+        if (ad !== bd) {
+          if (!ad) return 1;
+          if (!bd) return -1;
+          return bd.localeCompare(ad);
+        }
+        return b.incomes - a.incomes;
+      });
   }
 }
 
@@ -709,25 +726,6 @@ async function init() {
     today.new_buy?.length ?? today.new_buy_count ?? 0,
   );
   document.getElementById("sellback-count").textContent = String(today.sellback?.length ?? 0);
-
-  const recBlock = document.getElementById("recommended-block");
-  const recommended = today.recommended || [];
-  const routing = data.special?.routing;
-  if (recommended.length > 0 && routing !== "etf") {
-    recBlock.hidden = false;
-    document.getElementById("recommended-count").textContent = String(recommended.length);
-    const meta = today.pick_meta || {};
-    document.getElementById("recommended-meta").textContent =
-      `選定: ${meta.method || "stars"}（★${meta.min_stars ?? 4}以上 → 高い順、同点はRSI低）`;
-    renderSignalRows(
-      document.getElementById("today-recommended"),
-      recommended,
-      "",
-      { clickable: true },
-    );
-  } else {
-    recBlock.hidden = true;
-  }
 
   renderSignalRows(document.getElementById("today-buy"), today.new_buy, "本日の新買はありません", {
     clickable: true,

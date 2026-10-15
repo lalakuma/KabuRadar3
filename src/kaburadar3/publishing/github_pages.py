@@ -35,8 +35,7 @@ def _ensure_env_loaded() -> None:
 
 from kaburadar3.qualitative.rater import load_cache, rate_signals
 from kaburadar3.qualitative.rating_history import attach_quality_to_daily
-from kaburadar3.signals.daily_history import collect_daily_history
-from kaburadar3.signals.picker import attach_recommended_picks
+from kaburadar3.signals.daily_history import attach_last_notify_dates, collect_daily_history
 from kaburadar3.signals.special import apply_special_buy
 from kaburadar3.signals.today import collect_today_signals
 
@@ -106,6 +105,7 @@ def build_payload() -> dict:
     runtime = load_runtime_config()
     today = collect_today_signals(RESULTS_DIR, name_map)
     daily = collect_daily_history(RESULTS_DIR, name_map)
+    attach_last_notify_dates(symbols, daily)
     special, _state, special_lines = apply_special_buy(
         today.get("trade_date"),
         int(today.get("rsi_oversold_count", 0)),
@@ -126,12 +126,15 @@ def build_payload() -> dict:
     for key in ("new_buy", "sellback"):
         for item in today.get(key, []):
             code = str(item.get("code", ""))
-            if code in quality:
-                item["quality"] = quality[code]
+            q = quality.get(code)
+            if q and not str(q.get("background") or "").startswith("AI評価不可"):
+                item["quality"] = q
             item["rsi_ok"] = item.get("rsi") is not None and item.get("rsi", 99) <= 10
             item["rci_ok"] = item.get("rci_turn") is True
 
-    attach_recommended_picks(today, special, runtime)
+    # Web には推奨銘柄（自動選定）を出さない
+    today["recommended"] = []
+    today.pop("pick_meta", None)
 
     meta = _parse_summary_filename(summary_csv)
     wins = sum(1 for s in symbols if "W1" in s["winlose"] or "W2" in s["winlose"])
@@ -207,12 +210,15 @@ def push_to_github(payload: dict) -> int:
             check=False,
         )
 
-    add = _run_git(["add", "docs/data.json"])
+    # data.json に加え、Pages 用 HTML/JS も同梱（UI 変更が gh-pages に乗らない事故を防ぐ）
+    add = _run_git(["add", "docs/data.json", "docs/index.html", "docs/assets"])
     if add.returncode != 0:
         print(add.stderr or add.stdout)
         return add.returncode
 
-    diff = _run_git(["diff", "--cached", "--quiet", "docs/data.json"])
+    diff = _run_git(
+        ["diff", "--cached", "--quiet", "--", "docs/data.json", "docs/index.html", "docs/assets"]
+    )
     if diff.returncode == 0:
         print("変更なし: push をスキップしました。")
         return 0

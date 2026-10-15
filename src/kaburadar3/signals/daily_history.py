@@ -92,3 +92,33 @@ def collect_daily_history(
         )
     buy_days = [d for d in days if d["new_buy_count"] > 0]
     return {"days": days, "buy_days": buy_days}
+
+
+def last_notify_dates_by_code(daily: dict) -> dict[str, str]:
+    """銘柄コード → 直近の新買/返売り日（LINE 通知対象日）。days は新しい順前提。"""
+    latest: dict[str, str] = {}
+    for day in daily.get("days") or []:
+        date = str(day.get("date") or "").strip()
+        if not date:
+            continue
+        for key in ("new_buy", "sellback"):
+            for item in day.get(key) or []:
+                code = str(item.get("code") or "").strip()
+                if code and code not in latest:
+                    latest[code] = date
+    return latest
+
+
+def attach_last_notify_dates(symbols: list[dict], daily: dict) -> None:
+    """損益一覧用に last_notify_date を付与し、通知日の新しい順で並べ替える。"""
+    latest = last_notify_dates_by_code(daily)
+    for row in symbols:
+        row["last_notify_date"] = latest.get(str(row.get("code") or "").strip())
+    symbols.sort(
+        key=lambda r: (
+            r.get("last_notify_date") is not None,
+            r.get("last_notify_date") or "",
+            int(r.get("incomes") or 0),
+        ),
+        reverse=True,
+    )

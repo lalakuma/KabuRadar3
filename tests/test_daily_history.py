@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 
 from kaburadar3.settings.encoding import CSV_ENCODING
-from kaburadar3.signals.daily_history import collect_daily_history
+from kaburadar3.signals.daily_history import attach_last_notify_dates, collect_daily_history
 
 
 def _write_code_csv(path: Path, rows: list[tuple]) -> None:
@@ -50,3 +50,31 @@ def test_ignores_zero_close_signals(tmp_path: Path) -> None:
     result = collect_daily_history(tmp_path)
     assert result["days"][0]["new_buy_count"] == 0
     assert result["buy_days"] == []
+
+
+def test_attach_last_notify_dates_sorts_newest_first() -> None:
+    daily = {
+        "days": [
+            {
+                "date": "2026-10-15",
+                "new_buy": [{"code": "1419"}],
+                "sellback": [{"code": "7202"}],
+            },
+            {
+                "date": "2026-10-14",
+                "new_buy": [{"code": "1414"}],
+                "sellback": [],
+            },
+        ]
+    }
+    symbols = [
+        {"code": "1414", "incomes": 100},
+        {"code": "9999", "incomes": 9999},
+        {"code": "1419", "incomes": 50},
+        {"code": "7202", "incomes": 10},
+    ]
+    attach_last_notify_dates(symbols, daily)
+    assert [s["code"] for s in symbols] == ["1419", "7202", "1414", "9999"]
+    assert symbols[0]["last_notify_date"] == "2026-10-15"
+    assert symbols[2]["last_notify_date"] == "2026-10-14"
+    assert symbols[3]["last_notify_date"] is None
