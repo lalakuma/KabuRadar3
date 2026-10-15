@@ -137,6 +137,12 @@ body {
   text-align: right;
 }
 
+.item .notify-date {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: left;
+}
+
 .item .meta {
   font-size: 0.75rem;
   color: var(--muted);

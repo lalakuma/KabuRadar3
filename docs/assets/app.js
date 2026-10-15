@@ -608,7 +608,8 @@ function renderList(symbols) {
         <span class="code">${s.code}<span class="badge">${s.winlose}</span></span>
         <span class="income ${ic}">${formatIncome(s.incomes)}</span>
         <span class="name">${escapeHtml(s.name)}</span>
-        <span class="meta">通知 ${escapeHtml(notify)} · PF ${s.pf} · 勝率 ${s.win_per}%</span>
+        <span class="notify-date">通知 ${escapeHtml(notify)}</span>
+        <span class="meta">PF ${s.pf} · 勝率 ${s.win_per}%</span>
       </li>`;
     })
     .join("");
