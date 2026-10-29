@@ -76,6 +76,12 @@ def append_signal_ratings(
             "confidence": str(rating.get("confidence", "medium")),
             "model": model or "",
         }
+        pattern = str(rating.get("drop_pattern") or "").strip()
+        if pattern:
+            record["drop_pattern"] = pattern
+        strength = str(rating.get("drop_strength") or "").strip()
+        if strength:
+            record["drop_strength"] = strength
         lines.append(json.dumps(record, ensure_ascii=False))
         known.add(key)
         appended += 1
@@ -114,19 +120,25 @@ def build_rating_lookup(
 
 
 def attach_quality_to_daily(daily: dict[str, Any], cache: dict[str, dict[str, Any]]) -> None:
-    """daily.days[].new_buy に cache から quality を付与（in-place）。"""
-    from kaburadar3.qualitative.rater import _apply_fundamentals, _cache_key
+    """daily.days / buy_days の new_buy に cache から quality を付与（in-place）。"""
+    from kaburadar3.qualitative.rater import _apply_fundamentals, lookup_cached_rating
     from kaburadar3.qualitative.schema import QualityRating
 
-    for day in daily.get("days", []):
-        date = str(day.get("date", "")).strip()
-        if not date:
-            continue
-        for item in day.get("new_buy", []):
-            code = str(item.get("code", "")).strip()
-            if not code:
+    seen: set[int] = set()
+    for section in ("days", "buy_days"):
+        for day in daily.get(section, []):
+            day_id = id(day)
+            if day_id in seen:
                 continue
-            cached = cache.get(_cache_key(code, date)) or cache.get(_entry_key(date, code))
-            if cached:
-                rating = _apply_fundamentals(QualityRating.from_dict(cached), code)
-                item["quality"] = rating.to_dict()
+            seen.add(day_id)
+            date = str(day.get("date", "")).strip()
+            if not date:
+                continue
+            for item in day.get("new_buy", []):
+                code = str(item.get("code", "")).strip()
+                if not code:
+                    continue
+                cached = lookup_cached_rating(cache, code, date) or cache.get(_entry_key(date, code))
+                if cached and not str(cached.get("background") or "").startswith("AI評価不可"):
+                    rating = _apply_fundamentals(QualityRating.from_dict(cached), code)
+                    item["quality"] = rating.to_dict()
