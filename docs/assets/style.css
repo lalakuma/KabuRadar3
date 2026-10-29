@@ -495,6 +495,67 @@ body {
   margin-bottom: 0.75rem;
 }
 
+.stars-guide {
+  margin: 0 0 1rem;
+  padding: 0.65rem 0.85rem;
+  background: var(--card);
+  border-radius: 10px;
+}
+
+.stars-guide summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.stars-guide-body {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.stars-guide-body > p {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+}
+
+.stars-guide-list {
+  margin: 0 0 0.65rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.stars-guide-list dt {
+  color: #fbbf24;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.stars-guide-list dd {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.stars-guide-patterns {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.stars-guide-patterns strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.stars-guide-note {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .signal-empty {
   color: var(--muted);
   font-size: 0.9rem;

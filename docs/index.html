@@ -27,6 +27,44 @@
       <h2 class="panel-title">今日のシグナル</h2>
       <p id="today-date" class="panel-meta"></p>
       <p class="panel-meta">銘柄の詳細で ★評価・決算・分析・配当・優待内容を確認できます。</p>
+      <details class="stars-guide">
+        <summary>★評価の定義</summary>
+        <div class="stars-guide-body">
+          <p>★は業績・財務・開示・報道だけで付けます。RSI やチャートの押し目だけでは上げません。</p>
+          <dl class="stars-guide-list">
+            <div>
+              <dt>★★★★★ 決算未達</dt>
+              <dd>超絶決算（最高益級・大幅増益）なのに、市場コンセンサスや目標株価にわずかに届かなかっただけで売られた場合だけ。</dd>
+            </div>
+            <div>
+              <dt>★★★★☆ ＋ 下落の型</dt>
+              <dd>本業は健全で、下落理由を次のいずれか一つに言い切れるとき。言い切れない「ただ健全」は ★3。</dd>
+            </div>
+          </dl>
+          <ul class="stars-guide-patterns">
+            <li><strong>地合い・強</strong> … 利益計画は無事で、市場や業種の連れ安</li>
+            <li><strong>一過性・強</strong> … 強い好材料が生きたままの利確（押し目）</li>
+            <li><strong>一過性・中</strong> … 通期計画が無事な単発の事故や、一時見出し</li>
+            <li><strong>需給・弱</strong> … 業績が無事な公募・売出・立会外・大口の売り</li>
+            <li><strong>入れ替え・強</strong> … 指数の除外・ウエート低下による機械的な売り</li>
+          </ul>
+          <dl class="stars-guide-list">
+            <div>
+              <dt>★★★☆☆</dt>
+              <dd>好悪が拮抗、または材料不足で方向・型が決まらない。</dd>
+            </div>
+            <div>
+              <dt>★★☆☆☆</dt>
+              <dd>証券の予想引き下げ・格下げ、需要低迷など、利益見通しの悪化。</dd>
+            </div>
+            <div>
+              <dt>★☆☆☆☆</dt>
+              <dd>会社自身の通期下方修正、通期赤字への転落、減配、大幅希薄化の増資、不正・不祥事。四半期だけの赤字で通期黒字計画が残る場合はここではない。</dd>
+            </div>
+          </dl>
+          <p class="stars-guide-note">AI参考情報です。投資判断は自己責任でお願いします。</p>
+        </div>
+      </details>
       <div class="signal-block">
         <h3>買い（新買） <span id="buy-count" class="badge-count">0</span></h3>
         <ul id="today-buy" class="signal-list"></ul>
@@ -81,6 +119,44 @@
     <section id="panel-settings" class="panel" aria-label="設定と実行" hidden>
       <h2 class="panel-title">設定・手動実行</h2>
       <p class="hint">設定変更と再実行は GitHub（無料）から行います。サイト内ボタンは Actions 画面へ移動します。</p>
+      <details class="stars-guide">
+        <summary>★評価の定義</summary>
+        <div class="stars-guide-body">
+          <p>★は業績・財務・開示・報道だけで付けます。RSI やチャートの押し目だけでは上げません。</p>
+          <dl class="stars-guide-list">
+            <div>
+              <dt>★★★★★ 決算未達</dt>
+              <dd>超絶決算（最高益級・大幅増益）なのに、市場コンセンサスや目標株価にわずかに届かなかっただけで売られた場合だけ。</dd>
+            </div>
+            <div>
+              <dt>★★★★☆ ＋ 下落の型</dt>
+              <dd>本業は健全で、下落理由を次のいずれか一つに言い切れるとき。言い切れない「ただ健全」は ★3。</dd>
+            </div>
+          </dl>
+          <ul class="stars-guide-patterns">
+            <li><strong>地合い・強</strong> … 利益計画は無事で、市場や業種の連れ安</li>
+            <li><strong>一過性・強</strong> … 強い好材料が生きたままの利確（押し目）</li>
+            <li><strong>一過性・中</strong> … 通期計画が無事な単発の事故や、一時見出し</li>
+            <li><strong>需給・弱</strong> … 業績が無事な公募・売出・立会外・大口の売り</li>
+            <li><strong>入れ替え・強</strong> … 指数の除外・ウエート低下による機械的な売り</li>
+          </ul>
+          <dl class="stars-guide-list">
+            <div>
+              <dt>★★★☆☆</dt>
+              <dd>好悪が拮抗、または材料不足で方向・型が決まらない。</dd>
+            </div>
+            <div>
+              <dt>★★☆☆☆</dt>
+              <dd>証券の予想引き下げ・格下げ、需要低迷など、利益見通しの悪化。</dd>
+            </div>
+            <div>
+              <dt>★☆☆☆☆</dt>
+              <dd>会社自身の通期下方修正、通期赤字への転落、減配、大幅希薄化の増資、不正・不祥事。四半期だけの赤字で通期黒字計画が残る場合はここではない。</dd>
+            </div>
+          </dl>
+          <p class="stars-guide-note">AI参考情報です。投資判断は自己責任でお願いします。</p>
+        </div>
+      </details>
       <div id="runtime-settings" class="settings-grid"></div>
       <div class="action-buttons">
         <a id="btn-run-full" class="btn" href="#" target="_blank" rel="noopener">フル実行（更新→解析→公開）</a>
@@ -114,6 +190,6 @@
     <small>クラウド自動解析 · GitHub Pages · AI評価は参考情報</small>
   </footer>
 
-  <script src="assets/app.js?v=20260905i"></script>
+  <script src="assets/app.js?v=20261029a"></script>
 </body>
 </html>
