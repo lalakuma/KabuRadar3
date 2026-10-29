@@ -36,6 +36,36 @@ const STAR_TIER_LABELS = {
   1: "星1：危険・絶対見送り",
 };
 
+const DROP_PATTERN_LABELS = {
+  consensus: "決算未達",
+  market: "地合い",
+  one_off: "一過性",
+  supply: "需給",
+  rebalance: "入れ替え",
+};
+
+const DROP_STRENGTH_LABELS = {
+  strong: "強",
+  mid: "中",
+  weak: "弱",
+};
+
+function dropPatternLabel(q) {
+  if (!q) return "";
+  const name = DROP_PATTERN_LABELS[q.drop_pattern] || "";
+  if (!name) return "";
+  const rank = DROP_STRENGTH_LABELS[q.drop_strength] || "";
+  return rank ? `${name}・${rank}` : name;
+}
+
+function starsHtml(q) {
+  const starText = starsLabel(q?.stars);
+  if (!starText) return "";
+  const pattern = dropPatternLabel(q);
+  const badge = pattern ? `<span class="drop-pattern">${escapeHtml(pattern)}</span>` : "";
+  return `<span class="signal-quality">${starText}${badge}</span>`;
+}
+
 function starTierLabel(n) {
   const v = Math.max(1, Math.min(5, Number(n) || 3));
   return STAR_TIER_LABELS[v] || `星${v}`;
@@ -338,9 +368,12 @@ function openSignalDetail(row) {
   const stars = q.stars;
   const name = row.name || "";
   title.textContent = `${row.code} ${name}`.trim();
+  const pattern = dropPatternLabel(q);
   sub.textContent =
     stars != null
-      ? `${starsLabel(stars)}（${starTierLabel(stars)}）`
+      ? pattern
+        ? `${starsLabel(stars)} ${pattern}`
+        : `${starsLabel(stars)}（${starTierLabel(stars)}）`
       : "AI評価なし";
 
   body.innerHTML = renderQualityDetailBody(row);
@@ -372,11 +405,7 @@ function renderSignalRows(container, rows, emptyText, options = {}) {
       const flagHtml = flags.length
         ? `<span class="signal-flags">${flags.map(escapeHtml).join(" · ")}</span>`
         : "";
-      const q = row.quality;
-      const starText = q ? starsLabel(q.stars) : "";
-      const qualityHtml = starText
-        ? `<span class="signal-quality">${starText}</span>`
-        : "";
+      const qualityHtml = starsHtml(row.quality);
       const hint = clickable
         ? `<span class="signal-hint" aria-hidden="true">詳細 ›</span>`
         : "";
@@ -421,7 +450,7 @@ function renderDailyBuyRow(row) {
   const q = row.quality || {};
   const close =
     row.close != null ? `<span class="signal-close">¥${fmt.format(row.close)}</span>` : "";
-  const stars = q.stars != null ? `<span class="signal-quality">${starsLabel(q.stars)}</span>` : "";
+  const stars = starsHtml(q);
   const extras = formatDailyListExtras(q);
   const extrasLine = extras
     ? `<p class="signal-benefit-preview">${escapeHtml(extras)}</p>`
