@@ -1,17 +1,41 @@
 {
-  "generated_at": "2026-10-30T16:20:01+09:00",
+  "generated_at": "2026-11-02T12:49:56+09:00",
   "mode": "LO",
   "summary": {
-    "pf": 1.095,
+    "pf": 0.992,
     "wins": 46,
-    "losses": 29,
-    "win_rate": 61.33,
-    "total_income": 145700,
-    "symbol_count": 87,
-    "neutral_count": 19,
-    "source_file": "Y0_PF1.095_W46L29_rate61.33_all145700.csv"
+    "losses": 30,
+    "win_rate": 60.53,
+    "total_income": 125000,
+    "symbol_count": 86,
+    "neutral_count": 18,
+    "source_file": "Y0_PF0.992_W46L30_rate60.53_all125000.csv"
   },
   "symbols": [
+    {
+      "code": "7716",
+      "name": "ナカニシ",
+      "industry": "nan",
+      "incomes": -8200,
+      "pf": 0.0,
+      "winlose": "W0L1",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 5930,
+      "last_notify_date": "2026-11-02"
+    },
+    {
+      "code": "5802",
+      "name": "住友電気工業",
+      "industry": "nan",
+      "incomes": -29600,
+      "pf": 0.0,
+      "winlose": "W0L2",
+      "win_per": 0,
+      "plus_gain": 0,
+      "minus_gain": 16850,
+      "last_notify_date": "2026-11-02"
+    },
     {
       "code": "7733",
       "name": "オリンパス",
@@ -238,18 +262,6 @@
       "win_per": 0,
       "plus_gain": 0,
       "minus_gain": 0,
-      "last_notify_date": "2026-10-27"
-    },
-    {
-      "code": "5802",
-      "name": "住友電気工業",
-      "industry": "nan",
-      "incomes": -15100,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 8240,
       "last_notify_date": "2026-10-27"
     },
     {
@@ -781,18 +793,6 @@
       "last_notify_date": "2026-10-02"
     },
     {
-      "code": "7716",
-      "name": "ナカニシ",
-      "industry": "nan",
-      "incomes": 0,
-      "pf": 0.0,
-      "winlose": "W0L0",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 0,
-      "last_notify_date": "2026-10-02"
-    },
-    {
       "code": "4543",
       "name": "テルモ",
       "industry": "nan",
@@ -1033,18 +1033,6 @@
       "last_notify_date": "2026-09-24"
     },
     {
-      "code": "9143",
-      "name": "ＳＧホールディングス",
-      "industry": "nan",
-      "incomes": -2000,
-      "pf": 0.0,
-      "winlose": "W0L1",
-      "win_per": 0,
-      "plus_gain": 0,
-      "minus_gain": 1340,
-      "last_notify_date": "2026-09-24"
-    },
-    {
       "code": "7532",
       "name": "パン・パシフィック・インターナショナルホールディングス",
       "industry": "nan",
@@ -1058,616 +1046,133 @@
     }
   ],
   "today": {
-    "trade_date": "2026-10-30",
-    "new_buy": [
+    "trade_date": "2026-11-02",
+    "new_buy": [],
+    "sellback": [
       {
-        "code": "2222",
-        "name": "寿スピリッツ",
-        "mark": "新買",
-        "close": 2504,
-        "rsi": 44.61,
-        "rci": -93.33,
-        "rci_turn": true,
+        "code": "5802",
+        "name": "住友電気工業",
+        "mark": "返売",
+        "close": 1685,
+        "rsi": 16.72,
+        "rci": -65.0,
+        "rci_turn": false,
         "quality": {
-          "code": "2222",
+          "code": "5802",
           "stars": 4,
-          "background": "一過性の利益確定売りによる下落。10月上旬に発表された上期売上速報での2桁増収を好感して急伸したのち、短期的な達成感から利益確定売りが優勢となっている。アナリスト予想の小幅な微修正（対前週1.1%減）も報じられたが、通期の業績拡大基調そのものを損なう悪材料ではない。",
+          "background": "一過性の利益確定売りによる下落である。2026年10月30日に今期経常利益の12％上方修正や最高益予想の上乗せ、配当予想の増額を発表したものの、決算発表前の期待感から買われていた反動による出尽くし売りに押されている。データセンター向け光製品の旺盛な需要など本質的な成長シナリオは崩れておらず、業績計画の毀損を伴わない健全な調整局面と判断される。",
           "risk_factors": [
-            "原材料（乳製品・油脂等）や包装・物流コストの再上昇による採算悪化",
-            "為替変動や景気減速に伴う訪日外国人観光客（インバウンド）消費の失速",
-            "11月4日発表予定の第2四半期決算が市場コンセンサスに届かないリスク"
+            "世界的な自動車生産調整や景気減速に伴うワイヤーハーネス等の需要減退",
+            "データセンター向け設備投資サイクルの短期的な一服や競合激化",
+            "銅などの原材料価格急騰や急激な為替変動による採算悪化"
           ],
           "confidence": "high",
           "sources": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDVGbktEb0loY1k5RlhjdlJLVmpMaU9jdkhObkM5bW9xaDhVd2piOUtKRDJKdnlkZUhCTGNORWRvRGVGc0lDR1l5TWhid180eVNfSm4zRjFsYzdzaVZPcy1RNVNpakxEMm9Ed3c5cFMwLW8yNm9MMUt1UlBXY1QxY3JzQ1JrUjg?oc=5",
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnBOc01XNmJ0bk8wMFFxWEpXMkh1UTlmV1hndUVpNjFZb3ZSa0NUWnVWcWxpUGl3N2d2eDl0bTlkbFJJNFU5X28zckE4Z2dEbWZVQThjTkY3U3J5VDlQZmRXSEJxOFlaeVdZMmM3NXJMM3lQSTRyeG5lMktkRFRWeE9pb1I4WDQ?oc=5"
+            "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bl9idXVfdVVaS0czNXpLQmFLckZFbkgwLU5BbmdSSm5kSkktNWU2S05pWHJUR0s0LVpWWkJYdEVRT1JkY0hrRkMySjFoSDVQcHc?oc=5",
+            "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GYllOU1BwZnVRRXZ1em5vYVhIalN5eFZKYV9YdFQzSEFNLUlZVlA4S2oyWnJSbWpEM1c2VFM5ZkV0eFlnZ0RNTnZHZ2hjU0UzS1FMbnlpWElkWVMzVFpxRmtZcU5PV195eEE?oc=5",
+            "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CUHZSLW9mS0drNHZkeXdNTWNRSWs4bGNOMVlwYWhERm1LZTdEcFJfOEhOT05COUxtRnpqQnRjcGdLM0lCc2JzSVMwTlVMclhVM3RDaE4zd2FPYVNJRk1fQTZFZC1rOXhOU3QzMUcxM3RHbkZrR01QSlY5UFFVQQ?oc=5"
           ],
           "drop_pattern": "one_off",
           "drop_strength": "strong",
-          "material_analysis": "上期の売上速報で2桁増収を達成し需要の強さが確認された一方、直近でアナリスト経常利益予想の微調整が報じられたが、業績トレンドは堅調を維持している。",
-          "fundamental_summary": "売上成長率10.0%、利益成長率18.5%、営業利益率16.14%、ROE31.39%と、食品セクター屈指の極めて高い収益力と資本効率を誇る。予想PERは27.2倍、PBRは8.54倍とセクター平均対比では高水準にあるが、インバウンド消費の追い風と強力なブランド力を背景にした高成長がプレミアムを正当化している。配当利回りは1.41%（年間35円、配当性向41.6%）で、100株以上で3,000円相当の自社製品詰合せ優待も提供されている。次回決算発表は11月4日に予定されており、売上増が利益成長にどれだけ結実しているかが焦点となる。",
-          "technical_view": "株価は急伸後の反落を経て、心理的節目となる2,500円近辺の下値支持帯に位置している。直近高値からの押し目を形成しており、2,500円水準を維持できるかが当面の焦点となる。",
+          "material_analysis": "通期経常利益の12％上方修正・最高益上乗せおよび配当予想の5円増額修正が発表された。好材料は明確であるものの、事前の期待値が高かったことから短期的な利益確定の売りに押される形となっている。",
+          "fundamental_summary": "生成AIの普及に伴うデータセンター向け光通信製品の急拡大や車載関連の回復を背景に、売上成長率17.1％、利益成長率48.0％と極めて好調な業績推移を見せている。ROEは16.23％と資本効率が高く、予想PERは7.6倍、PBRは1.82倍と業績モメンタムに対して明らかな割安感が存在する。配当利回りは2.54％で業績上振れに伴う増配も発表され、株主還元への姿勢は前向きである。株主優待制度は導入されていないものの、連続最高益を更新する収益基盤と強固な財務体質からファンダメンタルズの信頼性は極めて高い。",
+          "technical_view": "株価は直近の利確売りに押され1,674円で推移しているが、下値は心理的節目である1,600円から1,650円近辺の価格帯が重要なサポートラインとして意識される。上値は直近高値圏である1,750円近辺が当面のレジスタンスラインとなる。",
           "watch_points": [
-            "11月4日の決算発表における第2四半期累計の利益進捗率および通期計画の修正有無",
-            "空港免税店や主要観光拠点でのインバウンド向け菓子の販売動向と客単価の推移"
-          ],
-          "valuation_view": "fair",
-          "dividend": {
-            "annual_yen": 35,
-            "yield_pct": 1.43,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 41.62
-          },
-          "earnings": {
-            "announcement_date": "2026-11-04",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Consumer Defensive",
-            "industry": "Confectioners",
-            "per": 29.8,
-            "forward_per": 27.2,
-            "pbr": 8.54,
-            "psr": 4.81,
-            "market_cap_oku": 3868,
-            "price_yen": 2504,
-            "target_price_yen": 3100,
-            "target_upside_pct": 23.8,
-            "revenue_growth_pct": 10.0,
-            "earnings_growth_pct": 18.5,
-            "profit_margin_pct": 16.14,
-            "roe_pct": 31.39
-          },
-          "shareholder_benefit": "自社グループ製品詰合せ。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社グループ製品詰合せ",
-            "month": "3",
-            "yield_pct": "1.22",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "自社グループ製品詰合せ",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "3,000円相当",
-                    "note": "【送付時期】 5月下旬～6月中旬頃"
-                  }
-                ]
-              }
-            ],
-            "summary": "自社グループ製品詰合せ。100株以上。権利確定3月。",
-            "text": "自社グループ製品詰合せ。100株以上。権利確定3月\n・100株以上: 3,000円相当（【送付時期】 5月下旬～6月中旬頃）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true
-      },
-      {
-        "code": "7259",
-        "name": "アイシン精機",
-        "mark": "新買",
-        "close": 2081,
-        "rsi": 39.92,
-        "rci": -93.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "7259",
-          "stars": 3,
-          "background": "下落の明確な要因を単一の型として特定できる決定的な材料には乏しく、直近の利益成長率鈍化や自動車業界全体の生産調整に対する懸念が株価の重荷となっていると考えられます。中間期決算短信が開示された直後のタイミングであり、足元では業績の進捗と通期計画に対する達成度を市場が見極める段階にあります。",
-          "risk_factors": [
-            "主要顧客である自動車メーカーの減産やEVシフトに伴う需要変動",
-            "原材料価格や労務費の高止まりによる採算性の悪化",
-            "利益成長の鈍化に伴う高配当性向の維持困難・減配リスク"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://www.release.tdnet.info/inbs/140120261028558683.pdf"
-          ],
-          "material_analysis": "第2四半期決算短信が開示されたばかりであり、業績の進捗状況を見極める動きが優勢です。材料出尽くしまたは内容の精査待ちの状況です。",
-          "fundamental_summary": "予想PERは約9.1倍、PBRは0.69倍と解散価値を大幅に下回る水準に放置されており、バリュエーション面では強い割安感があります。年間配当は75円で配当利回り3.68%と高水準ですが、実績ベースの配当性向が約74.6%に達しており、直近利益成長が-15.0%と減益傾向にある点は注意が必要です。売上高成長率は7.8%と底堅さを維持しているものの、営業利益率は3.15%と低水準に留まっています。親会社であるトヨタ自動車をはじめとする主要顧客の生産動向や、低PBR改善に向けた資本効率向上策の進捗が今後の焦点となります。",
-          "technical_view": "株価は節目の2,000円台前半で推移しており、心理的節目である2,000円前後の水準が直近のサポートラインとして意識されます。上値に関しては、直近の戻り高値や主要移動平均線が位置する2,150円から2,200円近辺が当面のレジスタンスラインとなります。",
-          "watch_points": [
-            "開示された第2四半期決算を受けた通期計画に対する営業利益の進捗率",
-            "資本コストや株価を意識した経営改善策（自社株買いや政策保有株式の縮減）の動向"
+            "上方修正後の下値固めと1,600円台半ばの節目における押し目買いの入り方",
+            "データセンター向け光インターコネクト製品等の受注拡大ペースと進捗率"
           ],
           "valuation_view": "cheap",
           "dividend": {
-            "annual_yen": 75,
-            "yield_pct": 3.68,
+            "annual_yen": 45,
+            "yield_pct": 2.54,
             "ex_date": "2027-03-30",
-            "payout_ratio_pct": 74.62
+            "payout_ratio_pct": 1.2
           },
           "earnings": {
-            "announcement_date": "2026-10-29",
+            "announcement_date": "2026-10-30",
             "fiscal_year_end": "2027-03-31",
             "fiscal_month": 3
           },
           "valuation": {
             "sector": "Consumer Cyclical",
             "industry": "Auto Parts",
-            "per": 18.1,
-            "forward_per": 9.1,
-            "pbr": 0.69,
-            "psr": 0.28,
-            "market_cap_oku": 14432,
-            "price_yen": 2081,
-            "target_price_yen": 2641,
-            "target_upside_pct": 26.9,
-            "revenue_growth_pct": 7.8,
-            "earnings_growth_pct": -15.0,
-            "profit_margin_pct": 3.15,
-            "roe_pct": 8.43,
-            "debt_to_equity": 28.9
+            "per": 15.0,
+            "forward_per": 7.6,
+            "pbr": 1.83,
+            "psr": 0.96,
+            "peg": 3.56,
+            "market_cap_oku": 52629,
+            "price_yen": 1687,
+            "target_price_yen": 3221,
+            "target_upside_pct": 90.9,
+            "revenue_growth_pct": 17.1,
+            "earnings_growth_pct": 48.0,
+            "profit_margin_pct": 7.83,
+            "roe_pct": 16.23,
+            "debt_to_equity": 23.8
           },
           "shareholder_benefit": "なし"
         },
         "rsi_ok": false,
-        "rci_ok": true
+        "rci_ok": false
       },
       {
-        "code": "8111",
-        "name": "ゴールドウイン",
-        "mark": "新買",
-        "close": 2103,
-        "rsi": 46.05,
-        "rci": -88.33,
-        "rci_turn": true,
+        "code": "7716",
+        "name": "ナカニシ",
+        "mark": "返売",
+        "close": 1383,
+        "rsi": 31.2,
+        "rci": 20.42,
+        "rci_turn": false,
         "quality": {
-          "code": "8111",
+          "code": "7716",
           "stars": 3,
-          "background": "直近で会社側から大きな下方修正や突発的な悪材料が開示された形跡はなく、直近の減益傾向やアパレル消費全体の動向を受けた軟調な値動きが継続していると考えられます。明確な一過性ショックや特定の需給イベントによるものとは断定できず、下落の型を一つに特定することは困難です。",
+          "background": "直近において会社側からの下方修正や不祥事といった個別の重大な悪材料は確認されていません。一方で、市場全体の手控えムードや11月中旬に控える四半期決算発表を前にした持ち高調整の売りが先行しており、特定の明確な下落要因を断定しにくい状況です。",
           "risk_factors": [
-            "2026年11月5日に予定されている中間決算発表における業績進捗の遅れや通期予想の修正リスク",
-            "暖冬や天候不順による主力の秋冬物高機能アパレルの販売鈍化",
-            "原材料費・物流費および人件費の高騰に伴う利益率の圧迫"
+            "2026年11月13日に予定されている四半期決算発表に伴う業績進捗の下振れリスク",
+            "海外売上比率が高いため為替変動（円高進行）による業績下振れ懸念",
+            "実績PERと予想PERの乖離に伴う市場評価のブレ"
           ],
           "confidence": "medium",
           "sources": [
-            "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zbUZ6U205WWNpaDdGbmxrQ2xnODVLY3R1R2dQWVZwbl9VZDAwQjRoVk1SZkFKQVVtTjE5cnZwVzNZdTdYQjZ4Zi14NEpUUEtBdXc?oc=5",
-            "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT0ZBdDNycnl2ZzJpSnJBMjI2WE1GYmR2RWJWc1MxVUExYkw4dmlLdHlUV2xSWU9MSDlKd0Jlbk9xM3BUZVRoLUdxUG0xNWNXT3AtSG9HbFpOUWhiMFJkNE1uUjJlZmlJcldYNFFGZDJ2VGJnV2JIcVRGc1hpY2lpTER4RGJFZ1NhTHd5d1dVcTh4RVQxOG1RSnN6Z0JyLUtocHJ3MTU3NFlJTWY1Qmd2cmpkNUZhWFVyeEtIdHBYVzJPTl9McWd5MVRKZGhvQTdyLVVpVXd3TG83eWdjaWpJX1BNWUVseEhjbFU0?oc=5"
+            "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxR0hMZGtaT2FHMWxQZGR6Y25ndHdtVkpDQjdoZTNGb21pVlUxMmVvclNyMTRrblVQRVI3UVZBRTltNXFiN3hkcmNmQTdKNlpYZ2Q1S3U0SzEtUS1FZC1zQ3pOTTMtUTl0bExueExkdVliNy1FT3c?oc=5",
+            "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNNFA3ZjlQU0pFa1pKUFh0RU8wNXRxS05qSXZLY0RBaVd1SDV1UTRwcFUtdzZPV19MM01KUGw3OEhabkJaY0pzS2Q3aUY2QUdIXzFZSg?oc=5"
           ],
-          "material_analysis": "直近では中長期の成長戦略に関するIR報道や株主優待の紹介が中心であり、相場を急変させるネガティブサプライズや重大な開示は確認されていません。",
-          "fundamental_summary": "主力ブランド「ザ・ノース・フェイス」の強力なブランド力を背景に、ROE約19.5%と高い資本効率と稼ぐ力を誇ります。バリュエーション面では実績PER約12.4倍、PBR約2.26倍と極端な割高感はないものの、足元の業績は前年同期比で減益基調にあり、これまでの急成長に対する一服感が意識されています。年間配当は64円（利回り約3.1%）で配当性向32%台と株主還元は安定的であり、魅力的な製品優待も下値を支える要因です。ただし、直近2週間以内に次回決算発表（11月5日予定）を控えており、通期計画に対する進捗度合いを慎重に見極める必要があります。",
-          "technical_view": "節目となる2,000円の心理的台場近辺で下値を固められるかが焦点となっています。戻り局面では直近の保ち合い下限であった2,200円近辺が上値抵抗線として意識されやすい水準です。",
+          "material_analysis": "歯科関連株としてのテーマ性や中長期的な需要期待に関する報道はあるものの、直近の株価を大きく動かす固有の適時開示やレーティング変更は見当たりません。",
+          "fundamental_summary": "歯科用ハンドピース等の医療機器で世界トップクラスのシェアを誇り、売上成長率約19.9%、利益成長率約36.4%と事業拡大が続いています。実績PERは101.2倍と高いものの予想PERは10.4倍と大幅に低下しており、過年度の一時的要因やデータ乖離を考慮しつつも本業の収益力は底堅い水準にあります。PBRは1.88倍、配当利回りは約2.11%（年間30円配当）と財務面での過度な過熱感は見られません。次回決算発表は2026年11月13日に予定されており、通期計画に対する進捗状況の確認が重要となります。",
+          "technical_view": "節目となる1,400円を下回って推移しており、下値では過去の売買高が厚い1,350円近辺が直近の支持線として意識されます。上値は1,400円台前半から中期移動平均線水準が当面の戻り抵抗帯となります。",
           "watch_points": [
-            "11月5日発表予定の次回決算における売上・利益の進捗率および秋冬商戦の受注動向",
-            "主力「THE NORTH FACE」および自主ブランド「Goldwin」の国内外における実需トレンド"
-          ],
-          "valuation_view": "fair",
-          "dividend": {
-            "annual_yen": 64,
-            "yield_pct": 3.1,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 32.39
-          },
-          "earnings": {
-            "announcement_date": "2026-11-05",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Consumer Cyclical",
-            "industry": "Apparel Manufacturing",
-            "per": 12.5,
-            "forward_per": 3.5,
-            "pbr": 2.28,
-            "psr": 2.1,
-            "market_cap_oku": 2877,
-            "price_yen": 2103,
-            "target_price_yen": 2725,
-            "target_upside_pct": 29.6,
-            "revenue_growth_pct": -1.2,
-            "earnings_growth_pct": -29.5,
-            "profit_margin_pct": 16.87,
-            "roe_pct": 19.47,
-            "debt_to_equity": 0.8
-          },
-          "shareholder_benefit": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "自社商品、自社ＥＣサイト割引",
-            "month": "3",
-            "yield_pct": "---、配当利回りは3.33",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "自社商品（シャツ等）",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "◆下記より1点を選択※2026年3月期実績 1、Aコース（男女兼用） 「ザ・ノース・フェイス（THE NORTH FACE）」 リニューアブル原料を使用した半袖Tシャツ 2、Bコース 「ザ・ノース・フェイス（THE NORTH FACE）」 タンパク質素材を使用したタオル3点セット 3、Cコース 「ゴールドウイン（Goldwin）」 リサイクル素材を使用したトラベルポーチ3点セット 4、Dコース（寄付） 一般財団法人自然公園財団 国立公園基金への寄付 ■案内時期 5月下旬",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "title": "ＥＣサイト割引",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "■購入上限額　30,000円 15％割引",
-                    "note": "◇「Goldwin OnlineStore」で１回の注文にのみ利用可能な割引クーポンを１枚進呈。 ■継続保有期間について 「保有期間1年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、1年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 3回以上連続して記録）されていることとします。 「保有期間3年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、3年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 7回以上連続して記録）されていることとします。"
-                  },
-                  {
-                    "shares": "300株以上",
-                    "content": "■購入上限額　80,000円 【3年未満保有】 20％割引 【3年以上保有】 25％割引",
-                    "note": ""
-                  },
-                  {
-                    "shares": "1,200株以上",
-                    "content": "■購入上限額　250,000円 【1年未満保有】 30％割引 【1年以上保有】 35％割引 【3年以上保有】 40％割引",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月。",
-            "text": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月\n【自社商品（シャツ等）】\n・100株以上: ◆下記より1点を選択※2026年3月期実績 1、Aコース（男女兼用） 「ザ・ノース・フェイス（THE NORTH FACE）」 リニューアブル原料を使用した半袖Tシャツ 2、Bコース 「ザ・ノース・フェイス（THE NORTH FACE）」 タンパク質素材を使用したタオル3点セット 3、Cコース 「ゴールドウイン（Goldwin）」 リサイクル素材を使用したトラベルポーチ3点セット 4、Dコース（寄付） 一般財団法人自然公園財団 国立公園基金への寄付 ■案内時期 5月下旬\n・100株以上: ■購入上限額　30,000円 15％割引（◇「Goldwin OnlineStore」で１回の注文にのみ利用可能な割引クーポンを１枚進呈。 ■継続保有期間について 「保有期間1年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、1年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 3回以上連続して記録）されていることとします。 「保有期間3年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、3年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 7回以上連続して記録）されていることとします。）\n・300株以上: ■購入上限額　80,000円 【3年未満保有】 20％割引 【3年以上保有】 25％割引\n・1,200株以上: ■購入上限額　250,000円 【1年未満保有】 30％割引 【1年以上保有】 35％割引 【3年以上保有】 40％割引"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true
-      },
-      {
-        "code": "9433",
-        "name": "ＫＤＤＩ",
-        "mark": "新買",
-        "close": 2836,
-        "rsi": 48.23,
-        "rci": -93.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "9433",
-          "stars": 3,
-          "background": "業績毀損を伴う明確な個別悪材料は確認されず、決算発表を控えた持ち高調整や手控えムード、市場の循環物色の影響を受けた軟調な推移と見られます。ディフェンシブ銘柄としての底堅さはあるものの、積極的な買い手が限られ上値の重い展開となっています。",
-          "risk_factors": [
-            "2026年11月6日に予定される四半期決算発表でのコンセンサス未達リスク",
-            "通信料競争や新規契約獲得コスト増加に伴う利益率の伸び悩み",
-            "AIや先端技術領域への先行投資負担による短期的利益圧迫"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://kabu-ir.com/",
-            "https://www.nikkei.com/",
-            "https://diamond.jp/"
-          ],
-          "material_analysis": "米Wingとのドローン配送提携やフィジカルAIへの投資、LG CNSとの協業など中長期の成長投資が継続開示されています。業績に悪影響を与える適時開示はなく、自社株買いも着実に進捗しています。",
-          "fundamental_summary": "通信メガキャリアとして強固な事業基盤を持ち、営業利益率12%超、ROE約14.6%と高い収益性と資本効率を維持しています。PERは約14.5倍と通信セクターとして妥当な水準にあり、配当利回り3.0%に加えて長期連続増配の実績と株主優待を備えるなどインカムゲインの魅力も豊富です。自己株式取得も継続的に実施されており、株主還元姿勢は極めて安定しています。一方で直近2週間以内（11月6日）に決算発表を控えており、通期利益目標に対する進捗の確認が求められます。",
-          "technical_view": "節目となる心理的サポートラインの2,800円水準を試す推移となっており、上値は前高値圏である2,900円から3,000円近辺がレジスタンスとして意識される位置関係にあります。",
-          "watch_points": [
-            "直近の決算発表における通信ARPUの推移および非通信事業（DX・金融）の成長進捗",
-            "自社株買いの取得進捗と年間84円配当・連続増配計画の確度"
-          ],
-          "valuation_view": "fair",
-          "dividend": {
-            "annual_yen": 84,
-            "yield_pct": 3.0,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 41.1
-          },
-          "earnings": {
-            "announcement_date": "2026-11-06",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Communication Services",
-            "industry": "Telecom Services",
-            "per": 14.6,
-            "forward_per": 1217.4,
-            "pbr": 2.11,
-            "psr": 1.71,
-            "peg": 1.38,
-            "market_cap_oku": 104814,
-            "price_yen": 2836,
-            "target_price_yen": 3065,
-            "target_upside_pct": 8.1,
-            "revenue_growth_pct": 3.6,
-            "earnings_growth_pct": 19.4,
-            "profit_margin_pct": 12.09,
-            "roe_pct": 14.59,
-            "debt_to_equity": 93.8
-          },
-          "shareholder_benefit": "自社関連サービス。200株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "min_shares": 200,
-            "kind": "自社関連サービス",
-            "month": "3",
-            "programs": [
-              {
-                "title": "自社関連サービス",
-                "tiers": [
-                  {
-                    "shares": "200株以上",
-                    "content": "【1年以上保有株主】 2,000円相当 【5年以上保有株主】 3,000円相当",
-                    "note": "◇自社関連サービスの特典から1点を選択。 ・Pontaポイント※ ・ローソン／成城石井 商品詰合せセット ・寄付（キボウのカケハシ） ※Pontaポイントは「お得なポイント交換所」の利用により、au PAY マーケット限定のPontaポイントとして最大1.5倍に増量することが可能。 ■継続保有期間について 継続保有期間は、同一株主番号で3月31日の株主名簿に連続して記録されている年数です。株主番号は9月30日、および3月31日の株主名簿確定時点で保有されている場合、同一株主番号となります。"
-                  }
-                ]
-              }
-            ],
-            "summary": "自社関連サービス。200株以上。権利確定3月。",
-            "text": "自社関連サービス。200株以上。権利確定3月\n・200株以上: 【1年以上保有株主】 2,000円相当 【5年以上保有株主】 3,000円相当（◇自社関連サービスの特典から1点を選択。 ・Pontaポイント※ ・ローソン／成城石井 商品詰合せセット ・寄付（キボウのカケハシ） ※Pontaポイントは「お得なポイント交換所」の利用により、au PAY マーケット限定のPontaポイントとして最大1.5倍に増量することが可能。 ■継続保有期間について 継続保有期間は、同一株主番号で3月31日の株主名簿に連続して記録されている年数です。株主番号は9月30日、および3月31日の株主名簿確定時点で保有されている場合、同一株主番号となります。）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true
-      },
-      {
-        "code": "9434",
-        "name": "ソフトバンク",
-        "mark": "新買",
-        "close": 234,
-        "rsi": 41.02,
-        "rci": -85.83,
-        "rci_turn": true,
-        "quality": {
-          "code": "9434",
-          "stars": 3,
-          "background": "直近の株価軟調について、業績見通しの下方修正や不祥事といった明確な個別悪材料は確認されていません。次回決算発表を間近に控えた持ち高調整や、通信セクター全般の利益確定売りなど複合的な需給要因が主因とみられます。下落要因を単一の型として特定できないため、中立的な水準推移と判断されます。",
-          "risk_factors": [
-            "2026年11月9日に予定されている四半期決算における進捗遅れや市場予想未達のリスク",
-            "配当性向が76%超と高水準であることによる将来の増配余地の制約",
-            "通信設備投資やAI・データセンター投資負担に伴う財務キャッシュフローへの影響"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.release.tdnet.info/inbs/140120261029559670.pdf",
-            "https://www.release.tdnet.info/inbs/140120261030561365.pdf"
-          ],
-          "material_analysis": "中間配当の実施や子会社株式取得完了時期の変更が開示されましたが、いずれも想定の範囲内であり業績への直接的な影響は軽微です。悪材料の顕在化は見られず、材料面では次回決算待ちの様相を呈しています。",
-          "fundamental_summary": "売上高成長率は9.4%、ROEは16.71%と通信大手の中でも高い資本効率を維持しています。予想PERは約20.2倍、PBRは3.85倍と通信セクター内ではややプレミアムが付与された水準ですが、PayPay経済圏の拡大やITソリューション事業の成長性が評価されています。配当利回りは3.81%（年間配当9円）と高水準で、配当性向は約76%と高めながらも安定したキャッシュフローに支えられています。さらに1年以上保有でPayPayマネーライトが付与される優待もあり、総還元利回りの下値支持力は強固です。ただし、直近11月9日に第2四半期決算発表を控えており、業績進捗の確認が必要です。",
-          "technical_view": "株価は234円近辺に位置しており、心理的節目となる230円ラインが直近の下値サポートとして機能するかどうかが焦点となります。上値は直近で意識される240円台半ばから戻り売り圧力が強まりやすい価格帯となっています。",
-          "watch_points": [
-            "11月9日発表予定の第2四半期決算における営業利益進捗率および通期計画の達成確度",
-            "コンシューマ事業のARPU（ユーザー平均単価）動向と法人・メディア事業の収益拡大ペース"
-          ],
-          "valuation_view": "fair",
-          "dividend": {
-            "annual_yen": 9,
-            "yield_pct": 3.78,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 76.31
-          },
-          "earnings": {
-            "announcement_date": "2026-11-09",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Communication Services",
-            "industry": "Telecom Services",
-            "per": 20.8,
-            "forward_per": 20.2,
-            "pbr": 3.85,
-            "psr": 1.56,
-            "peg": 2.73,
-            "market_cap_oku": 112027,
-            "price_yen": 234,
-            "target_price_yen": 273,
-            "target_upside_pct": 16.7,
-            "revenue_growth_pct": 9.4,
-            "earnings_growth_pct": 3.4,
-            "profit_margin_pct": 7.72,
-            "roe_pct": 16.71,
-            "debt_to_equity": 160.0
-          },
-          "shareholder_benefit": "PayPayマネーライト。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "PayPayマネーライト",
-            "month": "3",
-            "yield_pct": "---、配当利回りは3.76",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "PayPayマネーライト ※長期保有者向け",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "【1年以上保有株主】 1,000円相当",
-                    "note": "■継続保有期間について 保有期間は3月31日から翌年3月31日までの間とし、初回は2025年3月31日（※1）から2026年3月31日まで（※2）とします。 ※1、当社株主名簿に記載または記録された日付であり、株式を取得した日等とは異なります。 ※2、同一の株主番号で3月31日および9月30日最終の当社株主名簿に3回以上連続で記載または記録されている株主さまとします。 ■進呈時期 確定日3月末：5月 確定日9月末：11月"
-                  }
-                ]
-              }
-            ],
-            "summary": "PayPayマネーライト。100株以上。権利確定3月。",
-            "text": "PayPayマネーライト。100株以上。権利確定3月\n【PayPayマネーライト ※長期保有者向け】\n・100株以上: 【1年以上保有株主】 1,000円相当（■継続保有期間について 保有期間は3月31日から翌年3月31日までの間とし、初回は2025年3月31日（※1）から2026年3月31日まで（※2）とします。 ※1、当社株主名簿に記載または記録された日付であり、株式を取得した日等とは異なります。 ※2、同一の株主番号で3月31日および9月30日最終の当社株主名簿に3回以上連続で記載または記録されている株主さまとします。 ■進呈時期 確定日3月末：5月 確定日9月末：11月）"
-          }
-        },
-        "rsi_ok": false,
-        "rci_ok": true
-      },
-      {
-        "code": "9697",
-        "name": "カプコン",
-        "mark": "新買",
-        "close": 3957,
-        "rsi": 37.13,
-        "rci": -88.33,
-        "rci_turn": true,
-        "quality": {
-          "code": "9697",
-          "stars": 4,
-          "background": "一過性の要因による下落です。2027年3月期第2四半期決算は経常利益が前年同期比67.5％増と大幅増益で着地したものの、通期業績予想が据え置かれたことや事前の好業績期待が織り込まれていたことから、材料出尽くし感による利益確定売りが先行しました。本業の利益計画や高収益基盤自体は極めて順調に進捗しており、業績の毀損を伴う下落ではありません。",
-          "risk_factors": [
-            "主力タイトルの新作リリース時期の遅延や販売本数の下振れリスク",
-            "為替変動（円高進行）による海外売上および為替差損益への影響",
-            "大型タイトルの端境期におけるリピート販売の失速"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.release.tdnet.info/inbs/140120261027556520.pdf",
-            "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RU0xsTkhfb3ZST19OTW03LUZ5dnVFMTU3ZnowNUptbzRTSFZqMUtwbjVOczV6WE15djFUc1E3WUhaMDcxR2twY01CZU9hTjNRdWY0SmUtMA?oc=5",
-            "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4RGxDTzhTdkt6R0J2bXNYZUJ5Y0tROWQxUE1iZUJqZUI3Zkd3ZHhJc1RNWU9pY1lSTFpkd19rOW1fTFFCM2pQZ3lRYlVjd2trdGdESXdzN1FzUWZXNENNSQ?oc=5"
-          ],
-          "drop_pattern": "one_off",
-          "drop_strength": "strong",
-          "material_analysis": "2Q連結決算は大幅な増収増益で通期計画に対する進捗も良好ですが、通期予想の据え置きによって短期的な失望売りが出ました。直近公表された情報漏えい事案についても業績への直接的な悪影響は限定的と見られ、ファンダメンタルズの好調さは維持されています。",
-          "fundamental_summary": "営業利益率約30％とゲーム業界内でも突出した高収益体質を誇り、デジタル販売比率の上昇やリピートタイトルの継続的な販売によって強固な収益基盤を確立しています。売上高・利益ともに2桁成長を維持しており、財務健全性も極めて高い水準です。予想PERは約29倍、PBRは5.5倍台と成長期待を反映した水準で推移していますが、高い資本効率とブランド力を考慮すれば正当化できる範囲内です。配当利回りは約1.2％と控えめながら安定配当を維持しており、次回の第3四半期決算での通期上振れ修正の有無が注目されます。",
-          "technical_view": "節目の心理的節目である4,000円を割り込み、3,900円台半ばまで急速に調整しています。直近で意識されていた上値抵抗線からの急反落となっており、過去の売買代金が積み上がった3,800円〜3,900円近辺が下値支持帯として機能するかどうかが焦点となります。",
-          "watch_points": [
-            "通期業績計画に対する下期の上振れ余地と上方修正のタイミング",
-            "主要IP（モンスターハンター、バイオハザード等）の新作投入スケジュールおよび予約動向"
-          ],
-          "valuation_view": "fair",
-          "dividend": {
-            "annual_yen": 46,
-            "yield_pct": 1.2,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 28.63
-          },
-          "earnings": {
-            "announcement_date": "2027-01-26",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3,
-            "is_estimate": true
-          },
-          "valuation": {
-            "sector": "Communication Services",
-            "industry": "Electronic Gaming & Multimedia",
-            "per": 23.6,
-            "forward_per": 29.1,
-            "pbr": 5.53,
-            "peg": 1.95,
-            "market_cap_oku": 16554,
-            "price_yen": 3957,
-            "target_price_yen": 4766,
-            "target_upside_pct": 20.4,
-            "revenue_growth_pct": 41.6,
-            "earnings_growth_pct": 35.4,
-            "profit_margin_pct": 29.84
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": true
-      }
-    ],
-    "sellback": [
-      {
-        "code": "7733",
-        "name": "オリンパス",
-        "mark": "返売",
-        "close": 1742,
-        "rsi": 44.74,
-        "rci": 70.0,
-        "rci_turn": false,
-        "quality": {
-          "code": "7733",
-          "stars": 2,
-          "background": "米国食品医薬品局（FDA）から品質管理システムの欠陥に関する警告書（Warning Letter）を受領したことに続き、輸入警告（Import Alerts）が発出されたことが嫌気され急落しています。主力の北米市場において製品出荷や販売に直接的な制限が生じる懸念に加え、是正対応コストの増加が警戒されています。直近で11月10日に四半期決算発表を控えており、通期業績計画に対する下振れ懸念から売りが先行しています。",
-          "risk_factors": [
-            "FDAの輸入警告に伴う北米市場での出荷制限および売上機会損失の長期化",
-            "品質管理体制の是正や査察対応に伴う追加費用の発生による収益性悪化",
-            "直近（11月10日）に控える四半期決算発表での通期業績計画の下方修正リスク"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.release.tdnet.info/inbs/140120261021553776.pdf",
-            "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aZGE4YjhhZm1FSXVTLWlMXzZBdnBVU3BlRlBJSkhkeTgweS1VcnNyLXc3SXNMOFJJTWRROWJvQTdvbnBqZkF3UTJ6UTNrQ0pTUEdiWGk5QlZhQ0xmR1Q2Zg?oc=5"
-          ],
-          "material_analysis": "FDAによる品質管理システムの不備に伴う警告書受領および輸入警告の発出が開示され、北米向け出荷停止や販売機会損失が懸念される深刻な悪材料となっています。市場では業績への定量的な影響度合いが未確定なため、警戒売りが続いています。",
-          "fundamental_summary": "売上高は前年比16.4%増と拡大基調にあるものの、利益成長率は1.23%、営業利益率も7.49%にとどまり、収益性の改善が課題となっています。予想PERは13.9倍、PBRは2.48倍と一見割安感がある水準ですが、FDA規制問題に伴う特別損失や売上減少による下方修正リスクを内包しています。配当利回りは1.71%（年間30円）、配当性向は49.02%と還元面での下値支え力は限定的です。11月10日に控える決算発表で、米国規制に伴う業績影響の精査と見通しの開示が極めて重要な局面です。",
-          "technical_view": "急落に伴い1,700円の心理的節目付近まで押し込まれており、同水準が目先の支持線として機能するか試す展開です。上値は急落前の節目である1,850円から1,900円水準が戻り売りの強い抵抗帯として意識されます。",
-          "watch_points": [
-            "11月10日予定の決算発表で示される輸入警告の影響額および通期業績予想の修正有無",
-            "FDAに対する是正措置の進捗状況と輸入警告解除に向けたスケジュール"
+            "次回四半期決算における売上高・営業利益の進捗率と通期計画の維持状況",
+            "欧米を中心とする歯科医療機器市場の需要動向および為替影響"
           ],
           "valuation_view": "fair",
           "dividend": {
             "annual_yen": 30,
-            "yield_pct": 1.71,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 49.02
+            "yield_pct": 2.11,
+            "ex_date": "2026-12-29",
+            "payout_ratio_pct": 2.12
           },
           "earnings": {
-            "announcement_date": "2026-11-10",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
+            "announcement_date": "2026-11-13",
+            "fiscal_year_end": "2026-12-31",
+            "fiscal_month": 12
           },
           "valuation": {
             "sector": "Healthcare",
-            "industry": "Medical Devices",
-            "per": 28.5,
-            "forward_per": 13.9,
-            "pbr": 2.48,
-            "psr": 1.77,
-            "market_cap_oku": 18515,
-            "price_yen": 1742,
-            "target_price_yen": 2085,
-            "target_upside_pct": 19.7,
-            "revenue_growth_pct": 16.4,
-            "earnings_growth_pct": 1.23,
-            "profit_margin_pct": 7.49,
-            "roe_pct": 10.57,
-            "debt_to_equity": 42.6
-          },
-          "shareholder_benefit": "なし"
-        },
-        "rsi_ok": false,
-        "rci_ok": false
-      },
-      {
-        "code": "8174",
-        "name": "日本瓦斯",
-        "mark": "返売",
-        "close": 866,
-        "rsi": 13.77,
-        "rci": -2.92,
-        "rci_turn": false,
-        "quality": {
-          "code": "8174",
-          "stars": 2,
-          "background": "直近で発表された2027年3月期第2四半期決算において、上期の連結経常利益が前年同期比14.1％減となり、特に7-9月期単体で63％の大幅減益に沈んだことが嫌気されています。四半期ごとの収益急減速により通期計画に対する達成懸念が台頭し、好配当利回りを考慮してもなお業績悪化を警戒した手仕舞い売りが優勢となっています。",
-          "risk_factors": [
-            "調達コスト上昇や価格転嫁遅れによるさらなるマージン悪化",
-            "中間期の大幅減益に伴う通期業績予想の下方修正リスク",
-            "75%を超える高水準な配当性向による還元余力の縮小"
-          ],
-          "confidence": "high",
-          "sources": [
-            "https://www.release.tdnet.info/inbs/140120261028557470.pdf",
-            "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsb2lCa2Q4TWlKdjNrMlhmQUxOWlAwNnZIV0MyTF9wZ0VkZkV4QncwZENRd3NJRmVBQ3JjX2pYRWRhaGV2NzJLdVo1eFBvcU9ib1E?oc=5"
-          ],
-          "material_analysis": "第2四半期決算短信において中間期の純利益が15.6％減、7-9月期経常が63％減と採算悪化が顕在化しました。ディフェンシブ銘柄としての高配当期待はあるものの、目先の収益急減という悪材料を織り込む動きが先行しています。",
-          "fundamental_summary": "LPガスや都市ガス販売を展開するエネルギー企業で、ROEは22.86%と高い資本効率を誇ります。しかし、直近四半期での収益性低下により足元の利益成長率は0.9%と頭打ち感が強まっており、事業環境の逆風が確認されます。PBRは4.29倍とユーティリティセクターとしては高水準に位置しており、業績鈍化局面ではバリュエーション面での割高感が意識されやすい状況です。配当利回りは3.96%と下支え要因になるものの、配当性向が75.71%に達しており、業績がさらに悪化した場合の株主還元維持力には注意を要します。",
-          "technical_view": "節目であった900円を割り込み、直近安値圏となる860円台まで下落基調が続いています。目先は850円の心理的節目が下値支持線として機能するかが焦点となり、反発局面では下抜けた900円ラインおよび下向きの移動平均線が抵抗帯として意識されます。",
-          "watch_points": [
-            "下期に向けた顧客件数の推移および販売マージンの改善度合い",
-            "第3四半期以降の利益進捗率と通期計画に対する修正開示の有無"
-          ],
-          "valuation_view": "expensive",
-          "dividend": {
-            "annual_yen": 37,
-            "yield_pct": 3.96,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 75.71
-          },
-          "earnings": {
-            "announcement_date": "2026-10-29",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Utilities",
-            "industry": "Utilities - Regulated Gas",
-            "per": 19.8,
-            "forward_per": 6.3,
-            "pbr": 4.31,
-            "psr": 1.3,
-            "market_cap_oku": 2767,
-            "price_yen": 866,
-            "target_price_yen": 1069,
-            "target_upside_pct": 23.4,
-            "revenue_growth_pct": 8.8,
-            "earnings_growth_pct": 0.9,
-            "profit_margin_pct": 6.95,
-            "roe_pct": 22.86,
-            "debt_to_equity": 76.6
+            "industry": "Medical Instruments & Supplies",
+            "per": 101.2,
+            "forward_per": 10.4,
+            "pbr": 1.88,
+            "psr": 2.54,
+            "market_cap_oku": 2263,
+            "price_yen": 1383,
+            "target_price_yen": 1800,
+            "target_upside_pct": 30.2,
+            "revenue_growth_pct": 19.9,
+            "earnings_growth_pct": 36.4,
+            "profit_margin_pct": 2.51,
+            "roe_pct": 1.87,
+            "debt_to_equity": 27.8
           },
           "shareholder_benefit": "なし"
         },
@@ -1675,12 +1180,35 @@
         "rci_ok": false
       }
     ],
-    "new_buy_count": 6,
-    "rsi_oversold_count": 0,
+    "new_buy_count": 0,
+    "rsi_oversold_count": 1,
     "recommended": []
   },
   "daily": {
     "days": [
+      {
+        "date": "2026-11-02",
+        "pnl": -22700,
+        "new_buy_count": 0,
+        "sellback_count": 2,
+        "new_buy": [],
+        "sellback": [
+          {
+            "code": "5802",
+            "name": "住友電気工業",
+            "mark": "返売",
+            "close": 1685,
+            "pnl": -14500
+          },
+          {
+            "code": "7716",
+            "name": "ナカニシ",
+            "mark": "返売",
+            "close": 1383,
+            "pnl": -8200
+          }
+        ]
+      },
       {
         "date": "2026-10-30",
         "pnl": -6300,
@@ -1718,7 +1246,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 35,
-                "yield_pct": 1.43,
+                "yield_pct": 1.4,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 41.62
               },
@@ -1730,14 +1258,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Confectioners",
-                "per": 29.8,
-                "forward_per": 27.2,
-                "pbr": 8.54,
-                "psr": 4.81,
-                "market_cap_oku": 3868,
-                "price_yen": 2504,
+                "per": 30.7,
+                "forward_per": 28.1,
+                "pbr": 8.81,
+                "psr": 4.96,
+                "market_cap_oku": 3989,
+                "price_yen": 2583,
                 "target_price_yen": 3100,
-                "target_upside_pct": 23.8,
+                "target_upside_pct": 20.0,
                 "revenue_growth_pct": 10.0,
                 "earnings_growth_pct": 18.5,
                 "profit_margin_pct": 16.14,
@@ -1748,7 +1276,7 @@
                 "source": "minkabu",
                 "kind": "自社グループ製品詰合せ",
                 "month": "3",
-                "yield_pct": "1.22",
+                "yield_pct": "1.19",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -1795,7 +1323,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 75,
-                "yield_pct": 3.68,
+                "yield_pct": 3.6,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 74.62
               },
@@ -1807,19 +1335,19 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 18.1,
-                "forward_per": 9.1,
-                "pbr": 0.69,
-                "psr": 0.28,
-                "market_cap_oku": 14432,
-                "price_yen": 2081,
-                "target_price_yen": 2641,
-                "target_upside_pct": 26.9,
-                "revenue_growth_pct": 7.8,
-                "earnings_growth_pct": -15.0,
-                "profit_margin_pct": 3.15,
-                "roe_pct": 8.43,
-                "debt_to_equity": 28.9
+                "per": 18.2,
+                "forward_per": 9.2,
+                "pbr": 0.68,
+                "psr": 0.27,
+                "market_cap_oku": 14522,
+                "price_yen": 2094,
+                "target_price_yen": 2615,
+                "target_upside_pct": 24.9,
+                "revenue_growth_pct": 6.9,
+                "earnings_growth_pct": -37.5,
+                "profit_margin_pct": 2.86,
+                "roe_pct": 7.77,
+                "debt_to_equity": 28.3
               },
               "shareholder_benefit": "なし"
             }
@@ -1853,7 +1381,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 64,
-                "yield_pct": 3.1,
+                "yield_pct": 3.04,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 32.39
               },
@@ -1869,10 +1397,10 @@
                 "forward_per": 3.5,
                 "pbr": 2.28,
                 "psr": 2.1,
-                "market_cap_oku": 2877,
-                "price_yen": 2103,
-                "target_price_yen": 2725,
-                "target_upside_pct": 29.6,
+                "market_cap_oku": 2888,
+                "price_yen": 2111,
+                "target_price_yen": 2690,
+                "target_upside_pct": 27.4,
                 "revenue_growth_pct": -1.2,
                 "earnings_growth_pct": -29.5,
                 "profit_margin_pct": 16.87,
@@ -1884,7 +1412,7 @@
                 "source": "minkabu",
                 "kind": "自社商品、自社ＥＣサイト割引",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.33",
+                "yield_pct": "---、配当利回りは3.31",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -1953,7 +1481,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 3.0,
+                "yield_pct": 2.96,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 41.1
               },
@@ -1965,15 +1493,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Telecom Services",
-                "per": 14.6,
-                "forward_per": 1217.4,
-                "pbr": 2.11,
-                "psr": 1.71,
-                "peg": 1.38,
-                "market_cap_oku": 104814,
-                "price_yen": 2836,
+                "per": 14.5,
+                "forward_per": 1211.4,
+                "pbr": 2.1,
+                "psr": 1.7,
+                "peg": 1.41,
+                "market_cap_oku": 104297,
+                "price_yen": 2822,
                 "target_price_yen": 3065,
-                "target_upside_pct": 8.1,
+                "target_upside_pct": 8.6,
                 "revenue_growth_pct": 3.6,
                 "earnings_growth_pct": 19.4,
                 "profit_margin_pct": 12.09,
@@ -2032,7 +1560,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 9,
-                "yield_pct": 3.78,
+                "yield_pct": 3.71,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 76.31
               },
@@ -2046,10 +1574,10 @@
                 "industry": "Telecom Services",
                 "per": 20.8,
                 "forward_per": 20.2,
-                "pbr": 3.85,
+                "pbr": 3.84,
                 "psr": 1.56,
-                "peg": 2.73,
-                "market_cap_oku": 112027,
+                "peg": 2.75,
+                "market_cap_oku": 111931,
                 "price_yen": 234,
                 "target_price_yen": 273,
                 "target_upside_pct": 16.7,
@@ -2115,7 +1643,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 46,
-                "yield_pct": 1.2,
+                "yield_pct": 1.16,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 28.63
               },
@@ -2128,14 +1656,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 23.6,
-                "forward_per": 29.1,
-                "pbr": 5.53,
-                "peg": 1.95,
-                "market_cap_oku": 16554,
-                "price_yen": 3957,
+                "per": 23.4,
+                "forward_per": 28.9,
+                "pbr": 5.48,
+                "psr": 6.98,
+                "peg": 2.1,
+                "market_cap_oku": 16412,
+                "price_yen": 3923,
                 "target_price_yen": 4766,
-                "target_upside_pct": 20.4,
+                "target_upside_pct": 21.5,
                 "revenue_growth_pct": 41.6,
                 "earnings_growth_pct": 35.4,
                 "profit_margin_pct": 29.84
@@ -2195,7 +1724,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 200,
-                "yield_pct": 6.04,
+                "yield_pct": 5.99,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 57.83
               },
@@ -2211,10 +1740,10 @@
                 "forward_per": 6.5,
                 "pbr": 0.5,
                 "psr": 0.77,
-                "market_cap_oku": 1496,
-                "price_yen": 3340,
+                "market_cap_oku": 1500,
+                "price_yen": 3350,
                 "target_price_yen": 3400,
-                "target_upside_pct": 1.8,
+                "target_upside_pct": 1.5,
                 "revenue_growth_pct": 3.3,
                 "earnings_growth_pct": -26.7,
                 "profit_margin_pct": 7.77,
@@ -2253,7 +1782,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 71,
-                "yield_pct": 2.14,
+                "yield_pct": 2.19,
                 "ex_date": "2026-06-29",
                 "payout_ratio_pct": 31.52
               },
@@ -2265,14 +1794,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Telecom Services",
-                "per": 18.4,
-                "forward_per": 21.2,
-                "pbr": 2.03,
+                "per": 18.2,
+                "forward_per": 21.0,
+                "pbr": 2.02,
                 "psr": 1.0,
-                "market_cap_oku": 3022,
-                "price_yen": 3248,
+                "market_cap_oku": 3000,
+                "price_yen": 3225,
                 "target_price_yen": 4166,
-                "target_upside_pct": 28.3,
+                "target_upside_pct": 29.2,
                 "revenue_growth_pct": 8.5,
                 "earnings_growth_pct": 7.0,
                 "profit_margin_pct": 5.88,
@@ -2355,7 +1884,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 32,
-                "yield_pct": 2.02,
+                "yield_pct": 1.98,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 38.36
               },
@@ -2367,14 +1896,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Devices",
-                "per": 19.4,
-                "forward_per": 14.7,
-                "pbr": 1.46,
-                "psr": 1.11,
-                "market_cap_oku": 2586,
-                "price_yen": 1616,
+                "per": 19.2,
+                "forward_per": 14.6,
+                "pbr": 1.44,
+                "psr": 1.1,
+                "market_cap_oku": 2557,
+                "price_yen": 1598,
                 "target_price_yen": 1738,
-                "target_upside_pct": 7.5,
+                "target_upside_pct": 8.8,
                 "revenue_growth_pct": -5.2,
                 "profit_margin_pct": 5.86,
                 "roe_pct": 7.68,
@@ -2428,7 +1957,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 1.2
               },
@@ -2440,20 +1969,20 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 15.7,
-                "forward_per": 8.0,
-                "pbr": 1.95,
-                "psr": 1.04,
-                "peg": 3.76,
-                "market_cap_oku": 55218,
-                "price_yen": 1770,
-                "target_price_yen": 3254,
-                "target_upside_pct": 83.8,
-                "revenue_growth_pct": 15.9,
-                "earnings_growth_pct": 89.1,
-                "profit_margin_pct": 7.57,
-                "roe_pct": 15.78,
-                "debt_to_equity": 25.2
+                "per": 15.0,
+                "forward_per": 7.6,
+                "pbr": 1.83,
+                "psr": 0.95,
+                "peg": 3.56,
+                "market_cap_oku": 52551,
+                "price_yen": 1684,
+                "target_price_yen": 3221,
+                "target_upside_pct": 91.3,
+                "revenue_growth_pct": 17.1,
+                "earnings_growth_pct": 48.0,
+                "profit_margin_pct": 7.83,
+                "roe_pct": 16.23,
+                "debt_to_equity": 23.8
               },
               "shareholder_benefit": "なし"
             }
@@ -2484,7 +2013,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 72,
-                "yield_pct": 2.35,
+                "yield_pct": 2.49,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 38.66
               },
@@ -2496,14 +2025,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.0,
-                "forward_per": 15.3,
-                "pbr": 1.29,
-                "psr": 0.7,
-                "market_cap_oku": 5866,
-                "price_yen": 2896,
+                "per": 17.1,
+                "forward_per": 15.4,
+                "pbr": 1.3,
+                "psr": 0.71,
+                "market_cap_oku": 5905,
+                "price_yen": 2914,
                 "target_price_yen": 4495,
-                "target_upside_pct": 55.2,
+                "target_upside_pct": 54.3,
                 "revenue_growth_pct": 8.1,
                 "earnings_growth_pct": 75.5,
                 "profit_margin_pct": 4.16,
@@ -2539,7 +2068,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 56,
-                "yield_pct": 1.46,
+                "yield_pct": 1.51,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 12.27
               },
@@ -2552,14 +2081,14 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductor Equipment & Materials",
-                "per": 26.7,
-                "forward_per": 26.9,
-                "pbr": 4.38,
-                "psr": 4.49,
-                "market_cap_oku": 6414,
-                "price_yen": 3698,
+                "per": 26.8,
+                "forward_per": 27.0,
+                "pbr": 4.4,
+                "psr": 4.51,
+                "market_cap_oku": 6446,
+                "price_yen": 3717,
                 "target_price_yen": 6650,
-                "target_upside_pct": 79.8,
+                "target_upside_pct": 78.9,
                 "revenue_growth_pct": 30.7,
                 "earnings_growth_pct": 36.5,
                 "profit_margin_pct": 16.8,
@@ -2602,8 +2131,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 54,
-                "yield_pct": 1.47,
+                "annual_yen": 86,
+                "yield_pct": 2.42,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.88
               },
@@ -2615,19 +2144,19 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Consumer Electronics",
-                "per": 32.7,
-                "forward_per": 21.0,
-                "pbr": 1.53,
-                "psr": 1.01,
-                "market_cap_oku": 82843,
-                "price_yen": 3548,
-                "target_price_yen": 5005,
-                "target_upside_pct": 41.1,
-                "revenue_growth_pct": 6.4,
-                "earnings_growth_pct": 89.2,
-                "profit_margin_pct": 3.1,
-                "roe_pct": 5.25,
-                "debt_to_equity": 27.9
+                "per": 26.9,
+                "forward_per": 22.1,
+                "pbr": 1.63,
+                "psr": 1.05,
+                "market_cap_oku": 87216,
+                "price_yen": 3735,
+                "target_price_yen": 5015,
+                "target_upside_pct": 34.3,
+                "revenue_growth_pct": 7.8,
+                "earnings_growth_pct": 99.9,
+                "profit_margin_pct": 3.89,
+                "roe_pct": 6.51,
+                "debt_to_equity": 28.8
               },
               "shareholder_benefit": "なし"
             }
@@ -2714,7 +2243,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 6.35,
+                "yield_pct": 6.41,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 3.03
               },
@@ -2727,14 +2256,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Internet Content & Information",
-                "per": 47.2,
-                "forward_per": 7.5,
-                "pbr": 2.32,
-                "psr": 1.52,
-                "market_cap_oku": 784,
-                "price_yen": 1498,
+                "per": 46.5,
+                "forward_per": 7.4,
+                "pbr": 2.29,
+                "psr": 1.5,
+                "market_cap_oku": 773,
+                "price_yen": 1477,
                 "target_price_yen": 1400,
-                "target_upside_pct": -6.5,
+                "target_upside_pct": -5.2,
                 "revenue_growth_pct": -9.4,
                 "profit_margin_pct": 3.23,
                 "roe_pct": 4.66,
@@ -2886,7 +2415,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 20,
-                "yield_pct": 79.0,
+                "yield_pct": 86.0,
                 "ex_date": "2026-06-29",
                 "payout_ratio_pct": 2.14
               },
@@ -2898,13 +2427,13 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductor Equipment & Materials",
-                "forward_per": 47.2,
-                "pbr": 1.43,
-                "psr": 1.94,
-                "market_cap_oku": 8119,
-                "price_yen": 2322,
+                "forward_per": 46.8,
+                "pbr": 1.42,
+                "psr": 1.92,
+                "market_cap_oku": 8063,
+                "price_yen": 2306,
                 "target_price_yen": 3886,
-                "target_upside_pct": 67.4,
+                "target_upside_pct": 68.5,
                 "revenue_growth_pct": 10.4,
                 "profit_margin_pct": -6.61,
                 "roe_pct": -4.06,
@@ -2939,7 +2468,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 1.2
               },
@@ -2951,20 +2480,20 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 15.7,
-                "forward_per": 8.0,
-                "pbr": 1.95,
-                "psr": 1.04,
-                "peg": 3.76,
-                "market_cap_oku": 55218,
-                "price_yen": 1770,
-                "target_price_yen": 3254,
-                "target_upside_pct": 83.8,
-                "revenue_growth_pct": 15.9,
-                "earnings_growth_pct": 89.1,
-                "profit_margin_pct": 7.57,
-                "roe_pct": 15.78,
-                "debt_to_equity": 25.2
+                "per": 15.0,
+                "forward_per": 7.6,
+                "pbr": 1.83,
+                "psr": 0.96,
+                "peg": 3.56,
+                "market_cap_oku": 52676,
+                "price_yen": 1688,
+                "target_price_yen": 3221,
+                "target_upside_pct": 90.8,
+                "revenue_growth_pct": 17.1,
+                "earnings_growth_pct": 48.0,
+                "profit_margin_pct": 7.83,
+                "roe_pct": 16.23,
+                "debt_to_equity": 23.8
               },
               "shareholder_benefit": "なし"
             }
@@ -2995,7 +2524,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 50,
-                "yield_pct": 1.31,
+                "yield_pct": 1.4,
                 "ex_date": "2026-03-30",
                 "payout_ratio_pct": 2.22
               },
@@ -3007,13 +2536,13 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductors",
-                "forward_per": 41.1,
+                "forward_per": 41.0,
                 "pbr": 1.78,
                 "psr": 2.75,
-                "market_cap_oku": 13774,
-                "price_yen": 3568,
+                "market_cap_oku": 13762,
+                "price_yen": 3565,
                 "target_price_yen": 5964,
-                "target_upside_pct": 67.2,
+                "target_upside_pct": 67.3,
                 "revenue_growth_pct": 16.8,
                 "earnings_growth_pct": 2.04,
                 "profit_margin_pct": -30.44,
@@ -3102,7 +2631,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 36,
-                "yield_pct": 3.7,
+                "yield_pct": 3.73,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 29.29
               },
@@ -3116,14 +2645,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto & Truck Dealerships",
-                "per": 8.0,
-                "forward_per": 6.4,
-                "pbr": 1.05,
+                "per": 8.1,
+                "forward_per": 6.5,
+                "pbr": 1.06,
                 "psr": 0.16,
-                "market_cap_oku": 962,
-                "price_yen": 958,
+                "market_cap_oku": 972,
+                "price_yen": 968,
                 "target_price_yen": 1330,
-                "target_upside_pct": 38.8,
+                "target_upside_pct": 37.4,
                 "revenue_growth_pct": 17.8,
                 "earnings_growth_pct": -12.4,
                 "profit_margin_pct": 1.97,
@@ -3135,7 +2664,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "2",
-                "yield_pct": "---、配当利回りは3.28",
+                "yield_pct": "---、配当利回りは3.24",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -3193,7 +2722,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 30,
-                "yield_pct": 1.71,
+                "yield_pct": 1.72,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 49.02
               },
@@ -3205,14 +2734,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Devices",
-                "per": 28.5,
-                "forward_per": 13.9,
-                "pbr": 2.48,
-                "psr": 1.77,
-                "market_cap_oku": 18515,
-                "price_yen": 1742,
+                "per": 28.3,
+                "forward_per": 13.8,
+                "pbr": 2.46,
+                "psr": 1.76,
+                "market_cap_oku": 18382,
+                "price_yen": 1730,
                 "target_price_yen": 2085,
-                "target_upside_pct": 19.7,
+                "target_upside_pct": 20.5,
                 "revenue_growth_pct": 16.4,
                 "earnings_growth_pct": 1.23,
                 "profit_margin_pct": 7.49,
@@ -3295,7 +2824,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 75,
-                "yield_pct": 2.68,
+                "yield_pct": 2.61,
                 "ex_date": "2026-03-30",
                 "payout_ratio_pct": 42.97
               },
@@ -3306,16 +2835,16 @@
                 "is_estimate": true
               },
               "valuation": {
-                "sector": "Basic Materials",
-                "industry": "Specialty Chemicals",
-                "per": 16.5,
+                "sector": "Industrials",
+                "industry": "Conglomerates",
+                "per": 16.6,
                 "forward_per": 13.3,
-                "pbr": 1.69,
+                "pbr": 1.7,
                 "psr": 0.62,
-                "market_cap_oku": 6596,
-                "price_yen": 2877,
+                "market_cap_oku": 6635,
+                "price_yen": 2894,
                 "target_price_yen": 2557,
-                "target_upside_pct": -11.1,
+                "target_upside_pct": -11.6,
                 "revenue_growth_pct": 30.2,
                 "profit_margin_pct": -5.99,
                 "roe_pct": -15.25,
@@ -3388,7 +2917,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 40,
-                "yield_pct": 2.02,
+                "yield_pct": 2.08,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 39.36
               },
@@ -3400,14 +2929,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 21.8,
-                "forward_per": 22.0,
-                "pbr": 1.21,
-                "psr": 1.15,
-                "market_cap_oku": 3897,
-                "price_yen": 1926,
+                "per": 21.3,
+                "forward_per": 21.5,
+                "pbr": 1.19,
+                "psr": 1.13,
+                "market_cap_oku": 3811,
+                "price_yen": 1884,
                 "target_price_yen": 2525,
-                "target_upside_pct": 31.1,
+                "target_upside_pct": 34.0,
                 "revenue_growth_pct": 18.4,
                 "earnings_growth_pct": 5.5,
                 "profit_margin_pct": 5.54,
@@ -3419,7 +2948,7 @@
                 "source": "minkabu",
                 "kind": "カタログギフト",
                 "month": "12",
-                "yield_pct": "---、配当利回りは2.08",
+                "yield_pct": "---、配当利回りは2.12",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -3474,7 +3003,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 1.81,
+                "yield_pct": 1.92,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 18.35
               },
@@ -3486,14 +3015,14 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Electronic Components",
-                "per": 11.4,
-                "forward_per": 14.5,
-                "pbr": 1.35,
+                "per": 11.5,
+                "forward_per": 14.6,
+                "pbr": 1.36,
                 "psr": 0.73,
-                "market_cap_oku": 12522,
-                "price_yen": 3118,
+                "market_cap_oku": 12602,
+                "price_yen": 3138,
                 "target_price_yen": 4841,
-                "target_upside_pct": 55.3,
+                "target_upside_pct": 54.3,
                 "revenue_growth_pct": 16.3,
                 "earnings_growth_pct": 95.6,
                 "profit_margin_pct": 6.35,
@@ -3530,8 +3059,8 @@
               ],
               "valuation_view": "fair",
               "dividend": {
-                "annual_yen": 54,
-                "yield_pct": 1.47,
+                "annual_yen": 86,
+                "yield_pct": 2.42,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.88
               },
@@ -3543,19 +3072,19 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Consumer Electronics",
-                "per": 32.7,
-                "forward_per": 21.0,
-                "pbr": 1.53,
-                "psr": 1.01,
-                "market_cap_oku": 82843,
-                "price_yen": 3548,
-                "target_price_yen": 5005,
-                "target_upside_pct": 41.1,
-                "revenue_growth_pct": 6.4,
-                "earnings_growth_pct": 89.2,
-                "profit_margin_pct": 3.1,
-                "roe_pct": 5.25,
-                "debt_to_equity": 27.9
+                "per": 26.9,
+                "forward_per": 22.1,
+                "pbr": 1.62,
+                "psr": 1.05,
+                "market_cap_oku": 87193,
+                "price_yen": 3734,
+                "target_price_yen": 5015,
+                "target_upside_pct": 34.3,
+                "revenue_growth_pct": 7.8,
+                "earnings_growth_pct": 99.9,
+                "profit_margin_pct": 3.89,
+                "roe_pct": 6.51,
+                "debt_to_equity": 28.8
               },
               "shareholder_benefit": "なし"
             }
@@ -3588,7 +3117,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 41,
-                "yield_pct": 1.42,
+                "yield_pct": 1.45,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 16.99
               },
@@ -3600,14 +3129,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Conglomerates",
-                "per": 12.0,
-                "forward_per": 14.4,
+                "per": 11.9,
+                "forward_per": 14.3,
                 "pbr": 0.98,
                 "psr": 0.79,
-                "market_cap_oku": 12036,
-                "price_yen": 2822,
+                "market_cap_oku": 11972,
+                "price_yen": 2808,
                 "target_price_yen": 3260,
-                "target_upside_pct": 15.5,
+                "target_upside_pct": 16.1,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": -45.7,
                 "profit_margin_pct": 5.41,
@@ -3699,7 +3228,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 130,
-                "yield_pct": 4.83,
+                "yield_pct": 4.91,
                 "ex_date": "2027-05-28",
                 "payout_ratio_pct": 5.05
               },
@@ -3713,13 +3242,13 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Residential Construction",
-                "per": 107.1,
-                "pbr": 3.38,
-                "psr": 0.39,
-                "market_cap_oku": 768,
-                "price_yen": 2650,
+                "per": 108.6,
+                "pbr": 3.43,
+                "psr": 0.4,
+                "market_cap_oku": 779,
+                "price_yen": 2688,
                 "target_price_yen": 2600,
-                "target_upside_pct": -1.9,
+                "target_upside_pct": -3.3,
                 "revenue_growth_pct": -5.1,
                 "profit_margin_pct": 0.37,
                 "roe_pct": 3.01,
@@ -3776,7 +3305,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 6.35,
+                "yield_pct": 6.41,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 3.03
               },
@@ -3789,14 +3318,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Internet Content & Information",
-                "per": 47.2,
-                "forward_per": 7.5,
-                "pbr": 2.32,
-                "psr": 1.52,
-                "market_cap_oku": 784,
-                "price_yen": 1498,
+                "per": 46.5,
+                "forward_per": 7.4,
+                "pbr": 2.29,
+                "psr": 1.5,
+                "market_cap_oku": 773,
+                "price_yen": 1477,
                 "target_price_yen": 1400,
-                "target_upside_pct": -6.5,
+                "target_upside_pct": -5.2,
                 "revenue_growth_pct": -9.4,
                 "profit_margin_pct": 3.23,
                 "roe_pct": 4.66,
@@ -3860,7 +3389,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.87,
+                "yield_pct": 2.83,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 32.53
               },
@@ -3874,14 +3403,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.8,
-                "forward_per": 6.3,
-                "pbr": 1.33,
+                "per": 12.1,
+                "forward_per": 6.4,
+                "pbr": 1.35,
                 "psr": 0.24,
-                "market_cap_oku": 2137,
-                "price_yen": 2470,
+                "market_cap_oku": 2179,
+                "price_yen": 2519,
                 "target_price_yen": 2750,
-                "target_upside_pct": 11.3,
+                "target_upside_pct": 9.2,
                 "revenue_growth_pct": 1.3,
                 "earnings_growth_pct": -6.4,
                 "profit_margin_pct": 2.03,
@@ -3893,7 +3422,7 @@
                 "source": "minkabu",
                 "kind": "自社商品券、PB商品",
                 "month": "2",
-                "yield_pct": "---、配当利回りは2.83",
+                "yield_pct": "---、配当利回りは2.78",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -3967,7 +3496,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 46,
-                "yield_pct": 3.64,
+                "yield_pct": 3.66,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 60.52
               },
@@ -3979,14 +3508,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Engineering & Construction",
-                "per": 16.5,
-                "forward_per": 4.0,
-                "pbr": 2.34,
-                "psr": 2.81,
-                "market_cap_oku": 2507,
-                "price_yen": 1250,
+                "per": 16.7,
+                "forward_per": 4.1,
+                "pbr": 2.37,
+                "psr": 2.84,
+                "market_cap_oku": 2532,
+                "price_yen": 1262,
                 "target_price_yen": 1377,
-                "target_upside_pct": 10.2,
+                "target_upside_pct": 9.1,
                 "revenue_growth_pct": -1.5,
                 "earnings_growth_pct": 7.9,
                 "profit_margin_pct": 17.31,
@@ -4021,7 +3550,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 47,
-                "yield_pct": 2.45,
+                "yield_pct": 2.44,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 14.49
               },
@@ -4033,14 +3562,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Conglomerates",
-                "per": 5.9,
+                "per": 6.0,
                 "forward_per": 2.8,
-                "pbr": 0.93,
-                "psr": 0.47,
-                "market_cap_oku": 4431,
-                "price_yen": 1925,
+                "pbr": 0.94,
+                "psr": 0.48,
+                "market_cap_oku": 4482,
+                "price_yen": 1947,
                 "target_price_yen": 2080,
-                "target_upside_pct": 8.1,
+                "target_upside_pct": 6.8,
                 "revenue_growth_pct": 13.1,
                 "earnings_growth_pct": 5.71,
                 "profit_margin_pct": 7.98,
@@ -4117,7 +3646,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 4.79,
+                "yield_pct": 4.8,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 40.68
               },
@@ -4133,8 +3662,8 @@
                 "forward_per": 18.2,
                 "pbr": 1.27,
                 "psr": 0.61,
-                "market_cap_oku": 2746,
-                "price_yen": 1750,
+                "market_cap_oku": 2744,
+                "price_yen": 1749,
                 "target_price_yen": 1865,
                 "target_upside_pct": 6.6,
                 "revenue_growth_pct": 12.4,
@@ -4173,7 +3702,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 3.06,
+                "yield_pct": 3.03,
                 "ex_date": "2026-11-27",
                 "payout_ratio_pct": 35.8
               },
@@ -4190,8 +3719,8 @@
                 "per": 12.2,
                 "pbr": 1.32,
                 "psr": 0.41,
-                "market_cap_oku": 2048,
-                "price_yen": 3170,
+                "market_cap_oku": 2051,
+                "price_yen": 3175,
                 "revenue_growth_pct": 6.5,
                 "earnings_growth_pct": -5.2,
                 "profit_margin_pct": 3.32,
@@ -4279,7 +3808,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 43,
-                "yield_pct": 1.48,
+                "yield_pct": 1.43,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 40.77
               },
@@ -4291,15 +3820,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 28.6,
+                "per": 28.4,
                 "forward_per": 10.7,
-                "pbr": 3.07,
-                "psr": 3.43,
-                "peg": 3.13,
-                "market_cap_oku": 10878,
-                "price_yen": 3016,
+                "pbr": 3.05,
+                "psr": 3.41,
+                "peg": 3.23,
+                "market_cap_oku": 10817,
+                "price_yen": 2999,
                 "target_price_yen": 2856,
-                "target_upside_pct": -5.3,
+                "target_upside_pct": -4.8,
                 "revenue_growth_pct": 32.3,
                 "earnings_growth_pct": 1.76,
                 "profit_margin_pct": 12.01,
@@ -4310,7 +3839,7 @@
                 "source": "minkabu",
                 "kind": "自社運営ストア・クーポン",
                 "month": "3",
-                "yield_pct": "0.17",
+                "yield_pct": "0.16",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -4463,7 +3992,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.2,
+                "yield_pct": 2.15,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 36.89
               },
@@ -4475,14 +4004,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.5,
-                "forward_per": 3.6,
-                "pbr": 1.13,
-                "psr": 0.47,
-                "market_cap_oku": 10151,
-                "price_yen": 2236,
+                "per": 17.9,
+                "forward_per": 3.7,
+                "pbr": 1.15,
+                "psr": 0.48,
+                "market_cap_oku": 10353,
+                "price_yen": 2280,
                 "target_price_yen": 2613,
-                "target_upside_pct": 16.9,
+                "target_upside_pct": 14.6,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -4493,7 +4022,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.28",
+                "yield_pct": "2.23",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -4548,7 +4077,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 2.22,
+                "yield_pct": 2.17,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 35.06
               },
@@ -4560,15 +4089,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 16.1,
-                "forward_per": 16.5,
-                "pbr": 2.01,
-                "psr": 4.17,
-                "peg": 1.49,
-                "market_cap_oku": 21505,
-                "price_yen": 2759,
+                "per": 15.9,
+                "forward_per": 16.2,
+                "pbr": 1.98,
+                "psr": 4.11,
+                "peg": 1.52,
+                "market_cap_oku": 21178,
+                "price_yen": 2717,
                 "target_price_yen": 2971,
-                "target_upside_pct": 7.7,
+                "target_upside_pct": 9.3,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": 80.4,
                 "profit_margin_pct": 26.35,
@@ -4610,7 +4139,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 125,
-                "yield_pct": 4.08,
+                "yield_pct": 4.05,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 48.73
               },
@@ -4622,14 +4151,14 @@
               "valuation": {
                 "sector": "Financial Services",
                 "industry": "Credit Services",
-                "per": 12.5,
-                "forward_per": 6.6,
-                "pbr": 1.69,
-                "psr": 6.96,
-                "market_cap_oku": 4110,
-                "price_yen": 3088,
+                "per": 12.3,
+                "forward_per": 6.4,
+                "pbr": 1.66,
+                "psr": 6.85,
+                "market_cap_oku": 4042,
+                "price_yen": 3037,
                 "target_price_yen": 3680,
-                "target_upside_pct": 19.2,
+                "target_upside_pct": 21.2,
                 "revenue_growth_pct": 2.5,
                 "earnings_growth_pct": 10.9,
                 "profit_margin_pct": 56.05,
@@ -4665,7 +4194,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 94,
-                "yield_pct": 4.53,
+                "yield_pct": 4.57,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 44.02
               },
@@ -4677,14 +4206,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Manufacturers",
-                "per": 9.8,
-                "forward_per": 8.1,
-                "pbr": 0.94,
+                "per": 9.7,
+                "forward_per": 8.0,
+                "pbr": 0.93,
                 "psr": 0.4,
-                "market_cap_oku": 14126,
-                "price_yen": 2056,
+                "market_cap_oku": 13975,
+                "price_yen": 2034,
                 "target_price_yen": 2569,
-                "target_upside_pct": 25.0,
+                "target_upside_pct": 26.3,
                 "revenue_growth_pct": 6.8,
                 "earnings_growth_pct": 27.4,
                 "profit_margin_pct": 4.09,
@@ -4720,7 +4249,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 108,
-                "yield_pct": 7.05,
+                "yield_pct": 7.13,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 27.3
               },
@@ -4734,12 +4263,12 @@
                 "industry": "Auto Parts",
                 "per": 7.9,
                 "forward_per": 2.4,
-                "pbr": 0.8,
+                "pbr": 0.79,
                 "psr": 0.37,
-                "market_cap_oku": 1827,
-                "price_yen": 1514,
+                "market_cap_oku": 1812,
+                "price_yen": 1501,
                 "target_price_yen": 2000,
-                "target_upside_pct": 32.1,
+                "target_upside_pct": 33.2,
                 "revenue_growth_pct": 10.7,
                 "earnings_growth_pct": -23.4,
                 "profit_margin_pct": 5.1,
@@ -4775,7 +4304,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 103,
-                "yield_pct": 10.25,
+                "yield_pct": 10.45,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 25.47
               },
@@ -4789,24 +4318,23 @@
                 "industry": "Auto Parts",
                 "per": 9.7,
                 "forward_per": 2.8,
-                "pbr": 0.99,
-                "psr": 0.48,
-                "market_cap_oku": 5754,
-                "price_yen": 981,
+                "pbr": 1.01,
+                "psr": 0.47,
+                "market_cap_oku": 5766,
+                "price_yen": 984,
                 "target_price_yen": 1231,
-                "target_upside_pct": 25.5,
-                "revenue_growth_pct": 16.7,
-                "earnings_growth_pct": 45.6,
-                "profit_margin_pct": 5.6,
-                "roe_pct": 12.04,
-                "debt_to_equity": 21.6
+                "target_upside_pct": 25.1,
+                "revenue_growth_pct": 10.5,
+                "profit_margin_pct": 5.02,
+                "roe_pct": 10.86,
+                "debt_to_equity": 18.1
               },
               "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "自社製品、イベント招待",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.57",
+                "yield_pct": "---、配当利回りは3.56",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -4873,7 +4401,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.75,
+                "yield_pct": 3.67,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 62.83
               },
@@ -4885,19 +4413,18 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.3,
-                "forward_per": 7.2,
+                "per": 14.1,
+                "forward_per": 7.1,
                 "pbr": 1.55,
-                "psr": 1.19,
-                "market_cap_oku": 4248,
-                "price_yen": 2480,
-                "target_price_yen": 2811,
-                "target_upside_pct": 13.3,
-                "revenue_growth_pct": 6.3,
-                "earnings_growth_pct": -7.6,
-                "profit_margin_pct": 9.26,
-                "roe_pct": 11.88,
-                "debt_to_equity": 8.4
+                "psr": 1.16,
+                "market_cap_oku": 4230,
+                "price_yen": 2470,
+                "target_price_yen": 2839,
+                "target_upside_pct": 14.9,
+                "revenue_growth_pct": 8.6,
+                "profit_margin_pct": 8.98,
+                "roe_pct": 12.19,
+                "debt_to_equity": 12.9
               },
               "shareholder_benefit": "なし"
             }
@@ -5027,7 +4554,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.51,
+                "yield_pct": 2.5,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 35.72
               },
@@ -5039,14 +4566,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 16.4,
-                "forward_per": 16.9,
-                "pbr": 2.15,
-                "psr": 2.3,
-                "market_cap_oku": 6241,
-                "price_yen": 2799,
+                "per": 16.2,
+                "forward_per": 16.7,
+                "pbr": 2.12,
+                "psr": 2.28,
+                "market_cap_oku": 6176,
+                "price_yen": 2770,
                 "target_price_yen": 3620,
-                "target_upside_pct": 29.3,
+                "target_upside_pct": 30.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -5258,9 +4785,9 @@
       },
       {
         "date": "2026-09-24",
-        "pnl": 1900,
+        "pnl": 3900,
         "new_buy_count": 0,
-        "sellback_count": 4,
+        "sellback_count": 3,
         "new_buy": [],
         "sellback": [
           {
@@ -5283,13 +4810,6 @@
             "mark": "返売",
             "close": 1368,
             "pnl": 1600
-          },
-          {
-            "code": "9143",
-            "name": "ＳＧホールディングス",
-            "mark": "返売",
-            "close": 1492,
-            "pnl": -2000
           }
         ]
       },
@@ -5619,7 +5139,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 26,
-                "yield_pct": 2.39,
+                "yield_pct": 2.36,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.28
               },
@@ -5631,14 +5151,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.8,
+                "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.61,
-                "market_cap_oku": 3525,
-                "price_yen": 1092,
+                "psr": 0.62,
+                "market_cap_oku": 3546,
+                "price_yen": 1098,
                 "target_price_yen": 1420,
-                "target_upside_pct": 30.0,
+                "target_upside_pct": 29.3,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -5650,7 +5170,7 @@
                 "source": "minkabu",
                 "kind": "自社商品",
                 "month": "3",
-                "yield_pct": "---、配当利回りは2.29",
+                "yield_pct": "---、配当利回りは2.27",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -5706,7 +5226,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 142,
-                "yield_pct": 4.7,
+                "yield_pct": 4.64,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 20.52
               },
@@ -5721,13 +5241,13 @@
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
                 "per": 5.4,
-                "forward_per": 5.9,
-                "pbr": 1.25,
+                "forward_per": 6.0,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 953,
-                "price_yen": 3070,
+                "market_cap_oku": 967,
+                "price_yen": 3115,
                 "target_price_yen": 4900,
-                "target_upside_pct": 59.6,
+                "target_upside_pct": 57.3,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -5739,7 +5259,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.89",
+                "yield_pct": "---、配当利回りは4.82",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -5862,7 +5382,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.2,
+                "yield_pct": 2.15,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 36.89
               },
@@ -5874,14 +5394,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.5,
-                "forward_per": 3.6,
-                "pbr": 1.13,
-                "psr": 0.47,
-                "market_cap_oku": 10151,
-                "price_yen": 2236,
+                "per": 17.9,
+                "forward_per": 3.7,
+                "pbr": 1.15,
+                "psr": 0.48,
+                "market_cap_oku": 10351,
+                "price_yen": 2280,
                 "target_price_yen": 2613,
-                "target_upside_pct": 16.9,
+                "target_upside_pct": 14.6,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -5892,7 +5412,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.28",
+                "yield_pct": "2.23",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -5949,7 +5469,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.11,
+                "yield_pct": 3.44,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 87.63
               },
@@ -5961,14 +5481,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 28.6,
+                "per": 28.8,
                 "forward_per": 11.3,
-                "pbr": 2.63,
-                "psr": 1.91,
-                "market_cap_oku": 1015,
-                "price_yen": 2645,
+                "pbr": 2.65,
+                "psr": 1.93,
+                "market_cap_oku": 1022,
+                "price_yen": 2661,
                 "target_price_yen": 5400,
-                "target_upside_pct": 104.2,
+                "target_upside_pct": 102.9,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -6006,16 +5526,9 @@
       {
         "date": "2026-08-31",
         "pnl": 0,
-        "new_buy_count": 1,
+        "new_buy_count": 0,
         "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "9143",
-            "name": "ＳＧホールディングス",
-            "mark": "新買",
-            "close": 1512
-          }
-        ],
+        "new_buy": [],
         "sellback": []
       },
       {
@@ -6161,14 +5674,6 @@
         "sellback_count": 0,
         "new_buy": [],
         "sellback": []
-      },
-      {
-        "date": "2026-08-03",
-        "pnl": 0,
-        "new_buy_count": 0,
-        "sellback_count": 0,
-        "new_buy": [],
-        "sellback": []
       }
     ],
     "buy_days": [
@@ -6209,7 +5714,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 35,
-                "yield_pct": 1.43,
+                "yield_pct": 1.4,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 41.62
               },
@@ -6221,14 +5726,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Confectioners",
-                "per": 29.8,
-                "forward_per": 27.2,
-                "pbr": 8.54,
-                "psr": 4.81,
-                "market_cap_oku": 3868,
-                "price_yen": 2504,
+                "per": 30.7,
+                "forward_per": 28.1,
+                "pbr": 8.81,
+                "psr": 4.96,
+                "market_cap_oku": 3989,
+                "price_yen": 2583,
                 "target_price_yen": 3100,
-                "target_upside_pct": 23.8,
+                "target_upside_pct": 20.0,
                 "revenue_growth_pct": 10.0,
                 "earnings_growth_pct": 18.5,
                 "profit_margin_pct": 16.14,
@@ -6239,7 +5744,7 @@
                 "source": "minkabu",
                 "kind": "自社グループ製品詰合せ",
                 "month": "3",
-                "yield_pct": "1.22",
+                "yield_pct": "1.19",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -6286,7 +5791,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 75,
-                "yield_pct": 3.68,
+                "yield_pct": 3.6,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 74.62
               },
@@ -6298,19 +5803,19 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 18.1,
-                "forward_per": 9.1,
-                "pbr": 0.69,
-                "psr": 0.28,
-                "market_cap_oku": 14432,
-                "price_yen": 2081,
-                "target_price_yen": 2641,
-                "target_upside_pct": 26.9,
-                "revenue_growth_pct": 7.8,
-                "earnings_growth_pct": -15.0,
-                "profit_margin_pct": 3.15,
-                "roe_pct": 8.43,
-                "debt_to_equity": 28.9
+                "per": 18.2,
+                "forward_per": 9.2,
+                "pbr": 0.68,
+                "psr": 0.27,
+                "market_cap_oku": 14522,
+                "price_yen": 2094,
+                "target_price_yen": 2615,
+                "target_upside_pct": 24.9,
+                "revenue_growth_pct": 6.9,
+                "earnings_growth_pct": -37.5,
+                "profit_margin_pct": 2.86,
+                "roe_pct": 7.77,
+                "debt_to_equity": 28.3
               },
               "shareholder_benefit": "なし"
             }
@@ -6344,7 +5849,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 64,
-                "yield_pct": 3.1,
+                "yield_pct": 3.04,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 32.39
               },
@@ -6360,10 +5865,10 @@
                 "forward_per": 3.5,
                 "pbr": 2.28,
                 "psr": 2.1,
-                "market_cap_oku": 2877,
-                "price_yen": 2103,
-                "target_price_yen": 2725,
-                "target_upside_pct": 29.6,
+                "market_cap_oku": 2888,
+                "price_yen": 2111,
+                "target_price_yen": 2690,
+                "target_upside_pct": 27.4,
                 "revenue_growth_pct": -1.2,
                 "earnings_growth_pct": -29.5,
                 "profit_margin_pct": 16.87,
@@ -6375,7 +5880,7 @@
                 "source": "minkabu",
                 "kind": "自社商品、自社ＥＣサイト割引",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.33",
+                "yield_pct": "---、配当利回りは3.31",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -6444,7 +5949,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 3.0,
+                "yield_pct": 2.96,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 41.1
               },
@@ -6456,15 +5961,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Telecom Services",
-                "per": 14.6,
-                "forward_per": 1217.4,
-                "pbr": 2.11,
-                "psr": 1.71,
-                "peg": 1.38,
-                "market_cap_oku": 104814,
-                "price_yen": 2836,
+                "per": 14.5,
+                "forward_per": 1211.4,
+                "pbr": 2.1,
+                "psr": 1.7,
+                "peg": 1.41,
+                "market_cap_oku": 104297,
+                "price_yen": 2822,
                 "target_price_yen": 3065,
-                "target_upside_pct": 8.1,
+                "target_upside_pct": 8.6,
                 "revenue_growth_pct": 3.6,
                 "earnings_growth_pct": 19.4,
                 "profit_margin_pct": 12.09,
@@ -6523,7 +6028,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 9,
-                "yield_pct": 3.78,
+                "yield_pct": 3.71,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 76.31
               },
@@ -6537,10 +6042,10 @@
                 "industry": "Telecom Services",
                 "per": 20.8,
                 "forward_per": 20.2,
-                "pbr": 3.85,
+                "pbr": 3.84,
                 "psr": 1.56,
-                "peg": 2.73,
-                "market_cap_oku": 112027,
+                "peg": 2.75,
+                "market_cap_oku": 111931,
                 "price_yen": 234,
                 "target_price_yen": 273,
                 "target_upside_pct": 16.7,
@@ -6606,7 +6111,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 46,
-                "yield_pct": 1.2,
+                "yield_pct": 1.16,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 28.63
               },
@@ -6619,14 +6124,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 23.6,
-                "forward_per": 29.1,
-                "pbr": 5.53,
-                "peg": 1.95,
-                "market_cap_oku": 16554,
-                "price_yen": 3957,
+                "per": 23.4,
+                "forward_per": 28.9,
+                "pbr": 5.48,
+                "psr": 6.98,
+                "peg": 2.1,
+                "market_cap_oku": 16412,
+                "price_yen": 3923,
                 "target_price_yen": 4766,
-                "target_upside_pct": 20.4,
+                "target_upside_pct": 21.5,
                 "revenue_growth_pct": 41.6,
                 "earnings_growth_pct": 35.4,
                 "profit_margin_pct": 29.84
@@ -6686,7 +6192,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 200,
-                "yield_pct": 6.04,
+                "yield_pct": 5.99,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 57.83
               },
@@ -6702,10 +6208,10 @@
                 "forward_per": 6.5,
                 "pbr": 0.5,
                 "psr": 0.77,
-                "market_cap_oku": 1496,
-                "price_yen": 3340,
+                "market_cap_oku": 1500,
+                "price_yen": 3350,
                 "target_price_yen": 3400,
-                "target_upside_pct": 1.8,
+                "target_upside_pct": 1.5,
                 "revenue_growth_pct": 3.3,
                 "earnings_growth_pct": -26.7,
                 "profit_margin_pct": 7.77,
@@ -6744,7 +6250,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 71,
-                "yield_pct": 2.14,
+                "yield_pct": 2.19,
                 "ex_date": "2026-06-29",
                 "payout_ratio_pct": 31.52
               },
@@ -6756,14 +6262,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Telecom Services",
-                "per": 18.4,
-                "forward_per": 21.2,
-                "pbr": 2.03,
+                "per": 18.2,
+                "forward_per": 21.0,
+                "pbr": 2.02,
                 "psr": 1.0,
-                "market_cap_oku": 3022,
-                "price_yen": 3248,
+                "market_cap_oku": 3000,
+                "price_yen": 3225,
                 "target_price_yen": 4166,
-                "target_upside_pct": 28.3,
+                "target_upside_pct": 29.2,
                 "revenue_growth_pct": 8.5,
                 "earnings_growth_pct": 7.0,
                 "profit_margin_pct": 5.88,
@@ -6846,7 +6352,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 32,
-                "yield_pct": 2.02,
+                "yield_pct": 1.98,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 38.36
               },
@@ -6858,14 +6364,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Devices",
-                "per": 19.4,
-                "forward_per": 14.7,
-                "pbr": 1.46,
-                "psr": 1.11,
-                "market_cap_oku": 2586,
-                "price_yen": 1616,
+                "per": 19.2,
+                "forward_per": 14.6,
+                "pbr": 1.44,
+                "psr": 1.1,
+                "market_cap_oku": 2557,
+                "price_yen": 1598,
                 "target_price_yen": 1738,
-                "target_upside_pct": 7.5,
+                "target_upside_pct": 8.8,
                 "revenue_growth_pct": -5.2,
                 "profit_margin_pct": 5.86,
                 "roe_pct": 7.68,
@@ -6919,7 +6425,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 1.2
               },
@@ -6931,20 +6437,20 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 15.7,
-                "forward_per": 8.0,
-                "pbr": 1.95,
-                "psr": 1.04,
-                "peg": 3.76,
-                "market_cap_oku": 55218,
-                "price_yen": 1770,
-                "target_price_yen": 3254,
-                "target_upside_pct": 83.8,
-                "revenue_growth_pct": 15.9,
-                "earnings_growth_pct": 89.1,
-                "profit_margin_pct": 7.57,
-                "roe_pct": 15.78,
-                "debt_to_equity": 25.2
+                "per": 15.0,
+                "forward_per": 7.6,
+                "pbr": 1.83,
+                "psr": 0.95,
+                "peg": 3.56,
+                "market_cap_oku": 52551,
+                "price_yen": 1684,
+                "target_price_yen": 3221,
+                "target_upside_pct": 91.3,
+                "revenue_growth_pct": 17.1,
+                "earnings_growth_pct": 48.0,
+                "profit_margin_pct": 7.83,
+                "roe_pct": 16.23,
+                "debt_to_equity": 23.8
               },
               "shareholder_benefit": "なし"
             }
@@ -6975,7 +6481,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 72,
-                "yield_pct": 2.35,
+                "yield_pct": 2.49,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 38.66
               },
@@ -6987,14 +6493,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.0,
-                "forward_per": 15.3,
-                "pbr": 1.29,
-                "psr": 0.7,
-                "market_cap_oku": 5866,
-                "price_yen": 2896,
+                "per": 17.1,
+                "forward_per": 15.4,
+                "pbr": 1.3,
+                "psr": 0.71,
+                "market_cap_oku": 5905,
+                "price_yen": 2914,
                 "target_price_yen": 4495,
-                "target_upside_pct": 55.2,
+                "target_upside_pct": 54.3,
                 "revenue_growth_pct": 8.1,
                 "earnings_growth_pct": 75.5,
                 "profit_margin_pct": 4.16,
@@ -7030,7 +6536,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 56,
-                "yield_pct": 1.46,
+                "yield_pct": 1.51,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 12.27
               },
@@ -7043,14 +6549,14 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductor Equipment & Materials",
-                "per": 26.7,
-                "forward_per": 26.9,
-                "pbr": 4.38,
-                "psr": 4.49,
-                "market_cap_oku": 6414,
-                "price_yen": 3698,
+                "per": 26.8,
+                "forward_per": 27.0,
+                "pbr": 4.4,
+                "psr": 4.51,
+                "market_cap_oku": 6446,
+                "price_yen": 3717,
                 "target_price_yen": 6650,
-                "target_upside_pct": 79.8,
+                "target_upside_pct": 78.9,
                 "revenue_growth_pct": 30.7,
                 "earnings_growth_pct": 36.5,
                 "profit_margin_pct": 16.8,
@@ -7093,8 +6599,8 @@
               ],
               "valuation_view": "cheap",
               "dividend": {
-                "annual_yen": 54,
-                "yield_pct": 1.47,
+                "annual_yen": 86,
+                "yield_pct": 2.42,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.88
               },
@@ -7106,19 +6612,19 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Consumer Electronics",
-                "per": 32.7,
-                "forward_per": 21.0,
-                "pbr": 1.53,
-                "psr": 1.01,
-                "market_cap_oku": 82843,
-                "price_yen": 3548,
-                "target_price_yen": 5005,
-                "target_upside_pct": 41.1,
-                "revenue_growth_pct": 6.4,
-                "earnings_growth_pct": 89.2,
-                "profit_margin_pct": 3.1,
-                "roe_pct": 5.25,
-                "debt_to_equity": 27.9
+                "per": 26.9,
+                "forward_per": 22.1,
+                "pbr": 1.63,
+                "psr": 1.05,
+                "market_cap_oku": 87216,
+                "price_yen": 3735,
+                "target_price_yen": 5015,
+                "target_upside_pct": 34.3,
+                "revenue_growth_pct": 7.8,
+                "earnings_growth_pct": 99.9,
+                "profit_margin_pct": 3.89,
+                "roe_pct": 6.51,
+                "debt_to_equity": 28.8
               },
               "shareholder_benefit": "なし"
             }
@@ -7175,7 +6681,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 6.35,
+                "yield_pct": 6.41,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 3.03
               },
@@ -7188,14 +6694,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Internet Content & Information",
-                "per": 47.2,
-                "forward_per": 7.5,
-                "pbr": 2.32,
-                "psr": 1.52,
-                "market_cap_oku": 784,
-                "price_yen": 1498,
+                "per": 46.5,
+                "forward_per": 7.4,
+                "pbr": 2.29,
+                "psr": 1.5,
+                "market_cap_oku": 773,
+                "price_yen": 1477,
                 "target_price_yen": 1400,
-                "target_upside_pct": -6.5,
+                "target_upside_pct": -5.2,
                 "revenue_growth_pct": -9.4,
                 "profit_margin_pct": 3.23,
                 "roe_pct": 4.66,
@@ -7289,7 +6795,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 20,
-                "yield_pct": 79.0,
+                "yield_pct": 86.0,
                 "ex_date": "2026-06-29",
                 "payout_ratio_pct": 2.14
               },
@@ -7301,13 +6807,13 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductor Equipment & Materials",
-                "forward_per": 47.2,
-                "pbr": 1.43,
-                "psr": 1.94,
-                "market_cap_oku": 8119,
-                "price_yen": 2322,
+                "forward_per": 46.8,
+                "pbr": 1.42,
+                "psr": 1.92,
+                "market_cap_oku": 8063,
+                "price_yen": 2306,
                 "target_price_yen": 3886,
-                "target_upside_pct": 67.4,
+                "target_upside_pct": 68.5,
                 "revenue_growth_pct": 10.4,
                 "profit_margin_pct": -6.61,
                 "roe_pct": -4.06,
@@ -7342,7 +6848,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 45,
-                "yield_pct": 2.41,
+                "yield_pct": 2.54,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 1.2
               },
@@ -7354,20 +6860,20 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 15.7,
-                "forward_per": 8.0,
-                "pbr": 1.95,
-                "psr": 1.04,
-                "peg": 3.76,
-                "market_cap_oku": 55218,
-                "price_yen": 1770,
-                "target_price_yen": 3254,
-                "target_upside_pct": 83.8,
-                "revenue_growth_pct": 15.9,
-                "earnings_growth_pct": 89.1,
-                "profit_margin_pct": 7.57,
-                "roe_pct": 15.78,
-                "debt_to_equity": 25.2
+                "per": 15.0,
+                "forward_per": 7.6,
+                "pbr": 1.83,
+                "psr": 0.96,
+                "peg": 3.56,
+                "market_cap_oku": 52676,
+                "price_yen": 1688,
+                "target_price_yen": 3221,
+                "target_upside_pct": 90.8,
+                "revenue_growth_pct": 17.1,
+                "earnings_growth_pct": 48.0,
+                "profit_margin_pct": 7.83,
+                "roe_pct": 16.23,
+                "debt_to_equity": 23.8
               },
               "shareholder_benefit": "なし"
             }
@@ -7398,7 +6904,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 50,
-                "yield_pct": 1.31,
+                "yield_pct": 1.4,
                 "ex_date": "2026-03-30",
                 "payout_ratio_pct": 2.22
               },
@@ -7410,13 +6916,13 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Semiconductors",
-                "forward_per": 41.1,
+                "forward_per": 41.0,
                 "pbr": 1.78,
                 "psr": 2.75,
-                "market_cap_oku": 13774,
-                "price_yen": 3568,
+                "market_cap_oku": 13762,
+                "price_yen": 3565,
                 "target_price_yen": 5964,
-                "target_upside_pct": 67.2,
+                "target_upside_pct": 67.3,
                 "revenue_growth_pct": 16.8,
                 "earnings_growth_pct": 2.04,
                 "profit_margin_pct": -30.44,
@@ -7505,7 +7011,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 36,
-                "yield_pct": 3.7,
+                "yield_pct": 3.73,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 29.29
               },
@@ -7519,14 +7025,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto & Truck Dealerships",
-                "per": 8.0,
-                "forward_per": 6.4,
-                "pbr": 1.05,
+                "per": 8.1,
+                "forward_per": 6.5,
+                "pbr": 1.06,
                 "psr": 0.16,
-                "market_cap_oku": 962,
-                "price_yen": 958,
+                "market_cap_oku": 972,
+                "price_yen": 968,
                 "target_price_yen": 1330,
-                "target_upside_pct": 38.8,
+                "target_upside_pct": 37.4,
                 "revenue_growth_pct": 17.8,
                 "earnings_growth_pct": -12.4,
                 "profit_margin_pct": 1.97,
@@ -7538,7 +7044,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "2",
-                "yield_pct": "---、配当利回りは3.28",
+                "yield_pct": "---、配当利回りは3.24",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -7596,7 +7102,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 30,
-                "yield_pct": 1.71,
+                "yield_pct": 1.72,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 49.02
               },
@@ -7608,14 +7114,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Medical Devices",
-                "per": 28.5,
-                "forward_per": 13.9,
-                "pbr": 2.48,
-                "psr": 1.77,
-                "market_cap_oku": 18515,
-                "price_yen": 1742,
+                "per": 28.3,
+                "forward_per": 13.8,
+                "pbr": 2.46,
+                "psr": 1.76,
+                "market_cap_oku": 18382,
+                "price_yen": 1730,
                 "target_price_yen": 2085,
-                "target_upside_pct": 19.7,
+                "target_upside_pct": 20.5,
                 "revenue_growth_pct": 16.4,
                 "earnings_growth_pct": 1.23,
                 "profit_margin_pct": 7.49,
@@ -7698,7 +7204,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 75,
-                "yield_pct": 2.68,
+                "yield_pct": 2.61,
                 "ex_date": "2026-03-30",
                 "payout_ratio_pct": 42.97
               },
@@ -7709,16 +7215,16 @@
                 "is_estimate": true
               },
               "valuation": {
-                "sector": "Basic Materials",
-                "industry": "Specialty Chemicals",
-                "per": 16.5,
+                "sector": "Industrials",
+                "industry": "Conglomerates",
+                "per": 16.6,
                 "forward_per": 13.3,
-                "pbr": 1.69,
+                "pbr": 1.7,
                 "psr": 0.62,
-                "market_cap_oku": 6596,
-                "price_yen": 2877,
+                "market_cap_oku": 6635,
+                "price_yen": 2894,
                 "target_price_yen": 2557,
-                "target_upside_pct": -11.1,
+                "target_upside_pct": -11.6,
                 "revenue_growth_pct": 30.2,
                 "profit_margin_pct": -5.99,
                 "roe_pct": -15.25,
@@ -7791,7 +7297,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 40,
-                "yield_pct": 2.02,
+                "yield_pct": 2.08,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 39.36
               },
@@ -7803,14 +7309,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 21.8,
-                "forward_per": 22.0,
-                "pbr": 1.21,
-                "psr": 1.15,
-                "market_cap_oku": 3897,
-                "price_yen": 1926,
+                "per": 21.3,
+                "forward_per": 21.5,
+                "pbr": 1.19,
+                "psr": 1.13,
+                "market_cap_oku": 3811,
+                "price_yen": 1884,
                 "target_price_yen": 2525,
-                "target_upside_pct": 31.1,
+                "target_upside_pct": 34.0,
                 "revenue_growth_pct": 18.4,
                 "earnings_growth_pct": 5.5,
                 "profit_margin_pct": 5.54,
@@ -7822,7 +7328,7 @@
                 "source": "minkabu",
                 "kind": "カタログギフト",
                 "month": "12",
-                "yield_pct": "---、配当利回りは2.08",
+                "yield_pct": "---、配当利回りは2.12",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -7877,7 +7383,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 1.81,
+                "yield_pct": 1.92,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 18.35
               },
@@ -7889,14 +7395,14 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Electronic Components",
-                "per": 11.4,
-                "forward_per": 14.5,
-                "pbr": 1.35,
+                "per": 11.5,
+                "forward_per": 14.6,
+                "pbr": 1.36,
                 "psr": 0.73,
-                "market_cap_oku": 12522,
-                "price_yen": 3118,
+                "market_cap_oku": 12602,
+                "price_yen": 3138,
                 "target_price_yen": 4841,
-                "target_upside_pct": 55.3,
+                "target_upside_pct": 54.3,
                 "revenue_growth_pct": 16.3,
                 "earnings_growth_pct": 95.6,
                 "profit_margin_pct": 6.35,
@@ -7933,8 +7439,8 @@
               ],
               "valuation_view": "fair",
               "dividend": {
-                "annual_yen": 54,
-                "yield_pct": 1.47,
+                "annual_yen": 86,
+                "yield_pct": 2.42,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.88
               },
@@ -7946,19 +7452,19 @@
               "valuation": {
                 "sector": "Technology",
                 "industry": "Consumer Electronics",
-                "per": 32.7,
-                "forward_per": 21.0,
-                "pbr": 1.53,
-                "psr": 1.01,
-                "market_cap_oku": 82843,
-                "price_yen": 3548,
-                "target_price_yen": 5005,
-                "target_upside_pct": 41.1,
-                "revenue_growth_pct": 6.4,
-                "earnings_growth_pct": 89.2,
-                "profit_margin_pct": 3.1,
-                "roe_pct": 5.25,
-                "debt_to_equity": 27.9
+                "per": 26.9,
+                "forward_per": 22.1,
+                "pbr": 1.62,
+                "psr": 1.05,
+                "market_cap_oku": 87193,
+                "price_yen": 3734,
+                "target_price_yen": 5015,
+                "target_upside_pct": 34.3,
+                "revenue_growth_pct": 7.8,
+                "earnings_growth_pct": 99.9,
+                "profit_margin_pct": 3.89,
+                "roe_pct": 6.51,
+                "debt_to_equity": 28.8
               },
               "shareholder_benefit": "なし"
             }
@@ -7991,7 +7497,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 41,
-                "yield_pct": 1.42,
+                "yield_pct": 1.45,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 16.99
               },
@@ -8003,14 +7509,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Conglomerates",
-                "per": 12.0,
-                "forward_per": 14.4,
+                "per": 11.9,
+                "forward_per": 14.3,
                 "pbr": 0.98,
                 "psr": 0.79,
-                "market_cap_oku": 12036,
-                "price_yen": 2822,
+                "market_cap_oku": 11972,
+                "price_yen": 2808,
                 "target_price_yen": 3260,
-                "target_upside_pct": 15.5,
+                "target_upside_pct": 16.1,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": -45.7,
                 "profit_margin_pct": 5.41,
@@ -8102,7 +7608,7 @@
               "valuation_view": "fair",
               "dividend": {
                 "annual_yen": 130,
-                "yield_pct": 4.83,
+                "yield_pct": 4.91,
                 "ex_date": "2027-05-28",
                 "payout_ratio_pct": 5.05
               },
@@ -8116,13 +7622,13 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Residential Construction",
-                "per": 107.1,
-                "pbr": 3.38,
-                "psr": 0.39,
-                "market_cap_oku": 768,
-                "price_yen": 2650,
+                "per": 108.6,
+                "pbr": 3.43,
+                "psr": 0.4,
+                "market_cap_oku": 779,
+                "price_yen": 2688,
                 "target_price_yen": 2600,
-                "target_upside_pct": -1.9,
+                "target_upside_pct": -3.3,
                 "revenue_growth_pct": -5.1,
                 "profit_margin_pct": 0.37,
                 "roe_pct": 3.01,
@@ -8179,7 +7685,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 6.35,
+                "yield_pct": 6.41,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 3.03
               },
@@ -8192,14 +7698,14 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Internet Content & Information",
-                "per": 47.2,
-                "forward_per": 7.5,
-                "pbr": 2.32,
-                "psr": 1.52,
-                "market_cap_oku": 784,
-                "price_yen": 1498,
+                "per": 46.5,
+                "forward_per": 7.4,
+                "pbr": 2.29,
+                "psr": 1.5,
+                "market_cap_oku": 773,
+                "price_yen": 1477,
                 "target_price_yen": 1400,
-                "target_upside_pct": -6.5,
+                "target_upside_pct": -5.2,
                 "revenue_growth_pct": -9.4,
                 "profit_margin_pct": 3.23,
                 "roe_pct": 4.66,
@@ -8263,7 +7769,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.87,
+                "yield_pct": 2.83,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 32.53
               },
@@ -8277,14 +7783,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Grocery Stores",
-                "per": 11.8,
-                "forward_per": 6.3,
-                "pbr": 1.33,
+                "per": 12.1,
+                "forward_per": 6.4,
+                "pbr": 1.35,
                 "psr": 0.24,
-                "market_cap_oku": 2137,
-                "price_yen": 2470,
+                "market_cap_oku": 2179,
+                "price_yen": 2519,
                 "target_price_yen": 2750,
-                "target_upside_pct": 11.3,
+                "target_upside_pct": 9.2,
                 "revenue_growth_pct": 1.3,
                 "earnings_growth_pct": -6.4,
                 "profit_margin_pct": 2.03,
@@ -8296,7 +7802,7 @@
                 "source": "minkabu",
                 "kind": "自社商品券、PB商品",
                 "month": "2",
-                "yield_pct": "---、配当利回りは2.83",
+                "yield_pct": "---、配当利回りは2.78",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -8370,7 +7876,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 46,
-                "yield_pct": 3.64,
+                "yield_pct": 3.66,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 60.52
               },
@@ -8382,14 +7888,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Engineering & Construction",
-                "per": 16.5,
-                "forward_per": 4.0,
-                "pbr": 2.34,
-                "psr": 2.81,
-                "market_cap_oku": 2507,
-                "price_yen": 1250,
+                "per": 16.7,
+                "forward_per": 4.1,
+                "pbr": 2.37,
+                "psr": 2.84,
+                "market_cap_oku": 2532,
+                "price_yen": 1262,
                 "target_price_yen": 1377,
-                "target_upside_pct": 10.2,
+                "target_upside_pct": 9.1,
                 "revenue_growth_pct": -1.5,
                 "earnings_growth_pct": 7.9,
                 "profit_margin_pct": 17.31,
@@ -8424,7 +7930,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 47,
-                "yield_pct": 2.45,
+                "yield_pct": 2.44,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 14.49
               },
@@ -8436,14 +7942,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Conglomerates",
-                "per": 5.9,
+                "per": 6.0,
                 "forward_per": 2.8,
-                "pbr": 0.93,
-                "psr": 0.47,
-                "market_cap_oku": 4431,
-                "price_yen": 1925,
+                "pbr": 0.94,
+                "psr": 0.48,
+                "market_cap_oku": 4482,
+                "price_yen": 1947,
                 "target_price_yen": 2080,
-                "target_upside_pct": 8.1,
+                "target_upside_pct": 6.8,
                 "revenue_growth_pct": 13.1,
                 "earnings_growth_pct": 5.71,
                 "profit_margin_pct": 7.98,
@@ -8520,7 +8026,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 84,
-                "yield_pct": 4.79,
+                "yield_pct": 4.8,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 40.68
               },
@@ -8536,8 +8042,8 @@
                 "forward_per": 18.2,
                 "pbr": 1.27,
                 "psr": 0.61,
-                "market_cap_oku": 2746,
-                "price_yen": 1750,
+                "market_cap_oku": 2744,
+                "price_yen": 1749,
                 "target_price_yen": 1865,
                 "target_upside_pct": 6.6,
                 "revenue_growth_pct": 12.4,
@@ -8576,7 +8082,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 96,
-                "yield_pct": 3.06,
+                "yield_pct": 3.03,
                 "ex_date": "2026-11-27",
                 "payout_ratio_pct": 35.8
               },
@@ -8593,8 +8099,8 @@
                 "per": 12.2,
                 "pbr": 1.32,
                 "psr": 0.41,
-                "market_cap_oku": 2048,
-                "price_yen": 3170,
+                "market_cap_oku": 2051,
+                "price_yen": 3175,
                 "revenue_growth_pct": 6.5,
                 "earnings_growth_pct": -5.2,
                 "profit_margin_pct": 3.32,
@@ -8682,7 +8188,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 43,
-                "yield_pct": 1.48,
+                "yield_pct": 1.43,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 40.77
               },
@@ -8694,15 +8200,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 28.6,
+                "per": 28.4,
                 "forward_per": 10.7,
-                "pbr": 3.07,
-                "psr": 3.43,
-                "peg": 3.13,
-                "market_cap_oku": 10878,
-                "price_yen": 3016,
+                "pbr": 3.05,
+                "psr": 3.41,
+                "peg": 3.23,
+                "market_cap_oku": 10817,
+                "price_yen": 2999,
                 "target_price_yen": 2856,
-                "target_upside_pct": -5.3,
+                "target_upside_pct": -4.8,
                 "revenue_growth_pct": 32.3,
                 "earnings_growth_pct": 1.76,
                 "profit_margin_pct": 12.01,
@@ -8713,7 +8219,7 @@
                 "source": "minkabu",
                 "kind": "自社運営ストア・クーポン",
                 "month": "3",
-                "yield_pct": "0.17",
+                "yield_pct": "0.16",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -8866,7 +8372,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.2,
+                "yield_pct": 2.15,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 36.89
               },
@@ -8878,14 +8384,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.5,
-                "forward_per": 3.6,
-                "pbr": 1.13,
-                "psr": 0.47,
-                "market_cap_oku": 10151,
-                "price_yen": 2236,
+                "per": 17.9,
+                "forward_per": 3.7,
+                "pbr": 1.15,
+                "psr": 0.48,
+                "market_cap_oku": 10353,
+                "price_yen": 2280,
                 "target_price_yen": 2613,
-                "target_upside_pct": 16.9,
+                "target_upside_pct": 14.6,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -8896,7 +8402,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.28",
+                "yield_pct": "2.23",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -8951,7 +8457,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 60,
-                "yield_pct": 2.22,
+                "yield_pct": 2.17,
                 "ex_date": "2026-12-29",
                 "payout_ratio_pct": 35.06
               },
@@ -8963,15 +8469,15 @@
               "valuation": {
                 "sector": "Communication Services",
                 "industry": "Electronic Gaming & Multimedia",
-                "per": 16.1,
-                "forward_per": 16.5,
-                "pbr": 2.01,
-                "psr": 4.17,
-                "peg": 1.49,
-                "market_cap_oku": 21505,
-                "price_yen": 2759,
+                "per": 15.9,
+                "forward_per": 16.2,
+                "pbr": 1.98,
+                "psr": 4.11,
+                "peg": 1.52,
+                "market_cap_oku": 21178,
+                "price_yen": 2717,
                 "target_price_yen": 2971,
-                "target_upside_pct": 7.7,
+                "target_upside_pct": 9.3,
                 "revenue_growth_pct": 1.9,
                 "earnings_growth_pct": 80.4,
                 "profit_margin_pct": 26.35,
@@ -9013,7 +8519,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 125,
-                "yield_pct": 4.08,
+                "yield_pct": 4.05,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 48.73
               },
@@ -9025,14 +8531,14 @@
               "valuation": {
                 "sector": "Financial Services",
                 "industry": "Credit Services",
-                "per": 12.5,
-                "forward_per": 6.6,
-                "pbr": 1.69,
-                "psr": 6.96,
-                "market_cap_oku": 4110,
-                "price_yen": 3088,
+                "per": 12.3,
+                "forward_per": 6.4,
+                "pbr": 1.66,
+                "psr": 6.85,
+                "market_cap_oku": 4042,
+                "price_yen": 3037,
                 "target_price_yen": 3680,
-                "target_upside_pct": 19.2,
+                "target_upside_pct": 21.2,
                 "revenue_growth_pct": 2.5,
                 "earnings_growth_pct": 10.9,
                 "profit_margin_pct": 56.05,
@@ -9068,7 +8574,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 94,
-                "yield_pct": 4.53,
+                "yield_pct": 4.57,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 44.02
               },
@@ -9080,14 +8586,14 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Manufacturers",
-                "per": 9.8,
-                "forward_per": 8.1,
-                "pbr": 0.94,
+                "per": 9.7,
+                "forward_per": 8.0,
+                "pbr": 0.93,
                 "psr": 0.4,
-                "market_cap_oku": 14126,
-                "price_yen": 2056,
+                "market_cap_oku": 13975,
+                "price_yen": 2034,
                 "target_price_yen": 2569,
-                "target_upside_pct": 25.0,
+                "target_upside_pct": 26.3,
                 "revenue_growth_pct": 6.8,
                 "earnings_growth_pct": 27.4,
                 "profit_margin_pct": 4.09,
@@ -9123,7 +8629,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 108,
-                "yield_pct": 7.05,
+                "yield_pct": 7.13,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 27.3
               },
@@ -9137,12 +8643,12 @@
                 "industry": "Auto Parts",
                 "per": 7.9,
                 "forward_per": 2.4,
-                "pbr": 0.8,
+                "pbr": 0.79,
                 "psr": 0.37,
-                "market_cap_oku": 1827,
-                "price_yen": 1514,
+                "market_cap_oku": 1812,
+                "price_yen": 1501,
                 "target_price_yen": 2000,
-                "target_upside_pct": 32.1,
+                "target_upside_pct": 33.2,
                 "revenue_growth_pct": 10.7,
                 "earnings_growth_pct": -23.4,
                 "profit_margin_pct": 5.1,
@@ -9178,7 +8684,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 103,
-                "yield_pct": 10.25,
+                "yield_pct": 10.45,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 25.47
               },
@@ -9192,24 +8698,23 @@
                 "industry": "Auto Parts",
                 "per": 9.7,
                 "forward_per": 2.8,
-                "pbr": 0.99,
-                "psr": 0.48,
-                "market_cap_oku": 5754,
-                "price_yen": 981,
+                "pbr": 1.01,
+                "psr": 0.47,
+                "market_cap_oku": 5766,
+                "price_yen": 984,
                 "target_price_yen": 1231,
-                "target_upside_pct": 25.5,
-                "revenue_growth_pct": 16.7,
-                "earnings_growth_pct": 45.6,
-                "profit_margin_pct": 5.6,
-                "roe_pct": 12.04,
-                "debt_to_equity": 21.6
+                "target_upside_pct": 25.1,
+                "revenue_growth_pct": 10.5,
+                "profit_margin_pct": 5.02,
+                "roe_pct": 10.86,
+                "debt_to_equity": 18.1
               },
               "shareholder_benefit": "自社製品、イベント招待。100株以上。権利確定3月。",
               "shareholder_benefit_detail": {
                 "source": "minkabu",
                 "kind": "自社製品、イベント招待",
                 "month": "3",
-                "yield_pct": "---、配当利回りは3.57",
+                "yield_pct": "---、配当利回りは3.56",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -9276,7 +8781,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.75,
+                "yield_pct": 3.67,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 62.83
               },
@@ -9288,19 +8793,18 @@
               "valuation": {
                 "sector": "Consumer Cyclical",
                 "industry": "Auto Parts",
-                "per": 17.3,
-                "forward_per": 7.2,
+                "per": 14.1,
+                "forward_per": 7.1,
                 "pbr": 1.55,
-                "psr": 1.19,
-                "market_cap_oku": 4248,
-                "price_yen": 2480,
-                "target_price_yen": 2811,
-                "target_upside_pct": 13.3,
-                "revenue_growth_pct": 6.3,
-                "earnings_growth_pct": -7.6,
-                "profit_margin_pct": 9.26,
-                "roe_pct": 11.88,
-                "debt_to_equity": 8.4
+                "psr": 1.16,
+                "market_cap_oku": 4230,
+                "price_yen": 2470,
+                "target_price_yen": 2839,
+                "target_upside_pct": 14.9,
+                "revenue_growth_pct": 8.6,
+                "profit_margin_pct": 8.98,
+                "roe_pct": 12.19,
+                "debt_to_equity": 12.9
               },
               "shareholder_benefit": "なし"
             }
@@ -9430,7 +8934,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 70,
-                "yield_pct": 2.51,
+                "yield_pct": 2.5,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 35.72
               },
@@ -9442,14 +8946,14 @@
               "valuation": {
                 "sector": "Basic Materials",
                 "industry": "Specialty Chemicals",
-                "per": 16.4,
-                "forward_per": 16.9,
-                "pbr": 2.15,
-                "psr": 2.3,
-                "market_cap_oku": 6241,
-                "price_yen": 2799,
+                "per": 16.2,
+                "forward_per": 16.7,
+                "pbr": 2.12,
+                "psr": 2.28,
+                "market_cap_oku": 6176,
+                "price_yen": 2770,
                 "target_price_yen": 3620,
-                "target_upside_pct": 29.3,
+                "target_upside_pct": 30.7,
                 "revenue_growth_pct": 23.1,
                 "earnings_growth_pct": -9.4,
                 "profit_margin_pct": 14.58,
@@ -9772,7 +9276,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 26,
-                "yield_pct": 2.39,
+                "yield_pct": 2.36,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 36.28
               },
@@ -9784,14 +9288,14 @@
               "valuation": {
                 "sector": "Consumer Defensive",
                 "industry": "Packaged Foods",
-                "per": 15.8,
+                "per": 15.9,
                 "forward_per": 4.4,
                 "pbr": 0.32,
-                "psr": 0.61,
-                "market_cap_oku": 3525,
-                "price_yen": 1092,
+                "psr": 0.62,
+                "market_cap_oku": 3546,
+                "price_yen": 1098,
                 "target_price_yen": 1420,
-                "target_upside_pct": 30.0,
+                "target_upside_pct": 29.3,
                 "revenue_growth_pct": 2.4,
                 "earnings_growth_pct": 2.99,
                 "profit_margin_pct": 3.89,
@@ -9803,7 +9307,7 @@
                 "source": "minkabu",
                 "kind": "自社商品",
                 "month": "3",
-                "yield_pct": "---、配当利回りは2.29",
+                "yield_pct": "---、配当利回りは2.27",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -9859,7 +9363,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 142,
-                "yield_pct": 4.7,
+                "yield_pct": 4.64,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 20.52
               },
@@ -9874,13 +9378,13 @@
                 "sector": "Real Estate",
                 "industry": "Real Estate Services",
                 "per": 5.4,
-                "forward_per": 5.9,
-                "pbr": 1.25,
+                "forward_per": 6.0,
+                "pbr": 1.27,
                 "psr": 0.23,
-                "market_cap_oku": 953,
-                "price_yen": 3070,
+                "market_cap_oku": 967,
+                "price_yen": 3115,
                 "target_price_yen": 4900,
-                "target_upside_pct": 59.6,
+                "target_upside_pct": 57.3,
                 "revenue_growth_pct": 21.5,
                 "earnings_growth_pct": 100.0,
                 "profit_margin_pct": 4.31,
@@ -9892,7 +9396,7 @@
                 "source": "minkabu",
                 "kind": "デジタルギフト",
                 "month": "3",
-                "yield_pct": "---、配当利回りは4.89",
+                "yield_pct": "---、配当利回りは4.82",
                 "min_shares": 200,
                 "programs": [
                   {
@@ -10015,7 +9519,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 48,
-                "yield_pct": 2.2,
+                "yield_pct": 2.15,
                 "ex_date": "2027-02-25",
                 "payout_ratio_pct": 36.89
               },
@@ -10027,14 +9531,14 @@
               "valuation": {
                 "sector": "Healthcare",
                 "industry": "Pharmaceutical Retailers",
-                "per": 17.5,
-                "forward_per": 3.6,
-                "pbr": 1.13,
-                "psr": 0.47,
-                "market_cap_oku": 10151,
-                "price_yen": 2236,
+                "per": 17.9,
+                "forward_per": 3.7,
+                "pbr": 1.15,
+                "psr": 0.48,
+                "market_cap_oku": 10351,
+                "price_yen": 2280,
                 "target_price_yen": 2613,
-                "target_upside_pct": 16.9,
+                "target_upside_pct": 14.6,
                 "revenue_growth_pct": 1.24,
                 "earnings_growth_pct": -2.3,
                 "profit_margin_pct": 2.42,
@@ -10045,7 +9549,7 @@
                 "source": "minkabu",
                 "kind": "株主ギフト券、または寄付",
                 "month": "2",
-                "yield_pct": "2.28",
+                "yield_pct": "2.23",
                 "min_shares": 100,
                 "programs": [
                   {
@@ -10102,7 +9606,7 @@
               "valuation_view": "cheap",
               "dividend": {
                 "annual_yen": 91,
-                "yield_pct": 3.11,
+                "yield_pct": 3.44,
                 "ex_date": "2027-03-30",
                 "payout_ratio_pct": 87.63
               },
@@ -10114,14 +9618,14 @@
               "valuation": {
                 "sector": "Industrials",
                 "industry": "Pollution & Treatment Controls",
-                "per": 28.6,
+                "per": 28.8,
                 "forward_per": 11.3,
-                "pbr": 2.63,
-                "psr": 1.91,
-                "market_cap_oku": 1015,
-                "price_yen": 2645,
+                "pbr": 2.65,
+                "psr": 1.93,
+                "market_cap_oku": 1022,
+                "price_yen": 2661,
                 "target_price_yen": 5400,
-                "target_upside_pct": 104.2,
+                "target_upside_pct": 102.9,
                 "revenue_growth_pct": -25.8,
                 "earnings_growth_pct": -49.5,
                 "profit_margin_pct": 6.77,
@@ -10139,21 +9643,6 @@
           }
         ],
         "sellback": []
-      },
-      {
-        "date": "2026-08-31",
-        "pnl": 0,
-        "new_buy_count": 1,
-        "sellback_count": 0,
-        "new_buy": [
-          {
-            "code": "9143",
-            "name": "ＳＧホールディングス",
-            "mark": "新買",
-            "close": 1512
-          }
-        ],
-        "sellback": []
       }
     ]
   },
@@ -10166,539 +9655,123 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -3.21,
-    "new_buy_count": 6,
-    "rsi_oversold_count": 0,
+    "market_return_20d": -4.93,
+    "new_buy_count": 0,
+    "rsi_oversold_count": 1,
     "exit_rsi": 70.0,
     "etf_rsi": {
-      "1321": 7.58,
-      "1306": 50.91
+      "1321": 7.34,
+      "1306": 30.22
     },
-    "active_rsi": 50.91,
+    "active_rsi": 30.22,
     "signal": null
   },
   "quality": {
-    "2222": {
-      "code": "2222",
+    "5802": {
+      "code": "5802",
       "stars": 4,
-      "background": "一過性の利益確定売りによる下落。10月上旬に発表された上期売上速報での2桁増収を好感して急伸したのち、短期的な達成感から利益確定売りが優勢となっている。アナリスト予想の小幅な微修正（対前週1.1%減）も報じられたが、通期の業績拡大基調そのものを損なう悪材料ではない。",
+      "background": "一過性の利益確定売りによる下落である。2026年10月30日に今期経常利益の12％上方修正や最高益予想の上乗せ、配当予想の増額を発表したものの、決算発表前の期待感から買われていた反動による出尽くし売りに押されている。データセンター向け光製品の旺盛な需要など本質的な成長シナリオは崩れておらず、業績計画の毀損を伴わない健全な調整局面と判断される。",
       "risk_factors": [
-        "原材料（乳製品・油脂等）や包装・物流コストの再上昇による採算悪化",
-        "為替変動や景気減速に伴う訪日外国人観光客（インバウンド）消費の失速",
-        "11月4日発表予定の第2四半期決算が市場コンセンサスに届かないリスク"
+        "世界的な自動車生産調整や景気減速に伴うワイヤーハーネス等の需要減退",
+        "データセンター向け設備投資サイクルの短期的な一服や競合激化",
+        "銅などの原材料価格急騰や急激な為替変動による採算悪化"
       ],
       "confidence": "high",
       "sources": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDVGbktEb0loY1k5RlhjdlJLVmpMaU9jdkhObkM5bW9xaDhVd2piOUtKRDJKdnlkZUhCTGNORWRvRGVGc0lDR1l5TWhid180eVNfSm4zRjFsYzdzaVZPcy1RNVNpakxEMm9Ed3c5cFMwLW8yNm9MMUt1UlBXY1QxY3JzQ1JrUjg?oc=5",
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNnBOc01XNmJ0bk8wMFFxWEpXMkh1UTlmV1hndUVpNjFZb3ZSa0NUWnVWcWxpUGl3N2d2eDl0bTlkbFJJNFU5X28zckE4Z2dEbWZVQThjTkY3U3J5VDlQZmRXSEJxOFlaeVdZMmM3NXJMM3lQSTRyeG5lMktkRFRWeE9pb1I4WDQ?oc=5"
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA5bl9idXVfdVVaS0czNXpLQmFLckZFbkgwLU5BbmdSSm5kSkktNWU2S05pWHJUR0s0LVpWWkJYdEVRT1JkY0hrRkMySjFoSDVQcHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GYllOU1BwZnVRRXZ1em5vYVhIalN5eFZKYV9YdFQzSEFNLUlZVlA4S2oyWnJSbWpEM1c2VFM5ZkV0eFlnZ0RNTnZHZ2hjU0UzS1FMbnlpWElkWVMzVFpxRmtZcU5PV195eEE?oc=5",
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CUHZSLW9mS0drNHZkeXdNTWNRSWs4bGNOMVlwYWhERm1LZTdEcFJfOEhOT05COUxtRnpqQnRjcGdLM0lCc2JzSVMwTlVMclhVM3RDaE4zd2FPYVNJRk1fQTZFZC1rOXhOU3QzMUcxM3RHbkZrR01QSlY5UFFVQQ?oc=5"
       ],
       "drop_pattern": "one_off",
       "drop_strength": "strong",
-      "material_analysis": "上期の売上速報で2桁増収を達成し需要の強さが確認された一方、直近でアナリスト経常利益予想の微調整が報じられたが、業績トレンドは堅調を維持している。",
-      "fundamental_summary": "売上成長率10.0%、利益成長率18.5%、営業利益率16.14%、ROE31.39%と、食品セクター屈指の極めて高い収益力と資本効率を誇る。予想PERは27.2倍、PBRは8.54倍とセクター平均対比では高水準にあるが、インバウンド消費の追い風と強力なブランド力を背景にした高成長がプレミアムを正当化している。配当利回りは1.41%（年間35円、配当性向41.6%）で、100株以上で3,000円相当の自社製品詰合せ優待も提供されている。次回決算発表は11月4日に予定されており、売上増が利益成長にどれだけ結実しているかが焦点となる。",
-      "technical_view": "株価は急伸後の反落を経て、心理的節目となる2,500円近辺の下値支持帯に位置している。直近高値からの押し目を形成しており、2,500円水準を維持できるかが当面の焦点となる。",
+      "material_analysis": "通期経常利益の12％上方修正・最高益上乗せおよび配当予想の5円増額修正が発表された。好材料は明確であるものの、事前の期待値が高かったことから短期的な利益確定の売りに押される形となっている。",
+      "fundamental_summary": "生成AIの普及に伴うデータセンター向け光通信製品の急拡大や車載関連の回復を背景に、売上成長率17.1％、利益成長率48.0％と極めて好調な業績推移を見せている。ROEは16.23％と資本効率が高く、予想PERは7.6倍、PBRは1.82倍と業績モメンタムに対して明らかな割安感が存在する。配当利回りは2.54％で業績上振れに伴う増配も発表され、株主還元への姿勢は前向きである。株主優待制度は導入されていないものの、連続最高益を更新する収益基盤と強固な財務体質からファンダメンタルズの信頼性は極めて高い。",
+      "technical_view": "株価は直近の利確売りに押され1,674円で推移しているが、下値は心理的節目である1,600円から1,650円近辺の価格帯が重要なサポートラインとして意識される。上値は直近高値圏である1,750円近辺が当面のレジスタンスラインとなる。",
       "watch_points": [
-        "11月4日の決算発表における第2四半期累計の利益進捗率および通期計画の修正有無",
-        "空港免税店や主要観光拠点でのインバウンド向け菓子の販売動向と客単価の推移"
-      ],
-      "valuation_view": "fair",
-      "dividend": {
-        "annual_yen": 35,
-        "yield_pct": 1.43,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 41.62
-      },
-      "earnings": {
-        "announcement_date": "2026-11-04",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Consumer Defensive",
-        "industry": "Confectioners",
-        "per": 29.8,
-        "forward_per": 27.2,
-        "pbr": 8.54,
-        "psr": 4.81,
-        "market_cap_oku": 3868,
-        "price_yen": 2504,
-        "target_price_yen": 3100,
-        "target_upside_pct": 23.8,
-        "revenue_growth_pct": 10.0,
-        "earnings_growth_pct": 18.5,
-        "profit_margin_pct": 16.14,
-        "roe_pct": 31.39
-      },
-      "shareholder_benefit": "自社グループ製品詰合せ。100株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社グループ製品詰合せ",
-        "month": "3",
-        "yield_pct": "1.22",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "自社グループ製品詰合せ",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "3,000円相当",
-                "note": "【送付時期】 5月下旬～6月中旬頃"
-              }
-            ]
-          }
-        ],
-        "summary": "自社グループ製品詰合せ。100株以上。権利確定3月。",
-        "text": "自社グループ製品詰合せ。100株以上。権利確定3月\n・100株以上: 3,000円相当（【送付時期】 5月下旬～6月中旬頃）"
-      }
-    },
-    "7259": {
-      "code": "7259",
-      "stars": 3,
-      "background": "下落の明確な要因を単一の型として特定できる決定的な材料には乏しく、直近の利益成長率鈍化や自動車業界全体の生産調整に対する懸念が株価の重荷となっていると考えられます。中間期決算短信が開示された直後のタイミングであり、足元では業績の進捗と通期計画に対する達成度を市場が見極める段階にあります。",
-      "risk_factors": [
-        "主要顧客である自動車メーカーの減産やEVシフトに伴う需要変動",
-        "原材料価格や労務費の高止まりによる採算性の悪化",
-        "利益成長の鈍化に伴う高配当性向の維持困難・減配リスク"
-      ],
-      "confidence": "medium",
-      "sources": [
-        "https://www.release.tdnet.info/inbs/140120261028558683.pdf"
-      ],
-      "material_analysis": "第2四半期決算短信が開示されたばかりであり、業績の進捗状況を見極める動きが優勢です。材料出尽くしまたは内容の精査待ちの状況です。",
-      "fundamental_summary": "予想PERは約9.1倍、PBRは0.69倍と解散価値を大幅に下回る水準に放置されており、バリュエーション面では強い割安感があります。年間配当は75円で配当利回り3.68%と高水準ですが、実績ベースの配当性向が約74.6%に達しており、直近利益成長が-15.0%と減益傾向にある点は注意が必要です。売上高成長率は7.8%と底堅さを維持しているものの、営業利益率は3.15%と低水準に留まっています。親会社であるトヨタ自動車をはじめとする主要顧客の生産動向や、低PBR改善に向けた資本効率向上策の進捗が今後の焦点となります。",
-      "technical_view": "株価は節目の2,000円台前半で推移しており、心理的節目である2,000円前後の水準が直近のサポートラインとして意識されます。上値に関しては、直近の戻り高値や主要移動平均線が位置する2,150円から2,200円近辺が当面のレジスタンスラインとなります。",
-      "watch_points": [
-        "開示された第2四半期決算を受けた通期計画に対する営業利益の進捗率",
-        "資本コストや株価を意識した経営改善策（自社株買いや政策保有株式の縮減）の動向"
+        "上方修正後の下値固めと1,600円台半ばの節目における押し目買いの入り方",
+        "データセンター向け光インターコネクト製品等の受注拡大ペースと進捗率"
       ],
       "valuation_view": "cheap",
       "dividend": {
-        "annual_yen": 75,
-        "yield_pct": 3.68,
+        "annual_yen": 45,
+        "yield_pct": 2.54,
         "ex_date": "2027-03-30",
-        "payout_ratio_pct": 74.62
+        "payout_ratio_pct": 1.2
       },
       "earnings": {
-        "announcement_date": "2026-10-29",
+        "announcement_date": "2026-10-30",
         "fiscal_year_end": "2027-03-31",
         "fiscal_month": 3
       },
       "valuation": {
         "sector": "Consumer Cyclical",
         "industry": "Auto Parts",
-        "per": 18.1,
-        "forward_per": 9.1,
-        "pbr": 0.69,
-        "psr": 0.28,
-        "market_cap_oku": 14432,
-        "price_yen": 2081,
-        "target_price_yen": 2641,
-        "target_upside_pct": 26.9,
-        "revenue_growth_pct": 7.8,
-        "earnings_growth_pct": -15.0,
-        "profit_margin_pct": 3.15,
-        "roe_pct": 8.43,
-        "debt_to_equity": 28.9
+        "per": 15.0,
+        "forward_per": 7.6,
+        "pbr": 1.83,
+        "psr": 0.96,
+        "peg": 3.56,
+        "market_cap_oku": 52629,
+        "price_yen": 1687,
+        "target_price_yen": 3221,
+        "target_upside_pct": 90.9,
+        "revenue_growth_pct": 17.1,
+        "earnings_growth_pct": 48.0,
+        "profit_margin_pct": 7.83,
+        "roe_pct": 16.23,
+        "debt_to_equity": 23.8
       },
       "shareholder_benefit": "なし"
     },
-    "8111": {
-      "code": "8111",
+    "7716": {
+      "code": "7716",
       "stars": 3,
-      "background": "直近で会社側から大きな下方修正や突発的な悪材料が開示された形跡はなく、直近の減益傾向やアパレル消費全体の動向を受けた軟調な値動きが継続していると考えられます。明確な一過性ショックや特定の需給イベントによるものとは断定できず、下落の型を一つに特定することは困難です。",
+      "background": "直近において会社側からの下方修正や不祥事といった個別の重大な悪材料は確認されていません。一方で、市場全体の手控えムードや11月中旬に控える四半期決算発表を前にした持ち高調整の売りが先行しており、特定の明確な下落要因を断定しにくい状況です。",
       "risk_factors": [
-        "2026年11月5日に予定されている中間決算発表における業績進捗の遅れや通期予想の修正リスク",
-        "暖冬や天候不順による主力の秋冬物高機能アパレルの販売鈍化",
-        "原材料費・物流費および人件費の高騰に伴う利益率の圧迫"
+        "2026年11月13日に予定されている四半期決算発表に伴う業績進捗の下振れリスク",
+        "海外売上比率が高いため為替変動（円高進行）による業績下振れ懸念",
+        "実績PERと予想PERの乖離に伴う市場評価のブレ"
       ],
       "confidence": "medium",
       "sources": [
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zbUZ6U205WWNpaDdGbmxrQ2xnODVLY3R1R2dQWVZwbl9VZDAwQjRoVk1SZkFKQVVtTjE5cnZwVzNZdTdYQjZ4Zi14NEpUUEtBdXc?oc=5",
-        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT0ZBdDNycnl2ZzJpSnJBMjI2WE1GYmR2RWJWc1MxVUExYkw4dmlLdHlUV2xSWU9MSDlKd0Jlbk9xM3BUZVRoLUdxUG0xNWNXT3AtSG9HbFpOUWhiMFJkNE1uUjJlZmlJcldYNFFGZDJ2VGJnV2JIcVRGc1hpY2lpTER4RGJFZ1NhTHd5d1dVcTh4RVQxOG1RSnN6Z0JyLUtocHJ3MTU3NFlJTWY1Qmd2cmpkNUZhWFVyeEtIdHBYVzJPTl9McWd5MVRKZGhvQTdyLVVpVXd3TG83eWdjaWpJX1BNWUVseEhjbFU0?oc=5"
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxR0hMZGtaT2FHMWxQZGR6Y25ndHdtVkpDQjdoZTNGb21pVlUxMmVvclNyMTRrblVQRVI3UVZBRTltNXFiN3hkcmNmQTdKNlpYZ2Q1S3U0SzEtUS1FZC1zQ3pOTTMtUTl0bExueExkdVliNy1FT3c?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBNNFA3ZjlQU0pFa1pKUFh0RU8wNXRxS05qSXZLY0RBaVd1SDV1UTRwcFUtdzZPV19MM01KUGw3OEhabkJaY0pzS2Q3aUY2QUdIXzFZSg?oc=5"
       ],
-      "material_analysis": "直近では中長期の成長戦略に関するIR報道や株主優待の紹介が中心であり、相場を急変させるネガティブサプライズや重大な開示は確認されていません。",
-      "fundamental_summary": "主力ブランド「ザ・ノース・フェイス」の強力なブランド力を背景に、ROE約19.5%と高い資本効率と稼ぐ力を誇ります。バリュエーション面では実績PER約12.4倍、PBR約2.26倍と極端な割高感はないものの、足元の業績は前年同期比で減益基調にあり、これまでの急成長に対する一服感が意識されています。年間配当は64円（利回り約3.1%）で配当性向32%台と株主還元は安定的であり、魅力的な製品優待も下値を支える要因です。ただし、直近2週間以内に次回決算発表（11月5日予定）を控えており、通期計画に対する進捗度合いを慎重に見極める必要があります。",
-      "technical_view": "節目となる2,000円の心理的台場近辺で下値を固められるかが焦点となっています。戻り局面では直近の保ち合い下限であった2,200円近辺が上値抵抗線として意識されやすい水準です。",
+      "material_analysis": "歯科関連株としてのテーマ性や中長期的な需要期待に関する報道はあるものの、直近の株価を大きく動かす固有の適時開示やレーティング変更は見当たりません。",
+      "fundamental_summary": "歯科用ハンドピース等の医療機器で世界トップクラスのシェアを誇り、売上成長率約19.9%、利益成長率約36.4%と事業拡大が続いています。実績PERは101.2倍と高いものの予想PERは10.4倍と大幅に低下しており、過年度の一時的要因やデータ乖離を考慮しつつも本業の収益力は底堅い水準にあります。PBRは1.88倍、配当利回りは約2.11%（年間30円配当）と財務面での過度な過熱感は見られません。次回決算発表は2026年11月13日に予定されており、通期計画に対する進捗状況の確認が重要となります。",
+      "technical_view": "節目となる1,400円を下回って推移しており、下値では過去の売買高が厚い1,350円近辺が直近の支持線として意識されます。上値は1,400円台前半から中期移動平均線水準が当面の戻り抵抗帯となります。",
       "watch_points": [
-        "11月5日発表予定の次回決算における売上・利益の進捗率および秋冬商戦の受注動向",
-        "主力「THE NORTH FACE」および自主ブランド「Goldwin」の国内外における実需トレンド"
-      ],
-      "valuation_view": "fair",
-      "dividend": {
-        "annual_yen": 64,
-        "yield_pct": 3.1,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 32.39
-      },
-      "earnings": {
-        "announcement_date": "2026-11-05",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Consumer Cyclical",
-        "industry": "Apparel Manufacturing",
-        "per": 12.5,
-        "forward_per": 3.5,
-        "pbr": 2.28,
-        "psr": 2.1,
-        "market_cap_oku": 2877,
-        "price_yen": 2103,
-        "target_price_yen": 2725,
-        "target_upside_pct": 29.6,
-        "revenue_growth_pct": -1.2,
-        "earnings_growth_pct": -29.5,
-        "profit_margin_pct": 16.87,
-        "roe_pct": 19.47,
-        "debt_to_equity": 0.8
-      },
-      "shareholder_benefit": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "自社商品、自社ＥＣサイト割引",
-        "month": "3",
-        "yield_pct": "---、配当利回りは3.33",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "自社商品（シャツ等）",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "◆下記より1点を選択※2026年3月期実績 1、Aコース（男女兼用） 「ザ・ノース・フェイス（THE NORTH FACE）」 リニューアブル原料を使用した半袖Tシャツ 2、Bコース 「ザ・ノース・フェイス（THE NORTH FACE）」 タンパク質素材を使用したタオル3点セット 3、Cコース 「ゴールドウイン（Goldwin）」 リサイクル素材を使用したトラベルポーチ3点セット 4、Dコース（寄付） 一般財団法人自然公園財団 国立公園基金への寄付 ■案内時期 5月下旬",
-                "note": ""
-              }
-            ]
-          },
-          {
-            "title": "ＥＣサイト割引",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "■購入上限額　30,000円 15％割引",
-                "note": "◇「Goldwin OnlineStore」で１回の注文にのみ利用可能な割引クーポンを１枚進呈。 ■継続保有期間について 「保有期間1年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、1年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 3回以上連続して記録）されていることとします。 「保有期間3年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、3年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 7回以上連続して記録）されていることとします。"
-              },
-              {
-                "shares": "300株以上",
-                "content": "■購入上限額　80,000円 【3年未満保有】 20％割引 【3年以上保有】 25％割引",
-                "note": ""
-              },
-              {
-                "shares": "1,200株以上",
-                "content": "■購入上限額　250,000円 【1年未満保有】 30％割引 【1年以上保有】 35％割引 【3年以上保有】 40％割引",
-                "note": ""
-              }
-            ]
-          }
-        ],
-        "summary": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月。",
-        "text": "自社商品、自社ＥＣサイト割引。100株以上。権利確定3月\n【自社商品（シャツ等）】\n・100株以上: ◆下記より1点を選択※2026年3月期実績 1、Aコース（男女兼用） 「ザ・ノース・フェイス（THE NORTH FACE）」 リニューアブル原料を使用した半袖Tシャツ 2、Bコース 「ザ・ノース・フェイス（THE NORTH FACE）」 タンパク質素材を使用したタオル3点セット 3、Cコース 「ゴールドウイン（Goldwin）」 リサイクル素材を使用したトラベルポーチ3点セット 4、Dコース（寄付） 一般財団法人自然公園財団 国立公園基金への寄付 ■案内時期 5月下旬\n・100株以上: ■購入上限額　30,000円 15％割引（◇「Goldwin OnlineStore」で１回の注文にのみ利用可能な割引クーポンを１枚進呈。 ■継続保有期間について 「保有期間1年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、1年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 3回以上連続して記録）されていることとします。 「保有期間3年以上」とは、基準日（毎年9月30日）の当社株主名簿に記録されており、3年以上連続して当社株式を上記枚数保有（毎年9月30日、3月31日時点の当社株主名簿に同一の株主番号で 7回以上連続して記録）されていることとします。）\n・300株以上: ■購入上限額　80,000円 【3年未満保有】 20％割引 【3年以上保有】 25％割引\n・1,200株以上: ■購入上限額　250,000円 【1年未満保有】 30％割引 【1年以上保有】 35％割引 【3年以上保有】 40％割引"
-      }
-    },
-    "9433": {
-      "code": "9433",
-      "stars": 3,
-      "background": "業績毀損を伴う明確な個別悪材料は確認されず、決算発表を控えた持ち高調整や手控えムード、市場の循環物色の影響を受けた軟調な推移と見られます。ディフェンシブ銘柄としての底堅さはあるものの、積極的な買い手が限られ上値の重い展開となっています。",
-      "risk_factors": [
-        "2026年11月6日に予定される四半期決算発表でのコンセンサス未達リスク",
-        "通信料競争や新規契約獲得コスト増加に伴う利益率の伸び悩み",
-        "AIや先端技術領域への先行投資負担による短期的利益圧迫"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://kabu-ir.com/",
-        "https://www.nikkei.com/",
-        "https://diamond.jp/"
-      ],
-      "material_analysis": "米Wingとのドローン配送提携やフィジカルAIへの投資、LG CNSとの協業など中長期の成長投資が継続開示されています。業績に悪影響を与える適時開示はなく、自社株買いも着実に進捗しています。",
-      "fundamental_summary": "通信メガキャリアとして強固な事業基盤を持ち、営業利益率12%超、ROE約14.6%と高い収益性と資本効率を維持しています。PERは約14.5倍と通信セクターとして妥当な水準にあり、配当利回り3.0%に加えて長期連続増配の実績と株主優待を備えるなどインカムゲインの魅力も豊富です。自己株式取得も継続的に実施されており、株主還元姿勢は極めて安定しています。一方で直近2週間以内（11月6日）に決算発表を控えており、通期利益目標に対する進捗の確認が求められます。",
-      "technical_view": "節目となる心理的サポートラインの2,800円水準を試す推移となっており、上値は前高値圏である2,900円から3,000円近辺がレジスタンスとして意識される位置関係にあります。",
-      "watch_points": [
-        "直近の決算発表における通信ARPUの推移および非通信事業（DX・金融）の成長進捗",
-        "自社株買いの取得進捗と年間84円配当・連続増配計画の確度"
-      ],
-      "valuation_view": "fair",
-      "dividend": {
-        "annual_yen": 84,
-        "yield_pct": 3.0,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 41.1
-      },
-      "earnings": {
-        "announcement_date": "2026-11-06",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Communication Services",
-        "industry": "Telecom Services",
-        "per": 14.6,
-        "forward_per": 1217.4,
-        "pbr": 2.11,
-        "psr": 1.71,
-        "peg": 1.38,
-        "market_cap_oku": 104814,
-        "price_yen": 2836,
-        "target_price_yen": 3065,
-        "target_upside_pct": 8.1,
-        "revenue_growth_pct": 3.6,
-        "earnings_growth_pct": 19.4,
-        "profit_margin_pct": 12.09,
-        "roe_pct": 14.59,
-        "debt_to_equity": 93.8
-      },
-      "shareholder_benefit": "自社関連サービス。200株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "min_shares": 200,
-        "kind": "自社関連サービス",
-        "month": "3",
-        "programs": [
-          {
-            "title": "自社関連サービス",
-            "tiers": [
-              {
-                "shares": "200株以上",
-                "content": "【1年以上保有株主】 2,000円相当 【5年以上保有株主】 3,000円相当",
-                "note": "◇自社関連サービスの特典から1点を選択。 ・Pontaポイント※ ・ローソン／成城石井 商品詰合せセット ・寄付（キボウのカケハシ） ※Pontaポイントは「お得なポイント交換所」の利用により、au PAY マーケット限定のPontaポイントとして最大1.5倍に増量することが可能。 ■継続保有期間について 継続保有期間は、同一株主番号で3月31日の株主名簿に連続して記録されている年数です。株主番号は9月30日、および3月31日の株主名簿確定時点で保有されている場合、同一株主番号となります。"
-              }
-            ]
-          }
-        ],
-        "summary": "自社関連サービス。200株以上。権利確定3月。",
-        "text": "自社関連サービス。200株以上。権利確定3月\n・200株以上: 【1年以上保有株主】 2,000円相当 【5年以上保有株主】 3,000円相当（◇自社関連サービスの特典から1点を選択。 ・Pontaポイント※ ・ローソン／成城石井 商品詰合せセット ・寄付（キボウのカケハシ） ※Pontaポイントは「お得なポイント交換所」の利用により、au PAY マーケット限定のPontaポイントとして最大1.5倍に増量することが可能。 ■継続保有期間について 継続保有期間は、同一株主番号で3月31日の株主名簿に連続して記録されている年数です。株主番号は9月30日、および3月31日の株主名簿確定時点で保有されている場合、同一株主番号となります。）"
-      }
-    },
-    "9434": {
-      "code": "9434",
-      "stars": 3,
-      "background": "直近の株価軟調について、業績見通しの下方修正や不祥事といった明確な個別悪材料は確認されていません。次回決算発表を間近に控えた持ち高調整や、通信セクター全般の利益確定売りなど複合的な需給要因が主因とみられます。下落要因を単一の型として特定できないため、中立的な水準推移と判断されます。",
-      "risk_factors": [
-        "2026年11月9日に予定されている四半期決算における進捗遅れや市場予想未達のリスク",
-        "配当性向が76%超と高水準であることによる将来の増配余地の制約",
-        "通信設備投資やAI・データセンター投資負担に伴う財務キャッシュフローへの影響"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://www.release.tdnet.info/inbs/140120261029559670.pdf",
-        "https://www.release.tdnet.info/inbs/140120261030561365.pdf"
-      ],
-      "material_analysis": "中間配当の実施や子会社株式取得完了時期の変更が開示されましたが、いずれも想定の範囲内であり業績への直接的な影響は軽微です。悪材料の顕在化は見られず、材料面では次回決算待ちの様相を呈しています。",
-      "fundamental_summary": "売上高成長率は9.4%、ROEは16.71%と通信大手の中でも高い資本効率を維持しています。予想PERは約20.2倍、PBRは3.85倍と通信セクター内ではややプレミアムが付与された水準ですが、PayPay経済圏の拡大やITソリューション事業の成長性が評価されています。配当利回りは3.81%（年間配当9円）と高水準で、配当性向は約76%と高めながらも安定したキャッシュフローに支えられています。さらに1年以上保有でPayPayマネーライトが付与される優待もあり、総還元利回りの下値支持力は強固です。ただし、直近11月9日に第2四半期決算発表を控えており、業績進捗の確認が必要です。",
-      "technical_view": "株価は234円近辺に位置しており、心理的節目となる230円ラインが直近の下値サポートとして機能するかどうかが焦点となります。上値は直近で意識される240円台半ばから戻り売り圧力が強まりやすい価格帯となっています。",
-      "watch_points": [
-        "11月9日発表予定の第2四半期決算における営業利益進捗率および通期計画の達成確度",
-        "コンシューマ事業のARPU（ユーザー平均単価）動向と法人・メディア事業の収益拡大ペース"
-      ],
-      "valuation_view": "fair",
-      "dividend": {
-        "annual_yen": 9,
-        "yield_pct": 3.78,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 76.31
-      },
-      "earnings": {
-        "announcement_date": "2026-11-09",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Communication Services",
-        "industry": "Telecom Services",
-        "per": 20.8,
-        "forward_per": 20.2,
-        "pbr": 3.85,
-        "psr": 1.56,
-        "peg": 2.73,
-        "market_cap_oku": 112027,
-        "price_yen": 234,
-        "target_price_yen": 273,
-        "target_upside_pct": 16.7,
-        "revenue_growth_pct": 9.4,
-        "earnings_growth_pct": 3.4,
-        "profit_margin_pct": 7.72,
-        "roe_pct": 16.71,
-        "debt_to_equity": 160.0
-      },
-      "shareholder_benefit": "PayPayマネーライト。100株以上。権利確定3月。",
-      "shareholder_benefit_detail": {
-        "source": "minkabu",
-        "kind": "PayPayマネーライト",
-        "month": "3",
-        "yield_pct": "---、配当利回りは3.76",
-        "min_shares": 100,
-        "programs": [
-          {
-            "title": "PayPayマネーライト ※長期保有者向け",
-            "tiers": [
-              {
-                "shares": "100株以上",
-                "content": "【1年以上保有株主】 1,000円相当",
-                "note": "■継続保有期間について 保有期間は3月31日から翌年3月31日までの間とし、初回は2025年3月31日（※1）から2026年3月31日まで（※2）とします。 ※1、当社株主名簿に記載または記録された日付であり、株式を取得した日等とは異なります。 ※2、同一の株主番号で3月31日および9月30日最終の当社株主名簿に3回以上連続で記載または記録されている株主さまとします。 ■進呈時期 確定日3月末：5月 確定日9月末：11月"
-              }
-            ]
-          }
-        ],
-        "summary": "PayPayマネーライト。100株以上。権利確定3月。",
-        "text": "PayPayマネーライト。100株以上。権利確定3月\n【PayPayマネーライト ※長期保有者向け】\n・100株以上: 【1年以上保有株主】 1,000円相当（■継続保有期間について 保有期間は3月31日から翌年3月31日までの間とし、初回は2025年3月31日（※1）から2026年3月31日まで（※2）とします。 ※1、当社株主名簿に記載または記録された日付であり、株式を取得した日等とは異なります。 ※2、同一の株主番号で3月31日および9月30日最終の当社株主名簿に3回以上連続で記載または記録されている株主さまとします。 ■進呈時期 確定日3月末：5月 確定日9月末：11月）"
-      }
-    },
-    "9697": {
-      "code": "9697",
-      "stars": 4,
-      "background": "一過性の要因による下落です。2027年3月期第2四半期決算は経常利益が前年同期比67.5％増と大幅増益で着地したものの、通期業績予想が据え置かれたことや事前の好業績期待が織り込まれていたことから、材料出尽くし感による利益確定売りが先行しました。本業の利益計画や高収益基盤自体は極めて順調に進捗しており、業績の毀損を伴う下落ではありません。",
-      "risk_factors": [
-        "主力タイトルの新作リリース時期の遅延や販売本数の下振れリスク",
-        "為替変動（円高進行）による海外売上および為替差損益への影響",
-        "大型タイトルの端境期におけるリピート販売の失速"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://www.release.tdnet.info/inbs/140120261027556520.pdf",
-        "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RU0xsTkhfb3ZST19OTW03LUZ5dnVFMTU3ZnowNUptbzRTSFZqMUtwbjVOczV6WE15djFUc1E3WUhaMDcxR2twY01CZU9hTjNRdWY0SmUtMA?oc=5",
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4RGxDTzhTdkt6R0J2bXNYZUJ5Y0tROWQxUE1iZUJqZUI3Zkd3ZHhJc1RNWU9pY1lSTFpkd19rOW1fTFFCM2pQZ3lRYlVjd2trdGdESXdzN1FzUWZXNENNSQ?oc=5"
-      ],
-      "drop_pattern": "one_off",
-      "drop_strength": "strong",
-      "material_analysis": "2Q連結決算は大幅な増収増益で通期計画に対する進捗も良好ですが、通期予想の据え置きによって短期的な失望売りが出ました。直近公表された情報漏えい事案についても業績への直接的な悪影響は限定的と見られ、ファンダメンタルズの好調さは維持されています。",
-      "fundamental_summary": "営業利益率約30％とゲーム業界内でも突出した高収益体質を誇り、デジタル販売比率の上昇やリピートタイトルの継続的な販売によって強固な収益基盤を確立しています。売上高・利益ともに2桁成長を維持しており、財務健全性も極めて高い水準です。予想PERは約29倍、PBRは5.5倍台と成長期待を反映した水準で推移していますが、高い資本効率とブランド力を考慮すれば正当化できる範囲内です。配当利回りは約1.2％と控えめながら安定配当を維持しており、次回の第3四半期決算での通期上振れ修正の有無が注目されます。",
-      "technical_view": "節目の心理的節目である4,000円を割り込み、3,900円台半ばまで急速に調整しています。直近で意識されていた上値抵抗線からの急反落となっており、過去の売買代金が積み上がった3,800円〜3,900円近辺が下値支持帯として機能するかどうかが焦点となります。",
-      "watch_points": [
-        "通期業績計画に対する下期の上振れ余地と上方修正のタイミング",
-        "主要IP（モンスターハンター、バイオハザード等）の新作投入スケジュールおよび予約動向"
-      ],
-      "valuation_view": "fair",
-      "dividend": {
-        "annual_yen": 46,
-        "yield_pct": 1.2,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 28.63
-      },
-      "earnings": {
-        "announcement_date": "2027-01-26",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3,
-        "is_estimate": true
-      },
-      "valuation": {
-        "sector": "Communication Services",
-        "industry": "Electronic Gaming & Multimedia",
-        "per": 23.6,
-        "forward_per": 29.1,
-        "pbr": 5.53,
-        "peg": 1.95,
-        "market_cap_oku": 16554,
-        "price_yen": 3957,
-        "target_price_yen": 4766,
-        "target_upside_pct": 20.4,
-        "revenue_growth_pct": 41.6,
-        "earnings_growth_pct": 35.4,
-        "profit_margin_pct": 29.84
-      },
-      "shareholder_benefit": "なし"
-    },
-    "7733": {
-      "code": "7733",
-      "stars": 2,
-      "background": "米国食品医薬品局（FDA）から品質管理システムの欠陥に関する警告書（Warning Letter）を受領したことに続き、輸入警告（Import Alerts）が発出されたことが嫌気され急落しています。主力の北米市場において製品出荷や販売に直接的な制限が生じる懸念に加え、是正対応コストの増加が警戒されています。直近で11月10日に四半期決算発表を控えており、通期業績計画に対する下振れ懸念から売りが先行しています。",
-      "risk_factors": [
-        "FDAの輸入警告に伴う北米市場での出荷制限および売上機会損失の長期化",
-        "品質管理体制の是正や査察対応に伴う追加費用の発生による収益性悪化",
-        "直近（11月10日）に控える四半期決算発表での通期業績計画の下方修正リスク"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://www.release.tdnet.info/inbs/140120261021553776.pdf",
-        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aZGE4YjhhZm1FSXVTLWlMXzZBdnBVU3BlRlBJSkhkeTgweS1VcnNyLXc3SXNMOFJJTWRROWJvQTdvbnBqZkF3UTJ6UTNrQ0pTUEdiWGk5QlZhQ0xmR1Q2Zg?oc=5"
-      ],
-      "material_analysis": "FDAによる品質管理システムの不備に伴う警告書受領および輸入警告の発出が開示され、北米向け出荷停止や販売機会損失が懸念される深刻な悪材料となっています。市場では業績への定量的な影響度合いが未確定なため、警戒売りが続いています。",
-      "fundamental_summary": "売上高は前年比16.4%増と拡大基調にあるものの、利益成長率は1.23%、営業利益率も7.49%にとどまり、収益性の改善が課題となっています。予想PERは13.9倍、PBRは2.48倍と一見割安感がある水準ですが、FDA規制問題に伴う特別損失や売上減少による下方修正リスクを内包しています。配当利回りは1.71%（年間30円）、配当性向は49.02%と還元面での下値支え力は限定的です。11月10日に控える決算発表で、米国規制に伴う業績影響の精査と見通しの開示が極めて重要な局面です。",
-      "technical_view": "急落に伴い1,700円の心理的節目付近まで押し込まれており、同水準が目先の支持線として機能するか試す展開です。上値は急落前の節目である1,850円から1,900円水準が戻り売りの強い抵抗帯として意識されます。",
-      "watch_points": [
-        "11月10日予定の決算発表で示される輸入警告の影響額および通期業績予想の修正有無",
-        "FDAに対する是正措置の進捗状況と輸入警告解除に向けたスケジュール"
+        "次回四半期決算における売上高・営業利益の進捗率と通期計画の維持状況",
+        "欧米を中心とする歯科医療機器市場の需要動向および為替影響"
       ],
       "valuation_view": "fair",
       "dividend": {
         "annual_yen": 30,
-        "yield_pct": 1.71,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 49.02
+        "yield_pct": 2.11,
+        "ex_date": "2026-12-29",
+        "payout_ratio_pct": 2.12
       },
       "earnings": {
-        "announcement_date": "2026-11-10",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
+        "announcement_date": "2026-11-13",
+        "fiscal_year_end": "2026-12-31",
+        "fiscal_month": 12
       },
       "valuation": {
         "sector": "Healthcare",
-        "industry": "Medical Devices",
-        "per": 28.5,
-        "forward_per": 13.9,
-        "pbr": 2.48,
-        "psr": 1.77,
-        "market_cap_oku": 18515,
-        "price_yen": 1742,
-        "target_price_yen": 2085,
-        "target_upside_pct": 19.7,
-        "revenue_growth_pct": 16.4,
-        "earnings_growth_pct": 1.23,
-        "profit_margin_pct": 7.49,
-        "roe_pct": 10.57,
-        "debt_to_equity": 42.6
-      },
-      "shareholder_benefit": "なし"
-    },
-    "8174": {
-      "code": "8174",
-      "stars": 2,
-      "background": "直近で発表された2027年3月期第2四半期決算において、上期の連結経常利益が前年同期比14.1％減となり、特に7-9月期単体で63％の大幅減益に沈んだことが嫌気されています。四半期ごとの収益急減速により通期計画に対する達成懸念が台頭し、好配当利回りを考慮してもなお業績悪化を警戒した手仕舞い売りが優勢となっています。",
-      "risk_factors": [
-        "調達コスト上昇や価格転嫁遅れによるさらなるマージン悪化",
-        "中間期の大幅減益に伴う通期業績予想の下方修正リスク",
-        "75%を超える高水準な配当性向による還元余力の縮小"
-      ],
-      "confidence": "high",
-      "sources": [
-        "https://www.release.tdnet.info/inbs/140120261028557470.pdf",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsb2lCa2Q4TWlKdjNrMlhmQUxOWlAwNnZIV0MyTF9wZ0VkZkV4QncwZENRd3NJRmVBQ3JjX2pYRWRhaGV2NzJLdVo1eFBvcU9ib1E?oc=5"
-      ],
-      "material_analysis": "第2四半期決算短信において中間期の純利益が15.6％減、7-9月期経常が63％減と採算悪化が顕在化しました。ディフェンシブ銘柄としての高配当期待はあるものの、目先の収益急減という悪材料を織り込む動きが先行しています。",
-      "fundamental_summary": "LPガスや都市ガス販売を展開するエネルギー企業で、ROEは22.86%と高い資本効率を誇ります。しかし、直近四半期での収益性低下により足元の利益成長率は0.9%と頭打ち感が強まっており、事業環境の逆風が確認されます。PBRは4.29倍とユーティリティセクターとしては高水準に位置しており、業績鈍化局面ではバリュエーション面での割高感が意識されやすい状況です。配当利回りは3.96%と下支え要因になるものの、配当性向が75.71%に達しており、業績がさらに悪化した場合の株主還元維持力には注意を要します。",
-      "technical_view": "節目であった900円を割り込み、直近安値圏となる860円台まで下落基調が続いています。目先は850円の心理的節目が下値支持線として機能するかが焦点となり、反発局面では下抜けた900円ラインおよび下向きの移動平均線が抵抗帯として意識されます。",
-      "watch_points": [
-        "下期に向けた顧客件数の推移および販売マージンの改善度合い",
-        "第3四半期以降の利益進捗率と通期計画に対する修正開示の有無"
-      ],
-      "valuation_view": "expensive",
-      "dividend": {
-        "annual_yen": 37,
-        "yield_pct": 3.96,
-        "ex_date": "2027-03-30",
-        "payout_ratio_pct": 75.71
-      },
-      "earnings": {
-        "announcement_date": "2026-10-29",
-        "fiscal_year_end": "2027-03-31",
-        "fiscal_month": 3
-      },
-      "valuation": {
-        "sector": "Utilities",
-        "industry": "Utilities - Regulated Gas",
-        "per": 19.8,
-        "forward_per": 6.3,
-        "pbr": 4.31,
-        "psr": 1.3,
-        "market_cap_oku": 2767,
-        "price_yen": 866,
-        "target_price_yen": 1069,
-        "target_upside_pct": 23.4,
-        "revenue_growth_pct": 8.8,
-        "earnings_growth_pct": 0.9,
-        "profit_margin_pct": 6.95,
-        "roe_pct": 22.86,
-        "debt_to_equity": 76.6
+        "industry": "Medical Instruments & Supplies",
+        "per": 101.2,
+        "forward_per": 10.4,
+        "pbr": 1.88,
+        "psr": 2.54,
+        "market_cap_oku": 2263,
+        "price_yen": 1383,
+        "target_price_yen": 1800,
+        "target_upside_pct": 30.2,
+        "revenue_growth_pct": 19.9,
+        "earnings_growth_pct": 36.4,
+        "profit_margin_pct": 2.51,
+        "roe_pct": 1.87,
+        "debt_to_equity": 27.8
       },
       "shareholder_benefit": "なし"
     }
