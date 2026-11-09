@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T11:53:21+09:00",
+  "generated_at": "2026-11-09T11:56:05+09:00",
   "mode": "LO",
   "summary": {
     "pf": null,
@@ -1112,32 +1112,33 @@
         "code": "1662",
         "name": "石油資源開発",
         "mark": "新買",
-        "close": 1508,
-        "rsi": 25.22,
+        "close": 1505,
+        "rsi": 24.21,
         "rci": -87.08,
         "rci_turn": true,
         "quality": {
           "code": "1662",
           "stars": 4,
-          "background": "地合い（セクター連れ安）による下落。中東情勢の過度な緊迫化に対する警戒感が和らいだことでWTI原油先物相場が反落し、同社を含む石油・資源セクター全体に利益確定売りが波及したことが直近の下落要因となっている。企業固有の突発的な悪材料や通期下方修正が出たわけではなく、マクロのコモディティ市況変動に伴うセクター連れ安の範囲内である。",
+          "background": "地合いによる下落です。中東情勢の緊張緩和期待からWTI原油先物相場が下落に転じたことで、石油資源開発やINPEXなど石油・資源開発セクター全体に利益確定や持ち高調整の売りが波及しました。個別企業としての業績悪化開示や下方修正が出たわけではなく、資源市況の反落に連動したセクター全体の連れ安が主因です。",
           "risk_factors": [
-            "2026年11月12日に控える決算発表における業績進捗や通期想定油価の見直しリスク",
-            "地政学リスク後退や世界的な景気減速懸念に伴うWTI原油先物価格の継続的な軟調",
-            "想定以上の円高進行に伴う外貨建て売上・権益価値の換算目減り"
+            "2026年11月12日に控える決算発表における業績進捗の遅れや下方修正リスク",
+            "中東情勢の緊張緩和や世界需要鈍化に伴う原油・天然ガス先物価格の一段の下落",
+            "急激な為替の円高進行による海外販売および権益評価額へのマイナス影響"
           ],
           "confidence": "high",
           "sources": [
             "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MMXA2dGdOS0NHVE01WC1HWUZDZ3BZYWFraktjV21fZlZ6S3JfelhxR0VXTjV2ZGRwNllrWmVLMVNfeTl2bXZjUnZrcWJjRmRCMThMbU1menlNSDR5RWZaTA?oc=5",
+            "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CX2M1TXFQZXhVTGk1NkREZFZXcTl0dzVqYXlKQWZXNzlTRGYydWphSnZMeExwT0JnRUlJbzFsUGpLZ1FOMWpQUk9hTjNVb001cTJYckZUZTVmN0ktVmdXbQ?oc=5",
             "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYbzZZZzR3Wkl3a0ZXb3FIb1dqUktoYjV5QlM1NTdDRWdabXlPRzdhR0ExUjBybmpEN0hqOU53VWxYdDhnbWc0LXdaTUpENFlnNXNBV2FXazdTX3Jlb0w2cEdfX0ZLVWdweUQzTXRBb2hTV3NLR19PbTRpZ1FYUQ?oc=5"
           ],
           "drop_pattern": "market",
           "drop_strength": "strong",
-          "material_analysis": "中東の緊張緩和観測に伴う原油先物相場の下落が石油関連株の重荷となった一方、国内油田の再評価や再生可能エネルギーへの多角化など企業価値を支える長期的報道が続いている。",
-          "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準で推移しており、予想PER10.0倍、配当利回り3.08%とバリュエーション面での割安感が際立っている。資源バブルの一巡により前年同期比の売上・利益成長率は大幅マイナスとなっているものの、営業利益率12.69%と収益性は一定水準を維持しており財務基盤は健全である。配当性向は約40.6%と株主還元にも配慮されており、低PBR改善に向けた資本効率向上への期待も残る。なお、2026年11月12日に第2四半期決算発表を控えており、前提油価や為替水準を踏まえた通期進捗に注目が集まる。",
-          "technical_view": "株価は節目の1,500円近辺まで調整して下値を模索しており、下値支持帯として機能するかどうかの攻防を迎えている。戻り局面では直近の揉み合い水準である1,580円から1,600円近辺が主要な上値抵抗線として意識されやすい。",
+          "material_analysis": "中東の地政学リスク後退に伴う原油先物価格の反落が直近の下落要因となっています。一方で秋田の油田開発や再生可能エネルギー事業への取り組みなど事業基盤の強化に関する報道が続いており、企業価値を損なう個別悪材料は確認されていません。",
+          "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準にとどまり、予想PERも10.0倍前後とバリュエーション面での割安感が顕著です。配当利回りは約3.08%（年間45円配当）、配当性向も約40.6%と株主還元は堅実な水準を維持しています。ただし売上高・利益ともに市況の反落を受けて直近は大幅な前年同期比減益となっており、業績のコモディティ価格依存度が高い点には留意が必要です。約2週間後（2026年11月12日）に次回決算発表を控えており、通期業績予想に対する進捗と原油・為替前提の動向が焦点となります。",
+          "technical_view": "節目となる1,500円前後の心理的節目および直近の押し目支持線付近に位置しています。上値は直近戻り高値水準である1,550円から1,600円処がレジスタンスとして意識されやすい価格帯です。",
           "watch_points": [
-            "次回11月12日の決算発表における業績進捗状況および配当予想の維持・修正有無",
-            "中東情勢の推移を受けたWTI原油先物相場の方向感と資源株全般の資金流出入"
+            "次回決算発表（2026年11月12日）における通期計画の達成確度と前提油価・為替レートの修正有無",
+            "低PBR（0.65倍）是正に向けた資本効率改善策や追加の自社株買い・増配などの株主還元姿勢"
           ],
           "valuation_view": "cheap",
           "dividend": {
@@ -1158,10 +1159,10 @@
             "forward_per": 10.0,
             "pbr": 0.65,
             "psr": 1.19,
-            "market_cap_oku": 3846,
-            "price_yen": 1507,
+            "market_cap_oku": 3841,
+            "price_yen": 1505,
             "target_price_yen": 2005,
-            "target_upside_pct": 33.0,
+            "target_upside_pct": 33.2,
             "revenue_growth_pct": -21.4,
             "earnings_growth_pct": -79.4,
             "profit_margin_pct": 12.69,
@@ -1177,113 +1178,10 @@
         "code": "5019",
         "name": "出光興産",
         "mark": "新買",
-        "close": 1281,
-        "rsi": 23.29,
+        "close": 1274,
+        "rsi": 20.97,
         "rci": -96.67,
         "rci_turn": true,
-        "quality": {
-          "code": "5019",
-          "stars": 3,
-          "background": "直近の株価軟調について、業績を毀損する固有の悪材料は出ておらず、原油価格・為替の変動や次回決算発表を控えた持ち高調整などが主因と見られます。ただし、特定の下落要因（地合い連れ安や公募増資、明確な一過性事象）を一つに断定できる段階にはないため中立と評価します。",
-          "risk_factors": [
-            "直近（11月11日）に控える四半期決算発表での通期進捗の遅れや下方修正リスク",
-            "原油価格急落に伴う在庫評価損の発生およびマージン悪化",
-            "為替変動や脱炭素化に伴う国内石油製品の構造的需要減少"
-          ],
-          "confidence": "medium",
-          "sources": [
-            "https://news.google.com/rss/articles/CBMihwFBVV95cUxORm0xYXFUSmRIWFN6X3FCWDM2QVFvR0hPZk0xM1p6aXVpZjZReFhlWnQwWkhXVUlFd1pPb0l1SnJ4VzlxMUFQUXAxQ0VCaC16elZpeWNTTXFyZ0hCcjB6WVgwRFhWX2E0MjZKOEtCMFQtc0dFaTItcGR3ODVJNkRkMEhIV3FIeUE?oc=5",
-            "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0ZlFBd0lUYmE0b3ZXUERsa3VWbDJycGt1cl9rVmZONkJfVmhaQmtZeHdoeHZtTFJMVjhCYnZ4MEVET2h5bXBaS096cW1PaGJxXzV6Yg?oc=5"
-          ],
-          "material_analysis": "米Voya Energyへの出資による次世代分散型電源の商用化模索など中長期の成長投資が公表されていますが、短期の業績に直結する材料ではなく、市場の反応は限定的です。",
-          "fundamental_summary": "実績ROEは22.52%と高水準を維持しており、今期予想PERは9.7倍、PBRは0.93倍と解散価値を下回る割安なバリュエーション水準にあります。配当利回りは約2.93%、配当性向は12.09%と株主還元余力は十分に存在します。一方で、石油元売事業は原油価格の推移に伴う在庫評価損益の影響を大きく受ける体質にあります。直近の2026年11月11日発表予定の第2四半期決算において、在庫影響を除いた実力値ベースの進捗が確認されるかが注目点です。",
-          "technical_view": "終値1,281円は直近の心理的節目である1,300円を割り込んだ位置にあり、過去の保ち合い下限近辺での下値支持線形成が意識されます。上値は直近戻り高値や移動平均線が集中する1,350円前後が当面の抵抗帯となります。",
-          "watch_points": [
-            "2026年11月11日の決算発表における在庫影響を除いた営業利益の実力進捗",
-            "自社株買いなど追加的な株主還元策の有無および資本効率改善の取り組み"
-          ],
-          "valuation_view": "cheap",
-          "dividend": {
-            "annual_yen": 36,
-            "yield_pct": 2.93,
-            "ex_date": "2027-03-30",
-            "payout_ratio_pct": 12.09
-          },
-          "earnings": {
-            "announcement_date": "2026-11-11",
-            "fiscal_year_end": "2027-03-31",
-            "fiscal_month": 3
-          },
-          "valuation": {
-            "sector": "Energy",
-            "industry": "Oil & Gas Refining & Marketing",
-            "per": 4.0,
-            "forward_per": 9.7,
-            "pbr": 0.93,
-            "psr": 0.18,
-            "market_cap_oku": 15318,
-            "price_yen": 1278,
-            "target_price_yen": 1609,
-            "target_upside_pct": 25.9,
-            "revenue_growth_pct": 23.3,
-            "earnings_growth_pct": 40.96,
-            "profit_margin_pct": 4.24,
-            "roe_pct": 22.52,
-            "debt_to_equity": 136.9
-          },
-          "shareholder_benefit": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-          "shareholder_benefit_detail": {
-            "source": "minkabu",
-            "kind": "音楽会招待、キッザニア入場券（抽選）",
-            "month": "3",
-            "yield_pct": "---、配当利回りは2.82",
-            "min_shares": 100,
-            "programs": [
-              {
-                "title": "「題名のない音 楽会」収録招待（抽選）",
-                "tiers": [
-                  {
-                    "shares": "500株以上",
-                    "content": "・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "title": "「キッザニア」入場券（抽選）",
-                "tiers": [
-                  {
-                    "shares": "500株以上",
-                    "content": "「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "title": "招待券",
-                "tiers": [
-                  {
-                    "shares": "1株以上",
-                    "content": "「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。",
-                    "note": ""
-                  }
-                ]
-              },
-              {
-                "title": "施設見学会（抽選）",
-                "tiers": [
-                  {
-                    "shares": "100株以上",
-                    "content": "◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。",
-                    "note": ""
-                  }
-                ]
-              }
-            ],
-            "summary": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-            "text": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月\n【「題名のない音 楽会」収録招待（抽選）】\n・500株以上: ・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）\n【「キッザニア」入場券（抽選）】\n・500株以上: 「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）\n【招待券】\n・1株以上: 「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。\n【施設見学会（抽選）】\n・100株以上: ◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。"
-          }
-        },
         "rsi_ok": false,
         "rci_ok": true
       },
@@ -1291,8 +1189,8 @@
         "code": "5020",
         "name": "ＥＮＥＯＳホールディングス",
         "mark": "新買",
-        "close": 1233,
-        "rsi": 29.76,
+        "close": 1230,
+        "rsi": 28.81,
         "rci": -96.67,
         "rci_turn": true,
         "rsi_ok": false,
@@ -1302,9 +1200,9 @@
         "code": "7148",
         "name": "ＦＰＧ",
         "mark": "新買",
-        "close": 1403,
-        "rsi": 31.13,
-        "rci": -73.33,
+        "close": 1401,
+        "rsi": 29.99,
+        "rci": -76.67,
         "rci_turn": true,
         "rsi_ok": false,
         "rci_ok": true
@@ -1313,8 +1211,8 @@
         "code": "7744",
         "name": "ノーリツ鋼機",
         "mark": "新買",
-        "close": 1980,
-        "rsi": 41.68,
+        "close": 1977,
+        "rsi": 40.98,
         "rci": -88.33,
         "rci_turn": true,
         "rsi_ok": false,
@@ -1324,8 +1222,8 @@
         "code": "8133",
         "name": "伊藤忠エネクス",
         "mark": "新買",
-        "close": 1983,
-        "rsi": 11.8,
+        "close": 1985,
+        "rsi": 12.82,
         "rci": -98.33,
         "rci_turn": true,
         "rsi_ok": false,
@@ -1335,8 +1233,8 @@
         "code": "9715",
         "name": "トランスコスモス",
         "mark": "新買",
-        "close": 3425,
-        "rsi": 39.95,
+        "close": 3415,
+        "rsi": 38.52,
         "rci": -75.0,
         "rci_turn": true,
         "rsi_ok": false,
@@ -1345,7 +1243,7 @@
     ],
     "sellback": [],
     "new_buy_count": 7,
-    "rsi_oversold_count": 0,
+    "rsi_oversold_count": 1,
     "recommended": []
   },
   "daily": {
@@ -1360,29 +1258,30 @@
             "code": "1662",
             "name": "石油資源開発",
             "mark": "新買",
-            "close": 1508,
+            "close": 1505,
             "quality": {
               "code": "1662",
               "stars": 4,
-              "background": "地合い（セクター連れ安）による下落。中東情勢の過度な緊迫化に対する警戒感が和らいだことでWTI原油先物相場が反落し、同社を含む石油・資源セクター全体に利益確定売りが波及したことが直近の下落要因となっている。企業固有の突発的な悪材料や通期下方修正が出たわけではなく、マクロのコモディティ市況変動に伴うセクター連れ安の範囲内である。",
+              "background": "地合いによる下落です。中東情勢の緊張緩和期待からWTI原油先物相場が下落に転じたことで、石油資源開発やINPEXなど石油・資源開発セクター全体に利益確定や持ち高調整の売りが波及しました。個別企業としての業績悪化開示や下方修正が出たわけではなく、資源市況の反落に連動したセクター全体の連れ安が主因です。",
               "risk_factors": [
-                "2026年11月12日に控える決算発表における業績進捗や通期想定油価の見直しリスク",
-                "地政学リスク後退や世界的な景気減速懸念に伴うWTI原油先物価格の継続的な軟調",
-                "想定以上の円高進行に伴う外貨建て売上・権益価値の換算目減り"
+                "2026年11月12日に控える決算発表における業績進捗の遅れや下方修正リスク",
+                "中東情勢の緊張緩和や世界需要鈍化に伴う原油・天然ガス先物価格の一段の下落",
+                "急激な為替の円高進行による海外販売および権益評価額へのマイナス影響"
               ],
               "confidence": "high",
               "sources": [
                 "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MMXA2dGdOS0NHVE01WC1HWUZDZ3BZYWFraktjV21fZlZ6S3JfelhxR0VXTjV2ZGRwNllrWmVLMVNfeTl2bXZjUnZrcWJjRmRCMThMbU1menlNSDR5RWZaTA?oc=5",
+                "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CX2M1TXFQZXhVTGk1NkREZFZXcTl0dzVqYXlKQWZXNzlTRGYydWphSnZMeExwT0JnRUlJbzFsUGpLZ1FOMWpQUk9hTjNVb001cTJYckZUZTVmN0ktVmdXbQ?oc=5",
                 "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYbzZZZzR3Wkl3a0ZXb3FIb1dqUktoYjV5QlM1NTdDRWdabXlPRzdhR0ExUjBybmpEN0hqOU53VWxYdDhnbWc0LXdaTUpENFlnNXNBV2FXazdTX3Jlb0w2cEdfX0ZLVWdweUQzTXRBb2hTV3NLR19PbTRpZ1FYUQ?oc=5"
               ],
               "drop_pattern": "market",
               "drop_strength": "strong",
-              "material_analysis": "中東の緊張緩和観測に伴う原油先物相場の下落が石油関連株の重荷となった一方、国内油田の再評価や再生可能エネルギーへの多角化など企業価値を支える長期的報道が続いている。",
-              "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準で推移しており、予想PER10.0倍、配当利回り3.08%とバリュエーション面での割安感が際立っている。資源バブルの一巡により前年同期比の売上・利益成長率は大幅マイナスとなっているものの、営業利益率12.69%と収益性は一定水準を維持しており財務基盤は健全である。配当性向は約40.6%と株主還元にも配慮されており、低PBR改善に向けた資本効率向上への期待も残る。なお、2026年11月12日に第2四半期決算発表を控えており、前提油価や為替水準を踏まえた通期進捗に注目が集まる。",
-              "technical_view": "株価は節目の1,500円近辺まで調整して下値を模索しており、下値支持帯として機能するかどうかの攻防を迎えている。戻り局面では直近の揉み合い水準である1,580円から1,600円近辺が主要な上値抵抗線として意識されやすい。",
+              "material_analysis": "中東の地政学リスク後退に伴う原油先物価格の反落が直近の下落要因となっています。一方で秋田の油田開発や再生可能エネルギー事業への取り組みなど事業基盤の強化に関する報道が続いており、企業価値を損なう個別悪材料は確認されていません。",
+              "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準にとどまり、予想PERも10.0倍前後とバリュエーション面での割安感が顕著です。配当利回りは約3.08%（年間45円配当）、配当性向も約40.6%と株主還元は堅実な水準を維持しています。ただし売上高・利益ともに市況の反落を受けて直近は大幅な前年同期比減益となっており、業績のコモディティ価格依存度が高い点には留意が必要です。約2週間後（2026年11月12日）に次回決算発表を控えており、通期業績予想に対する進捗と原油・為替前提の動向が焦点となります。",
+              "technical_view": "節目となる1,500円前後の心理的節目および直近の押し目支持線付近に位置しています。上値は直近戻り高値水準である1,550円から1,600円処がレジスタンスとして意識されやすい価格帯です。",
               "watch_points": [
-                "次回11月12日の決算発表における業績進捗状況および配当予想の維持・修正有無",
-                "中東情勢の推移を受けたWTI原油先物相場の方向感と資源株全般の資金流出入"
+                "次回決算発表（2026年11月12日）における通期計画の達成確度と前提油価・為替レートの修正有無",
+                "低PBR（0.65倍）是正に向けた資本効率改善策や追加の自社株買い・増配などの株主還元姿勢"
               ],
               "valuation_view": "cheap",
               "dividend": {
@@ -1420,140 +1319,37 @@
             "code": "5019",
             "name": "出光興産",
             "mark": "新買",
-            "close": 1281,
-            "quality": {
-              "code": "5019",
-              "stars": 3,
-              "background": "直近の株価軟調について、業績を毀損する固有の悪材料は出ておらず、原油価格・為替の変動や次回決算発表を控えた持ち高調整などが主因と見られます。ただし、特定の下落要因（地合い連れ安や公募増資、明確な一過性事象）を一つに断定できる段階にはないため中立と評価します。",
-              "risk_factors": [
-                "直近（11月11日）に控える四半期決算発表での通期進捗の遅れや下方修正リスク",
-                "原油価格急落に伴う在庫評価損の発生およびマージン悪化",
-                "為替変動や脱炭素化に伴う国内石油製品の構造的需要減少"
-              ],
-              "confidence": "medium",
-              "sources": [
-                "https://news.google.com/rss/articles/CBMihwFBVV95cUxORm0xYXFUSmRIWFN6X3FCWDM2QVFvR0hPZk0xM1p6aXVpZjZReFhlWnQwWkhXVUlFd1pPb0l1SnJ4VzlxMUFQUXAxQ0VCaC16elZpeWNTTXFyZ0hCcjB6WVgwRFhWX2E0MjZKOEtCMFQtc0dFaTItcGR3ODVJNkRkMEhIV3FIeUE?oc=5",
-                "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0ZlFBd0lUYmE0b3ZXUERsa3VWbDJycGt1cl9rVmZONkJfVmhaQmtZeHdoeHZtTFJMVjhCYnZ4MEVET2h5bXBaS096cW1PaGJxXzV6Yg?oc=5"
-              ],
-              "material_analysis": "米Voya Energyへの出資による次世代分散型電源の商用化模索など中長期の成長投資が公表されていますが、短期の業績に直結する材料ではなく、市場の反応は限定的です。",
-              "fundamental_summary": "実績ROEは22.52%と高水準を維持しており、今期予想PERは9.7倍、PBRは0.93倍と解散価値を下回る割安なバリュエーション水準にあります。配当利回りは約2.93%、配当性向は12.09%と株主還元余力は十分に存在します。一方で、石油元売事業は原油価格の推移に伴う在庫評価損益の影響を大きく受ける体質にあります。直近の2026年11月11日発表予定の第2四半期決算において、在庫影響を除いた実力値ベースの進捗が確認されるかが注目点です。",
-              "technical_view": "終値1,281円は直近の心理的節目である1,300円を割り込んだ位置にあり、過去の保ち合い下限近辺での下値支持線形成が意識されます。上値は直近戻り高値や移動平均線が集中する1,350円前後が当面の抵抗帯となります。",
-              "watch_points": [
-                "2026年11月11日の決算発表における在庫影響を除いた営業利益の実力進捗",
-                "自社株買いなど追加的な株主還元策の有無および資本効率改善の取り組み"
-              ],
-              "valuation_view": "cheap",
-              "dividend": {
-                "annual_yen": 36,
-                "yield_pct": 2.93,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 12.09
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Energy",
-                "industry": "Oil & Gas Refining & Marketing",
-                "per": 4.0,
-                "forward_per": 9.7,
-                "pbr": 0.93,
-                "psr": 0.18,
-                "market_cap_oku": 15270,
-                "price_yen": 1274,
-                "target_price_yen": 1609,
-                "target_upside_pct": 26.3,
-                "revenue_growth_pct": 23.3,
-                "earnings_growth_pct": 40.96,
-                "profit_margin_pct": 4.24,
-                "roe_pct": 22.52,
-                "debt_to_equity": 136.9
-              },
-              "shareholder_benefit": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "音楽会招待、キッザニア入場券（抽選）",
-                "month": "3",
-                "yield_pct": "---、配当利回りは2.83",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "「題名のない音 楽会」収録招待（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "「キッザニア」入場券（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "招待券",
-                    "tiers": [
-                      {
-                        "shares": "1株以上",
-                        "content": "「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "施設見学会（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-                "text": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月\n【「題名のない音 楽会」収録招待（抽選）】\n・500株以上: ・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）\n【「キッザニア」入場券（抽選）】\n・500株以上: 「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）\n【招待券】\n・1株以上: 「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。\n【施設見学会（抽選）】\n・100株以上: ◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。"
-              }
-            }
+            "close": 1274
           },
           {
             "code": "5020",
             "name": "ＥＮＥＯＳホールディングス",
             "mark": "新買",
-            "close": 1233
+            "close": 1230
           },
           {
             "code": "7148",
             "name": "ＦＰＧ",
             "mark": "新買",
-            "close": 1403
+            "close": 1401
           },
           {
             "code": "7744",
             "name": "ノーリツ鋼機",
             "mark": "新買",
-            "close": 1980
+            "close": 1977
           },
           {
             "code": "8133",
             "name": "伊藤忠エネクス",
             "mark": "新買",
-            "close": 1983
+            "close": 1985
           },
           {
             "code": "9715",
             "name": "トランスコスモス",
             "mark": "新買",
-            "close": 3425
+            "close": 3415
           }
         ],
         "sellback": []
@@ -5758,29 +5554,30 @@
             "code": "1662",
             "name": "石油資源開発",
             "mark": "新買",
-            "close": 1508,
+            "close": 1505,
             "quality": {
               "code": "1662",
               "stars": 4,
-              "background": "地合い（セクター連れ安）による下落。中東情勢の過度な緊迫化に対する警戒感が和らいだことでWTI原油先物相場が反落し、同社を含む石油・資源セクター全体に利益確定売りが波及したことが直近の下落要因となっている。企業固有の突発的な悪材料や通期下方修正が出たわけではなく、マクロのコモディティ市況変動に伴うセクター連れ安の範囲内である。",
+              "background": "地合いによる下落です。中東情勢の緊張緩和期待からWTI原油先物相場が下落に転じたことで、石油資源開発やINPEXなど石油・資源開発セクター全体に利益確定や持ち高調整の売りが波及しました。個別企業としての業績悪化開示や下方修正が出たわけではなく、資源市況の反落に連動したセクター全体の連れ安が主因です。",
               "risk_factors": [
-                "2026年11月12日に控える決算発表における業績進捗や通期想定油価の見直しリスク",
-                "地政学リスク後退や世界的な景気減速懸念に伴うWTI原油先物価格の継続的な軟調",
-                "想定以上の円高進行に伴う外貨建て売上・権益価値の換算目減り"
+                "2026年11月12日に控える決算発表における業績進捗の遅れや下方修正リスク",
+                "中東情勢の緊張緩和や世界需要鈍化に伴う原油・天然ガス先物価格の一段の下落",
+                "急激な為替の円高進行による海外販売および権益評価額へのマイナス影響"
               ],
               "confidence": "high",
               "sources": [
                 "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MMXA2dGdOS0NHVE01WC1HWUZDZ3BZYWFraktjV21fZlZ6S3JfelhxR0VXTjV2ZGRwNllrWmVLMVNfeTl2bXZjUnZrcWJjRmRCMThMbU1menlNSDR5RWZaTA?oc=5",
+                "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CX2M1TXFQZXhVTGk1NkREZFZXcTl0dzVqYXlKQWZXNzlTRGYydWphSnZMeExwT0JnRUlJbzFsUGpLZ1FOMWpQUk9hTjNVb001cTJYckZUZTVmN0ktVmdXbQ?oc=5",
                 "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYbzZZZzR3Wkl3a0ZXb3FIb1dqUktoYjV5QlM1NTdDRWdabXlPRzdhR0ExUjBybmpEN0hqOU53VWxYdDhnbWc0LXdaTUpENFlnNXNBV2FXazdTX3Jlb0w2cEdfX0ZLVWdweUQzTXRBb2hTV3NLR19PbTRpZ1FYUQ?oc=5"
               ],
               "drop_pattern": "market",
               "drop_strength": "strong",
-              "material_analysis": "中東の緊張緩和観測に伴う原油先物相場の下落が石油関連株の重荷となった一方、国内油田の再評価や再生可能エネルギーへの多角化など企業価値を支える長期的報道が続いている。",
-              "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準で推移しており、予想PER10.0倍、配当利回り3.08%とバリュエーション面での割安感が際立っている。資源バブルの一巡により前年同期比の売上・利益成長率は大幅マイナスとなっているものの、営業利益率12.69%と収益性は一定水準を維持しており財務基盤は健全である。配当性向は約40.6%と株主還元にも配慮されており、低PBR改善に向けた資本効率向上への期待も残る。なお、2026年11月12日に第2四半期決算発表を控えており、前提油価や為替水準を踏まえた通期進捗に注目が集まる。",
-              "technical_view": "株価は節目の1,500円近辺まで調整して下値を模索しており、下値支持帯として機能するかどうかの攻防を迎えている。戻り局面では直近の揉み合い水準である1,580円から1,600円近辺が主要な上値抵抗線として意識されやすい。",
+              "material_analysis": "中東の地政学リスク後退に伴う原油先物価格の反落が直近の下落要因となっています。一方で秋田の油田開発や再生可能エネルギー事業への取り組みなど事業基盤の強化に関する報道が続いており、企業価値を損なう個別悪材料は確認されていません。",
+              "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準にとどまり、予想PERも10.0倍前後とバリュエーション面での割安感が顕著です。配当利回りは約3.08%（年間45円配当）、配当性向も約40.6%と株主還元は堅実な水準を維持しています。ただし売上高・利益ともに市況の反落を受けて直近は大幅な前年同期比減益となっており、業績のコモディティ価格依存度が高い点には留意が必要です。約2週間後（2026年11月12日）に次回決算発表を控えており、通期業績予想に対する進捗と原油・為替前提の動向が焦点となります。",
+              "technical_view": "節目となる1,500円前後の心理的節目および直近の押し目支持線付近に位置しています。上値は直近戻り高値水準である1,550円から1,600円処がレジスタンスとして意識されやすい価格帯です。",
               "watch_points": [
-                "次回11月12日の決算発表における業績進捗状況および配当予想の維持・修正有無",
-                "中東情勢の推移を受けたWTI原油先物相場の方向感と資源株全般の資金流出入"
+                "次回決算発表（2026年11月12日）における通期計画の達成確度と前提油価・為替レートの修正有無",
+                "低PBR（0.65倍）是正に向けた資本効率改善策や追加の自社株買い・増配などの株主還元姿勢"
               ],
               "valuation_view": "cheap",
               "dividend": {
@@ -5818,140 +5615,37 @@
             "code": "5019",
             "name": "出光興産",
             "mark": "新買",
-            "close": 1281,
-            "quality": {
-              "code": "5019",
-              "stars": 3,
-              "background": "直近の株価軟調について、業績を毀損する固有の悪材料は出ておらず、原油価格・為替の変動や次回決算発表を控えた持ち高調整などが主因と見られます。ただし、特定の下落要因（地合い連れ安や公募増資、明確な一過性事象）を一つに断定できる段階にはないため中立と評価します。",
-              "risk_factors": [
-                "直近（11月11日）に控える四半期決算発表での通期進捗の遅れや下方修正リスク",
-                "原油価格急落に伴う在庫評価損の発生およびマージン悪化",
-                "為替変動や脱炭素化に伴う国内石油製品の構造的需要減少"
-              ],
-              "confidence": "medium",
-              "sources": [
-                "https://news.google.com/rss/articles/CBMihwFBVV95cUxORm0xYXFUSmRIWFN6X3FCWDM2QVFvR0hPZk0xM1p6aXVpZjZReFhlWnQwWkhXVUlFd1pPb0l1SnJ4VzlxMUFQUXAxQ0VCaC16elZpeWNTTXFyZ0hCcjB6WVgwRFhWX2E0MjZKOEtCMFQtc0dFaTItcGR3ODVJNkRkMEhIV3FIeUE?oc=5",
-                "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0ZlFBd0lUYmE0b3ZXUERsa3VWbDJycGt1cl9rVmZONkJfVmhaQmtZeHdoeHZtTFJMVjhCYnZ4MEVET2h5bXBaS096cW1PaGJxXzV6Yg?oc=5"
-              ],
-              "material_analysis": "米Voya Energyへの出資による次世代分散型電源の商用化模索など中長期の成長投資が公表されていますが、短期の業績に直結する材料ではなく、市場の反応は限定的です。",
-              "fundamental_summary": "実績ROEは22.52%と高水準を維持しており、今期予想PERは9.7倍、PBRは0.93倍と解散価値を下回る割安なバリュエーション水準にあります。配当利回りは約2.93%、配当性向は12.09%と株主還元余力は十分に存在します。一方で、石油元売事業は原油価格の推移に伴う在庫評価損益の影響を大きく受ける体質にあります。直近の2026年11月11日発表予定の第2四半期決算において、在庫影響を除いた実力値ベースの進捗が確認されるかが注目点です。",
-              "technical_view": "終値1,281円は直近の心理的節目である1,300円を割り込んだ位置にあり、過去の保ち合い下限近辺での下値支持線形成が意識されます。上値は直近戻り高値や移動平均線が集中する1,350円前後が当面の抵抗帯となります。",
-              "watch_points": [
-                "2026年11月11日の決算発表における在庫影響を除いた営業利益の実力進捗",
-                "自社株買いなど追加的な株主還元策の有無および資本効率改善の取り組み"
-              ],
-              "valuation_view": "cheap",
-              "dividend": {
-                "annual_yen": 36,
-                "yield_pct": 2.93,
-                "ex_date": "2027-03-30",
-                "payout_ratio_pct": 12.09
-              },
-              "earnings": {
-                "announcement_date": "2026-11-11",
-                "fiscal_year_end": "2027-03-31",
-                "fiscal_month": 3
-              },
-              "valuation": {
-                "sector": "Energy",
-                "industry": "Oil & Gas Refining & Marketing",
-                "per": 4.0,
-                "forward_per": 9.7,
-                "pbr": 0.93,
-                "psr": 0.18,
-                "market_cap_oku": 15270,
-                "price_yen": 1274,
-                "target_price_yen": 1609,
-                "target_upside_pct": 26.3,
-                "revenue_growth_pct": 23.3,
-                "earnings_growth_pct": 40.96,
-                "profit_margin_pct": 4.24,
-                "roe_pct": 22.52,
-                "debt_to_equity": 136.9
-              },
-              "shareholder_benefit": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-              "shareholder_benefit_detail": {
-                "source": "minkabu",
-                "kind": "音楽会招待、キッザニア入場券（抽選）",
-                "month": "3",
-                "yield_pct": "---、配当利回りは2.83",
-                "min_shares": 100,
-                "programs": [
-                  {
-                    "title": "「題名のない音 楽会」収録招待（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "「キッザニア」入場券（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "500株以上",
-                        "content": "「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "招待券",
-                    "tiers": [
-                      {
-                        "shares": "1株以上",
-                        "content": "「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。",
-                        "note": ""
-                      }
-                    ]
-                  },
-                  {
-                    "title": "施設見学会（抽選）",
-                    "tiers": [
-                      {
-                        "shares": "100株以上",
-                        "content": "◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。",
-                        "note": ""
-                      }
-                    ]
-                  }
-                ],
-                "summary": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月。",
-                "text": "音楽会招待、キッザニア入場券（抽選）。100株以上。権利確定3月\n【「題名のない音 楽会」収録招待（抽選）】\n・500株以上: ・株主１名につき２名様分まで応募可 （公開収録ごとに案内予定）\n【「キッザニア」入場券（抽選）】\n・500株以上: 「キッザニア東京・甲子園・福岡」入場券を抽選で 300名に贈呈。 （各会場 100名様・１セット４枚のチケットを贈呈（大人１枚・大人こども共通利用券３枚）\n【招待券】\n・1株以上: 「Idemitsu Art Award展」招待券 ※12月上旬に株主様専用Webサイト「いでみつコネクト」にて招待券を配信予定。\n【施設見学会（抽選）】\n・100株以上: ◇出光興産関連施設/事業所等見学会へ招待（抽選） ・出光興産社史や創業者について紹介する史料室・ギャラリー等のほか、全国の製油所・事業所等の見学会へご招待。 ※年間複数施設・事業所でご案内予定。"
-              }
-            }
+            "close": 1274
           },
           {
             "code": "5020",
             "name": "ＥＮＥＯＳホールディングス",
             "mark": "新買",
-            "close": 1233
+            "close": 1230
           },
           {
             "code": "7148",
             "name": "ＦＰＧ",
             "mark": "新買",
-            "close": 1403
+            "close": 1401
           },
           {
             "code": "7744",
             "name": "ノーリツ鋼機",
             "mark": "新買",
-            "close": 1980
+            "close": 1977
           },
           {
             "code": "8133",
             "name": "伊藤忠エネクス",
             "mark": "新買",
-            "close": 1983
+            "close": 1985
           },
           {
             "code": "9715",
             "name": "トランスコスモス",
             "mark": "新買",
-            "close": 3425
+            "close": 3415
           }
         ],
         "sellback": []
@@ -9604,9 +9298,9 @@
     "min_new_buy_count": 8,
     "market_regime_min_pct": -15.0,
     "market_regime_lookback_days": 20,
-    "market_return_20d": -6.84,
+    "market_return_20d": -6.71,
     "new_buy_count": 7,
-    "rsi_oversold_count": 0,
+    "rsi_oversold_count": 1,
     "exit_rsi": 70.0,
     "etf_rsi": {
       "1321": 5.54,
@@ -9619,25 +9313,26 @@
     "1662": {
       "code": "1662",
       "stars": 4,
-      "background": "地合い（セクター連れ安）による下落。中東情勢の過度な緊迫化に対する警戒感が和らいだことでWTI原油先物相場が反落し、同社を含む石油・資源セクター全体に利益確定売りが波及したことが直近の下落要因となっている。企業固有の突発的な悪材料や通期下方修正が出たわけではなく、マクロのコモディティ市況変動に伴うセクター連れ安の範囲内である。",
+      "background": "地合いによる下落です。中東情勢の緊張緩和期待からWTI原油先物相場が下落に転じたことで、石油資源開発やINPEXなど石油・資源開発セクター全体に利益確定や持ち高調整の売りが波及しました。個別企業としての業績悪化開示や下方修正が出たわけではなく、資源市況の反落に連動したセクター全体の連れ安が主因です。",
       "risk_factors": [
-        "2026年11月12日に控える決算発表における業績進捗や通期想定油価の見直しリスク",
-        "地政学リスク後退や世界的な景気減速懸念に伴うWTI原油先物価格の継続的な軟調",
-        "想定以上の円高進行に伴う外貨建て売上・権益価値の換算目減り"
+        "2026年11月12日に控える決算発表における業績進捗の遅れや下方修正リスク",
+        "中東情勢の緊張緩和や世界需要鈍化に伴う原油・天然ガス先物価格の一段の下落",
+        "急激な為替の円高進行による海外販売および権益評価額へのマイナス影響"
       ],
       "confidence": "high",
       "sources": [
         "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9MMXA2dGdOS0NHVE01WC1HWUZDZ3BZYWFraktjV21fZlZ6S3JfelhxR0VXTjV2ZGRwNllrWmVLMVNfeTl2bXZjUnZrcWJjRmRCMThMbU1menlNSDR5RWZaTA?oc=5",
+        "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CX2M1TXFQZXhVTGk1NkREZFZXcTl0dzVqYXlKQWZXNzlTRGYydWphSnZMeExwT0JnRUlJbzFsUGpLZ1FOMWpQUk9hTjNVb001cTJYckZUZTVmN0ktVmdXbQ?oc=5",
         "https://news.google.com/rss/articles/CBMifkFVX3lxTFBYbzZZZzR3Wkl3a0ZXb3FIb1dqUktoYjV5QlM1NTdDRWdabXlPRzdhR0ExUjBybmpEN0hqOU53VWxYdDhnbWc0LXdaTUpENFlnNXNBV2FXazdTX3Jlb0w2cEdfX0ZLVWdweUQzTXRBb2hTV3NLR19PbTRpZ1FYUQ?oc=5"
       ],
       "drop_pattern": "market",
       "drop_strength": "strong",
-      "material_analysis": "中東の緊張緩和観測に伴う原油先物相場の下落が石油関連株の重荷となった一方、国内油田の再評価や再生可能エネルギーへの多角化など企業価値を支える長期的報道が続いている。",
-      "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準で推移しており、予想PER10.0倍、配当利回り3.08%とバリュエーション面での割安感が際立っている。資源バブルの一巡により前年同期比の売上・利益成長率は大幅マイナスとなっているものの、営業利益率12.69%と収益性は一定水準を維持しており財務基盤は健全である。配当性向は約40.6%と株主還元にも配慮されており、低PBR改善に向けた資本効率向上への期待も残る。なお、2026年11月12日に第2四半期決算発表を控えており、前提油価や為替水準を踏まえた通期進捗に注目が集まる。",
-      "technical_view": "株価は節目の1,500円近辺まで調整して下値を模索しており、下値支持帯として機能するかどうかの攻防を迎えている。戻り局面では直近の揉み合い水準である1,580円から1,600円近辺が主要な上値抵抗線として意識されやすい。",
+      "material_analysis": "中東の地政学リスク後退に伴う原油先物価格の反落が直近の下落要因となっています。一方で秋田の油田開発や再生可能エネルギー事業への取り組みなど事業基盤の強化に関する報道が続いており、企業価値を損なう個別悪材料は確認されていません。",
+      "fundamental_summary": "PBRは0.65倍と解散価値を大幅に下回る水準にとどまり、予想PERも10.0倍前後とバリュエーション面での割安感が顕著です。配当利回りは約3.08%（年間45円配当）、配当性向も約40.6%と株主還元は堅実な水準を維持しています。ただし売上高・利益ともに市況の反落を受けて直近は大幅な前年同期比減益となっており、業績のコモディティ価格依存度が高い点には留意が必要です。約2週間後（2026年11月12日）に次回決算発表を控えており、通期業績予想に対する進捗と原油・為替前提の動向が焦点となります。",
+      "technical_view": "節目となる1,500円前後の心理的節目および直近の押し目支持線付近に位置しています。上値は直近戻り高値水準である1,550円から1,600円処がレジスタンスとして意識されやすい価格帯です。",
       "watch_points": [
-        "次回11月12日の決算発表における業績進捗状況および配当予想の維持・修正有無",
-        "中東情勢の推移を受けたWTI原油先物相場の方向感と資源株全般の資金流出入"
+        "次回決算発表（2026年11月12日）における通期計画の達成確度と前提油価・為替レートの修正有無",
+        "低PBR（0.65倍）是正に向けた資本効率改善策や追加の自社株買い・増配などの株主還元姿勢"
       ],
       "valuation_view": "cheap",
       "dividend": {
@@ -9658,10 +9353,10 @@
         "forward_per": 10.0,
         "pbr": 0.65,
         "psr": 1.19,
-        "market_cap_oku": 3846,
-        "price_yen": 1507,
+        "market_cap_oku": 3841,
+        "price_yen": 1505,
         "target_price_yen": 2005,
-        "target_upside_pct": 33.0,
+        "target_upside_pct": 33.2,
         "revenue_growth_pct": -21.4,
         "earnings_growth_pct": -79.4,
         "profit_margin_pct": 12.69,
@@ -9672,26 +9367,18 @@
     },
     "5019": {
       "code": "5019",
-      "stars": 3,
-      "background": "直近の株価軟調について、業績を毀損する固有の悪材料は出ておらず、原油価格・為替の変動や次回決算発表を控えた持ち高調整などが主因と見られます。ただし、特定の下落要因（地合い連れ安や公募増資、明確な一過性事象）を一つに断定できる段階にはないため中立と評価します。",
+      "stars": null,
+      "background": "AI評価不可: 混雑または一時障害。次回再試行します",
       "risk_factors": [
-        "直近（11月11日）に控える四半期決算発表での通期進捗の遅れや下方修正リスク",
-        "原油価格急落に伴う在庫評価損の発生およびマージン悪化",
-        "為替変動や脱炭素化に伴う国内石油製品の構造的需要減少"
+        "評価失敗"
       ],
-      "confidence": "medium",
+      "confidence": "low",
       "sources": [
-        "https://news.google.com/rss/articles/CBMihwFBVV95cUxORm0xYXFUSmRIWFN6X3FCWDM2QVFvR0hPZk0xM1p6aXVpZjZReFhlWnQwWkhXVUlFd1pPb0l1SnJ4VzlxMUFQUXAxQ0VCaC16elZpeWNTTXFyZ0hCcjB6WVgwRFhWX2E0MjZKOEtCMFQtc0dFaTItcGR3ODVJNkRkMEhIV3FIeUE?oc=5",
-        "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB0ZlFBd0lUYmE0b3ZXUERsa3VWbDJycGt1cl9rVmZONkJfVmhaQmtZeHdoeHZtTFJMVjhCYnZ4MEVET2h5bXBaS096cW1PaGJxXzV6Yg?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYVNVVE5CQXFUa2FSTUpiZzlzZ19WSE1kT1VIZFBIZm11MUZaaWp5cjBDaXpaeGo5NGd0N3R0SDZWWF9ValFEMXh4cTdtTlhUalpWS1FCazh5cFBSYVlJMEZiRG5jb1Z0RnQzUzhiWkVYbGtHb1pMd3AtR0NCaGpTS2o5aVk0TFU?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EdjNIdE16Z1VRaXNrMG1ubVNfWlZFODRkai13RVptdW9LQnZhTUtJdzNFMU1OZTBWVE5kM1lhMURfSEN4Q3haMzI5Tmx0RUg5cU1BYzlIekhzZG41Q0s4?oc=5",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtWjd0N3ozTUVnbkl0VkxmYWd3eXlIQ09LdmpCM0tCWFEtZm9IdTFaWElaVTVCVFp6NUw1eWdldWVZR2VqYjJkaHhVSW9GSmRxTVdSQmR1aWlRVUJFMnVF?oc=5"
       ],
-      "material_analysis": "米Voya Energyへの出資による次世代分散型電源の商用化模索など中長期の成長投資が公表されていますが、短期の業績に直結する材料ではなく、市場の反応は限定的です。",
-      "fundamental_summary": "実績ROEは22.52%と高水準を維持しており、今期予想PERは9.7倍、PBRは0.93倍と解散価値を下回る割安なバリュエーション水準にあります。配当利回りは約2.93%、配当性向は12.09%と株主還元余力は十分に存在します。一方で、石油元売事業は原油価格の推移に伴う在庫評価損益の影響を大きく受ける体質にあります。直近の2026年11月11日発表予定の第2四半期決算において、在庫影響を除いた実力値ベースの進捗が確認されるかが注目点です。",
-      "technical_view": "終値1,281円は直近の心理的節目である1,300円を割り込んだ位置にあり、過去の保ち合い下限近辺での下値支持線形成が意識されます。上値は直近戻り高値や移動平均線が集中する1,350円前後が当面の抵抗帯となります。",
-      "watch_points": [
-        "2026年11月11日の決算発表における在庫影響を除いた営業利益の実力進捗",
-        "自社株買いなど追加的な株主還元策の有無および資本効率改善の取り組み"
-      ],
-      "valuation_view": "cheap",
+      "valuation_view": "unknown",
       "dividend": {
         "annual_yen": 36,
         "yield_pct": 2.93,
@@ -9710,10 +9397,10 @@
         "forward_per": 9.7,
         "pbr": 0.93,
         "psr": 0.18,
-        "market_cap_oku": 15318,
-        "price_yen": 1278,
+        "market_cap_oku": 15270,
+        "price_yen": 1274,
         "target_price_yen": 1609,
-        "target_upside_pct": 25.9,
+        "target_upside_pct": 26.3,
         "revenue_growth_pct": 23.3,
         "earnings_growth_pct": 40.96,
         "profit_margin_pct": 4.24,
@@ -9725,7 +9412,7 @@
         "source": "minkabu",
         "kind": "音楽会招待、キッザニア入場券（抽選）",
         "month": "3",
-        "yield_pct": "---、配当利回りは2.82",
+        "yield_pct": "---、配当利回りは2.83",
         "min_shares": 100,
         "programs": [
           {
@@ -9912,7 +9599,7 @@
       "sources": [
         "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91bXZNWE90em1nLUVQREh0RDJTNjMzVXRuRFF4cHdFSXh2MmFLOERsM2lOSkNEODBGd05xTnpDcUNnTTlwbllGQ2Q5RjRMdndmRnc?oc=5",
         "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zX3UzQkxYUDdyOFN3dVcwdEc1TVhRVmNVLWZEVzZyUTF5c254MGRDNmZYRGhCZkJpZjZaVVdldEVDXzI2dUdxRnZZdmF6WHB4dWFMOUt0d1Bzdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TX0w5UXFxQlhfVHJqdDhoX0NFdU1rYm5iWVBaaDVQT2JGSW1EQUpBRW1PdkhVQnU2YThzUHRRTGhyVDA2QnRWbkdEUThQQ2xoaGhwekd2Vm1JeG5QOTRJ?oc=5"
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BQ0ZycEItaDkwdERkb0Y3TmtEYTJHUXdObXJlWkVINjBGc3RRVzVoT21yMFRyb1JSckRwYlhpX1ZZRHZJSkhxRDRHSk1UVzQzMi1pNUVWdjAxUlI4WmlB?oc=5"
       ],
       "valuation_view": "unknown",
       "dividend": {
